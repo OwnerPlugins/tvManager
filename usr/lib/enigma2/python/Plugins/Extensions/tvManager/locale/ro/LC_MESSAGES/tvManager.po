@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 01:42+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s carduri )"
+
+msgid "%s Info - Configuration"
+msgstr "Informații %s - Configurare"
+
+msgid "%s Info - Main Menu"
+msgstr "Informații %s - Meniu principal"
+
+msgid "%s restarted successfully!"
+msgstr "%s a repornit cu succes!"
+
+msgid "%s webif disabled"
+msgstr "%s webif dezactivat"
+
+msgid "(All readers)"
+msgstr "(Toți cititorii)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Afișați numai cititorul) (%s)"
+
+msgid "About"
+msgstr "Despre"
+
+msgid "Activate"
+msgstr "Activa"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Activați Inserare linie în fișierul de configurare:"
+
+msgid "Active clients"
+msgstr "Clienți activi"
+
+msgid "Add"
+msgstr "Adăuga"
+
+msgid "Add new CCcam line"
+msgstr "Adăugați o nouă linie CCcam"
+
+msgid "Add new NewCamd line"
+msgstr "Adăugați o nouă linie NewCamd"
+
+msgid "Address"
+msgstr "Adresa"
+
+msgid "All"
+msgstr "Toate"
+
+msgid "An error occurred in the green function."
+msgstr "A apărut o eroare în funcția verde."
+
+msgid "An unexpected error occurred: %s"
+msgstr "A apărut o eroare neașteptată: %s"
+
+msgid "Ask all caid"
+msgstr "Întrebați toate caid"
+
+msgid "Ask for the selection caid"
+msgstr "Cereți caid de selecție"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Actualizați automat vizualizarea client/server?"
+
+msgid "Available shares:"
+msgstr "Acțiuni disponibile:"
+
+msgid "Back"
+msgstr "Spate"
+
+msgid "Backup failed!"
+msgstr "Backup nu a reușit!"
+
+msgid "Backup restoration failed!"
+msgstr "Restaurarea copiei de rezervă a eșuat!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Setări CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "pornire automată CCPrioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Informații despre clienții CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "Comutator CCcam Config"
+
+msgid "CCcam ECM Info"
+msgstr ""
+
+msgid "CCcam Info"
+msgstr ""
+
+msgid "CCcam Info %s"
+msgstr "Informații CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr "Meniul de configurare CCcam Info"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Acțiuni de editare a liniilor CCcam"
+
+msgid "CCcam Line Editor"
+msgstr ""
+
+msgid "CCcam Organizer"
+msgstr "CCcam Organizator"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Informații despre furnizorul CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Informații despre telecomandă CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Informații despre serverul CCcam"
+
+msgid "CCcam Share Info"
+msgstr ""
+
+msgid "CCcam Shares Info"
+msgstr "CCcam distribuie informații"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Editor de linie de bază"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo nu este disponibilă"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Cam Descărcare"
+
+msgid "Cancel"
+msgstr "Anula"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Informații card (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Carduri:"
+
+msgid "Cards: 0"
+msgstr "Cărți: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Canal"
+
+msgid "Channel Name"
+msgstr "Numele canalului"
+
+msgid "Check Emm Send"
+msgstr "Verificați Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Alegeți CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Alegeți cititorul"
+
+msgid "Cleanup error: %s"
+msgstr "Eroare de curățare: %s"
+
+msgid "Client %s-%s"
+msgstr ""
+
+msgid "Clients"
+msgstr "Clienții"
+
+msgid "Close"
+msgstr "Aproape"
+
+msgid "Command Cancelled"
+msgstr "Comanda a fost anulată"
+
+msgid "Configfile %s saved."
+msgstr "Fișierul de configurare %s a fost salvat."
+
+msgid "Connected clients"
+msgstr "Clienți conectați"
+
+msgid "Connected:"
+msgstr "Conectat:"
+
+msgid "Content"
+msgstr "Conţinut"
+
+msgid "Could not open the file %s!"
+msgstr "Nu s-a putut deschide fișierul %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Nu s-a putut deschide fișierul %s! Eroare: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Nu s-a putut salva fișierul de configurare %s! Eroare: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Nu s-a putut salva fișierul de configurare! Eroare: %s"
+
+msgid "Current time"
+msgstr "Ora curentă"
+
+msgid "Delete"
+msgstr "Şterge"
+
+msgid "Delete %s?"
+msgstr "Ștergeți %s?"
+
+msgid "Delete Peer"
+msgstr "Ștergeți Peer"
+
+msgid "Delete failed!"
+msgstr "Ștergerea nu a reușit!"
+
+msgid "Deleted %s!"
+msgstr "S-a șters %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Instalezi acest plugin?"
+
+msgid "Do you want to execute the command?"
+msgstr "Doriți să executați comanda?"
+
+msgid "Do you want to remove?"
+msgstr "Doriți să eliminați?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Doriți să reporniți Interfața Gui?"
+
+msgid "ECM data format error"
+msgstr "Eroare de format de date ECM"
+
+msgid "ECM error"
+msgstr "Eroare ECM"
+
+msgid "ECM file empty"
+msgstr "Fișierul ECM este gol"
+
+msgid "ECM file not found"
+msgstr "Fișierul ECM nu a fost găsit"
+
+msgid "ECM read error"
+msgstr "Eroare de citire ECM"
+
+msgid "Ecm Info"
+msgstr ""
+
+msgid "Ecm Statistics"
+msgstr "Statistici ECM"
+
+msgid "Ecm Time"
+msgstr ""
+
+msgid "Ecm avg"
+msgstr "Ecm medie"
+
+msgid "Ecm last"
+msgstr "Ecm ultimul"
+
+msgid "Edit"
+msgstr "Edita"
+
+msgid "Editing one caid"
+msgstr "Editarea unui caid"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Drepturi"
+
+msgid "Error"
+msgstr "Eroare"
+
+msgid "Error executing update script: %s"
+msgstr "Eroare la executarea scriptului de actualizare: %s"
+
+msgid "Error getting resource information"
+msgstr "Eroare la obținerea informațiilor despre resurse"
+
+msgid "Error loading system info:"
+msgstr "Eroare la încărcarea informațiilor despre sistem:"
+
+msgid "Error loading system information:"
+msgstr "Eroare la încărcarea informațiilor despre sistem:"
+
+msgid "Error opening cam info: %s"
+msgstr "Eroare la deschiderea informațiilor despre cameră: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Eroare la deschiderea fișierului de configurare: %s"
+
+msgid "Error processing HTML!"
+msgstr "Eroare la procesarea HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Eroare la procesarea datelor suplimentelor de server"
+
+msgid "Error reading webpage!"
+msgstr "Eroare la citirea paginii web!"
+
+msgid "Error stopping %s!"
+msgstr "Eroare la oprirea %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Eroare la editarea configurației: %s"
+
+msgid "Exit"
+msgstr "Ieșire"
+
+msgid "Extended Shares"
+msgstr "Acțiuni extinse"
+
+msgid "Failed to revert file: %s"
+msgstr "Fișierul nu a fost restabilit: %s"
+
+msgid "Find Fakes"
+msgstr "Găsiți falsuri"
+
+msgid "Force Update"
+msgstr "Actualizare forțată"
+
+msgid "Free memory"
+msgstr "Memoria liberă"
+
+msgid "Free memory:"
+msgstr "Memoria liberă:"
+
+msgid "Free:"
+msgstr "Gratuit:"
+
+msgid "General"
+msgstr ""
+
+msgid "Get Link"
+msgstr "Obțineți Link"
+
+msgid "Getting the list, please wait ..."
+msgstr "Primind lista, așteptați..."
+
+msgid "Help"
+msgstr "Ajutor"
+
+msgid "Hops"
+msgstr "Hamei"
+
+msgid "Hops:"
+msgstr "Hamei:"
+
+msgid "Hostname:"
+msgstr "Nume gazdă:"
+
+msgid "IP Address"
+msgstr "Adresa IP"
+
+msgid "IP address"
+msgstr "adresa IP"
+
+msgid "Idle Time:"
+msgstr "Timp inactiv:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Dacă este activ: Descărcați/Resetați configurația serverului"
+
+msgid "Install Cam first!!!"
+msgstr "Mai întâi instalează Cam!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Instalați actualizarea pentru dezvoltatori (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Conținut HTML nevalid!"
+
+msgid "Invalid URL!"
+msgstr "Adresă URL nevalidă!"
+
+msgid "Last Req."
+msgstr "Ultima cerere"
+
+msgid "Last used share:"
+msgstr "Ultima cotă folosită:"
+
+msgid "Load"
+msgstr "Încărca"
+
+msgid "Local box"
+msgstr "Caseta locală"
+
+msgid "Location"
+msgstr "Locaţie"
+
+msgid "Log"
+msgstr "Jurnal"
+
+msgid "Log %s-%s"
+msgstr "Înregistrează %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENIU EMM / SERVER CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Configurare meniu"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo nu este disponibil"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam nu rulează - porniți Cam pentru a obține informații."
+
+msgid "New"
+msgstr "Nou"
+
+msgid "New profile:"
+msgstr "Profil nou:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Nu există date ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Fără date ECM - Timeout"
+
+msgid "No ECM file"
+msgstr "Niciun fișier ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "În prezent, nu sunt disponibile informații ECM. Acesta este disponibil numai în timpul decriptării."
+
+msgid "No active cam to restart!"
+msgstr "Nicio cameră activă de repornit!"
+
+msgid "No backups available!"
+msgstr "Nu există copii de rezervă disponibile!"
+
+msgid "No card inserted!"
+msgstr "Niciun card introdus!"
+
+msgid "No softcams available!"
+msgstr "Nu sunt disponibile camere soft!"
+
+msgid "No valid backups found!"
+msgstr "Nu s-au găsit copii de rezervă valide!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "Bine"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Actualizarea OSCam a expirat. Verificați /tmp/oscam_update.log pentru detalii."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo nu este disponibil"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam nu rulează - porniți Cam pentru a obține informații."
+
+msgid "PRESS RETURN"
+msgstr "APĂSAȚI RETURN"
+
+msgid "Password"
+msgstr "Parolă"
+
+msgid "Password (httpwd)"
+msgstr "Parolă (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Sarcină maximă (maximum de solicitări puse în coadă pe workerthread)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Vă rugăm să resetați - Fără fișier CFG"
+
+msgid "Please select ..."
+msgstr "Vă rugăm să selectați..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Vă rugăm să selectați o linie de editat sau selectați adăugare pentru a crea o linie nouă."
+
+msgid "Please wait, %s."
+msgstr "Vă rugăm să așteptați, %s."
+
+msgid "Port"
+msgstr ""
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile: Local box"
+msgstr "Profil: caseta locală"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Provider"
+msgstr "Furnizor"
+
+msgid "Provider Name:"
+msgstr "Nume furnizor:"
+
+msgid "Provider:"
+msgstr "Furnizor:"
+
+msgid "Providers"
+msgstr "Furnizorii"
+
+msgid "Providers:"
+msgstr "Furnizori:"
+
+msgid "Quick restart %s?"
+msgstr "Repornire rapidă %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Citiți datele utilizatorului din %s.conf"
+
+msgid "Reader"
+msgstr "Cititor"
+
+msgid "Reader Statistics"
+msgstr "Statistica cititorului"
+
+msgid "Reader/User"
+msgstr "Cititor/Utilizator"
+
+msgid "Recover Peer"
+msgstr "Recuperează Peer"
+
+msgid "Remote box"
+msgstr "Cutie de la distanță"
+
+msgid "Remove"
+msgstr "Elimina"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Eliminați linia din CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Se elimină %s"
+
+msgid "Rename"
+msgstr "Redenumiți"
+
+msgid "Rename failed!"
+msgstr "Redenumirea a eșuat!"
+
+msgid "Rename to:"
+msgstr "Redenumiți în:"
+
+msgid "Renamed %s!"
+msgstr "A fost redenumit %s!"
+
+msgid "Reset"
+msgstr "Resetați"
+
+msgid "Reshare"
+msgstr "Redistribuiți"
+
+msgid "Reshare:"
+msgstr "Distribuie:"
+
+msgid "Resources"
+msgstr "Resurse"
+
+msgid "Restart GUI?"
+msgstr "Reporniți GUI?"
+
+msgid "Restart error: %s"
+msgstr "Eroare de repornire: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Reporniți softcam pentru a aplica configurația restaurată?"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Lista de scanare și recuperare softcam..."
+
+msgid "Select CCcam"
+msgstr "Selectați CCcam"
+
+msgid "Select Get Link"
+msgstr "Selectați Obțineți link"
+
+msgid "Select Ncam"
+msgstr "Selectați Ncam"
+
+msgid "Select OScam"
+msgstr "Selectați OScam"
+
+msgid "Select Your Choice"
+msgstr "Selectați alegerea dvs"
+
+msgid "Select a cam to run ..."
+msgstr "Selectați o cameră pentru a rula..."
+
+msgid "Select and Install"
+msgstr "Selectați și Instalați"
+
+msgid "Select backup to restore:"
+msgstr "Selectați backup pentru a restabili:"
+
+msgid "Server %s-%s"
+msgstr "Serverul %s-%s"
+
+msgid "Server Config"
+msgstr "Configurare server"
+
+msgid "Server Copy in"
+msgstr "Server Copiere în"
+
+msgid "Server Link"
+msgstr "Link server"
+
+msgid "Server Password"
+msgstr "Parola serverului"
+
+msgid "Server Port"
+msgstr "Portul serverului"
+
+msgid "Server URL"
+msgstr "Adresa URL a serverului"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Adresa URL a serverului, adică 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Nume de utilizator server"
+
+msgid "Server:"
+msgstr ""
+
+msgid "Servers"
+msgstr "Servere"
+
+msgid "Servers:"
+msgstr "Servere:"
+
+msgid "Service"
+msgstr "Serviciu"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Setați ca UNIQUE PEER"
+
+msgid "Setup"
+msgstr "Înființat"
+
+msgid "Share View"
+msgstr "Partajați vizualizarea"
+
+msgid "Shares"
+msgstr "Acțiuni"
+
+msgid "Show Clients"
+msgstr "Afișați clienții"
+
+msgid "Show Ecm info"
+msgstr "Afișați informațiile Ecm"
+
+msgid "Show Log"
+msgstr "Afișați jurnalul"
+
+msgid "Show Readers/Proxies"
+msgstr "Afișați cititori/proxy"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam repornit cu o nouă configurație!"
+
+msgid "Start"
+msgstr "Început"
+
+msgid "Status"
+msgstr "Stare"
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop Finding Fakes"
+msgstr "Nu mai găsiți falsuri"
+
+msgid "Switch config"
+msgstr "Comutare configurație"
+
+msgid "System"
+msgstr "Sistem"
+
+msgid "System cleanup completed!"
+msgstr "Curățarea sistemului a fost finalizată!"
+
+msgid "System:"
+msgstr "Sistem:"
+
+msgid "Temporarely DELETED"
+msgstr "ȘTERS temporar"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Acest plugin vă arată starea CCcam-ului dvs"
+
+msgid "Total"
+msgstr ""
+
+msgid "Total cards:"
+msgstr "Total cărți:"
+
+msgid "Total handled client ecm's"
+msgstr "Total gestionat client ECM"
+
+msgid "Total handled client emm's"
+msgstr "Total gestionat client EMM"
+
+msgid "Total:"
+msgstr ""
+
+msgid "Try again later ..."
+msgstr "Încercați din nou mai târziu..."
+
+msgid "Type:"
+msgstr "Tip:"
+
+msgid "UNDELETED"
+msgstr "NEȘTERS"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Nu se poate face scriptul executabil: %s"
+
+msgid "Unknow Image!"
+msgstr "Imagine necunoscută!"
+
+msgid "Update"
+msgstr "Actualizare"
+
+msgid "Update Aborted!"
+msgstr "Actualizare anulată!"
+
+msgid "Update interval (in seconds)"
+msgstr "Interval de actualizare (în secunde)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Timp de funcționare"
+
+msgid "Used:"
+msgstr "Folosit:"
+
+msgid "Username"
+msgstr "Nume de utilizator"
+
+msgid "Username (httpuser)"
+msgstr "Nume de utilizator (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Folosind profil vechi:"
+
+msgid "Version:"
+msgstr "Versiune:"
+
+msgid "Wait please..."
+msgstr "Așteaptă te rog..."
+
+msgid "Write"
+msgstr "Scrie"
+
+msgid "Write-Debug"
+msgstr "Scriere-Depanare"
+
+msgid "You have the latest version!"
+msgstr "Ai cea mai recentă versiune!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tFurnizează:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "un NIMIC.LA.UNDELE"
+
+msgid "address:"
+msgstr "adresa:"
+
+msgid "and"
+msgstr "şi"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr ""
+
+msgid "card reader"
+msgstr "cititor de carduri"
+
+msgid "close share view"
+msgstr "close partajați vizualizarea"
+
+msgid "decrease uphop by 1"
+msgstr "scade uphop cu 1"
+
+msgid "ecm time:"
+msgstr "timp ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "ia serverul de carduri"
+
+msgid "handled"
+msgstr "manipulate"
+
+msgid "hops:"
+msgstr "hamei:"
+
+msgid "increase uphop by 1"
+msgstr "crește uphop cu 1"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "cardul nu a fost introdus sau necunoscut"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "furnizați:"
+
+msgid "provider:"
+msgstr "furnizor:"
+
+msgid "share:"
+msgstr "distribuie:"
+
+msgid "show all cards"
+msgstr "arată toate cărțile"
+
+msgid "show cards with uphop 0"
+msgstr "arată cărțile cu uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "arată cărțile cu uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "arată cărțile cu uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "arată cărțile cu uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "arată cărțile cu uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "arată cărțile cu uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "arată cărțile cu uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "arată cărțile cu uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "arată cărțile cu uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "arată cărțile cu uphop 9"
+
+msgid "system:"
+msgstr "sistem:"
+
+msgid "using:"
+msgstr "folosind:"
+
+msgid "xLine"
+msgstr ""

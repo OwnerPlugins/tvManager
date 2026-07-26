@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 22:28+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s kort )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info - Konfiguration"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Info - Hovedmenu"
+
+msgid "%s restarted successfully!"
+msgstr "%s genstartet med succes!"
+
+msgid "%s webif disabled"
+msgstr "%s webif deaktiveret"
+
+msgid "(All readers)"
+msgstr "(Alle læsere)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Vis kun læser) (%s)"
+
+msgid "About"
+msgstr "Om"
+
+msgid "Activate"
+msgstr "Aktiver"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Aktiver Indsæt linje i Config File:"
+
+msgid "Active clients"
+msgstr "Aktive kunder"
+
+msgid "Add"
+msgstr "Tilføje"
+
+msgid "Add new CCcam line"
+msgstr "Tilføj ny CCcam-linje"
+
+msgid "Add new NewCamd line"
+msgstr "Tilføj ny NewCamd-linje"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "An error occurred in the green function."
+msgstr "Der opstod en fejl i den grønne funktion."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Der opstod en uventet fejl: %s"
+
+msgid "Ask all caid"
+msgstr "Spørg alle caid"
+
+msgid "Ask for the selection caid"
+msgstr "Spørg efter udvælgelsescaid"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Opdaterer du automatisk klient-/servervisning?"
+
+msgid "Available shares:"
+msgstr "Tilgængelige aktier:"
+
+msgid "Back"
+msgstr "Tilbage"
+
+msgid "Backup failed!"
+msgstr "Sikkerhedskopiering mislykkedes!"
+
+msgid "Backup restoration failed!"
+msgstr "Sikkerhedskopieringsgendannelse mislykkedes!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker-indstillinger"
+
+msgid "CCPrioMaker autostart"
+msgstr ""
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr ""
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr ""
+
+msgid "CCcam Info"
+msgstr "CCcam info"
+
+msgid "CCcam Info %s"
+msgstr ""
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr ""
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line Redigeringshandlinger"
+
+msgid "CCcam Line Editor"
+msgstr ""
+
+msgid "CCcam Organizer"
+msgstr "CCcam arrangør"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam udbyder info"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam fjernbetjening info"
+
+msgid "CCcam Server Info"
+msgstr ""
+
+msgid "CCcam Share Info"
+msgstr "CCcam Del info"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam deler info"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr ""
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo er ikke tilgængelig"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Download kamera"
+
+msgid "Cancel"
+msgstr "Ophæve"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kortoplysninger (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kort:"
+
+msgid "Cards: 0"
+msgstr "Kort: 0"
+
+msgid "Cardserial"
+msgstr "Kortserie"
+
+msgid "Channel"
+msgstr "Kanal"
+
+msgid "Channel Name"
+msgstr "Kanalnavn"
+
+msgid "Check Emm Send"
+msgstr "Tjek Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Vælg CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Vælg læser"
+
+msgid "Cleanup error: %s"
+msgstr "Oprydningsfejl: %s"
+
+msgid "Client %s-%s"
+msgstr "Klient %s-%s"
+
+msgid "Clients"
+msgstr "Kunder"
+
+msgid "Close"
+msgstr "Tæt"
+
+msgid "Command Cancelled"
+msgstr "Kommando annulleret"
+
+msgid "Configfile %s saved."
+msgstr "Konfigurationsfilen %s blev gemt."
+
+msgid "Connected clients"
+msgstr "Forbundne klienter"
+
+msgid "Connected:"
+msgstr "Forbundet:"
+
+msgid "Content"
+msgstr "Tilfreds"
+
+msgid "Could not open the file %s!"
+msgstr "Kunne ikke åbne filen %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Kunne ikke åbne filen %s! Fejl: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Kunne ikke gemme konfigurationsfilen %s! Fejl: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Konfigurationsfilen kunne ikke gemmes! Fejl: %s"
+
+msgid "Current time"
+msgstr "Aktuel tid"
+
+msgid "Delete"
+msgstr "Slet"
+
+msgid "Delete %s?"
+msgstr "Vil du slette %s?"
+
+msgid "Delete Peer"
+msgstr "Slet Peer"
+
+msgid "Delete failed!"
+msgstr "Sletning mislykkedes!"
+
+msgid "Deleted %s!"
+msgstr "Slettet %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Installerer du dette plugin?"
+
+msgid "Do you want to execute the command?"
+msgstr "Vil du udføre kommandoen?"
+
+msgid "Do you want to remove?"
+msgstr "Vil du fjerne?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Vil du genstarte Gui Interface?"
+
+msgid "ECM data format error"
+msgstr "ECM-dataformatfejl"
+
+msgid "ECM error"
+msgstr "ECM fejl"
+
+msgid "ECM file empty"
+msgstr "ECM-fil tom"
+
+msgid "ECM file not found"
+msgstr "ECM-fil blev ikke fundet"
+
+msgid "ECM read error"
+msgstr "ECM læse fejl"
+
+msgid "Ecm Info"
+msgstr "Ecm info"
+
+msgid "Ecm Statistics"
+msgstr "Ecm Statistik"
+
+msgid "Ecm Time"
+msgstr "Ecm Tid"
+
+msgid "Ecm avg"
+msgstr "Ecm gns"
+
+msgid "Ecm last"
+msgstr "Ecm sidst"
+
+msgid "Edit"
+msgstr "Redigere"
+
+msgid "Editing one caid"
+msgstr "Redigering af en caid"
+
+msgid "Emm Info"
+msgstr "Øhm info"
+
+msgid "Entitlements"
+msgstr "Rettigheder"
+
+msgid "Error"
+msgstr "Fejl"
+
+msgid "Error executing update script: %s"
+msgstr "Fejl ved udførelse af opdateringsscript: %s"
+
+msgid "Error getting resource information"
+msgstr "Fejl ved hentning af ressourceoplysninger"
+
+msgid "Error loading system info:"
+msgstr "Fejl ved indlæsning af systemoplysninger:"
+
+msgid "Error loading system information:"
+msgstr "Fejl ved indlæsning af systemoplysninger:"
+
+msgid "Error opening cam info: %s"
+msgstr "Fejl ved åbning af cam info: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Fejl ved åbning af konfigurationsfil: %s"
+
+msgid "Error processing HTML!"
+msgstr "Fejl ved behandling af HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Fejl ved behandling af servertilføjelsesdata"
+
+msgid "Error reading webpage!"
+msgstr "Fejl ved læsning af webside!"
+
+msgid "Error stopping %s!"
+msgstr "Fejl ved at stoppe %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Fejl under redigering af konfiguration: %s"
+
+msgid "Exit"
+msgstr "Udgang"
+
+msgid "Extended Shares"
+msgstr "Udvidede aktier"
+
+msgid "Failed to revert file: %s"
+msgstr "Kunne ikke gendanne filen: %s"
+
+msgid "Find Fakes"
+msgstr "Find forfalskninger"
+
+msgid "Force Update"
+msgstr "Tving opdatering"
+
+msgid "Free memory"
+msgstr "Fri hukommelse"
+
+msgid "Free memory:"
+msgstr "Fri hukommelse:"
+
+msgid "Free:"
+msgstr "Gratis:"
+
+msgid "General"
+msgstr "Generel"
+
+msgid "Get Link"
+msgstr "Hent link"
+
+msgid "Getting the list, please wait ..."
+msgstr "Henter listen, vent venligst ..."
+
+msgid "Help"
+msgstr "Hjælp"
+
+msgid "Hops"
+msgstr "Humle"
+
+msgid "Hops:"
+msgstr "Humle:"
+
+msgid "Hostname:"
+msgstr "Værtsnavn:"
+
+msgid "IP Address"
+msgstr "IP-adresse"
+
+msgid "IP address"
+msgstr "IP-adresse"
+
+msgid "Idle Time:"
+msgstr "Inaktiv tid:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Hvis aktiv: Download/Nulstil serverkonfiguration"
+
+msgid "Install Cam first!!!"
+msgstr "Installer Cam først!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Installer udvikleropdatering (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Ugyldigt HTML-indhold!"
+
+msgid "Invalid URL!"
+msgstr "Ugyldig URL!"
+
+msgid "Last Req."
+msgstr "Sidste anmodning."
+
+msgid "Last used share:"
+msgstr "Sidst brugte andel:"
+
+msgid "Load"
+msgstr "Indlæs"
+
+msgid "Local box"
+msgstr "Lokal boks"
+
+msgid "Location"
+msgstr "Beliggenhed"
+
+msgid "Log"
+msgstr ""
+
+msgid "Log %s-%s"
+msgstr ""
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Menu konfig"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo ikke tilgængelig"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam kører ikke - start Cam for at få information."
+
+msgid "New"
+msgstr "Ny"
+
+msgid "New profile:"
+msgstr "Ny profil:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Ingen ECM-data"
+
+msgid "No ECM data - Timeout"
+msgstr "Ingen ECM-data - Timeout"
+
+msgid "No ECM file"
+msgstr "Ingen ECM-fil"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Ingen ECM-oplysninger er i øjeblikket tilgængelige. Dette er kun tilgængeligt under dekryptering."
+
+msgid "No active cam to restart!"
+msgstr "Intet aktivt kamera at genstarte!"
+
+msgid "No backups available!"
+msgstr "Ingen tilgængelige sikkerhedskopier!"
+
+msgid "No card inserted!"
+msgstr "Intet kort isat!"
+
+msgid "No softcams available!"
+msgstr "Ingen tilgængelige softcams!"
+
+msgid "No valid backups found!"
+msgstr "Ingen gyldige sikkerhedskopier fundet!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam-opdateringen fik timeout. Tjek /tmp/oscam_update.log for detaljer."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo er ikke tilgængelig"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam kører ikke - start Cam for at få information."
+
+msgid "PRESS RETURN"
+msgstr "TRYK RETURN"
+
+msgid "Password"
+msgstr "Adgangskode"
+
+msgid "Password (httpwd)"
+msgstr "Adgangskode (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Spidsbelastning (maks. køanmodninger pr. arbejdstråd)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Venligst nulstil - ingen fil CFG"
+
+msgid "Please select ..."
+msgstr "Vælg venligst..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Vælg venligst en linje for at redigere eller vælg tilføj for at oprette en ny linje."
+
+msgid "Please wait, %s."
+msgstr "Vent venligst, %s."
+
+msgid "Port"
+msgstr "Havn"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile: Local box"
+msgstr "Profil: Lokalboks"
+
+msgid "Protocol"
+msgstr "Protokol"
+
+msgid "Provider"
+msgstr "Udbyder"
+
+msgid "Provider Name:"
+msgstr "Udbyderens navn:"
+
+msgid "Provider:"
+msgstr "Udbyder:"
+
+msgid "Providers"
+msgstr "Udbydere"
+
+msgid "Providers:"
+msgstr "Udbydere:"
+
+msgid "Quick restart %s?"
+msgstr "Hurtig genstart %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Læs brugerdata fra %s.conf"
+
+msgid "Reader"
+msgstr "Læser"
+
+msgid "Reader Statistics"
+msgstr "Læserstatistik"
+
+msgid "Reader/User"
+msgstr "Læser/bruger"
+
+msgid "Recover Peer"
+msgstr "Gendan Peer"
+
+msgid "Remote box"
+msgstr "Fjernbetjeningsboks"
+
+msgid "Remove"
+msgstr "Fjerne"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Fjern linjen fra CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Fjerner %s"
+
+msgid "Rename"
+msgstr "Omdøb"
+
+msgid "Rename failed!"
+msgstr "Omdøb mislykkedes!"
+
+msgid "Rename to:"
+msgstr "Omdøb til:"
+
+msgid "Renamed %s!"
+msgstr "Omdøbt %s!"
+
+msgid "Reset"
+msgstr "Nulstil"
+
+msgid "Reshare"
+msgstr "Videredel"
+
+msgid "Reshare:"
+msgstr "Dele:"
+
+msgid "Resources"
+msgstr "Ressourcer"
+
+msgid "Restart GUI?"
+msgstr "Genstart GUI?"
+
+msgid "Restart error: %s"
+msgstr "Genstartsfejl: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Genstarte softcam for at anvende gendannet konfiguration?"
+
+msgid "Save"
+msgstr "Spare"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Scanning og genfindingsliste softcam ..."
+
+msgid "Select CCcam"
+msgstr "Vælg CCcam"
+
+msgid "Select Get Link"
+msgstr "Vælg Hent link"
+
+msgid "Select Ncam"
+msgstr "Vælg Ncam"
+
+msgid "Select OScam"
+msgstr "Vælg OScam"
+
+msgid "Select Your Choice"
+msgstr "Vælg dit valg"
+
+msgid "Select a cam to run ..."
+msgstr "Vælg en cam til at køre ..."
+
+msgid "Select and Install"
+msgstr "Vælg og installer"
+
+msgid "Select backup to restore:"
+msgstr "Vælg backup for at gendanne:"
+
+msgid "Server %s-%s"
+msgstr ""
+
+msgid "Server Config"
+msgstr "Server Konfig"
+
+msgid "Server Copy in"
+msgstr "Server Kopier ind"
+
+msgid "Server Link"
+msgstr "Server link"
+
+msgid "Server Password"
+msgstr "Serveradgangskode"
+
+msgid "Server Port"
+msgstr "Server port"
+
+msgid "Server URL"
+msgstr ""
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Server-url, dvs. 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Server brugernavn"
+
+msgid "Server:"
+msgstr ""
+
+msgid "Servers"
+msgstr "Servere"
+
+msgid "Servers:"
+msgstr "Servere:"
+
+msgid "Service"
+msgstr ""
+
+msgid "Set as UNIQUE PEER"
+msgstr "Indstil som UNIQUE PEER"
+
+msgid "Setup"
+msgstr "Opsætning"
+
+msgid "Share View"
+msgstr "Del visning"
+
+msgid "Shares"
+msgstr "Aktier"
+
+msgid "Show Clients"
+msgstr "Vis kunder"
+
+msgid "Show Ecm info"
+msgstr "Vis Ecm info"
+
+msgid "Show Log"
+msgstr "Vis log"
+
+msgid "Show Readers/Proxies"
+msgstr "Vis læsere/fuldmagter"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam genstartet med ny konfiguration!"
+
+msgid "Start"
+msgstr "Starte"
+
+msgid "Status"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop Finding Fakes"
+msgstr "Stop med at finde forfalskninger"
+
+msgid "Switch config"
+msgstr "Skift konfig"
+
+msgid "System"
+msgstr ""
+
+msgid "System cleanup completed!"
+msgstr "Systemoprydning afsluttet!"
+
+msgid "System:"
+msgstr ""
+
+msgid "Temporarely DELETED"
+msgstr "Midlertidigt SLETTET"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Dette plugin viser dig status for dit CCcam"
+
+msgid "Total"
+msgstr ""
+
+msgid "Total cards:"
+msgstr "Kort i alt:"
+
+msgid "Total handled client ecm's"
+msgstr "Samlet håndterede klient ecm'er"
+
+msgid "Total handled client emm's"
+msgstr "Samlet håndterede klient emm'er"
+
+msgid "Total:"
+msgstr ""
+
+msgid "Try again later ..."
+msgstr "Prøv igen senere..."
+
+msgid "Type:"
+msgstr ""
+
+msgid "UNDELETED"
+msgstr "UDSLETT"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Kan ikke gøre scriptet eksekverbart: %s"
+
+msgid "Unknow Image!"
+msgstr "Ukendt billede!"
+
+msgid "Update"
+msgstr "Opdatering"
+
+msgid "Update Aborted!"
+msgstr "Opdatering afbrudt!"
+
+msgid "Update interval (in seconds)"
+msgstr "Opdateringsinterval (i sekunder)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Oppetid"
+
+msgid "Used:"
+msgstr "Brugt:"
+
+msgid "Username"
+msgstr "Brugernavn"
+
+msgid "Username (httpuser)"
+msgstr "Brugernavn (httpbruger)"
+
+msgid "Using old profile:"
+msgstr "Brug af gammel profil:"
+
+msgid "Version:"
+msgstr ""
+
+msgid "Wait please..."
+msgstr "Vent venligst..."
+
+msgid "Write"
+msgstr "Skrive"
+
+msgid "Write-Debug"
+msgstr "Skriv-fejlretning"
+
+msgid "You have the latest version!"
+msgstr "Du har den seneste version!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\t Giv:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "et INTET.AT.UNDELE"
+
+msgid "address:"
+msgstr "adresse:"
+
+msgid "and"
+msgstr "og"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kort"
+
+msgid "card reader"
+msgstr "kortlæser"
+
+msgid "close share view"
+msgstr "luk delevisning"
+
+msgid "decrease uphop by 1"
+msgstr "reducere uphop med 1"
+
+msgid "ecm time:"
+msgstr "ecm tid:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "få kortens server"
+
+msgid "handled"
+msgstr "håndteres"
+
+msgid "hops:"
+msgstr "humle:"
+
+msgid "increase uphop by 1"
+msgstr "øge uphop med 1"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "intet eller ukendt kort indsat"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "give:"
+
+msgid "provider:"
+msgstr "udbyder:"
+
+msgid "share:"
+msgstr "dele:"
+
+msgid "show all cards"
+msgstr "vise alle kort"
+
+msgid "show cards with uphop 0"
+msgstr "vis kort med uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "vis kort med uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "vis kort med uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "vis kort med uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "vis kort med uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "vis kort med uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "vis kort med uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "vis kort med uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "vis kort med uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "vis kort med uphop 9"
+
+msgid "system:"
+msgstr ""
+
+msgid "using:"
+msgstr "bruger:"
+
+msgid "xLine"
+msgstr ""

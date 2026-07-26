@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 03:30+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Language zh-TW\n"
+"Language: zh-TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s（%s 卡）"
+
+msgid "%s Info - Configuration"
+msgstr "%s 資訊 - 配置"
+
+msgid "%s Info - Main Menu"
+msgstr "%s 資訊 - 主選單"
+
+msgid "%s restarted successfully!"
+msgstr "%s 重新啟動成功！"
+
+msgid "%s webif disabled"
+msgstr "%s webif 已停用"
+
+msgid "(All readers)"
+msgstr "（全體讀者）"
+
+msgid "(Show only reader) (%s)"
+msgstr "（僅顯示讀者）(%s)"
+
+msgid "About"
+msgstr "關於"
+
+msgid "Activate"
+msgstr "啟用設定"
+
+msgid "Activate Insert line in Config File:"
+msgstr "啟動設定檔中的插入行："
+
+msgid "Active clients"
+msgstr "活躍客戶"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Add new CCcam line"
+msgstr "新增新的 CCcam 線"
+
+msgid "Add new NewCamd line"
+msgstr "新增新的 NewCamd 行"
+
+msgid "Address"
+msgstr "地址"
+
+msgid "All"
+msgstr "全部"
+
+msgid "An error occurred in the green function."
+msgstr "綠色函數發生錯誤。"
+
+msgid "An unexpected error occurred: %s"
+msgstr "發生意外錯誤：%s"
+
+msgid "Ask all caid"
+msgstr "詢問所有 caid"
+
+msgid "Ask for the selection caid"
+msgstr "詢問選擇caid"
+
+msgid "Automatically update Client/Server View?"
+msgstr "自動更新客戶端/伺服器視圖？"
+
+msgid "Available shares:"
+msgstr "可用股票："
+
+msgid "Back"
+msgstr "後退"
+
+msgid "Backup failed!"
+msgstr "備份失敗！"
+
+msgid "Backup restoration failed!"
+msgstr "備份恢復失敗！"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker 設置"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker自動啟動"
+
+msgid "CCcam"
+msgstr "CCCAM"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam 客戶資訊"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam 配置切換器"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM 資訊"
+
+msgid "CCcam Info"
+msgstr "CCcam訊息"
+
+msgid "CCcam Info %s"
+msgstr "CCcam 資訊 %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam資訊配置"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam 資訊配置選單"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam 行編輯操作"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam 行編輯器"
+
+msgid "CCcam Organizer"
+msgstr "CCcam 組織者"
+
+msgid "CCcam Prio Maker"
+msgstr "CCcam Prio 製作者"
+
+msgid "CCcam Provider Info"
+msgstr "CCcam 提供者訊息"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam遠端資訊"
+
+msgid "CCcam Server Info"
+msgstr "CCcam伺服器資訊"
+
+msgid "CCcam Share Info"
+msgstr "CCcam 分享訊息"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam 股票資訊"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg 基本行編輯器"
+
+msgid "CCcamInfo not available"
+msgstr "CCcam 資訊不可用"
+
+msgid "CaID:"
+msgstr "鈣ID:"
+
+msgid "Caid"
+msgstr "凱德"
+
+msgid "Caid:"
+msgstr "凱德："
+
+msgid "Caid:Srvid"
+msgstr "凱德：斯維德"
+
+msgid "Cam Download"
+msgstr "凸輪下載"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "卡片資訊（CCcam-Reader）"
+
+msgid "Cards:"
+msgstr "牌："
+
+msgid "Cards: 0"
+msgstr "卡牌：0"
+
+msgid "Cardserial"
+msgstr "卡系列"
+
+msgid "Channel"
+msgstr "頻道"
+
+msgid "Channel Name"
+msgstr "頻道名稱"
+
+msgid "Check Emm Send"
+msgstr "檢查 Emm 發送"
+
+msgid "Choose CCcam-Reader"
+msgstr "選擇CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "選擇讀者"
+
+msgid "Cleanup error: %s"
+msgstr "清理錯誤：%s"
+
+msgid "Client %s-%s"
+msgstr "客戶端 %s-%s"
+
+msgid "Clients"
+msgstr "客戶"
+
+msgid "Close"
+msgstr "關閉"
+
+msgid "Command Cancelled"
+msgstr "命令已取消"
+
+msgid "Configfile %s saved."
+msgstr "設定檔 %s 已儲存。"
+
+msgid "Connected clients"
+msgstr "已連線的客戶端"
+
+msgid "Connected:"
+msgstr "已連線："
+
+msgid "Content"
+msgstr "內容"
+
+msgid "Could not open the file %s!"
+msgstr "無法開啟檔案 %s！"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "無法開啟檔案 %s！錯誤：%s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "無法儲存設定檔 %s！錯誤：%s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "無法儲存設定檔！錯誤：%s"
+
+msgid "Current time"
+msgstr "目前時間"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Delete %s?"
+msgstr "刪除%s？"
+
+msgid "Delete Peer"
+msgstr "刪除對等點"
+
+msgid "Delete failed!"
+msgstr "刪除失敗！"
+
+msgid "Deleted %s!"
+msgstr "已刪除%s！"
+
+msgid "Do you install this plugin ?"
+msgstr "你安裝這個插件了嗎？"
+
+msgid "Do you want to execute the command?"
+msgstr "你想執行指令嗎？"
+
+msgid "Do you want to remove?"
+msgstr "您想刪除嗎？"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "是否要重新啟動 GUI 介面？"
+
+msgid "ECM data format error"
+msgstr "ECM資料格式錯誤"
+
+msgid "ECM error"
+msgstr "ECM錯誤"
+
+msgid "ECM file empty"
+msgstr "ECM 檔案為空"
+
+msgid "ECM file not found"
+msgstr "未找到 ECM 文件"
+
+msgid "ECM read error"
+msgstr "ECM讀取錯誤"
+
+msgid "Ecm Info"
+msgstr "ECM資訊"
+
+msgid "Ecm Statistics"
+msgstr "細胞外基質統計"
+
+msgid "Ecm Time"
+msgstr "ECM時間"
+
+msgid "Ecm avg"
+msgstr "平均ECM"
+
+msgid "Ecm last"
+msgstr "最後的ECM"
+
+msgid "Edit"
+msgstr "編輯"
+
+msgid "Editing one caid"
+msgstr "編輯一個 caid"
+
+msgid "Emm Info"
+msgstr "緊急訊息"
+
+msgid "Entitlements"
+msgstr "權利"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "Error executing update script: %s"
+msgstr "執行更新腳本時發生錯誤：%s"
+
+msgid "Error getting resource information"
+msgstr "取得資源資訊時出錯"
+
+msgid "Error loading system info:"
+msgstr "載入系統資訊時發生錯誤："
+
+msgid "Error loading system information:"
+msgstr "載入系統資訊時發生錯誤："
+
+msgid "Error opening cam info: %s"
+msgstr "開啟凸輪訊息時發生錯誤：%s"
+
+msgid "Error opening configuration file: %s"
+msgstr "開啟設定檔時出錯：%s"
+
+msgid "Error processing HTML!"
+msgstr "處理 HTML 時發生錯誤！"
+
+msgid "Error processing server addons data"
+msgstr "處理伺服器插件資料時出錯"
+
+msgid "Error reading webpage!"
+msgstr "讀取網頁時發生錯誤！"
+
+msgid "Error stopping %s!"
+msgstr "停止 %s 時出錯！"
+
+msgid "Error while editing configuration: %s"
+msgstr "編輯配置時發生錯誤：%s"
+
+msgid "Exit"
+msgstr "出口"
+
+msgid "Extended Shares"
+msgstr "擴展股份"
+
+msgid "Failed to revert file: %s"
+msgstr "無法恢復檔案：%s"
+
+msgid "Find Fakes"
+msgstr "尋找假貨"
+
+msgid "Force Update"
+msgstr "強制更新"
+
+msgid "Free memory"
+msgstr "空閒記憶體"
+
+msgid "Free memory:"
+msgstr "空閒記憶體："
+
+msgid "Free:"
+msgstr "自由的："
+
+msgid "General"
+msgstr "一般的"
+
+msgid "Get Link"
+msgstr "獲取連結"
+
+msgid "Getting the list, please wait ..."
+msgstr "正在獲取列表，請稍等..."
+
+msgid "Help"
+msgstr "幫助"
+
+msgid "Hops"
+msgstr "啤酒花"
+
+msgid "Hops:"
+msgstr "酒花："
+
+msgid "Hostname:"
+msgstr "主機名稱："
+
+msgid "IP Address"
+msgstr "IP位址"
+
+msgid "IP address"
+msgstr "IP位址"
+
+msgid "Idle Time:"
+msgstr "空閒時間："
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "如果處於活動狀態：下載/重置伺服器配置"
+
+msgid "Install Cam first!!!"
+msgstr "首先安裝攝影機！ ！ ！"
+
+msgid "Install developer update (%s)?"
+msgstr "安裝開發者更新（%s）？"
+
+msgid "Invalid HTML content!"
+msgstr "HTML 內容無效！"
+
+msgid "Invalid URL!"
+msgstr "無效網址！"
+
+msgid "Last Req."
+msgstr "最後的要求。"
+
+msgid "Last used share:"
+msgstr "最後使用的分享："
+
+msgid "Load"
+msgstr "載入"
+
+msgid "Local box"
+msgstr "本地盒子"
+
+msgid "Location"
+msgstr "地點"
+
+msgid "Log"
+msgstr "紀錄"
+
+msgid "Log %s-%s"
+msgstr "記錄 %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "選單 EMM / 伺服器線路"
+
+msgid "Maxdown +"
+msgstr "最大下降 +"
+
+msgid "Maxdown -"
+msgstr "最大下降 -"
+
+msgid "Maxdown:"
+msgstr "最大下降："
+
+msgid "Menu config"
+msgstr "選單配置"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo 不可用"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam 未運作 - 啟動 Cam 以取得資訊。"
+
+msgid "New"
+msgstr "新的"
+
+msgid "New profile:"
+msgstr "新個人資料："
+
+msgid "NewCamd"
+msgstr "新相機"
+
+msgid "No ECM data"
+msgstr "無 ECM 數據"
+
+msgid "No ECM data - Timeout"
+msgstr "無 ECM 資料 - 超時"
+
+msgid "No ECM file"
+msgstr "沒有 ECM 文件"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "目前沒有可用的 ECM 資訊。這僅在解密時可用。"
+
+msgid "No active cam to restart!"
+msgstr "沒有活動鏡頭，無法重新啟動！"
+
+msgid "No backups available!"
+msgstr "沒有可用的備份！"
+
+msgid "No card inserted!"
+msgstr "沒有插卡！"
+
+msgid "No softcams available!"
+msgstr "沒有可用的軟攝影機！"
+
+msgid "No valid backups found!"
+msgstr "找不到有效的備份！"
+
+msgid "NodeID"
+msgstr "節點ID"
+
+msgid "NodeID:"
+msgstr "節點ID："
+
+msgid "OK"
+msgstr "好的"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam 更新逾時。檢查 /tmp/oscam_update.log 以了解詳細資訊。"
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo 不可用"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam 未運作 - 啟動 Cam 以取得資訊。"
+
+msgid "PRESS RETURN"
+msgstr "按回車鍵"
+
+msgid "Password"
+msgstr "密碼"
+
+msgid "Password (httpwd)"
+msgstr "密碼（httpwd）"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "峰值負載（每個工作執行緒的最大排隊請求）"
+
+msgid "Pid"
+msgstr "PID"
+
+msgid "Please Reset - No File CFG"
+msgstr "請重置 - 無檔案 CFG"
+
+msgid "Please select ..."
+msgstr "請選擇..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "請選擇要編輯的行或選擇“新增”以建立新行。"
+
+msgid "Please wait, %s."
+msgstr "請稍候，%s。"
+
+msgid "Port"
+msgstr "港口"
+
+msgid "Profile"
+msgstr "輪廓"
+
+msgid "Profile: Local box"
+msgstr "簡介： 本地盒"
+
+msgid "Protocol"
+msgstr "協定"
+
+msgid "Provider"
+msgstr "提供者"
+
+msgid "Provider Name:"
+msgstr "提供者名稱："
+
+msgid "Provider:"
+msgstr "提供者："
+
+msgid "Providers"
+msgstr "供應商"
+
+msgid "Providers:"
+msgstr "提供者："
+
+msgid "Quick restart %s?"
+msgstr "快速重啟%s？"
+
+msgid "Read Userdata from %s.conf"
+msgstr "從 %s.conf 讀取用戶數據"
+
+msgid "Reader"
+msgstr "讀者"
+
+msgid "Reader Statistics"
+msgstr "讀者統計"
+
+msgid "Reader/User"
+msgstr "讀者/用戶"
+
+msgid "Recover Peer"
+msgstr "恢復對等"
+
+msgid "Remote box"
+msgstr "遙控盒"
+
+msgid "Remove"
+msgstr "消除"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "從 CCcam.cfg 中刪除該行"
+
+msgid "Removing %s"
+msgstr "正在刪除 %s"
+
+msgid "Rename"
+msgstr "重新命名"
+
+msgid "Rename failed!"
+msgstr "重命名失敗！"
+
+msgid "Rename to:"
+msgstr "重新命名為："
+
+msgid "Renamed %s!"
+msgstr "已重命名%s！"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Reshare"
+msgstr "轉發"
+
+msgid "Reshare:"
+msgstr "分享："
+
+msgid "Resources"
+msgstr "資源"
+
+msgid "Restart GUI?"
+msgstr "重新啟動圖形介面？"
+
+msgid "Restart error: %s"
+msgstr "重新啟動錯誤：%s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "重新啟動 Softcam 以套用恢復的設定？"
+
+msgid "Save"
+msgstr "節省"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "掃描和檢索清單軟攝影機..."
+
+msgid "Select CCcam"
+msgstr "選擇CCcam"
+
+msgid "Select Get Link"
+msgstr "選擇獲取連結"
+
+msgid "Select Ncam"
+msgstr "選擇Ncam"
+
+msgid "Select OScam"
+msgstr "選擇OScam"
+
+msgid "Select Your Choice"
+msgstr "選擇您的選擇"
+
+msgid "Select a cam to run ..."
+msgstr "選擇要運行的凸輪..."
+
+msgid "Select and Install"
+msgstr "選擇並安裝"
+
+msgid "Select backup to restore:"
+msgstr "選擇要還原的備份："
+
+msgid "Server %s-%s"
+msgstr "伺服器 %s-%s"
+
+msgid "Server Config"
+msgstr "伺服器配置"
+
+msgid "Server Copy in"
+msgstr "伺服器複製入"
+
+msgid "Server Link"
+msgstr "伺服器連結"
+
+msgid "Server Password"
+msgstr "伺服器密碼"
+
+msgid "Server Port"
+msgstr "伺服器連接埠"
+
+msgid "Server URL"
+msgstr "伺服器位址"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "伺服器網址，即 012.345.678.900"
+
+msgid "Server Username"
+msgstr "伺服器使用者名稱"
+
+msgid "Server:"
+msgstr "伺服器:"
+
+msgid "Servers"
+msgstr "伺服器"
+
+msgid "Servers:"
+msgstr "伺服器:"
+
+msgid "Service"
+msgstr "服務"
+
+msgid "Set as UNIQUE PEER"
+msgstr "設定為唯一同行"
+
+msgid "Setup"
+msgstr "設定"
+
+msgid "Share View"
+msgstr "分享視圖"
+
+msgid "Shares"
+msgstr "股份"
+
+msgid "Show Clients"
+msgstr "展示客戶"
+
+msgid "Show Ecm info"
+msgstr "顯示 ECM 資訊"
+
+msgid "Show Log"
+msgstr "顯示日誌"
+
+msgid "Show Readers/Proxies"
+msgstr "顯示讀者/代理"
+
+msgid "Softcam Manager"
+msgstr "軟攝影機管理器"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam 以新配置重新啟動！"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "Status"
+msgstr "地位"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Stop Finding Fakes"
+msgstr "停止尋找假貨"
+
+msgid "Switch config"
+msgstr "開關配置"
+
+msgid "System"
+msgstr "系統"
+
+msgid "System cleanup completed!"
+msgstr "系統清理完成！"
+
+msgid "System:"
+msgstr "系統："
+
+msgid "Temporarely DELETED"
+msgstr "暫時刪除"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "該插件會顯示 CCcam 的狀態"
+
+msgid "Total"
+msgstr "全部的"
+
+msgid "Total cards:"
+msgstr "卡片總數："
+
+msgid "Total handled client ecm's"
+msgstr "處理的客戶 ECM 總數"
+
+msgid "Total handled client emm's"
+msgstr "處理的客戶總數 emm"
+
+msgid "Total:"
+msgstr "全部的："
+
+msgid "Try again later ..."
+msgstr "稍後再試..."
+
+msgid "Type:"
+msgstr "類型："
+
+msgid "UNDELETED"
+msgstr "未刪除"
+
+msgid "Unable to make the script executable: %s"
+msgstr "無法使腳本可執行：%s"
+
+msgid "Unknow Image!"
+msgstr "不知道圖片！"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Update Aborted!"
+msgstr "更新中止！"
+
+msgid "Update interval (in seconds)"
+msgstr "更新間隔（以秒為單位）"
+
+msgid "Uphops +"
+msgstr "上跳+"
+
+msgid "Uphops -"
+msgstr "烏普普斯 -"
+
+msgid "Uphops:"
+msgstr "上跳："
+
+msgid "Uptime"
+msgstr "正常運作時間"
+
+msgid "Used:"
+msgstr "用過的："
+
+msgid "Username"
+msgstr "使用者名稱"
+
+msgid "Username (httpuser)"
+msgstr "使用者名稱（http使用者）"
+
+msgid "Using old profile:"
+msgstr "使用舊設定檔："
+
+msgid "Version:"
+msgstr "版本："
+
+msgid "Wait please..."
+msgstr "請稍等..."
+
+msgid "Write"
+msgstr "寫"
+
+msgid "Write-Debug"
+msgstr "寫入偵錯"
+
+msgid "You have the latest version!"
+msgstr "你已經是最新版本了！"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\t提供："
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "無需取消刪除"
+
+msgid "address:"
+msgstr "地址："
+
+msgid "and"
+msgstr "和"
+
+msgid "caid:"
+msgstr "蔡德："
+
+msgid "card"
+msgstr "卡片"
+
+msgid "card reader"
+msgstr "讀卡器"
+
+msgid "close share view"
+msgstr "關閉共享視圖"
+
+msgid "decrease uphop by 1"
+msgstr "uphop 減少 1"
+
+msgid "ecm time:"
+msgstr "ECM時間："
+
+msgid "ecm.info"
+msgstr "ecm訊息"
+
+msgid "get the cards' server"
+msgstr "取得卡片的伺服器"
+
+msgid "handled"
+msgstr "處理過"
+
+msgid "hops:"
+msgstr "酒花："
+
+msgid "increase uphop by 1"
+msgstr "將 uphop 增加 1"
+
+msgid "info"
+msgstr "資訊"
+
+msgid "no or unknown card inserted"
+msgstr "未插入或未知卡插入"
+
+msgid "pid:"
+msgstr "進程號："
+
+msgid "provid:"
+msgstr "提供："
+
+msgid "provider:"
+msgstr "提供者："
+
+msgid "share:"
+msgstr "分享："
+
+msgid "show all cards"
+msgstr "顯示所有卡片"
+
+msgid "show cards with uphop 0"
+msgstr "顯示帶有 uphop 0 的卡片"
+
+msgid "show cards with uphop 1"
+msgstr "用 uphop 1 顯示卡片"
+
+msgid "show cards with uphop 2"
+msgstr "用 uphop 2 顯示卡片"
+
+msgid "show cards with uphop 3"
+msgstr "使用 uphop 3 顯示卡片"
+
+msgid "show cards with uphop 4"
+msgstr "使用 uphop 4 顯示卡片"
+
+msgid "show cards with uphop 5"
+msgstr "使用 uphop 5 顯示卡片"
+
+msgid "show cards with uphop 6"
+msgstr "使用 uphop 6 顯示卡片"
+
+msgid "show cards with uphop 7"
+msgstr "使用 uphop 7 顯示卡片"
+
+msgid "show cards with uphop 8"
+msgstr "使用 uphop 8 顯示卡片"
+
+msgid "show cards with uphop 9"
+msgstr "使用 uphop 9 顯示卡片"
+
+msgid "system:"
+msgstr "系統："
+
+msgid "using:"
+msgstr "使用："
+
+msgid "xLine"
+msgstr "線"

@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 02:50+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Tatar\n"
+"Language: tt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "% s (% s карточкалар)"
+
+msgid "%s Info - Configuration"
+msgstr "% s Мәгълүмат - Конфигурация"
+
+msgid "%s Info - Main Menu"
+msgstr "% s Мәгълүмат - Төп Меню"
+
+msgid "%s restarted successfully!"
+msgstr "% s уңышлы яңадан башланды!"
+
+msgid "%s webif disabled"
+msgstr "% s вебиф инвалид"
+
+msgid "(All readers)"
+msgstr "(Барлык укучылар)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Укучыны гына күрсәтегез) (% s)"
+
+msgid "About"
+msgstr "Турында"
+
+msgid "Activate"
+msgstr "Активлаштыру"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Файлны конфигурацияләү сызыгын активлаштыру:"
+
+msgid "Active clients"
+msgstr "Актив клиентлар"
+
+msgid "Add"
+msgstr "Кушу"
+
+msgid "Add new CCcam line"
+msgstr "Яңа CCcam линиясе өстәгез"
+
+msgid "Add new NewCamd line"
+msgstr "Яңа NewCamd сызыгын өстәгез"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "All"
+msgstr "Барысы да"
+
+msgid "An error occurred in the green function."
+msgstr "Яшел функциядә хата килеп чыкты."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Көтелмәгән хата килеп чыкты:% s"
+
+msgid "Ask all caid"
+msgstr "Барлык каидтан сора"
+
+msgid "Ask for the selection caid"
+msgstr "Сайлау кәгазен сора"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Клиент / Сервер күренешен автоматик рәвештә яңарту?"
+
+msgid "Available shares:"
+msgstr "Мөмкин булган акцияләр:"
+
+msgid "Back"
+msgstr "Кире"
+
+msgid "Backup failed!"
+msgstr "Резервлау уңышсыз!"
+
+msgid "Backup restoration failed!"
+msgstr "Резерв реставрация уңышсыз!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker көйләүләре"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker автостарт"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam клиентлары турында мәгълүмат"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM Мәгълүмат"
+
+msgid "CCcam Info"
+msgstr "CCcam Мәгълүмат"
+
+msgid "CCcam Info %s"
+msgstr "CCcam Мәгълүмат% s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam Мәгълүмат Конфиг"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam Мәгълүмат Конфигурациясе Меню"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line үзгәртү чаралары"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam Line редакторы"
+
+msgid "CCcam Organizer"
+msgstr "CCcam Оештыручы"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam тәэмин итүче турында мәгълүмат"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam Ерак Мәгълүмат"
+
+msgid "CCcam Server Info"
+msgstr "CCcam сервер турында мәгълүмат"
+
+msgid "CCcam Share Info"
+msgstr "CCcam бүлешү турында мәгълүмат"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam бүлешә"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Төп линия редакторы"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo мөмкин түгел"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Камераны йөкләү"
+
+msgid "Cancel"
+msgstr "Баш тарту"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Карта турында мәгълүмат (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Карточкалар:"
+
+msgid "Cards: 0"
+msgstr "Карточкалар: 0"
+
+msgid "Cardserial"
+msgstr "Кардериаль"
+
+msgid "Channel"
+msgstr "Канал"
+
+msgid "Channel Name"
+msgstr "Канал исеме"
+
+msgid "Check Emm Send"
+msgstr "Emm җибәрүне тикшерегез"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader сайлагыз"
+
+msgid "Choose reader"
+msgstr "Укучыны сайлагыз"
+
+msgid "Cleanup error: %s"
+msgstr "Чистарту хата:% s"
+
+msgid "Client %s-%s"
+msgstr "Клиент% s-% s"
+
+msgid "Clients"
+msgstr "Клиентлар"
+
+msgid "Close"
+msgstr "Ябу"
+
+msgid "Command Cancelled"
+msgstr "Команда юкка чыгарылды"
+
+msgid "Configfile %s saved."
+msgstr "Конфигурация% s сакланган."
+
+msgid "Connected clients"
+msgstr "Бәйләнгән клиентлар"
+
+msgid "Connected:"
+msgstr "Бәйләнгән:"
+
+msgid "Content"
+msgstr "Эчтәлек"
+
+msgid "Could not open the file %s!"
+msgstr "% S файлын ачып булмады!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "% S файлын ачып булмады! Хата:% s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Конфигурация% s саклый алмый! Хата:% s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Конфигурация файлын саклый алмыйм! Хата:% s"
+
+msgid "Current time"
+msgstr "Хәзерге вакыт"
+
+msgid "Delete"
+msgstr "Бетерү"
+
+msgid "Delete %s?"
+msgstr "% S бетерегез?"
+
+msgid "Delete Peer"
+msgstr "Яшьтәшне бетер"
+
+msgid "Delete failed!"
+msgstr "Бетерү уңышсыз!"
+
+msgid "Deleted %s!"
+msgstr "Бетерелгән% s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Сез бу плагинны урнаштырасызмы?"
+
+msgid "Do you want to execute the command?"
+msgstr "Сез боерыкны үтәргә телисезме?"
+
+msgid "Do you want to remove?"
+msgstr "Сез бетерергә телисезме?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Gui интерфейсын яңадан башларга телисезме?"
+
+msgid "ECM data format error"
+msgstr "ECM мәгълүмат форматындагы хата"
+
+msgid "ECM error"
+msgstr "ECM хата"
+
+msgid "ECM file empty"
+msgstr "ECM файл буш"
+
+msgid "ECM file not found"
+msgstr "ECM файл табылмады"
+
+msgid "ECM read error"
+msgstr "ECM уку хата"
+
+msgid "Ecm Info"
+msgstr "Ecm Мәгълүмат"
+
+msgid "Ecm Statistics"
+msgstr "Экм статистикасы"
+
+msgid "Ecm Time"
+msgstr ""
+
+msgid "Ecm avg"
+msgstr "Уртача"
+
+msgid "Ecm last"
+msgstr "Экм соңгы"
+
+msgid "Edit"
+msgstr "Редакцияләү"
+
+msgid "Editing one caid"
+msgstr "Бер каидны редакцияләү"
+
+msgid "Emm Info"
+msgstr "Erm Мәгълүмат"
+
+msgid "Entitlements"
+msgstr "Хокук"
+
+msgid "Error"
+msgstr "Хата"
+
+msgid "Error executing update script: %s"
+msgstr "Яңарту скриптын башкаруда хата:% s"
+
+msgid "Error getting resource information"
+msgstr "Ресурс турында мәгълүмат алуда хата"
+
+msgid "Error loading system info:"
+msgstr "Система мәгълүматын йөкләүдә хата:"
+
+msgid "Error loading system information:"
+msgstr "Система мәгълүматын йөкләүдә хата:"
+
+msgid "Error opening cam info: %s"
+msgstr "Камера мәгълүматын ачуда хата:% s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Конфигурация файлын ачуда хата:% s"
+
+msgid "Error processing HTML!"
+msgstr "HTML эшкәртүдә хата!"
+
+msgid "Error processing server addons data"
+msgstr "Сервер мәгълүматларын эшкәртүдә хата"
+
+msgid "Error reading webpage!"
+msgstr "Веб-битне укуда хата!"
+
+msgid "Error stopping %s!"
+msgstr "% S туктатуда хата!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Конфигурацияне редакцияләгәндә хата:% s"
+
+msgid "Exit"
+msgstr "Чык"
+
+msgid "Extended Shares"
+msgstr "Киңәйтелгән акцияләр"
+
+msgid "Failed to revert file: %s"
+msgstr "Файлны кире кайтара алмады:% s"
+
+msgid "Find Fakes"
+msgstr "Ялганнарны табыгыз"
+
+msgid "Force Update"
+msgstr "Көч яңарту"
+
+msgid "Free memory"
+msgstr "Ирекле хәтер"
+
+msgid "Free memory:"
+msgstr "Ирекле хәтер:"
+
+msgid "Free:"
+msgstr "Түләүсез:"
+
+msgid "General"
+msgstr "Генерал"
+
+msgid "Get Link"
+msgstr "Ссылка алыгыз"
+
+msgid "Getting the list, please wait ..."
+msgstr "Исемлекне алу, зинһар, көтегез ..."
+
+msgid "Help"
+msgstr "Ярдәм"
+
+msgid "Hops"
+msgstr "Хопс"
+
+msgid "Hops:"
+msgstr "Өмет:"
+
+msgid "Hostname:"
+msgstr "Хост исеме:"
+
+msgid "IP Address"
+msgstr "IP адрес"
+
+msgid "IP address"
+msgstr "IP адрес"
+
+msgid "Idle Time:"
+msgstr "Эш вакыты:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Актив булса: Сервер конфигурациясен йөкләү / яңадан урнаштыру"
+
+msgid "Install Cam first!!!"
+msgstr "Башта Камны урнаштырыгыз !!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Төзүче яңартуын (% s) урнаштырыгыз?"
+
+msgid "Invalid HTML content!"
+msgstr "HTML эчтәлеге дөрес түгел!"
+
+msgid "Invalid URL!"
+msgstr "Яраксыз URL!"
+
+msgid "Last Req."
+msgstr "Соңгы Req."
+
+msgid "Last used share:"
+msgstr "Соңгы кулланылган өлеш:"
+
+msgid "Load"
+msgstr "Йөкләү"
+
+msgid "Local box"
+msgstr "Localирле тартма"
+
+msgid "Location"
+msgstr "Урын"
+
+msgid "Log"
+msgstr "Керегез"
+
+msgid "Log %s-%s"
+msgstr "% S-% s керегез"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr "Максдаун +"
+
+msgid "Maxdown -"
+msgstr "Максдаун -"
+
+msgid "Maxdown:"
+msgstr "Максдаун:"
+
+msgid "Menu config"
+msgstr "Меню конфигурациясе"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo мөмкин түгел"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam эшләми - мәгълүмат алу өчен Камны эшләтеп җибәрегез."
+
+msgid "New"
+msgstr "Яңа"
+
+msgid "New profile:"
+msgstr "Яңа профиль:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "ECM мәгълүматлары юк"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM мәгълүматлары юк - Вакыт"
+
+msgid "No ECM file"
+msgstr "ECM файл юк"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Хәзерге вакытта ECM турында мәгълүмат юк. Бу шифрлау вакытында гына мөмкин."
+
+msgid "No active cam to restart!"
+msgstr "Яңарту өчен актив камера юк!"
+
+msgid "No backups available!"
+msgstr "Резерв күчермәләр юк!"
+
+msgid "No card inserted!"
+msgstr "Карточка кертелмәгән!"
+
+msgid "No softcams available!"
+msgstr "Йомшак камералар юк!"
+
+msgid "No valid backups found!"
+msgstr "Дөрес резервлар табылмады!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "Ярар"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam яңарту вакыты бетте. Детальләр өчен /tmp/oscam_update.log тикшерегез."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo мөмкин түгел"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Оскам эшләми - мәгълүмат алу өчен Камны эшләтеп җибәрегез."
+
+msgid "PRESS RETURN"
+msgstr "БАСМА КАЙТУ"
+
+msgid "Password"
+msgstr "Серсүз"
+
+msgid "Password (httpwd)"
+msgstr "Серсүз (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Пик йөк (эшче укуга максималь чираттагы запрослар)"
+
+msgid "Pid"
+msgstr "Пид"
+
+msgid "Please Reset - No File CFG"
+msgstr "Зинһар, яңадан урнаштырыгыз - CFG файл юк"
+
+msgid "Please select ..."
+msgstr "Зинһар, сайлагыз ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Зинһар, үзгәртү өчен сызык сайлагыз яки яңа сызык ясау өчен өстәмә сайлагыз."
+
+msgid "Please wait, %s."
+msgstr "Зинһар, көтегез,% s."
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Profile"
+msgstr "Профиль"
+
+msgid "Profile: Local box"
+msgstr "Профиль: Localирле тартма"
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "Provider"
+msgstr "Провайдер"
+
+msgid "Provider Name:"
+msgstr "Провайдер исеме:"
+
+msgid "Provider:"
+msgstr "Провайдер:"
+
+msgid "Providers"
+msgstr "Провайдерлар"
+
+msgid "Providers:"
+msgstr "Провайдерлар:"
+
+msgid "Quick restart %s?"
+msgstr "Тиз яңадан башлау% s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "% S.conf'тан Userdata укыгыз"
+
+msgid "Reader"
+msgstr "Укучы"
+
+msgid "Reader Statistics"
+msgstr "Укучы статистикасы"
+
+msgid "Reader/User"
+msgstr "Укучы / кулланучы"
+
+msgid "Recover Peer"
+msgstr "Яшьтәшне торгызу"
+
+msgid "Remote box"
+msgstr "Ерак тартма"
+
+msgid "Remove"
+msgstr "Чыгар"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "CCcam.cfg сызыгын бетерегез"
+
+msgid "Removing %s"
+msgstr "% S бетерү"
+
+msgid "Rename"
+msgstr "Исемнең исемен үзгәртү"
+
+msgid "Rename failed!"
+msgstr "Исем үзгәртү уңышсыз!"
+
+msgid "Rename to:"
+msgstr "Исемен үзгәртү:"
+
+msgid "Renamed %s!"
+msgstr "% S исеме үзгәртелде!"
+
+msgid "Reset"
+msgstr "Бетерү"
+
+msgid "Reshare"
+msgstr "Яңарту"
+
+msgid "Reshare:"
+msgstr "Бүлешү:"
+
+msgid "Resources"
+msgstr "Ресурслар"
+
+msgid "Restart GUI?"
+msgstr "GUIны яңадан эшләтеп җибәрү?"
+
+msgid "Restart error: %s"
+msgstr "Хата җибәрү:% s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Реставрацияләнгән конфигурацияне куллану өчен йомшак камераны яңадан эшләтеп җибәрегез?"
+
+msgid "Save"
+msgstr "Саклагыз"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Сканерлау һәм алу исемлеге йомшак камера ..."
+
+msgid "Select CCcam"
+msgstr "CCcam сайлагыз"
+
+msgid "Select Get Link"
+msgstr "Ссылка алуны сайлагыз"
+
+msgid "Select Ncam"
+msgstr "Ncam сайлагыз"
+
+msgid "Select OScam"
+msgstr "OScam сайлагыз"
+
+msgid "Select Your Choice"
+msgstr "Сезнең сайлау"
+
+msgid "Select a cam to run ..."
+msgstr "Йөгерү өчен камераны сайлагыз ..."
+
+msgid "Select and Install"
+msgstr "Сайлагыз һәм урнаштырыгыз"
+
+msgid "Select backup to restore:"
+msgstr "Реставрацияләү өчен резервны сайлагыз:"
+
+msgid "Server %s-%s"
+msgstr "Сервер% s-% s"
+
+msgid "Server Config"
+msgstr "Сервер конфигурациясе"
+
+msgid "Server Copy in"
+msgstr "Сервер күчерү"
+
+msgid "Server Link"
+msgstr "Сервер сылтамасы"
+
+msgid "Server Password"
+msgstr "Сервер серсүзе"
+
+msgid "Server Port"
+msgstr "Сервер порты"
+
+msgid "Server URL"
+msgstr "Сервер URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Url серверы, ягъни 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Сервер кулланучы исеме"
+
+msgid "Server:"
+msgstr "Сервер:"
+
+msgid "Servers"
+msgstr "Серверлар"
+
+msgid "Servers:"
+msgstr "Серверлар:"
+
+msgid "Service"
+msgstr "Хезмәт"
+
+msgid "Set as UNIQUE PEER"
+msgstr "UNIQUE PEER итеп куегыз"
+
+msgid "Setup"
+msgstr "Урнаштыру"
+
+msgid "Share View"
+msgstr "Бүлешү"
+
+msgid "Shares"
+msgstr "Акцияләр"
+
+msgid "Show Clients"
+msgstr "Клиентларны күрсәтү"
+
+msgid "Show Ecm info"
+msgstr "Ecm мәгълүматын күрсәт"
+
+msgid "Show Log"
+msgstr "Бүрәнәне күрсәт"
+
+msgid "Show Readers/Proxies"
+msgstr "Укучыларны / проксиларны күрсәтегез"
+
+msgid "Softcam Manager"
+msgstr "Softcam менеджеры"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Йомшак камера яңа конфигурация белән яңадан башланды!"
+
+msgid "Start"
+msgstr "Башлау"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Stop"
+msgstr "Тукта"
+
+msgid "Stop Finding Fakes"
+msgstr "Ялганнарны табуны туктатыгыз"
+
+msgid "Switch config"
+msgstr "Конфигурацияне күчү"
+
+msgid "System"
+msgstr "Система"
+
+msgid "System cleanup completed!"
+msgstr "Системаны чистарту тәмамланды!"
+
+msgid "System:"
+msgstr "Система:"
+
+msgid "Temporarely DELETED"
+msgstr "Вакытлыча бетерелгән"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Бу плагин сезгә CCcam статусын күрсәтә"
+
+msgid "Total"
+msgstr "Барлыгы"
+
+msgid "Total cards:"
+msgstr "Барлык карталар:"
+
+msgid "Total handled client ecm's"
+msgstr "Барлык клиент экм"
+
+msgid "Total handled client emm's"
+msgstr "Барлык клиент эмм"
+
+msgid "Total:"
+msgstr "Барлыгы:"
+
+msgid "Try again later ..."
+msgstr "Соңрак кабатлап карагыз ..."
+
+msgid "Type:"
+msgstr "Төре:"
+
+msgid "UNDELETED"
+msgstr "Аңлашылмаган"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Сценарийны башкарып булмый:% s"
+
+msgid "Unknow Image!"
+msgstr "Билгесез рәсем!"
+
+msgid "Update"
+msgstr "Яңарту"
+
+msgid "Update Aborted!"
+msgstr "Яңартылган!"
+
+msgid "Update interval (in seconds)"
+msgstr "Интервалны яңарту (секундларда)"
+
+msgid "Uphops +"
+msgstr "Кибетләр +"
+
+msgid "Uphops -"
+msgstr "Кибетләр -"
+
+msgid "Uphops:"
+msgstr "Кибетләр:"
+
+msgid "Uptime"
+msgstr "Эш вакыты"
+
+msgid "Used:"
+msgstr "Кулланылган:"
+
+msgid "Username"
+msgstr "Кулланучы исеме"
+
+msgid "Username (httpuser)"
+msgstr "Кулланучының исеме (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Иске профиль куллану:"
+
+msgid "Version:"
+msgstr "Вариант:"
+
+msgid "Wait please..."
+msgstr "Тукта зинһар ..."
+
+msgid "Write"
+msgstr "Яз"
+
+msgid "Write-Debug"
+msgstr "Язу-төзәтү"
+
+msgid "You have the latest version!"
+msgstr "Сезнең соңгы версиягез бар!"
+
+msgid "\n"
+msgstr "\ n"
+
+msgid "\tProvid:"
+msgstr "\ tПровид:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "БЕРЕНЧЕ.ТО.УНДЕЛЕ"
+
+msgid "address:"
+msgstr "адрес:"
+
+msgid "and"
+msgstr "һәм"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "карточка"
+
+msgid "card reader"
+msgstr "карточка укучы"
+
+msgid "close share view"
+msgstr "ябык күренеш"
+
+msgid "decrease uphop by 1"
+msgstr "1гә киметү"
+
+msgid "ecm time:"
+msgstr "ecm вакыты:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "карталар серверын алыгыз"
+
+msgid "handled"
+msgstr "эшкәртелде"
+
+msgid "hops:"
+msgstr ""
+
+msgid "increase uphop by 1"
+msgstr "1гә арттыру"
+
+msgid "info"
+msgstr "информация"
+
+msgid "no or unknown card inserted"
+msgstr "юк яки билгесез карточка салынган"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "тәэмин итү:"
+
+msgid "provider:"
+msgstr "тәэмин итүче:"
+
+msgid "share:"
+msgstr "бүлешү:"
+
+msgid "show all cards"
+msgstr "барлык карточкаларны күрсәт"
+
+msgid "show cards with uphop 0"
+msgstr "0 белән карточкаларны күрсәтегез"
+
+msgid "show cards with uphop 1"
+msgstr "карточкаларны күрсәтү 1"
+
+msgid "show cards with uphop 2"
+msgstr "2-нче карта белән карточкалар күрсәтү"
+
+msgid "show cards with uphop 3"
+msgstr "3-нче карточкаларны күрсәтегез"
+
+msgid "show cards with uphop 4"
+msgstr "4-нче карта белән карточкалар күрсәтү"
+
+msgid "show cards with uphop 5"
+msgstr "карточкаларны 5"
+
+msgid "show cards with uphop 6"
+msgstr "карточкаларны 6"
+
+msgid "show cards with uphop 7"
+msgstr "карточкаларны күрсәтү 7"
+
+msgid "show cards with uphop 8"
+msgstr "карточкаларны 8"
+
+msgid "show cards with uphop 9"
+msgstr "9-нчы карточкаларны күрсәтегез"
+
+msgid "system:"
+msgstr "системасы:"
+
+msgid "using:"
+msgstr "кулланып:"
+
+msgid "xLine"
+msgstr ""

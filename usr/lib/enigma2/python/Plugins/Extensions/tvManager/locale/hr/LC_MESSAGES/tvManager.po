@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 23:37+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s kartice)"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info - Konfiguracija"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Informacije - Glavni izbornik"
+
+msgid "%s restarted successfully!"
+msgstr "%s je uspješno ponovno pokrenut!"
+
+msgid "%s webif disabled"
+msgstr "%s web ako je onemogućen"
+
+msgid "(All readers)"
+msgstr "(Svi čitatelji)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Prikaži samo čitača) (%s)"
+
+msgid "About"
+msgstr "Oko"
+
+msgid "Activate"
+msgstr "Aktivirati"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Aktivirajte redak za umetanje u konfiguracijskoj datoteci:"
+
+msgid "Active clients"
+msgstr "Aktivni klijenti"
+
+msgid "Add"
+msgstr "Dodati"
+
+msgid "Add new CCcam line"
+msgstr "Dodajte novu CCcam liniju"
+
+msgid "Add new NewCamd line"
+msgstr "Dodajte novu liniju NewCamd"
+
+msgid "Address"
+msgstr "Adresa"
+
+msgid "All"
+msgstr "Sve"
+
+msgid "An error occurred in the green function."
+msgstr "Došlo je do pogreške u zelenoj funkciji."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Došlo je do neočekivane pogreške: %s"
+
+msgid "Ask all caid"
+msgstr "Pitaj sve caid"
+
+msgid "Ask for the selection caid"
+msgstr "Zatražite pomoćnika za odabir"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Automatski ažurirati prikaz klijenta/poslužitelja?"
+
+msgid "Available shares:"
+msgstr "Dostupne dionice:"
+
+msgid "Back"
+msgstr "Nazad"
+
+msgid "Backup failed!"
+msgstr "Sigurnosno kopiranje nije uspjelo!"
+
+msgid "Backup restoration failed!"
+msgstr "Vraćanje sigurnosne kopije nije uspjelo!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Postavke CCPrioMakera"
+
+msgid "CCPrioMaker autostart"
+msgstr "Automatsko pokretanje CCPrioMakera"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam informacije o klijentima"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM informacije"
+
+msgid "CCcam Info"
+msgstr "CCcam informacije"
+
+msgid "CCcam Info %s"
+msgstr "CCcam informacije %s"
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr "Izbornik konfiguracije informacija CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Radnje uređivanja linije CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam uređivač linija"
+
+msgid "CCcam Organizer"
+msgstr "CCcam Organizator"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Informacije o pružatelju usluga CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Informacije o daljinskom upravljaču CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Informacije o CCcam poslužitelju"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Podijelite informacije"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam dijeli informacije"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Osnovni uređivač linija"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo nije dostupan"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Cam Preuzimanje"
+
+msgid "Cancel"
+msgstr "Otkazati"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Podaci o kartici (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "kartice:"
+
+msgid "Cards: 0"
+msgstr "Kartice: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Kanal"
+
+msgid "Channel Name"
+msgstr "Naziv kanala"
+
+msgid "Check Emm Send"
+msgstr "Provjerite Emm Pošalji"
+
+msgid "Choose CCcam-Reader"
+msgstr "Odaberite CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Odaberite čitatelja"
+
+msgid "Cleanup error: %s"
+msgstr "Pogreška čišćenja: %s"
+
+msgid "Client %s-%s"
+msgstr "Klijent %s-%s"
+
+msgid "Clients"
+msgstr "Klijenti"
+
+msgid "Close"
+msgstr "Zatvoriti"
+
+msgid "Command Cancelled"
+msgstr "Naredba otkazana"
+
+msgid "Configfile %s saved."
+msgstr "Konfiguracijski fajl %s spremljen."
+
+msgid "Connected clients"
+msgstr "Povezani klijenti"
+
+msgid "Connected:"
+msgstr "Povezano:"
+
+msgid "Content"
+msgstr "Sadržaj"
+
+msgid "Could not open the file %s!"
+msgstr "Nije moguće otvoriti datoteku %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Nije moguće otvoriti datoteku %s! Greška: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Nije moguće spremiti konfiguracijsku datoteku %s! Greška: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Nije moguće spremiti konfiguracijsku datoteku! Greška: %s"
+
+msgid "Current time"
+msgstr "Trenutno vrijeme"
+
+msgid "Delete"
+msgstr "Izbrisati"
+
+msgid "Delete %s?"
+msgstr "Izbrisati %s?"
+
+msgid "Delete Peer"
+msgstr "Izbriši Peer"
+
+msgid "Delete failed!"
+msgstr "Brisanje nije uspjelo!"
+
+msgid "Deleted %s!"
+msgstr "Izbrisano %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Instalirate li ovaj dodatak?"
+
+msgid "Do you want to execute the command?"
+msgstr "Želite li izvršiti naredbu?"
+
+msgid "Do you want to remove?"
+msgstr "Želite li ukloniti?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Želite li ponovno pokrenuti Gui sučelje?"
+
+msgid "ECM data format error"
+msgstr "Pogreška formata ECM podataka"
+
+msgid "ECM error"
+msgstr "ECM greška"
+
+msgid "ECM file empty"
+msgstr "ECM datoteka prazna"
+
+msgid "ECM file not found"
+msgstr "ECM datoteka nije pronađena"
+
+msgid "ECM read error"
+msgstr "Pogreška čitanja ECM-a"
+
+msgid "Ecm Info"
+msgstr "Informacije o Ecm-u"
+
+msgid "Ecm Statistics"
+msgstr "Ecm statistika"
+
+msgid "Ecm Time"
+msgstr "Ecm vrijeme"
+
+msgid "Ecm avg"
+msgstr "Ecm prosj"
+
+msgid "Ecm last"
+msgstr "Ecm zadnji"
+
+msgid "Edit"
+msgstr "Uredi"
+
+msgid "Editing one caid"
+msgstr "Uređivanje jednog caida"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Prava"
+
+msgid "Error"
+msgstr "Greška"
+
+msgid "Error executing update script: %s"
+msgstr "Pogreška prilikom izvršavanja skripte ažuriranja: %s"
+
+msgid "Error getting resource information"
+msgstr "Pogreška pri dohvaćanju informacija o resursu"
+
+msgid "Error loading system info:"
+msgstr "Pogreška pri učitavanju informacija o sustavu:"
+
+msgid "Error loading system information:"
+msgstr "Pogreška pri učitavanju informacija o sustavu:"
+
+msgid "Error opening cam info: %s"
+msgstr "Pogreška pri otvaranju informacija o kameri: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Pogreška pri otvaranju konfiguracijske datoteke: %s"
+
+msgid "Error processing HTML!"
+msgstr "Pogreška u obradi HTML-a!"
+
+msgid "Error processing server addons data"
+msgstr "Pogreška u obradi podataka dodataka poslužitelja"
+
+msgid "Error reading webpage!"
+msgstr "Pogreška pri čitanju web stranice!"
+
+msgid "Error stopping %s!"
+msgstr "Pogreška pri zaustavljanju %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Pogreška tijekom uređivanja konfiguracije: %s"
+
+msgid "Exit"
+msgstr "Izlaz"
+
+msgid "Extended Shares"
+msgstr "Proširene dionice"
+
+msgid "Failed to revert file: %s"
+msgstr "Nije uspjelo vraćanje datoteke: %s"
+
+msgid "Find Fakes"
+msgstr "Pronađite krivotvorine"
+
+msgid "Force Update"
+msgstr "Prisilno ažuriranje"
+
+msgid "Free memory"
+msgstr "Slobodna memorija"
+
+msgid "Free memory:"
+msgstr "Slobodna memorija:"
+
+msgid "Free:"
+msgstr "Besplatno:"
+
+msgid "General"
+msgstr ""
+
+msgid "Get Link"
+msgstr "Nabavite vezu"
+
+msgid "Getting the list, please wait ..."
+msgstr "Dohvaćanje popisa, pričekajte..."
+
+msgid "Help"
+msgstr "Pomoć"
+
+msgid "Hops"
+msgstr "Hmelj"
+
+msgid "Hops:"
+msgstr "Hmelj:"
+
+msgid "Hostname:"
+msgstr "Ime hosta:"
+
+msgid "IP Address"
+msgstr "IP adresa"
+
+msgid "IP address"
+msgstr "IP adresa"
+
+msgid "Idle Time:"
+msgstr "Vrijeme mirovanja:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Ako je aktivno: preuzmi/resetiraj konfiguraciju poslužitelja"
+
+msgid "Install Cam first!!!"
+msgstr "Prvo instalirajte Cam!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Instalirati ažuriranje razvojnog programera (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Nevažeći HTML sadržaj!"
+
+msgid "Invalid URL!"
+msgstr "Nevažeći URL!"
+
+msgid "Last Req."
+msgstr "Zadnji zahtjev"
+
+msgid "Last used share:"
+msgstr "Zadnje korišteno dijeljenje:"
+
+msgid "Load"
+msgstr "Opterećenje"
+
+msgid "Local box"
+msgstr "Lokalna kutija"
+
+msgid "Location"
+msgstr "Mjesto"
+
+msgid "Log"
+msgstr "Dnevnik"
+
+msgid "Log %s-%s"
+msgstr "Dnevnik %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Konfiguracija izbornika"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo nije dostupan"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ne radi - pokrenite Cam za dobivanje informacija."
+
+msgid "New"
+msgstr "Novi"
+
+msgid "New profile:"
+msgstr "Novi profil:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Nema ECM podataka"
+
+msgid "No ECM data - Timeout"
+msgstr "Nema ECM podataka - isteklo je vrijeme"
+
+msgid "No ECM file"
+msgstr "Nema ECM datoteke"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Trenutno nisu dostupne informacije o ECM-u. Ovo je dostupno samo tijekom dešifriranja."
+
+msgid "No active cam to restart!"
+msgstr "Nema aktivne kamere za ponovno pokretanje!"
+
+msgid "No backups available!"
+msgstr "Nema dostupnih sigurnosnih kopija!"
+
+msgid "No card inserted!"
+msgstr "Nije umetnuta kartica!"
+
+msgid "No softcams available!"
+msgstr "Nema dostupnih softverskih kamera!"
+
+msgid "No valid backups found!"
+msgstr "Nisu pronađene važeće sigurnosne kopije!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr "ID čvora:"
+
+msgid "OK"
+msgstr "U REDU"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam ažuriranje je isteklo. Provjerite /tmp/oscam_update.log za detalje."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo nije dostupan"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ne radi - pokrenite Cam za dobivanje informacija."
+
+msgid "PRESS RETURN"
+msgstr "PRITISNI POVRATAK"
+
+msgid "Password"
+msgstr "Lozinka"
+
+msgid "Password (httpwd)"
+msgstr "Lozinka (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Vršno opterećenje (maks. zahtjevi u redu čekanja po radnoj niti)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Molimo ponovno postavite - nema CFG datoteke"
+
+msgid "Please select ..."
+msgstr "Odaberite..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Molimo odaberite redak za uređivanje ili odaberite Dodaj za stvaranje novog reda."
+
+msgid "Please wait, %s."
+msgstr "Molimo pričekajte, %s."
+
+msgid "Port"
+msgstr "Luka"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile: Local box"
+msgstr "Profil: Lokalna kutija"
+
+msgid "Protocol"
+msgstr "Protokol"
+
+msgid "Provider"
+msgstr "Davatelj"
+
+msgid "Provider Name:"
+msgstr "Naziv davatelja usluga:"
+
+msgid "Provider:"
+msgstr "Davatelj:"
+
+msgid "Providers"
+msgstr "Pružatelji usluga"
+
+msgid "Providers:"
+msgstr "Pružatelji usluga:"
+
+msgid "Quick restart %s?"
+msgstr "Brzo ponovno pokretanje %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Pročitaj korisničke podatke iz %s.conf"
+
+msgid "Reader"
+msgstr "Čitač"
+
+msgid "Reader Statistics"
+msgstr "Statistika čitatelja"
+
+msgid "Reader/User"
+msgstr "Čitatelj/korisnik"
+
+msgid "Recover Peer"
+msgstr "Oporavi Peer"
+
+msgid "Remote box"
+msgstr "Daljinska kutija"
+
+msgid "Remove"
+msgstr "Ukloniti"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Uklonite liniju iz CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Uklanjanje %s"
+
+msgid "Rename"
+msgstr "Preimenovati"
+
+msgid "Rename failed!"
+msgstr "Preimenovanje nije uspjelo!"
+
+msgid "Rename to:"
+msgstr "Preimenuj u:"
+
+msgid "Renamed %s!"
+msgstr "Promijenjeno ime %s!"
+
+msgid "Reset"
+msgstr "Resetiraj"
+
+msgid "Reshare"
+msgstr "Ponovno podijeli"
+
+msgid "Reshare:"
+msgstr "Udio:"
+
+msgid "Resources"
+msgstr "Resursi"
+
+msgid "Restart GUI?"
+msgstr "Ponovno pokrenuti GUI?"
+
+msgid "Restart error: %s"
+msgstr "Pogreška ponovnog pokretanja: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Ponovno pokrenuti softcam za primjenu obnovljene konfiguracije?"
+
+msgid "Save"
+msgstr "Uštedjeti"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Skeniranje i dohvaćanje popisa softcam ..."
+
+msgid "Select CCcam"
+msgstr "Odaberite CCcam"
+
+msgid "Select Get Link"
+msgstr "Odaberite Dohvati vezu"
+
+msgid "Select Ncam"
+msgstr "Odaberite Ncam"
+
+msgid "Select OScam"
+msgstr "Odaberite OScam"
+
+msgid "Select Your Choice"
+msgstr "Odaberite svoj izbor"
+
+msgid "Select a cam to run ..."
+msgstr "Odaberite kameru za pokretanje..."
+
+msgid "Select and Install"
+msgstr "Odaberite i instalirajte"
+
+msgid "Select backup to restore:"
+msgstr "Odaberite sigurnosnu kopiju za vraćanje:"
+
+msgid "Server %s-%s"
+msgstr "Poslužitelj %s-%s"
+
+msgid "Server Config"
+msgstr "Konfiguracija poslužitelja"
+
+msgid "Server Copy in"
+msgstr "Poslužitelj Kopiraj u"
+
+msgid "Server Link"
+msgstr "Veza s poslužiteljem"
+
+msgid "Server Password"
+msgstr "Lozinka poslužitelja"
+
+msgid "Server Port"
+msgstr "Port poslužitelja"
+
+msgid "Server URL"
+msgstr "URL poslužitelja"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Url poslužitelja, tj. 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Korisničko ime poslužitelja"
+
+msgid "Server:"
+msgstr "poslužitelj:"
+
+msgid "Servers"
+msgstr "poslužitelji"
+
+msgid "Servers:"
+msgstr "Poslužitelji:"
+
+msgid "Service"
+msgstr "Servis"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Postavi kao UNIQUE PEER"
+
+msgid "Setup"
+msgstr "Postavljanje"
+
+msgid "Share View"
+msgstr "Dijeli prikaz"
+
+msgid "Shares"
+msgstr "Dionice"
+
+msgid "Show Clients"
+msgstr "Pokaži klijentima"
+
+msgid "Show Ecm info"
+msgstr "Prikaži Ecm informacije"
+
+msgid "Show Log"
+msgstr "Prikaži dnevnik"
+
+msgid "Show Readers/Proxies"
+msgstr "Prikaži čitatelje/proksije"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam ponovno pokrenut s novom konfiguracijom!"
+
+msgid "Start"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop Finding Fakes"
+msgstr "Prestanite pronaći krivotvorine"
+
+msgid "Switch config"
+msgstr "Konfiguracija prekidača"
+
+msgid "System"
+msgstr "sustav"
+
+msgid "System cleanup completed!"
+msgstr "Čišćenje sustava dovršeno!"
+
+msgid "System:"
+msgstr "sustav:"
+
+msgid "Temporarely DELETED"
+msgstr "Privremeno IZBRISANO"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Ovaj dodatak vam pokazuje status vaše CCcam"
+
+msgid "Total"
+msgstr "Ukupno"
+
+msgid "Total cards:"
+msgstr "Ukupno kartica:"
+
+msgid "Total handled client ecm's"
+msgstr "Ukupno obrađenih ecm-ova klijenata"
+
+msgid "Total handled client emm's"
+msgstr "Ukupno obrađenih emm-ova klijenata"
+
+msgid "Total:"
+msgstr "Ukupno:"
+
+msgid "Try again later ..."
+msgstr "Pokušajte ponovo kasnije..."
+
+msgid "Type:"
+msgstr "Tip:"
+
+msgid "UNDELETED"
+msgstr "PONIŠTENO"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Ne mogu skriptu učiniti izvršnom: %s"
+
+msgid "Unknow Image!"
+msgstr "Nepoznata slika!"
+
+msgid "Update"
+msgstr "Ažurirati"
+
+msgid "Update Aborted!"
+msgstr "Ažuriranje prekinuto!"
+
+msgid "Update interval (in seconds)"
+msgstr "Interval ažuriranja (u sekundama)"
+
+msgid "Uphops +"
+msgstr "Ups +"
+
+msgid "Uphops -"
+msgstr "Upss -"
+
+msgid "Uphops:"
+msgstr "Upups:"
+
+msgid "Uptime"
+msgstr "Vrijeme rada"
+
+msgid "Used:"
+msgstr "korišteno:"
+
+msgid "Username"
+msgstr "Korisničko ime"
+
+msgid "Username (httpuser)"
+msgstr "Korisničko ime (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Korištenje starog profila:"
+
+msgid "Version:"
+msgstr "Verzija:"
+
+msgid "Wait please..."
+msgstr "čekaj molim te..."
+
+msgid "Write"
+msgstr "Pisati"
+
+msgid "Write-Debug"
+msgstr "Pisanje-Debug"
+
+msgid "You have the latest version!"
+msgstr "Imate najnoviju verziju!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tPruža:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a NIŠTA.TO.UNDELE"
+
+msgid "address:"
+msgstr "adresa:"
+
+msgid "and"
+msgstr "i"
+
+msgid "caid:"
+msgstr "Caid:"
+
+msgid "card"
+msgstr "kartica"
+
+msgid "card reader"
+msgstr "čitač kartica"
+
+msgid "close share view"
+msgstr "zatvoriti podijeli pogled"
+
+msgid "decrease uphop by 1"
+msgstr "smanjiti upphop za 1"
+
+msgid "ecm time:"
+msgstr "ecm vrijeme:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "dobiti poslužitelj kartica"
+
+msgid "handled"
+msgstr "rukovao"
+
+msgid "hops:"
+msgstr "hmelj:"
+
+msgid "increase uphop by 1"
+msgstr "povećati upphop za 1"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "umetnuta nijedna ili nepoznata kartica"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "osigurati:"
+
+msgid "provider:"
+msgstr "davatelj:"
+
+msgid "share:"
+msgstr "udio:"
+
+msgid "show all cards"
+msgstr "pokazati sve karte"
+
+msgid "show cards with uphop 0"
+msgstr "pokaži kartice s uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "pokaži kartice s uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "pokaži kartice s uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "pokaži kartice s uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "pokaži kartice s uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "pokaži kartice s uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "pokaži kartice s uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "pokaži kartice s uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "pokaži kartice s uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "pokaži kartice s uphop 9"
+
+msgid "system:"
+msgstr "sustav:"
+
+msgid "using:"
+msgstr "pomoću:"
+
+msgid "xLine"
+msgstr ""

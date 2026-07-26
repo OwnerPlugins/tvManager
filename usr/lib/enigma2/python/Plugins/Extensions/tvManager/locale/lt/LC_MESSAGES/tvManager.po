@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 00:33+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s kortelės )"
+
+msgid "%s Info - Configuration"
+msgstr "%s informacija – konfigūracija"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Informacija – pagrindinis meniu"
+
+msgid "%s restarted successfully!"
+msgstr "%s sėkmingai paleistas iš naujo!"
+
+msgid "%s webif disabled"
+msgstr "%s žiniatinklis išjungtas"
+
+msgid "(All readers)"
+msgstr "(Visi skaitytojai)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Rodyti tik skaitytuvą) (%s)"
+
+msgid "About"
+msgstr "Apie"
+
+msgid "Activate"
+msgstr "Suaktyvinti"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Konfigūracijos faile suaktyvinkite eilutę Įterpti:"
+
+msgid "Active clients"
+msgstr "Aktyvūs klientai"
+
+msgid "Add"
+msgstr "Pridėti"
+
+msgid "Add new CCcam line"
+msgstr "Pridėti naują CCcam eilutę"
+
+msgid "Add new NewCamd line"
+msgstr "Pridėti naują NewCamd eilutę"
+
+msgid "Address"
+msgstr "Adresas"
+
+msgid "All"
+msgstr "Visi"
+
+msgid "An error occurred in the green function."
+msgstr "Žaliojoje funkcijoje įvyko klaida."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Įvyko netikėta klaida: %s"
+
+msgid "Ask all caid"
+msgstr "Paklausk visų"
+
+msgid "Ask for the selection caid"
+msgstr "Paklauskite atrankos pagalbos"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Automatiškai atnaujinti kliento / serverio rodinį?"
+
+msgid "Available shares:"
+msgstr "Galimos akcijos:"
+
+msgid "Back"
+msgstr "Atgal"
+
+msgid "Backup failed!"
+msgstr "Nepavyko sukurti atsarginės kopijos!"
+
+msgid "Backup restoration failed!"
+msgstr "Nepavyko atkurti atsarginės kopijos!"
+
+msgid "CCPrioMaker Settings"
+msgstr "„CCPrioMaker“ nustatymai"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker automatinis paleidimas"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam klientų informacija"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam konfigūracijos jungiklis"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM informacija"
+
+msgid "CCcam Info"
+msgstr "CCcam informacija"
+
+msgid "CCcam Info %s"
+msgstr "CCcam informacija %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam informacijos konfigūracija"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam informacijos konfigūracijos meniu"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam linijos redagavimo veiksmai"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam linijos redaktorius"
+
+msgid "CCcam Organizer"
+msgstr "CCcam organizatorius"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam teikėjo informacija"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam nuotolinė informacija"
+
+msgid "CCcam Server Info"
+msgstr "CCcam serverio informacija"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Pasidalinkite informacija"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam dalijasi informacija"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg pagrindinė eilutės rengyklė"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo negalima"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "Caidas"
+
+msgid "Caid:"
+msgstr "Caidas:"
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Atsisiųsti kamerą"
+
+msgid "Cancel"
+msgstr "Atšaukti"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kortelės informacija (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kortelės:"
+
+msgid "Cards: 0"
+msgstr "Kortelės: 0"
+
+msgid "Cardserial"
+msgstr "Kortelių serija"
+
+msgid "Channel"
+msgstr "Kanalas"
+
+msgid "Channel Name"
+msgstr "Kanalo pavadinimas"
+
+msgid "Check Emm Send"
+msgstr "Patikrinkite „Emm Send“."
+
+msgid "Choose CCcam-Reader"
+msgstr "Pasirinkite CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Pasirinkite skaitytuvą"
+
+msgid "Cleanup error: %s"
+msgstr "Valymo klaida: %s"
+
+msgid "Client %s-%s"
+msgstr "Klientas %s-%s"
+
+msgid "Clients"
+msgstr "Klientai"
+
+msgid "Close"
+msgstr "Uždaryti"
+
+msgid "Command Cancelled"
+msgstr "Komanda atšaukta"
+
+msgid "Configfile %s saved."
+msgstr "Konfigūracijos failas %s išsaugotas."
+
+msgid "Connected clients"
+msgstr "Prisijungę klientai"
+
+msgid "Connected:"
+msgstr "Prisijungta:"
+
+msgid "Content"
+msgstr "Turinys"
+
+msgid "Could not open the file %s!"
+msgstr "Nepavyko atidaryti failo %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Nepavyko atidaryti failo %s! Klaida: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Nepavyko išsaugoti konfigūracijos failo %s! Klaida: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Nepavyko išsaugoti konfigūracijos failo! Klaida: %s"
+
+msgid "Current time"
+msgstr "Dabartinis laikas"
+
+msgid "Delete"
+msgstr "Ištrinti"
+
+msgid "Delete %s?"
+msgstr "Ištrinti %s?"
+
+msgid "Delete Peer"
+msgstr "Ištrinti Peer"
+
+msgid "Delete failed!"
+msgstr "Nepavyko ištrinti!"
+
+msgid "Deleted %s!"
+msgstr "Ištrinta %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Ar įdiegiate šį papildinį?"
+
+msgid "Do you want to execute the command?"
+msgstr "Ar norite vykdyti komandą?"
+
+msgid "Do you want to remove?"
+msgstr "Ar norite pašalinti?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Ar norite iš naujo paleisti „Gui Interface“?"
+
+msgid "ECM data format error"
+msgstr "ECM duomenų formato klaida"
+
+msgid "ECM error"
+msgstr "ECM klaida"
+
+msgid "ECM file empty"
+msgstr "ECM failas tuščias"
+
+msgid "ECM file not found"
+msgstr "ECM failas nerastas"
+
+msgid "ECM read error"
+msgstr "ECM skaitymo klaida"
+
+msgid "Ecm Info"
+msgstr "Ecm informacija"
+
+msgid "Ecm Statistics"
+msgstr "ECM statistika"
+
+msgid "Ecm Time"
+msgstr "Ecm laikas"
+
+msgid "Ecm avg"
+msgstr "ECM vid"
+
+msgid "Ecm last"
+msgstr "Ecm paskutinis"
+
+msgid "Edit"
+msgstr "Redaguoti"
+
+msgid "Editing one caid"
+msgstr "Redaguoti vieną kaidą"
+
+msgid "Emm Info"
+msgstr "Erm informacija"
+
+msgid "Entitlements"
+msgstr "Teisės"
+
+msgid "Error"
+msgstr "Klaida"
+
+msgid "Error executing update script: %s"
+msgstr "Klaida vykdant naujinimo scenarijų: %s"
+
+msgid "Error getting resource information"
+msgstr "Klaida gaunant išteklių informaciją"
+
+msgid "Error loading system info:"
+msgstr "Klaida įkeliant sistemos informaciją:"
+
+msgid "Error loading system information:"
+msgstr "Klaida įkeliant sistemos informaciją:"
+
+msgid "Error opening cam info: %s"
+msgstr "Klaida atidarant kameros informaciją: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Klaida atidarant konfigūracijos failą: %s"
+
+msgid "Error processing HTML!"
+msgstr "Apdorojant HTML įvyko klaida!"
+
+msgid "Error processing server addons data"
+msgstr "Apdorojant serverio priedų duomenis įvyko klaida"
+
+msgid "Error reading webpage!"
+msgstr "Klaida skaitant tinklalapį!"
+
+msgid "Error stopping %s!"
+msgstr "Klaida sustabdant %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Klaida redaguojant konfigūraciją: %s"
+
+msgid "Exit"
+msgstr "Išeiti"
+
+msgid "Extended Shares"
+msgstr "Išplėstinės akcijos"
+
+msgid "Failed to revert file: %s"
+msgstr "Nepavyko grąžinti failo: %s"
+
+msgid "Find Fakes"
+msgstr "Raskite klastotes"
+
+msgid "Force Update"
+msgstr "Priverstinis atnaujinimas"
+
+msgid "Free memory"
+msgstr "Laisva atmintis"
+
+msgid "Free memory:"
+msgstr "Laisva atmintis:"
+
+msgid "Free:"
+msgstr "Nemokamai:"
+
+msgid "General"
+msgstr "Generolas"
+
+msgid "Get Link"
+msgstr "Gaukite nuorodą"
+
+msgid "Getting the list, please wait ..."
+msgstr "Gaunamas sąrašas, palaukite..."
+
+msgid "Help"
+msgstr "Pagalba"
+
+msgid "Hops"
+msgstr "Apyniai"
+
+msgid "Hops:"
+msgstr "Apyniai:"
+
+msgid "Hostname:"
+msgstr "Pagrindinio kompiuterio pavadinimas:"
+
+msgid "IP Address"
+msgstr "IP adresas"
+
+msgid "IP address"
+msgstr "IP adresas"
+
+msgid "Idle Time:"
+msgstr "Tuščiosios eigos laikas:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Jei aktyvus: atsisiųskite / iš naujo nustatykite serverio konfigūraciją"
+
+msgid "Install Cam first!!!"
+msgstr "Pirmiausia įdiekite kamerą!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Įdiegti kūrėjo naujinį (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Netinkamas HTML turinys!"
+
+msgid "Invalid URL!"
+msgstr "Netinkamas URL!"
+
+msgid "Last Req."
+msgstr "Paskutinė užklausa"
+
+msgid "Last used share:"
+msgstr "Paskutinį kartą naudotas bendrinimas:"
+
+msgid "Load"
+msgstr "Įkelti"
+
+msgid "Local box"
+msgstr "Vietinė dėžutė"
+
+msgid "Location"
+msgstr "Vieta"
+
+msgid "Log"
+msgstr "Žurnalas"
+
+msgid "Log %s-%s"
+msgstr "Prisijungti %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENIU EMM / SERVER CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Meniu konfigūracija"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo nepasiekiama"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam neveikia – paleiskite Cam, kad gautumėte informaciją."
+
+msgid "New"
+msgstr "Nauja"
+
+msgid "New profile:"
+msgstr ""
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Nėra ECM duomenų"
+
+msgid "No ECM data - Timeout"
+msgstr ""
+
+msgid "No ECM file"
+msgstr "Nėra ECM failo"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Šiuo metu ECM informacijos nėra. Tai galima tik iššifruojant."
+
+msgid "No active cam to restart!"
+msgstr "Nėra aktyvios kameros, kurią būtų galima paleisti iš naujo!"
+
+msgid "No backups available!"
+msgstr "Nėra atsarginių kopijų!"
+
+msgid "No card inserted!"
+msgstr "Kortelė neįdėta!"
+
+msgid "No softcams available!"
+msgstr "Programinių kamerų nėra!"
+
+msgid "No valid backups found!"
+msgstr "Nerasta galiojančių atsarginių kopijų!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr "Mazgo ID:"
+
+msgid "OK"
+msgstr "Gerai"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Baigėsi OSCam atnaujinimo laikas. Išsamesnės informacijos ieškokite /tmp/oscam_update.log."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo nepasiekiama"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "„Oscam“ neveikia – paleiskite „Cam“, kad gautumėte informaciją."
+
+msgid "PRESS RETURN"
+msgstr "SPAUSKITE GRĄŽINTI"
+
+msgid "Password"
+msgstr "Slaptažodis"
+
+msgid "Password (httpwd)"
+msgstr "Slaptažodis (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Didžiausia apkrova (maks. užklausų eilėje vienai darbuotojo gijai)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Nustatyti iš naujo – nėra failo CFG"
+
+msgid "Please select ..."
+msgstr "Prašome pasirinkti..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Pasirinkite eilutę, kurią norite redaguoti, arba pasirinkite pridėti, kad sukurtumėte naują eilutę."
+
+msgid "Please wait, %s."
+msgstr "Palaukite, %s."
+
+msgid "Port"
+msgstr "Uostas"
+
+msgid "Profile"
+msgstr "Profilis"
+
+msgid "Profile: Local box"
+msgstr "Profilis: Vietinė dėžutė"
+
+msgid "Protocol"
+msgstr "protokolas"
+
+msgid "Provider"
+msgstr "Teikėjas"
+
+msgid "Provider Name:"
+msgstr "Teikėjo pavadinimas:"
+
+msgid "Provider:"
+msgstr "Teikėjas:"
+
+msgid "Providers"
+msgstr "Teikėjai"
+
+msgid "Providers:"
+msgstr "Teikėjai:"
+
+msgid "Quick restart %s?"
+msgstr "Greitai iš naujo paleisti %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Skaityti vartotojo duomenis iš %s.conf"
+
+msgid "Reader"
+msgstr "Skaitytojas"
+
+msgid "Reader Statistics"
+msgstr "Skaitytojų statistika"
+
+msgid "Reader/User"
+msgstr "Skaitytojas/Naudotojas"
+
+msgid "Recover Peer"
+msgstr "Atkurti Peer"
+
+msgid "Remote box"
+msgstr "Nuotolinė dėžutė"
+
+msgid "Remove"
+msgstr "Pašalinti"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Pašalinkite eilutę iš CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Pašalinamas %s"
+
+msgid "Rename"
+msgstr "Pervardyti"
+
+msgid "Rename failed!"
+msgstr "Pervardyti nepavyko!"
+
+msgid "Rename to:"
+msgstr "Pervardyti į:"
+
+msgid "Renamed %s!"
+msgstr "Pervardyta %s!"
+
+msgid "Reset"
+msgstr "Nustatyti iš naujo"
+
+msgid "Reshare"
+msgstr "Bendrinti dar kartą"
+
+msgid "Reshare:"
+msgstr "Dalintis:"
+
+msgid "Resources"
+msgstr "Ištekliai"
+
+msgid "Restart GUI?"
+msgstr "Iš naujo paleisti GUI?"
+
+msgid "Restart error: %s"
+msgstr "Paleidimo iš naujo klaida: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Iš naujo paleisti programinę kamerą, kad būtų pritaikyta atkurta konfigūracija?"
+
+msgid "Save"
+msgstr "Išsaugoti"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Nuskaitomas ir gaunamas programinės įrangos sąrašas..."
+
+msgid "Select CCcam"
+msgstr "Pasirinkite CCcam"
+
+msgid "Select Get Link"
+msgstr "Pasirinkite Gauti nuorodą"
+
+msgid "Select Ncam"
+msgstr "Pasirinkite Ncam"
+
+msgid "Select OScam"
+msgstr "Pasirinkite OScam"
+
+msgid "Select Your Choice"
+msgstr "Pasirinkite savo pasirinkimą"
+
+msgid "Select a cam to run ..."
+msgstr "Pasirinkite kamerą, kurią norite paleisti..."
+
+msgid "Select and Install"
+msgstr "Pasirinkite ir įdiekite"
+
+msgid "Select backup to restore:"
+msgstr "Pasirinkite atsarginę kopiją, kurią norite atkurti:"
+
+msgid "Server %s-%s"
+msgstr "Serveris %s-%s"
+
+msgid "Server Config"
+msgstr "Serverio konfigūracija"
+
+msgid "Server Copy in"
+msgstr "Kopijuoti į serverį"
+
+msgid "Server Link"
+msgstr "Serverio nuoroda"
+
+msgid "Server Password"
+msgstr "Serverio slaptažodis"
+
+msgid "Server Port"
+msgstr "Serverio prievadas"
+
+msgid "Server URL"
+msgstr "Serverio URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Serverio URL, ty 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Serverio vartotojo vardas"
+
+msgid "Server:"
+msgstr "Serveris:"
+
+msgid "Servers"
+msgstr "Serveriai"
+
+msgid "Servers:"
+msgstr "Serveriai:"
+
+msgid "Service"
+msgstr "Aptarnavimas"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Nustatyti kaip UNIKALUS PEER"
+
+msgid "Setup"
+msgstr "Sąranka"
+
+msgid "Share View"
+msgstr "Bendrinti vaizdą"
+
+msgid "Shares"
+msgstr "Akcijos"
+
+msgid "Show Clients"
+msgstr "Rodyti klientus"
+
+msgid "Show Ecm info"
+msgstr "Rodyti ECM informaciją"
+
+msgid "Show Log"
+msgstr "Rodyti žurnalą"
+
+msgid "Show Readers/Proxies"
+msgstr "Rodyti skaitytuvus / įgaliotuosius serverius"
+
+msgid "Softcam Manager"
+msgstr "„Softcam Manager“."
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam iš naujo paleista su nauja konfigūracija!"
+
+msgid "Start"
+msgstr "Pradėti"
+
+msgid "Status"
+msgstr "Būsena"
+
+msgid "Stop"
+msgstr "Sustok"
+
+msgid "Stop Finding Fakes"
+msgstr "Nustokite ieškoti klastotės"
+
+msgid "Switch config"
+msgstr "Perjungti konfigūraciją"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System cleanup completed!"
+msgstr "Sistemos valymas baigtas!"
+
+msgid "System:"
+msgstr "Sistema:"
+
+msgid "Temporarely DELETED"
+msgstr "Laikinai IŠTRINTA"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Šis papildinys parodo jūsų CCcam būseną"
+
+msgid "Total"
+msgstr "Iš viso"
+
+msgid "Total cards:"
+msgstr "Iš viso kortelių:"
+
+msgid "Total handled client ecm's"
+msgstr "Iš viso tvarkomų klientų ECM"
+
+msgid "Total handled client emm's"
+msgstr "Iš viso tvarkomų klientų emm"
+
+msgid "Total:"
+msgstr "Iš viso:"
+
+msgid "Try again later ..."
+msgstr "Vėliau bandykite dar kartą..."
+
+msgid "Type:"
+msgstr "Tipas:"
+
+msgid "UNDELETED"
+msgstr "ATŠALINTAS"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Nepavyko padaryti scenarijaus vykdomo: %s"
+
+msgid "Unknow Image!"
+msgstr "Nežinomas vaizdas!"
+
+msgid "Update"
+msgstr "Atnaujinti"
+
+msgid "Update Aborted!"
+msgstr "Atnaujinimas nutrauktas!"
+
+msgid "Update interval (in seconds)"
+msgstr "Atnaujinimo intervalas (sekundėmis)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Veiklos laikas"
+
+msgid "Used:"
+msgstr "Naudota:"
+
+msgid "Username"
+msgstr "Vartotojo vardas"
+
+msgid "Username (httpuser)"
+msgstr "Vartotojo vardas (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Naudojant seną profilį:"
+
+msgid "Version:"
+msgstr "Versija:"
+
+msgid "Wait please..."
+msgstr "Palauk prašau..."
+
+msgid "Write"
+msgstr "Rašyti"
+
+msgid "Write-Debug"
+msgstr "Rašymas – derinimas"
+
+msgid "You have the latest version!"
+msgstr "Turite naujausią versiją!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tPateikti:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a NIEKO.TO.UNELE"
+
+msgid "address:"
+msgstr "adresas:"
+
+msgid "and"
+msgstr "ir"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kortelę"
+
+msgid "card reader"
+msgstr "kortelių skaitytuvas"
+
+msgid "close share view"
+msgstr "uždaryti bendrinimo vaizdą"
+
+msgid "decrease uphop by 1"
+msgstr "sumažinti uphop 1"
+
+msgid "ecm time:"
+msgstr "ECM laikas:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "gauti kortelių serverį"
+
+msgid "handled"
+msgstr "tvarkomi"
+
+msgid "hops:"
+msgstr "apyniai:"
+
+msgid "increase uphop by 1"
+msgstr "padidinti uphop 1"
+
+msgid "info"
+msgstr "informacija"
+
+msgid "no or unknown card inserted"
+msgstr "neįdėta kortelė arba ji nežinoma"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "pateikti:"
+
+msgid "provider:"
+msgstr "teikėjas:"
+
+msgid "share:"
+msgstr "dalintis:"
+
+msgid "show all cards"
+msgstr "rodyti visas korteles"
+
+msgid "show cards with uphop 0"
+msgstr "rodyti korteles su uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "rodyti korteles su uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "rodyti korteles su uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "rodyti korteles su uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "rodyti korteles su uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "rodyti korteles su uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "rodyti korteles su uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "rodyti korteles su uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "rodyti korteles su uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "rodyti korteles su uphop 9"
+
+msgid "system:"
+msgstr "sistema:"
+
+msgid "using:"
+msgstr "naudojant:"
+
+msgid "xLine"
+msgstr ""

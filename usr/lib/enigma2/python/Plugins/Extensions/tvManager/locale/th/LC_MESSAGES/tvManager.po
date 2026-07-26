@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 02:30+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Thai <(nothing)>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s การ์ด )"
+
+msgid "%s Info - Configuration"
+msgstr "ข้อมูล %s - การกำหนดค่า"
+
+msgid "%s Info - Main Menu"
+msgstr "ข้อมูล %s - เมนูหลัก"
+
+msgid "%s restarted successfully!"
+msgstr "%s เริ่มต้นใหม่สำเร็จแล้ว!"
+
+msgid "%s webif disabled"
+msgstr "%s webif ถูกปิดใช้งาน"
+
+msgid "(All readers)"
+msgstr "(นักอ่านทุกท่าน)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(แสดงเฉพาะผู้อ่าน) (%s)"
+
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+msgid "Activate"
+msgstr "เปิดใช้งาน"
+
+msgid "Activate Insert line in Config File:"
+msgstr "เปิดใช้งานบรรทัดแทรกในไฟล์กำหนดค่า:"
+
+msgid "Active clients"
+msgstr "ลูกค้าที่ใช้งานอยู่"
+
+msgid "Add"
+msgstr "เพิ่ม"
+
+msgid "Add new CCcam line"
+msgstr "เพิ่มบรรทัด CCcam ใหม่"
+
+msgid "Add new NewCamd line"
+msgstr "เพิ่มบรรทัด NewCamd ใหม่"
+
+msgid "Address"
+msgstr "ที่อยู่"
+
+msgid "All"
+msgstr "ทั้งหมด"
+
+msgid "An error occurred in the green function."
+msgstr "เกิดข้อผิดพลาดในฟังก์ชันสีเขียว"
+
+msgid "An unexpected error occurred: %s"
+msgstr "เกิดข้อผิดพลาดที่ไม่คาดคิด: %s"
+
+msgid "Ask all caid"
+msgstr "ถามเคดทั้งหมดสิ"
+
+msgid "Ask for the selection caid"
+msgstr "สอบถามการเลือกเคด"
+
+msgid "Automatically update Client/Server View?"
+msgstr "อัปเดตมุมมองไคลเอ็นต์/เซิร์ฟเวอร์โดยอัตโนมัติหรือไม่"
+
+msgid "Available shares:"
+msgstr "จำนวนหุ้นที่มีอยู่:"
+
+msgid "Back"
+msgstr "กลับ"
+
+msgid "Backup failed!"
+msgstr "การสำรองข้อมูลล้มเหลว!"
+
+msgid "Backup restoration failed!"
+msgstr "การกู้คืนข้อมูลสำรองล้มเหลว!"
+
+msgid "CCPrioMaker Settings"
+msgstr "การตั้งค่า CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker เริ่มอัตโนมัติ"
+
+msgid "CCcam"
+msgstr "ซีซีแคม"
+
+msgid "CCcam Clients Info"
+msgstr "ข้อมูลลูกค้า CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "ตัวสลับการกำหนดค่า CCcam"
+
+msgid "CCcam ECM Info"
+msgstr "ข้อมูล CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "ข้อมูล CCcam"
+
+msgid "CCcam Info %s"
+msgstr "ข้อมูล CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "การกำหนดค่าข้อมูล CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "เมนูกำหนดค่าข้อมูล CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "การดำเนินการแก้ไขบรรทัด CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "โปรแกรมแก้ไขบรรทัด CCcam"
+
+msgid "CCcam Organizer"
+msgstr "ผู้จัด CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "ข้อมูลผู้ให้บริการ CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "ข้อมูลระยะไกล CCcam"
+
+msgid "CCcam Server Info"
+msgstr "ข้อมูลเซิร์ฟเวอร์ CCcam"
+
+msgid "CCcam Share Info"
+msgstr "CCcam แบ่งปันข้อมูล"
+
+msgid "CCcam Shares Info"
+msgstr "ข้อมูลหุ้น CCcam"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg โปรแกรมแก้ไขบรรทัดพื้นฐาน"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo ไม่พร้อมใช้งาน"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "เคด"
+
+msgid "Caid:"
+msgstr "เคด:"
+
+msgid "Caid:Srvid"
+msgstr "เคด: เซอร์วิด"
+
+msgid "Cam Download"
+msgstr "ดาวน์โหลดแคม"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "ข้อมูลการ์ด (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "การ์ด:"
+
+msgid "Cards: 0"
+msgstr "การ์ด: 0"
+
+msgid "Cardserial"
+msgstr "การ์ดซีเรียล"
+
+msgid "Channel"
+msgstr "ช่อง"
+
+msgid "Channel Name"
+msgstr "ชื่อช่อง"
+
+msgid "Check Emm Send"
+msgstr "ตรวจสอบเอ็มเอ็มส่ง"
+
+msgid "Choose CCcam-Reader"
+msgstr "เลือก CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "เลือกผู้อ่าน"
+
+msgid "Cleanup error: %s"
+msgstr "ข้อผิดพลาดในการล้างข้อมูล: %s"
+
+msgid "Client %s-%s"
+msgstr "ลูกค้า %s-%s"
+
+msgid "Clients"
+msgstr "ลูกค้า"
+
+msgid "Close"
+msgstr "ปิด"
+
+msgid "Command Cancelled"
+msgstr "คำสั่งถูกยกเลิก"
+
+msgid "Configfile %s saved."
+msgstr "บันทึกไฟล์กำหนดค่า %s แล้ว"
+
+msgid "Connected clients"
+msgstr "ลูกค้าที่เชื่อมต่อ"
+
+msgid "Connected:"
+msgstr "เชื่อมต่อแล้ว:"
+
+msgid "Content"
+msgstr "เนื้อหา"
+
+msgid "Could not open the file %s!"
+msgstr "ไม่สามารถเปิดไฟล์ %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "ไม่สามารถเปิดไฟล์ %s! ข้อผิดพลาด: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "ไม่สามารถบันทึกไฟล์ configfile %s ได้! ข้อผิดพลาด: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "ไม่สามารถบันทึกไฟล์กำหนดค่าได้! ข้อผิดพลาด: %s"
+
+msgid "Current time"
+msgstr "เวลาปัจจุบัน"
+
+msgid "Delete"
+msgstr "ลบ"
+
+msgid "Delete %s?"
+msgstr "ลบ %s?"
+
+msgid "Delete Peer"
+msgstr "ลบเพียร์"
+
+msgid "Delete failed!"
+msgstr "ลบไม่สำเร็จ!"
+
+msgid "Deleted %s!"
+msgstr "ลบ %s แล้ว!"
+
+msgid "Do you install this plugin ?"
+msgstr "คุณติดตั้งปลั๊กอินนี้หรือไม่?"
+
+msgid "Do you want to execute the command?"
+msgstr "คุณต้องการดำเนินการคำสั่งหรือไม่?"
+
+msgid "Do you want to remove?"
+msgstr "คุณต้องการลบออกหรือไม่?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "คุณต้องการรีสตาร์ทอินเทอร์เฟซ Gui หรือไม่"
+
+msgid "ECM data format error"
+msgstr "ข้อผิดพลาดรูปแบบข้อมูล ECM"
+
+msgid "ECM error"
+msgstr "ข้อผิดพลาดอีซีเอ็ม"
+
+msgid "ECM file empty"
+msgstr "ไฟล์ ECM ว่างเปล่า"
+
+msgid "ECM file not found"
+msgstr "ไม่พบไฟล์ ECM"
+
+msgid "ECM read error"
+msgstr "ข้อผิดพลาดในการอ่าน ECM"
+
+msgid "Ecm Info"
+msgstr "ข้อมูลอีซีเอ็ม"
+
+msgid "Ecm Statistics"
+msgstr "สถิติอีซีเอ็ม"
+
+msgid "Ecm Time"
+msgstr "เอมไทม์"
+
+msgid "Ecm avg"
+msgstr "ค่าเฉลี่ย ECM"
+
+msgid "Ecm last"
+msgstr "เอิ่ม สุดท้าย"
+
+msgid "Edit"
+msgstr "แก้ไข"
+
+msgid "Editing one caid"
+msgstr "แก้ไขหนึ่ง caid"
+
+msgid "Emm Info"
+msgstr "เอิ่ม ข้อมูล"
+
+msgid "Entitlements"
+msgstr "สิทธิ"
+
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgid "Error executing update script: %s"
+msgstr "เกิดข้อผิดพลาดในการรันสคริปต์อัพเดต: %s"
+
+msgid "Error getting resource information"
+msgstr "เกิดข้อผิดพลาดในการรับข้อมูลทรัพยากร"
+
+msgid "Error loading system info:"
+msgstr "เกิดข้อผิดพลาดในการโหลดข้อมูลระบบ:"
+
+msgid "Error loading system information:"
+msgstr "เกิดข้อผิดพลาดในการโหลดข้อมูลระบบ:"
+
+msgid "Error opening cam info: %s"
+msgstr "เกิดข้อผิดพลาดในการเปิดข้อมูลลูกเบี้ยว: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "เกิดข้อผิดพลาดในการเปิดไฟล์การกำหนดค่า: %s"
+
+msgid "Error processing HTML!"
+msgstr "เกิดข้อผิดพลาดในการประมวลผล HTML!"
+
+msgid "Error processing server addons data"
+msgstr "เกิดข้อผิดพลาดในการประมวลผลข้อมูลส่วนเสริมของเซิร์ฟเวอร์"
+
+msgid "Error reading webpage!"
+msgstr "เกิดข้อผิดพลาดในการอ่านหน้าเว็บ!"
+
+msgid "Error stopping %s!"
+msgstr "เกิดข้อผิดพลาดในการหยุด %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "เกิดข้อผิดพลาดขณะแก้ไขการกำหนดค่า: %s"
+
+msgid "Exit"
+msgstr "ออก"
+
+msgid "Extended Shares"
+msgstr "หุ้นขยาย"
+
+msgid "Failed to revert file: %s"
+msgstr "ไม่สามารถแปลงไฟล์กลับ: %s"
+
+msgid "Find Fakes"
+msgstr "ค้นหาของปลอม"
+
+msgid "Force Update"
+msgstr "บังคับให้อัปเดต"
+
+msgid "Free memory"
+msgstr "หน่วยความจำฟรี"
+
+msgid "Free memory:"
+msgstr "หน่วยความจำว่าง:"
+
+msgid "Free:"
+msgstr "ฟรี:"
+
+msgid "General"
+msgstr "ทั่วไป"
+
+msgid "Get Link"
+msgstr "รับลิงค์"
+
+msgid "Getting the list, please wait ..."
+msgstr "กำลังรับรายชื่อ กรุณารอสักครู่..."
+
+msgid "Help"
+msgstr "ช่วย"
+
+msgid "Hops"
+msgstr "ฮอปส์"
+
+msgid "Hops:"
+msgstr "ฮอปส์:"
+
+msgid "Hostname:"
+msgstr "ชื่อโฮสต์:"
+
+msgid "IP Address"
+msgstr "ที่อยู่ IP"
+
+msgid "IP address"
+msgstr "ที่อยู่ IP"
+
+msgid "Idle Time:"
+msgstr "เวลาว่าง:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "หากใช้งานอยู่: ดาวน์โหลด/รีเซ็ตการกำหนดค่าเซิร์ฟเวอร์"
+
+msgid "Install Cam first!!!"
+msgstr "ติดตั้ง Cam ก่อน!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "ติดตั้งการอัปเดตสำหรับนักพัฒนา (%s) หรือไม่"
+
+msgid "Invalid HTML content!"
+msgstr "เนื้อหา HTML ไม่ถูกต้อง!"
+
+msgid "Invalid URL!"
+msgstr "URL ไม่ถูกต้อง!"
+
+msgid "Last Req."
+msgstr "คำขอล่าสุด"
+
+msgid "Last used share:"
+msgstr "แชร์ที่ใช้ล่าสุด:"
+
+msgid "Load"
+msgstr "โหลด"
+
+msgid "Local box"
+msgstr "กล่องท้องถิ่น"
+
+msgid "Location"
+msgstr "ที่ตั้ง"
+
+msgid "Log"
+msgstr "บันทึก"
+
+msgid "Log %s-%s"
+msgstr "บันทึก %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "เมนู EMM / เซิร์ฟเวอร์ไคลน์"
+
+msgid "Maxdown +"
+msgstr "แม็กซ์ดาวน์+"
+
+msgid "Maxdown -"
+msgstr "แม็กซ์ดาวน์ -"
+
+msgid "Maxdown:"
+msgstr "แม็กซ์ดาวน์:"
+
+msgid "Menu config"
+msgstr "การกำหนดค่าเมนู"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo ไม่พร้อมใช้งาน"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ไม่ทำงาน - เริ่ม Cam เพื่อรับข้อมูล"
+
+msgid "New"
+msgstr "ใหม่"
+
+msgid "New profile:"
+msgstr "โปรไฟล์ใหม่:"
+
+msgid "NewCamd"
+msgstr "ใหม่Camd"
+
+msgid "No ECM data"
+msgstr "ไม่มีข้อมูล ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "ไม่มีข้อมูล ECM - หมดเวลา"
+
+msgid "No ECM file"
+msgstr "ไม่มีไฟล์ ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ไม่มีข้อมูล ECM ในขณะนี้ สิ่งนี้ใช้ได้เฉพาะในขณะที่ถอดรหัสเท่านั้น"
+
+msgid "No active cam to restart!"
+msgstr "ไม่มีลูกเบี้ยวที่ใช้งานอยู่ให้รีสตาร์ท!"
+
+msgid "No backups available!"
+msgstr "ไม่มีข้อมูลสำรอง!"
+
+msgid "No card inserted!"
+msgstr "ไม่ได้ใส่การ์ด!"
+
+msgid "No softcams available!"
+msgstr "ไม่มีซอฟท์แคม!"
+
+msgid "No valid backups found!"
+msgstr "ไม่พบข้อมูลสำรองที่ถูกต้อง!"
+
+msgid "NodeID"
+msgstr "โหนดไอดี"
+
+msgid "NodeID:"
+msgstr "รหัสโหนด:"
+
+msgid "OK"
+msgstr "ตกลง"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "การอัปเดต OSCam หมดเวลา ตรวจสอบ /tmp/oscam_update.log เพื่อดูรายละเอียด"
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo ไม่พร้อมใช้งาน"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ไม่ทำงาน - เริ่ม Cam เพื่อรับข้อมูล"
+
+msgid "PRESS RETURN"
+msgstr "กดส่งคืน"
+
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+msgid "Password (httpwd)"
+msgstr "รหัสผ่าน (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "โหลดสูงสุด (คำขอเข้าคิวสูงสุดต่อเธรดของผู้ปฏิบัติงาน)"
+
+msgid "Pid"
+msgstr "ปิ๊ด"
+
+msgid "Please Reset - No File CFG"
+msgstr "กรุณารีเซ็ต - ไม่มีไฟล์ CFG"
+
+msgid "Please select ..."
+msgstr "กรุณาเลือก..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "โปรดเลือกบรรทัดที่จะแก้ไขหรือเลือกเพิ่มเพื่อสร้างบรรทัดใหม่"
+
+msgid "Please wait, %s."
+msgstr "กรุณารอสักครู่ %s"
+
+msgid "Port"
+msgstr "ท่าเรือ"
+
+msgid "Profile"
+msgstr "ประวัติโดยย่อ"
+
+msgid "Profile: Local box"
+msgstr "โปรไฟล์: กล่องท้องถิ่น"
+
+msgid "Protocol"
+msgstr "โปรโตคอล"
+
+msgid "Provider"
+msgstr "ผู้ให้บริการ"
+
+msgid "Provider Name:"
+msgstr "ชื่อผู้ให้บริการ:"
+
+msgid "Provider:"
+msgstr "ผู้ให้บริการ:"
+
+msgid "Providers"
+msgstr "ผู้ให้บริการ"
+
+msgid "Providers:"
+msgstr "ผู้ให้บริการ:"
+
+msgid "Quick restart %s?"
+msgstr "รีสตาร์ทด่วน %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "อ่านข้อมูลผู้ใช้จาก %s.conf"
+
+msgid "Reader"
+msgstr "ผู้อ่าน"
+
+msgid "Reader Statistics"
+msgstr "สถิติผู้อ่าน"
+
+msgid "Reader/User"
+msgstr "ผู้อ่าน/ผู้ใช้"
+
+msgid "Recover Peer"
+msgstr "กู้คืนเพียร์"
+
+msgid "Remote box"
+msgstr "กล่องรีโมท"
+
+msgid "Remove"
+msgstr "ลบ"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "ลบบรรทัดออกจาก CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "กำลังลบ %s"
+
+msgid "Rename"
+msgstr "เปลี่ยนชื่อ"
+
+msgid "Rename failed!"
+msgstr "การเปลี่ยนชื่อล้มเหลว!"
+
+msgid "Rename to:"
+msgstr "เปลี่ยนชื่อเป็น:"
+
+msgid "Renamed %s!"
+msgstr "เปลี่ยนชื่อ %s!"
+
+msgid "Reset"
+msgstr "รีเซ็ต"
+
+msgid "Reshare"
+msgstr "แบ่งปันต่อ"
+
+msgid "Reshare:"
+msgstr "แบ่งปัน:"
+
+msgid "Resources"
+msgstr "ทรัพยากร"
+
+msgid "Restart GUI?"
+msgstr "รีสตาร์ท GUI หรือไม่"
+
+msgid "Restart error: %s"
+msgstr "ข้อผิดพลาดในการรีสตาร์ท: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "รีสตาร์ทซอฟต์แคมเพื่อใช้การกำหนดค่าที่กู้คืนหรือไม่"
+
+msgid "Save"
+msgstr "บันทึก"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "กำลังสแกนและดึงรายการซอฟต์แคม ..."
+
+msgid "Select CCcam"
+msgstr "เลือก CCcam"
+
+msgid "Select Get Link"
+msgstr "เลือกรับลิงก์"
+
+msgid "Select Ncam"
+msgstr "เลือก Ncam"
+
+msgid "Select OScam"
+msgstr "เลือก OScam"
+
+msgid "Select Your Choice"
+msgstr "เลือกตัวเลือกของคุณ"
+
+msgid "Select a cam to run ..."
+msgstr "เลือกกล้องที่จะรัน ..."
+
+msgid "Select and Install"
+msgstr "เลือกและติดตั้ง"
+
+msgid "Select backup to restore:"
+msgstr "เลือกข้อมูลสำรองที่จะกู้คืน:"
+
+msgid "Server %s-%s"
+msgstr "เซิร์ฟเวอร์ %s-%s"
+
+msgid "Server Config"
+msgstr "การกำหนดค่าเซิร์ฟเวอร์"
+
+msgid "Server Copy in"
+msgstr "เซิร์ฟเวอร์คัดลอกเข้า"
+
+msgid "Server Link"
+msgstr "ลิงค์เซิร์ฟเวอร์"
+
+msgid "Server Password"
+msgstr "รหัสผ่านเซิร์ฟเวอร์"
+
+msgid "Server Port"
+msgstr "พอร์ตเซิร์ฟเวอร์"
+
+msgid "Server URL"
+msgstr "URL ของเซิร์ฟเวอร์"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "URL เซิร์ฟเวอร์ เช่น 012.345.678.900"
+
+msgid "Server Username"
+msgstr "ชื่อผู้ใช้เซิร์ฟเวอร์"
+
+msgid "Server:"
+msgstr "เซิร์ฟเวอร์:"
+
+msgid "Servers"
+msgstr "เซิร์ฟเวอร์"
+
+msgid "Servers:"
+msgstr "เซิร์ฟเวอร์:"
+
+msgid "Service"
+msgstr "บริการ"
+
+msgid "Set as UNIQUE PEER"
+msgstr "ตั้งเป็น UNIQUE PEER"
+
+msgid "Setup"
+msgstr "ตั้งค่า"
+
+msgid "Share View"
+msgstr "แบ่งปันมุมมอง"
+
+msgid "Shares"
+msgstr "หุ้น"
+
+msgid "Show Clients"
+msgstr "แสดงลูกค้า"
+
+msgid "Show Ecm info"
+msgstr "แสดงข้อมูล Ecm"
+
+msgid "Show Log"
+msgstr "แสดงบันทึก"
+
+msgid "Show Readers/Proxies"
+msgstr "แสดงผู้อ่าน/ผู้รับมอบฉันทะ"
+
+msgid "Softcam Manager"
+msgstr "ผู้จัดการซอฟท์แคม"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam รีสตาร์ทด้วยการกำหนดค่าใหม่!"
+
+msgid "Start"
+msgstr "เริ่ม"
+
+msgid "Status"
+msgstr "สถานะ"
+
+msgid "Stop"
+msgstr "หยุด"
+
+msgid "Stop Finding Fakes"
+msgstr "หยุดค้นหาของปลอม"
+
+msgid "Switch config"
+msgstr "สลับการกำหนดค่า"
+
+msgid "System"
+msgstr "ระบบ"
+
+msgid "System cleanup completed!"
+msgstr "การล้างข้อมูลระบบเสร็จสมบูรณ์!"
+
+msgid "System:"
+msgstr "ระบบ:"
+
+msgid "Temporarely DELETED"
+msgstr "ลบชั่วคราว"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "ปลั๊กอินนี้จะแสดงสถานะของ CCcam ของคุณ"
+
+msgid "Total"
+msgstr "ทั้งหมด"
+
+msgid "Total cards:"
+msgstr "จำนวนบัตรทั้งหมด:"
+
+msgid "Total handled client ecm's"
+msgstr "ecm ไคลเอ็นต์ที่ได้รับการจัดการทั้งหมด"
+
+msgid "Total handled client emm's"
+msgstr "Emm's ไคลเอ็นต์ที่ได้รับการจัดการทั้งหมด"
+
+msgid "Total:"
+msgstr "ทั้งหมด:"
+
+msgid "Try again later ..."
+msgstr "ลองอีกครั้งในภายหลัง ..."
+
+msgid "Type:"
+msgstr "พิมพ์:"
+
+msgid "UNDELETED"
+msgstr "ยกเลิกการลบ"
+
+msgid "Unable to make the script executable: %s"
+msgstr "ไม่สามารถทำให้สคริปต์ทำงานได้: %s"
+
+msgid "Unknow Image!"
+msgstr "ไม่รู้ภาพ!"
+
+msgid "Update"
+msgstr "อัปเดต"
+
+msgid "Update Aborted!"
+msgstr "การอัปเดตถูกยกเลิก!"
+
+msgid "Update interval (in seconds)"
+msgstr "ช่วงเวลาการอัปเดต (เป็นวินาที)"
+
+msgid "Uphops +"
+msgstr "อัพชอป +"
+
+msgid "Uphops -"
+msgstr "อัพชอป -"
+
+msgid "Uphops:"
+msgstr "อัพชอป:"
+
+msgid "Uptime"
+msgstr "เวลาทำงาน"
+
+msgid "Used:"
+msgstr "ใช้แล้ว:"
+
+msgid "Username"
+msgstr "ชื่อผู้ใช้"
+
+msgid "Username (httpuser)"
+msgstr "ชื่อผู้ใช้ (httpuser)"
+
+msgid "Using old profile:"
+msgstr "ใช้โปรไฟล์เก่า:"
+
+msgid "Version:"
+msgstr "เวอร์ชัน:"
+
+msgid "Wait please..."
+msgstr "กรุณารอสักครู่..."
+
+msgid "Write"
+msgstr "เขียน"
+
+msgid "Write-Debug"
+msgstr "เขียน-ดีบั๊ก"
+
+msgid "You have the latest version!"
+msgstr "คุณมีเวอร์ชันล่าสุดแล้ว!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tให้ไว้:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "ไม่มีอะไรที่จะยกเลิก"
+
+msgid "address:"
+msgstr "ที่อยู่:"
+
+msgid "and"
+msgstr "และ"
+
+msgid "caid:"
+msgstr "เคด:"
+
+msgid "card"
+msgstr "การ์ด"
+
+msgid "card reader"
+msgstr "เครื่องอ่านการ์ด"
+
+msgid "close share view"
+msgstr "ปิดมุมมองการแบ่งปัน"
+
+msgid "decrease uphop by 1"
+msgstr "ลดอัพฮอพลง 1"
+
+msgid "ecm time:"
+msgstr "เวลาอีซีเอ็ม:"
+
+msgid "ecm.info"
+msgstr "ecm.ข้อมูล"
+
+msgid "get the cards' server"
+msgstr "รับเซิร์ฟเวอร์การ์ด"
+
+msgid "handled"
+msgstr "จัดการ"
+
+msgid "hops:"
+msgstr "กระโดด:"
+
+msgid "increase uphop by 1"
+msgstr "เพิ่มขึ้น 1"
+
+msgid "info"
+msgstr "ข้อมูล"
+
+msgid "no or unknown card inserted"
+msgstr "ไม่มีหรือใส่การ์ดที่ไม่รู้จัก"
+
+msgid "pid:"
+msgstr "พีด:"
+
+msgid "provid:"
+msgstr "ให้:"
+
+msgid "provider:"
+msgstr "ผู้ให้บริการ:"
+
+msgid "share:"
+msgstr "แบ่งปัน:"
+
+msgid "show all cards"
+msgstr "แสดงการ์ดทั้งหมด"
+
+msgid "show cards with uphop 0"
+msgstr "แสดงการ์ดที่มี uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "แสดงการ์ดที่มี uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "แสดงการ์ดที่มี uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "แสดงการ์ดที่มี uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "แสดงการ์ดที่มี uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "แสดงการ์ดที่มี uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "แสดงการ์ดที่มี uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "แสดงการ์ดที่มี uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "แสดงการ์ดที่มี uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "แสดงการ์ดที่มี uphop 9"
+
+msgid "system:"
+msgstr "ระบบ:"
+
+msgid "using:"
+msgstr "โดยใช้:"
+
+msgid "xLine"
+msgstr "เอ็กซ์ไลน์"

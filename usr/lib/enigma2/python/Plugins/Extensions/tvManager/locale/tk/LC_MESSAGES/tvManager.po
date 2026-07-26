@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 02:34+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Turkmen\n"
+"Language: tk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "% s (% s Kartlar)"
+
+msgid "%s Info - Configuration"
+msgstr "% s Maglumat - Sazlama"
+
+msgid "%s Info - Main Menu"
+msgstr "% s Maglumat - Esasy menýu"
+
+msgid "%s restarted successfully!"
+msgstr "% s üstünlikli başlady!"
+
+msgid "%s webif disabled"
+msgstr "% s webif ýapyk"
+
+msgid "(All readers)"
+msgstr "(Readershli okyjylar)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Diňe okyjy görkez) (% s)"
+
+msgid "About"
+msgstr "Takmynan"
+
+msgid "Activate"
+msgstr "Işjeňleşdiriň"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Konfigurasiýa faýlynda goýmak setirini işjeňleşdiriň:"
+
+msgid "Active clients"
+msgstr "Işjeň müşderiler"
+
+msgid "Add"
+msgstr "Goş"
+
+msgid "Add new CCcam line"
+msgstr "Täze CCcam setir goşuň"
+
+msgid "Add new NewCamd line"
+msgstr "Täze NewCamd setirini goşuň"
+
+msgid "Address"
+msgstr "Salgysy"
+
+msgid "All"
+msgstr "Hemmesi"
+
+msgid "An error occurred in the green function."
+msgstr "Greenaşyl funksiýada ýalňyşlyk ýüze çykdy."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Garaşylmadyk ýalňyşlyk ýüze çykdy:% s"
+
+msgid "Ask all caid"
+msgstr "Hemmesini soraň"
+
+msgid "Ask for the selection caid"
+msgstr "Saýlaw sebäbini soraň"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Müşderi / Serwer görnüşini awtomatiki täzeläňmi?"
+
+msgid "Available shares:"
+msgstr "Elýeterli paýnamalar:"
+
+msgid "Back"
+msgstr "Yzyna"
+
+msgid "Backup failed!"
+msgstr "Uptiýaçlyk şowsuz!"
+
+msgid "Backup restoration failed!"
+msgstr "Uptiýaçlyk dikeltmek başa barmady!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker sazlamalary"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker awtostart"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam müşderileri barada maglumat"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam kommutator"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM maglumatlary"
+
+msgid "CCcam Info"
+msgstr "CCcam maglumaty"
+
+msgid "CCcam Info %s"
+msgstr "CCcam maglumat% s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam maglumat konfigurasiýasy"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam Maglumatlary düzmek menýusy"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam setirini üýtgetmek hereketleri"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam setir redaktory"
+
+msgid "CCcam Organizer"
+msgstr "CCcam guramaçysy"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam üpjün ediji barada maglumat"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam uzakdaky maglumat"
+
+msgid "CCcam Server Info"
+msgstr "CCcam Serwer Maglumatlary"
+
+msgid "CCcam Share Info"
+msgstr "CCcam paýlaşma maglumatlary"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam maglumatlary paýlaşýar"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Esasy setir redaktory"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo elýeterli däl"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Kam ýüklemek"
+
+msgid "Cancel"
+msgstr "Elatyr"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kart maglumatlary (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kartlar:"
+
+msgid "Cards: 0"
+msgstr "Kartlar: 0"
+
+msgid "Cardserial"
+msgstr "Karderial"
+
+msgid "Channel"
+msgstr "Kanal"
+
+msgid "Channel Name"
+msgstr "Kanalyň ady"
+
+msgid "Check Emm Send"
+msgstr "Emm iberiň"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader saýlaň"
+
+msgid "Choose reader"
+msgstr "Okyjy saýlaň"
+
+msgid "Cleanup error: %s"
+msgstr "Arassalamak ýalňyşlygy:% s"
+
+msgid "Client %s-%s"
+msgstr "Müşderi% s-% s"
+
+msgid "Clients"
+msgstr "Müşderiler"
+
+msgid "Close"
+msgstr ".Akyn"
+
+msgid "Command Cancelled"
+msgstr "Buýruk ýatyryldy"
+
+msgid "Configfile %s saved."
+msgstr "Configfile% s ýatda saklandy."
+
+msgid "Connected clients"
+msgstr "Baglanan müşderiler"
+
+msgid "Connected:"
+msgstr "Birikdirilen:"
+
+msgid "Content"
+msgstr "Mazmuny"
+
+msgid "Could not open the file %s!"
+msgstr "% S faýly açyp bolmady!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "% S faýly açyp bolmady! Roralňyşlyk:% s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Configile% s-i ýatda saklap bolmady! Roralňyşlyk:% s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Sazlama faýlyny saklap bolmady! Roralňyşlyk:% s"
+
+msgid "Current time"
+msgstr "Häzirki wagt"
+
+msgid "Delete"
+msgstr "Öçür"
+
+msgid "Delete %s?"
+msgstr "% S pozuň?"
+
+msgid "Delete Peer"
+msgstr "Deer-i poz"
+
+msgid "Delete failed!"
+msgstr "Öçürmek şowsuz!"
+
+msgid "Deleted %s!"
+msgstr "Öçürildi% s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Bu plagini gurýarsyňyzmy?"
+
+msgid "Do you want to execute the command?"
+msgstr "Buýrugy ýerine ýetirmek isleýärsiňizmi?"
+
+msgid "Do you want to remove?"
+msgstr "Aýyrmak isleýärsiňizmi?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Gui interfeýsini täzeden açmak isleýärsiňizmi?"
+
+msgid "ECM data format error"
+msgstr "ECM maglumat format ýalňyşlygy"
+
+msgid "ECM error"
+msgstr "ECM ýalňyşlygy"
+
+msgid "ECM file empty"
+msgstr "ECM faýly boş"
+
+msgid "ECM file not found"
+msgstr "ECM faýly tapylmady"
+
+msgid "ECM read error"
+msgstr "ECM okalan säwlik"
+
+msgid "Ecm Info"
+msgstr "Ecm maglumaty"
+
+msgid "Ecm Statistics"
+msgstr "Ecm statistikasy"
+
+msgid "Ecm Time"
+msgstr "Ecm Wagt"
+
+msgid "Ecm avg"
+msgstr "Ortaça"
+
+msgid "Ecm last"
+msgstr "Ecm iň soňky"
+
+msgid "Edit"
+msgstr "Redaktirläň"
+
+msgid "Editing one caid"
+msgstr "Bir sebäbini redaktirlemek"
+
+msgid "Emm Info"
+msgstr "Erm maglumaty"
+
+msgid "Entitlements"
+msgstr "Kärhanalar"
+
+msgid "Error"
+msgstr "Roralňyşlyk"
+
+msgid "Error executing update script: %s"
+msgstr "Täzelenme skriptini ýerine ýetirmekde säwlik:% s"
+
+msgid "Error getting resource information"
+msgstr "Resurs maglumatlary almakda säwlik"
+
+msgid "Error loading system info:"
+msgstr "Ulgam maglumatyny ýüklemekde säwlik:"
+
+msgid "Error loading system information:"
+msgstr "Ulgam maglumatyny ýüklemekde säwlik:"
+
+msgid "Error opening cam info: %s"
+msgstr "Kameranyň maglumatlaryny açmakda säwlik:% s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Sazlama faýlyny açmakda säwlik:% s"
+
+msgid "Error processing HTML!"
+msgstr "HTML gaýtadan işlemekde säwlik!"
+
+msgid "Error processing server addons data"
+msgstr "Serwer maglumatlaryny gaýtadan işlemekde säwlik"
+
+msgid "Error reading webpage!"
+msgstr "Web sahypasyny okamakda ýalňyşlyk!"
+
+msgid "Error stopping %s!"
+msgstr "% S saklamakda säwlik!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Sazlamany redaktirlemekde säwlik:% s"
+
+msgid "Exit"
+msgstr "Çyk"
+
+msgid "Extended Shares"
+msgstr "Giňeldilen paýnamalar"
+
+msgid "Failed to revert file: %s"
+msgstr "Faýly yzyna gaýtaryp bilmedi:% s"
+
+msgid "Find Fakes"
+msgstr "Galplary tapyň"
+
+msgid "Force Update"
+msgstr "Güýç täzelenmesi"
+
+msgid "Free memory"
+msgstr "Mugt ýat"
+
+msgid "Free memory:"
+msgstr "Mugt ýat:"
+
+msgid "Free:"
+msgstr "Mugt:"
+
+msgid "General"
+msgstr ""
+
+msgid "Get Link"
+msgstr "Baglanyşyk alyň"
+
+msgid "Getting the list, please wait ..."
+msgstr "Sanawy almak üçin garaşyň ..."
+
+msgid "Help"
+msgstr "Kömek"
+
+msgid "Hops"
+msgstr ""
+
+msgid "Hops:"
+msgstr ""
+
+msgid "Hostname:"
+msgstr "Host ady:"
+
+msgid "IP Address"
+msgstr "IP salgysy"
+
+msgid "IP address"
+msgstr "IP adresi"
+
+msgid "Idle Time:"
+msgstr "Boş wagt:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Işjeň bolsa: Serwer konfigurasiýasyny göçürip alyň / täzeden düzüň"
+
+msgid "Install Cam first!!!"
+msgstr "Ilki bilen Kam guruň !!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Döredijiniň täzelenmesini (% s) guruň?"
+
+msgid "Invalid HTML content!"
+msgstr "Nädogry HTML mazmuny!"
+
+msgid "Invalid URL!"
+msgstr "Nädogry URL!"
+
+msgid "Last Req."
+msgstr "Soňky Req."
+
+msgid "Last used share:"
+msgstr "Iň soňky ulanylan paý:"
+
+msgid "Load"
+msgstr ".Ük"
+
+msgid "Local box"
+msgstr "Boxerli guty"
+
+msgid "Location"
+msgstr "Locationerleşýän ýeri"
+
+msgid "Log"
+msgstr "Hasaba gir"
+
+msgid "Log %s-%s"
+msgstr "% S-% s ýazyň"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM / HYZMAT KLINE"
+
+msgid "Maxdown +"
+msgstr "Maksdown +"
+
+msgid "Maxdown -"
+msgstr "Maksdaun -"
+
+msgid "Maxdown:"
+msgstr "Maksdaun:"
+
+msgid "Menu config"
+msgstr "Menýu sazlamasy"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo elýeterli däl"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam işlemeýär - maglumat almak üçin Kam-a başlaň."
+
+msgid "New"
+msgstr "Täze"
+
+msgid "New profile:"
+msgstr "Täze profil:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "ECM maglumatlary ýok"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM maglumatlary ýok - Wagt gutarýar"
+
+msgid "No ECM file"
+msgstr "ECM faýly ýok"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Häzirki wagtda hiç hili ECM maglumaty ýok. Bu diňe şifrlemek wagtynda elýeterlidir."
+
+msgid "No active cam to restart!"
+msgstr "Başlamak üçin işjeň kamera ýok!"
+
+msgid "No backups available!"
+msgstr "Uptiýaçlyk ýok!"
+
+msgid "No card inserted!"
+msgstr "Kart goýulmady!"
+
+msgid "No softcams available!"
+msgstr "Softumşak kameralar ýok!"
+
+msgid "No valid backups found!"
+msgstr "Dogry ätiýaçlyk tapylmady!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "Bolýar"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam täzelenmesi gutardy. Jikme-jiklikler üçin /tmp/oscam_update.log sahypasyna göz aýlaň."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo elýeterli däl"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oskam işlemeýär - maglumat almak üçin Kam-a başlaň."
+
+msgid "PRESS RETURN"
+msgstr "PRESS Gaýtarmak"
+
+msgid "Password"
+msgstr "Parol"
+
+msgid "Password (httpwd)"
+msgstr "Parol (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Iň ýokary ýük (her işçi başyna iň köp nobatdaky haýyşlar)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Täzeden düzmegiňizi haýyş edýäris - CFG faýly ýok"
+
+msgid "Please select ..."
+msgstr "Saýlaň ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Redaktirlemek ýa-da täze setir döretmek üçin goşmak saýlaň."
+
+msgid "Please wait, %s."
+msgstr "Garaşyň,% s."
+
+msgid "Port"
+msgstr ""
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile: Local box"
+msgstr "Profil: boxerli guty"
+
+msgid "Protocol"
+msgstr "Protokol"
+
+msgid "Provider"
+msgstr "Üpjün ediji"
+
+msgid "Provider Name:"
+msgstr "Üpjün edijiniň ady:"
+
+msgid "Provider:"
+msgstr "Üpjün ediji:"
+
+msgid "Providers"
+msgstr "Üpjün edijiler"
+
+msgid "Providers:"
+msgstr "Üpjün edijiler:"
+
+msgid "Quick restart %s?"
+msgstr "Çalt başlaň% s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Ulanyjy maglumatyny% s.conf-dan okaň"
+
+msgid "Reader"
+msgstr "Okyjy"
+
+msgid "Reader Statistics"
+msgstr "Okyjynyň statistikasy"
+
+msgid "Reader/User"
+msgstr "Okyjy / Ulanyjy"
+
+msgid "Recover Peer"
+msgstr "Deňdeşi dikelt"
+
+msgid "Remote box"
+msgstr "Uzakdan guty"
+
+msgid "Remove"
+msgstr "Aýyr"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Setiri CCcam.cfg-den aýyryň"
+
+msgid "Removing %s"
+msgstr "% S aýyrmak"
+
+msgid "Rename"
+msgstr "Adyny üýtgetmek"
+
+msgid "Rename failed!"
+msgstr "Adyny üýtgetmek şowsuz!"
+
+msgid "Rename to:"
+msgstr "Adyny üýtgetmek:"
+
+msgid "Renamed %s!"
+msgstr "% S üýtgedildi!"
+
+msgid "Reset"
+msgstr "Täzeden düzmek"
+
+msgid "Reshare"
+msgstr "Täzeden paýlaş"
+
+msgid "Reshare:"
+msgstr "Paýlaş:"
+
+msgid "Resources"
+msgstr "Çeşmeler"
+
+msgid "Restart GUI?"
+msgstr "GUI-ny täzeden açyň?"
+
+msgid "Restart error: %s"
+msgstr "Erroralňyşlygy täzeden başla:% s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Dikeldilen konfigurasiýany ulanmak üçin ýumşak kamerany täzeden açyň?"
+
+msgid "Save"
+msgstr "Saklaň"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Gözlemek we gözlemek sanawy ýumşak kamera ..."
+
+msgid "Select CCcam"
+msgstr "CCcam saýlaň"
+
+msgid "Select Get Link"
+msgstr "Baglanyşygy saýlaň"
+
+msgid "Select Ncam"
+msgstr "Ncam saýlaň"
+
+msgid "Select OScam"
+msgstr "OScam saýlaň"
+
+msgid "Select Your Choice"
+msgstr "Saýlawyňyzy saýlaň"
+
+msgid "Select a cam to run ..."
+msgstr "Işlemek üçin kamerany saýlaň ..."
+
+msgid "Select and Install"
+msgstr "Saýlaň we guruň"
+
+msgid "Select backup to restore:"
+msgstr "Dikeltmek üçin ätiýaçlyk nusgasyny saýlaň:"
+
+msgid "Server %s-%s"
+msgstr "Serwer% s-% s"
+
+msgid "Server Config"
+msgstr "Serwer konfigurasiýasy"
+
+msgid "Server Copy in"
+msgstr "Serwer göçüriň"
+
+msgid "Server Link"
+msgstr "Serwer baglanyşygy"
+
+msgid "Server Password"
+msgstr "Serwer paroly"
+
+msgid "Server Port"
+msgstr "Serwer porty"
+
+msgid "Server URL"
+msgstr "Serwer URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Serwer Url, ýagny 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Serwer ulanyjy ady"
+
+msgid "Server:"
+msgstr "Serwer:"
+
+msgid "Servers"
+msgstr "Serwerler"
+
+msgid "Servers:"
+msgstr "Serwerler:"
+
+msgid "Service"
+msgstr "Hyzmat"
+
+msgid "Set as UNIQUE PEER"
+msgstr "UNIQUE PEER hökmünde düzüň"
+
+msgid "Setup"
+msgstr "Gurnama"
+
+msgid "Share View"
+msgstr "Paýlaşma görnüşi"
+
+msgid "Shares"
+msgstr "Paýlar"
+
+msgid "Show Clients"
+msgstr "Müşderileri görkez"
+
+msgid "Show Ecm info"
+msgstr "Ecm maglumatyny görkez"
+
+msgid "Show Log"
+msgstr "Logurnal görkez"
+
+msgid "Show Readers/Proxies"
+msgstr "Okyjylary / wekilleri görkeziň"
+
+msgid "Softcam Manager"
+msgstr "Softcam dolandyryjysy"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam täze konfigurasiýa bilen täzeden başlady!"
+
+msgid "Start"
+msgstr "Başla"
+
+msgid "Status"
+msgstr ".Agdaý"
+
+msgid "Stop"
+msgstr "Dur"
+
+msgid "Stop Finding Fakes"
+msgstr "Galplary tapmagy bes ediň"
+
+msgid "Switch config"
+msgstr "Sazlaýjy"
+
+msgid "System"
+msgstr "Ulgam"
+
+msgid "System cleanup completed!"
+msgstr "Ulgamy arassalamak tamamlandy!"
+
+msgid "System:"
+msgstr "Ulgam:"
+
+msgid "Temporarely DELETED"
+msgstr "Wagtlaýyn öçürildi"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Bu plugin, CCcam-yň ýagdaýyny görkezýär"
+
+msgid "Total"
+msgstr "Jemi"
+
+msgid "Total cards:"
+msgstr "Jemi kartoçkalar:"
+
+msgid "Total handled client ecm's"
+msgstr "Jemi dolandyrylýan müşderi ecm"
+
+msgid "Total handled client emm's"
+msgstr "Jemi dolandyrylýan müşderi em"
+
+msgid "Total:"
+msgstr "Jemi:"
+
+msgid "Try again later ..."
+msgstr "Soňrak synanyşyň ..."
+
+msgid "Type:"
+msgstr "Görnüşi:"
+
+msgid "UNDELETED"
+msgstr "DÜZGÜN"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Scriptazgyny ýerine ýetirip bolmaýar:% s"
+
+msgid "Unknow Image!"
+msgstr "Bilmeýän surat!"
+
+msgid "Update"
+msgstr "Täzelen"
+
+msgid "Update Aborted!"
+msgstr "Täzelenme ýatyryldy!"
+
+msgid "Update interval (in seconds)"
+msgstr "Aralygy täzeläň (sekuntlarda)"
+
+msgid "Uphops +"
+msgstr "Dükanlar +"
+
+msgid "Uphops -"
+msgstr "Dükanlar -"
+
+msgid "Uphops:"
+msgstr "Dükanlar:"
+
+msgid "Uptime"
+msgstr "Iş wagty"
+
+msgid "Used:"
+msgstr "Ulanylan:"
+
+msgid "Username"
+msgstr "Ulanyjy ady"
+
+msgid "Username (httpuser)"
+msgstr "Ulanyjy ady (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Köne profil ulanmak:"
+
+msgid "Version:"
+msgstr "Wersiýa:"
+
+msgid "Wait please..."
+msgstr "Garaşyň haýyş ..."
+
+msgid "Write"
+msgstr "Writeaz"
+
+msgid "Write-Debug"
+msgstr "-Azmak-düzetmek"
+
+msgid "You have the latest version!"
+msgstr "Iň soňky wersiýaňyz bar!"
+
+msgid "\n"
+msgstr "\ n"
+
+msgid "\tProvid:"
+msgstr "\ tProvid:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "HÖKMAN.TO.UNDELE"
+
+msgid "address:"
+msgstr "Salgysy:"
+
+msgid "and"
+msgstr "we"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kartoçka"
+
+msgid "card reader"
+msgstr "kart okaýjy"
+
+msgid "close share view"
+msgstr "ýakyn paýlaşma görnüşi"
+
+msgid "decrease uphop by 1"
+msgstr "ýokarlandyrmagy 1-e azaltmak"
+
+msgid "ecm time:"
+msgstr "ecm wagty:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "kartoçkalaryň serwerini alyň"
+
+msgid "handled"
+msgstr "işledildi"
+
+msgid "hops:"
+msgstr ""
+
+msgid "increase uphop by 1"
+msgstr "artdyrmak 1-i artdyrmak"
+
+msgid "info"
+msgstr "maglumat"
+
+msgid "no or unknown card inserted"
+msgstr "ýok ýa-da näbelli kartoçka goýulmady"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "üpjün etmek:"
+
+msgid "provider:"
+msgstr "üpjün ediji:"
+
+msgid "share:"
+msgstr "paýlaş:"
+
+msgid "show all cards"
+msgstr "ähli kartoçkalary görkez"
+
+msgid "show cards with uphop 0"
+msgstr "0-lyk kartoçkalary görkeziň"
+
+msgid "show cards with uphop 1"
+msgstr "1-nji enjam bilen kartoçkalary görkeziň"
+
+msgid "show cards with uphop 2"
+msgstr "2-nji aýlawly kartoçkalary görkeziň"
+
+msgid "show cards with uphop 3"
+msgstr "3-nji enjam bilen kartoçkalary görkeziň"
+
+msgid "show cards with uphop 4"
+msgstr "4-nji aýlawly kartoçkalary görkeziň"
+
+msgid "show cards with uphop 5"
+msgstr "5-nji aýlawly kartoçkalary görkeziň"
+
+msgid "show cards with uphop 6"
+msgstr "6-njy aýlawly kartoçkalary görkeziň"
+
+msgid "show cards with uphop 7"
+msgstr "7-nji dükan bilen kartoçkalary görkeziň"
+
+msgid "show cards with uphop 8"
+msgstr "8-nji uphop bilen kartoçkalary görkeziň"
+
+msgid "show cards with uphop 9"
+msgstr "9-njy enjam bilen kartoçkalary görkeziň"
+
+msgid "system:"
+msgstr "ulgamy:"
+
+msgid "using:"
+msgstr "ulanyp:"
+
+msgid "xLine"
+msgstr ""

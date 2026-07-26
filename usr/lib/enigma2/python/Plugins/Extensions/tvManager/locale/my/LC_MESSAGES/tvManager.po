@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 01:04+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Burmese\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s ကတ်များ)"
+
+msgid "%s Info - Configuration"
+msgstr "%s အချက်အလက် - ဖွဲ့စည်းမှု"
+
+msgid "%s Info - Main Menu"
+msgstr "%s အချက်အလက် - ပင်မ မီနူး"
+
+msgid "%s restarted successfully!"
+msgstr "%s ကို အောင်မြင်စွာ ပြန်လည်စတင်ခဲ့သည်။"
+
+msgid "%s webif disabled"
+msgstr "%s webif ကို ပိတ်ထားသည်။"
+
+msgid "(All readers)"
+msgstr "(စာဖတ်သူအားလုံး)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(စာဖတ်သူကိုသာ ပြပါ) (%s)"
+
+msgid "About"
+msgstr "အကြောင်း"
+
+msgid "Activate"
+msgstr "အသက်သွင်းပါ။"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Config File တွင် Insert line ကို အသက်သွင်းပါ။"
+
+msgid "Active clients"
+msgstr "တက်ကြွသောဖောက်သည်များ"
+
+msgid "Add"
+msgstr "ထည့်ပါ။"
+
+msgid "Add new CCcam line"
+msgstr "CCcam လိုင်းအသစ်ထည့်ပါ။"
+
+msgid "Add new NewCamd line"
+msgstr "NewCamd လိုင်းအသစ်ထည့်ပါ။"
+
+msgid "Address"
+msgstr "လိပ်စာ"
+
+msgid "All"
+msgstr "အားလုံး"
+
+msgid "An error occurred in the green function."
+msgstr "အစိမ်းရောင်လုပ်ဆောင်ချက်တွင် အမှားအယွင်းတစ်ခု ဖြစ်ပေါ်ခဲ့သည်။"
+
+msgid "An unexpected error occurred: %s"
+msgstr "မမျှော်လင့်ထားသော အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်- %s"
+
+msgid "Ask all caid"
+msgstr "အားလုံးကို မေးပါရစေ"
+
+msgid "Ask for the selection caid"
+msgstr "ရွေးချယ်မှုကို တောင်းခံပါ။"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Client/Server View ကို အလိုအလျောက် အပ်ဒိတ်လုပ်မလား။"
+
+msgid "Available shares:"
+msgstr "ရနိုင်သော ရှယ်ယာများ-"
+
+msgid "Back"
+msgstr "ကျော"
+
+msgid "Backup failed!"
+msgstr "အရန်သိမ်းခြင်း မအောင်မြင်ပါ။"
+
+msgid "Backup restoration failed!"
+msgstr "အရန်သိမ်းခြင်းကို ပြန်လည်ရယူခြင်း မအောင်မြင်ပါ။"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCprioMaker ဆက်တင်များ"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker အလိုအလျောက်စတင်သည်။"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam ဖောက်သည်များ အချက်အလက်"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM အချက်အလက်"
+
+msgid "CCcam Info"
+msgstr "CCcam အချက်အလက်"
+
+msgid "CCcam Info %s"
+msgstr "CCcam အချက်အလက် %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam အချက်အလက် Config"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam အချက်အလက် Config Menu"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line တည်းဖြတ်လုပ်ဆောင်ချက်များ"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam လိုင်းတည်းဖြတ်သူ"
+
+msgid "CCcam Organizer"
+msgstr "CCcam စီစဉ်သူ"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam ပံ့ပိုးပေးသူ အချက်အလက်"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam အဝေးထိန်း အချက်အလက်"
+
+msgid "CCcam Server Info"
+msgstr "CCcam ဆာဗာအချက်အလက်"
+
+msgid "CCcam Share Info"
+msgstr "CCcam သတင်းအချက်အလက်မျှဝေပါ။"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam သည် အချက်အလက်မျှဝေသည်။"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg အခြေခံ လိုင်းတည်းဖြတ်သူ"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo မရနိုင်ပါ။"
+
+msgid "CaID:"
+msgstr "CaID-"
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr "Caid-"
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Cam ဒေါင်းလုဒ်လုပ်ပါ။"
+
+msgid "Cancel"
+msgstr "မလုပ်တော့"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "ကတ်အချက်အလက် (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "ကတ်များ-"
+
+msgid "Cards: 0"
+msgstr "ကတ်များ- 0"
+
+msgid "Cardserial"
+msgstr "ကတ်စီရယ်"
+
+msgid "Channel"
+msgstr "လက်ပံတန်း"
+
+msgid "Channel Name"
+msgstr "ချန်နယ်အမည်"
+
+msgid "Check Emm Send"
+msgstr "Emm Send ကိုစစ်ဆေးပါ။"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader ကို ရွေးပါ။"
+
+msgid "Choose reader"
+msgstr "စာဖတ်သူကိုရွေးချယ်ပါ။"
+
+msgid "Cleanup error: %s"
+msgstr "ရှင်းလင်းရေး အမှား- %s"
+
+msgid "Client %s-%s"
+msgstr "ဖောက်သည် %s-%s"
+
+msgid "Clients"
+msgstr "ဟိုဟာ"
+
+msgid "Close"
+msgstr "ပိတ်လိုက်"
+
+msgid "Command Cancelled"
+msgstr "အမိန့်ကို ပယ်ဖျက်လိုက်ပါပြီ။"
+
+msgid "Configfile %s saved."
+msgstr "Configfile %s ကို သိမ်းဆည်းပြီးပါပြီ။"
+
+msgid "Connected clients"
+msgstr "ချိတ်ဆက်ထားသော ဖောက်သည်များ"
+
+msgid "Connected:"
+msgstr "ချိတ်ဆက်ထားသည်-"
+
+msgid "Content"
+msgstr "အကြောင်းအရာ"
+
+msgid "Could not open the file %s!"
+msgstr "%s ဖိုင်ကို ဖွင့်၍မရပါ။"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "%s ဖိုင်ကို ဖွင့်၍မရပါ။ အမှား- %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "configfile %s ကို မသိမ်းဆည်းနိုင်ပါ။ အမှား- %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "config ဖိုင်ကို မသိမ်းဆည်းနိုင်ခဲ့ပါ။ အမှား- %s"
+
+msgid "Current time"
+msgstr "လက်ရှိအချိန်"
+
+msgid "Delete"
+msgstr "ဖျက်ပါ။"
+
+msgid "Delete %s?"
+msgstr "%s ကို ဖျက်မလား။"
+
+msgid "Delete Peer"
+msgstr "မျိုးတူချင်းကို ဖျက်ပါ။"
+
+msgid "Delete failed!"
+msgstr "ဖျက်၍မရပါ။"
+
+msgid "Deleted %s!"
+msgstr "%s ကို ဖျက်လိုက်ပါပြီ။"
+
+msgid "Do you install this plugin ?"
+msgstr "သင်သည် ဤပလပ်အင်ကို ထည့်သွင်းပါသလား။"
+
+msgid "Do you want to execute the command?"
+msgstr "အမိန့်ကို သင်လုပ်ဆောင်လိုပါသလား။"
+
+msgid "Do you want to remove?"
+msgstr "ဖယ်ရှားလိုပါသလား။"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Gui Interface ကို ပြန်လည်စတင်လိုပါသလား။"
+
+msgid "ECM data format error"
+msgstr "ECM ဒေတာဖော်မတ် အမှားအယွင်း"
+
+msgid "ECM error"
+msgstr "ECM အမှား"
+
+msgid "ECM file empty"
+msgstr "ECM ဖိုင် ဗလာ"
+
+msgid "ECM file not found"
+msgstr "ECM ဖိုင်ကို ရှာမတွေ့ပါ။"
+
+msgid "ECM read error"
+msgstr "ECM ဖတ်ခြင်း အမှား"
+
+msgid "Ecm Info"
+msgstr "Ecm အချက်အလက်"
+
+msgid "Ecm Statistics"
+msgstr "Ecm စာရင်းအင်းများ"
+
+msgid "Ecm Time"
+msgstr "Ecm အချိန်"
+
+msgid "Ecm avg"
+msgstr "Ecm ပျမ်းမျှ"
+
+msgid "Ecm last"
+msgstr "Ecm နောက်ဆုံး"
+
+msgid "Edit"
+msgstr "တည်းဖြတ်ပါ။"
+
+msgid "Editing one caid"
+msgstr "တည်းဖြတ်ခြင်း"
+
+msgid "Emm Info"
+msgstr "Erm အချက်အလက်"
+
+msgid "Entitlements"
+msgstr "ရပိုင်ခွင့်များ"
+
+msgid "Error"
+msgstr "အမှား"
+
+msgid "Error executing update script: %s"
+msgstr "အပ်ဒိတ် script ကို လုပ်ဆောင်ရာတွင် အမှားအယွင်းရှိသည်- %s"
+
+msgid "Error getting resource information"
+msgstr "အရင်းအမြစ်အချက်အလက်ရယူရာတွင် အမှားအယွင်းရှိသည်။"
+
+msgid "Error loading system info:"
+msgstr "စနစ်အချက်အလက်ကို တင်ရာတွင် အမှားအယွင်းရှိပါသည်-"
+
+msgid "Error loading system information:"
+msgstr "စနစ်အချက်အလက်ကို တင်ရာတွင် အမှားအယွင်းရှိနေသည်-"
+
+msgid "Error opening cam info: %s"
+msgstr "ကင်မရာအချက်အလက် ဖွင့်ရာတွင် အမှားအယွင်းရှိသည်- %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "ဖွဲ့စည်းမှုဖိုင်ကို ဖွင့်ရာတွင် အမှားအယွင်းရှိသည်- %s"
+
+msgid "Error processing HTML!"
+msgstr "HTML လုပ်ဆောင်ရာတွင် အမှားအယွင်းရှိနေသည်။"
+
+msgid "Error processing server addons data"
+msgstr "ဆာဗာ addons ဒေတာကို လုပ်ဆောင်ရာတွင် အမှားအယွင်းရှိသည်။"
+
+msgid "Error reading webpage!"
+msgstr "ဝဘ်စာမျက်နှာကို ဖတ်ရာတွင် အမှားအယွင်းရှိသည်။"
+
+msgid "Error stopping %s!"
+msgstr "%s ကို ရပ်တန့်ခြင်း အမှား။"
+
+msgid "Error while editing configuration: %s"
+msgstr "ဖွဲ့စည်းမှုပုံစံကို တည်းဖြတ်နေစဉ် အမှားအယွင်း- %s"
+
+msgid "Exit"
+msgstr "ထွက်ပေါက်"
+
+msgid "Extended Shares"
+msgstr "တိုးချဲ့ရှယ်ယာများ"
+
+msgid "Failed to revert file: %s"
+msgstr "ဖိုင်ကို ပြန်ပြောင်းရန် မအောင်မြင်ပါ- %s"
+
+msgid "Find Fakes"
+msgstr "အတုများကိုရှာပါ။"
+
+msgid "Force Update"
+msgstr "အတင်းမွမ်းမံခြင်း။"
+
+msgid "Free memory"
+msgstr "အခမဲ့မှတ်ဉာဏ်"
+
+msgid "Free memory:"
+msgstr "အခမဲ့မှတ်ဉာဏ်-"
+
+msgid "Free:"
+msgstr "အခမဲ့-"
+
+msgid "General"
+msgstr "အထွေထွေ"
+
+msgid "Get Link"
+msgstr "Link ရယူပါ။"
+
+msgid "Getting the list, please wait ..."
+msgstr "စာရင်းရယူပြီး ခဏစောင့်ပါ..."
+
+msgid "Help"
+msgstr "ကူညီကြပါ"
+
+msgid "Hops"
+msgstr ""
+
+msgid "Hops:"
+msgstr "Hops-"
+
+msgid "Hostname:"
+msgstr "လက်ခံသူအမည်-"
+
+msgid "IP Address"
+msgstr "IP လိပ်စာ"
+
+msgid "IP address"
+msgstr "IP လိပ်စာ"
+
+msgid "Idle Time:"
+msgstr "အားလပ်ချိန်-"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Active ဖြစ်နေပါက- ဒေါင်းလုဒ်လုပ်/ပြန်လည်သတ်မှတ်ပါ ဆာဗာ Config"
+
+msgid "Install Cam first!!!"
+msgstr "Cam ကို အရင် Install လုပ်ပါ။"
+
+msgid "Install developer update (%s)?"
+msgstr "developer အပ်ဒိတ် (%s) ကို ထည့်သွင်းလိုပါသလား။"
+
+msgid "Invalid HTML content!"
+msgstr "မမှန်ကန်သော HTML အကြောင်းအရာ။"
+
+msgid "Invalid URL!"
+msgstr "မမှန်ကန်သော URL"
+
+msgid "Last Req."
+msgstr "နောက်ဆုံးတောင်းဆိုချက်"
+
+msgid "Last used share:"
+msgstr "နောက်ဆုံးအသုံးပြုထားသော မျှဝေမှု-"
+
+msgid "Load"
+msgstr "ဝန်"
+
+msgid "Local box"
+msgstr "ဒေသခံသေတ္တာ"
+
+msgid "Location"
+msgstr "တည်နေရာ"
+
+msgid "Log"
+msgstr "အလုံးလိုက်"
+
+msgid "Log %s-%s"
+msgstr "%s-%s ကို မှတ်တမ်းတင်ပါ။"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr "အမြင့်ဆုံးကျဆင်းမှု-"
+
+msgid "Menu config"
+msgstr "မီနူးပြင်ဆင်မှု"
+
+msgid "NCamInfo not available"
+msgstr "NamInfo မရနိုင်ပါ။"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam မလည်ပတ်ပါ - အချက်အလက်ရယူရန် Cam ကို စတင်ပါ။"
+
+msgid "New"
+msgstr "အသစ်"
+
+msgid "New profile:"
+msgstr "ပရိုဖိုင်အသစ်-"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "ECM ဒေတာမရှိပါ။"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM ဒေတာမရှိပါ - အချိန်လွန်"
+
+msgid "No ECM file"
+msgstr "ECM ဖိုင်မရှိပါ။"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ECM အချက်အလက် လောလောဆယ် မရရှိနိုင်ပါ။ ကုဒ်ဝှက်နေစဉ်တွင်သာ ၎င်းကို ရနိုင်သည်။"
+
+msgid "No active cam to restart!"
+msgstr "ပြန်လည်စတင်ရန် တက်ကြွသော ကင်မရာမရှိပါ။"
+
+msgid "No backups available!"
+msgstr "မိတ္တူများ မရရှိနိုင်ပါ။"
+
+msgid "No card inserted!"
+msgstr "ကတ်ထည့်သွင်းထားခြင်းမရှိပါ။"
+
+msgid "No softcams available!"
+msgstr "ဆော့ဖ်ဝဲကင်မရာများ မရနိုင်ပါ။"
+
+msgid "No valid backups found!"
+msgstr "မှန်ကန်သော မိတ္တူများကို ရှာမတွေ့ပါ။"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr "NodeID-"
+
+msgid "OK"
+msgstr "အိုကေ"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam အပ်ဒိတ် အချိန်ကုန်သွားပါပြီ။ အသေးစိတ်အတွက် /tmp/oscam_update.log ကိုစစ်ဆေးပါ။"
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo မရရှိနိုင်ပါ။"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam မလည်ပတ်ပါ - အချက်အလက်ရယူရန် Cam ကို စတင်ပါ။"
+
+msgid "PRESS RETURN"
+msgstr "ပြန်ရန်နှိပ်ပါ။"
+
+msgid "Password"
+msgstr "စကားဝှက်"
+
+msgid "Password (httpwd)"
+msgstr "စကားဝှက် (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Peak load (အလုပ်သမားစာတွဲတစ်ခုလျှင် အများဆုံး တန်းစီထားသော တောင်းဆိုမှုများ)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "ကျေးဇူးပြု၍ ပြန်လည်သတ်မှတ်ပါ - ဖိုင် CFG မရှိပါ။"
+
+msgid "Please select ..."
+msgstr "ရွေးပါ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "ကျေးဇူးပြု၍ တည်းဖြတ်ရန် စာကြောင်းတစ်ကြောင်းကို ရွေးပါ သို့မဟုတ် လိုင်းအသစ်ဖန်တီးရန် ပေါင်းထည့်ရန် ရွေးချယ်ပါ။"
+
+msgid "Please wait, %s."
+msgstr "စောင့်ပါ၊ %s။"
+
+msgid "Port"
+msgstr "ဆိပ်ကမ်း"
+
+msgid "Profile"
+msgstr "ကိုယ်ရေးအကျဉ်း"
+
+msgid "Profile: Local box"
+msgstr "ကိုယ်ရေးအကျဉ်း- Local box"
+
+msgid "Protocol"
+msgstr "ပရိုတိုကော"
+
+msgid "Provider"
+msgstr "ပံ့ပိုးပေးသူ"
+
+msgid "Provider Name:"
+msgstr "ဝန်ဆောင်မှုပေးသူအမည်-"
+
+msgid "Provider:"
+msgstr "ပံ့ပိုးသူ-"
+
+msgid "Providers"
+msgstr "ပံ့ပိုးပေးသည်။"
+
+msgid "Providers:"
+msgstr "ဝန်ဆောင်မှုပေးသူများ-"
+
+msgid "Quick restart %s?"
+msgstr "%s ကို အမြန်ပြန်စမလား။"
+
+msgid "Read Userdata from %s.conf"
+msgstr "%s.conf မှ Userdata ကိုဖတ်ပါ။"
+
+msgid "Reader"
+msgstr "စာဖတ်သူ"
+
+msgid "Reader Statistics"
+msgstr "စာဖတ်သူစာရင်းအင်းများ"
+
+msgid "Reader/User"
+msgstr "စာဖတ်သူ/အသုံးပြုသူ"
+
+msgid "Recover Peer"
+msgstr "ရွယ်တူချင်း ပြန်လည်ရယူပါ။"
+
+msgid "Remote box"
+msgstr "အဝေးထိန်းသေတ္တာ"
+
+msgid "Remove"
+msgstr "ဖယ်ရှားပါ။"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "လိုင်းကို CCcam.cfg မှ ဖယ်ရှားပါ။"
+
+msgid "Removing %s"
+msgstr "%s ကို ဖယ်ရှားခြင်း"
+
+msgid "Rename"
+msgstr "အမည်ပြောင်းပါ။"
+
+msgid "Rename failed!"
+msgstr "အမည်ပြောင်းခြင်း မအောင်မြင်ပါ။"
+
+msgid "Rename to:"
+msgstr "အမည်ပြောင်းရန်-"
+
+msgid "Renamed %s!"
+msgstr "%s ဟု အမည်ပြောင်းခဲ့သည်"
+
+msgid "Reset"
+msgstr "ပြန်လည်သတ်မှတ်ပါ။"
+
+msgid "Reshare"
+msgstr "ပြန်လည်မျှဝေပါသည်။"
+
+msgid "Reshare:"
+msgstr "မျှဝေသည်-"
+
+msgid "Resources"
+msgstr "အရင်းအမြစ်များ"
+
+msgid "Restart GUI?"
+msgstr "GUI ကို ပြန်စမလား။"
+
+msgid "Restart error: %s"
+msgstr "ပြန်လည်စတင်ခြင်း အမှား- %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "ပြန်လည်ရယူထားသော ဖွဲ့စည်းမှုပုံစံကို အသုံးပြုရန် softcam ကို ပြန်လည်စတင်လိုပါသလား။"
+
+msgid "Save"
+msgstr "သိမ်းဆည်းပါ။"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "စကင်န်ဖတ်ခြင်းနှင့် ပြန်လည်ရယူခြင်း စာရင်း softcam ..."
+
+msgid "Select CCcam"
+msgstr "CCcam ကို ရွေးပါ။"
+
+msgid "Select Get Link"
+msgstr "Get Link ကို ရွေးပါ။"
+
+msgid "Select Ncam"
+msgstr "Ncam ကို ရွေးပါ။"
+
+msgid "Select OScam"
+msgstr "OScam ကို ရွေးပါ။"
+
+msgid "Select Your Choice"
+msgstr "သင့်ရွေးချယ်မှုကို ရွေးချယ်ပါ။"
+
+msgid "Select a cam to run ..."
+msgstr "လုပ်ဆောင်ရန် ကင်မရာကို ရွေးပါ..."
+
+msgid "Select and Install"
+msgstr "ရွေးပြီး Install လုပ်ပါ။"
+
+msgid "Select backup to restore:"
+msgstr "ပြန်လည်ရယူရန် မိတ္တူကို ရွေးပါ-"
+
+msgid "Server %s-%s"
+msgstr "ဆာဗာ %s-%s"
+
+msgid "Server Config"
+msgstr "ဆာဗာ Config"
+
+msgid "Server Copy in"
+msgstr "Server ကို Copy ကူးပါ။"
+
+msgid "Server Link"
+msgstr "ဆာဗာလင့်ခ်"
+
+msgid "Server Password"
+msgstr "ဆာဗာ စကားဝှက်"
+
+msgid "Server Port"
+msgstr "ဆာဗာ ဆိပ်ကမ်း"
+
+msgid "Server URL"
+msgstr "ဆာဗာ URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "ဆာဗာ Url ဆိုလိုသည်မှာ 012.345.678.900"
+
+msgid "Server Username"
+msgstr "ဆာဗာအသုံးပြုသူအမည်"
+
+msgid "Server:"
+msgstr "ဆာဗာ-"
+
+msgid "Servers"
+msgstr "ဆာဗာများ"
+
+msgid "Servers:"
+msgstr "ဆာဗာများ-"
+
+msgid "Service"
+msgstr "ဝန်ဆောင်မှု"
+
+msgid "Set as UNIQUE PEER"
+msgstr "UNIQUE PEER အဖြစ် သတ်မှတ်ပါ။"
+
+msgid "Setup"
+msgstr "တည်ဆောက်သည်"
+
+msgid "Share View"
+msgstr ""
+
+msgid "Shares"
+msgstr "ရှယ်ယာများ"
+
+msgid "Show Clients"
+msgstr "ဖောက်သည်များကိုပြပါ။"
+
+msgid "Show Ecm info"
+msgstr "Ecm အချက်အလက်ကို ပြပါ။"
+
+msgid "Show Log"
+msgstr "မှတ်တမ်းကိုပြပါ။"
+
+msgid "Show Readers/Proxies"
+msgstr "Readers/Proxy ကိုပြပါ။"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam ကို ပုံစံအသစ်ဖြင့် ပြန်လည်စတင်ခဲ့သည်။"
+
+msgid "Start"
+msgstr "စတင်ပါ။"
+
+msgid "Status"
+msgstr "အဆင့်အတန်း"
+
+msgid "Stop"
+msgstr "ရပ်"
+
+msgid "Stop Finding Fakes"
+msgstr "အတုအယောင်များ ရှာဖွေခြင်းကို ရပ်လိုက်ပါ။"
+
+msgid "Switch config"
+msgstr "ပုံစံပြောင်းပါ။"
+
+msgid "System"
+msgstr "စနစ်"
+
+msgid "System cleanup completed!"
+msgstr "စနစ်ရှင်းလင်းမှု ပြီးပါပြီ။"
+
+msgid "System:"
+msgstr "စနစ်-"
+
+msgid "Temporarely DELETED"
+msgstr "ခေတ္တဖျက်ထားသည်။"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "ဤပလပ်အင်သည် သင့် CCcam ၏ အခြေအနေကို ပြသသည်။"
+
+msgid "Total"
+msgstr "စုစုပေါင်း"
+
+msgid "Total cards:"
+msgstr "စုစုပေါင်းကတ်များ-"
+
+msgid "Total handled client ecm's"
+msgstr "စုစုပေါင်းကိုင်တွယ်ထားသော client ecm များ"
+
+msgid "Total handled client emm's"
+msgstr "စုစုပေါင်းကိုင်တွယ်ထားသော client emm များ"
+
+msgid "Total:"
+msgstr "စုစုပေါင်း-"
+
+msgid "Try again later ..."
+msgstr "နောက်မှ ထပ်ကြိုးစားပါ..."
+
+msgid "Type:"
+msgstr "အမျိုးအစား-"
+
+msgid "UNDELETED"
+msgstr "ဖျက်လိုက်ပါပြီ။"
+
+msgid "Unable to make the script executable: %s"
+msgstr "ဇာတ်ညွှန်းကို အကောင်အထည်ဖော်ရန် မဖြစ်နိုင်ပါ- %s"
+
+msgid "Unknow Image!"
+msgstr "ပုံမသိ။"
+
+msgid "Update"
+msgstr "အပ်ဒိတ်"
+
+msgid "Update Aborted!"
+msgstr "အပ်ဒိတ်ကို ဖျက်သိမ်းလိုက်ပါပြီ။"
+
+msgid "Update interval (in seconds)"
+msgstr "အပ်ဒိတ်ကြားကာလ (စက္ကန့်အတွင်း)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr "အပေါ်ထပ်များ-"
+
+msgid "Uptime"
+msgstr "အလုပ်ချိန်"
+
+msgid "Used:"
+msgstr "အသုံးပြုသည်-"
+
+msgid "Username"
+msgstr "အသုံးပြုသူအမည်"
+
+msgid "Username (httpuser)"
+msgstr "အသုံးပြုသူအမည် (httpuser)"
+
+msgid "Using old profile:"
+msgstr "ပရိုဖိုင်ဟောင်းကို အသုံးပြုခြင်း-"
+
+msgid "Version:"
+msgstr "ဗားရှင်း-"
+
+msgid "Wait please..."
+msgstr "ကျေးဇူးပြုပြီး စောင့်ပါ..."
+
+msgid "Write"
+msgstr "ရေးပါ။"
+
+msgid "Write-Debug"
+msgstr ""
+
+msgid "You have the latest version!"
+msgstr "သင့်တွင် နောက်ဆုံးထွက်ဗားရှင်းရှိသည်။"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tProvid-"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "NOTHING.TO.UNDELE"
+
+msgid "address:"
+msgstr "လိပ်စာ-"
+
+msgid "and"
+msgstr "နှင့်"
+
+msgid "caid:"
+msgstr "ကာဒ်-"
+
+msgid "card"
+msgstr "ကတ်"
+
+msgid "card reader"
+msgstr "ကတ်ဖတ်စက်"
+
+msgid "close share view"
+msgstr "အနီးကပ်မျှဝေခြင်းမြင်ကွင်း"
+
+msgid "decrease uphop by 1"
+msgstr "uphop ကို 1 လျှော့ချပါ။"
+
+msgid "ecm time:"
+msgstr "ecm အချိန်-"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "ကတ်များ၏ဆာဗာကိုရယူပါ။"
+
+msgid "handled"
+msgstr "ကိုင်တွယ်သည်။"
+
+msgid "hops:"
+msgstr "ဟော့ပ်များ"
+
+msgid "increase uphop by 1"
+msgstr "uphop 1 တိုး"
+
+msgid "info"
+msgstr "အချက်အလက်"
+
+msgid "no or unknown card inserted"
+msgstr "မရှိ သို့မဟုတ် အမည်မသိကတ် ထည့်သွင်းထားသည်။"
+
+msgid "pid:"
+msgstr "pid-"
+
+msgid "provid:"
+msgstr "ပေးသည်-"
+
+msgid "provider:"
+msgstr "ပံ့ပိုးသူ-"
+
+msgid "share:"
+msgstr "မျှဝေသည်-"
+
+msgid "show all cards"
+msgstr "ကတ်အားလုံးကို ပြပါ။"
+
+msgid "show cards with uphop 0"
+msgstr "uphop 0 ဖြင့် ကတ်များကို ပြသပါ။"
+
+msgid "show cards with uphop 1"
+msgstr "uphop ၁"
+
+msgid "show cards with uphop 2"
+msgstr "uphop 2 ဖြင့်ကတ်များကိုပြသပါ။"
+
+msgid "show cards with uphop 3"
+msgstr "uphop 3 ဖြင့်ကတ်များကိုပြသပါ။"
+
+msgid "show cards with uphop 4"
+msgstr "uphop ၄ ဖြင့် ကတ်များကို ပြသပါ။"
+
+msgid "show cards with uphop 5"
+msgstr "uphop ၅"
+
+msgid "show cards with uphop 6"
+msgstr "uphop ဖြင့် ကတ်များပြသခြင်း ၆"
+
+msgid "show cards with uphop 7"
+msgstr "uphop 7 ဖြင့်ကတ်များကိုပြသပါ။"
+
+msgid "show cards with uphop 8"
+msgstr "uphop 8 ဖြင့်ကတ်များကိုပြသပါ။"
+
+msgid "show cards with uphop 9"
+msgstr "uphop 9 ဖြင့်ကတ်များကိုပြသပါ။"
+
+msgid "system:"
+msgstr "စနစ်-"
+
+msgid "using:"
+msgstr "အသုံးပြုခြင်း-"
+
+msgid "xLine"
+msgstr ""

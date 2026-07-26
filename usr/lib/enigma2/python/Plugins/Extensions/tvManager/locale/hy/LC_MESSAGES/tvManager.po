@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 23:45+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Armenian\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s Քարտեր)"
+
+msgid "%s Info - Configuration"
+msgstr "%s Տեղեկություն - Կազմաձևում"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Տեղեկություն - Հիմնական ընտրացանկ"
+
+msgid "%s restarted successfully!"
+msgstr "%s-ը հաջողությամբ վերագործարկվեց:"
+
+msgid "%s webif disabled"
+msgstr "%s webif-ն անջատված է"
+
+msgid "(All readers)"
+msgstr "(Բոլոր ընթերցողները)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Ցույց տալ միայն ընթերցողին) (%s)"
+
+msgid "About"
+msgstr "Մոտ"
+
+msgid "Activate"
+msgstr "Ակտիվացնել"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Ակտիվացրեք Insert տողը Config File-ում."
+
+msgid "Active clients"
+msgstr "Ակտիվ հաճախորդներ"
+
+msgid "Add"
+msgstr "Ավելացնել"
+
+msgid "Add new CCcam line"
+msgstr "Ավելացնել նոր CCcam գիծ"
+
+msgid "Add new NewCamd line"
+msgstr "Ավելացնել նոր NewCamd գիծ"
+
+msgid "Address"
+msgstr "Հասցե"
+
+msgid "All"
+msgstr "Բոլորը"
+
+msgid "An error occurred in the green function."
+msgstr "Կանաչ ֆունկցիայի մեջ սխալ է տեղի ունեցել:"
+
+msgid "An unexpected error occurred: %s"
+msgstr "Անսպասելի սխալ տեղի ունեցավ՝ %s"
+
+msgid "Ask all caid"
+msgstr "Հարցրեք բոլոր Քեյդին"
+
+msgid "Ask for the selection caid"
+msgstr "Հարցրեք ընտրության համար"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Ավտոմատ թարմացնե՞լ Client/Server View-ը:"
+
+msgid "Available shares:"
+msgstr "Հասանելի բաժնետոմսեր."
+
+msgid "Back"
+msgstr "Ետ"
+
+msgid "Backup failed!"
+msgstr "Պահուստավորումը ձախողվեց:"
+
+msgid "Backup restoration failed!"
+msgstr "Պահուստավորման վերականգնումը ձախողվեց:"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCprioMaker-ի կարգավորումներ"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker ավտոմատ մեկնարկ"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam հաճախորդների տեղեկություններ"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr ""
+
+msgid "CCcam Info"
+msgstr ""
+
+msgid "CCcam Info %s"
+msgstr "CCcam Տեղեկություններ %s"
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam Info Config մենյու"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam գծի խմբագրման գործողություններ"
+
+msgid "CCcam Line Editor"
+msgstr ""
+
+msgid "CCcam Organizer"
+msgstr "CCcam կազմակերպիչ"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam մատակարարի մասին տեղեկությունները"
+
+msgid "CCcam Remote Info"
+msgstr ""
+
+msgid "CCcam Server Info"
+msgstr "CCcam սերվերի տեղեկատվություն"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Համօգտագործման տեղեկատվություն"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam բաժնետոմսերի տեղեկատվություն"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Հիմնական գծի խմբագիր"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo-ն հասանելի չէ"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "Քեյդ"
+
+msgid "Caid:"
+msgstr "Քեյդ:"
+
+msgid "Caid:Srvid"
+msgstr "Կայդ՝ Սրվիդ"
+
+msgid "Cam Download"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Քարտի տվյալներ (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Քարտեր:"
+
+msgid "Cards: 0"
+msgstr "Քարտեր: 0"
+
+msgid "Cardserial"
+msgstr "Քարտեզիալ"
+
+msgid "Channel"
+msgstr "Ալիք"
+
+msgid "Channel Name"
+msgstr "Ալիքի անվանումը"
+
+msgid "Check Emm Send"
+msgstr "Ստուգեք Emm Send-ը"
+
+msgid "Choose CCcam-Reader"
+msgstr "Ընտրեք CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Ընտրեք ընթերցող"
+
+msgid "Cleanup error: %s"
+msgstr "Մաքրման սխալ՝ %s"
+
+msgid "Client %s-%s"
+msgstr "Հաճախորդ %s-%s"
+
+msgid "Clients"
+msgstr "Հաճախորդներ"
+
+msgid "Close"
+msgstr "Փակել"
+
+msgid "Command Cancelled"
+msgstr "Հրամանը չեղարկված է"
+
+msgid "Configfile %s saved."
+msgstr "%s կազմաձևումը պահված է:"
+
+msgid "Connected clients"
+msgstr "Կապակցված հաճախորդներ"
+
+msgid "Connected:"
+msgstr "Միացված է՝"
+
+msgid "Content"
+msgstr "Բովանդակություն"
+
+msgid "Could not open the file %s!"
+msgstr "Չհաջողվեց բացել %s ֆայլը:"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Չհաջողվեց բացել %s ֆայլը: Սխալ՝ %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Չհաջողվեց պահպանել %s կազմաձևման ֆայլը: Սխալ՝ %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Չհաջողվեց պահպանել կազմաձևման ֆայլը: Սխալ՝ %s"
+
+msgid "Current time"
+msgstr "Ընթացիկ ժամանակը"
+
+msgid "Delete"
+msgstr "Ջնջել"
+
+msgid "Delete %s?"
+msgstr "Ջնջե՞լ %s-ը:"
+
+msgid "Delete Peer"
+msgstr "Ջնջել Peer-ը"
+
+msgid "Delete failed!"
+msgstr "Չհաջողվեց ջնջել:"
+
+msgid "Deleted %s!"
+msgstr "Ջնջված է %s:"
+
+msgid "Do you install this plugin ?"
+msgstr "Տեղադրե՞լ եք այս փլագինը:"
+
+msgid "Do you want to execute the command?"
+msgstr "Ցանկանու՞մ եք կատարել հրամանը:"
+
+msgid "Do you want to remove?"
+msgstr "Ցանկանու՞մ եք հեռացնել:"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Ցանկանու՞մ եք վերագործարկել Gui ինտերֆեյսը:"
+
+msgid "ECM data format error"
+msgstr "ECM տվյալների ձևաչափի սխալ"
+
+msgid "ECM error"
+msgstr "ECM սխալ"
+
+msgid "ECM file empty"
+msgstr "ECM ֆայլը դատարկ է"
+
+msgid "ECM file not found"
+msgstr "ECM ֆայլը չի ​​գտնվել"
+
+msgid "ECM read error"
+msgstr "ECM ընթերցման սխալ"
+
+msgid "Ecm Info"
+msgstr ""
+
+msgid "Ecm Statistics"
+msgstr "Ecm վիճակագրություն"
+
+msgid "Ecm Time"
+msgstr "Ecm ժամանակ"
+
+msgid "Ecm avg"
+msgstr "Ecm միջին"
+
+msgid "Ecm last"
+msgstr "Ecm վերջին"
+
+msgid "Edit"
+msgstr "Խմբագրել"
+
+msgid "Editing one caid"
+msgstr "Մեկ կեյդի խմբագրում"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Իրավունքներ"
+
+msgid "Error"
+msgstr "Սխալ"
+
+msgid "Error executing update script: %s"
+msgstr "Թարմացման սցենարի կատարման սխալ՝ %s"
+
+msgid "Error getting resource information"
+msgstr "Չհաջողվեց ստանալ ռեսուրսների մասին տեղեկատվություն"
+
+msgid "Error loading system info:"
+msgstr "Համակարգի տվյալները բեռնելիս սխալ."
+
+msgid "Error loading system information:"
+msgstr "Համակարգի տեղեկատվությունը բեռնելիս սխալ."
+
+msgid "Error opening cam info: %s"
+msgstr "Չհաջողվեց բացել տեսախցիկի տվյալները՝ %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Չհաջողվեց բացել կազմաձևման ֆայլը՝ %s"
+
+msgid "Error processing HTML!"
+msgstr "HTML-ի մշակման սխալ:"
+
+msgid "Error processing server addons data"
+msgstr "Սխալ՝ սերվերի հավելումների տվյալները մշակելիս"
+
+msgid "Error reading webpage!"
+msgstr "Չհաջողվեց կարդալ վեբ էջը:"
+
+msgid "Error stopping %s!"
+msgstr "%s-ի դադարեցման սխալ:"
+
+msgid "Error while editing configuration: %s"
+msgstr "Կազմաձևը խմբագրելիս սխալ՝ %s"
+
+msgid "Exit"
+msgstr "Ելք"
+
+msgid "Extended Shares"
+msgstr "Ընդլայնված բաժնետոմսեր"
+
+msgid "Failed to revert file: %s"
+msgstr "Չհաջողվեց վերադարձնել ֆայլը՝ %s"
+
+msgid "Find Fakes"
+msgstr "Գտեք կեղծիքներ"
+
+msgid "Force Update"
+msgstr "Պարտադիր թարմացում"
+
+msgid "Free memory"
+msgstr "Ազատ հիշողություն"
+
+msgid "Free memory:"
+msgstr "Ազատ հիշողություն."
+
+msgid "Free:"
+msgstr "Անվճար:"
+
+msgid "General"
+msgstr "Գեներալ"
+
+msgid "Get Link"
+msgstr "Ստացեք հղում"
+
+msgid "Getting the list, please wait ..."
+msgstr "Ստանալով ցուցակը, խնդրում ենք սպասել..."
+
+msgid "Help"
+msgstr "Օգնություն"
+
+msgid "Hops"
+msgstr "Գայլուկ"
+
+msgid "Hops:"
+msgstr "Գայլուկ:"
+
+msgid "Hostname:"
+msgstr "Հյուրընկալողի անունը."
+
+msgid "IP Address"
+msgstr "IP հասցե"
+
+msgid "IP address"
+msgstr "IP հասցե"
+
+msgid "Idle Time:"
+msgstr "Պարապ ժամանակ."
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Եթե ​​ակտիվ է. Ներբեռնեք/Վերականգնեք սերվերի կազմաձևումը"
+
+msgid "Install Cam first!!!"
+msgstr "Տեղադրեք տեսախցիկը նախ !!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Տեղադրե՞լ մշակողի թարմացումը (%s):"
+
+msgid "Invalid HTML content!"
+msgstr "Անվավեր HTML բովանդակություն:"
+
+msgid "Invalid URL!"
+msgstr "Անվավեր URL:"
+
+msgid "Last Req."
+msgstr "Վերջին պահանջ."
+
+msgid "Last used share:"
+msgstr "Վերջին օգտագործված մասնաբաժինը."
+
+msgid "Load"
+msgstr "Բեռնել"
+
+msgid "Local box"
+msgstr "Տեղական տուփ"
+
+msgid "Location"
+msgstr "Գտնվելու վայրը"
+
+msgid "Log"
+msgstr "Մատյան"
+
+msgid "Log %s-%s"
+msgstr "Մատյան %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "ՄԵՆՈՒ EMM / ՍԵՐՎԵՐ CLINE"
+
+msgid "Maxdown +"
+msgstr "Մաքսդաուն +"
+
+msgid "Maxdown -"
+msgstr "Մաքսդաուն -"
+
+msgid "Maxdown:"
+msgstr "Մաքսդաուն."
+
+msgid "Menu config"
+msgstr "Ցանկի կազմաձևում"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo-ն հասանելի չէ"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam-ը չի աշխատում - գործարկեք Cam-ը՝ տեղեկատվություն ստանալու համար:"
+
+msgid "New"
+msgstr "Նոր"
+
+msgid "New profile:"
+msgstr "Նոր պրոֆիլ."
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "ECM-ի տվյալներ չկան"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM-ի տվյալներ չկան"
+
+msgid "No ECM file"
+msgstr "ECM ֆայլ չկա"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ECM-ի մասին տեղեկություն ներկայումս հասանելի չէ: Սա հասանելի է միայն ապակոդավորման ժամանակ:"
+
+msgid "No active cam to restart!"
+msgstr "Վերագործարկելու համար ակտիվ տեսախցիկ չկա:"
+
+msgid "No backups available!"
+msgstr "Պահուստավորումներ չկան:"
+
+msgid "No card inserted!"
+msgstr "Քարտ չի տեղադրվել:"
+
+msgid "No softcams available!"
+msgstr "Հասանելի փափուկ տեսախցիկներ չկան:"
+
+msgid "No valid backups found!"
+msgstr "Վավեր պահուստներ չեն գտնվել:"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "Լավ"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam-ի թարմացման ժամկետը սպառվել է: Մանրամասների համար ստուգեք /tmp/oscam_update.log:"
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo-ն հասանելի չէ"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam-ը չի աշխատում. գործարկեք Cam-ը՝ տեղեկատվություն ստանալու համար:"
+
+msgid "PRESS RETURN"
+msgstr "ՄԱՄԼՈՎ ՎԵՐԱԴԱՐՁ"
+
+msgid "Password"
+msgstr "Գաղտնաբառ"
+
+msgid "Password (httpwd)"
+msgstr "Գաղտնաբառ (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Պիկ ծանրաբեռնվածություն (առավելագույնը հերթագրված հարցումներ մեկ աշխատանքային շղթայի համար)"
+
+msgid "Pid"
+msgstr "Պիդ"
+
+msgid "Please Reset - No File CFG"
+msgstr "Խնդրում ենք զրոյացնել. CFG ֆայլ չկա"
+
+msgid "Please select ..."
+msgstr "Խնդրում ենք ընտրել..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Խնդրում ենք ընտրել տող՝ խմբագրելու կամ ավելացնել՝ նոր տող ստեղծելու համար:"
+
+msgid "Please wait, %s."
+msgstr "Խնդրում ենք սպասել, %s:"
+
+msgid "Port"
+msgstr "Պորտ"
+
+msgid "Profile"
+msgstr "Անձնագիր"
+
+msgid "Profile: Local box"
+msgstr "Անձնագիր: Տեղական տուփ"
+
+msgid "Protocol"
+msgstr "Արձանագրություն"
+
+msgid "Provider"
+msgstr "Մատակարար"
+
+msgid "Provider Name:"
+msgstr "Մատակարարի անունը."
+
+msgid "Provider:"
+msgstr "Մատակարար:"
+
+msgid "Providers"
+msgstr "Մատակարարներ"
+
+msgid "Providers:"
+msgstr "Մատակարարներ:"
+
+msgid "Quick restart %s?"
+msgstr "Արագ վերագործարկե՞լ %s"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Կարդացեք օգտվողի տվյալները %s.conf-ից"
+
+msgid "Reader"
+msgstr "Ընթերցող"
+
+msgid "Reader Statistics"
+msgstr "Ընթերցողի վիճակագրություն"
+
+msgid "Reader/User"
+msgstr "Ընթերցող/Օգտագործող"
+
+msgid "Recover Peer"
+msgstr "Վերականգնել Peer"
+
+msgid "Remote box"
+msgstr "Հեռավոր տուփ"
+
+msgid "Remove"
+msgstr "Հեռացնել"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Հեռացրեք գիծը CCcam.cfg-ից"
+
+msgid "Removing %s"
+msgstr "%s-ի հեռացում"
+
+msgid "Rename"
+msgstr "Վերանվանել"
+
+msgid "Rename failed!"
+msgstr "Չհաջողվեց վերանվանել:"
+
+msgid "Rename to:"
+msgstr "Վերանվանել՝"
+
+msgid "Renamed %s!"
+msgstr "Վերանվանվել է %s:"
+
+msgid "Reset"
+msgstr "Վերականգնել"
+
+msgid "Reshare"
+msgstr "Կրկին տարածել"
+
+msgid "Reshare:"
+msgstr "Կիսվել՝"
+
+msgid "Resources"
+msgstr "Ռեսուրսներ"
+
+msgid "Restart GUI?"
+msgstr "Վերագործարկե՞լ GUI-ը:"
+
+msgid "Restart error: %s"
+msgstr "Վերագործարկման սխալ՝ %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Վերագործարկե՞լ softcam-ը՝ վերականգնված կոնֆիգուրացիան կիրառելու համար:"
+
+msgid "Save"
+msgstr "Պահպանել"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Սկանավորման և որոնման ցանկի softcam..."
+
+msgid "Select CCcam"
+msgstr "Ընտրեք CCcam"
+
+msgid "Select Get Link"
+msgstr "Ընտրեք Ստանալ հղումը"
+
+msgid "Select Ncam"
+msgstr "Ընտրեք Ncam"
+
+msgid "Select OScam"
+msgstr "Ընտրեք OScam"
+
+msgid "Select Your Choice"
+msgstr "Ընտրեք ձեր ընտրությունը"
+
+msgid "Select a cam to run ..."
+msgstr "Ընտրեք տեսախցիկ՝ գործարկելու համար..."
+
+msgid "Select and Install"
+msgstr "Ընտրեք և տեղադրեք"
+
+msgid "Select backup to restore:"
+msgstr "Ընտրեք կրկնօրինակը վերականգնելու համար."
+
+msgid "Server %s-%s"
+msgstr "Սերվեր %s-%s"
+
+msgid "Server Config"
+msgstr "Սերվերի կազմաձևում"
+
+msgid "Server Copy in"
+msgstr "Սերվերի պատճենում"
+
+msgid "Server Link"
+msgstr "Սերվերի հղում"
+
+msgid "Server Password"
+msgstr "Սերվերի գաղտնաբառ"
+
+msgid "Server Port"
+msgstr "Սերվերի պորտ"
+
+msgid "Server URL"
+msgstr "Սերվերի URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Սերվերի URL, այսինքն՝ 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Սերվերի օգտանուն"
+
+msgid "Server:"
+msgstr "Սերվեր:"
+
+msgid "Servers"
+msgstr "Սերվերներ"
+
+msgid "Servers:"
+msgstr "Սերվերներ:"
+
+msgid "Service"
+msgstr "Ծառայություն"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Սահմանել որպես ՅՈՒՐԱՔԱԿԱՆ ՀԱՍԱԿԻԿ"
+
+msgid "Setup"
+msgstr "Կարգավորում"
+
+msgid "Share View"
+msgstr ""
+
+msgid "Shares"
+msgstr "Բաժնետոմսեր"
+
+msgid "Show Clients"
+msgstr "Ցույց տալ հաճախորդներին"
+
+msgid "Show Ecm info"
+msgstr "Ցույց տալ Ecm տեղեկատվությունը"
+
+msgid "Show Log"
+msgstr "Ցուցադրել մատյան"
+
+msgid "Show Readers/Proxies"
+msgstr "Ցույց տալ ընթերցողներ/վստահված անձինք"
+
+msgid "Softcam Manager"
+msgstr "Softcam մենեջեր"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam-ը վերագործարկվել է նոր կազմաձևով:"
+
+msgid "Start"
+msgstr "Սկսել"
+
+msgid "Status"
+msgstr "Կարգավիճակ"
+
+msgid "Stop"
+msgstr "Դադարեցրեք"
+
+msgid "Stop Finding Fakes"
+msgstr "Դադարեցրեք կեղծիքներ գտնելը"
+
+msgid "Switch config"
+msgstr "Անջատիչի կոնֆիգուրացիա"
+
+msgid "System"
+msgstr "Համակարգ"
+
+msgid "System cleanup completed!"
+msgstr "Համակարգի մաքրումն ավարտված է:"
+
+msgid "System:"
+msgstr "Համակարգ:"
+
+msgid "Temporarely DELETED"
+msgstr "Ժամանակավորապես Ջնջված է"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Այս փլագինը ցույց է տալիս ձեր CCcam-ի կարգավիճակը"
+
+msgid "Total"
+msgstr "Ընդամենը"
+
+msgid "Total cards:"
+msgstr "Ընդհանուր քարտեր:"
+
+msgid "Total handled client ecm's"
+msgstr "Ընդհանուր մշակված հաճախորդի ecm-ներ"
+
+msgid "Total handled client emm's"
+msgstr "Ընդհանուր մշակված հաճախորդի emm-ներ"
+
+msgid "Total:"
+msgstr "Ընդամենը:"
+
+msgid "Try again later ..."
+msgstr "Փորձեք ավելի ուշ…"
+
+msgid "Type:"
+msgstr "Տեսակը:"
+
+msgid "UNDELETED"
+msgstr "ՉՋնջված"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Հնարավոր չէ սկրիպտը դարձնել գործարկելի՝ %s"
+
+msgid "Unknow Image!"
+msgstr "Անհայտ պատկեր!"
+
+msgid "Update"
+msgstr "Թարմացնել"
+
+msgid "Update Aborted!"
+msgstr "Թարմացումը ընդհատվեց:"
+
+msgid "Update interval (in seconds)"
+msgstr "Թարմացման ընդմիջում (վայրկյաններով)"
+
+msgid "Uphops +"
+msgstr "Upphops +"
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Գործողության ժամանակ"
+
+msgid "Used:"
+msgstr "Օգտագործված:"
+
+msgid "Username"
+msgstr "Օգտվողի անունը"
+
+msgid "Username (httpuser)"
+msgstr "Օգտվողի անունը (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Օգտագործելով հին պրոֆիլը."
+
+msgid "Version:"
+msgstr "Տարբերակ:"
+
+msgid "Wait please..."
+msgstr "Սպասիր խնդրում եմ..."
+
+msgid "Write"
+msgstr "Գրել"
+
+msgid "Write-Debug"
+msgstr "Գրել-Վրիպազերծել"
+
+msgid "You have the latest version!"
+msgstr "Դուք ունեք վերջին տարբերակը:"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tՏրամադրել՝"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "մի NOTHING.TO.UNDELE"
+
+msgid "address:"
+msgstr "հասցե:"
+
+msgid "and"
+msgstr "և"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "քարտ"
+
+msgid "card reader"
+msgstr "քարտի ընթերցող"
+
+msgid "close share view"
+msgstr "փակել կիսման դիտումը"
+
+msgid "decrease uphop by 1"
+msgstr "իջեցնել բարձրացումը 1-ով"
+
+msgid "ecm time:"
+msgstr "ecm ժամանակ:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "ստանալ քարտերի սերվերը"
+
+msgid "handled"
+msgstr "վարվել"
+
+msgid "hops:"
+msgstr "գայլուկ:"
+
+msgid "increase uphop by 1"
+msgstr "բարձրացնել բարձրացումը 1-ով"
+
+msgid "info"
+msgstr "տեղեկատվություն"
+
+msgid "no or unknown card inserted"
+msgstr "ոչ կամ անհայտ քարտ է տեղադրված"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "տրամադրել:"
+
+msgid "provider:"
+msgstr "մատակարար."
+
+msgid "share:"
+msgstr "կիսվել:"
+
+msgid "show all cards"
+msgstr "ցույց տալ բոլոր քարտերը"
+
+msgid "show cards with uphop 0"
+msgstr "ցույց տալ քարտեր uphop 0-ով"
+
+msgid "show cards with uphop 1"
+msgstr "ցույց տալ քարտեր uphop 1-ով"
+
+msgid "show cards with uphop 2"
+msgstr "ցույց տալ քարտեր uphop 2-ով"
+
+msgid "show cards with uphop 3"
+msgstr "ցույց տալ քարտեր uphop-ով 3"
+
+msgid "show cards with uphop 4"
+msgstr "ցույց տալ քարտեր uphop-ով 4"
+
+msgid "show cards with uphop 5"
+msgstr "ցույց տալ քարտեր uphop 5-ով"
+
+msgid "show cards with uphop 6"
+msgstr "ցույց տալ քարտեր uphop 6-ով"
+
+msgid "show cards with uphop 7"
+msgstr "ցույց տալ քարտեր uphop 7-ով"
+
+msgid "show cards with uphop 8"
+msgstr "ցույց տալ քարտեր uphop 8-ով"
+
+msgid "show cards with uphop 9"
+msgstr "ցույց տալ քարտեր uphop 9-ով"
+
+msgid "system:"
+msgstr "համակարգ:"
+
+msgid "using:"
+msgstr "օգտագործելով՝"
+
+msgid "xLine"
+msgstr ""

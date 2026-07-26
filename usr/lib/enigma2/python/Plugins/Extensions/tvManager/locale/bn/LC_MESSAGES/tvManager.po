@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 22:05+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Bengali\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s কার্ড )"
+
+msgid "%s Info - Configuration"
+msgstr "%s তথ্য - কনফিগারেশন"
+
+msgid "%s Info - Main Menu"
+msgstr "%s তথ্য - প্রধান মেনু"
+
+msgid "%s restarted successfully!"
+msgstr "%s সফলভাবে পুনরায় চালু হয়েছে!"
+
+msgid "%s webif disabled"
+msgstr "%s webif নিষ্ক্রিয়"
+
+msgid "(All readers)"
+msgstr "(সমস্ত পাঠক)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(শুধু পাঠক দেখান) (%s)"
+
+msgid "About"
+msgstr "সম্পর্কে"
+
+msgid "Activate"
+msgstr "সক্রিয় করুন"
+
+msgid "Activate Insert line in Config File:"
+msgstr "কনফিগ ফাইলে সন্নিবেশ লাইন সক্রিয় করুন:"
+
+msgid "Active clients"
+msgstr "সক্রিয় ক্লায়েন্ট"
+
+msgid "Add"
+msgstr "যোগ করুন"
+
+msgid "Add new CCcam line"
+msgstr "নতুন CCcam লাইন যোগ করুন"
+
+msgid "Add new NewCamd line"
+msgstr "নতুন NewCamd লাইন যোগ করুন"
+
+msgid "Address"
+msgstr "ঠিকানা"
+
+msgid "All"
+msgstr "সব"
+
+msgid "An error occurred in the green function."
+msgstr "সবুজ ফাংশনে একটি ত্রুটি ঘটেছে৷"
+
+msgid "An unexpected error occurred: %s"
+msgstr "একটি অপ্রত্যাশিত ত্রুটি ঘটেছে: %s৷"
+
+msgid "Ask all caid"
+msgstr "সব caid জিজ্ঞাসা"
+
+msgid "Ask for the selection caid"
+msgstr "সিলেকশন ক্যাডের জন্য জিজ্ঞাসা করুন"
+
+msgid "Automatically update Client/Server View?"
+msgstr "স্বয়ংক্রিয়ভাবে ক্লায়েন্ট/সার্ভার ভিউ আপডেট করবেন?"
+
+msgid "Available shares:"
+msgstr "উপলব্ধ শেয়ার:"
+
+msgid "Back"
+msgstr "ব্যাক"
+
+msgid "Backup failed!"
+msgstr "ব্যাকআপ ব্যর্থ হয়েছে!"
+
+msgid "Backup restoration failed!"
+msgstr "ব্যাকআপ পুনরুদ্ধার ব্যর্থ হয়েছে!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker সেটিংস"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker অটোস্টার্ট"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam ক্লায়েন্টদের তথ্য"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam কনফিগার সুইচার"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM তথ্য"
+
+msgid "CCcam Info"
+msgstr "সিসিক্যাম তথ্য"
+
+msgid "CCcam Info %s"
+msgstr "সিসিক্যাম তথ্য %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam তথ্য কনফিগারেশন"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam তথ্য কনফিগার মেনু"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam লাইন সম্পাদনা কর্ম"
+
+msgid "CCcam Line Editor"
+msgstr "সিসিক্যাম লাইন এডিটর"
+
+msgid "CCcam Organizer"
+msgstr "সিসিক্যাম সংগঠক"
+
+msgid "CCcam Prio Maker"
+msgstr "CCcam Prio মেকার"
+
+msgid "CCcam Provider Info"
+msgstr "CCcam প্রদানকারীর তথ্য"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam দূরবর্তী তথ্য"
+
+msgid "CCcam Server Info"
+msgstr "CCcam সার্ভারের তথ্য"
+
+msgid "CCcam Share Info"
+msgstr "CCcam শেয়ার তথ্য"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam শেয়ার তথ্য"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg বেসিক লাইন এডিটর"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo উপলব্ধ নয়"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "কাইড"
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "ক্যাম ডাউনলোড"
+
+msgid "Cancel"
+msgstr "বাতিল করুন"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "কার্ডের তথ্য (সিসিক্যাম-রিডার)"
+
+msgid "Cards:"
+msgstr "কার্ড:"
+
+msgid "Cards: 0"
+msgstr "কার্ড: 0"
+
+msgid "Cardserial"
+msgstr "কার্ডসিরিয়াল"
+
+msgid "Channel"
+msgstr "চ্যানেল"
+
+msgid "Channel Name"
+msgstr "চ্যানেলের নাম"
+
+msgid "Check Emm Send"
+msgstr "Emm পাঠান চেক করুন"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-রিডার বেছে নিন"
+
+msgid "Choose reader"
+msgstr "পাঠক নির্বাচন করুন"
+
+msgid "Cleanup error: %s"
+msgstr "ক্লিনআপ ত্রুটি: %s"
+
+msgid "Client %s-%s"
+msgstr "ক্লায়েন্ট %s-%s"
+
+msgid "Clients"
+msgstr "ক্লায়েন্ট"
+
+msgid "Close"
+msgstr "বন্ধ"
+
+msgid "Command Cancelled"
+msgstr "কমান্ড বাতিল করা হয়েছে"
+
+msgid "Configfile %s saved."
+msgstr "কনফিগফাইল %s সংরক্ষিত।"
+
+msgid "Connected clients"
+msgstr "সংযুক্ত ক্লায়েন্ট"
+
+msgid "Connected:"
+msgstr "সংযুক্ত:"
+
+msgid "Content"
+msgstr "বিষয়বস্তু"
+
+msgid "Could not open the file %s!"
+msgstr "ফাইল %s খুলতে পারেনি!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "ফাইল %s খুলতে পারেনি! ত্রুটি: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "কনফিগারেশন %s সংরক্ষণ করা যায়নি! ত্রুটি: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "কনফিগার ফাইল সংরক্ষণ করা যায়নি! ত্রুটি: %s"
+
+msgid "Current time"
+msgstr "বর্তমান সময়"
+
+msgid "Delete"
+msgstr "মুছে দিন"
+
+msgid "Delete %s?"
+msgstr "%s মুছবেন?"
+
+msgid "Delete Peer"
+msgstr "পিয়ার মুছুন"
+
+msgid "Delete failed!"
+msgstr "মুছে ফেলতে ব্যর্থ!"
+
+msgid "Deleted %s!"
+msgstr "মুছে ফেলা হয়েছে %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "আপনি কি এই প্লাগইন ইন্সটল করেন?"
+
+msgid "Do you want to execute the command?"
+msgstr "আপনি কমান্ড কার্যকর করতে চান?"
+
+msgid "Do you want to remove?"
+msgstr "আপনি কি সরাতে চান?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "আপনি কি Gui ইন্টারফেস পুনরায় চালু করতে চান?"
+
+msgid "ECM data format error"
+msgstr "ECM ডেটা ফর্ম্যাট ত্রুটি৷"
+
+msgid "ECM error"
+msgstr "ECM ত্রুটি"
+
+msgid "ECM file empty"
+msgstr "ECM ফাইল খালি"
+
+msgid "ECM file not found"
+msgstr "ECM ফাইল পাওয়া যায়নি"
+
+msgid "ECM read error"
+msgstr "ECM পড়ার ত্রুটি৷"
+
+msgid "Ecm Info"
+msgstr "ইসিএম তথ্য"
+
+msgid "Ecm Statistics"
+msgstr "ইসিএম পরিসংখ্যান"
+
+msgid "Ecm Time"
+msgstr "Ecm সময়"
+
+msgid "Ecm avg"
+msgstr "Ecm গড়"
+
+msgid "Ecm last"
+msgstr "ইসিএম শেষ"
+
+msgid "Edit"
+msgstr "সম্পাদনা করুন"
+
+msgid "Editing one caid"
+msgstr "একটি ক্যাড সম্পাদনা করা হচ্ছে"
+
+msgid "Emm Info"
+msgstr "এরম তথ্য"
+
+msgid "Entitlements"
+msgstr "এনটাইটেলমেন্ট"
+
+msgid "Error"
+msgstr "ত্রুটি"
+
+msgid "Error executing update script: %s"
+msgstr "আপডেট স্ক্রিপ্ট চালানোর সময় ত্রুটি: %s"
+
+msgid "Error getting resource information"
+msgstr "সম্পদ তথ্য পেতে ত্রুটি"
+
+msgid "Error loading system info:"
+msgstr "সিস্টেম তথ্য লোড করার সময় ত্রুটি:"
+
+msgid "Error loading system information:"
+msgstr "সিস্টেম তথ্য লোড করার সময় ত্রুটি:"
+
+msgid "Error opening cam info: %s"
+msgstr "ক্যাম তথ্য খোলার সময় ত্রুটি: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "কনফিগারেশন ফাইল খোলার সময় ত্রুটি: %s"
+
+msgid "Error processing HTML!"
+msgstr "HTML প্রক্রিয়াকরণে ত্রুটি!"
+
+msgid "Error processing server addons data"
+msgstr "সার্ভার অ্যাডঅন ডেটা প্রক্রিয়াকরণে ত্রুটি৷"
+
+msgid "Error reading webpage!"
+msgstr "ওয়েবপৃষ্ঠা পড়ার ত্রুটি!"
+
+msgid "Error stopping %s!"
+msgstr "%s থামাতে ত্রুটি!"
+
+msgid "Error while editing configuration: %s"
+msgstr "কনফিগারেশন সম্পাদনা করার সময় ত্রুটি: %s"
+
+msgid "Exit"
+msgstr "প্রস্থান করুন"
+
+msgid "Extended Shares"
+msgstr "বর্ধিত শেয়ার"
+
+msgid "Failed to revert file: %s"
+msgstr "ফাইলটি প্রত্যাবর্তন করতে ব্যর্থ হয়েছে: %s"
+
+msgid "Find Fakes"
+msgstr "জাল খুঁজুন"
+
+msgid "Force Update"
+msgstr "ফোর্স আপডেট"
+
+msgid "Free memory"
+msgstr "বিনামূল্যে মেমরি"
+
+msgid "Free memory:"
+msgstr "বিনামূল্যে মেমরি:"
+
+msgid "Free:"
+msgstr "বিনামূল্যে:"
+
+msgid "General"
+msgstr "সাধারণ"
+
+msgid "Get Link"
+msgstr "লিঙ্ক পান"
+
+msgid "Getting the list, please wait ..."
+msgstr "তালিকা পাচ্ছেন, অনুগ্রহ করে অপেক্ষা করুন..."
+
+msgid "Help"
+msgstr "সাহায্য"
+
+msgid "Hops"
+msgstr "হপস"
+
+msgid "Hops:"
+msgstr "হপস:"
+
+msgid "Hostname:"
+msgstr "হোস্ট নাম:"
+
+msgid "IP Address"
+msgstr "আইপি ঠিকানা"
+
+msgid "IP address"
+msgstr "আইপি ঠিকানা"
+
+msgid "Idle Time:"
+msgstr "অলস সময়:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "সক্রিয় থাকলে: সার্ভার কনফিগ ডাউনলোড/রিসেট করুন"
+
+msgid "Install Cam first!!!"
+msgstr "প্রথমে ক্যাম ইনস্টল করুন!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "ডেভেলপার আপডেট (%s) ইনস্টল করবেন?"
+
+msgid "Invalid HTML content!"
+msgstr "অবৈধ HTML সামগ্রী!"
+
+msgid "Invalid URL!"
+msgstr "অবৈধ URL!"
+
+msgid "Last Req."
+msgstr "শেষ অনুরোধ"
+
+msgid "Last used share:"
+msgstr "সর্বশেষ ব্যবহৃত শেয়ার:"
+
+msgid "Load"
+msgstr "লোড"
+
+msgid "Local box"
+msgstr "স্থানীয় বক্স"
+
+msgid "Location"
+msgstr "অবস্থান"
+
+msgid "Log"
+msgstr "লগ"
+
+msgid "Log %s-%s"
+msgstr "লগ %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "মেনু EMM / সার্ভার ক্লাইন"
+
+msgid "Maxdown +"
+msgstr "ম্যাক্সডাউন +"
+
+msgid "Maxdown -"
+msgstr "ম্যাক্সডাউন -"
+
+msgid "Maxdown:"
+msgstr "ম্যাক্সডাউন:"
+
+msgid "Menu config"
+msgstr "মেনু কনফিগারেশন"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo উপলব্ধ নয়"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam চলছে না - তথ্য পেতে Cam শুরু করুন।"
+
+msgid "New"
+msgstr "নতুন"
+
+msgid "New profile:"
+msgstr "নতুন প্রোফাইল:"
+
+msgid "NewCamd"
+msgstr "নিউক্যামডি"
+
+msgid "No ECM data"
+msgstr "ECM ডেটা নেই"
+
+msgid "No ECM data - Timeout"
+msgstr "কোনো ECM ডেটা নেই - সময় শেষ"
+
+msgid "No ECM file"
+msgstr "ECM ফাইল নেই"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "কোন ECM তথ্য বর্তমানে উপলব্ধ. এটি শুধুমাত্র ডিক্রিপ্ট করার সময় উপলব্ধ।"
+
+msgid "No active cam to restart!"
+msgstr "রিস্টার্ট করার জন্য কোন সক্রিয় ক্যাম নেই!"
+
+msgid "No backups available!"
+msgstr "কোন ব্যাকআপ উপলব্ধ!"
+
+msgid "No card inserted!"
+msgstr "কোন কার্ড ঢোকানো!"
+
+msgid "No softcams available!"
+msgstr "কোন সফটক্যাম পাওয়া যাচ্ছে না!"
+
+msgid "No valid backups found!"
+msgstr "কোনো বৈধ ব্যাকআপ পাওয়া যায়নি!"
+
+msgid "NodeID"
+msgstr "নোডআইডি"
+
+msgid "NodeID:"
+msgstr "নোডআইডি:"
+
+msgid "OK"
+msgstr "ঠিক আছে"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam আপডেটের সময় শেষ। বিস্তারিত জানার জন্য /tmp/oscam_update.log চেক করুন।"
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo উপলব্ধ নেই"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam চলছে না - তথ্য পেতে Cam শুরু করুন।"
+
+msgid "PRESS RETURN"
+msgstr "রিটার্ন চাপুন"
+
+msgid "Password"
+msgstr "পাসওয়ার্ড"
+
+msgid "Password (httpwd)"
+msgstr "পাসওয়ার্ড (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "পিক লোড (ওয়ার্কারথ্রেড প্রতি সর্বোচ্চ সারিবদ্ধ অনুরোধ)"
+
+msgid "Pid"
+msgstr "পিড"
+
+msgid "Please Reset - No File CFG"
+msgstr "অনুগ্রহ করে রিসেট করুন - CFG ফাইল নেই"
+
+msgid "Please select ..."
+msgstr "অনুগ্রহ করে নির্বাচন করুন..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "অনুগ্রহ করে সম্পাদনা করতে একটি লাইন নির্বাচন করুন বা নতুন লাইন তৈরি করতে যোগ নির্বাচন করুন৷"
+
+msgid "Please wait, %s."
+msgstr "অনুগ্রহ করে অপেক্ষা করুন, %s।"
+
+msgid "Port"
+msgstr "বন্দর"
+
+msgid "Profile"
+msgstr "প্রোফাইল"
+
+msgid "Profile: Local box"
+msgstr "প্রোফাইল: স্থানীয় বাক্স"
+
+msgid "Protocol"
+msgstr "প্রোটোকল"
+
+msgid "Provider"
+msgstr "প্রদানকারী"
+
+msgid "Provider Name:"
+msgstr "প্রদানকারীর নাম:"
+
+msgid "Provider:"
+msgstr "প্রদানকারী:"
+
+msgid "Providers"
+msgstr "প্রদানকারী"
+
+msgid "Providers:"
+msgstr "প্রদানকারী:"
+
+msgid "Quick restart %s?"
+msgstr "দ্রুত রিস্টার্ট %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "%s.conf থেকে ইউজারডেটা পড়ুন"
+
+msgid "Reader"
+msgstr "পাঠক"
+
+msgid "Reader Statistics"
+msgstr "পাঠক পরিসংখ্যান"
+
+msgid "Reader/User"
+msgstr "পাঠক/ব্যবহারকারী"
+
+msgid "Recover Peer"
+msgstr "পিয়ার পুনরুদ্ধার করুন"
+
+msgid "Remote box"
+msgstr "দূরবর্তী বাক্স"
+
+msgid "Remove"
+msgstr "সরান"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "CCcam.cfg থেকে লাইনটি সরান"
+
+msgid "Removing %s"
+msgstr "%s সরানো হচ্ছে"
+
+msgid "Rename"
+msgstr "নাম পরিবর্তন করুন"
+
+msgid "Rename failed!"
+msgstr "পুনঃনামকরণ ব্যর্থ হয়েছে!"
+
+msgid "Rename to:"
+msgstr "এর নাম পরিবর্তন করুন:"
+
+msgid "Renamed %s!"
+msgstr "%s নামকরণ করা হয়েছে!"
+
+msgid "Reset"
+msgstr "রিসেট করুন"
+
+msgid "Reshare"
+msgstr "পুনরায় ভাগ করুন"
+
+msgid "Reshare:"
+msgstr "শেয়ার করুন:"
+
+msgid "Resources"
+msgstr "সম্পদ"
+
+msgid "Restart GUI?"
+msgstr "GUI পুনরায় চালু করবেন?"
+
+msgid "Restart error: %s"
+msgstr "পুনরায় আরম্ভ ত্রুটি: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "পুনরুদ্ধার করা কনফিগারেশন প্রয়োগ করতে সফটক্যাম রিস্টার্ট করবেন?"
+
+msgid "Save"
+msgstr "সংরক্ষণ করুন"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "স্ক্যানিং এবং পুনরুদ্ধার তালিকা সফটক্যাম ..."
+
+msgid "Select CCcam"
+msgstr "CCcam নির্বাচন করুন"
+
+msgid "Select Get Link"
+msgstr "Get Link নির্বাচন করুন"
+
+msgid "Select Ncam"
+msgstr "Ncam নির্বাচন করুন"
+
+msgid "Select OScam"
+msgstr "OScam নির্বাচন করুন"
+
+msgid "Select Your Choice"
+msgstr "আপনার পছন্দ নির্বাচন করুন"
+
+msgid "Select a cam to run ..."
+msgstr "চালানোর জন্য একটি ক্যাম নির্বাচন করুন..."
+
+msgid "Select and Install"
+msgstr "নির্বাচন করুন এবং ইনস্টল করুন"
+
+msgid "Select backup to restore:"
+msgstr "পুনরুদ্ধার করতে ব্যাকআপ নির্বাচন করুন:"
+
+msgid "Server %s-%s"
+msgstr "সার্ভার %s-%s"
+
+msgid "Server Config"
+msgstr "সার্ভার কনফিগারেশন"
+
+msgid "Server Copy in"
+msgstr "সার্ভার কপি ইন"
+
+msgid "Server Link"
+msgstr "সার্ভার লিঙ্ক"
+
+msgid "Server Password"
+msgstr "সার্ভার পাসওয়ার্ড"
+
+msgid "Server Port"
+msgstr "সার্ভার পোর্ট"
+
+msgid "Server URL"
+msgstr "সার্ভার URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "সার্ভার ইউআরএল অর্থাৎ 012.345.678.900"
+
+msgid "Server Username"
+msgstr "সার্ভার ব্যবহারকারীর নাম"
+
+msgid "Server:"
+msgstr "সার্ভার:"
+
+msgid "Servers"
+msgstr "সার্ভার"
+
+msgid "Servers:"
+msgstr "সার্ভার:"
+
+msgid "Service"
+msgstr "সেবা"
+
+msgid "Set as UNIQUE PEER"
+msgstr "ইউনিক পিয়ার হিসেবে সেট করুন"
+
+msgid "Setup"
+msgstr "সেটআপ"
+
+msgid "Share View"
+msgstr "শেয়ার করুন দৃশ্য"
+
+msgid "Shares"
+msgstr "শেয়ার"
+
+msgid "Show Clients"
+msgstr "ক্লায়েন্ট দেখান"
+
+msgid "Show Ecm info"
+msgstr "Ecm তথ্য দেখান"
+
+msgid "Show Log"
+msgstr "লগ দেখান"
+
+msgid "Show Readers/Proxies"
+msgstr "পাঠক/প্রক্সি দেখান"
+
+msgid "Softcam Manager"
+msgstr "সফটক্যাম ম্যানেজার"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "সফটক্যাম নতুন কনফিগারেশনের সাথে পুনরায় চালু হয়েছে!"
+
+msgid "Start"
+msgstr "শুরু করুন"
+
+msgid "Status"
+msgstr "স্ট্যাটাস"
+
+msgid "Stop"
+msgstr "থামো"
+
+msgid "Stop Finding Fakes"
+msgstr "জাল খোঁজা বন্ধ করুন"
+
+msgid "Switch config"
+msgstr "কনফিগার পরিবর্তন করুন"
+
+msgid "System"
+msgstr "সিস্টেম"
+
+msgid "System cleanup completed!"
+msgstr "সিস্টেম পরিষ্কার সম্পন্ন!"
+
+msgid "System:"
+msgstr "সিস্টেম:"
+
+msgid "Temporarely DELETED"
+msgstr "সাময়িকভাবে মুছে ফেলা হয়েছে৷"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "এই প্লাগইনটি আপনাকে আপনার CCcam এর অবস্থা দেখায়"
+
+msgid "Total"
+msgstr "মোট"
+
+msgid "Total cards:"
+msgstr "মোট কার্ড:"
+
+msgid "Total handled client ecm's"
+msgstr "মোট হ্যান্ডেল করা ক্লায়েন্ট ইসিএম এর"
+
+msgid "Total handled client emm's"
+msgstr "মোট হ্যান্ডেল ক্লায়েন্ট ইএমএম এর"
+
+msgid "Total:"
+msgstr "মোট:"
+
+msgid "Try again later ..."
+msgstr "পরে আবার চেষ্টা করুন..."
+
+msgid "Type:"
+msgstr "প্রকার:"
+
+msgid "UNDELETED"
+msgstr "মুছে ফেলা হয়েছে"
+
+msgid "Unable to make the script executable: %s"
+msgstr "স্ক্রিপ্ট এক্সিকিউটেবল করতে অক্ষম: %s"
+
+msgid "Unknow Image!"
+msgstr "অজানা ছবি!"
+
+msgid "Update"
+msgstr "আপডেট"
+
+msgid "Update Aborted!"
+msgstr "আপডেট বাতিল করা হয়েছে!"
+
+msgid "Update interval (in seconds)"
+msgstr "আপডেট ব্যবধান (সেকেন্ডে)"
+
+msgid "Uphops +"
+msgstr "আপহপস +"
+
+msgid "Uphops -"
+msgstr "আপপস -"
+
+msgid "Uphops:"
+msgstr "আপহপস:"
+
+msgid "Uptime"
+msgstr "আপটাইম"
+
+msgid "Used:"
+msgstr "ব্যবহৃত:"
+
+msgid "Username"
+msgstr "ব্যবহারকারীর নাম"
+
+msgid "Username (httpuser)"
+msgstr "ব্যবহারকারীর নাম (http ব্যবহারকারী)"
+
+msgid "Using old profile:"
+msgstr "পুরানো প্রোফাইল ব্যবহার করে:"
+
+msgid "Version:"
+msgstr "সংস্করণ:"
+
+msgid "Wait please..."
+msgstr "অপেক্ষা করুন দয়া করে..."
+
+msgid "Write"
+msgstr "লিখুন"
+
+msgid "Write-Debug"
+msgstr "লিখুন-ডিবাগ"
+
+msgid "You have the latest version!"
+msgstr "আপনার কাছে সর্বশেষ সংস্করণ আছে!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "প্রদান করুন:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "একটি কিছুই না"
+
+msgid "address:"
+msgstr "ঠিকানা:"
+
+msgid "and"
+msgstr "এবং"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "কার্ড"
+
+msgid "card reader"
+msgstr "কার্ড রিডার"
+
+msgid "close share view"
+msgstr "ক্লোজ শেয়ার ভিউ"
+
+msgid "decrease uphop by 1"
+msgstr "1 দ্বারা আপহপ হ্রাস"
+
+msgid "ecm time:"
+msgstr "ইসিএম সময়:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "কার্ডের সার্ভার পান"
+
+msgid "handled"
+msgstr "পরিচালিত"
+
+msgid "hops:"
+msgstr "হপস:"
+
+msgid "increase uphop by 1"
+msgstr "1 দ্বারা uphop বৃদ্ধি"
+
+msgid "info"
+msgstr "তথ্য"
+
+msgid "no or unknown card inserted"
+msgstr "কোন বা অজানা কার্ড ঢোকানো"
+
+msgid "pid:"
+msgstr "পিড:"
+
+msgid "provid:"
+msgstr "প্রদান:"
+
+msgid "provider:"
+msgstr "প্রদানকারী:"
+
+msgid "share:"
+msgstr "ভাগ:"
+
+msgid "show all cards"
+msgstr "সব কার্ড দেখান"
+
+msgid "show cards with uphop 0"
+msgstr "আপহপ 0 সহ কার্ড দেখান"
+
+msgid "show cards with uphop 1"
+msgstr "আপহপ 1 সহ কার্ড দেখান"
+
+msgid "show cards with uphop 2"
+msgstr "আপহপ 2 সহ কার্ড দেখান"
+
+msgid "show cards with uphop 3"
+msgstr "আপহপ 3 সহ কার্ড দেখান"
+
+msgid "show cards with uphop 4"
+msgstr "আপহপ 4 সহ কার্ড দেখান"
+
+msgid "show cards with uphop 5"
+msgstr "আপহপ 5 সহ কার্ড দেখান"
+
+msgid "show cards with uphop 6"
+msgstr "আপহপ 6 সহ কার্ড দেখান"
+
+msgid "show cards with uphop 7"
+msgstr "আপহপ 7 সহ কার্ড দেখান"
+
+msgid "show cards with uphop 8"
+msgstr "আপহপ 8 সহ কার্ড দেখান"
+
+msgid "show cards with uphop 9"
+msgstr "আপহপ 9 সহ কার্ড দেখান"
+
+msgid "system:"
+msgstr "সিস্টেম:"
+
+msgid "using:"
+msgstr "ব্যবহার করে:"
+
+msgid "xLine"
+msgstr ""

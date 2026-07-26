@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 22:40+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Kartoj )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info - Agordo"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Informoj - Ĉefa Menuo"
+
+msgid "%s restarted successfully!"
+msgstr "%s rekomenciĝis sukcese!"
+
+msgid "%s webif disabled"
+msgstr "%s webif malŝaltita"
+
+msgid "(All readers)"
+msgstr "(Ĉiuj legantoj)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Montri nur legilon) (%s)"
+
+msgid "About"
+msgstr "Pri"
+
+msgid "Activate"
+msgstr "Aktivigu"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Aktivigu Enmetu linion en Agorda Dosiero:"
+
+msgid "Active clients"
+msgstr "Aktivaj klientoj"
+
+msgid "Add"
+msgstr "Aldoni"
+
+msgid "Add new CCcam line"
+msgstr "Aldonu novan CCcam-linion"
+
+msgid "Add new NewCamd line"
+msgstr "Aldonu novan NewCamd-linion"
+
+msgid "Address"
+msgstr "Adreso"
+
+msgid "All"
+msgstr "Ĉiuj"
+
+msgid "An error occurred in the green function."
+msgstr "Okazis eraro en la verda funkcio."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Neatendita eraro okazis: %s"
+
+msgid "Ask all caid"
+msgstr "Demandu al ĉiuj caid"
+
+msgid "Ask for the selection caid"
+msgstr "Petu la elektan kaidon"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Aŭtomate ĝisdatigi Klienta/Servilon Vidon?"
+
+msgid "Available shares:"
+msgstr "Disponeblaj akcioj:"
+
+msgid "Back"
+msgstr "Reen"
+
+msgid "Backup failed!"
+msgstr "Rezervo malsukcesis!"
+
+msgid "Backup restoration failed!"
+msgstr "Rezerva restarigo malsukcesis!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Agordoj de CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker aŭtomata starto"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam-Informoj pri Klientoj"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam Agorda Ŝaltilo"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM-Informo"
+
+msgid "CCcam Info"
+msgstr "CCcam Informoj"
+
+msgid "CCcam Info %s"
+msgstr "CCcam-Informo %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam Info Agordo"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam Info Agorda Menuo"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line Redakti Agojn"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam Linia Redaktoro"
+
+msgid "CCcam Organizer"
+msgstr "CCcam-Organizinto"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Informoj pri CCcam-Provizanto"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam Fora Informo"
+
+msgid "CCcam Server Info"
+msgstr "Informoj pri CCcam-Servilo"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Kunhavigi Informojn"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam Kunigas Informojn"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Baza Linia Redaktoro"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo ne havebla"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Kam Elŝuto"
+
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Karto-informoj (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kartoj:"
+
+msgid "Cards: 0"
+msgstr "Kartoj: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Kanalo"
+
+msgid "Channel Name"
+msgstr "Kanala Nomo"
+
+msgid "Check Emm Send"
+msgstr "Kontrolu Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Elektu CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Elektu leganton"
+
+msgid "Cleanup error: %s"
+msgstr "Eraro pri purigado: %s"
+
+msgid "Client %s-%s"
+msgstr "Kliento %s-%s"
+
+msgid "Clients"
+msgstr "Klientoj"
+
+msgid "Close"
+msgstr "Fermu"
+
+msgid "Command Cancelled"
+msgstr "Komando Nuligita"
+
+msgid "Configfile %s saved."
+msgstr "Agordosiero %s konservita."
+
+msgid "Connected clients"
+msgstr "Konektitaj klientoj"
+
+msgid "Connected:"
+msgstr "Konektita:"
+
+msgid "Content"
+msgstr "Enhavo"
+
+msgid "Could not open the file %s!"
+msgstr "Ne eblis malfermi la dosieron %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Ne eblis malfermi la dosieron %s! Eraro: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Ne eblis konservi agordosieron %s! Eraro: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Ne eblis konservi la agordan dosieron! Eraro: %s"
+
+msgid "Current time"
+msgstr "Nuna horo"
+
+msgid "Delete"
+msgstr "Forigi"
+
+msgid "Delete %s?"
+msgstr "Ĉu forigi %s?"
+
+msgid "Delete Peer"
+msgstr "Forigi Peer"
+
+msgid "Delete failed!"
+msgstr "Forigo malsukcesis!"
+
+msgid "Deleted %s!"
+msgstr "Forigita %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Ĉu vi instalas ĉi tiun kromprogramon?"
+
+msgid "Do you want to execute the command?"
+msgstr "Ĉu vi volas plenumi la komandon?"
+
+msgid "Do you want to remove?"
+msgstr "Ĉu vi volas forigi?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Ĉu vi volas rekomenci Gui-Interfacon?"
+
+msgid "ECM data format error"
+msgstr "Eraro de formato de datumoj de ECM"
+
+msgid "ECM error"
+msgstr "ECM-eraro"
+
+msgid "ECM file empty"
+msgstr "ECM-dosiero malplena"
+
+msgid "ECM file not found"
+msgstr "ECM-dosiero ne trovita"
+
+msgid "ECM read error"
+msgstr "ECM legi eraron"
+
+msgid "Ecm Info"
+msgstr ""
+
+msgid "Ecm Statistics"
+msgstr "Ecm-Statistiko"
+
+msgid "Ecm Time"
+msgstr "Ecm Tempo"
+
+msgid "Ecm avg"
+msgstr "Ecm averaĝa"
+
+msgid "Ecm last"
+msgstr "Ecm lasta"
+
+msgid "Edit"
+msgstr "Redakti"
+
+msgid "Editing one caid"
+msgstr "Redaktante unu kaidon"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Rajtoj"
+
+msgid "Error"
+msgstr "Eraro"
+
+msgid "Error executing update script: %s"
+msgstr "Eraro dum la ekzekuto de ĝisdatiga skripto: %s"
+
+msgid "Error getting resource information"
+msgstr "Eraro ricevi informojn pri rimedoj"
+
+msgid "Error loading system info:"
+msgstr "Eraro ŝarĝante sistemajn informojn:"
+
+msgid "Error loading system information:"
+msgstr "Eraro dum ŝarĝo de sistemaj informoj:"
+
+msgid "Error opening cam info: %s"
+msgstr "Eraro dum malfermado de kam-informoj: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Eraro dum malfermado de agorda dosiero: %s"
+
+msgid "Error processing HTML!"
+msgstr "Eraro pri procesado de HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Eraro pri prilaborado de servilaj aldonaĵoj"
+
+msgid "Error reading webpage!"
+msgstr "Eraro legante retpaĝon!"
+
+msgid "Error stopping %s!"
+msgstr "Eraro ĉesigante %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Eraro dum redaktado de agordo: %s"
+
+msgid "Exit"
+msgstr "Eliro"
+
+msgid "Extended Shares"
+msgstr "Plilongigitaj Akcioj"
+
+msgid "Failed to revert file: %s"
+msgstr "Malsukcesis revenigi dosieron: %s"
+
+msgid "Find Fakes"
+msgstr "Trovu Falsaĵojn"
+
+msgid "Force Update"
+msgstr "Forto Ĝisdatigo"
+
+msgid "Free memory"
+msgstr "Libera memoro"
+
+msgid "Free memory:"
+msgstr "Senpaga memoro:"
+
+msgid "Free:"
+msgstr "Senpaga:"
+
+msgid "General"
+msgstr "Generalo"
+
+msgid "Get Link"
+msgstr "Akiru Ligon"
+
+msgid "Getting the list, please wait ..."
+msgstr "Akirante la liston, bonvolu atendi..."
+
+msgid "Help"
+msgstr "Helpu"
+
+msgid "Hops"
+msgstr "Lupolo"
+
+msgid "Hops:"
+msgstr "Lupolo:"
+
+msgid "Hostname:"
+msgstr "Gastnomo:"
+
+msgid "IP Address"
+msgstr "IP-adreso"
+
+msgid "IP address"
+msgstr "IP-adreso"
+
+msgid "Idle Time:"
+msgstr "Neaktiva Tempo:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Se Aktive: Elŝutu/Restarigi Servilan Agordon"
+
+msgid "Install Cam first!!!"
+msgstr "Instalu Cam unue!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Ĉu instali ĝisdatigon de programisto (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Nevalida HTML-enhavo!"
+
+msgid "Invalid URL!"
+msgstr "Nevalida URL!"
+
+msgid "Last Req."
+msgstr "Lasta Peto."
+
+msgid "Last used share:"
+msgstr "Laste uzata parto:"
+
+msgid "Load"
+msgstr "Ŝarĝo"
+
+msgid "Local box"
+msgstr "Loka skatolo"
+
+msgid "Location"
+msgstr "Loko"
+
+msgid "Log"
+msgstr "Ensalutu"
+
+msgid "Log %s-%s"
+msgstr "Registro %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENUO EMM / SERVILKLINO"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Menua agordo"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo ne havebla"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ne funkcias - lanĉu Cam por akiri informojn."
+
+msgid "New"
+msgstr "Nova"
+
+msgid "New profile:"
+msgstr "Nova profilo:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Neniuj datumoj de ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Neniuj ECM-datumoj - Timeout"
+
+msgid "No ECM file"
+msgstr "Neniu ECM-dosiero"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Neniuj ECM-informoj estas nuntempe haveblaj. Ĉi tio disponeblas nur dum deĉifrado."
+
+msgid "No active cam to restart!"
+msgstr "Neniu aktiva kamero por rekomenci!"
+
+msgid "No backups available!"
+msgstr "Neniuj sekurkopioj haveblaj!"
+
+msgid "No card inserted!"
+msgstr "Neniu karto enigita!"
+
+msgid "No softcams available!"
+msgstr "Neniuj softkameraoj haveblaj!"
+
+msgid "No valid backups found!"
+msgstr "Neniuj validaj sekurkopioj trovitaj!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "Bone"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam-ĝisdatigo elĉerpita. Kontrolu /tmp/oscam_update.log por detaloj."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo ne havebla"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ne funkcias - lanĉu Cam por akiri informojn."
+
+msgid "PRESS RETURN"
+msgstr "PREMI REVENON"
+
+msgid "Password"
+msgstr "Pasvorto"
+
+msgid "Password (httpwd)"
+msgstr "Pasvorto (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Pinta ŝarĝo (maksimumaj vicigitaj petoj per laborfadeno)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Bonvolu Restarigi - Neniu Dosiero CFG"
+
+msgid "Please select ..."
+msgstr "Bonvolu elekti..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Bonvolu elekti linion por redakti aŭ elekti aldoni por krei novan linion."
+
+msgid "Please wait, %s."
+msgstr "Bonvolu atendi, %s."
+
+msgid "Port"
+msgstr "Haveno"
+
+msgid "Profile"
+msgstr "Profilo"
+
+msgid "Profile: Local box"
+msgstr "Profilo: Loka skatolo"
+
+msgid "Protocol"
+msgstr "Protokolo"
+
+msgid "Provider"
+msgstr "Provizanto"
+
+msgid "Provider Name:"
+msgstr "Nomo de Provizanto:"
+
+msgid "Provider:"
+msgstr "Provizanto:"
+
+msgid "Providers"
+msgstr "Provizantoj"
+
+msgid "Providers:"
+msgstr "Provizantoj:"
+
+msgid "Quick restart %s?"
+msgstr "Ĉu rapida rekomenco %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Legu uzantdatumojn el %s.conf"
+
+msgid "Reader"
+msgstr "Leganto"
+
+msgid "Reader Statistics"
+msgstr "Leganto-Statistiko"
+
+msgid "Reader/User"
+msgstr "Leganto/Uzanto"
+
+msgid "Recover Peer"
+msgstr "Reakiri Peer"
+
+msgid "Remote box"
+msgstr "Fora skatolo"
+
+msgid "Remove"
+msgstr "Forigi"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Forigu la Linion de CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Forigante %s"
+
+msgid "Rename"
+msgstr "Alinomi"
+
+msgid "Rename failed!"
+msgstr "Renomi malsukcesis!"
+
+msgid "Rename to:"
+msgstr "Alinomu al:"
+
+msgid "Renamed %s!"
+msgstr "Alinomite %s!"
+
+msgid "Reset"
+msgstr "Restarigi"
+
+msgid "Reshare"
+msgstr "Redividu"
+
+msgid "Reshare:"
+msgstr "Kunhavigi:"
+
+msgid "Resources"
+msgstr "Rimedoj"
+
+msgid "Restart GUI?"
+msgstr "Ĉu rekomenci GUI?"
+
+msgid "Restart error: %s"
+msgstr "Rekomenca eraro: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Rekomenci softkameraon por apliki restarigitan agordon?"
+
+msgid "Save"
+msgstr "Konservu"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Softkamerao por skanado kaj rehaviglisto..."
+
+msgid "Select CCcam"
+msgstr "Elektu CCcam"
+
+msgid "Select Get Link"
+msgstr "Elektu Akiri Ligon"
+
+msgid "Select Ncam"
+msgstr "Elektu Ncam"
+
+msgid "Select OScam"
+msgstr "Elektu OScam"
+
+msgid "Select Your Choice"
+msgstr "Elektu Vian Elekton"
+
+msgid "Select a cam to run ..."
+msgstr "Elektu kamon por kuri..."
+
+msgid "Select and Install"
+msgstr "Elektu kaj Instalu"
+
+msgid "Select backup to restore:"
+msgstr "Elektu sekurkopion por restarigi:"
+
+msgid "Server %s-%s"
+msgstr "Servilo %s-%s"
+
+msgid "Server Config"
+msgstr "Servilo Agordo"
+
+msgid "Server Copy in"
+msgstr "Servilo Kopiu enen"
+
+msgid "Server Link"
+msgstr "Servila Ligo"
+
+msgid "Server Password"
+msgstr "Servilo Pasvorto"
+
+msgid "Server Port"
+msgstr "Servila Haveno"
+
+msgid "Server URL"
+msgstr "Servila URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Servila URL t.e. 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Servila Uzantnomo"
+
+msgid "Server:"
+msgstr "Servilo:"
+
+msgid "Servers"
+msgstr "Serviloj"
+
+msgid "Servers:"
+msgstr "Serviloj:"
+
+msgid "Service"
+msgstr "Servo"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Agordu kiel UNIKA KAMOLO"
+
+msgid "Setup"
+msgstr "Agordi"
+
+msgid "Share View"
+msgstr "Kunhavigi Vidon"
+
+msgid "Shares"
+msgstr "Akcioj"
+
+msgid "Show Clients"
+msgstr "Montru Klientojn"
+
+msgid "Show Ecm info"
+msgstr "Montri Ecm-informojn"
+
+msgid "Show Log"
+msgstr "Montru Protokolo"
+
+msgid "Show Readers/Proxies"
+msgstr "Montru Legantojn/Prokurojn"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softkamera rekomenciĝis kun nova agordo!"
+
+msgid "Start"
+msgstr "Komencu"
+
+msgid "Status"
+msgstr "Statuso"
+
+msgid "Stop"
+msgstr "Haltu"
+
+msgid "Stop Finding Fakes"
+msgstr "Ĉesu Trovi Falsaĵojn"
+
+msgid "Switch config"
+msgstr "Ŝanĝi agordon"
+
+msgid "System"
+msgstr "Sistemo"
+
+msgid "System cleanup completed!"
+msgstr "Sistempurigado finiĝis!"
+
+msgid "System:"
+msgstr "Sistemo:"
+
+msgid "Temporarely DELETED"
+msgstr "Provizore FORIGITA"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Ĉi tiu kromaĵo montras al vi la staton de via CCcam"
+
+msgid "Total"
+msgstr "Entute"
+
+msgid "Total cards:"
+msgstr "Totalaj kartoj:"
+
+msgid "Total handled client ecm's"
+msgstr "Tutaj pritraktitaj kliento ecm"
+
+msgid "Total handled client emm's"
+msgstr "Tuta pritraktita kliento emm"
+
+msgid "Total:"
+msgstr "Totalo:"
+
+msgid "Try again later ..."
+msgstr "Provu denove poste..."
+
+msgid "Type:"
+msgstr "Tipo:"
+
+msgid "UNDELETED"
+msgstr "NEFIGITA"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Ne eblas fari la skripton plenumebla: %s"
+
+msgid "Unknow Image!"
+msgstr "Nekonas Bildon!"
+
+msgid "Update"
+msgstr "Ĝisdatigo"
+
+msgid "Update Aborted!"
+msgstr "Ĝisdatigo interrompita!"
+
+msgid "Update interval (in seconds)"
+msgstr "Ĝisdatigu intervalon (en sekundoj)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Aktivtempo"
+
+msgid "Used:"
+msgstr "Uzita:"
+
+msgid "Username"
+msgstr "Uzantnomo"
+
+msgid "Username (httpuser)"
+msgstr "Uzantnomo (httpuzanto)"
+
+msgid "Using old profile:"
+msgstr "Uzante malnovan profilon:"
+
+msgid "Version:"
+msgstr "Versio:"
+
+msgid "Wait please..."
+msgstr "Atendu bonvolu..."
+
+msgid "Write"
+msgstr "Skribu"
+
+msgid "Write-Debug"
+msgstr "Skribu-Elpurigi"
+
+msgid "You have the latest version!"
+msgstr "Vi havas la lastan version!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tProvizo:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a NENIO.TO.UNDELE"
+
+msgid "address:"
+msgstr "adreso:"
+
+msgid "and"
+msgstr "kaj"
+
+msgid "caid:"
+msgstr "kaid:"
+
+msgid "card"
+msgstr "karto"
+
+msgid "card reader"
+msgstr "kartlegilo"
+
+msgid "close share view"
+msgstr "fermi dividi vidon"
+
+msgid "decrease uphop by 1"
+msgstr "malpliigu supren je 1"
+
+msgid "ecm time:"
+msgstr "ecm tempo:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "akiri la servilon de kartoj"
+
+msgid "handled"
+msgstr "pritraktita"
+
+msgid "hops:"
+msgstr "lupolo:"
+
+msgid "increase uphop by 1"
+msgstr "pliigi supren je 1"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "neniu aŭ nekonata karto enigita"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "provizi:"
+
+msgid "provider:"
+msgstr "provizanto:"
+
+msgid "share:"
+msgstr "dividi:"
+
+msgid "show all cards"
+msgstr "montri ĉiujn kartojn"
+
+msgid "show cards with uphop 0"
+msgstr "montri kartojn kun uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "montri kartojn kun uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "montri kartojn kun uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "montri kartojn kun uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "montri kartojn kun uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "montri kartojn kun uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "montri kartojn kun uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "montri kartojn kun uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "montri kartojn kun uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "montri kartojn kun uphop 9"
+
+msgid "system:"
+msgstr "sistemo:"
+
+msgid "using:"
+msgstr "uzante:"
+
+msgid "xLine"
+msgstr ""

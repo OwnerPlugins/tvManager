@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 00:59+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Maltese\n"
+"Language: mt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Karti )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info - Konfigurazzjoni"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Info - Menu Prinċipali"
+
+msgid "%s restarted successfully!"
+msgstr "%s reġgħet bdiet b'suċċess!"
+
+msgid "%s webif disabled"
+msgstr "%s webif diżattivat"
+
+msgid "(All readers)"
+msgstr "(Il-qarrejja kollha)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Uri biss il-qarrej) (%s)"
+
+msgid "About"
+msgstr "Dwar"
+
+msgid "Activate"
+msgstr "Attiva"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Attiva Daħħal il-linja fil-Fajl tal-Konfigurazzjoni:"
+
+msgid "Active clients"
+msgstr "Klijenti attivi"
+
+msgid "Add"
+msgstr "Żid"
+
+msgid "Add new CCcam line"
+msgstr "Żid linja CCcam ġdida"
+
+msgid "Add new NewCamd line"
+msgstr "Żid linja NewCamd ġdida"
+
+msgid "Address"
+msgstr "Indirizz"
+
+msgid "All"
+msgstr "Kollha"
+
+msgid "An error occurred in the green function."
+msgstr "Sar żball fil-funzjoni ħadra."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Sar żball mhux mistenni: %s"
+
+msgid "Ask all caid"
+msgstr "Staqsi lill-caid kollu"
+
+msgid "Ask for the selection caid"
+msgstr "Staqsi għall-caid tal-għażla"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Aġġorna awtomatikament Klijent/Server View?"
+
+msgid "Available shares:"
+msgstr "Ishma disponibbli:"
+
+msgid "Back"
+msgstr "Lura"
+
+msgid "Backup failed!"
+msgstr "Il-backup falla!"
+
+msgid "Backup restoration failed!"
+msgstr "Ir-restawr tal-backup falla!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Settings ta' CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "Autostart ta' CCPrioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam Klijenti Info"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr ""
+
+msgid "CCcam Info"
+msgstr ""
+
+msgid "CCcam Info %s"
+msgstr ""
+
+msgid "CCcam Info Config"
+msgstr "CCcam Info Konfigurazzjoni"
+
+msgid "CCcam Info Config Menu"
+msgstr ""
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line Edit Azzjonijiet"
+
+msgid "CCcam Line Editor"
+msgstr "Editur tal-Linja CCcam"
+
+msgid "CCcam Organizer"
+msgstr "CCcam Organizzatur"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam Fornitur Info"
+
+msgid "CCcam Remote Info"
+msgstr ""
+
+msgid "CCcam Server Info"
+msgstr "CCcam Server Informazzjoni"
+
+msgid "CCcam Share Info"
+msgstr ""
+
+msgid "CCcam Shares Info"
+msgstr "CCcam Jaqsam l-Informazzjoni"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Editur tal-Linja Bażika"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo mhux disponibbli"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Niżżel Cam"
+
+msgid "Cancel"
+msgstr "Ikkanċella"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Informazzjoni tal-karta (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Karti:"
+
+msgid "Cards: 0"
+msgstr "Karti: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Kanal"
+
+msgid "Channel Name"
+msgstr "Isem tal-Kanal"
+
+msgid "Check Emm Send"
+msgstr "Iċċekkja Emm Ibgħat"
+
+msgid "Choose CCcam-Reader"
+msgstr "Agħżel CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Agħżel qarrej"
+
+msgid "Cleanup error: %s"
+msgstr "Żball fit-tindif: %s"
+
+msgid "Client %s-%s"
+msgstr "Klijent %s-%s"
+
+msgid "Clients"
+msgstr "Klijenti"
+
+msgid "Close"
+msgstr "Agħlaq"
+
+msgid "Command Cancelled"
+msgstr "Kmand Kanċellat"
+
+msgid "Configfile %s saved."
+msgstr "Konfigfile %s issejvjat."
+
+msgid "Connected clients"
+msgstr "Klijenti konnessi"
+
+msgid "Connected:"
+msgstr "Konnessi:"
+
+msgid "Content"
+msgstr "Kontenut"
+
+msgid "Could not open the file %s!"
+msgstr "Ma setgħetx tiftaħ il-fajl %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Ma setgħetx tiftaħ il-fajl %s! Żball: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Ma setax isalva l-konfigurazzjoni %s! Żball: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Ma setax isalva l-fajl tal-konfigurazzjoni! Żball: %s"
+
+msgid "Current time"
+msgstr "Ħin kurrenti"
+
+msgid "Delete"
+msgstr "Ħassar"
+
+msgid "Delete %s?"
+msgstr "Ħassar %s?"
+
+msgid "Delete Peer"
+msgstr "Ħassar Peer"
+
+msgid "Delete failed!"
+msgstr "Ħassar falla!"
+
+msgid "Deleted %s!"
+msgstr "Imħassar %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Tinstalla dan il-plugin?"
+
+msgid "Do you want to execute the command?"
+msgstr "Trid tesegwixxi l-kmand?"
+
+msgid "Do you want to remove?"
+msgstr "Trid tneħħi?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Trid terġa 'tibda Gui Interface?"
+
+msgid "ECM data format error"
+msgstr "Żball fil-format tad-dejta tal-ECM"
+
+msgid "ECM error"
+msgstr "Żball ECM"
+
+msgid "ECM file empty"
+msgstr "Fajl ECM vojt"
+
+msgid "ECM file not found"
+msgstr "Fajl ECM ma nstabx"
+
+msgid "ECM read error"
+msgstr "Żball tal-qari tal-ECM"
+
+msgid "Ecm Info"
+msgstr ""
+
+msgid "Ecm Statistics"
+msgstr "Statistika ECM"
+
+msgid "Ecm Time"
+msgstr "Ħin Ecm"
+
+msgid "Ecm avg"
+msgstr "Ecm medja"
+
+msgid "Ecm last"
+msgstr "Ecm l-aħħar"
+
+msgid "Edit"
+msgstr "Editja"
+
+msgid "Editing one caid"
+msgstr "Editjar caid wieħed"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Intitolamenti"
+
+msgid "Error"
+msgstr "Żball"
+
+msgid "Error executing update script: %s"
+msgstr "Żball fl-eżekuzzjoni tal-iskrittura tal-aġġornament: %s"
+
+msgid "Error getting resource information"
+msgstr "Żball meta tikseb l-informazzjoni tar-riżorsi"
+
+msgid "Error loading system info:"
+msgstr "Żball fit-tagħbija tal-informazzjoni tas-sistema:"
+
+msgid "Error loading system information:"
+msgstr "Żball fit-tagħbija tal-informazzjoni tas-sistema:"
+
+msgid "Error opening cam info: %s"
+msgstr "Żball fil-ftuħ tal-informazzjoni tal-kam: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Żball fil-ftuħ tal-fajl tal-konfigurazzjoni: %s"
+
+msgid "Error processing HTML!"
+msgstr "Żball fl-ipproċessar tal-HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Żball fl-ipproċessar tad-data tas-server addons"
+
+msgid "Error reading webpage!"
+msgstr "Żball fil-qari tal-paġna web!"
+
+msgid "Error stopping %s!"
+msgstr "Żball meta twaqqaf %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Żball waqt l-editjar tal-konfigurazzjoni: %s"
+
+msgid "Exit"
+msgstr "Ħruġ"
+
+msgid "Extended Shares"
+msgstr "Ishma Estiżi"
+
+msgid "Failed to revert file: %s"
+msgstr "Naqas milli jerġa' lura l-fajl: %s"
+
+msgid "Find Fakes"
+msgstr "Sib Fakes"
+
+msgid "Force Update"
+msgstr "Aġġornament tal-Forza"
+
+msgid "Free memory"
+msgstr "Memorja ħielsa"
+
+msgid "Free memory:"
+msgstr "Memorja ħielsa:"
+
+msgid "Free:"
+msgstr "B'xejn:"
+
+msgid "General"
+msgstr "Ġenerali"
+
+msgid "Get Link"
+msgstr "Ikseb Link"
+
+msgid "Getting the list, please wait ..."
+msgstr "Nibdew il-lista, jekk jogħġbok stenna..."
+
+msgid "Help"
+msgstr "Għajnuna"
+
+msgid "Hops"
+msgstr "Ħops"
+
+msgid "Hops:"
+msgstr "Ħops:"
+
+msgid "Hostname:"
+msgstr "L-isem tal-ospitant:"
+
+msgid "IP Address"
+msgstr "Indirizz IP"
+
+msgid "IP address"
+msgstr "indirizz IP"
+
+msgid "Idle Time:"
+msgstr "Ħin Inattiv:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Jekk Attiv: Niżżel/Irrisettja l-Konfigurazzjoni tas-Server"
+
+msgid "Install Cam first!!!"
+msgstr "Installa Cam l-ewwel!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Tinstalla l-aġġornament tal-iżviluppatur (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Kontenut HTML invalidu!"
+
+msgid "Invalid URL!"
+msgstr "URL invalidu!"
+
+msgid "Last Req."
+msgstr "L-aħħar Req."
+
+msgid "Last used share:"
+msgstr "L-aħħar sehem użat:"
+
+msgid "Load"
+msgstr "Tagħbija"
+
+msgid "Local box"
+msgstr "Kaxxa lokali"
+
+msgid "Location"
+msgstr "Post"
+
+msgid "Log"
+msgstr ""
+
+msgid "Log %s-%s"
+msgstr ""
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM / KLINJA SERVER"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Konfigurazzjoni tal-menu"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo mhux disponibbli"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam mhux qed jaħdem - ibda Cam biex tikseb informazzjoni."
+
+msgid "New"
+msgstr "Ġdid"
+
+msgid "New profile:"
+msgstr "Profil ġdid:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Ebda data ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Ebda data ECM - Timeout"
+
+msgid "No ECM file"
+msgstr "L-ebda fajl ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "L-ebda informazzjoni ECM mhi disponibbli bħalissa. Dan huwa disponibbli biss waqt id-decrypting."
+
+msgid "No active cam to restart!"
+msgstr "Ebda cam attiva biex terġa 'tibda!"
+
+msgid "No backups available!"
+msgstr "Ebda backups disponibbli!"
+
+msgid "No card inserted!"
+msgstr "L-ebda karta mdaħħla!"
+
+msgid "No softcams available!"
+msgstr "Ebda softcams disponibbli!"
+
+msgid "No valid backups found!"
+msgstr "Ebda backups validi misjuba!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "L-aġġornament tal-OSCam skada. Iċċekkja /tmp/oscam_update.log għad-dettalji."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo mhux disponibbli"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam mhux qed jaħdem - ibda Cam biex tikseb informazzjoni."
+
+msgid "PRESS RETURN"
+msgstr "RITORN TA' L-ISTAMPA"
+
+msgid "Password"
+msgstr ""
+
+msgid "Password (httpwd)"
+msgstr ""
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "L-ogħla tagħbija (talbiet massimu fil-kju għal kull workerthread)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Jekk jogħġbok Irrisettja - Ebda File CFG"
+
+msgid "Please select ..."
+msgstr "Jekk jogħġbok agħżel..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Jekk jogħġbok agħżel linja biex teditja jew agħżel żid biex toħloq linja ġdida."
+
+msgid "Please wait, %s."
+msgstr "Jekk jogħġbok stenna, %s."
+
+msgid "Port"
+msgstr ""
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile: Local box"
+msgstr "Profil: Kaxxa lokali"
+
+msgid "Protocol"
+msgstr "Protokoll"
+
+msgid "Provider"
+msgstr "Fornitur"
+
+msgid "Provider Name:"
+msgstr "Isem tal-Fornitur:"
+
+msgid "Provider:"
+msgstr "Fornitur:"
+
+msgid "Providers"
+msgstr "Fornituri"
+
+msgid "Providers:"
+msgstr "Fornituri:"
+
+msgid "Quick restart %s?"
+msgstr "Ibda mill-ġdid malajr %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Aqra Userdata minn %s.conf"
+
+msgid "Reader"
+msgstr "Qarrej"
+
+msgid "Reader Statistics"
+msgstr "Statistika tal-Qarrej"
+
+msgid "Reader/User"
+msgstr "Qarrej/Utent"
+
+msgid "Recover Peer"
+msgstr "Jirkupra Peer"
+
+msgid "Remote box"
+msgstr "Kaxxa mill-bogħod"
+
+msgid "Remove"
+msgstr "Neħħi"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Neħħi l-Linja minn CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Tneħħi %s"
+
+msgid "Rename"
+msgstr "Semmi mill-ġdid"
+
+msgid "Rename failed!"
+msgstr "Isem mill-ġdid falla!"
+
+msgid "Rename to:"
+msgstr "Semmi għal:"
+
+msgid "Renamed %s!"
+msgstr "Ismu mill-ġdid %s!"
+
+msgid "Reset"
+msgstr "Irrisettja"
+
+msgid "Reshare"
+msgstr ""
+
+msgid "Reshare:"
+msgstr "Aqsam:"
+
+msgid "Resources"
+msgstr "Riżorsi"
+
+msgid "Restart GUI?"
+msgstr "Ibda mill-ġdid GUI?"
+
+msgid "Restart error: %s"
+msgstr "Żball mill-ġdid: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Ibda mill-ġdid is-softcam biex tapplika konfigurazzjoni restawrata?"
+
+msgid "Save"
+msgstr "Ħlief"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Softcam tal-lista tal-iskannjar u l-irkupru..."
+
+msgid "Select CCcam"
+msgstr "Agħżel CCcam"
+
+msgid "Select Get Link"
+msgstr "Agħżel Ikseb Link"
+
+msgid "Select Ncam"
+msgstr "Agħżel Ncam"
+
+msgid "Select OScam"
+msgstr "Agħżel OScam"
+
+msgid "Select Your Choice"
+msgstr "Agħżel l-Għażla Tiegħek"
+
+msgid "Select a cam to run ..."
+msgstr "Agħżel cam biex tmexxi..."
+
+msgid "Select and Install"
+msgstr "Agħżel u Installa"
+
+msgid "Select backup to restore:"
+msgstr "Agħżel backup biex tirrestawra:"
+
+msgid "Server %s-%s"
+msgstr ""
+
+msgid "Server Config"
+msgstr "Konfigurazzjoni tas-Server"
+
+msgid "Server Copy in"
+msgstr "Server Kopja ġewwa"
+
+msgid "Server Link"
+msgstr ""
+
+msgid "Server Password"
+msgstr "Password tas-server"
+
+msgid "Server Port"
+msgstr "Port tas-Server"
+
+msgid "Server URL"
+msgstr "URL tas-server"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Url tas-server jiġifieri 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Isem tal-Utent tas-Server"
+
+msgid "Server:"
+msgstr ""
+
+msgid "Servers"
+msgstr ""
+
+msgid "Servers:"
+msgstr ""
+
+msgid "Service"
+msgstr "Servizz"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Issettja bħala PEER UNIKU"
+
+msgid "Setup"
+msgstr ""
+
+msgid "Share View"
+msgstr ""
+
+msgid "Shares"
+msgstr "Ishma"
+
+msgid "Show Clients"
+msgstr "Uri Klijenti"
+
+msgid "Show Ecm info"
+msgstr "Uri l-informazzjoni dwar l-Ecm"
+
+msgid "Show Log"
+msgstr "Uri Log"
+
+msgid "Show Readers/Proxies"
+msgstr "Uri Qarrejja/Prokuri"
+
+msgid "Softcam Manager"
+msgstr "Maniġer tas-Softcam"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam reġgħet bdiet b'konfigurazzjoni ġdida!"
+
+msgid "Start"
+msgstr "Ibda"
+
+msgid "Status"
+msgstr ""
+
+msgid "Stop"
+msgstr "Waqqaf"
+
+msgid "Stop Finding Fakes"
+msgstr "Tieqaf Tsib Fakes"
+
+msgid "Switch config"
+msgstr "Aqleb konfigurazzjoni"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System cleanup completed!"
+msgstr "It-tindif tas-sistema lest!"
+
+msgid "System:"
+msgstr "Sistema:"
+
+msgid "Temporarely DELETED"
+msgstr "Imħassar temporanjament"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Dan il-plugin jurik l-istatus tas-CCcam tiegħek"
+
+msgid "Total"
+msgstr ""
+
+msgid "Total cards:"
+msgstr "Karti totali:"
+
+msgid "Total handled client ecm's"
+msgstr "ECM tal-klijent totali mmaniġġjati"
+
+msgid "Total handled client emm's"
+msgstr "Total mmaniġġjati klijent emm's"
+
+msgid "Total:"
+msgstr ""
+
+msgid "Try again later ..."
+msgstr "Erġa' pprova aktar tard..."
+
+msgid "Type:"
+msgstr "Tip:"
+
+msgid "UNDELETED"
+msgstr "MĦASSRA"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Ma tistax tagħmel l-iskritt eżekutibbli: %s"
+
+msgid "Unknow Image!"
+msgstr ""
+
+msgid "Update"
+msgstr "Aġġornament"
+
+msgid "Update Aborted!"
+msgstr "Aġġornament Abortat!"
+
+msgid "Update interval (in seconds)"
+msgstr "Intervall tal-aġġornament (f'sekondi)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Used:"
+msgstr "Użat:"
+
+msgid "Username"
+msgstr "Isem tal-utent"
+
+msgid "Username (httpuser)"
+msgstr "Isem tal-utent (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Bl-użu ta' profil antik:"
+
+msgid "Version:"
+msgstr "Verżjoni:"
+
+msgid "Wait please..."
+msgstr "Stenna jekk jogħġbok..."
+
+msgid "Write"
+msgstr "Ikteb"
+
+msgid "Write-Debug"
+msgstr "Ikteb-Debug"
+
+msgid "You have the latest version!"
+msgstr "Għandek l-aħħar verżjoni!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tProva:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a XEJN.TO.UNDELE"
+
+msgid "address:"
+msgstr "indirizz:"
+
+msgid "and"
+msgstr "u"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "karta"
+
+msgid "card reader"
+msgstr "qarrej tal-kards"
+
+msgid "close share view"
+msgstr "qrib sehem fehma"
+
+msgid "decrease uphop by 1"
+msgstr "jonqos uphop b'1"
+
+msgid "ecm time:"
+msgstr "ħin ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "tikseb is-server tal-karti"
+
+msgid "handled"
+msgstr "immaniġġjati"
+
+msgid "hops:"
+msgstr "ħops:"
+
+msgid "increase uphop by 1"
+msgstr "żid uphop b'1"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "l-ebda karta jew mhux magħrufa mdaħħla"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "sakemm:"
+
+msgid "provider:"
+msgstr "fornitur:"
+
+msgid "share:"
+msgstr "sehem:"
+
+msgid "show all cards"
+msgstr "uri l-karti kollha"
+
+msgid "show cards with uphop 0"
+msgstr "uri kards b'uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "juru karti b'uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "juru karti b'uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "juru karti b'uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "juru karti b'uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "juru karti b'uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "juru karti b'uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "juru karti b'uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "juru karti b'uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "juru karti b'uphop 9"
+
+msgid "system:"
+msgstr "sistema:"
+
+msgid "using:"
+msgstr "bl-użu:"
+
+msgid "xLine"
+msgstr ""

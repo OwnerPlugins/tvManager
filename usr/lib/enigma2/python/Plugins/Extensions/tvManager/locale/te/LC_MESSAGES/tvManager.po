@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 02:23+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Telugu\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s కార్డ్‌లు)"
+
+msgid "%s Info - Configuration"
+msgstr "%s సమాచారం - కాన్ఫిగరేషన్"
+
+msgid "%s Info - Main Menu"
+msgstr "%s సమాచారం - ప్రధాన మెనూ"
+
+msgid "%s restarted successfully!"
+msgstr "%s విజయవంతంగా పునఃప్రారంభించబడింది!"
+
+msgid "%s webif disabled"
+msgstr "%s webif నిలిపివేయబడింది"
+
+msgid "(All readers)"
+msgstr "(పాఠకులందరూ)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(రీడర్‌ను మాత్రమే చూపు) (%s)"
+
+msgid "About"
+msgstr "గురించి"
+
+msgid "Activate"
+msgstr "యాక్టివేట్ చేయండి"
+
+msgid "Activate Insert line in Config File:"
+msgstr "కాన్ఫిగరేషన్ ఫైల్‌లో ఇన్‌సర్ట్ లైన్‌ని యాక్టివేట్ చేయండి:"
+
+msgid "Active clients"
+msgstr "క్రియాశీల క్లయింట్లు"
+
+msgid "Add"
+msgstr "జోడించు"
+
+msgid "Add new CCcam line"
+msgstr "కొత్త CCcam లైన్‌ని జోడించండి"
+
+msgid "Add new NewCamd line"
+msgstr "కొత్త NewCamd లైన్‌ని జోడించండి"
+
+msgid "Address"
+msgstr "చిరునామా"
+
+msgid "All"
+msgstr "అన్నీ"
+
+msgid "An error occurred in the green function."
+msgstr "గ్రీన్ ఫంక్షన్‌లో లోపం సంభవించింది."
+
+msgid "An unexpected error occurred: %s"
+msgstr "ఊహించని లోపం సంభవించింది: %s"
+
+msgid "Ask all caid"
+msgstr "అన్ని caid అడగండి"
+
+msgid "Ask for the selection caid"
+msgstr "ఎంపిక caid కోసం అడగండి"
+
+msgid "Automatically update Client/Server View?"
+msgstr "క్లయింట్/సర్వర్ వీక్షణను స్వయంచాలకంగా నవీకరించాలా?"
+
+msgid "Available shares:"
+msgstr "అందుబాటులో ఉన్న షేర్లు:"
+
+msgid "Back"
+msgstr "వెనుకకు"
+
+msgid "Backup failed!"
+msgstr "బ్యాకప్ విఫలమైంది!"
+
+msgid "Backup restoration failed!"
+msgstr "బ్యాకప్ పునరుద్ధరణ విఫలమైంది!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker సెట్టింగ్‌లు"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker ఆటోస్టార్ట్"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam ఖాతాదారుల సమాచారం"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam కాన్ఫిగరేషన్ స్విచ్చర్"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM సమాచారం"
+
+msgid "CCcam Info"
+msgstr "CCcam సమాచారం"
+
+msgid "CCcam Info %s"
+msgstr "CCcam సమాచారం %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam సమాచారం కాన్ఫిగర్"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam సమాచార కాన్ఫిగరేషన్ మెను"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam లైన్ సవరణ చర్యలు"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam లైన్ ఎడిటర్"
+
+msgid "CCcam Organizer"
+msgstr "CCcam ఆర్గనైజర్"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam ప్రొవైడర్ సమాచారం"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam రిమోట్ సమాచారం"
+
+msgid "CCcam Server Info"
+msgstr "CCcam సర్వర్ సమాచారం"
+
+msgid "CCcam Share Info"
+msgstr "CCcam షేర్ సమాచారం"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam షేర్ల సమాచారం"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg బేసిక్ లైన్ ఎడిటర్"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo అందుబాటులో లేదు"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "కెయిడ్"
+
+msgid "Caid:"
+msgstr "కెయిడ్:"
+
+msgid "Caid:Srvid"
+msgstr "కెయిడ్: శ్రీవిద్"
+
+msgid "Cam Download"
+msgstr "కామ్ డౌన్‌లోడ్"
+
+msgid "Cancel"
+msgstr "రద్దు చేయి"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "కార్డ్ సమాచారం (CCcam-రీడర్)"
+
+msgid "Cards:"
+msgstr "కార్డ్‌లు:"
+
+msgid "Cards: 0"
+msgstr "కార్డ్‌లు: 0"
+
+msgid "Cardserial"
+msgstr "కార్డ్సీరియల్"
+
+msgid "Channel"
+msgstr "ఛానెల్"
+
+msgid "Channel Name"
+msgstr "ఛానెల్ పేరు"
+
+msgid "Check Emm Send"
+msgstr "Em Sendని తనిఖీ చేయండి"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Readerని ఎంచుకోండి"
+
+msgid "Choose reader"
+msgstr "రీడర్‌ని ఎంచుకోండి"
+
+msgid "Cleanup error: %s"
+msgstr "శుభ్రపరిచే లోపం: %s"
+
+msgid "Client %s-%s"
+msgstr "క్లయింట్ %s-%s"
+
+msgid "Clients"
+msgstr "క్లయింట్లు"
+
+msgid "Close"
+msgstr "మూసివేయి"
+
+msgid "Command Cancelled"
+msgstr "ఆదేశం రద్దు చేయబడింది"
+
+msgid "Configfile %s saved."
+msgstr "కాన్ఫిగర్ %s సేవ్ చేయబడింది."
+
+msgid "Connected clients"
+msgstr "కనెక్ట్ చేయబడిన క్లయింట్లు"
+
+msgid "Connected:"
+msgstr "కనెక్ట్ చేయబడింది:"
+
+msgid "Content"
+msgstr "కంటెంట్"
+
+msgid "Could not open the file %s!"
+msgstr "%s ఫైల్‌ను తెరవడం సాధ్యపడలేదు!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "%s ఫైల్‌ను తెరవడం సాధ్యపడలేదు! లోపం: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "%s కాన్ఫిగరేషన్ సేవ్ చేయడం సాధ్యపడలేదు! లోపం: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "కాన్ఫిగర్ ఫైల్‌ను సేవ్ చేయడం సాధ్యపడలేదు! లోపం: %s"
+
+msgid "Current time"
+msgstr "ప్రస్తుత సమయం"
+
+msgid "Delete"
+msgstr "తొలగించు"
+
+msgid "Delete %s?"
+msgstr "%sని తొలగించాలా?"
+
+msgid "Delete Peer"
+msgstr "పీర్‌ని తొలగించండి"
+
+msgid "Delete failed!"
+msgstr "తొలగించడం విఫలమైంది!"
+
+msgid "Deleted %s!"
+msgstr "%s తొలగించబడింది!"
+
+msgid "Do you install this plugin ?"
+msgstr "మీరు ఈ ప్లగ్‌ఇన్‌ను ఇన్‌స్టాల్ చేస్తారా?"
+
+msgid "Do you want to execute the command?"
+msgstr "మీరు ఆదేశాన్ని అమలు చేయాలనుకుంటున్నారా?"
+
+msgid "Do you want to remove?"
+msgstr "మీరు తీసివేయాలనుకుంటున్నారా?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "మీరు Gui ఇంటర్‌ఫేస్‌ని పునఃప్రారంభించాలనుకుంటున్నారా?"
+
+msgid "ECM data format error"
+msgstr "ECM డేటా ఫార్మాట్ లోపం"
+
+msgid "ECM error"
+msgstr "ECM లోపం"
+
+msgid "ECM file empty"
+msgstr "ECM ఫైల్ ఖాళీగా ఉంది"
+
+msgid "ECM file not found"
+msgstr "ECM ఫైల్ కనుగొనబడలేదు"
+
+msgid "ECM read error"
+msgstr "ECM రీడ్ ఎర్రర్"
+
+msgid "Ecm Info"
+msgstr "Ecm సమాచారం"
+
+msgid "Ecm Statistics"
+msgstr "Em గణాంకాలు"
+
+msgid "Ecm Time"
+msgstr "Ecm సమయం"
+
+msgid "Ecm avg"
+msgstr "Em సగటు"
+
+msgid "Ecm last"
+msgstr "Ecm చివరిది"
+
+msgid "Edit"
+msgstr "సవరించు"
+
+msgid "Editing one caid"
+msgstr "ఒక కేడ్‌ని సవరించడం"
+
+msgid "Emm Info"
+msgstr "Erm సమాచారం"
+
+msgid "Entitlements"
+msgstr "అర్హతలు"
+
+msgid "Error"
+msgstr "లోపం"
+
+msgid "Error executing update script: %s"
+msgstr "నవీకరణ స్క్రిప్ట్‌ని అమలు చేయడంలో లోపం: %s"
+
+msgid "Error getting resource information"
+msgstr "వనరుల సమాచారాన్ని పొందడంలో లోపం ఏర్పడింది"
+
+msgid "Error loading system info:"
+msgstr "సిస్టమ్ సమాచారాన్ని లోడ్ చేయడంలో లోపం:"
+
+msgid "Error loading system information:"
+msgstr "సిస్టమ్ సమాచారాన్ని లోడ్ చేయడంలో లోపం:"
+
+msgid "Error opening cam info: %s"
+msgstr "కెమెరా సమాచారాన్ని తెరవడంలో లోపం: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "కాన్ఫిగరేషన్ ఫైల్‌ను తెరవడంలో లోపం: %s"
+
+msgid "Error processing HTML!"
+msgstr "HTMLని ప్రాసెస్ చేయడంలో లోపం!"
+
+msgid "Error processing server addons data"
+msgstr "సర్వర్ యాడ్ఆన్స్ డేటాను ప్రాసెస్ చేయడంలో లోపం"
+
+msgid "Error reading webpage!"
+msgstr "వెబ్‌పేజీని చదవడంలో లోపం!"
+
+msgid "Error stopping %s!"
+msgstr "%sని ఆపడంలో లోపం!"
+
+msgid "Error while editing configuration: %s"
+msgstr "కాన్ఫిగరేషన్‌ని సవరించడంలో లోపం: %s"
+
+msgid "Exit"
+msgstr "నిష్క్రమించు"
+
+msgid "Extended Shares"
+msgstr "విస్తరించిన షేర్లు"
+
+msgid "Failed to revert file: %s"
+msgstr "ఫైల్‌ని తిరిగి మార్చడంలో విఫలమైంది: %s"
+
+msgid "Find Fakes"
+msgstr "నకిలీలను కనుగొనండి"
+
+msgid "Force Update"
+msgstr "ఫోర్స్ అప్‌డేట్"
+
+msgid "Free memory"
+msgstr "ఉచిత మెమరీ"
+
+msgid "Free memory:"
+msgstr "ఉచిత మెమరీ:"
+
+msgid "Free:"
+msgstr "ఉచిత:"
+
+msgid "General"
+msgstr "జనరల్"
+
+msgid "Get Link"
+msgstr "లింక్ పొందండి"
+
+msgid "Getting the list, please wait ..."
+msgstr "జాబితాను పొందుతోంది, దయచేసి వేచి ఉండండి..."
+
+msgid "Help"
+msgstr "సహాయం"
+
+msgid "Hops"
+msgstr "హాప్స్"
+
+msgid "Hops:"
+msgstr "హాప్స్:"
+
+msgid "Hostname:"
+msgstr "హోస్ట్ పేరు:"
+
+msgid "IP Address"
+msgstr "IP చిరునామా"
+
+msgid "IP address"
+msgstr "IP చిరునామా"
+
+msgid "Idle Time:"
+msgstr "నిష్క్రియ సమయం:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "సక్రియంగా ఉంటే: సర్వర్ కాన్ఫిగర్‌ని డౌన్‌లోడ్/రీసెట్ చేయండి"
+
+msgid "Install Cam first!!!"
+msgstr "ముందుగా క్యామ్‌ను ఇన్‌స్టాల్ చేయండి!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "డెవలపర్ అప్‌డేట్ (%s)ని ఇన్‌స్టాల్ చేయాలా?"
+
+msgid "Invalid HTML content!"
+msgstr "చెల్లని HTML కంటెంట్!"
+
+msgid "Invalid URL!"
+msgstr "చెల్లని URL!"
+
+msgid "Last Req."
+msgstr "చివరి రెక్."
+
+msgid "Last used share:"
+msgstr "చివరిగా ఉపయోగించిన షేర్:"
+
+msgid "Load"
+msgstr "లోడ్ చేయండి"
+
+msgid "Local box"
+msgstr "స్థానిక పెట్టె"
+
+msgid "Location"
+msgstr "స్థానం"
+
+msgid "Log"
+msgstr "లాగ్"
+
+msgid "Log %s-%s"
+msgstr "లాగిన్ %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "మెను EMM / సర్వర్ క్లైన్"
+
+msgid "Maxdown +"
+msgstr "మాక్స్‌డౌన్ +"
+
+msgid "Maxdown -"
+msgstr "మాక్స్‌డౌన్ -"
+
+msgid "Maxdown:"
+msgstr "మాక్స్‌డౌన్:"
+
+msgid "Menu config"
+msgstr "మెనూ కాన్ఫిగరేషన్"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo అందుబాటులో లేదు"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam అమలులో లేదు - సమాచారాన్ని పొందడానికి Camని ప్రారంభించండి."
+
+msgid "New"
+msgstr "కొత్తది"
+
+msgid "New profile:"
+msgstr "కొత్త ప్రొఫైల్:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "ECM డేటా లేదు"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM డేటా లేదు - గడువు ముగిసింది"
+
+msgid "No ECM file"
+msgstr "ECM ఫైల్ లేదు"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ప్రస్తుతం ECM సమాచారం అందుబాటులో లేదు. ఇది డీక్రిప్ట్ చేస్తున్నప్పుడు మాత్రమే అందుబాటులో ఉంటుంది."
+
+msgid "No active cam to restart!"
+msgstr "రీస్టార్ట్ చేయడానికి యాక్టివ్ క్యామ్ లేదు!"
+
+msgid "No backups available!"
+msgstr "బ్యాకప్‌లు ఏవీ అందుబాటులో లేవు!"
+
+msgid "No card inserted!"
+msgstr "కార్డ్ చొప్పించబడలేదు!"
+
+msgid "No softcams available!"
+msgstr "సాఫ్ట్‌క్యామ్‌లు అందుబాటులో లేవు!"
+
+msgid "No valid backups found!"
+msgstr "చెల్లుబాటు అయ్యే బ్యాకప్‌లు ఏవీ కనుగొనబడలేదు!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "సరే"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam అప్‌డేట్ సమయం ముగిసింది. వివరాల కోసం /tmp/oscam_update.logని తనిఖీ చేయండి."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo అందుబాటులో లేదు"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam అమలులో లేదు - సమాచారాన్ని పొందేందుకు Camని ప్రారంభించండి."
+
+msgid "PRESS RETURN"
+msgstr "రిటర్న్ నొక్కండి"
+
+msgid "Password"
+msgstr "పాస్వర్డ్"
+
+msgid "Password (httpwd)"
+msgstr "పాస్‌వర్డ్ (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "పీక్ లోడ్ (ఒక వర్కర్‌థ్రెడ్‌కు గరిష్టంగా వరుసలో ఉన్న అభ్యర్థనలు)"
+
+msgid "Pid"
+msgstr "పిడ్"
+
+msgid "Please Reset - No File CFG"
+msgstr "దయచేసి రీసెట్ చేయండి - CFG ఫైల్ లేదు"
+
+msgid "Please select ..."
+msgstr "దయచేసి ఎంచుకోండి..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "దయచేసి సవరించడానికి ఒక పంక్తిని ఎంచుకోండి లేదా కొత్త పంక్తిని సృష్టించడానికి జోడించు ఎంచుకోండి."
+
+msgid "Please wait, %s."
+msgstr "దయచేసి వేచి ఉండండి, %s."
+
+msgid "Port"
+msgstr "పోర్ట్"
+
+msgid "Profile"
+msgstr "ప్రొఫైల్"
+
+msgid "Profile: Local box"
+msgstr "ప్రొఫైల్: స్థానిక పెట్టె"
+
+msgid "Protocol"
+msgstr "ప్రోటోకాల్"
+
+msgid "Provider"
+msgstr "ప్రొవైడర్"
+
+msgid "Provider Name:"
+msgstr "ప్రొవైడర్ పేరు:"
+
+msgid "Provider:"
+msgstr "ప్రొవైడర్:"
+
+msgid "Providers"
+msgstr "ప్రొవైడర్లు"
+
+msgid "Providers:"
+msgstr "ప్రొవైడర్లు:"
+
+msgid "Quick restart %s?"
+msgstr "%sని త్వరగా పునఃప్రారంభించాలా?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "%s.conf నుండి వినియోగదారు డేటాను చదవండి"
+
+msgid "Reader"
+msgstr "రీడర్"
+
+msgid "Reader Statistics"
+msgstr "రీడర్ గణాంకాలు"
+
+msgid "Reader/User"
+msgstr "రీడర్/యూజర్"
+
+msgid "Recover Peer"
+msgstr "పీర్‌ని పునరుద్ధరించండి"
+
+msgid "Remote box"
+msgstr "రిమోట్ బాక్స్"
+
+msgid "Remove"
+msgstr "తొలగించు"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "CCcam.cfg నుండి లైన్‌ను తీసివేయండి"
+
+msgid "Removing %s"
+msgstr "%sని తీసివేస్తోంది"
+
+msgid "Rename"
+msgstr "పేరు మార్చండి"
+
+msgid "Rename failed!"
+msgstr "పేరు మార్చడం విఫలమైంది!"
+
+msgid "Rename to:"
+msgstr "పేరు మార్చండి:"
+
+msgid "Renamed %s!"
+msgstr "%s పేరు మార్చబడింది!"
+
+msgid "Reset"
+msgstr "రీసెట్ చేయండి"
+
+msgid "Reshare"
+msgstr "పునఃభాగస్వామ్యం చేయండి"
+
+msgid "Reshare:"
+msgstr "భాగస్వామ్యం:"
+
+msgid "Resources"
+msgstr "వనరులు"
+
+msgid "Restart GUI?"
+msgstr "GUIని పునఃప్రారంభించాలా?"
+
+msgid "Restart error: %s"
+msgstr "పునఃప్రారంభ లోపం: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "పునరుద్ధరించబడిన కాన్ఫిగరేషన్‌ని వర్తింపజేయడానికి సాఫ్ట్‌క్యామ్‌ని పునఃప్రారంభించాలా?"
+
+msgid "Save"
+msgstr "సేవ్ చేయండి"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "స్కానింగ్ మరియు రిట్రీవల్ జాబితా సాఫ్ట్‌క్యామ్ ..."
+
+msgid "Select CCcam"
+msgstr "CCcamని ఎంచుకోండి"
+
+msgid "Select Get Link"
+msgstr "లింక్ పొందండి ఎంచుకోండి"
+
+msgid "Select Ncam"
+msgstr "Ncam ఎంచుకోండి"
+
+msgid "Select OScam"
+msgstr "OScamని ఎంచుకోండి"
+
+msgid "Select Your Choice"
+msgstr "మీ ఎంపికను ఎంచుకోండి"
+
+msgid "Select a cam to run ..."
+msgstr "రన్ చేయడానికి క్యామ్‌ని ఎంచుకోండి..."
+
+msgid "Select and Install"
+msgstr "ఎంచుకోండి మరియు ఇన్స్టాల్ చేయండి"
+
+msgid "Select backup to restore:"
+msgstr "పునరుద్ధరించడానికి బ్యాకప్‌ని ఎంచుకోండి:"
+
+msgid "Server %s-%s"
+msgstr "సర్వర్ %s-%s"
+
+msgid "Server Config"
+msgstr "సర్వర్ కాన్ఫిగర్"
+
+msgid "Server Copy in"
+msgstr "సర్వర్ కాపీ ఇన్"
+
+msgid "Server Link"
+msgstr "సర్వర్ లింక్"
+
+msgid "Server Password"
+msgstr "సర్వర్ పాస్వర్డ్"
+
+msgid "Server Port"
+msgstr "సర్వర్ పోర్ట్"
+
+msgid "Server URL"
+msgstr "సర్వర్ URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "సర్వర్ Url అంటే 012.345.678.900"
+
+msgid "Server Username"
+msgstr "సర్వర్ వినియోగదారు పేరు"
+
+msgid "Server:"
+msgstr "సర్వర్:"
+
+msgid "Servers"
+msgstr "సర్వర్లు"
+
+msgid "Servers:"
+msgstr "సర్వర్లు:"
+
+msgid "Service"
+msgstr "సేవ"
+
+msgid "Set as UNIQUE PEER"
+msgstr "UNIQUE PEERగా సెట్ చేయండి"
+
+msgid "Setup"
+msgstr "సెటప్"
+
+msgid "Share View"
+msgstr "వీక్షణను భాగస్వామ్యం చేయండి"
+
+msgid "Shares"
+msgstr "షేర్లు"
+
+msgid "Show Clients"
+msgstr "క్లయింట్‌లను చూపించు"
+
+msgid "Show Ecm info"
+msgstr "Ecm సమాచారాన్ని చూపు"
+
+msgid "Show Log"
+msgstr "లాగ్ చూపించు"
+
+msgid "Show Readers/Proxies"
+msgstr "రీడర్లు/ప్రాక్సీలను చూపించు"
+
+msgid "Softcam Manager"
+msgstr "సాఫ్ట్‌క్యామ్ మేనేజర్"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "సాఫ్ట్‌క్యామ్ కొత్త కాన్ఫిగరేషన్‌తో పునఃప్రారంభించబడింది!"
+
+msgid "Start"
+msgstr "ప్రారంభించండి"
+
+msgid "Status"
+msgstr "స్థితి"
+
+msgid "Stop"
+msgstr "ఆపు"
+
+msgid "Stop Finding Fakes"
+msgstr "నకిలీలను కనుగొనడం ఆపండి"
+
+msgid "Switch config"
+msgstr "స్విచ్ కాన్ఫిగర్"
+
+msgid "System"
+msgstr "వ్యవస్థ"
+
+msgid "System cleanup completed!"
+msgstr "సిస్టమ్ క్లీనప్ పూర్తయింది!"
+
+msgid "System:"
+msgstr "వ్యవస్థ:"
+
+msgid "Temporarely DELETED"
+msgstr "తాత్కాలికంగా తొలగించబడింది"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "ఈ ప్లగ్ఇన్ మీకు మీ CCcam స్థితిని చూపుతుంది"
+
+msgid "Total"
+msgstr "మొత్తం"
+
+msgid "Total cards:"
+msgstr "మొత్తం కార్డులు:"
+
+msgid "Total handled client ecm's"
+msgstr "మొత్తం హ్యాండిల్ క్లయింట్ ECM"
+
+msgid "Total handled client emm's"
+msgstr "మొత్తం హ్యాండిల్ క్లయింట్ ఎమ్ఎమ్"
+
+msgid "Total:"
+msgstr "మొత్తం:"
+
+msgid "Try again later ..."
+msgstr "తర్వాత మళ్లీ ప్రయత్నించండి..."
+
+msgid "Type:"
+msgstr "రకం:"
+
+msgid "UNDELETED"
+msgstr "తొలగించబడింది"
+
+msgid "Unable to make the script executable: %s"
+msgstr "స్క్రిప్ట్‌ని ఎక్జిక్యూటబుల్‌గా చేయడం సాధ్యపడలేదు: %s"
+
+msgid "Unknow Image!"
+msgstr "తెలియని చిత్రం!"
+
+msgid "Update"
+msgstr "నవీకరించు"
+
+msgid "Update Aborted!"
+msgstr "నవీకరణ రద్దు చేయబడింది!"
+
+msgid "Update interval (in seconds)"
+msgstr "విరామాన్ని నవీకరించండి (సెకన్లలో)"
+
+msgid "Uphops +"
+msgstr "అప్హాప్స్ +"
+
+msgid "Uphops -"
+msgstr "ఉప్హాప్స్ -"
+
+msgid "Uphops:"
+msgstr "ఉప్హాప్స్:"
+
+msgid "Uptime"
+msgstr "సమయము"
+
+msgid "Used:"
+msgstr "వాడినది:"
+
+msgid "Username"
+msgstr "వినియోగదారు పేరు"
+
+msgid "Username (httpuser)"
+msgstr "వినియోగదారు పేరు (http వినియోగదారు)"
+
+msgid "Using old profile:"
+msgstr "పాత ప్రొఫైల్‌ని ఉపయోగించడం:"
+
+msgid "Version:"
+msgstr "వెర్షన్:"
+
+msgid "Wait please..."
+msgstr "దయచేసి వేచి ఉండండి..."
+
+msgid "Write"
+msgstr "వ్రాయండి"
+
+msgid "Write-Debug"
+msgstr "వ్రాయండి-డీబగ్ చేయండి"
+
+msgid "You have the latest version!"
+msgstr "మీకు తాజా వెర్షన్ ఉంది!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tఅందించు:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "ఒక ఏమీ.TO.UNDELE"
+
+msgid "address:"
+msgstr "చిరునామా:"
+
+msgid "and"
+msgstr "మరియు"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "కార్డు"
+
+msgid "card reader"
+msgstr "కార్డ్ రీడర్"
+
+msgid "close share view"
+msgstr "దగ్గరి వాటా వీక్షణ"
+
+msgid "decrease uphop by 1"
+msgstr "అప్‌హాప్‌ను 1 తగ్గించండి"
+
+msgid "ecm time:"
+msgstr "ecm సమయం:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "కార్డ్‌ల సర్వర్‌ని పొందండి"
+
+msgid "handled"
+msgstr "నిర్వహించబడింది"
+
+msgid "hops:"
+msgstr "హాప్స్:"
+
+msgid "increase uphop by 1"
+msgstr "పైకి 1 పెంచండి"
+
+msgid "info"
+msgstr "సమాచారం"
+
+msgid "no or unknown card inserted"
+msgstr "లేదు లేదా తెలియని కార్డ్ చొప్పించబడింది"
+
+msgid "pid:"
+msgstr "పిడ్:"
+
+msgid "provid:"
+msgstr "అందించిన:"
+
+msgid "provider:"
+msgstr "ప్రొవైడర్:"
+
+msgid "share:"
+msgstr "భాగస్వామ్యం:"
+
+msgid "show all cards"
+msgstr "అన్ని కార్డులను చూపించు"
+
+msgid "show cards with uphop 0"
+msgstr "uphop 0తో కార్డ్‌లను చూపించు"
+
+msgid "show cards with uphop 1"
+msgstr "uphop 1తో కార్డ్‌లను చూపించు"
+
+msgid "show cards with uphop 2"
+msgstr "uphop 2తో కార్డ్‌లను చూపించు"
+
+msgid "show cards with uphop 3"
+msgstr "uphop 3తో కార్డ్‌లను చూపించు"
+
+msgid "show cards with uphop 4"
+msgstr "uphop 4తో కార్డ్‌లను చూపించు"
+
+msgid "show cards with uphop 5"
+msgstr "uphop 5తో కార్డ్‌లను చూపించు"
+
+msgid "show cards with uphop 6"
+msgstr "uphop 6తో కార్డ్‌లను చూపించు"
+
+msgid "show cards with uphop 7"
+msgstr "uphop 7తో కార్డ్‌లను చూపించు"
+
+msgid "show cards with uphop 8"
+msgstr "uphop 8తో కార్డ్‌లను చూపించు"
+
+msgid "show cards with uphop 9"
+msgstr "uphop 9తో కార్డ్‌లను చూపించు"
+
+msgid "system:"
+msgstr "వ్యవస్థ:"
+
+msgid "using:"
+msgstr "ఉపయోగించి:"
+
+msgid "xLine"
+msgstr ""

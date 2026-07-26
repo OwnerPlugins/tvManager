@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 02:24+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Tajik\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Корт )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Маълумот - Танзимот"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Маълумот - Менюи асосӣ"
+
+msgid "%s restarted successfully!"
+msgstr "%s бомуваффақият аз нав оғоз шуд!"
+
+msgid "%s webif disabled"
+msgstr "%s webif ғайрифаъол"
+
+msgid "(All readers)"
+msgstr "(Ҳамаи хонандагон)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Танҳо хонандаро нишон диҳед) (%s)"
+
+msgid "About"
+msgstr "Дар бораи"
+
+msgid "Activate"
+msgstr "Фаъол кардан"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Дар файли танзимот сатри дохилкуниро фаъол созед:"
+
+msgid "Active clients"
+msgstr "Мизоҷони фаъол"
+
+msgid "Add"
+msgstr "Илова"
+
+msgid "Add new CCcam line"
+msgstr "Иловаи хати нави CCcam"
+
+msgid "Add new NewCamd line"
+msgstr "Хатти нави NewCamd илова кунед"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "All"
+msgstr "Ҳама"
+
+msgid "An error occurred in the green function."
+msgstr "Дар функсияи сабз хатогӣ рух дод."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Хатогии ғайричашмдошт рух дод: %s"
+
+msgid "Ask all caid"
+msgstr "Аз хама кас пурсед"
+
+msgid "Ask for the selection caid"
+msgstr "Каидро интихоб кунед"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Намоиши муштарӣ/серверро ба таври худкор навсозӣ кунед?"
+
+msgid "Available shares:"
+msgstr "Саҳмияҳои дастрас:"
+
+msgid "Back"
+msgstr "Бозгашт"
+
+msgid "Backup failed!"
+msgstr "Нусхабардорӣ ноком шуд!"
+
+msgid "Backup restoration failed!"
+msgstr "Барқарорсозии нусхабардорӣ ноком шуд!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Танзимоти CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker худкор оғоз меёбад"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Маълумот дар бораи муштариёни CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "Табдилдиҳандаи танзимоти CCcam"
+
+msgid "CCcam ECM Info"
+msgstr "Маълумот дар бораи CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "Маълумот дар бораи CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Маълумоти CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "Танзимоти CCcam Info"
+
+msgid "CCcam Info Config Menu"
+msgstr "Менюи танзимоти CCcam Info"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Амалҳои таҳрири хати CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "Муҳаррири хатти CCcam"
+
+msgid "CCcam Organizer"
+msgstr "Ташкилгари CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Маълумот дар бораи провайдери CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Маълумоти дурдасти CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Маълумот дар бораи сервери CCcam"
+
+msgid "CCcam Share Info"
+msgstr "Маълумоти мубодилаи CCcam"
+
+msgid "CCcam Shares Info"
+msgstr "Маълумоти мубодилаи CCcam"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "Муҳаррири хатти CCcam.cfg"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo дастрас нест"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "Каид"
+
+msgid "Caid:"
+msgstr "Каид:"
+
+msgid "Caid:Srvid"
+msgstr "Каид: Срвид"
+
+msgid "Cam Download"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Бекор кардан"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Маълумот дар бораи корт (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Кортҳо:"
+
+msgid "Cards: 0"
+msgstr "Кортҳо: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Канал"
+
+msgid "Channel Name"
+msgstr "Номи канал"
+
+msgid "Check Emm Send"
+msgstr "Emm Send-ро санҷед"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader -ро интихоб кунед"
+
+msgid "Choose reader"
+msgstr "Хонанда интихоб кунед"
+
+msgid "Cleanup error: %s"
+msgstr "Хатогии тозакунӣ: %s"
+
+msgid "Client %s-%s"
+msgstr "Мизоҷ %s-%s"
+
+msgid "Clients"
+msgstr "Мизоҷон"
+
+msgid "Close"
+msgstr ""
+
+msgid "Command Cancelled"
+msgstr "Фармон бекор карда шуд"
+
+msgid "Configfile %s saved."
+msgstr "Конфигуратсияи файли %s захира карда шуд."
+
+msgid "Connected clients"
+msgstr "Мизоҷони пайваст"
+
+msgid "Connected:"
+msgstr "Пайваст:"
+
+msgid "Content"
+msgstr "Мундариҷа"
+
+msgid "Could not open the file %s!"
+msgstr "Файли %s кушода нашуд!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Файли %s кушода нашуд! Хатогӣ: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Файли конфигуратсияи %s захира карда нашуд! Хатогӣ: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Файли танзимотро захира карда натавонист! Хатогӣ: %s"
+
+msgid "Current time"
+msgstr "Вақти ҷорӣ"
+
+msgid "Delete"
+msgstr "Нобуд кунед"
+
+msgid "Delete %s?"
+msgstr "%s нест карда шавад?"
+
+msgid "Delete Peer"
+msgstr "Нобуд кардани Peer"
+
+msgid "Delete failed!"
+msgstr "Нест кардан муваффақ нашуд!"
+
+msgid "Deleted %s!"
+msgstr "%s нест карда шуд!"
+
+msgid "Do you install this plugin ?"
+msgstr "Оё шумо ин плагинро насб мекунед?"
+
+msgid "Do you want to execute the command?"
+msgstr "Оё шумо мехоҳед фармонро иҷро кунед?"
+
+msgid "Do you want to remove?"
+msgstr "Мехоҳед хориҷ кунед?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Оё шумо мехоҳед интерфейси Gui-ро аз нав оғоз кунед?"
+
+msgid "ECM data format error"
+msgstr "Хатогии формати додаҳои ECM"
+
+msgid "ECM error"
+msgstr "Хатогии ECM"
+
+msgid "ECM file empty"
+msgstr "Файли ECM холӣ"
+
+msgid "ECM file not found"
+msgstr "Файли ECM ёфт нашуд"
+
+msgid "ECM read error"
+msgstr "Хатогии хондани ECM"
+
+msgid "Ecm Info"
+msgstr "Маълумоти ECM"
+
+msgid "Ecm Statistics"
+msgstr "Омори ECM"
+
+msgid "Ecm Time"
+msgstr "Вақти Ecm"
+
+msgid "Ecm avg"
+msgstr "Ecm миёна"
+
+msgid "Ecm last"
+msgstr "Ecm охир"
+
+msgid "Edit"
+msgstr "Таҳрир"
+
+msgid "Editing one caid"
+msgstr "Таҳрири як caid"
+
+msgid "Emm Info"
+msgstr "Маълумоти Erm"
+
+msgid "Entitlements"
+msgstr "Ҳуқуқҳо"
+
+msgid "Error"
+msgstr "Хатогӣ"
+
+msgid "Error executing update script: %s"
+msgstr "Хатогӣ ҳангоми иҷрои скрипти навсозӣ: %s"
+
+msgid "Error getting resource information"
+msgstr "Хатогӣ дар гирифтани маълумоти манбаъ"
+
+msgid "Error loading system info:"
+msgstr "Хатогии боркунии иттилооти система:"
+
+msgid "Error loading system information:"
+msgstr "Хатогии боркунии иттилооти система:"
+
+msgid "Error opening cam info: %s"
+msgstr "Хатогӣ дар кушодани маълумоти камера: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Хатогии кушодани файли конфигуратсия: %s"
+
+msgid "Error processing HTML!"
+msgstr "Хатогӣ дар коркарди HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Хатогии коркарди маълумоти иловаҳои сервер"
+
+msgid "Error reading webpage!"
+msgstr "Хатогии хондани вебсайт!"
+
+msgid "Error stopping %s!"
+msgstr "Хатогӣ дар боздоштани %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Хатогӣ ҳангоми таҳрири конфигуратсия: %s"
+
+msgid "Exit"
+msgstr "Баромадгоҳ"
+
+msgid "Extended Shares"
+msgstr "Саҳмияҳои васеъ"
+
+msgid "Failed to revert file: %s"
+msgstr "Баргардонидани файл: %s"
+
+msgid "Find Fakes"
+msgstr "Ҷустуҷӯи қалбакӣ"
+
+msgid "Force Update"
+msgstr "Навсозии маҷбурӣ"
+
+msgid "Free memory"
+msgstr "Хотираи озод"
+
+msgid "Free memory:"
+msgstr "Хотираи озод:"
+
+msgid "Free:"
+msgstr "Озод:"
+
+msgid "General"
+msgstr "Генерал"
+
+msgid "Get Link"
+msgstr "Истинод гиред"
+
+msgid "Getting the list, please wait ..."
+msgstr "Рӯйхат гирифта мешавад, лутфан интизор шавед ..."
+
+msgid "Help"
+msgstr "Кӯмак"
+
+msgid "Hops"
+msgstr "Хопс"
+
+msgid "Hops:"
+msgstr "Хопс:"
+
+msgid "Hostname:"
+msgstr "Номи мизбон:"
+
+msgid "IP Address"
+msgstr "Суроғаи IP"
+
+msgid "IP address"
+msgstr "Суроғаи IP"
+
+msgid "Idle Time:"
+msgstr "Вақти бекорӣ:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Агар фаъол бошад: Танзимоти серверро зеркашӣ/аз нав танзим кунед"
+
+msgid "Install Cam first!!!"
+msgstr "Аввал камераро насб кунед!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Навсозии таҳиягарро (%s) насб кунед?"
+
+msgid "Invalid HTML content!"
+msgstr "Мундариҷаи HTML нодуруст!"
+
+msgid "Invalid URL!"
+msgstr "URL беэътибор!"
+
+msgid "Last Req."
+msgstr "Талаботи охирин."
+
+msgid "Last used share:"
+msgstr "Ҳиссаи охирин истифодашуда:"
+
+msgid "Load"
+msgstr "Бор кардан"
+
+msgid "Local box"
+msgstr "Қуттии маҳаллӣ"
+
+msgid "Location"
+msgstr "Ҷойгиршавӣ"
+
+msgid "Log"
+msgstr "Сабти ном"
+
+msgid "Log %s-%s"
+msgstr "Сабти %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "МЕНЮИ EMM / СЕРВЕР CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Танзимоти меню"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo дастрас нест"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam кор намекунад - барои гирифтани маълумот Cam-ро оғоз кунед."
+
+msgid "New"
+msgstr "Нав"
+
+msgid "New profile:"
+msgstr "Профили нав:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Маълумоти ECM нест"
+
+msgid "No ECM data - Timeout"
+msgstr "Маълумоти ECM нест - Вақти тамомшавӣ"
+
+msgid "No ECM file"
+msgstr "Файли ECM нест"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Дар айни замон ягон маълумоти ECM дастрас нест. Ин танҳо ҳангоми рамзкушоӣ дастрас аст."
+
+msgid "No active cam to restart!"
+msgstr "Барои аз нав оғоз кардан камераи фаъол нест!"
+
+msgid "No backups available!"
+msgstr "Нусхаи эҳтиётӣ дастрас нест!"
+
+msgid "No card inserted!"
+msgstr "Ягон корт гузошта нашудааст!"
+
+msgid "No softcams available!"
+msgstr "Камераҳои нармафзор дастрас нестанд!"
+
+msgid "No valid backups found!"
+msgstr "Ягон нусхаи эҳтиётии дуруст ёфт нашуд!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr "ID Node:"
+
+msgid "OK"
+msgstr "ДУРУСТ"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Вақти навсозии OSCam тамом шуд. Барои тафсилот /tmp/oscam_update.log-ро санҷед."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo дастрас нест"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam кор намекунад - барои гирифтани маълумот Cam-ро оғоз кунед."
+
+msgid "PRESS RETURN"
+msgstr "БОЗГАШТ-ро пахш кунед"
+
+msgid "Password"
+msgstr "Рамз"
+
+msgid "Password (httpwd)"
+msgstr "Рамз (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Сарбории баланд (максималии дархостҳои навбатдор барои як риштаи коргар)"
+
+msgid "Pid"
+msgstr "Пид"
+
+msgid "Please Reset - No File CFG"
+msgstr "Лутфан аз нав танзим кунед - Файли CFG нест"
+
+msgid "Please select ..."
+msgstr "Лутфан интихоб кунед ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Лутфан сатрро барои таҳрир интихоб кунед ё илова карданро барои эҷоди хати нав интихоб кунед."
+
+msgid "Please wait, %s."
+msgstr "Лутфан интизор шавед, %s."
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Profile"
+msgstr "Профил"
+
+msgid "Profile: Local box"
+msgstr "Профил: Қуттии маҳаллӣ"
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "Provider"
+msgstr "Таъминкунанда"
+
+msgid "Provider Name:"
+msgstr "Номи провайдер:"
+
+msgid "Provider:"
+msgstr "Таъминкунанда:"
+
+msgid "Providers"
+msgstr "Таъминкунандагон"
+
+msgid "Providers:"
+msgstr "Таъминкунандагон:"
+
+msgid "Quick restart %s?"
+msgstr "Бозоғозкунии зуд %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Маълумоти корбарро аз %s.conf хонед"
+
+msgid "Reader"
+msgstr "Хонанда"
+
+msgid "Reader Statistics"
+msgstr "Омори хонандагон"
+
+msgid "Reader/User"
+msgstr "Хонанда/Истифодабаранда"
+
+msgid "Recover Peer"
+msgstr "Барқарор кардани Peer"
+
+msgid "Remote box"
+msgstr "Қуттии дурдаст"
+
+msgid "Remove"
+msgstr "Хориҷ кунед"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Хатро аз CCcam.cfg хориҷ кунед"
+
+msgid "Removing %s"
+msgstr "Хориҷ кардани %s"
+
+msgid "Rename"
+msgstr "Номи дигар"
+
+msgid "Rename failed!"
+msgstr "Иваз кардани ном муваффақ нашуд!"
+
+msgid "Rename to:"
+msgstr "Иваз кардани ном ба:"
+
+msgid "Renamed %s!"
+msgstr "Номи %s иваз карда шуд!"
+
+msgid "Reset"
+msgstr "Бозсозӣ"
+
+msgid "Reshare"
+msgstr "Аз нав мубодила кунед"
+
+msgid "Reshare:"
+msgstr "Мубодила:"
+
+msgid "Resources"
+msgstr "Захираҳо"
+
+msgid "Restart GUI?"
+msgstr "GUI-ро аз нав оғоз кунед?"
+
+msgid "Restart error: %s"
+msgstr "Хатогии бозоғозӣ: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Барои татбиқи конфигуратсияи барқароршуда softcam-ро аз нав оғоз кунед?"
+
+msgid "Save"
+msgstr "Захира кунед"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Рӯйхати нармафзори сканер ва ҷустуҷӯ ..."
+
+msgid "Select CCcam"
+msgstr "CCcam -ро интихоб кунед"
+
+msgid "Select Get Link"
+msgstr "Гирифтани пайвандро интихоб кунед"
+
+msgid "Select Ncam"
+msgstr "Ncam-ро интихоб кунед"
+
+msgid "Select OScam"
+msgstr "OScam -ро интихоб кунед"
+
+msgid "Select Your Choice"
+msgstr "Интихоби Худро интихоб кунед"
+
+msgid "Select a cam to run ..."
+msgstr "Барои иҷро кардани камера камера интихоб кунед ..."
+
+msgid "Select and Install"
+msgstr "Интихоб кунед ва насб кунед"
+
+msgid "Select backup to restore:"
+msgstr "Барои барқарор кардани нусхаи эҳтиётӣ интихоб кунед:"
+
+msgid "Server %s-%s"
+msgstr "Сервер %s-%s"
+
+msgid "Server Config"
+msgstr "Танзимоти сервер"
+
+msgid "Server Copy in"
+msgstr "Сервер нусхабардорӣ кунед"
+
+msgid "Server Link"
+msgstr "Истиноди сервер"
+
+msgid "Server Password"
+msgstr "Пароли сервер"
+
+msgid "Server Port"
+msgstr "Порти сервер"
+
+msgid "Server URL"
+msgstr "URL-и сервер"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Server URL, яъне 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Номи корбари сервер"
+
+msgid "Server:"
+msgstr "Сервер:"
+
+msgid "Servers"
+msgstr "Серверҳо"
+
+msgid "Servers:"
+msgstr "Серверҳо:"
+
+msgid "Service"
+msgstr "Хизмат"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Ҳамчун PEER UNIQUE таъин кунед"
+
+msgid "Setup"
+msgstr "Ташкил кардан"
+
+msgid "Share View"
+msgstr "Намоишро мубодила кунед"
+
+msgid "Shares"
+msgstr "Саҳмияҳо"
+
+msgid "Show Clients"
+msgstr "Муштариёнро нишон диҳед"
+
+msgid "Show Ecm info"
+msgstr "Маълумоти Ecm-ро нишон диҳед"
+
+msgid "Show Log"
+msgstr "Нишон додани гузориш"
+
+msgid "Show Readers/Proxies"
+msgstr "Хонандагон/проксиҳоро нишон диҳед"
+
+msgid "Softcam Manager"
+msgstr "Менеҷери нармафзори камера"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam бо конфигуратсияи нав аз нав оғоз шуд!"
+
+msgid "Start"
+msgstr "Оғоз"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Stop"
+msgstr "Ист"
+
+msgid "Stop Finding Fakes"
+msgstr "Ҷустуҷӯи қалбакиро бас кунед"
+
+msgid "Switch config"
+msgstr "Гузариш конфигуратсия"
+
+msgid "System"
+msgstr "Система"
+
+msgid "System cleanup completed!"
+msgstr "Тозакунии система анҷом ёфт!"
+
+msgid "System:"
+msgstr "Система:"
+
+msgid "Temporarely DELETED"
+msgstr "Муваккатан ХУЗУР ШУД"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Ин плагин ба шумо ҳолати CCcam-и шуморо нишон медиҳад"
+
+msgid "Total"
+msgstr "Ҳамагӣ"
+
+msgid "Total cards:"
+msgstr "Ҳама кортҳои:"
+
+msgid "Total handled client ecm's"
+msgstr "Мизоҷони умумии eCM коркардшуда"
+
+msgid "Total handled client emm's"
+msgstr "Мизоҷони умумии emm коркардшуда"
+
+msgid "Total:"
+msgstr "Ҳамагӣ:"
+
+msgid "Try again later ..."
+msgstr "Баъдтар бори дигар кӯшиш кунед..."
+
+msgid "Type:"
+msgstr "Навъи:"
+
+msgid "UNDELETED"
+msgstr "НАЗАР ШУД"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Скриптро иҷрошаванда кардан ғайриимкон аст: %s"
+
+msgid "Unknow Image!"
+msgstr "Тасвири ношинос!"
+
+msgid "Update"
+msgstr "Навсозӣ"
+
+msgid "Update Aborted!"
+msgstr "Навсозӣ қатъ карда шуд!"
+
+msgid "Update interval (in seconds)"
+msgstr "Фосилаи навсозӣ (дар сонияҳо)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Вақти корӣ"
+
+msgid "Used:"
+msgstr "Истифода бурда мешавад:"
+
+msgid "Username"
+msgstr "Номи корбар"
+
+msgid "Username (httpuser)"
+msgstr "Номи корбар (http-корбар)"
+
+msgid "Using old profile:"
+msgstr "Истифодаи профили кӯҳна:"
+
+msgid "Version:"
+msgstr "Версия:"
+
+msgid "Wait please..."
+msgstr "Лутфан интизор шавед..."
+
+msgid "Write"
+msgstr "нависед"
+
+msgid "Write-Debug"
+msgstr "Навиштан-Debug"
+
+msgid "You have the latest version!"
+msgstr "Шумо версияи охиринро доред!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tТаъмин кардан:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "А ҲЕЧӢ.БА.UNDELE"
+
+msgid "address:"
+msgstr "адрес:"
+
+msgid "and"
+msgstr "ва"
+
+msgid "caid:"
+msgstr "каид:"
+
+msgid "card"
+msgstr "корт"
+
+msgid "card reader"
+msgstr "корти хонанда"
+
+msgid "close share view"
+msgstr "дидани мубодилаи наздик"
+
+msgid "decrease uphop by 1"
+msgstr "болоравиро 1 кам кунед"
+
+msgid "ecm time:"
+msgstr "вақти ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "сервери кортҳоро гиред"
+
+msgid "handled"
+msgstr "идора карда шуд"
+
+msgid "hops:"
+msgstr "хоп:"
+
+msgid "increase uphop by 1"
+msgstr "болоравиро 1 зиёд кунед"
+
+msgid "info"
+msgstr "маълумот"
+
+msgid "no or unknown card inserted"
+msgstr "нест ё корти номаълум гузошта шудааст"
+
+msgid "pid:"
+msgstr "пид:"
+
+msgid "provid:"
+msgstr "таъмин намояд:"
+
+msgid "provider:"
+msgstr "провайдери:"
+
+msgid "share:"
+msgstr "мубодила:"
+
+msgid "show all cards"
+msgstr "ҳама кортҳоро нишон диҳед"
+
+msgid "show cards with uphop 0"
+msgstr "нишон додани кортҳои бо uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "нишон додани кортҳо бо uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "нишон додани кортҳо бо uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "нишон додани кортҳо бо uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "нишон додани кортҳо бо uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "нишон додани кортҳо бо uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "нишон додани кортҳо бо uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "нишон додани кортҳо бо uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "нишон додани кортҳо бо uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "нишон додани кортҳо бо uphop 9"
+
+msgid "system:"
+msgstr "система:"
+
+msgid "using:"
+msgstr "бо истифода аз:"
+
+msgid "xLine"
+msgstr ""

@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 02:45+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Kartlar )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Bilgi - Yapılandırma"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Bilgi - Ana Menü"
+
+msgid "%s restarted successfully!"
+msgstr "%s başarıyla yeniden başlatıldı!"
+
+msgid "%s webif disabled"
+msgstr "%s webif devre dışı bırakıldı"
+
+msgid "(All readers)"
+msgstr "(Tüm okuyucular)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Yalnızca okuyucuyu göster) (%s)"
+
+msgid "About"
+msgstr "Hakkında"
+
+msgid "Activate"
+msgstr "Etkinleştir"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Yapılandırma Dosyasında Satır Ekle'yi etkinleştirin:"
+
+msgid "Active clients"
+msgstr "Aktif istemciler"
+
+msgid "Add"
+msgstr "Eklemek"
+
+msgid "Add new CCcam line"
+msgstr "Yeni CCcam hattı ekle"
+
+msgid "Add new NewCamd line"
+msgstr "Yeni NewCamd satırı ekle"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "All"
+msgstr "Tüm"
+
+msgid "An error occurred in the green function."
+msgstr "Yeşil işlevde bir hata oluştu."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Beklenmeyen bir hata oluştu: %s"
+
+msgid "Ask all caid"
+msgstr "Tüm caidlere sor"
+
+msgid "Ask for the selection caid"
+msgstr "Seçim caidini isteyin"
+
+msgid "Automatically update Client/Server View?"
+msgstr "İstemci/Sunucu Görünümü otomatik olarak güncellensin mi?"
+
+msgid "Available shares:"
+msgstr "Mevcut paylaşımlar:"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Backup failed!"
+msgstr "Yedekleme başarısız oldu!"
+
+msgid "Backup restoration failed!"
+msgstr "Yedekleme geri yüklemesi başarısız oldu!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker Ayarları"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker otomatik başlatma"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam Müşteri Bilgileri"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam Yapılandırma Değiştirici"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM Bilgisi"
+
+msgid "CCcam Info"
+msgstr "CCcam Bilgisi"
+
+msgid "CCcam Info %s"
+msgstr "CCcam Bilgisi %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam Bilgi Yapılandırması"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam Bilgi Yapılandırma Menüsü"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Satır Düzenleme Eylemleri"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam Hat Düzenleyici"
+
+msgid "CCcam Organizer"
+msgstr "CCcam Düzenleyici"
+
+msgid "CCcam Prio Maker"
+msgstr "CCcam Prio Oluşturucu"
+
+msgid "CCcam Provider Info"
+msgstr "CCcam Sağlayıcı Bilgisi"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam Uzaktan Bilgi"
+
+msgid "CCcam Server Info"
+msgstr "CCcam Sunucu Bilgisi"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Paylaşım Bilgisi"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam Bilgi Paylaşıyor"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Temel Satır Düzenleyicisi"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo mevcut değil"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srivid"
+
+msgid "Cam Download"
+msgstr "Kamera İndirme"
+
+msgid "Cancel"
+msgstr "İptal etmek"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kart bilgisi (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kartlar:"
+
+msgid "Cards: 0"
+msgstr "Kartlar: 0"
+
+msgid "Cardserial"
+msgstr "Kart serisi"
+
+msgid "Channel"
+msgstr "Kanal"
+
+msgid "Channel Name"
+msgstr "Kanal Adı"
+
+msgid "Check Emm Send"
+msgstr "Emm Gönderimini Kontrol Edin"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader'ı seçin"
+
+msgid "Choose reader"
+msgstr "Okuyucuyu seçin"
+
+msgid "Cleanup error: %s"
+msgstr "Temizleme hatası: %s"
+
+msgid "Client %s-%s"
+msgstr "Müşteri %s-%s"
+
+msgid "Clients"
+msgstr "Müşteriler"
+
+msgid "Close"
+msgstr "Kapalı"
+
+msgid "Command Cancelled"
+msgstr "Komut İptal Edildi"
+
+msgid "Configfile %s saved."
+msgstr "%s yapılandırma dosyası kaydedildi."
+
+msgid "Connected clients"
+msgstr "Bağlı istemciler"
+
+msgid "Connected:"
+msgstr "Bağlı:"
+
+msgid "Content"
+msgstr "İçerik"
+
+msgid "Could not open the file %s!"
+msgstr "%s dosyası açılamadı!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "%s dosyası açılamadı! Hata: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "%s yapılandırma dosyası kaydedilemedi! Hata: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Yapılandırma dosyası kaydedilemedi! Hata: %s"
+
+msgid "Current time"
+msgstr "Geçerli saat"
+
+msgid "Delete"
+msgstr "Silmek"
+
+msgid "Delete %s?"
+msgstr "%s silinsin mi?"
+
+msgid "Delete Peer"
+msgstr "Eşi Sil"
+
+msgid "Delete failed!"
+msgstr "Silinemedi!"
+
+msgid "Deleted %s!"
+msgstr "%s silindi!"
+
+msgid "Do you install this plugin ?"
+msgstr "Bu eklentiyi yüklüyor musunuz?"
+
+msgid "Do you want to execute the command?"
+msgstr "Komutu yürütmek istiyor musunuz?"
+
+msgid "Do you want to remove?"
+msgstr "Kaldırmak istiyor musunuz?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Gui Arayüzünü yeniden başlatmak istiyor musunuz?"
+
+msgid "ECM data format error"
+msgstr "ECM veri formatı hatası"
+
+msgid "ECM error"
+msgstr "ECM hatası"
+
+msgid "ECM file empty"
+msgstr "ECM dosyası boş"
+
+msgid "ECM file not found"
+msgstr "ECM dosyası bulunamadı"
+
+msgid "ECM read error"
+msgstr "ECM okuma hatası"
+
+msgid "Ecm Info"
+msgstr "ECM Bilgisi"
+
+msgid "Ecm Statistics"
+msgstr "ECM İstatistikleri"
+
+msgid "Ecm Time"
+msgstr "Ecm Zamanı"
+
+msgid "Ecm avg"
+msgstr "Ecm ortalama"
+
+msgid "Ecm last"
+msgstr "Ecm son"
+
+msgid "Edit"
+msgstr "Düzenlemek"
+
+msgid "Editing one caid"
+msgstr "Bir caid'i düzenleme"
+
+msgid "Emm Info"
+msgstr "Erm Bilgisi"
+
+msgid "Entitlements"
+msgstr "Yetkiler"
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "Error executing update script: %s"
+msgstr "Güncelleme komut dosyası yürütülürken hata oluştu: %s"
+
+msgid "Error getting resource information"
+msgstr "Kaynak bilgileri alınırken hata oluştu"
+
+msgid "Error loading system info:"
+msgstr "Sistem bilgisi yüklenirken hata oluştu:"
+
+msgid "Error loading system information:"
+msgstr "Sistem bilgileri yüklenirken hata oluştu:"
+
+msgid "Error opening cam info: %s"
+msgstr "Kamera bilgisi açılırken hata oluştu: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Yapılandırma dosyası açılırken hata oluştu: %s"
+
+msgid "Error processing HTML!"
+msgstr "HTML işlenirken hata oluştu!"
+
+msgid "Error processing server addons data"
+msgstr "Sunucu eklenti verileri işlenirken hata oluştu"
+
+msgid "Error reading webpage!"
+msgstr "Web sayfası okunurken hata oluştu!"
+
+msgid "Error stopping %s!"
+msgstr "%s durdurulurken hata oluştu!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Yapılandırma düzenlenirken hata oluştu: %s"
+
+msgid "Exit"
+msgstr "Çıkış"
+
+msgid "Extended Shares"
+msgstr "Genişletilmiş Paylaşımlar"
+
+msgid "Failed to revert file: %s"
+msgstr "Dosya geri alınamadı: %s"
+
+msgid "Find Fakes"
+msgstr "Sahte Bul"
+
+msgid "Force Update"
+msgstr "Güncellemeyi Zorla"
+
+msgid "Free memory"
+msgstr "Boş hafıza"
+
+msgid "Free memory:"
+msgstr "Boş hafıza:"
+
+msgid "Free:"
+msgstr "Özgür:"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Get Link"
+msgstr "Bağlantıyı Al"
+
+msgid "Getting the list, please wait ..."
+msgstr "Liste alınıyor, lütfen bekleyin..."
+
+msgid "Help"
+msgstr "Yardım"
+
+msgid "Hops"
+msgstr "Şerbetçiotu"
+
+msgid "Hops:"
+msgstr "Şerbetçiotu:"
+
+msgid "Hostname:"
+msgstr "Ana makine adı:"
+
+msgid "IP Address"
+msgstr "IP Adresi"
+
+msgid "IP address"
+msgstr "IP adresi"
+
+msgid "Idle Time:"
+msgstr "Boşta Kalma Süresi:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Etkinse: Sunucu Yapılandırmasını İndirin/Sıfırlayın"
+
+msgid "Install Cam first!!!"
+msgstr "Önce Cam'i yükleyin!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Geliştirici güncellemesi (%s) yüklensin mi?"
+
+msgid "Invalid HTML content!"
+msgstr "Geçersiz HTML içeriği!"
+
+msgid "Invalid URL!"
+msgstr "Geçersiz URL!"
+
+msgid "Last Req."
+msgstr "Son Talep"
+
+msgid "Last used share:"
+msgstr "Son kullanılan paylaşım:"
+
+msgid "Load"
+msgstr "Yük"
+
+msgid "Local box"
+msgstr "Yerel kutu"
+
+msgid "Location"
+msgstr "Konum"
+
+msgid "Log"
+msgstr "Kayıt"
+
+msgid "Log %s-%s"
+msgstr "Günlük %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENÜ EMM / SUNUCU CLINE"
+
+msgid "Maxdown +"
+msgstr "Maksimum aşağı +"
+
+msgid "Maxdown -"
+msgstr "Maksimum düşüş -"
+
+msgid "Maxdown:"
+msgstr "Maksimum indirme:"
+
+msgid "Menu config"
+msgstr "Menü yapılandırması"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo mevcut değil"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam çalışmıyor - bilgi almak için Cam'ı başlatın."
+
+msgid "New"
+msgstr "Yeni"
+
+msgid "New profile:"
+msgstr "Yeni profil:"
+
+msgid "NewCamd"
+msgstr "Yeni Kamera"
+
+msgid "No ECM data"
+msgstr "ECM verisi yok"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM verisi yok - Zaman Aşımı"
+
+msgid "No ECM file"
+msgstr "ECM dosyası yok"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Şu anda ECM bilgisi mevcut değil. Bu yalnızca şifre çözme sırasında kullanılabilir."
+
+msgid "No active cam to restart!"
+msgstr "Yeniden başlatılacak aktif kamera yok!"
+
+msgid "No backups available!"
+msgstr "Yedekleme yok!"
+
+msgid "No card inserted!"
+msgstr "Kart takılı değil!"
+
+msgid "No softcams available!"
+msgstr "Softcam mevcut değil!"
+
+msgid "No valid backups found!"
+msgstr "Geçerli bir yedekleme bulunamadı!"
+
+msgid "NodeID"
+msgstr "Düğüm Kimliği"
+
+msgid "NodeID:"
+msgstr "Düğüm Kimliği:"
+
+msgid "OK"
+msgstr "TAMAM"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam güncellemesi zaman aşımına uğradı. Ayrıntılar için /tmp/oscam_update.log dosyasını kontrol edin."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo mevcut değil"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam çalışmıyor - bilgi almak için Cam'ı başlatın."
+
+msgid "PRESS RETURN"
+msgstr "GERİ DÖNÜŞE BASIN"
+
+msgid "Password"
+msgstr "Şifre"
+
+msgid "Password (httpwd)"
+msgstr "Şifre (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "En yüksek yük (çalışan iş parçacığı başına maksimum sıraya alınmış istek)"
+
+msgid "Pid"
+msgstr "Ödeme"
+
+msgid "Please Reset - No File CFG"
+msgstr "Lütfen Sıfırlayın - Dosya CFG'si Yok"
+
+msgid "Please select ..."
+msgstr "Lütfen seçin..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Lütfen düzenlemek için bir satır seçin veya yeni satır oluşturmak için ekle seçeneğini seçin."
+
+msgid "Please wait, %s."
+msgstr "Lütfen bekleyin, %s."
+
+msgid "Port"
+msgstr "Liman"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile: Local box"
+msgstr "Profil: Yerel kutu"
+
+msgid "Protocol"
+msgstr "Protokol"
+
+msgid "Provider"
+msgstr "sağlayıcı"
+
+msgid "Provider Name:"
+msgstr "Sağlayıcı Adı:"
+
+msgid "Provider:"
+msgstr "Sağlayıcı:"
+
+msgid "Providers"
+msgstr "Sağlayıcılar"
+
+msgid "Providers:"
+msgstr "Sağlayıcılar:"
+
+msgid "Quick restart %s?"
+msgstr "%s hızlı yeniden başlatılsın mı?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "%s.conf'tan Kullanıcı Verilerini Okuyun"
+
+msgid "Reader"
+msgstr "Okuyucu"
+
+msgid "Reader Statistics"
+msgstr "Okuyucu İstatistikleri"
+
+msgid "Reader/User"
+msgstr "Okuyucu/Kullanıcı"
+
+msgid "Recover Peer"
+msgstr "Eşi Kurtar"
+
+msgid "Remote box"
+msgstr "Uzak kutu"
+
+msgid "Remove"
+msgstr "Kaldırmak"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Hattı CCcam.cfg'den kaldırın"
+
+msgid "Removing %s"
+msgstr "%s kaldırılıyor"
+
+msgid "Rename"
+msgstr "Yeniden isimlendirmek"
+
+msgid "Rename failed!"
+msgstr "Yeniden adlandırma başarısız oldu!"
+
+msgid "Rename to:"
+msgstr "Şu şekilde yeniden adlandır:"
+
+msgid "Renamed %s!"
+msgstr "%s yeniden adlandırıldı!"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "Reshare"
+msgstr "Yeniden paylaş"
+
+msgid "Reshare:"
+msgstr "Paylaşmak:"
+
+msgid "Resources"
+msgstr "Kaynaklar"
+
+msgid "Restart GUI?"
+msgstr "GUI yeniden başlatılsın mı?"
+
+msgid "Restart error: %s"
+msgstr "Yeniden başlatma hatası: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Geri yüklenen yapılandırmayı uygulamak için softcam yeniden başlatılsın mı?"
+
+msgid "Save"
+msgstr "Kaydetmek"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Softcam listesini tarama ve alma ..."
+
+msgid "Select CCcam"
+msgstr "CCcam'i seçin"
+
+msgid "Select Get Link"
+msgstr "Bağlantıyı Al'ı seçin"
+
+msgid "Select Ncam"
+msgstr "Ncam'i seçin"
+
+msgid "Select OScam"
+msgstr "OScam'i seçin"
+
+msgid "Select Your Choice"
+msgstr "Seçiminizi Seçin"
+
+msgid "Select a cam to run ..."
+msgstr "Çalıştırılacak bir kamera seçin..."
+
+msgid "Select and Install"
+msgstr "Seç ve Yükle"
+
+msgid "Select backup to restore:"
+msgstr "Geri yüklenecek yedeklemeyi seçin:"
+
+msgid "Server %s-%s"
+msgstr "Sunucu %s-%s"
+
+msgid "Server Config"
+msgstr "Sunucu Yapılandırması"
+
+msgid "Server Copy in"
+msgstr "Sunucu Kopyalama"
+
+msgid "Server Link"
+msgstr "Sunucu Bağlantısı"
+
+msgid "Server Password"
+msgstr "Sunucu Şifresi"
+
+msgid "Server Port"
+msgstr "Sunucu Bağlantı Noktası"
+
+msgid "Server URL"
+msgstr "Sunucu URL'si"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Sunucu URL'si yani 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Sunucu Kullanıcı Adı"
+
+msgid "Server:"
+msgstr "Sunucu:"
+
+msgid "Servers"
+msgstr "Sunucular"
+
+msgid "Servers:"
+msgstr "Sunucular:"
+
+msgid "Service"
+msgstr "Hizmet"
+
+msgid "Set as UNIQUE PEER"
+msgstr "BENZERSİZ EŞ olarak ayarla"
+
+msgid "Setup"
+msgstr "Kurmak"
+
+msgid "Share View"
+msgstr "Görünümü Paylaş"
+
+msgid "Shares"
+msgstr "Paylaşımlar"
+
+msgid "Show Clients"
+msgstr "Müşterileri Göster"
+
+msgid "Show Ecm info"
+msgstr "ECM bilgilerini göster"
+
+msgid "Show Log"
+msgstr "Günlüğü Göster"
+
+msgid "Show Readers/Proxies"
+msgstr "Okuyucuları/Proxyleri Göster"
+
+msgid "Softcam Manager"
+msgstr "Softcam Yöneticisi"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam yeni konfigürasyonla yeniden başlatıldı!"
+
+msgid "Start"
+msgstr "Başlangıç"
+
+msgid "Status"
+msgstr "Durum"
+
+msgid "Stop"
+msgstr "Durmak"
+
+msgid "Stop Finding Fakes"
+msgstr "Sahte Bulmayı Durdurun"
+
+msgid "Switch config"
+msgstr "Yapılandırmayı değiştir"
+
+msgid "System"
+msgstr "Sistem"
+
+msgid "System cleanup completed!"
+msgstr "Sistem temizliği tamamlandı!"
+
+msgid "System:"
+msgstr "Sistem:"
+
+msgid "Temporarely DELETED"
+msgstr "Geçici Olarak SİLİNDİ"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Bu eklenti size CCcam'inizin durumunu gösterir"
+
+msgid "Total"
+msgstr "Toplam"
+
+msgid "Total cards:"
+msgstr "Toplam kartlar:"
+
+msgid "Total handled client ecm's"
+msgstr "Toplam işlenen müşteri ecm'leri"
+
+msgid "Total handled client emm's"
+msgstr "Toplam işlenen müşteri emm'leri"
+
+msgid "Total:"
+msgstr "Toplam:"
+
+msgid "Try again later ..."
+msgstr "Daha sonra tekrar deneyin..."
+
+msgid "Type:"
+msgstr "Tip:"
+
+msgid "UNDELETED"
+msgstr "SİLİNMEMİŞ"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Komut dosyası yürütülebilir hale getirilemiyor: %s"
+
+msgid "Unknow Image!"
+msgstr "Bilinmeyen Resim!"
+
+msgid "Update"
+msgstr "Güncelleme"
+
+msgid "Update Aborted!"
+msgstr "Güncelleme İptal Edildi!"
+
+msgid "Update interval (in seconds)"
+msgstr "Güncelleme aralığı (saniye olarak)"
+
+msgid "Uphops +"
+msgstr "eyvallah +"
+
+msgid "Uphops -"
+msgstr "eyvallah..."
+
+msgid "Uphops:"
+msgstr "eyvallah:"
+
+msgid "Uptime"
+msgstr "Çalışma süresi"
+
+msgid "Used:"
+msgstr "Kullanılmış:"
+
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgid "Username (httpuser)"
+msgstr "Kullanıcı adı (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Eski profili kullanma:"
+
+msgid "Version:"
+msgstr "Sürüm:"
+
+msgid "Wait please..."
+msgstr "Bekle lütfen..."
+
+msgid "Write"
+msgstr "Yazmak"
+
+msgid "Write-Debug"
+msgstr "Yazma-Hata Ayıklama"
+
+msgid "You have the latest version!"
+msgstr "En son sürüme sahipsiniz!"
+
+msgid "\n"
+msgstr "\N"
+
+msgid "\tProvid:"
+msgstr ""
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "SÖYLENECEK HİÇBİR ŞEY"
+
+msgid "address:"
+msgstr "adres:"
+
+msgid "and"
+msgstr "Ve"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kart"
+
+msgid "card reader"
+msgstr "kart okuyucu"
+
+msgid "close share view"
+msgstr "paylaşım görünümünü kapat"
+
+msgid "decrease uphop by 1"
+msgstr "uphop'u 1 oranında azalt"
+
+msgid "ecm time:"
+msgstr "ecm zamanı:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "kartların sunucusunu al"
+
+msgid "handled"
+msgstr "işlenmiş"
+
+msgid "hops:"
+msgstr "şerbetçiotu:"
+
+msgid "increase uphop by 1"
+msgstr "beğeniyi 1 artır"
+
+msgid "info"
+msgstr "bilgi"
+
+msgid "no or unknown card inserted"
+msgstr "hayır veya bilinmeyen kart takılı"
+
+msgid "pid:"
+msgstr "ödeme:"
+
+msgid "provid:"
+msgstr "sağlamak:"
+
+msgid "provider:"
+msgstr "sağlayıcı:"
+
+msgid "share:"
+msgstr "paylaşmak:"
+
+msgid "show all cards"
+msgstr "tüm kartları göster"
+
+msgid "show cards with uphop 0"
+msgstr "uphop 0 içeren kartları göster"
+
+msgid "show cards with uphop 1"
+msgstr "uphop 1 ile kartları göster"
+
+msgid "show cards with uphop 2"
+msgstr "uphop 2 ile kartları göster"
+
+msgid "show cards with uphop 3"
+msgstr "uphop 3 ile kartları göster"
+
+msgid "show cards with uphop 4"
+msgstr "uphop 4 ile kartları göster"
+
+msgid "show cards with uphop 5"
+msgstr "uphop 5 ile kartları göster"
+
+msgid "show cards with uphop 6"
+msgstr "uphop 6 ile kartları göster"
+
+msgid "show cards with uphop 7"
+msgstr "uphop 7 ile kartları göster"
+
+msgid "show cards with uphop 8"
+msgstr "uphop 8 ile kartları göster"
+
+msgid "show cards with uphop 9"
+msgstr "uphop 9 ile kartları göster"
+
+msgid "system:"
+msgstr "sistem:"
+
+msgid "using:"
+msgstr "kullanarak:"
+
+msgid "xLine"
+msgstr ""

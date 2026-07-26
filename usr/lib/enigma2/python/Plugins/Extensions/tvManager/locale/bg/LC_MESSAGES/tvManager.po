@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 22:01+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Bulgarian <dict@ludost.net>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s карти)"
+
+msgid "%s Info - Configuration"
+msgstr "%s Информация - Конфигурация"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Информация - Главно меню"
+
+msgid "%s restarted successfully!"
+msgstr "%s се рестартира успешно!"
+
+msgid "%s webif disabled"
+msgstr "%s webif е деактивиран"
+
+msgid "(All readers)"
+msgstr "(Всички читатели)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Показване само на четеца) (%s)"
+
+msgid "About"
+msgstr "За"
+
+msgid "Activate"
+msgstr "Активирайте"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Активирайте реда за вмъкване в конфигурационния файл:"
+
+msgid "Active clients"
+msgstr "Активни клиенти"
+
+msgid "Add"
+msgstr "Добавете"
+
+msgid "Add new CCcam line"
+msgstr "Добавете нов CCcam ред"
+
+msgid "Add new NewCamd line"
+msgstr "Добавете нов ред NewCamd"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "All"
+msgstr "Всички"
+
+msgid "An error occurred in the green function."
+msgstr "Възникна грешка в зелената функция."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Възникна неочаквана грешка: %s"
+
+msgid "Ask all caid"
+msgstr "Питай всички caid"
+
+msgid "Ask for the selection caid"
+msgstr "Поискайте помощник за избор"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Автоматично актуализиране на клиент/сървър изглед?"
+
+msgid "Available shares:"
+msgstr "Налични акции:"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Backup failed!"
+msgstr "Архивирането не бе успешно!"
+
+msgid "Backup restoration failed!"
+msgstr "Неуспешно възстановяване на резервно копие!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Настройки на CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "Автоматично стартиране на CCPrioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Информация за клиенти на CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "Информация за CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "Информация за CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Информация за CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam Info Config Меню"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Действия за редактиране на CCcam линия"
+
+msgid "CCcam Line Editor"
+msgstr ""
+
+msgid "CCcam Organizer"
+msgstr "CCcam Организатор"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Информация за доставчика на CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam отдалечена информация"
+
+msgid "CCcam Server Info"
+msgstr "Информация за сървъра на CCcam"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Споделете информация"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam споделя информация"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Редактор на основни линии"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo не е наличен"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "Кейд"
+
+msgid "Caid:"
+msgstr "Кейд:"
+
+msgid "Caid:Srvid"
+msgstr "Кейд: Сървид"
+
+msgid "Cam Download"
+msgstr "Изтегляне на камера"
+
+msgid "Cancel"
+msgstr "Отказ"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Информация за картата (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Карти:"
+
+msgid "Cards: 0"
+msgstr "Карти: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Канал"
+
+msgid "Channel Name"
+msgstr "Име на канала"
+
+msgid "Check Emm Send"
+msgstr "Проверете Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Изберете CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Изберете четец"
+
+msgid "Cleanup error: %s"
+msgstr "Грешка при почистване: %s"
+
+msgid "Client %s-%s"
+msgstr "Клиент %s-%s"
+
+msgid "Clients"
+msgstr "клиенти"
+
+msgid "Close"
+msgstr "затвори"
+
+msgid "Command Cancelled"
+msgstr "Командата е отменена"
+
+msgid "Configfile %s saved."
+msgstr "Конфигурационният файл %s е запазен."
+
+msgid "Connected clients"
+msgstr "Свързани клиенти"
+
+msgid "Connected:"
+msgstr "Свързан:"
+
+msgid "Content"
+msgstr "Съдържание"
+
+msgid "Could not open the file %s!"
+msgstr "Файлът %s не може да се отвори!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Файлът %s не може да се отвори! Грешка: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Конфигурационният файл %s не можа да бъде запазен! Грешка: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Конфигурационният файл не можа да бъде запазен! Грешка: %s"
+
+msgid "Current time"
+msgstr "Текущо време"
+
+msgid "Delete"
+msgstr "Изтриване"
+
+msgid "Delete %s?"
+msgstr "Изтриване на %s?"
+
+msgid "Delete Peer"
+msgstr "Изтриване на Peer"
+
+msgid "Delete failed!"
+msgstr "Изтриването не бе успешно!"
+
+msgid "Deleted %s!"
+msgstr "Изтрит %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Инсталирате ли този плъгин?"
+
+msgid "Do you want to execute the command?"
+msgstr "Искате ли да изпълните командата?"
+
+msgid "Do you want to remove?"
+msgstr "Искате ли да премахнете?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Искате ли да рестартирате Gui интерфейса?"
+
+msgid "ECM data format error"
+msgstr "Грешка във формата на ECM данни"
+
+msgid "ECM error"
+msgstr "ECM грешка"
+
+msgid "ECM file empty"
+msgstr "ECM файлът е празен"
+
+msgid "ECM file not found"
+msgstr "ECM файлът не е намерен"
+
+msgid "ECM read error"
+msgstr "Грешка при четене на ECM"
+
+msgid "Ecm Info"
+msgstr "Информация за Ecm"
+
+msgid "Ecm Statistics"
+msgstr "Ecm статистика"
+
+msgid "Ecm Time"
+msgstr "Ecm време"
+
+msgid "Ecm avg"
+msgstr "ECM ср"
+
+msgid "Ecm last"
+msgstr "Ecm последно"
+
+msgid "Edit"
+msgstr "Редактиране"
+
+msgid "Editing one caid"
+msgstr "Редактиране на един caid"
+
+msgid "Emm Info"
+msgstr "Хм информация"
+
+msgid "Entitlements"
+msgstr "Права"
+
+msgid "Error"
+msgstr "Грешка"
+
+msgid "Error executing update script: %s"
+msgstr "Грешка при изпълнение на скрипта за актуализиране: %s"
+
+msgid "Error getting resource information"
+msgstr "Грешка при получаване на информация за ресурса"
+
+msgid "Error loading system info:"
+msgstr "Грешка при зареждане на системна информация:"
+
+msgid "Error loading system information:"
+msgstr "Грешка при зареждане на системна информация:"
+
+msgid "Error opening cam info: %s"
+msgstr "Грешка при отваряне на информацията за камерата: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Грешка при отваряне на конфигурационния файл: %s"
+
+msgid "Error processing HTML!"
+msgstr "Грешка при обработката на HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Грешка при обработката на данните за добавките на сървъра"
+
+msgid "Error reading webpage!"
+msgstr "Грешка при четене на уеб страницата!"
+
+msgid "Error stopping %s!"
+msgstr "Грешка при спиране на %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Грешка при редактиране на конфигурацията: %s"
+
+msgid "Exit"
+msgstr "Изход"
+
+msgid "Extended Shares"
+msgstr "Разширени споделяния"
+
+msgid "Failed to revert file: %s"
+msgstr "Неуспешно възстановяване на файла: %s"
+
+msgid "Find Fakes"
+msgstr "Намерете фалшификати"
+
+msgid "Force Update"
+msgstr "Принудителна актуализация"
+
+msgid "Free memory"
+msgstr "Свободна памет"
+
+msgid "Free memory:"
+msgstr "Свободна памет:"
+
+msgid "Free:"
+msgstr "безплатно:"
+
+msgid "General"
+msgstr "генерал"
+
+msgid "Get Link"
+msgstr "Вземете връзка"
+
+msgid "Getting the list, please wait ..."
+msgstr "Списъкът се получава, моля изчакайте..."
+
+msgid "Help"
+msgstr "Помощ"
+
+msgid "Hops"
+msgstr "Хмел"
+
+msgid "Hops:"
+msgstr "Хмел:"
+
+msgid "Hostname:"
+msgstr "име на хост:"
+
+msgid "IP Address"
+msgstr "IP адрес"
+
+msgid "IP address"
+msgstr "IP адрес"
+
+msgid "Idle Time:"
+msgstr "Време на празен ход:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Ако е активно: Изтегляне/нулиране на конфигурацията на сървъра"
+
+msgid "Install Cam first!!!"
+msgstr "Първо инсталирайте Cam!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Да се ​​инсталира ли актуализация на програмиста (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Невалидно HTML съдържание!"
+
+msgid "Invalid URL!"
+msgstr "Невалиден URL!"
+
+msgid "Last Req."
+msgstr "Последно изискване"
+
+msgid "Last used share:"
+msgstr "Последно използвано споделяне:"
+
+msgid "Load"
+msgstr "Заредете"
+
+msgid "Local box"
+msgstr "Местна кутия"
+
+msgid "Location"
+msgstr "Местоположение"
+
+msgid "Log"
+msgstr "Дневник"
+
+msgid "Log %s-%s"
+msgstr "Дневник %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "МЕНЮ EMM / СЪРВЪР КЛАЙН"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Меню конфигурация"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo не е наличен"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam не работи - стартирайте Cam, за да получите информация."
+
+msgid "New"
+msgstr "Нов"
+
+msgid "New profile:"
+msgstr "Нов профил:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Няма ECM данни"
+
+msgid "No ECM data - Timeout"
+msgstr "Няма ECM данни - Изчакване"
+
+msgid "No ECM file"
+msgstr "Няма ECM файл"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "В момента няма налична информация за ECM. Това е достъпно само по време на дешифриране."
+
+msgid "No active cam to restart!"
+msgstr "Няма активна камера за рестартиране!"
+
+msgid "No backups available!"
+msgstr "Няма налични резервни копия!"
+
+msgid "No card inserted!"
+msgstr "Няма поставена карта!"
+
+msgid "No softcams available!"
+msgstr "Няма налични софтуерни камери!"
+
+msgid "No valid backups found!"
+msgstr "Няма намерени валидни резервни копия!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "добре"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Актуализацията на OSCam изтече. Проверете /tmp/oscam_update.log за подробности."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo не е наличен"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam не работи - стартирайте Cam, за да получите информация."
+
+msgid "PRESS RETURN"
+msgstr "НАТИСНЕТЕ RETURN"
+
+msgid "Password"
+msgstr "Парола"
+
+msgid "Password (httpwd)"
+msgstr "Парола (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Пиково натоварване (макс. заявки на опашка за работна нишка)"
+
+msgid "Pid"
+msgstr "Пид"
+
+msgid "Please Reset - No File CFG"
+msgstr "Моля, нулирайте - няма файл CFG"
+
+msgid "Please select ..."
+msgstr "Моля изберете..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Моля, изберете ред за редактиране или изберете добавяне, за да създадете нов ред."
+
+msgid "Please wait, %s."
+msgstr "Моля, изчакайте, %s."
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Profile"
+msgstr "Профил"
+
+msgid "Profile: Local box"
+msgstr "Профил: Местна кутия"
+
+msgid "Protocol"
+msgstr "протокол"
+
+msgid "Provider"
+msgstr "Доставчик"
+
+msgid "Provider Name:"
+msgstr "Име на доставчика:"
+
+msgid "Provider:"
+msgstr "Доставчик:"
+
+msgid "Providers"
+msgstr "Доставчици"
+
+msgid "Providers:"
+msgstr "Доставчици:"
+
+msgid "Quick restart %s?"
+msgstr "Бързо рестартиране на %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Прочетете потребителските данни от %s.conf"
+
+msgid "Reader"
+msgstr "Читател"
+
+msgid "Reader Statistics"
+msgstr "Читателска статистика"
+
+msgid "Reader/User"
+msgstr "Читател/Потребител"
+
+msgid "Recover Peer"
+msgstr "Възстановяване на Peer"
+
+msgid "Remote box"
+msgstr "Дистанционна кутия"
+
+msgid "Remove"
+msgstr "Премахнете"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Премахнете линията от CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Премахване на %s"
+
+msgid "Rename"
+msgstr "Преименуване"
+
+msgid "Rename failed!"
+msgstr "Неуспешно преименуване!"
+
+msgid "Rename to:"
+msgstr "Преименуване на:"
+
+msgid "Renamed %s!"
+msgstr "Преименуван на %s!"
+
+msgid "Reset"
+msgstr "Нулиране"
+
+msgid "Reshare"
+msgstr "Повторно споделяне"
+
+msgid "Reshare:"
+msgstr "споделяне:"
+
+msgid "Resources"
+msgstr "Ресурси"
+
+msgid "Restart GUI?"
+msgstr "Рестартиране на GUI?"
+
+msgid "Restart error: %s"
+msgstr "Грешка при рестартиране: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Рестартиране на softcam за прилагане на възстановената конфигурация?"
+
+msgid "Save"
+msgstr "Запазване"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Сканиране и списък за извличане softcam ..."
+
+msgid "Select CCcam"
+msgstr "Изберете CCcam"
+
+msgid "Select Get Link"
+msgstr "Изберете Получаване на връзка"
+
+msgid "Select Ncam"
+msgstr "Изберете Ncam"
+
+msgid "Select OScam"
+msgstr "Изберете OScam"
+
+msgid "Select Your Choice"
+msgstr "Изберете своя избор"
+
+msgid "Select a cam to run ..."
+msgstr "Изберете камера за стартиране..."
+
+msgid "Select and Install"
+msgstr "Изберете и инсталирайте"
+
+msgid "Select backup to restore:"
+msgstr "Изберете резервно копие за възстановяване:"
+
+msgid "Server %s-%s"
+msgstr "Сървър %s-%s"
+
+msgid "Server Config"
+msgstr "Конфигурация на сървъра"
+
+msgid "Server Copy in"
+msgstr "Сървър Копиране в"
+
+msgid "Server Link"
+msgstr "Връзка към сървъра"
+
+msgid "Server Password"
+msgstr "Парола на сървъра"
+
+msgid "Server Port"
+msgstr "Сървърен порт"
+
+msgid "Server URL"
+msgstr "URL адрес на сървъра"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "URL адрес на сървъра, т.е. 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Потребителско име на сървъра"
+
+msgid "Server:"
+msgstr "сървър:"
+
+msgid "Servers"
+msgstr "Сървъри"
+
+msgid "Servers:"
+msgstr "сървъри:"
+
+msgid "Service"
+msgstr "Обслужване"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Задайте като УНИКАЛЕН ПЕЕР"
+
+msgid "Setup"
+msgstr "Настройка"
+
+msgid "Share View"
+msgstr "Споделяне на преглед"
+
+msgid "Shares"
+msgstr "Акции"
+
+msgid "Show Clients"
+msgstr "Покажи клиенти"
+
+msgid "Show Ecm info"
+msgstr "Показване на Ecm информация"
+
+msgid "Show Log"
+msgstr "Показване на дневник"
+
+msgid "Show Readers/Proxies"
+msgstr "Показване на читатели/проксита"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam се рестартира с нова конфигурация!"
+
+msgid "Start"
+msgstr "Започнете"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Stop"
+msgstr "Спрете"
+
+msgid "Stop Finding Fakes"
+msgstr "Спрете да намирате фалшификати"
+
+msgid "Switch config"
+msgstr "Превключване на конфигурация"
+
+msgid "System"
+msgstr "система"
+
+msgid "System cleanup completed!"
+msgstr "Почистването на системата приключи!"
+
+msgid "System:"
+msgstr "система:"
+
+msgid "Temporarely DELETED"
+msgstr "Временно ИЗТРИТО"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Този плъгин ви показва състоянието на вашата CCcam"
+
+msgid "Total"
+msgstr "Общо"
+
+msgid "Total cards:"
+msgstr "Общо карти:"
+
+msgid "Total handled client ecm's"
+msgstr "Общо обработени клиентски ecm"
+
+msgid "Total handled client emm's"
+msgstr "Общо обработени клиентски emm"
+
+msgid "Total:"
+msgstr "Общо:"
+
+msgid "Try again later ..."
+msgstr "Опитайте отново по-късно..."
+
+msgid "Type:"
+msgstr "Тип:"
+
+msgid "UNDELETED"
+msgstr "НЕИЗТРИТО"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Не може да се направи скриптът изпълним: %s"
+
+msgid "Unknow Image!"
+msgstr "Непознато изображение!"
+
+msgid "Update"
+msgstr "Актуализация"
+
+msgid "Update Aborted!"
+msgstr "Актуализацията е прекъсната!"
+
+msgid "Update interval (in seconds)"
+msgstr "Интервал на актуализиране (в секунди)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Работно време"
+
+msgid "Used:"
+msgstr "Използвано:"
+
+msgid "Username"
+msgstr "Потребителско име"
+
+msgid "Username (httpuser)"
+msgstr "Потребителско име (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Използване на стар профил:"
+
+msgid "Version:"
+msgstr "Версия:"
+
+msgid "Wait please..."
+msgstr "изчакайте моля..."
+
+msgid "Write"
+msgstr "Пишете"
+
+msgid "Write-Debug"
+msgstr "Писане-Отстраняване на грешки"
+
+msgid "You have the latest version!"
+msgstr "Имате най-новата версия!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tОсигурява:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a НИЩО.ЗА.УНЕДЕЛЕНЕ"
+
+msgid "address:"
+msgstr "адрес:"
+
+msgid "and"
+msgstr "и"
+
+msgid "caid:"
+msgstr "кейд:"
+
+msgid "card"
+msgstr "карта"
+
+msgid "card reader"
+msgstr "четец на карти"
+
+msgid "close share view"
+msgstr "затваряне на изглед за споделяне"
+
+msgid "decrease uphop by 1"
+msgstr "намалете upphop с 1"
+
+msgid "ecm time:"
+msgstr "ecm време:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "вземете сървъра на картите"
+
+msgid "handled"
+msgstr "обработвани"
+
+msgid "hops:"
+msgstr "хмел:"
+
+msgid "increase uphop by 1"
+msgstr "увеличете upphop с 1"
+
+msgid "info"
+msgstr "инфо"
+
+msgid "no or unknown card inserted"
+msgstr "няма или е поставена непозната карта"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "осигурявам:"
+
+msgid "provider:"
+msgstr "доставчик:"
+
+msgid "share:"
+msgstr "споделяне:"
+
+msgid "show all cards"
+msgstr "покажи всички карти"
+
+msgid "show cards with uphop 0"
+msgstr "показване на карти с uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "показване на карти с uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "показване на карти с uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "показване на карти с uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "показване на карти с uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "показване на карти с uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "показване на карти с uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "показване на карти с uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "показвайте карти с uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "показване на карти с uphop 9"
+
+msgid "system:"
+msgstr "система:"
+
+msgid "using:"
+msgstr "използвайки:"
+
+msgid "xLine"
+msgstr ""

@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 23:52+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s spil )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Upplýsingar - Stillingar"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Upplýsingar - Aðalvalmynd"
+
+msgid "%s restarted successfully!"
+msgstr "%s endurræst tókst!"
+
+msgid "%s webif disabled"
+msgstr "%s webif óvirkt"
+
+msgid "(All readers)"
+msgstr "(Allir lesendur)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Sýna aðeins lesanda) (%s)"
+
+msgid "About"
+msgstr "Um"
+
+msgid "Activate"
+msgstr "Virkjaðu"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Virkjaðu Insert line í Config File:"
+
+msgid "Active clients"
+msgstr "Virkir viðskiptavinir"
+
+msgid "Add"
+msgstr "Bæta við"
+
+msgid "Add new CCcam line"
+msgstr "Bættu við nýrri CCcam línu"
+
+msgid "Add new NewCamd line"
+msgstr "Bættu við nýrri NewCamd línu"
+
+msgid "Address"
+msgstr "Heimilisfang"
+
+msgid "All"
+msgstr "Allt"
+
+msgid "An error occurred in the green function."
+msgstr "Villa kom upp í grænu fallinu."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Óvænt villa kom upp: %s"
+
+msgid "Ask all caid"
+msgstr "Spyrðu alla caid"
+
+msgid "Ask for the selection caid"
+msgstr "Biðjið um valið"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Uppfæra sjálfkrafa biðlara/þjónasýn?"
+
+msgid "Available shares:"
+msgstr "Hlutabréf í boði:"
+
+msgid "Back"
+msgstr "Til baka"
+
+msgid "Backup failed!"
+msgstr "Afritun mistókst!"
+
+msgid "Backup restoration failed!"
+msgstr "Endurheimt öryggisafrits mistókst!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Stillingar CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker sjálfvirk ræsing"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Upplýsingar um viðskiptavini CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM upplýsingar"
+
+msgid "CCcam Info"
+msgstr "Upplýsingar um CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Upplýsingar um CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam Info Confing Valmynd"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line Edit Aðgerðir"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam Line ritstjóri"
+
+msgid "CCcam Organizer"
+msgstr "CCcam skipuleggjari"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Upplýsingar um CCcam þjónustuaðila"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam fjarstýringarupplýsingar"
+
+msgid "CCcam Server Info"
+msgstr "Upplýsingar um CCcam netþjón"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Deila upplýsingum"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam deilir upplýsingum"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Basic Line ritstjóri"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo ekki í boði"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Myndavél niðurhal"
+
+msgid "Cancel"
+msgstr "Hætta við"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kortaupplýsingar (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Spil:"
+
+msgid "Cards: 0"
+msgstr "Spil: 0"
+
+msgid "Cardserial"
+msgstr "Kortasería"
+
+msgid "Channel"
+msgstr "Rás"
+
+msgid "Channel Name"
+msgstr "Rásarheiti"
+
+msgid "Check Emm Send"
+msgstr "Athugaðu Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Veldu CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Veldu lesanda"
+
+msgid "Cleanup error: %s"
+msgstr "Hreinsunarvilla: %s"
+
+msgid "Client %s-%s"
+msgstr "Viðskiptavinur %s-%s"
+
+msgid "Clients"
+msgstr "Viðskiptavinir"
+
+msgid "Close"
+msgstr "Loka"
+
+msgid "Command Cancelled"
+msgstr "Hætt við skipun"
+
+msgid "Configfile %s saved."
+msgstr "Stillingaskrá %s vistuð."
+
+msgid "Connected clients"
+msgstr "Tengdir viðskiptavinir"
+
+msgid "Connected:"
+msgstr "Tengdur:"
+
+msgid "Content"
+msgstr "Efni"
+
+msgid "Could not open the file %s!"
+msgstr "Gat ekki opnað skrána %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Gat ekki opnað skrána %s! Villa: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Gat ekki vistað stillingarskrá %s! Villa: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Gat ekki vistað stillingarskrána! Villa: %s"
+
+msgid "Current time"
+msgstr "Núverandi tími"
+
+msgid "Delete"
+msgstr "Eyða"
+
+msgid "Delete %s?"
+msgstr "Eyða %s?"
+
+msgid "Delete Peer"
+msgstr "Eyða Peer"
+
+msgid "Delete failed!"
+msgstr "Ekki tókst að eyða!"
+
+msgid "Deleted %s!"
+msgstr "Eyddi %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Setur þú upp þetta viðbót?"
+
+msgid "Do you want to execute the command?"
+msgstr "Viltu framkvæma skipunina?"
+
+msgid "Do you want to remove?"
+msgstr "Viltu fjarlægja?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Viltu endurræsa Gui Interface?"
+
+msgid "ECM data format error"
+msgstr "ECM gagnasniðsvilla"
+
+msgid "ECM error"
+msgstr "ECM villa"
+
+msgid "ECM file empty"
+msgstr "ECM skrá tóm"
+
+msgid "ECM file not found"
+msgstr "ECM skrá fannst ekki"
+
+msgid "ECM read error"
+msgstr "ECM lestrarvilla"
+
+msgid "Ecm Info"
+msgstr "Ecm upplýsingar"
+
+msgid "Ecm Statistics"
+msgstr "Ecm tölfræði"
+
+msgid "Ecm Time"
+msgstr "Ecm Tími"
+
+msgid "Ecm avg"
+msgstr "Ecm meðaltal"
+
+msgid "Ecm last"
+msgstr "Ecm síðast"
+
+msgid "Edit"
+msgstr "Breyta"
+
+msgid "Editing one caid"
+msgstr "Að breyta einu caid"
+
+msgid "Emm Info"
+msgstr "Erm Upplýsingar"
+
+msgid "Entitlements"
+msgstr "Réttindi"
+
+msgid "Error"
+msgstr "Villa"
+
+msgid "Error executing update script: %s"
+msgstr "Villa við að keyra uppfærsluforskrift: %s"
+
+msgid "Error getting resource information"
+msgstr "Villa við að fá upplýsingar um tilföng"
+
+msgid "Error loading system info:"
+msgstr "Villa við að hlaða kerfisupplýsingum:"
+
+msgid "Error loading system information:"
+msgstr "Villa við að hlaða kerfisupplýsingum:"
+
+msgid "Error opening cam info: %s"
+msgstr "Villa við að opna upplýsingar um myndavél: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Villa við að opna stillingarskrá: %s"
+
+msgid "Error processing HTML!"
+msgstr "Villa við vinnslu HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Villa við að vinna úr viðbótargögnum netþjóns"
+
+msgid "Error reading webpage!"
+msgstr "Villa við að lesa vefsíðu!"
+
+msgid "Error stopping %s!"
+msgstr "Villa við að stöðva %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Villa við að breyta stillingum: %s"
+
+msgid "Exit"
+msgstr "Hætta"
+
+msgid "Extended Shares"
+msgstr "Framlengd hlutabréf"
+
+msgid "Failed to revert file: %s"
+msgstr "Mistókst að endurheimta skrána: %s"
+
+msgid "Find Fakes"
+msgstr "Finndu falsa"
+
+msgid "Force Update"
+msgstr "Þvingaðu uppfærslu"
+
+msgid "Free memory"
+msgstr "Ókeypis minni"
+
+msgid "Free memory:"
+msgstr "Laust minni:"
+
+msgid "Free:"
+msgstr "Ókeypis:"
+
+msgid "General"
+msgstr "Almennt"
+
+msgid "Get Link"
+msgstr "Fáðu hlekk"
+
+msgid "Getting the list, please wait ..."
+msgstr "Að fá listann, vinsamlegast bíddu ..."
+
+msgid "Help"
+msgstr "Hjálp"
+
+msgid "Hops"
+msgstr "Humlar"
+
+msgid "Hops:"
+msgstr "Humlar:"
+
+msgid "Hostname:"
+msgstr "Hýsingarheiti:"
+
+msgid "IP Address"
+msgstr "IP tölu"
+
+msgid "IP address"
+msgstr "IP tölu"
+
+msgid "Idle Time:"
+msgstr "Aðgerðartími:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Ef virkt: Hlaða niður/endurstilla stillingar miðlara"
+
+msgid "Install Cam first!!!"
+msgstr "Settu upp myndavél fyrst!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Setja upp þróunaruppfærslu (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Ógilt HTML efni!"
+
+msgid "Invalid URL!"
+msgstr "Ógild vefslóð!"
+
+msgid "Last Req."
+msgstr "Síðasta beiðni"
+
+msgid "Last used share:"
+msgstr "Síðast notuð hlutdeild:"
+
+msgid "Load"
+msgstr "Hlaða"
+
+msgid "Local box"
+msgstr "Staðbundinn kassi"
+
+msgid "Location"
+msgstr "Staðsetning"
+
+msgid "Log"
+msgstr ""
+
+msgid "Log %s-%s"
+msgstr "Skrá %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Valmynd stillingar"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo ekki í boði"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ekki í gangi - ræstu Cam til að fá upplýsingar."
+
+msgid "New"
+msgstr "Nýtt"
+
+msgid "New profile:"
+msgstr "Nýr prófíll:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Engin ECM gögn"
+
+msgid "No ECM data - Timeout"
+msgstr "Engin ECM gögn - Tímamörk"
+
+msgid "No ECM file"
+msgstr "Engin ECM skrá"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Engar ECM upplýsingar eru tiltækar eins og er. Þetta er aðeins í boði meðan á afkóðun stendur."
+
+msgid "No active cam to restart!"
+msgstr "Engin virk myndavél til að endurræsa!"
+
+msgid "No backups available!"
+msgstr "Engin öryggisafrit í boði!"
+
+msgid "No card inserted!"
+msgstr "Ekkert kort sett í!"
+
+msgid "No softcams available!"
+msgstr "Engar mjúkmyndavélar í boði!"
+
+msgid "No valid backups found!"
+msgstr "Engin gild öryggisafrit fundust!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "Allt í lagi"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam uppfærsla rann út. Athugaðu /tmp/oscam_update.log fyrir frekari upplýsingar."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo ekki í boði"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ekki í gangi - ræstu myndavél til að fá upplýsingar."
+
+msgid "PRESS RETURN"
+msgstr "ÝTtu á RETURN"
+
+msgid "Password"
+msgstr "Lykilorð"
+
+msgid "Password (httpwd)"
+msgstr "Lykilorð (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Hámarksálag (hámarksbeiðnir í biðröð á hvern starfsþráð)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Vinsamlegast endurstilltu - Engin skrá CFG"
+
+msgid "Please select ..."
+msgstr "Vinsamlegast veldu..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Vinsamlegast veldu línu til að breyta eða veldu bæta við til að búa til nýja línu."
+
+msgid "Please wait, %s."
+msgstr "Vinsamlegast bíddu, %s."
+
+msgid "Port"
+msgstr "Höfn"
+
+msgid "Profile"
+msgstr "Prófíll"
+
+msgid "Profile: Local box"
+msgstr "Prófíll: Staðbundinn kassi"
+
+msgid "Protocol"
+msgstr "Bókun"
+
+msgid "Provider"
+msgstr "Veitandi"
+
+msgid "Provider Name:"
+msgstr "Nafn veitanda:"
+
+msgid "Provider:"
+msgstr "Veitandi:"
+
+msgid "Providers"
+msgstr "Veitendur"
+
+msgid "Providers:"
+msgstr "Veitendur:"
+
+msgid "Quick restart %s?"
+msgstr "Fljótleg endurræsa %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Lestu notandagögn frá %s.conf"
+
+msgid "Reader"
+msgstr "Lesandi"
+
+msgid "Reader Statistics"
+msgstr "Lesendatölfræði"
+
+msgid "Reader/User"
+msgstr "Lesandi/notandi"
+
+msgid "Recover Peer"
+msgstr "Endurheimtu Peer"
+
+msgid "Remote box"
+msgstr "Fjarkassi"
+
+msgid "Remove"
+msgstr "Fjarlægja"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Fjarlægðu línuna af CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Fjarlægir %s"
+
+msgid "Rename"
+msgstr "Endurnefna"
+
+msgid "Rename failed!"
+msgstr "Mistókst að endurnefna!"
+
+msgid "Rename to:"
+msgstr "Endurnefna í:"
+
+msgid "Renamed %s!"
+msgstr "Endurnefnt %s!"
+
+msgid "Reset"
+msgstr "Endurstilla"
+
+msgid "Reshare"
+msgstr "Endurdeila"
+
+msgid "Reshare:"
+msgstr "Deila:"
+
+msgid "Resources"
+msgstr "Auðlindir"
+
+msgid "Restart GUI?"
+msgstr "Endurræsa GUI?"
+
+msgid "Restart error: %s"
+msgstr "Endurræsingarvilla: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Endurræsa softcam til að nota endurheimta stillingar?"
+
+msgid "Save"
+msgstr "Vista"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Skanna og sækja lista softcam ..."
+
+msgid "Select CCcam"
+msgstr "Veldu CCcam"
+
+msgid "Select Get Link"
+msgstr "Veldu Fá hlekk"
+
+msgid "Select Ncam"
+msgstr "Veldu Ncam"
+
+msgid "Select OScam"
+msgstr "Veldu OScam"
+
+msgid "Select Your Choice"
+msgstr "Veldu þitt val"
+
+msgid "Select a cam to run ..."
+msgstr "Veldu myndavél til að keyra ..."
+
+msgid "Select and Install"
+msgstr "Veldu og settu upp"
+
+msgid "Select backup to restore:"
+msgstr "Veldu öryggisafrit til að endurheimta:"
+
+msgid "Server %s-%s"
+msgstr "Þjónninn %s-%s"
+
+msgid "Server Config"
+msgstr "Stillingar netþjóns"
+
+msgid "Server Copy in"
+msgstr "Server Copy inn"
+
+msgid "Server Link"
+msgstr "Tengill á netþjón"
+
+msgid "Server Password"
+msgstr "Lykilorð miðlara"
+
+msgid "Server Port"
+msgstr ""
+
+msgid "Server URL"
+msgstr "Vefslóð netþjóns"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Vefslóð netþjóns, þ.e. 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Notandanafn netþjóns"
+
+msgid "Server:"
+msgstr ""
+
+msgid "Servers"
+msgstr ""
+
+msgid "Servers:"
+msgstr ""
+
+msgid "Service"
+msgstr "Þjónusta"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Stillt sem UNIQUE PEER"
+
+msgid "Setup"
+msgstr "Uppsetning"
+
+msgid "Share View"
+msgstr "Deila útsýni"
+
+msgid "Shares"
+msgstr "Hlutabréf"
+
+msgid "Show Clients"
+msgstr "Sýna viðskiptavini"
+
+msgid "Show Ecm info"
+msgstr "Sýna Ecm upplýsingar"
+
+msgid "Show Log"
+msgstr "Sýna Log"
+
+msgid "Show Readers/Proxies"
+msgstr "Sýna lesendur/umboð"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam endurræst með nýrri stillingu!"
+
+msgid "Start"
+msgstr "Byrjaðu"
+
+msgid "Status"
+msgstr "Staða"
+
+msgid "Stop"
+msgstr "Hættu"
+
+msgid "Stop Finding Fakes"
+msgstr "Hættu að finna falsanir"
+
+msgid "Switch config"
+msgstr "Skiptu um stillingar"
+
+msgid "System"
+msgstr "Kerfi"
+
+msgid "System cleanup completed!"
+msgstr "Kerfishreinsun lokið!"
+
+msgid "System:"
+msgstr "Kerfi:"
+
+msgid "Temporarely DELETED"
+msgstr "Eydd tímabundið"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Þessi viðbót sýnir þér stöðu CCcam þinnar"
+
+msgid "Total"
+msgstr "Samtals"
+
+msgid "Total cards:"
+msgstr "Samtals spil:"
+
+msgid "Total handled client ecm's"
+msgstr "Samtals meðhöndluð viðskiptavinur ECM"
+
+msgid "Total handled client emm's"
+msgstr "Samtals meðhöndlaðir viðskiptavinir emm"
+
+msgid "Total:"
+msgstr "Samtals:"
+
+msgid "Try again later ..."
+msgstr "Reyndu aftur seinna..."
+
+msgid "Type:"
+msgstr "Tegund:"
+
+msgid "UNDELETED"
+msgstr "ÚTLEGT"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Ekki tókst að gera forskriftina keyranlega: %s"
+
+msgid "Unknow Image!"
+msgstr "Óþekkt mynd!"
+
+msgid "Update"
+msgstr "Uppfærsla"
+
+msgid "Update Aborted!"
+msgstr "Uppfærsla hætt!"
+
+msgid "Update interval (in seconds)"
+msgstr "Uppfærslubil (í sekúndum)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Spenntur"
+
+msgid "Used:"
+msgstr "Notað:"
+
+msgid "Username"
+msgstr "Notandanafn"
+
+msgid "Username (httpuser)"
+msgstr "Notandanafn (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Notaðu gamla prófílinn:"
+
+msgid "Version:"
+msgstr "Útgáfa:"
+
+msgid "Wait please..."
+msgstr "Bíddu vinsamlega..."
+
+msgid "Write"
+msgstr "Skrifaðu"
+
+msgid "Write-Debug"
+msgstr "Skrifa-kembiforrit"
+
+msgid "You have the latest version!"
+msgstr "Þú ert með nýjustu útgáfuna!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tGefðu:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a EKKERT.AÐ.UNDELA"
+
+msgid "address:"
+msgstr "heimilisfang:"
+
+msgid "and"
+msgstr "og"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kort"
+
+msgid "card reader"
+msgstr "kortalesari"
+
+msgid "close share view"
+msgstr "loka deila útsýni"
+
+msgid "decrease uphop by 1"
+msgstr "minnka uphop um 1"
+
+msgid "ecm time:"
+msgstr "ecm tími:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "fáðu miðlara kortanna"
+
+msgid "handled"
+msgstr "afgreidd"
+
+msgid "hops:"
+msgstr "humlar:"
+
+msgid "increase uphop by 1"
+msgstr "hækka uphop um 1"
+
+msgid "info"
+msgstr "upplýsingar"
+
+msgid "no or unknown card inserted"
+msgstr "ekkert eða óþekkt kort sett í"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "veita:"
+
+msgid "provider:"
+msgstr "veitandi:"
+
+msgid "share:"
+msgstr "deila:"
+
+msgid "show all cards"
+msgstr "sýna öll spilin"
+
+msgid "show cards with uphop 0"
+msgstr "sýna spil með uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "sýna spil með uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "sýna spil með uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "sýna spil með uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "sýna spil með uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "sýna spil með uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "sýna spil með uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "sýna spil með uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "sýna spil með uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "sýna spil með uphop 9"
+
+msgid "system:"
+msgstr "kerfi:"
+
+msgid "using:"
+msgstr "nota:"
+
+msgid "xLine"
+msgstr "xLína"

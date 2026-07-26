@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 23:30+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Hebrew <heb-bugzap@hamakor.org.il>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s כרטיסים)"
+
+msgid "%s Info - Configuration"
+msgstr "מידע %s - תצורה"
+
+msgid "%s Info - Main Menu"
+msgstr "מידע %s - תפריט ראשי"
+
+msgid "%s restarted successfully!"
+msgstr "%s הופעל מחדש בהצלחה!"
+
+msgid "%s webif disabled"
+msgstr "%s webif מושבת"
+
+msgid "(All readers)"
+msgstr "(כל הקוראים)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(הצג קורא בלבד) (%s)"
+
+msgid "About"
+msgstr "אוֹדוֹת"
+
+msgid "Activate"
+msgstr "לְהַפְעִיל"
+
+msgid "Activate Insert line in Config File:"
+msgstr "הפעל את שורת הוספה בקובץ התצורה:"
+
+msgid "Active clients"
+msgstr "לקוחות פעילים"
+
+msgid "Add"
+msgstr "לְהוֹסִיף"
+
+msgid "Add new CCcam line"
+msgstr "הוסף קו CCcam חדש"
+
+msgid "Add new NewCamd line"
+msgstr "הוסף קו חדש של NewCamd"
+
+msgid "Address"
+msgstr "כְּתוֹבֶת"
+
+msgid "All"
+msgstr "כֹּל"
+
+msgid "An error occurred in the green function."
+msgstr "אירעה שגיאה בפונקציה הירוקה."
+
+msgid "An unexpected error occurred: %s"
+msgstr "אירעה שגיאה בלתי צפויה: %s"
+
+msgid "Ask all caid"
+msgstr "תשאל את כל הקאיד"
+
+msgid "Ask for the selection caid"
+msgstr "בקש את המחלקה לבחירה"
+
+msgid "Automatically update Client/Server View?"
+msgstr "לעדכן אוטומטית תצוגת לקוח/שרת?"
+
+msgid "Available shares:"
+msgstr "מניות זמינות:"
+
+msgid "Back"
+msgstr "בְּחֲזָרָה"
+
+msgid "Backup failed!"
+msgstr "הגיבוי נכשל!"
+
+msgid "Backup restoration failed!"
+msgstr "שחזור הגיבוי נכשל!"
+
+msgid "CCPrioMaker Settings"
+msgstr "הגדרות CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "הפעלה אוטומטית של CCPrioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "מידע על לקוחות CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "מחליף תצורה של CCcam"
+
+msgid "CCcam ECM Info"
+msgstr "מידע על CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "מידע CCcam"
+
+msgid "CCcam Info %s"
+msgstr "מידע CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "תצורת מידע CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "תפריט תצורת מידע CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "פעולות עריכת קו CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "עורך קו CCcam"
+
+msgid "CCcam Organizer"
+msgstr "מארגן CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "מידע על ספק CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "מידע מרחוק CCcam"
+
+msgid "CCcam Server Info"
+msgstr "מידע על שרת CCcam"
+
+msgid "CCcam Share Info"
+msgstr "CCcam שיתוף מידע"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam משתפת מידע"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "עורך קו בסיסי CCcam.cfg"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo אינו זמין"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "קאיד"
+
+msgid "Caid:"
+msgstr "קאיד:"
+
+msgid "Caid:Srvid"
+msgstr "קאיד: סרוויד"
+
+msgid "Cam Download"
+msgstr "הורדת מצלמת"
+
+msgid "Cancel"
+msgstr "לְבַטֵל"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "פרטי כרטיס (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "כרטיסים:"
+
+msgid "Cards: 0"
+msgstr "קלפים: 0"
+
+msgid "Cardserial"
+msgstr "סדרת כרטיסים"
+
+msgid "Channel"
+msgstr "עָרוּץ"
+
+msgid "Channel Name"
+msgstr "שם הערוץ"
+
+msgid "Check Emm Send"
+msgstr "בדוק את Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "בחר CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "בחר קורא"
+
+msgid "Cleanup error: %s"
+msgstr "שגיאת ניקוי: %s"
+
+msgid "Client %s-%s"
+msgstr "לקוח %s-%s"
+
+msgid "Clients"
+msgstr "לקוחות"
+
+msgid "Close"
+msgstr "לִסְגוֹר"
+
+msgid "Command Cancelled"
+msgstr "הפקודה בוטלה"
+
+msgid "Configfile %s saved."
+msgstr "קובץ התצורה %s נשמר."
+
+msgid "Connected clients"
+msgstr "לקוחות מחוברים"
+
+msgid "Connected:"
+msgstr "מְחוּבָּר:"
+
+msgid "Content"
+msgstr "תוֹכֶן"
+
+msgid "Could not open the file %s!"
+msgstr "לא ניתן היה לפתוח את הקובץ %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "לא ניתן היה לפתוח את הקובץ %s! שגיאה: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "לא ניתן לשמור את קובץ התצורה %s! שגיאה: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "לא ניתן לשמור את קובץ התצורה! שגיאה: %s"
+
+msgid "Current time"
+msgstr "זמן נוכחי"
+
+msgid "Delete"
+msgstr "לִמְחוֹק"
+
+msgid "Delete %s?"
+msgstr "למחוק את %s?"
+
+msgid "Delete Peer"
+msgstr "מחק את פאר"
+
+msgid "Delete failed!"
+msgstr "המחיקה נכשלה!"
+
+msgid "Deleted %s!"
+msgstr "נמחק %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "האם אתה מתקין את התוסף הזה?"
+
+msgid "Do you want to execute the command?"
+msgstr "האם אתה רוצה לבצע את הפקודה?"
+
+msgid "Do you want to remove?"
+msgstr "האם אתה רוצה להסיר?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "האם ברצונך להפעיל מחדש את ממשק Gui?"
+
+msgid "ECM data format error"
+msgstr "שגיאת פורמט נתונים של ECM"
+
+msgid "ECM error"
+msgstr "שגיאת ECM"
+
+msgid "ECM file empty"
+msgstr "קובץ ECM ריק"
+
+msgid "ECM file not found"
+msgstr "קובץ ECM לא נמצא"
+
+msgid "ECM read error"
+msgstr "שגיאת קריאה של ECM"
+
+msgid "Ecm Info"
+msgstr "מידע ECM"
+
+msgid "Ecm Statistics"
+msgstr "סטטיסטיקה של ECM"
+
+msgid "Ecm Time"
+msgstr "זמן Ecm"
+
+msgid "Ecm avg"
+msgstr "Ecm ממוצע"
+
+msgid "Ecm last"
+msgstr "Ecm אחרון"
+
+msgid "Edit"
+msgstr "לַעֲרוֹך"
+
+msgid "Editing one caid"
+msgstr "עריכת קאיד אחד"
+
+msgid "Emm Info"
+msgstr "ארם מידע"
+
+msgid "Entitlements"
+msgstr "זכויות"
+
+msgid "Error"
+msgstr "שְׁגִיאָה"
+
+msgid "Error executing update script: %s"
+msgstr "שגיאה בביצוע סקריפט עדכון: %s"
+
+msgid "Error getting resource information"
+msgstr "שגיאה בהשגת מידע על משאבים"
+
+msgid "Error loading system info:"
+msgstr "שגיאה בטעינת מידע מערכת:"
+
+msgid "Error loading system information:"
+msgstr "שגיאה בטעינת מידע מערכת:"
+
+msgid "Error opening cam info: %s"
+msgstr "שגיאה בפתיחת פרטי מצלמת: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "שגיאה בפתיחת קובץ התצורה: %s"
+
+msgid "Error processing HTML!"
+msgstr "שגיאה בעיבוד HTML!"
+
+msgid "Error processing server addons data"
+msgstr "שגיאה בעיבוד נתוני תוספות שרת"
+
+msgid "Error reading webpage!"
+msgstr "שגיאה בקריאת דף האינטרנט!"
+
+msgid "Error stopping %s!"
+msgstr "שגיאה בעצירת %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "שגיאה בעת עריכת תצורה: %s"
+
+msgid "Exit"
+msgstr "יְצִיאָה"
+
+msgid "Extended Shares"
+msgstr "מניות מורחבות"
+
+msgid "Failed to revert file: %s"
+msgstr "נכשל החזרת הקובץ: %s"
+
+msgid "Find Fakes"
+msgstr "מצא זיופים"
+
+msgid "Force Update"
+msgstr "כפה עדכון"
+
+msgid "Free memory"
+msgstr "זיכרון פנוי"
+
+msgid "Free memory:"
+msgstr "זיכרון פנוי:"
+
+msgid "Free:"
+msgstr "לְשַׁחְרֵר:"
+
+msgid "General"
+msgstr "כְּלָלִי"
+
+msgid "Get Link"
+msgstr "קבל קישור"
+
+msgid "Getting the list, please wait ..."
+msgstr "מקבל את הרשימה, אנא המתן..."
+
+msgid "Help"
+msgstr "עֶזרָה"
+
+msgid "Hops"
+msgstr "כְּשׁוּת"
+
+msgid "Hops:"
+msgstr "כְּשׁוּת:"
+
+msgid "Hostname:"
+msgstr "שם מארח:"
+
+msgid "IP Address"
+msgstr "כתובת IP"
+
+msgid "IP address"
+msgstr "כתובת IP"
+
+msgid "Idle Time:"
+msgstr "זמן סרק:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "אם פעיל: הורד/אפס את תצורת השרת"
+
+msgid "Install Cam first!!!"
+msgstr "התקן את המצלמה תחילה!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "האם להתקין עדכון למפתחים (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "תוכן HTML לא חוקי!"
+
+msgid "Invalid URL!"
+msgstr "כתובת אתר לא חוקית!"
+
+msgid "Last Req."
+msgstr "בקשה אחרונה"
+
+msgid "Last used share:"
+msgstr "שיתוף אחרון בשימוש:"
+
+msgid "Load"
+msgstr "לִטעוֹן"
+
+msgid "Local box"
+msgstr "תיבה מקומית"
+
+msgid "Location"
+msgstr "מִקוּם"
+
+msgid "Log"
+msgstr "עֵץ"
+
+msgid "Log %s-%s"
+msgstr "יומן %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "תפריט EMM / שרת CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "תצורת תפריט"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo אינו זמין"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam לא פועל - הפעל את Cam כדי לקבל מידע."
+
+msgid "New"
+msgstr "חָדָשׁ"
+
+msgid "New profile:"
+msgstr "פרופיל חדש:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "אין נתוני ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "אין נתוני ECM - פסק זמן"
+
+msgid "No ECM file"
+msgstr "אין קובץ ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "אין מידע על ECM זמין כרגע. זה זמין רק בזמן פענוח."
+
+msgid "No active cam to restart!"
+msgstr "אין מצלמת פעילה להפעלה מחדש!"
+
+msgid "No backups available!"
+msgstr "אין גיבויים זמינים!"
+
+msgid "No card inserted!"
+msgstr "לא הוכנס כרטיס!"
+
+msgid "No softcams available!"
+msgstr "אין מצלמות תוכנה זמינות!"
+
+msgid "No valid backups found!"
+msgstr "לא נמצאו גיבויים חוקיים!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "בְּסֵדֶר"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "תם הזמן הקצוב לעדכון OSCam. בדוק /tmp/oscam_update.log לפרטים."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo אינו זמין"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam לא פועל - הפעל את Cam כדי לקבל מידע."
+
+msgid "PRESS RETURN"
+msgstr "הקש על חזרה"
+
+msgid "Password"
+msgstr "סִיסמָה"
+
+msgid "Password (httpwd)"
+msgstr "סיסמה (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "עומס שיא (מקסימום בקשות בתור לשרשור עובד)"
+
+msgid "Pid"
+msgstr "פיד"
+
+msgid "Please Reset - No File CFG"
+msgstr "נא לאפס - אין קובץ CFG"
+
+msgid "Please select ..."
+msgstr "אנא בחר..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "אנא בחר שורה לעריכה או בחר הוסף כדי ליצור שורה חדשה."
+
+msgid "Please wait, %s."
+msgstr "אנא המתן, %s."
+
+msgid "Port"
+msgstr "נָמָל"
+
+msgid "Profile"
+msgstr "פּרוֹפִיל"
+
+msgid "Profile: Local box"
+msgstr "פרופיל: תיבה מקומית"
+
+msgid "Protocol"
+msgstr "פּרוֹטוֹקוֹל"
+
+msgid "Provider"
+msgstr "ספק"
+
+msgid "Provider Name:"
+msgstr "שם הספק:"
+
+msgid "Provider:"
+msgstr "ספק:"
+
+msgid "Providers"
+msgstr "ספקים"
+
+msgid "Providers:"
+msgstr "ספקים:"
+
+msgid "Quick restart %s?"
+msgstr "הפעלה מחדש מהירה של %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "קרא נתוני משתמש מ-%s.conf"
+
+msgid "Reader"
+msgstr "קוֹרֵא"
+
+msgid "Reader Statistics"
+msgstr "סטטיסטיקת הקוראים"
+
+msgid "Reader/User"
+msgstr "קורא/משתמש"
+
+msgid "Recover Peer"
+msgstr "לשחזר את פאר"
+
+msgid "Remote box"
+msgstr "קופסא מרחוק"
+
+msgid "Remove"
+msgstr "לְהַסִיר"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "הסר את הקו מ-CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "מסיר את %s"
+
+msgid "Rename"
+msgstr "שנה שם"
+
+msgid "Rename failed!"
+msgstr "שינוי השם נכשל!"
+
+msgid "Rename to:"
+msgstr "שנה את השם ל:"
+
+msgid "Renamed %s!"
+msgstr "שונה שם %s!"
+
+msgid "Reset"
+msgstr "אִתחוּל"
+
+msgid "Reshare"
+msgstr "שיתוף מחדש"
+
+msgid "Reshare:"
+msgstr "לַחֲלוֹק:"
+
+msgid "Resources"
+msgstr "אֶמְצָעִי"
+
+msgid "Restart GUI?"
+msgstr "להפעיל מחדש את ה-GUI?"
+
+msgid "Restart error: %s"
+msgstr "שגיאת הפעלה מחדש: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "להפעיל מחדש את softcam כדי להחיל תצורה משוחזרת?"
+
+msgid "Save"
+msgstr "לְהַצִיל"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "מצלמת softcam סריקה ושליפה של רשימת ..."
+
+msgid "Select CCcam"
+msgstr "בחר CCcam"
+
+msgid "Select Get Link"
+msgstr "בחר קבל קישור"
+
+msgid "Select Ncam"
+msgstr "בחר Ncam"
+
+msgid "Select OScam"
+msgstr "בחר OScam"
+
+msgid "Select Your Choice"
+msgstr "בחר את הבחירה שלך"
+
+msgid "Select a cam to run ..."
+msgstr "בחר מצלמת להפעיל..."
+
+msgid "Select and Install"
+msgstr "בחר והתקן"
+
+msgid "Select backup to restore:"
+msgstr "בחר גיבוי לשחזור:"
+
+msgid "Server %s-%s"
+msgstr "שרת %s-%s"
+
+msgid "Server Config"
+msgstr "תצורת שרת"
+
+msgid "Server Copy in"
+msgstr "שרת העתק פנימה"
+
+msgid "Server Link"
+msgstr "קישור לשרת"
+
+msgid "Server Password"
+msgstr "סיסמת שרת"
+
+msgid "Server Port"
+msgstr "יציאת שרת"
+
+msgid "Server URL"
+msgstr "כתובת האתר של השרת"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "כתובת האתר של השרת, כלומר 012.345.678.900"
+
+msgid "Server Username"
+msgstr "שם משתמש בשרת"
+
+msgid "Server:"
+msgstr "שרת:"
+
+msgid "Servers"
+msgstr "שרתים"
+
+msgid "Servers:"
+msgstr "שרתים:"
+
+msgid "Service"
+msgstr "שֵׁרוּת"
+
+msgid "Set as UNIQUE PEER"
+msgstr "הגדר בתור UNIQUE PEER"
+
+msgid "Setup"
+msgstr "הגדרה"
+
+msgid "Share View"
+msgstr "שתף תצוגה"
+
+msgid "Shares"
+msgstr "מניות"
+
+msgid "Show Clients"
+msgstr "הצג לקוחות"
+
+msgid "Show Ecm info"
+msgstr "הצג מידע על ECM"
+
+msgid "Show Log"
+msgstr "הצג יומן"
+
+msgid "Show Readers/Proxies"
+msgstr "הצג קוראים/פרוקסי"
+
+msgid "Softcam Manager"
+msgstr "מנהל מצלמת softcam"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam הופעל מחדש עם תצורה חדשה!"
+
+msgid "Start"
+msgstr "הַתחָלָה"
+
+msgid "Status"
+msgstr "סטָטוּס"
+
+msgid "Stop"
+msgstr "לְהַפְסִיק"
+
+msgid "Stop Finding Fakes"
+msgstr "תפסיקו למצוא זיופים"
+
+msgid "Switch config"
+msgstr "החלף תצורה"
+
+msgid "System"
+msgstr "מַעֲרֶכֶת"
+
+msgid "System cleanup completed!"
+msgstr "ניקוי המערכת הושלם!"
+
+msgid "System:"
+msgstr "מַעֲרֶכֶת:"
+
+msgid "Temporarely DELETED"
+msgstr "נמחק באופן זמני"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "תוסף זה מראה לך את מצב ה-CCcam שלך"
+
+msgid "Total"
+msgstr "סַך הַכֹּל"
+
+msgid "Total cards:"
+msgstr "סך הקלפים:"
+
+msgid "Total handled client ecm's"
+msgstr "סה"כ eCM של לקוחות מטופלים"
+
+msgid "Total handled client emm's"
+msgstr "סה"כ טיפל ב-emm's של לקוחות"
+
+msgid "Total:"
+msgstr "סַך הַכֹּל:"
+
+msgid "Try again later ..."
+msgstr "נסה שוב מאוחר יותר..."
+
+msgid "Type:"
+msgstr "סוּג:"
+
+msgid "UNDELETED"
+msgstr "בוטלה"
+
+msgid "Unable to make the script executable: %s"
+msgstr "לא ניתן להפעיל את הסקריפט: %s"
+
+msgid "Unknow Image!"
+msgstr "לא מכיר תמונה!"
+
+msgid "Update"
+msgstr "לְעַדְכֵּן"
+
+msgid "Update Aborted!"
+msgstr "העדכון בוטל!"
+
+msgid "Update interval (in seconds)"
+msgstr "מרווח עדכון (בשניות)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr "אפופס -"
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "זמן פעילות"
+
+msgid "Used:"
+msgstr "מְשׁוּמָשׁ:"
+
+msgid "Username"
+msgstr "שם משתמש"
+
+msgid "Username (httpuser)"
+msgstr "שם משתמש (httpuser)"
+
+msgid "Using old profile:"
+msgstr "שימוש בפרופיל ישן:"
+
+msgid "Version:"
+msgstr "גִרְסָה:"
+
+msgid "Wait please..."
+msgstr "חכה בבקשה..."
+
+msgid "Write"
+msgstr "לִכתוֹב"
+
+msgid "Write-Debug"
+msgstr "כתיבה-ניפוי באגים"
+
+msgid "You have the latest version!"
+msgstr "יש לך את הגרסה העדכנית ביותר!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tספק:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr ""
+
+msgid "address:"
+msgstr "כְּתוֹבֶת:"
+
+msgid "and"
+msgstr "ו"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "כַּרְטִיס"
+
+msgid "card reader"
+msgstr "קורא כרטיסים"
+
+msgid "close share view"
+msgstr "תצוגת שיתוף סגור"
+
+msgid "decrease uphop by 1"
+msgstr "להקטין את ה-uphop ב-1"
+
+msgid "ecm time:"
+msgstr "זמן ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "קבל את שרת הכרטיסים"
+
+msgid "handled"
+msgstr "טיפלו"
+
+msgid "hops:"
+msgstr "כְּשׁוּת:"
+
+msgid "increase uphop by 1"
+msgstr "להגדיל את ה-uphop ב-1"
+
+msgid "info"
+msgstr "מידע"
+
+msgid "no or unknown card inserted"
+msgstr "כרטיס לא או לא ידוע הוכנס"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "ספק:"
+
+msgid "provider:"
+msgstr "ספק:"
+
+msgid "share:"
+msgstr "לַחֲלוֹק:"
+
+msgid "show all cards"
+msgstr "להראות את כל הקלפים"
+
+msgid "show cards with uphop 0"
+msgstr "הצג קלפים עם uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "הצג קלפים עם uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "הצג קלפים עם uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "הצג קלפים עם uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "הצג קלפים עם uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "הצג קלפים עם uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "הצג קלפים עם uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "הצג קלפים עם uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "הצג קלפים עם uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "הצג קלפים עם uphop 9"
+
+msgid "system:"
+msgstr "מַעֲרֶכֶת:"
+
+msgid "using:"
+msgstr "באמצעות:"
+
+msgid "xLine"
+msgstr ""

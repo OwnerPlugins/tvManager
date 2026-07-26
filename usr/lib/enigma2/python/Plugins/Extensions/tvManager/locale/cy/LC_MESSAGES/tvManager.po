@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 22:22+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Welsh\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Cardiau )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Gwybodaeth - Ffurfweddu"
+
+msgid "%s Info - Main Menu"
+msgstr "Gwybodaeth %s - Prif Ddewislen"
+
+msgid "%s restarted successfully!"
+msgstr "%s wedi ailgychwyn yn llwyddiannus!"
+
+msgid "%s webif disabled"
+msgstr "Mae %s webif wedi'i analluogi"
+
+msgid "(All readers)"
+msgstr "(Pob darllenydd)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Dangos darllenydd yn unig) (%s)"
+
+msgid "About"
+msgstr "Ynghylch"
+
+msgid "Activate"
+msgstr "Ysgogi"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Cychwyn Mewnosod llinell yn y Ffeil Ffurfweddu:"
+
+msgid "Active clients"
+msgstr "Cleientiaid gweithredol"
+
+msgid "Add"
+msgstr "Ychwanegu"
+
+msgid "Add new CCcam line"
+msgstr "Ychwanegu llinell CCcam newydd"
+
+msgid "Add new NewCamd line"
+msgstr "Ychwanegu llinell NewCamd newydd"
+
+msgid "Address"
+msgstr "Cyfeiriad"
+
+msgid "All"
+msgstr "Pawb"
+
+msgid "An error occurred in the green function."
+msgstr "Digwyddodd gwall yn y ffwythiant gwyrdd."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Digwyddodd gwall annisgwyl: %s"
+
+msgid "Ask all caid"
+msgstr "Gofynnwch i bob caid"
+
+msgid "Ask for the selection caid"
+msgstr "Gofynnwch am y caid dewis"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Diweddaru Golwg Cleient/Gweinydd yn awtomatig?"
+
+msgid "Available shares:"
+msgstr "Cyfranddaliadau ar gael:"
+
+msgid "Back"
+msgstr "Yn ol"
+
+msgid "Backup failed!"
+msgstr "Wedi methu gwneud copi wrth gefn!"
+
+msgid "Backup restoration failed!"
+msgstr "Adfer copi wrth gefn wedi methu!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Gosodiadau CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker cychwyn yn awtomatig"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Gwybodaeth Cleientiaid CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "Newidiwr Config CCcam"
+
+msgid "CCcam ECM Info"
+msgstr "Gwybodaeth ECM CCcam"
+
+msgid "CCcam Info"
+msgstr "Gwybodaeth CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Gwybodaeth CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "Ffurfwedd Gwybodaeth CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "Dewislen Ffurfweddu Gwybodaeth CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Camau Golygu Llinell CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "Golygydd Llinell CCcam"
+
+msgid "CCcam Organizer"
+msgstr "Trefnydd CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr "Gwneuthurwr Prior CCcam"
+
+msgid "CCcam Provider Info"
+msgstr "Gwybodaeth Darparwr CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Gwybodaeth o Bell CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Gwybodaeth Gweinydd CCcam"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Rhannu Gwybodaeth"
+
+msgid "CCcam Shares Info"
+msgstr "Gwybodaeth Rhannu CCcam"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "Golygydd Llinell Sylfaenol CCcam.cfg"
+
+msgid "CCcamInfo not available"
+msgstr "Nid yw CCcamInfo ar gael"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Lawrlwytho Cam"
+
+msgid "Cancel"
+msgstr "Canslo"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Gwybodaeth cerdyn (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Cardiau:"
+
+msgid "Cards: 0"
+msgstr "Cardiau: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Sianel"
+
+msgid "Channel Name"
+msgstr "Enw Sianel"
+
+msgid "Check Emm Send"
+msgstr "Gwiriwch Emm Anfon"
+
+msgid "Choose CCcam-Reader"
+msgstr "Dewiswch CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Dewiswch ddarllenydd"
+
+msgid "Cleanup error: %s"
+msgstr "Gwall glanhau: %s"
+
+msgid "Client %s-%s"
+msgstr "Cleient %s-%s"
+
+msgid "Clients"
+msgstr "Cleientiaid"
+
+msgid "Close"
+msgstr "Cau"
+
+msgid "Command Cancelled"
+msgstr "Gorchymyn wedi'i Ganslo"
+
+msgid "Configfile %s saved."
+msgstr "Ffurfweddu %s wedi'i gadw."
+
+msgid "Connected clients"
+msgstr "Cleientiaid cysylltiedig"
+
+msgid "Connected:"
+msgstr "Wedi'i gysylltu:"
+
+msgid "Content"
+msgstr "Cynnwys"
+
+msgid "Could not open the file %s!"
+msgstr "Methu agor y ffeil %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Methu agor y ffeil %s! Gwall: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Methu cadw ffeil ffurfweddu %s! Gwall: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Methu cadw'r ffeil ffurfweddu! Gwall: %s"
+
+msgid "Current time"
+msgstr "Amser presennol"
+
+msgid "Delete"
+msgstr "Dileu"
+
+msgid "Delete %s?"
+msgstr "Dileu %s?"
+
+msgid "Delete Peer"
+msgstr "Dileu Cyfoedion"
+
+msgid "Delete failed!"
+msgstr "Wedi methu dileu!"
+
+msgid "Deleted %s!"
+msgstr "Wedi dileu %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Ydych chi'n gosod yr ategyn hwn ?"
+
+msgid "Do you want to execute the command?"
+msgstr "Ydych chi am weithredu'r gorchymyn?"
+
+msgid "Do you want to remove?"
+msgstr "Ydych chi am ddileu?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Ydych chi am ailgychwyn Rhyngwyneb Gui?"
+
+msgid "ECM data format error"
+msgstr "Gwall fformat data ECM"
+
+msgid "ECM error"
+msgstr "Gwall ECM"
+
+msgid "ECM file empty"
+msgstr "Ffeil ECM yn wag"
+
+msgid "ECM file not found"
+msgstr "Heb ganfod ffeil ECM"
+
+msgid "ECM read error"
+msgstr "Gwall darllen ECM"
+
+msgid "Ecm Info"
+msgstr "Gwybodaeth Ecm"
+
+msgid "Ecm Statistics"
+msgstr "Ystadegau Ecm"
+
+msgid "Ecm Time"
+msgstr "Amser Ecm"
+
+msgid "Ecm avg"
+msgstr "Ecm cyf"
+
+msgid "Ecm last"
+msgstr "Ecm diweddaf"
+
+msgid "Edit"
+msgstr "Golygu"
+
+msgid "Editing one caid"
+msgstr "Golygu un caid"
+
+msgid "Emm Info"
+msgstr "Gwybodaeth Erm"
+
+msgid "Entitlements"
+msgstr "Hawliau"
+
+msgid "Error"
+msgstr "Gwall"
+
+msgid "Error executing update script: %s"
+msgstr "Gwall wrth weithredu'r sgript diweddaru: %s"
+
+msgid "Error getting resource information"
+msgstr "Gwall wrth gael gwybodaeth am adnoddau"
+
+msgid "Error loading system info:"
+msgstr "Gwall wrth lwytho gwybodaeth system:"
+
+msgid "Error loading system information:"
+msgstr "Gwall wrth lwytho gwybodaeth system:"
+
+msgid "Error opening cam info: %s"
+msgstr "Gwall wrth agor gwybodaeth cam: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Gwall wrth agor ffeil ffurfweddu: %s"
+
+msgid "Error processing HTML!"
+msgstr "Gwall wrth brosesu HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Gwall wrth brosesu data ategion gweinydd"
+
+msgid "Error reading webpage!"
+msgstr "Gwall wrth ddarllen y dudalen we!"
+
+msgid "Error stopping %s!"
+msgstr "Gwall wrth stopio %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Gwall wrth olygu ffurfweddiad: %s"
+
+msgid "Exit"
+msgstr "Ymadael"
+
+msgid "Extended Shares"
+msgstr "Cyfrannau Estynedig"
+
+msgid "Failed to revert file: %s"
+msgstr "Wedi methu â dychwelyd ffeil: %s"
+
+msgid "Find Fakes"
+msgstr "Dod o hyd i Fakes"
+
+msgid "Force Update"
+msgstr "Diweddariad Llu"
+
+msgid "Free memory"
+msgstr "Cof am ddim"
+
+msgid "Free memory:"
+msgstr "Cof am ddim:"
+
+msgid "Free:"
+msgstr "Am ddim:"
+
+msgid "General"
+msgstr "Cyffredinol"
+
+msgid "Get Link"
+msgstr "Cael Dolen"
+
+msgid "Getting the list, please wait ..."
+msgstr "Cael y rhestr, arhoswch os gwelwch yn dda ..."
+
+msgid "Help"
+msgstr ""
+
+msgid "Hops"
+msgstr "hopys"
+
+msgid "Hops:"
+msgstr "hopys:"
+
+msgid "Hostname:"
+msgstr "Enw gwesteiwr:"
+
+msgid "IP Address"
+msgstr "Cyfeiriad IP"
+
+msgid "IP address"
+msgstr "Cyfeiriad IP"
+
+msgid "Idle Time:"
+msgstr "Amser segur:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Os yn Weithredol: Lawrlwythwch / Ailosod Ffurfwedd Gweinydd"
+
+msgid "Install Cam first!!!"
+msgstr "Gosod Cam yn gyntaf !!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Gosod diweddariad datblygwr (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Cynnwys HTML annilys!"
+
+msgid "Invalid URL!"
+msgstr "URL annilys!"
+
+msgid "Last Req."
+msgstr "Req."
+
+msgid "Last used share:"
+msgstr "Rhan a ddefnyddiwyd ddiwethaf:"
+
+msgid "Load"
+msgstr "Llwyth"
+
+msgid "Local box"
+msgstr "Bocs lleol"
+
+msgid "Location"
+msgstr "Lleoliad"
+
+msgid "Log"
+msgstr ""
+
+msgid "Log %s-%s"
+msgstr ""
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "BWYDLEN EMM / CLINELL GWASANAETH"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Cyfluniad dewislen"
+
+msgid "NCamInfo not available"
+msgstr "Nid yw NCamInfo ar gael"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ddim yn rhedeg - cychwyn Cam i gael gwybodaeth."
+
+msgid "New"
+msgstr "Newydd"
+
+msgid "New profile:"
+msgstr "Proffil newydd:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Dim data ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Dim data ECM - Goramser"
+
+msgid "No ECM file"
+msgstr "Dim ffeil ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Nid oes unrhyw wybodaeth ECM ar gael ar hyn o bryd. Dim ond wrth ddadgryptio y mae hwn ar gael."
+
+msgid "No active cam to restart!"
+msgstr "Dim cam gweithredol i ailgychwyn!"
+
+msgid "No backups available!"
+msgstr "Dim copïau wrth gefn ar gael!"
+
+msgid "No card inserted!"
+msgstr "Dim cerdyn wedi'i fewnosod!"
+
+msgid "No softcams available!"
+msgstr "Dim softcams ar gael!"
+
+msgid "No valid backups found!"
+msgstr "Heb ganfod copïau wrth gefn dilys!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "iawn"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Daeth diweddariad OSCam i ben. Gwiriwch /tmp/oscam_update.log am fanylion."
+
+msgid "OSCamInfo not available"
+msgstr "Nid yw OSCamInfo ar gael"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ddim yn rhedeg - cychwyn Cam i gael gwybodaeth."
+
+msgid "PRESS RETURN"
+msgstr "DYCHWELIAD Y WASG"
+
+msgid "Password"
+msgstr "Cyfrinair"
+
+msgid "Password (httpwd)"
+msgstr "Cyfrinair (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Llwyth brig (uchafswm o geisiadau ciwio fesul edafedd gweithiwr)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Ailosodwch os gwelwch yn dda - Dim Ffeil CFG"
+
+msgid "Please select ..."
+msgstr "Dewiswch ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Dewiswch linell i'w golygu neu dewiswch ychwanegu i greu llinell newydd."
+
+msgid "Please wait, %s."
+msgstr "Arhoswch, %s."
+
+msgid "Port"
+msgstr "Porthladd"
+
+msgid "Profile"
+msgstr "Proffil"
+
+msgid "Profile: Local box"
+msgstr "Proffil: Blwch lleol"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Provider"
+msgstr "Darparwr"
+
+msgid "Provider Name:"
+msgstr "Enw'r Darparwr:"
+
+msgid "Provider:"
+msgstr "Darparwr:"
+
+msgid "Providers"
+msgstr "Darparwyr"
+
+msgid "Providers:"
+msgstr "Darparwyr:"
+
+msgid "Quick restart %s?"
+msgstr "Ailgychwyn cyflym %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Darllen Userdata o %s.conf"
+
+msgid "Reader"
+msgstr "Darllenydd"
+
+msgid "Reader Statistics"
+msgstr "Ystadegau Darllenwyr"
+
+msgid "Reader/User"
+msgstr "Darllenydd/Defnyddiwr"
+
+msgid "Recover Peer"
+msgstr "Adfer Cyfoedion"
+
+msgid "Remote box"
+msgstr "Blwch o bell"
+
+msgid "Remove"
+msgstr "Dileu"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Tynnwch y Llinell o CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Wrthi'n tynnu %s"
+
+msgid "Rename"
+msgstr "Ailenwi"
+
+msgid "Rename failed!"
+msgstr "Methodd ailenwi!"
+
+msgid "Rename to:"
+msgstr "Ailenwi i:"
+
+msgid "Renamed %s!"
+msgstr "Wedi'i ailenwi'n %s!"
+
+msgid "Reset"
+msgstr "Ailosod"
+
+msgid "Reshare"
+msgstr "Ailrannu"
+
+msgid "Reshare:"
+msgstr "Rhannu:"
+
+msgid "Resources"
+msgstr "Adnoddau"
+
+msgid "Restart GUI?"
+msgstr "Ailgychwyn GUI?"
+
+msgid "Restart error: %s"
+msgstr "Gwall ailgychwyn: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Ailgychwyn softcam i gymhwyso ffurfweddiad wedi'i adfer?"
+
+msgid "Save"
+msgstr "Arbed"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Sganio ac adalw rhestr gamera meddal ..."
+
+msgid "Select CCcam"
+msgstr "Dewiswch CCcam"
+
+msgid "Select Get Link"
+msgstr "Dewiswch Get Link"
+
+msgid "Select Ncam"
+msgstr "Dewiswch Ncam"
+
+msgid "Select OScam"
+msgstr "Dewiswch OScam"
+
+msgid "Select Your Choice"
+msgstr "Dewiswch Eich Dewis"
+
+msgid "Select a cam to run ..."
+msgstr "Dewiswch gamera i redeg..."
+
+msgid "Select and Install"
+msgstr "Dewis a Gosod"
+
+msgid "Select backup to restore:"
+msgstr "Dewiswch wrth gefn i'w adfer:"
+
+msgid "Server %s-%s"
+msgstr "Gweinydd %s-%s"
+
+msgid "Server Config"
+msgstr "Ffurfweddiad Gweinydd"
+
+msgid "Server Copy in"
+msgstr "Copi Gweinydd i mewn"
+
+msgid "Server Link"
+msgstr "Cyswllt Gweinydd"
+
+msgid "Server Password"
+msgstr "Cyfrinair Gweinydd"
+
+msgid "Server Port"
+msgstr "Porth Gweinydd"
+
+msgid "Server URL"
+msgstr "URL gweinydd"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Url Gweinydd h.y. 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Enw Defnyddiwr Gweinydd"
+
+msgid "Server:"
+msgstr "Gweinydd:"
+
+msgid "Servers"
+msgstr "Gweinyddion"
+
+msgid "Servers:"
+msgstr "Gweinyddion:"
+
+msgid "Service"
+msgstr "Gwasanaeth"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Gosod fel PEER UNIGRYW"
+
+msgid "Setup"
+msgstr "Gosod"
+
+msgid "Share View"
+msgstr "Rhannu Golwg"
+
+msgid "Shares"
+msgstr "Cyfranddaliadau"
+
+msgid "Show Clients"
+msgstr "Dangos Cleientiaid"
+
+msgid "Show Ecm info"
+msgstr "Dangos gwybodaeth Ecm"
+
+msgid "Show Log"
+msgstr "Dangos Log"
+
+msgid "Show Readers/Proxies"
+msgstr "Dangos Darllenwyr/Dirprwyon"
+
+msgid "Softcam Manager"
+msgstr "Rheolwr Softcam"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Ailgychwynnodd Softcam gyda chyfluniad newydd!"
+
+msgid "Start"
+msgstr "Cychwyn"
+
+msgid "Status"
+msgstr "Statws"
+
+msgid "Stop"
+msgstr "Stopio"
+
+msgid "Stop Finding Fakes"
+msgstr "Stop Darganfod Ffug"
+
+msgid "Switch config"
+msgstr "Newid config"
+
+msgid "System"
+msgstr ""
+
+msgid "System cleanup completed!"
+msgstr "Glanhau'r system wedi'i gwblhau!"
+
+msgid "System:"
+msgstr ""
+
+msgid "Temporarely DELETED"
+msgstr "DILEU Dros Dro"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Mae'r ategyn hwn yn dangos statws eich CCcam i chi"
+
+msgid "Total"
+msgstr "Cyfanswm"
+
+msgid "Total cards:"
+msgstr "Cyfanswm cardiau:"
+
+msgid "Total handled client ecm's"
+msgstr "Cyfanswm ecms cleient yr ymdrinnir â hwy"
+
+msgid "Total handled client emm's"
+msgstr "Cyfanswm em's cleient a drafodwyd"
+
+msgid "Total:"
+msgstr "Cyfanswm:"
+
+msgid "Try again later ..."
+msgstr "Ceisiwch eto yn nes ymlaen..."
+
+msgid "Type:"
+msgstr "Math:"
+
+msgid "UNDELETED"
+msgstr "UNDILEU"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Methu gwneud y sgript yn weithredadwy: %s"
+
+msgid "Unknow Image!"
+msgstr "Delwedd Anhysbys!"
+
+msgid "Update"
+msgstr "Diweddariad"
+
+msgid "Update Aborted!"
+msgstr "Diweddariad wedi'i Erthylu!"
+
+msgid "Update interval (in seconds)"
+msgstr "Ysbaid diweddaru (mewn eiliadau)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Used:"
+msgstr "Wedi'i ddefnyddio:"
+
+msgid "Username"
+msgstr "Enw defnyddiwr"
+
+msgid "Username (httpuser)"
+msgstr "Enw defnyddiwr (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Defnyddio hen broffil:"
+
+msgid "Version:"
+msgstr "Fersiwn:"
+
+msgid "Wait please..."
+msgstr "Arhoswch os gwelwch yn dda..."
+
+msgid "Write"
+msgstr "Ysgrifena"
+
+msgid "Write-Debug"
+msgstr "Ysgrifennu-Debug"
+
+msgid "You have the latest version!"
+msgstr "Mae gennych y fersiwn diweddaraf!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\ Darparu:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a DIM.TO.UNDELE"
+
+msgid "address:"
+msgstr "cyfeiriad:"
+
+msgid "and"
+msgstr "a"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "cerdyn"
+
+msgid "card reader"
+msgstr "darllenydd cerdyn"
+
+msgid "close share view"
+msgstr "golwg rhannu agos"
+
+msgid "decrease uphop by 1"
+msgstr "gostwng uphop o 1"
+
+msgid "ecm time:"
+msgstr "amser ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "cael gweinydd y cardiau"
+
+msgid "handled"
+msgstr "trin"
+
+msgid "hops:"
+msgstr "hopys:"
+
+msgid "increase uphop by 1"
+msgstr "cynyddu uphop o 1"
+
+msgid "info"
+msgstr "gwybodaeth"
+
+msgid "no or unknown card inserted"
+msgstr "dim neu gerdyn anhysbys wedi'i fewnosod"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "darparu:"
+
+msgid "provider:"
+msgstr "darparwr:"
+
+msgid "share:"
+msgstr "rhannu:"
+
+msgid "show all cards"
+msgstr "dangos pob cerdyn"
+
+msgid "show cards with uphop 0"
+msgstr "dangos cardiau gyda uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "dangos cardiau gyda uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "dangos cardiau gyda uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "dangos cardiau gyda uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "dangos cardiau gyda uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "dangos cardiau gyda uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "dangos cardiau gyda uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "dangos cardiau gyda uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "dangos cardiau gyda uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "dangos cardiau gyda uphop 9"
+
+msgid "system:"
+msgstr ""
+
+msgid "using:"
+msgstr "gan ddefnyddio:"
+
+msgid "xLine"
+msgstr "xLlin"

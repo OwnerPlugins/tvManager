@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 00:25+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Kurdish\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Kart )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Agahî - Veavakirin"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Agahdarî - Pêşeka sereke"
+
+msgid "%s restarted successfully!"
+msgstr "%s bi serkeftî ji nû ve dest pê kir!"
+
+msgid "%s webif disabled"
+msgstr "%s webif neçalak bû"
+
+msgid "(All readers)"
+msgstr "(Hemû xwendevan)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Tenê xwendevanan nîşan bide) (%s)"
+
+msgid "About"
+msgstr "Ji dor"
+
+msgid "Activate"
+msgstr "Çalak bike"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Di Pelê Vesazkirinê de Xeta Têxe çalak bike:"
+
+msgid "Active clients"
+msgstr "Xerîdarên çalak"
+
+msgid "Add"
+msgstr "Lêzêdekirin"
+
+msgid "Add new CCcam line"
+msgstr "Xeta nû ya CCcam zêde bikin"
+
+msgid "Add new NewCamd line"
+msgstr "Xeta nû ya NewCamd zêde bikin"
+
+msgid "Address"
+msgstr "Navnîşan"
+
+msgid "All"
+msgstr "Gişt"
+
+msgid "An error occurred in the green function."
+msgstr "Di fonksiyona kesk de xeletiyek derket."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Çewtiyeke neçaverêkirî derket: %s"
+
+msgid "Ask all caid"
+msgstr "Ji hemû caîd bipirsin"
+
+msgid "Ask for the selection caid"
+msgstr "Kaîdê hilbijartinê bipirsin"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Jixweber Nêrîna Xerîdar/Pêşkêşkar nûve bike?"
+
+msgid "Available shares:"
+msgstr "Parçeyên berdest:"
+
+msgid "Back"
+msgstr "Paş"
+
+msgid "Backup failed!"
+msgstr "Backup têk çû!"
+
+msgid "Backup restoration failed!"
+msgstr "Vegerandina hilanînê têk çû!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Mîhengên CCprioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker bixweber dest pê dike"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Agahdariya Xerîdarên CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "Agahdariya CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "Agahdariya CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Agahdariya CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr ""
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line Çalakiyên Edit"
+
+msgid "CCcam Line Editor"
+msgstr "Edîtorê Rêzika CCcam"
+
+msgid "CCcam Organizer"
+msgstr ""
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Agahdariya Pêşkêşkara CCcam"
+
+msgid "CCcam Remote Info"
+msgstr ""
+
+msgid "CCcam Server Info"
+msgstr "Agahdariya Servera CCcam"
+
+msgid "CCcam Share Info"
+msgstr ""
+
+msgid "CCcam Shares Info"
+msgstr ""
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Edîtorê Rêzika Bingehîn"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo peyda nabe"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caîd: Srvid"
+
+msgid "Cam Download"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Bişûndekirin"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Agahdariya qertê (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kart:"
+
+msgid "Cards: 0"
+msgstr "Kart: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Qenal"
+
+msgid "Channel Name"
+msgstr "Navê kanalê"
+
+msgid "Check Emm Send"
+msgstr "Emm Send kontrol bikin"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader hilbijêrin"
+
+msgid "Choose reader"
+msgstr "Xwendevan hilbijêrin"
+
+msgid "Cleanup error: %s"
+msgstr "Çewtiya paqijkirinê: %s"
+
+msgid "Client %s-%s"
+msgstr "Xerîdar %s-%s"
+
+msgid "Clients"
+msgstr ""
+
+msgid "Close"
+msgstr "Nêzîkî"
+
+msgid "Command Cancelled"
+msgstr "Ferman hate betal kirin"
+
+msgid "Configfile %s saved."
+msgstr "Veavakirina %s hate tomarkirin."
+
+msgid "Connected clients"
+msgstr "xerîdarên girêdayî"
+
+msgid "Connected:"
+msgstr "Girêdayî:"
+
+msgid "Content"
+msgstr "Dilşad"
+
+msgid "Could not open the file %s!"
+msgstr "Nekarî dosya %s veke!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Nekarî dosya %s veke! Çewtî: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Pelsaziya %s nehat tomarkirin! Çewtî: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Nekarî pelê mîhengê hilîne! Çewtî: %s"
+
+msgid "Current time"
+msgstr "Dema niha"
+
+msgid "Delete"
+msgstr "Jêbirin"
+
+msgid "Delete %s?"
+msgstr "%s jê bibe?"
+
+msgid "Delete Peer"
+msgstr "Peer jêbirin"
+
+msgid "Delete failed!"
+msgstr "Jêbirin bi ser neket!"
+
+msgid "Deleted %s!"
+msgstr "%s hat jêbirin!"
+
+msgid "Do you install this plugin ?"
+msgstr "Ma hûn vê pêvekê saz dikin?"
+
+msgid "Do you want to execute the command?"
+msgstr "Ma hûn dixwazin fermanê bicîh bikin?"
+
+msgid "Do you want to remove?"
+msgstr "Ma hûn dixwazin jêbirin?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Ma hûn dixwazin Navrûya Gui ji nû ve bidin destpêkirin?"
+
+msgid "ECM data format error"
+msgstr "Çewtiya formata daneya ECM"
+
+msgid "ECM error"
+msgstr "Çewtiya ECM"
+
+msgid "ECM file empty"
+msgstr "Pelê ECM vala ye"
+
+msgid "ECM file not found"
+msgstr "Pelê ECM nehat dîtin"
+
+msgid "ECM read error"
+msgstr "ECM xeletiya xwendinê"
+
+msgid "Ecm Info"
+msgstr ""
+
+msgid "Ecm Statistics"
+msgstr "Statistics Ecm"
+
+msgid "Ecm Time"
+msgstr ""
+
+msgid "Ecm avg"
+msgstr ""
+
+msgid "Ecm last"
+msgstr "Ecm dawî"
+
+msgid "Edit"
+msgstr "Weşandin"
+
+msgid "Editing one caid"
+msgstr "Editing yek caid"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Mafên"
+
+msgid "Error"
+msgstr "Şaşî"
+
+msgid "Error executing update script: %s"
+msgstr "Di cîbicîkirina skrîpta nûvekirinê de çewtî: %s"
+
+msgid "Error getting resource information"
+msgstr "Di wergirtina agahdariya çavkaniyê de çewtî"
+
+msgid "Error loading system info:"
+msgstr "Di barkirina agahdariya pergalê de çewtî:"
+
+msgid "Error loading system information:"
+msgstr "Di barkirina agahdariya pergalê de çewtî:"
+
+msgid "Error opening cam info: %s"
+msgstr "Çewtiya vekirina agahdariya kamerayê: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Çewtiya vekirina pelê veavakirinê: %s"
+
+msgid "Error processing HTML!"
+msgstr "Di pêvajoya HTML-ê de çewtî!"
+
+msgid "Error processing server addons data"
+msgstr "Di pêvajokirina daneyên pêvekên serverê de çewtî"
+
+msgid "Error reading webpage!"
+msgstr "Di xwendina malperê de çewtî!"
+
+msgid "Error stopping %s!"
+msgstr "Di rawestandina %s de çewtî!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Di guherandina veavakirinê de çewtî: %s"
+
+msgid "Exit"
+msgstr "Derî"
+
+msgid "Extended Shares"
+msgstr "Parvekirinên Berfireh"
+
+msgid "Failed to revert file: %s"
+msgstr "Vegerandina pelê bi ser neket: %s"
+
+msgid "Find Fakes"
+msgstr "Fakes bibînin"
+
+msgid "Force Update"
+msgstr "Bi zorê Nûvekirin"
+
+msgid "Free memory"
+msgstr "Bîra belaş"
+
+msgid "Free memory:"
+msgstr "Bîra belaş:"
+
+msgid "Free:"
+msgstr "Belaş:"
+
+msgid "General"
+msgstr "Giştî"
+
+msgid "Get Link"
+msgstr "Girêdanê bistînin"
+
+msgid "Getting the list, please wait ..."
+msgstr "Danîna navnîşê, ji kerema xwe li bendê bin ..."
+
+msgid "Help"
+msgstr "Alîkarî"
+
+msgid "Hops"
+msgstr ""
+
+msgid "Hops:"
+msgstr ""
+
+msgid "Hostname:"
+msgstr "Navê mêvandar:"
+
+msgid "IP Address"
+msgstr "Navnîşana IP'yê"
+
+msgid "IP address"
+msgstr "Navnîşana IP'yê"
+
+msgid "Idle Time:"
+msgstr "Dema bêkar:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Ger Çalak e: Daxistin / Veavakirina Pêşkêşkarê Vegerîne"
+
+msgid "Install Cam first!!!"
+msgstr "Pêşî Camê saz bikin!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Nûvekirina pêşdebir (%s) saz bike?"
+
+msgid "Invalid HTML content!"
+msgstr "Naveroka HTML nederbasdar!"
+
+msgid "Invalid URL!"
+msgstr "URL nederbasdar!"
+
+msgid "Last Req."
+msgstr "Reqê dawî."
+
+msgid "Last used share:"
+msgstr "Parvekirina dawîn bikar anîn:"
+
+msgid "Load"
+msgstr "Dawetkirin"
+
+msgid "Local box"
+msgstr "Qutiya herêmî"
+
+msgid "Location"
+msgstr "Cîh"
+
+msgid "Log"
+msgstr "Darbend"
+
+msgid "Log %s-%s"
+msgstr "Têketin %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Veavakirina menu"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo peyda nabe"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam naxebite - Cam dest pê bike da ku agahdarî bistînin."
+
+msgid "New"
+msgstr "Nşh"
+
+msgid "New profile:"
+msgstr "Profîla nû:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Daneyên ECM tune"
+
+msgid "No ECM data - Timeout"
+msgstr "Daneyên ECM tune - Demjimêr"
+
+msgid "No ECM file"
+msgstr "Pelê ECM tune"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Agahdariya ECM niha tune ye. Ev tenê di dema deşîfrekirinê de peyda dibe."
+
+msgid "No active cam to restart!"
+msgstr "No cam çalak ji nû ve dest pê bike!"
+
+msgid "No backups available!"
+msgstr "Piştgir tune!"
+
+msgid "No card inserted!"
+msgstr "No qert têxistin!"
+
+msgid "No softcams available!"
+msgstr "Normalkamera peyda nabin!"
+
+msgid "No valid backups found!"
+msgstr "Piştgiriya derbasdar nehat dîtin!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Dema nûvekirina OSCam qediya. Ji bo hûragahiyan /tmp/oscam_update.log kontrol bikin."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo peyda nabe"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam naxebite - Cam dest pê bike da ku agahdarî bistînin."
+
+msgid "PRESS RETURN"
+msgstr ""
+
+msgid "Password"
+msgstr "Şîfre"
+
+msgid "Password (httpwd)"
+msgstr "Şîfre (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Barkirina lûtkeyê (herî xebatkarê daxwaziyên rêzê yên herî zêde)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Ji kerema xwe Vegerîne - Pelê CFG tune"
+
+msgid "Please select ..."
+msgstr "Ji kerema xwe hilbijêrin ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Ji kerema xwe xêzek ji bo guherandinê hilbijêrin an lê zêde bike ji bo çêkirina rêzek nû hilbijêrin."
+
+msgid "Please wait, %s."
+msgstr "Ji kerema xwe bisekine, %s."
+
+msgid "Port"
+msgstr "Bender"
+
+msgid "Profile"
+msgstr "Tengal"
+
+msgid "Profile: Local box"
+msgstr "Profîl: qutiya herêmî"
+
+msgid "Protocol"
+msgstr "Protokol"
+
+msgid "Provider"
+msgstr "Pêşkêşker"
+
+msgid "Provider Name:"
+msgstr "Navê Pêşkêşkar:"
+
+msgid "Provider:"
+msgstr "Pêşkêşker:"
+
+msgid "Providers"
+msgstr ""
+
+msgid "Providers:"
+msgstr "Pêşkêşker:"
+
+msgid "Quick restart %s?"
+msgstr "Zû nûvekirina %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Daneyên bikarhêner ji %s.conf bixwînin"
+
+msgid "Reader"
+msgstr "Xwîner"
+
+msgid "Reader Statistics"
+msgstr "Statistics Reader"
+
+msgid "Reader/User"
+msgstr "Xwendevan / Bikarhêner"
+
+msgid "Recover Peer"
+msgstr ""
+
+msgid "Remote box"
+msgstr "Qutiya dûr"
+
+msgid "Remove"
+msgstr "Dûrxistin"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Rêzê ji CCcam.cfg rakin"
+
+msgid "Removing %s"
+msgstr "%s tê rakirin"
+
+msgid "Rename"
+msgstr ""
+
+msgid "Rename failed!"
+msgstr "Rename têk çû!"
+
+msgid "Rename to:"
+msgstr "Biguherîne bi:"
+
+msgid "Renamed %s!"
+msgstr "Navê %s hat guhertin!"
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reshare"
+msgstr "Ji nû ve parve bikin"
+
+msgid "Reshare:"
+msgstr "Par:"
+
+msgid "Resources"
+msgstr "Çavkanî"
+
+msgid "Restart GUI?"
+msgstr "GUI ji nû ve dest pê bike?"
+
+msgid "Restart error: %s"
+msgstr "Çewtiya ji nû ve destpêkirinê: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Kamera nermalavê ji nû ve bidin destpêkirin da ku veavakirina vesazkirî bicîh bîne?"
+
+msgid "Save"
+msgstr "Rizgarkirin"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Lîsteya nermalavê skankirin û vegerandin ..."
+
+msgid "Select CCcam"
+msgstr "CCcam hilbijêre"
+
+msgid "Select Get Link"
+msgstr "Hilbijêre Get Link"
+
+msgid "Select Ncam"
+msgstr "Ncam hilbijêre"
+
+msgid "Select OScam"
+msgstr "OScam hilbijêrin"
+
+msgid "Select Your Choice"
+msgstr "Hilbijartina Xwe Hilbijêre"
+
+msgid "Select a cam to run ..."
+msgstr "Kamerayek hilbijêrin ku bixebite ..."
+
+msgid "Select and Install"
+msgstr "Hilbijêre û saz bike"
+
+msgid "Select backup to restore:"
+msgstr "Ji bo vegerandina hilanînê hilbijêrî:"
+
+msgid "Server %s-%s"
+msgstr "Pêşkêşkar %s-%s"
+
+msgid "Server Config"
+msgstr ""
+
+msgid "Server Copy in"
+msgstr "Kopîkirina serverê tê de"
+
+msgid "Server Link"
+msgstr ""
+
+msgid "Server Password"
+msgstr "Şîfreya Server"
+
+msgid "Server Port"
+msgstr ""
+
+msgid "Server URL"
+msgstr ""
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Server Url ango 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Navê bikarhêner server"
+
+msgid "Server:"
+msgstr ""
+
+msgid "Servers"
+msgstr ""
+
+msgid "Servers:"
+msgstr "Pêşkêşker:"
+
+msgid "Service"
+msgstr "Xizmetkar"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Weke PEER YEKBETÎ saz bike"
+
+msgid "Setup"
+msgstr "Damezirandin"
+
+msgid "Share View"
+msgstr "View Share"
+
+msgid "Shares"
+msgstr "Parvekirinên"
+
+msgid "Show Clients"
+msgstr "Xerîdar nîşan bide"
+
+msgid "Show Ecm info"
+msgstr "Agahdariya Ecm nîşan bide"
+
+msgid "Show Log"
+msgstr "Têketinê nîşan bide"
+
+msgid "Show Readers/Proxies"
+msgstr "Xwendevanan/Proxiyan nîşan bidin"
+
+msgid "Softcam Manager"
+msgstr "Rêveberê Softcam"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam bi veavakirina nû ji nû ve dest pê kir!"
+
+msgid "Start"
+msgstr "Destpêkirin"
+
+msgid "Status"
+msgstr "Cî"
+
+msgid "Stop"
+msgstr "Rawestan"
+
+msgid "Stop Finding Fakes"
+msgstr "Stop Find Fakes"
+
+msgid "Switch config"
+msgstr "Veavakirina veguherînê"
+
+msgid "System"
+msgstr "Sîstem"
+
+msgid "System cleanup completed!"
+msgstr "Paqijkirina pergalê qediya!"
+
+msgid "System:"
+msgstr "Sîstem:"
+
+msgid "Temporarely DELETED"
+msgstr "Demkî DELETED"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Ev pêvek rewşa CCcam-a we nîşanî we dide"
+
+msgid "Total"
+msgstr "Hemî"
+
+msgid "Total cards:"
+msgstr "Bi tevahî kartên:"
+
+msgid "Total handled client ecm's"
+msgstr "Bi tevahî ecmên xerîdar ên bi dest xistin"
+
+msgid "Total handled client emm's"
+msgstr "Bi tevahî emm-ên xerîdar ên bi dest xistin"
+
+msgid "Total:"
+msgstr "Hemî:"
+
+msgid "Try again later ..."
+msgstr "Dûv re dîsa biceribîne ..."
+
+msgid "Type:"
+msgstr "Awa:"
+
+msgid "UNDELETED"
+msgstr "NEHATIYEKIRIN"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Nikarin skrîptê çêbike: %s"
+
+msgid "Unknow Image!"
+msgstr "Wêne nenas!"
+
+msgid "Update"
+msgstr "Nûvekirin"
+
+msgid "Update Aborted!"
+msgstr "Nûvekirin hate betal kirin!"
+
+msgid "Update interval (in seconds)"
+msgstr "Navbera nûvekirinê (di çirkeyan de)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Used:"
+msgstr "Bikaranîn:"
+
+msgid "Username"
+msgstr "Navê bikarhêner"
+
+msgid "Username (httpuser)"
+msgstr "Navê bikarhêner (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Bikaranîna profîla kevn:"
+
+msgid "Version:"
+msgstr "Awa:"
+
+msgid "Wait please..."
+msgstr "Ji kerema xwe bisekinin ..."
+
+msgid "Write"
+msgstr "Nivîsîn"
+
+msgid "Write-Debug"
+msgstr "Binivîsin-Debug"
+
+msgid "You have the latest version!"
+msgstr "We guhertoya herî dawî heye!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tPêşkêşî:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "TIŞTÎ.TO.UNDELE"
+
+msgid "address:"
+msgstr "navnîşan:"
+
+msgid "and"
+msgstr "û"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "qert"
+
+msgid "card reader"
+msgstr "xwênerê kartan"
+
+msgid "close share view"
+msgstr "dîtina parvekirina nêzîk"
+
+msgid "decrease uphop by 1"
+msgstr "1-ê kêm bike"
+
+msgid "ecm time:"
+msgstr "dema ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "servera qertan bistînin"
+
+msgid "handled"
+msgstr "desteser kirin"
+
+msgid "hops:"
+msgstr ""
+
+msgid "increase uphop by 1"
+msgstr "1-ê zêde bike"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "ne an karta nenas têxistin"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "pêşkêş dikin:"
+
+msgid "provider:"
+msgstr "pêşkêşker:"
+
+msgid "share:"
+msgstr "par:"
+
+msgid "show all cards"
+msgstr "nîşan bide hemû kartên"
+
+msgid "show cards with uphop 0"
+msgstr "kartên bi uphop 0 nîşan bidin"
+
+msgid "show cards with uphop 1"
+msgstr "kartên bi uphop 1 nîşan bidin"
+
+msgid "show cards with uphop 2"
+msgstr "kartên bi uphop 2 nîşan bidin"
+
+msgid "show cards with uphop 3"
+msgstr "kartên bi uphop 3 nîşan bidin"
+
+msgid "show cards with uphop 4"
+msgstr "kartên bi uphop 4 nîşan bidin"
+
+msgid "show cards with uphop 5"
+msgstr "kartên bi uphop 5 nîşan bidin"
+
+msgid "show cards with uphop 6"
+msgstr "kartên bi uphop 6 nîşan bidin"
+
+msgid "show cards with uphop 7"
+msgstr "kartên bi uphop 7 nîşan bidin"
+
+msgid "show cards with uphop 8"
+msgstr "kartên bi uphop 8 nîşan bidin"
+
+msgid "show cards with uphop 9"
+msgstr "kartên bi uphop 9 nîşan bidin"
+
+msgid "system:"
+msgstr "sîstem:"
+
+msgid "using:"
+msgstr "bi kar tînin:"
+
+msgid "xLine"
+msgstr ""

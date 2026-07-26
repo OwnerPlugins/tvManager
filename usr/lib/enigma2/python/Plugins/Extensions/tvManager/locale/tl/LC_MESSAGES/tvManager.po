@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 02:40+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Tagalog\n"
+"Language: tl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Card )"
+
+msgid "%s Info - Configuration"
+msgstr ""
+
+msgid "%s Info - Main Menu"
+msgstr "%s Info - Pangunahing Menu"
+
+msgid "%s restarted successfully!"
+msgstr "Matagumpay na na-restart ang %s!"
+
+msgid "%s webif disabled"
+msgstr "Naka-disable ang %s webif"
+
+msgid "(All readers)"
+msgstr "(Lahat ng mambabasa)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Ipakita lamang ang mambabasa) (%s)"
+
+msgid "About"
+msgstr "Tungkol sa"
+
+msgid "Activate"
+msgstr "I-activate"
+
+msgid "Activate Insert line in Config File:"
+msgstr "I-activate ang Insert line sa Config File:"
+
+msgid "Active clients"
+msgstr "Mga aktibong kliyente"
+
+msgid "Add"
+msgstr "Idagdag"
+
+msgid "Add new CCcam line"
+msgstr "Magdagdag ng bagong linya ng CCcam"
+
+msgid "Add new NewCamd line"
+msgstr "Magdagdag ng bagong linya ng NewCamd"
+
+msgid "Address"
+msgstr ""
+
+msgid "All"
+msgstr "Lahat"
+
+msgid "An error occurred in the green function."
+msgstr "Nagkaroon ng error sa green function."
+
+msgid "An unexpected error occurred: %s"
+msgstr "May naganap na hindi inaasahang error: %s"
+
+msgid "Ask all caid"
+msgstr "Tanungin mo lahat caid"
+
+msgid "Ask for the selection caid"
+msgstr "Hingin ang selection caid"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Awtomatikong i-update ang Client/Server View?"
+
+msgid "Available shares:"
+msgstr "Magagamit na mga pagbabahagi:"
+
+msgid "Back"
+msgstr "Bumalik"
+
+msgid "Backup failed!"
+msgstr "Nabigo ang backup!"
+
+msgid "Backup restoration failed!"
+msgstr "Nabigo ang backup na pagpapanumbalik!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Mga Setting ng CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "Autostart ng CCPrioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Impormasyon ng Mga Kliyente ng CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "Impormasyon ng CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "Impormasyon ng CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Impormasyon ng CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "Config ng Impormasyon ng CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "Menu ng Config ng Impormasyon ng CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Mga Aksyon sa Pag-edit ng Linya ng CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "Editor ng Linya ng CCcam"
+
+msgid "CCcam Organizer"
+msgstr "Organizer ng CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Impormasyon ng Tagapagbigay ng CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Remote na Impormasyon ng CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Impormasyon ng CCcam Server"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Ibahagi ang Impormasyon"
+
+msgid "CCcam Shares Info"
+msgstr "Nagbabahagi ng Impormasyon ang CCcam"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr ""
+
+msgid "CCcamInfo not available"
+msgstr "Hindi available ang CCcamInfo"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Pag-download ng Cam"
+
+msgid "Cancel"
+msgstr "Kanselahin"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Impormasyon ng card (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Mga Card:"
+
+msgid "Cards: 0"
+msgstr "Mga Card: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Channel Name"
+msgstr "Pangalan ng Channel"
+
+msgid "Check Emm Send"
+msgstr "Suriin ang Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Piliin ang CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Pumili ng mambabasa"
+
+msgid "Cleanup error: %s"
+msgstr "Error sa paglilinis: %s"
+
+msgid "Client %s-%s"
+msgstr "Kliyente %s-%s"
+
+msgid "Clients"
+msgstr "Mga kliyente"
+
+msgid "Close"
+msgstr "Isara"
+
+msgid "Command Cancelled"
+msgstr "Kinansela ang Utos"
+
+msgid "Configfile %s saved."
+msgstr "Na-save ang configfile %s."
+
+msgid "Connected clients"
+msgstr "Mga konektadong kliyente"
+
+msgid "Connected:"
+msgstr "Nakakonekta:"
+
+msgid "Content"
+msgstr "Nilalaman"
+
+msgid "Could not open the file %s!"
+msgstr "Hindi mabuksan ang file na %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Hindi mabuksan ang file na %s! Error: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Hindi ma-save ang configfile %s! Error: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Hindi ma-save ang config file! Error: %s"
+
+msgid "Current time"
+msgstr "Kasalukuyang panahon"
+
+msgid "Delete"
+msgstr "Tanggalin"
+
+msgid "Delete %s?"
+msgstr "Tanggalin ang %s?"
+
+msgid "Delete Peer"
+msgstr "Tanggalin ang Peer"
+
+msgid "Delete failed!"
+msgstr "Nabigo ang pagtanggal!"
+
+msgid "Deleted %s!"
+msgstr "Tinanggal ang %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Ini-install mo ba ang plugin na ito?"
+
+msgid "Do you want to execute the command?"
+msgstr "Gusto mo bang isagawa ang utos?"
+
+msgid "Do you want to remove?"
+msgstr "Gusto mo bang tanggalin?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Gusto mo bang i-restart ang Gui Interface?"
+
+msgid "ECM data format error"
+msgstr "Error sa format ng data ng ECM"
+
+msgid "ECM error"
+msgstr ""
+
+msgid "ECM file empty"
+msgstr "Walang laman ang ECM file"
+
+msgid "ECM file not found"
+msgstr "Hindi nahanap ang ECM file"
+
+msgid "ECM read error"
+msgstr "Error sa pagbasa ng ECM"
+
+msgid "Ecm Info"
+msgstr "Impormasyon sa Ecm"
+
+msgid "Ecm Statistics"
+msgstr ""
+
+msgid "Ecm Time"
+msgstr "Oras ng Ecm"
+
+msgid "Ecm avg"
+msgstr ""
+
+msgid "Ecm last"
+msgstr "Ecm ang huli"
+
+msgid "Edit"
+msgstr "I-edit"
+
+msgid "Editing one caid"
+msgstr "Pag-edit ng isang caid"
+
+msgid "Emm Info"
+msgstr "Erm Impormasyon"
+
+msgid "Entitlements"
+msgstr "Mga karapatan"
+
+msgid "Error"
+msgstr ""
+
+msgid "Error executing update script: %s"
+msgstr "Error sa pagpapatupad ng script ng pag-update: %s"
+
+msgid "Error getting resource information"
+msgstr "Error sa pagkuha ng resource information"
+
+msgid "Error loading system info:"
+msgstr "Error sa paglo-load ng impormasyon ng system:"
+
+msgid "Error loading system information:"
+msgstr "Error sa paglo-load ng impormasyon ng system:"
+
+msgid "Error opening cam info: %s"
+msgstr "Error sa pagbubukas ng impormasyon ng cam: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Error sa pagbubukas ng configuration file: %s"
+
+msgid "Error processing HTML!"
+msgstr "Error sa pagproseso ng HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Error sa pagproseso ng data ng mga addon ng server"
+
+msgid "Error reading webpage!"
+msgstr "Error sa pagbabasa ng webpage!"
+
+msgid "Error stopping %s!"
+msgstr "Error sa paghinto sa %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Error habang nag-e-edit ng configuration: %s"
+
+msgid "Exit"
+msgstr "Lumabas"
+
+msgid "Extended Shares"
+msgstr "Mga Extended Shares"
+
+msgid "Failed to revert file: %s"
+msgstr "Nabigong ibalik ang file: %s"
+
+msgid "Find Fakes"
+msgstr "Maghanap ng mga Peke"
+
+msgid "Force Update"
+msgstr ""
+
+msgid "Free memory"
+msgstr "Libreng memorya"
+
+msgid "Free memory:"
+msgstr "Libreng memorya:"
+
+msgid "Free:"
+msgstr "Libre:"
+
+msgid "General"
+msgstr "Heneral"
+
+msgid "Get Link"
+msgstr "Kunin ang Link"
+
+msgid "Getting the list, please wait ..."
+msgstr "Kinukuha ang listahan, mangyaring maghintay ..."
+
+msgid "Help"
+msgstr "Tulong"
+
+msgid "Hops"
+msgstr ""
+
+msgid "Hops:"
+msgstr ""
+
+msgid "Hostname:"
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "IP address"
+msgstr ""
+
+msgid "Idle Time:"
+msgstr ""
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Kung Aktibo: I-download/I-reset ang Server Config"
+
+msgid "Install Cam first!!!"
+msgstr "I-install muna ang Cam!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "I-install ang update ng developer (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Di-wastong HTML na nilalaman!"
+
+msgid "Invalid URL!"
+msgstr "Di-wastong URL!"
+
+msgid "Last Req."
+msgstr "Huling Req."
+
+msgid "Last used share:"
+msgstr "Huling ginamit na bahagi:"
+
+msgid "Load"
+msgstr "Magkarga"
+
+msgid "Local box"
+msgstr "Lokal na kahon"
+
+msgid "Location"
+msgstr "Lokasyon"
+
+msgid "Log"
+msgstr ""
+
+msgid "Log %s-%s"
+msgstr ""
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Config ng menu"
+
+msgid "NCamInfo not available"
+msgstr "Hindi available ang NCamInfo"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Hindi tumatakbo ang Ncam - simulan ang Cam upang makakuha ng impormasyon."
+
+msgid "New"
+msgstr "Bago"
+
+msgid "New profile:"
+msgstr "Bagong profile:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Walang data ng ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Walang data ng ECM - Timeout"
+
+msgid "No ECM file"
+msgstr "Walang ECM file"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Walang kasalukuyang available na impormasyon sa ECM. Available lang ito habang nagde-decryption."
+
+msgid "No active cam to restart!"
+msgstr "Walang aktibong cam upang i-restart!"
+
+msgid "No backups available!"
+msgstr "Walang available na backup!"
+
+msgid "No card inserted!"
+msgstr "Walang nakalagay na card!"
+
+msgid "No softcams available!"
+msgstr "Walang available na softcams!"
+
+msgid "No valid backups found!"
+msgstr "Walang nakitang wastong backup!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Nag-time out ang pag-update ng OSCam. Tingnan ang /tmp/oscam_update.log para sa mga detalye."
+
+msgid "OSCamInfo not available"
+msgstr "Hindi available ang OSCamInfo"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Hindi tumatakbo ang Oscam - simulan ang Cam upang makakuha ng impormasyon."
+
+msgid "PRESS RETURN"
+msgstr "Pindutin ang RETURN"
+
+msgid "Password"
+msgstr ""
+
+msgid "Password (httpwd)"
+msgstr ""
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Peak load (maximum queued na kahilingan sa bawat workerthread)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Mangyaring I-reset - Walang File CFG"
+
+msgid "Please select ..."
+msgstr "Pakipili..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Mangyaring pumili ng linyang ie-edit o piliin ang idagdag upang lumikha ng bagong linya."
+
+msgid "Please wait, %s."
+msgstr "Mangyaring maghintay, %s."
+
+msgid "Port"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Profile: Local box"
+msgstr "Profile: Lokal na kahon"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Provider Name:"
+msgstr "Pangalan ng Provider:"
+
+msgid "Provider:"
+msgstr ""
+
+msgid "Providers"
+msgstr "Mga provider"
+
+msgid "Providers:"
+msgstr "Mga Provider:"
+
+msgid "Quick restart %s?"
+msgstr "Mabilis na i-restart %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Basahin ang Userdata mula sa %s.conf"
+
+msgid "Reader"
+msgstr ""
+
+msgid "Reader Statistics"
+msgstr "Mga Istatistika ng Mambabasa"
+
+msgid "Reader/User"
+msgstr ""
+
+msgid "Recover Peer"
+msgstr "Mabawi ang Peer"
+
+msgid "Remote box"
+msgstr "Malayong kahon"
+
+msgid "Remove"
+msgstr "Alisin"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Alisin ang Linya mula sa CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Inaalis ang %s"
+
+msgid "Rename"
+msgstr "Palitan ang pangalan"
+
+msgid "Rename failed!"
+msgstr "Nabigo ang pagpapalit ng pangalan!"
+
+msgid "Rename to:"
+msgstr "Palitan ang pangalan ng:"
+
+msgid "Renamed %s!"
+msgstr "Pinalitan ang pangalan ng %s!"
+
+msgid "Reset"
+msgstr "I-reset"
+
+msgid "Reshare"
+msgstr "Muling ibahagi"
+
+msgid "Reshare:"
+msgstr "Ibahagi:"
+
+msgid "Resources"
+msgstr "Mga mapagkukunan"
+
+msgid "Restart GUI?"
+msgstr "I-restart ang GUI?"
+
+msgid "Restart error: %s"
+msgstr "Error sa pag-restart: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "I-restart ang softcam para ilapat ang naibalik na configuration?"
+
+msgid "Save"
+msgstr "I-save"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Pag-scan at pagkuha ng listahan ng softcam ..."
+
+msgid "Select CCcam"
+msgstr "Piliin ang CCcam"
+
+msgid "Select Get Link"
+msgstr "Piliin ang Kunin ang Link"
+
+msgid "Select Ncam"
+msgstr "Piliin ang Ncam"
+
+msgid "Select OScam"
+msgstr "Piliin ang OScam"
+
+msgid "Select Your Choice"
+msgstr "Piliin ang Iyong Pagpipilian"
+
+msgid "Select a cam to run ..."
+msgstr "Pumili ng cam na tatakbo..."
+
+msgid "Select and Install"
+msgstr "Piliin at I-install"
+
+msgid "Select backup to restore:"
+msgstr "Piliin ang backup na ire-restore:"
+
+msgid "Server %s-%s"
+msgstr ""
+
+msgid "Server Config"
+msgstr "Config ng Server"
+
+msgid "Server Copy in"
+msgstr ""
+
+msgid "Server Link"
+msgstr "Link ng Server"
+
+msgid "Server Password"
+msgstr "Password ng Server"
+
+msgid "Server Port"
+msgstr "Port ng Server"
+
+msgid "Server URL"
+msgstr "URL ng server"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Url ng Server i.e. 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Username ng Server"
+
+msgid "Server:"
+msgstr ""
+
+msgid "Servers"
+msgstr "Mga server"
+
+msgid "Servers:"
+msgstr "Mga server:"
+
+msgid "Service"
+msgstr "Serbisyo"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Itakda bilang NATATANGING PEER"
+
+msgid "Setup"
+msgstr ""
+
+msgid "Share View"
+msgstr "Ibahagi ang View"
+
+msgid "Shares"
+msgstr "Mga pagbabahagi"
+
+msgid "Show Clients"
+msgstr "Ipakita ang mga Kliyente"
+
+msgid "Show Ecm info"
+msgstr "Ipakita ang impormasyon ng Ecm"
+
+msgid "Show Log"
+msgstr "Ipakita ang Log"
+
+msgid "Show Readers/Proxies"
+msgstr "Ipakita ang Mga Mambabasa/Proxy"
+
+msgid "Softcam Manager"
+msgstr "Tagapamahala ng Softcam"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Nag-restart ang Softcam gamit ang bagong configuration!"
+
+msgid "Start"
+msgstr "Magsimula"
+
+msgid "Status"
+msgstr "Katayuan"
+
+msgid "Stop"
+msgstr "Tumigil ka"
+
+msgid "Stop Finding Fakes"
+msgstr "Itigil ang Paghahanap ng Mga Peke"
+
+msgid "Switch config"
+msgstr "Lumipat ng config"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System cleanup completed!"
+msgstr "Nakumpleto ang paglilinis ng system!"
+
+msgid "System:"
+msgstr ""
+
+msgid "Temporarely DELETED"
+msgstr "Pansamantalang NA-DELETE"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Ipinapakita sa iyo ng plugin na ito ang katayuan ng iyong CCcam"
+
+msgid "Total"
+msgstr "Kabuuan"
+
+msgid "Total cards:"
+msgstr "Kabuuang mga card:"
+
+msgid "Total handled client ecm's"
+msgstr "Kabuuang pinangangasiwaan na mga ecm ng kliyente"
+
+msgid "Total handled client emm's"
+msgstr "Kabuuang pinangangasiwaan na kliyente ni emm"
+
+msgid "Total:"
+msgstr "Kabuuan:"
+
+msgid "Try again later ..."
+msgstr "Subukan ulit mamaya..."
+
+msgid "Type:"
+msgstr "Uri:"
+
+msgid "UNDELETED"
+msgstr "UNELETED"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Hindi magawang maisakatuparan ang script: %s"
+
+msgid "Unknow Image!"
+msgstr "Hindi Alam na Larawan!"
+
+msgid "Update"
+msgstr ""
+
+msgid "Update Aborted!"
+msgstr "Na-abort ang Update!"
+
+msgid "Update interval (in seconds)"
+msgstr "I-update ang pagitan (sa mga segundo)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr "Mga uphop -"
+
+msgid "Uphops:"
+msgstr "Mga uphop:"
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Used:"
+msgstr "Ginamit:"
+
+msgid "Username"
+msgstr ""
+
+msgid "Username (httpuser)"
+msgstr ""
+
+msgid "Using old profile:"
+msgstr "Gamit ang lumang profile:"
+
+msgid "Version:"
+msgstr "Bersyon:"
+
+msgid "Wait please..."
+msgstr ""
+
+msgid "Write"
+msgstr "Sumulat"
+
+msgid "Write-Debug"
+msgstr ""
+
+msgid "You have the latest version!"
+msgstr "Mayroon kang pinakabagong bersyon!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr ""
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a WALA.TO.UNDELE"
+
+msgid "address:"
+msgstr ""
+
+msgid "and"
+msgstr "at"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr ""
+
+msgid "card reader"
+msgstr ""
+
+msgid "close share view"
+msgstr ""
+
+msgid "decrease uphop by 1"
+msgstr "bawasan ang uphop ng 1"
+
+msgid "ecm time:"
+msgstr "ecm oras:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "kunin ang server ng mga card"
+
+msgid "handled"
+msgstr "hinahawakan"
+
+msgid "hops:"
+msgstr ""
+
+msgid "increase uphop by 1"
+msgstr "dagdagan ang uphop ng 1"
+
+msgid "info"
+msgstr "impormasyon"
+
+msgid "no or unknown card inserted"
+msgstr "hindi o hindi kilalang card ang ipinasok"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "ibigay:"
+
+msgid "provider:"
+msgstr ""
+
+msgid "share:"
+msgstr "ibahagi:"
+
+msgid "show all cards"
+msgstr "ipakita ang lahat ng card"
+
+msgid "show cards with uphop 0"
+msgstr "ipakita ang mga card na may uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "ipakita ang mga card na may uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "ipakita ang mga card na may uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "ipakita ang mga card na may uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "ipakita ang mga card na may uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "ipakita ang mga card na may uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "ipakita ang mga card na may uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "ipakita ang mga card na may uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "ipakita ang mga card na may uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "ipakita ang mga card na may uphop 9"
+
+msgid "system:"
+msgstr "sistema:"
+
+msgid "using:"
+msgstr "gamit ang:"
+
+msgid "xLine"
+msgstr ""

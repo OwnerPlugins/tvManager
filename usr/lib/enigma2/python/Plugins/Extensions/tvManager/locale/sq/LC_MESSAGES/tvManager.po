@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 02:02+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Kartat )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Informacion - Konfigurimi"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Informacion - Menyja kryesore"
+
+msgid "%s restarted successfully!"
+msgstr "%s u rinis me sukses!"
+
+msgid "%s webif disabled"
+msgstr "%s webif është çaktivizuar"
+
+msgid "(All readers)"
+msgstr "(Të gjithë lexuesit)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Shfaq vetëm lexuesin) (%s)"
+
+msgid "About"
+msgstr "Rreth"
+
+msgid "Activate"
+msgstr "Aktivizoni"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Aktivizo rreshtin e Futjes në skedarin e konfigurimit:"
+
+msgid "Active clients"
+msgstr "Klientë aktivë"
+
+msgid "Add"
+msgstr "Shto"
+
+msgid "Add new CCcam line"
+msgstr "Shto linjë të re CCcam"
+
+msgid "Add new NewCamd line"
+msgstr "Shto linjë të re NewCamd"
+
+msgid "Address"
+msgstr "Adresa"
+
+msgid "All"
+msgstr "Të gjitha"
+
+msgid "An error occurred in the green function."
+msgstr "Ndodhi një gabim në funksionin e gjelbër."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Ndodhi një gabim i papritur: %s"
+
+msgid "Ask all caid"
+msgstr "Pyesni të gjithë kaidin"
+
+msgid "Ask for the selection caid"
+msgstr "Kërkoni kaidën e përzgjedhjes"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Të përditësohet automatikisht Pamja e Klientit/Serverit?"
+
+msgid "Available shares:"
+msgstr "Aksionet e disponueshme:"
+
+msgid "Back"
+msgstr "Mbrapa"
+
+msgid "Backup failed!"
+msgstr "Rezervimi dështoi!"
+
+msgid "Backup restoration failed!"
+msgstr "Rivendosja e rezervimit dështoi!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Cilësimet e CCprioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "Fillimi automatik i CCPrioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Informacione për klientët e CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "Ndërruesi i konfigurimit të CCcam"
+
+msgid "CCcam ECM Info"
+msgstr "Informacioni i CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "Informacion CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Informacioni i CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "Konfigurimi i informacionit të CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "Menyja e konfigurimit të informacionit të CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Veprimet e modifikimit të linjës CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "Redaktori i linjës CCcam"
+
+msgid "CCcam Organizer"
+msgstr "Organizuesi i CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr "Prodhuesi CCcam Prio"
+
+msgid "CCcam Provider Info"
+msgstr "Informacioni i ofruesit të CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Informacion në distancë CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Informacioni i serverit CCcam"
+
+msgid "CCcam Share Info"
+msgstr ""
+
+msgid "CCcam Shares Info"
+msgstr "Informacioni i aksioneve të CCcam"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Redaktori i linjës bazë"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo nuk disponohet"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Shkarko Cam"
+
+msgid "Cancel"
+msgstr "Anulo"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Informacioni i kartës (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kartat:"
+
+msgid "Cards: 0"
+msgstr "Kartat: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Kanali"
+
+msgid "Channel Name"
+msgstr "Emri i kanalit"
+
+msgid "Check Emm Send"
+msgstr "Kontrollo Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Zgjidhni CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Zgjidhni lexuesin"
+
+msgid "Cleanup error: %s"
+msgstr "Gabim pastrimi: %s"
+
+msgid "Client %s-%s"
+msgstr "Klienti %s-%s"
+
+msgid "Clients"
+msgstr "Klientët"
+
+msgid "Close"
+msgstr "Mbylle"
+
+msgid "Command Cancelled"
+msgstr "Komanda u anulua"
+
+msgid "Configfile %s saved."
+msgstr "Konfigurimi %s u ruajt."
+
+msgid "Connected clients"
+msgstr "Klientë të lidhur"
+
+msgid "Connected:"
+msgstr "Lidhur:"
+
+msgid "Content"
+msgstr "përmbajtja"
+
+msgid "Could not open the file %s!"
+msgstr "Skedari %s nuk mund të hapej!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Skedari %s nuk mund të hapej! Gabim: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Nuk mund të ruhej konfigurimi %s! Gabim: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Skedari i konfigurimit nuk mund të ruhej! Gabim: %s"
+
+msgid "Current time"
+msgstr "Koha aktuale"
+
+msgid "Delete"
+msgstr "Fshije"
+
+msgid "Delete %s?"
+msgstr "Të fshihet %s?"
+
+msgid "Delete Peer"
+msgstr "Fshi Peer"
+
+msgid "Delete failed!"
+msgstr "Fshirja dështoi!"
+
+msgid "Deleted %s!"
+msgstr "%s u fshi!"
+
+msgid "Do you install this plugin ?"
+msgstr "A e instaloni këtë shtojcë?"
+
+msgid "Do you want to execute the command?"
+msgstr "Dëshironi të ekzekutoni komandën?"
+
+msgid "Do you want to remove?"
+msgstr "Dëshiron të heqësh?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Dëshiron të rinisësh ndërfaqen Gui?"
+
+msgid "ECM data format error"
+msgstr "Gabim në formatin e të dhënave ECM"
+
+msgid "ECM error"
+msgstr "Gabim ECM"
+
+msgid "ECM file empty"
+msgstr "Skedari ECM bosh"
+
+msgid "ECM file not found"
+msgstr "Skedari ECM nuk u gjet"
+
+msgid "ECM read error"
+msgstr "Gabim leximi ECM"
+
+msgid "Ecm Info"
+msgstr ""
+
+msgid "Ecm Statistics"
+msgstr "Statistikat Ecm"
+
+msgid "Ecm Time"
+msgstr "Ecm Koha"
+
+msgid "Ecm avg"
+msgstr "Ecm mesatarisht"
+
+msgid "Ecm last"
+msgstr "Ecm e fundit"
+
+msgid "Edit"
+msgstr "Redakto"
+
+msgid "Editing one caid"
+msgstr "Redaktimi i një kaid"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Të drejtat"
+
+msgid "Error"
+msgstr "Gabim"
+
+msgid "Error executing update script: %s"
+msgstr "Gabim gjatë ekzekutimit të skriptit të përditësimit: %s"
+
+msgid "Error getting resource information"
+msgstr "Gabim në marrjen e informacionit të burimit"
+
+msgid "Error loading system info:"
+msgstr "Gabim gjatë ngarkimit të informacionit të sistemit:"
+
+msgid "Error loading system information:"
+msgstr "Gabim gjatë ngarkimit të informacionit të sistemit:"
+
+msgid "Error opening cam info: %s"
+msgstr "Gabim në hapjen e informacionit të kamerës: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Gabim në hapjen e skedarit të konfigurimit: %s"
+
+msgid "Error processing HTML!"
+msgstr "Gabim gjatë përpunimit të HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Gabim gjatë përpunimit të të dhënave të shtesave të serverit"
+
+msgid "Error reading webpage!"
+msgstr "Gabim gjatë leximit të faqes së internetit!"
+
+msgid "Error stopping %s!"
+msgstr "Gabim në ndalimin e %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Gabim gjatë redaktimit të konfigurimit: %s"
+
+msgid "Exit"
+msgstr "Dilni"
+
+msgid "Extended Shares"
+msgstr "Aksionet e zgjeruara"
+
+msgid "Failed to revert file: %s"
+msgstr "Rikthimi i skedarit: %s dështoi"
+
+msgid "Find Fakes"
+msgstr "Gjeni falsifikime"
+
+msgid "Force Update"
+msgstr "Përditësimi i detyruar"
+
+msgid "Free memory"
+msgstr "Memorie e lirë"
+
+msgid "Free memory:"
+msgstr "Kujtesa e lirë:"
+
+msgid "Free:"
+msgstr "Falas:"
+
+msgid "General"
+msgstr "Gjeneral"
+
+msgid "Get Link"
+msgstr "Merr lidhjen"
+
+msgid "Getting the list, please wait ..."
+msgstr "Duke marrë listën, ju lutemi prisni ..."
+
+msgid "Help"
+msgstr "Ndihmë"
+
+msgid "Hops"
+msgstr ""
+
+msgid "Hops:"
+msgstr ""
+
+msgid "Hostname:"
+msgstr "Emri i hostit:"
+
+msgid "IP Address"
+msgstr "Adresa IP"
+
+msgid "IP address"
+msgstr "Adresa IP"
+
+msgid "Idle Time:"
+msgstr "Koha e Papunësisë:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Nëse është aktiv: Shkarko/Rivendo konfigurimin e serverit"
+
+msgid "Install Cam first!!!"
+msgstr "Fillimisht instaloni Cam!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Të instalohet përditësimi i zhvilluesit (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Përmbajtje e pavlefshme HTML!"
+
+msgid "Invalid URL!"
+msgstr "URL e pavlefshme!"
+
+msgid "Last Req."
+msgstr "Kërkesa e fundit."
+
+msgid "Last used share:"
+msgstr "Shpërndarja e fundit e përdorur:"
+
+msgid "Load"
+msgstr "Ngarkoni"
+
+msgid "Local box"
+msgstr "Kuti lokale"
+
+msgid "Location"
+msgstr "Vendndodhja"
+
+msgid "Log"
+msgstr "Regjistrohu"
+
+msgid "Log %s-%s"
+msgstr "Regjistri %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM / CLINE SERVER"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Konfigurimi i menysë"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo nuk disponohet"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam nuk funksionon - filloni Cam për të marrë informacion."
+
+msgid "New"
+msgstr "E re"
+
+msgid "New profile:"
+msgstr "Profili i ri:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Nuk ka të dhëna ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Nuk ka të dhëna ECM - Koha e skaduar"
+
+msgid "No ECM file"
+msgstr "Nuk ka skedar ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Aktualisht nuk disponohet asnjë informacion ECM. Kjo është e disponueshme vetëm gjatë deshifrimit."
+
+msgid "No active cam to restart!"
+msgstr "Nuk ka kamera aktive për të rifilluar!"
+
+msgid "No backups available!"
+msgstr "Nuk ka rezerva të disponueshme!"
+
+msgid "No card inserted!"
+msgstr "Nuk është futur asnjë kartë!"
+
+msgid "No softcams available!"
+msgstr "Nuk ka kamera të buta në dispozicion!"
+
+msgid "No valid backups found!"
+msgstr "Nuk u gjetën kopje rezervë të vlefshme!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr "ID-ja e nyjës:"
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Përditësimi i OSCam skadoi. Kontrolloni /tmp/oscam_update.log për detaje."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo nuk disponohet"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam nuk funksionon - filloni Cam për të marrë informacion."
+
+msgid "PRESS RETURN"
+msgstr "SHTYP KTHIM"
+
+msgid "Password"
+msgstr "Fjalëkalimi"
+
+msgid "Password (httpwd)"
+msgstr "Fjalëkalimi (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Ngarkesa maksimale (maksimumi i kërkesave në radhë për fillesë pune)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Ju lutemi rivendosni - Nuk ka skedar CFG"
+
+msgid "Please select ..."
+msgstr "Ju lutemi zgjidhni..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Ju lutemi zgjidhni një rresht për të modifikuar ose zgjidhni shto për të krijuar rresht të ri."
+
+msgid "Please wait, %s."
+msgstr "Ju lutemi prisni, %s."
+
+msgid "Port"
+msgstr ""
+
+msgid "Profile"
+msgstr "Profili"
+
+msgid "Profile: Local box"
+msgstr "Profili: Kuti lokale"
+
+msgid "Protocol"
+msgstr "Protokolli"
+
+msgid "Provider"
+msgstr "Ofruesi"
+
+msgid "Provider Name:"
+msgstr "Emri i ofruesit:"
+
+msgid "Provider:"
+msgstr "Ofruesi:"
+
+msgid "Providers"
+msgstr "Ofruesit"
+
+msgid "Providers:"
+msgstr "Ofruesit:"
+
+msgid "Quick restart %s?"
+msgstr "Rinisje e shpejtë %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Lexoni të dhënat e përdoruesit nga %s.conf"
+
+msgid "Reader"
+msgstr "Lexues"
+
+msgid "Reader Statistics"
+msgstr "Statistikat e lexuesve"
+
+msgid "Reader/User"
+msgstr "Lexues/Përdorues"
+
+msgid "Recover Peer"
+msgstr ""
+
+msgid "Remote box"
+msgstr "Kuti në distancë"
+
+msgid "Remove"
+msgstr "Hiq"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Hiqni linjën nga CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Po hiqet %s"
+
+msgid "Rename"
+msgstr "Riemërto"
+
+msgid "Rename failed!"
+msgstr "Riemërtimi dështoi!"
+
+msgid "Rename to:"
+msgstr "Riemërto në:"
+
+msgid "Renamed %s!"
+msgstr "Riemërtuar %s!"
+
+msgid "Reset"
+msgstr "Rivendos"
+
+msgid "Reshare"
+msgstr "Rishpërndaje"
+
+msgid "Reshare:"
+msgstr "Ndani:"
+
+msgid "Resources"
+msgstr "Burimet"
+
+msgid "Restart GUI?"
+msgstr "Të riniset GUI?"
+
+msgid "Restart error: %s"
+msgstr "Gabim i rinisjes: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Të riniset softkamera për të aplikuar konfigurimin e rivendosur?"
+
+msgid "Save"
+msgstr "Ruaj"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Lista e skanimit dhe rikthimit të kamerave të buta..."
+
+msgid "Select CCcam"
+msgstr "Zgjidhni CCcam"
+
+msgid "Select Get Link"
+msgstr "Zgjidhni Merr lidhjen"
+
+msgid "Select Ncam"
+msgstr "Zgjidhni Ncam"
+
+msgid "Select OScam"
+msgstr "Zgjidhni OScam"
+
+msgid "Select Your Choice"
+msgstr "Zgjidhni Zgjedhjen Tuaj"
+
+msgid "Select a cam to run ..."
+msgstr "Zgjidh një kamerë për të drejtuar ..."
+
+msgid "Select and Install"
+msgstr "Zgjidhni dhe instaloni"
+
+msgid "Select backup to restore:"
+msgstr "Zgjidhni kopjen rezervë për të rivendosur:"
+
+msgid "Server %s-%s"
+msgstr ""
+
+msgid "Server Config"
+msgstr "Konfigurimi i serverit"
+
+msgid "Server Copy in"
+msgstr "Kopjoni në server"
+
+msgid "Server Link"
+msgstr "Lidhja e serverit"
+
+msgid "Server Password"
+msgstr "Fjalëkalimi i serverit"
+
+msgid "Server Port"
+msgstr "Porta e serverit"
+
+msgid "Server URL"
+msgstr "URL e serverit"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Url i serverit dmth 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Emri i përdoruesit të serverit"
+
+msgid "Server:"
+msgstr "Serveri:"
+
+msgid "Servers"
+msgstr "Serverat"
+
+msgid "Servers:"
+msgstr "Serverët:"
+
+msgid "Service"
+msgstr "Shërbimi"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Cakto si KOHA UNIK"
+
+msgid "Setup"
+msgstr "Konfigurimi"
+
+msgid "Share View"
+msgstr ""
+
+msgid "Shares"
+msgstr "Aksionet"
+
+msgid "Show Clients"
+msgstr "Trego klientët"
+
+msgid "Show Ecm info"
+msgstr "Shfaq informacionin Ecm"
+
+msgid "Show Log"
+msgstr "Shfaq regjistrin"
+
+msgid "Show Readers/Proxies"
+msgstr "Shfaq lexuesit / përfaqësuesit"
+
+msgid "Softcam Manager"
+msgstr "Menaxheri i Softcam-it"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam rifilloi me konfigurim të ri!"
+
+msgid "Start"
+msgstr "Filloni"
+
+msgid "Status"
+msgstr "Statusi"
+
+msgid "Stop"
+msgstr "Ndalo"
+
+msgid "Stop Finding Fakes"
+msgstr "Ndaloni së gjeturi falsifikime"
+
+msgid "Switch config"
+msgstr "Ndërro konfigurimin"
+
+msgid "System"
+msgstr "Sistemi"
+
+msgid "System cleanup completed!"
+msgstr "Pastrimi i sistemit përfundoi!"
+
+msgid "System:"
+msgstr "Sistemi:"
+
+msgid "Temporarely DELETED"
+msgstr "Fshirë përkohësisht"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Kjo shtojcë ju tregon statusin e CCcam tuaj"
+
+msgid "Total"
+msgstr "Gjithsej"
+
+msgid "Total cards:"
+msgstr "Totali i kartave:"
+
+msgid "Total handled client ecm's"
+msgstr "Totali i klientëve ecm të trajtuar"
+
+msgid "Total handled client emm's"
+msgstr "Totali i klientëve të trajtuar emm's"
+
+msgid "Total:"
+msgstr "Gjithsej:"
+
+msgid "Try again later ..."
+msgstr "Provo sërish më vonë..."
+
+msgid "Type:"
+msgstr "Lloji:"
+
+msgid "UNDELETED"
+msgstr "E PAFSHIRË"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Skripti nuk mund të bëhet i ekzekutueshëm: %s"
+
+msgid "Unknow Image!"
+msgstr "Imazh i panjohur!"
+
+msgid "Update"
+msgstr "Përditëso"
+
+msgid "Update Aborted!"
+msgstr "Përditësimi u ndërpre!"
+
+msgid "Update interval (in seconds)"
+msgstr "Intervali i përditësimit (në sekonda)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr "Ngritje:"
+
+msgid "Uptime"
+msgstr "Koha e funksionimit"
+
+msgid "Used:"
+msgstr "Përdorur:"
+
+msgid "Username"
+msgstr "Emri i përdoruesit"
+
+msgid "Username (httpuser)"
+msgstr "Emri i përdoruesit (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Përdorimi i profilit të vjetër:"
+
+msgid "Version:"
+msgstr "Versioni:"
+
+msgid "Wait please..."
+msgstr "Prit te lutem..."
+
+msgid "Write"
+msgstr "Shkruani"
+
+msgid "Write-Debug"
+msgstr "Shkruaj-Debug"
+
+msgid "You have the latest version!"
+msgstr "Ju keni versionin më të fundit!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tSiguroni:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "një ASGJE.TO.UNDELE"
+
+msgid "address:"
+msgstr "adresa:"
+
+msgid "and"
+msgstr "dhe"
+
+msgid "caid:"
+msgstr "kaid:"
+
+msgid "card"
+msgstr "kartelë"
+
+msgid "card reader"
+msgstr "lexues kartash"
+
+msgid "close share view"
+msgstr "mbyll pamjen e ndarjes"
+
+msgid "decrease uphop by 1"
+msgstr "zvogëloni lart me 1"
+
+msgid "ecm time:"
+msgstr "koha ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "merrni serverin e kartave"
+
+msgid "handled"
+msgstr "trajtohen"
+
+msgid "hops:"
+msgstr ""
+
+msgid "increase uphop by 1"
+msgstr "rritja e rritjes me 1"
+
+msgid "info"
+msgstr "informacion"
+
+msgid "no or unknown card inserted"
+msgstr "asnjë kartë ose e panjohur e futur"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "me kusht:"
+
+msgid "provider:"
+msgstr "ofruesi:"
+
+msgid "share:"
+msgstr "ndani:"
+
+msgid "show all cards"
+msgstr "tregoni të gjitha kartat"
+
+msgid "show cards with uphop 0"
+msgstr "shfaq letra me uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "shfaq letra me uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "shfaq letra me uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "shfaq letra me uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "shfaq letra me uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "tregoni letra me uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "tregoni letra me uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "tregoni letra me uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "tregoni letra me uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "shfaq letra me uphop 9"
+
+msgid "system:"
+msgstr "sistemi:"
+
+msgid "using:"
+msgstr "duke përdorur:"
+
+msgid "xLine"
+msgstr ""

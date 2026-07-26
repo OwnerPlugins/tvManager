@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 21:43+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Amharic\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s ካርዶች)"
+
+msgid "%s Info - Configuration"
+msgstr "%s መረጃ - ውቅር"
+
+msgid "%s Info - Main Menu"
+msgstr "%s መረጃ - ዋና ምናሌ"
+
+msgid "%s restarted successfully!"
+msgstr "%s በተሳካ ሁኔታ ዳግም ጀምሯል!"
+
+msgid "%s webif disabled"
+msgstr "%s webif ተሰናክሏል።"
+
+msgid "(All readers)"
+msgstr "(ሁሉም አንባቢዎች)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(አንባቢ ብቻ አሳይ) (%s)"
+
+msgid "About"
+msgstr "ስለ"
+
+msgid "Activate"
+msgstr "አግብር"
+
+msgid "Activate Insert line in Config File:"
+msgstr "በማዋቀር ፋይል ውስጥ መስመር አስገባን ያግብሩ፡-"
+
+msgid "Active clients"
+msgstr "ንቁ ደንበኞች"
+
+msgid "Add"
+msgstr "አክል"
+
+msgid "Add new CCcam line"
+msgstr "አዲስ የCCcam መስመር ያክሉ"
+
+msgid "Add new NewCamd line"
+msgstr "አዲስ የኒውካምድ መስመር ያክሉ"
+
+msgid "Address"
+msgstr "አድራሻ"
+
+msgid "All"
+msgstr "ሁሉም"
+
+msgid "An error occurred in the green function."
+msgstr "በአረንጓዴው ተግባር ላይ ስህተት ተከስቷል።"
+
+msgid "An unexpected error occurred: %s"
+msgstr "ያልተጠበቀ ስህተት ተከስቷል፡ %s"
+
+msgid "Ask all caid"
+msgstr "ሁሉንም ካይድ ይጠይቁ"
+
+msgid "Ask for the selection caid"
+msgstr "ምርጫውን ካይድ ይጠይቁ"
+
+msgid "Automatically update Client/Server View?"
+msgstr "የደንበኛ/የአገልጋይ እይታን በራስ ሰር አዘምን?"
+
+msgid "Available shares:"
+msgstr "የሚገኙ ማጋራቶች፡-"
+
+msgid "Back"
+msgstr "ተመለስ"
+
+msgid "Backup failed!"
+msgstr "ምትኬ አልተሳካም!"
+
+msgid "Backup restoration failed!"
+msgstr "ምትኬን ወደነበረበት መመለስ አልተሳካም!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker ቅንብሮች"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker ራስ-ጀምር"
+
+msgid "CCcam"
+msgstr ""
+
+msgid "CCcam Clients Info"
+msgstr "የCCcam ደንበኞች መረጃ"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam ውቅር መቀየሪያ"
+
+msgid "CCcam ECM Info"
+msgstr "የCCcam ECM መረጃ"
+
+msgid "CCcam Info"
+msgstr "የCCcam መረጃ"
+
+msgid "CCcam Info %s"
+msgstr "የCCcam መረጃ %s"
+
+msgid "CCcam Info Config"
+msgstr "የCCcam መረጃ ውቅር"
+
+msgid "CCcam Info Config Menu"
+msgstr "የCCcam መረጃ ማዋቀር ምናሌ"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam መስመር አርትዕ ድርጊቶች"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam መስመር አርታዒ"
+
+msgid "CCcam Organizer"
+msgstr "CCcam አደራጅ"
+
+msgid "CCcam Prio Maker"
+msgstr "CCcam Prio ሰሪ"
+
+msgid "CCcam Provider Info"
+msgstr "የ CCcam አቅራቢ መረጃ"
+
+msgid "CCcam Remote Info"
+msgstr "የ CCcam የርቀት መረጃ"
+
+msgid "CCcam Server Info"
+msgstr "የCCcam አገልጋይ መረጃ"
+
+msgid "CCcam Share Info"
+msgstr "CCcam አጋራ መረጃ"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam ማጋራቶች መረጃ"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg መሰረታዊ መስመር አርታዒ"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo አይገኝም"
+
+msgid "CaID:"
+msgstr "ካአይዲ፡"
+
+msgid "Caid"
+msgstr "ካይድ"
+
+msgid "Caid:"
+msgstr "ካይድ፡"
+
+msgid "Caid:Srvid"
+msgstr "ካይድ፡ ሰርቪድ"
+
+msgid "Cam Download"
+msgstr ""
+
+msgid "Cancel"
+msgstr "ሰርዝ"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "የካርድ መረጃ (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "ካርዶች፡"
+
+msgid "Cards: 0"
+msgstr "ካርዶች: 0"
+
+msgid "Cardserial"
+msgstr "የካርድሰሪያል"
+
+msgid "Channel"
+msgstr "ቻናል"
+
+msgid "Channel Name"
+msgstr "የሰርጥ ስም"
+
+msgid "Check Emm Send"
+msgstr "Emm መላክን ያረጋግጡ"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader ን ይምረጡ"
+
+msgid "Choose reader"
+msgstr "አንባቢ ይምረጡ"
+
+msgid "Cleanup error: %s"
+msgstr "የማጽዳት ስህተት፡ %s"
+
+msgid "Client %s-%s"
+msgstr "ደንበኛ %s-%s"
+
+msgid "Clients"
+msgstr "ደንበኞች"
+
+msgid "Close"
+msgstr "ገጠመ"
+
+msgid "Command Cancelled"
+msgstr "ትዕዛዝ ተሰርዟል።"
+
+msgid "Configfile %s saved."
+msgstr "አዋቅር %s ተቀምጧል።"
+
+msgid "Connected clients"
+msgstr "የተገናኙ ደንበኞች"
+
+msgid "Connected:"
+msgstr "ተገናኝቷል፡"
+
+msgid "Content"
+msgstr "ይዘት"
+
+msgid "Could not open the file %s!"
+msgstr "%s ፋይሉን መክፈት አልተቻለም!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "%s ፋይሉን መክፈት አልተቻለም! ስህተት፡ %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "%s ውቅረት ማስቀመጥ አልተቻለም! ስህተት፡ %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "የማዋቀር ፋይሉን ማስቀመጥ አልተቻለም! ስህተት፡ %s"
+
+msgid "Current time"
+msgstr "የአሁኑ ጊዜ"
+
+msgid "Delete"
+msgstr "ሰርዝ"
+
+msgid "Delete %s?"
+msgstr "%s ይሰረዝ?"
+
+msgid "Delete Peer"
+msgstr "አቻን ሰርዝ"
+
+msgid "Delete failed!"
+msgstr "መሰረዝ አልተሳካም!"
+
+msgid "Deleted %s!"
+msgstr "%s ተሰርዟል!"
+
+msgid "Do you install this plugin ?"
+msgstr "ይህን ፕለጊን ይጭኑታል?"
+
+msgid "Do you want to execute the command?"
+msgstr "ትዕዛዙን መፈጸም ይፈልጋሉ?"
+
+msgid "Do you want to remove?"
+msgstr "ማስወገድ ይፈልጋሉ?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "የ Gui በይነገጽን እንደገና ማስጀመር ይፈልጋሉ?"
+
+msgid "ECM data format error"
+msgstr "የECM ውሂብ ቅርጸት ስህተት"
+
+msgid "ECM error"
+msgstr "የECM ስህተት"
+
+msgid "ECM file empty"
+msgstr "የECM ፋይል ባዶ ነው።"
+
+msgid "ECM file not found"
+msgstr "የECM ፋይል አልተገኘም።"
+
+msgid "ECM read error"
+msgstr "ECM የማንበብ ስህተት"
+
+msgid "Ecm Info"
+msgstr "Ecm መረጃ"
+
+msgid "Ecm Statistics"
+msgstr "Ecm ስታቲስቲክስ"
+
+msgid "Ecm Time"
+msgstr "Ecm ጊዜ"
+
+msgid "Ecm avg"
+msgstr "Ecm አማካይ"
+
+msgid "Ecm last"
+msgstr "Ecm የመጨረሻ"
+
+msgid "Edit"
+msgstr "አርትዕ"
+
+msgid "Editing one caid"
+msgstr "አንድ caid ማረም"
+
+msgid "Emm Info"
+msgstr "Erm መረጃ"
+
+msgid "Entitlements"
+msgstr "መብቶች"
+
+msgid "Error"
+msgstr "ስህተት"
+
+msgid "Error executing update script: %s"
+msgstr "የዝማኔ ስክሪፕት ማስፈጸም ላይ ስህተት፡%s"
+
+msgid "Error getting resource information"
+msgstr "የንብረት መረጃ ማግኘት ላይ ስህተት"
+
+msgid "Error loading system info:"
+msgstr "የስርዓት መረጃን መጫን ላይ ስህተት"
+
+msgid "Error loading system information:"
+msgstr "የስርዓት መረጃን መጫን ላይ ስህተት"
+
+msgid "Error opening cam info: %s"
+msgstr "የካሜራ መረጃን መክፈት ላይ ስህተት፡%s"
+
+msgid "Error opening configuration file: %s"
+msgstr "የማዋቀሪያ ፋይል መክፈት ላይ ስህተት: %s"
+
+msgid "Error processing HTML!"
+msgstr "ኤችቲኤምኤልን ማስኬድ ላይ ስህተት!"
+
+msgid "Error processing server addons data"
+msgstr "የአገልጋይ addons ውሂብን ማካሄድ ላይ ስህተት"
+
+msgid "Error reading webpage!"
+msgstr "ድረ-ገጽ በማንበብ ላይ ስህተት!"
+
+msgid "Error stopping %s!"
+msgstr "%s ማቆም ላይ ስህተት!"
+
+msgid "Error while editing configuration: %s"
+msgstr "ውቅረትን በማርትዕ ላይ ሳለ ስህተት፡%s"
+
+msgid "Exit"
+msgstr "ውጣ"
+
+msgid "Extended Shares"
+msgstr "የተራዘመ ማጋራቶች"
+
+msgid "Failed to revert file: %s"
+msgstr "ፋይል መመለስ አልተሳካም፦ %s"
+
+msgid "Find Fakes"
+msgstr "የውሸት ያግኙ"
+
+msgid "Force Update"
+msgstr "ዝማኔን አስገድድ"
+
+msgid "Free memory"
+msgstr "ነፃ ማህደረ ትውስታ"
+
+msgid "Free memory:"
+msgstr "ነፃ ማህደረ ትውስታ;"
+
+msgid "Free:"
+msgstr "ፍርይ፥"
+
+msgid "General"
+msgstr "አጠቃላይ"
+
+msgid "Get Link"
+msgstr "አገናኝ ያግኙ"
+
+msgid "Getting the list, please wait ..."
+msgstr "ዝርዝሩን በማግኘት ላይ፣ እባክዎ ይጠብቁ..."
+
+msgid "Help"
+msgstr "እገዛ"
+
+msgid "Hops"
+msgstr "ሆፕስ"
+
+msgid "Hops:"
+msgstr "ሆፕስ፡"
+
+msgid "Hostname:"
+msgstr "የአስተናጋጅ ስም"
+
+msgid "IP Address"
+msgstr "የአይፒ አድራሻ"
+
+msgid "IP address"
+msgstr "የአይፒ አድራሻ"
+
+msgid "Idle Time:"
+msgstr "የስራ ፈት ጊዜ፡"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "ገቢር ከሆነ፡ አውርድ/የአገልጋይ ውቅረትን ዳግም አስጀምር"
+
+msgid "Install Cam first!!!"
+msgstr "መጀመሪያ ካም ይጫኑ !!!"
+
+msgid "Install developer update (%s)?"
+msgstr "የገንቢ ዝማኔ (%s) ይጫን?"
+
+msgid "Invalid HTML content!"
+msgstr "ልክ ያልሆነ HTML ይዘት!"
+
+msgid "Invalid URL!"
+msgstr "ልክ ያልሆነ URL!"
+
+msgid "Last Req."
+msgstr "የመጨረሻው Req."
+
+msgid "Last used share:"
+msgstr "መጨረሻ ጥቅም ላይ የዋለው ድርሻ፡-"
+
+msgid "Load"
+msgstr "ጫን"
+
+msgid "Local box"
+msgstr "የአካባቢ ሳጥን"
+
+msgid "Location"
+msgstr "አካባቢ"
+
+msgid "Log"
+msgstr "መዝገብ"
+
+msgid "Log %s-%s"
+msgstr "%s-%s ይመዝገቡ"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM/SERVER CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr "ማክሰኞ -"
+
+msgid "Maxdown:"
+msgstr "ከፍተኛ ቅናሽ፡"
+
+msgid "Menu config"
+msgstr "የምናሌ ማዋቀር"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo አይገኝም"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam አይሰራም - መረጃ ለማግኘት Cam ጀምር።"
+
+msgid "New"
+msgstr "አዲስ"
+
+msgid "New profile:"
+msgstr "አዲስ መገለጫ፡-"
+
+msgid "NewCamd"
+msgstr "ኒውካምድ"
+
+msgid "No ECM data"
+msgstr "ምንም የECM ውሂብ የለም።"
+
+msgid "No ECM data - Timeout"
+msgstr "ምንም ECM ውሂብ የለም - ጊዜው አብቅቷል።"
+
+msgid "No ECM file"
+msgstr "ምንም ECM ፋይል የለም።"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "በአሁኑ ጊዜ ምንም የECM መረጃ የለም። ይህ የሚገኘው በሚፈታበት ጊዜ ብቻ ነው።"
+
+msgid "No active cam to restart!"
+msgstr "ዳግም ለመጀመር ምንም ንቁ ካሜራ የለም!"
+
+msgid "No backups available!"
+msgstr "ምንም ምትኬ አይገኙም!"
+
+msgid "No card inserted!"
+msgstr "ምንም ካርድ አልገባም!"
+
+msgid "No softcams available!"
+msgstr "ምንም softcams አይገኝም!"
+
+msgid "No valid backups found!"
+msgstr "ምንም ትክክለኛ ምትኬ አልተገኙም!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr "መስቀለኛ መታወቂያ፡"
+
+msgid "OK"
+msgstr "እሺ"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "የOScam ዝማኔ ጊዜው አልፎበታል። ለዝርዝሮች /tmp/oscam_update.logን ይመልከቱ።"
+
+msgid "OSCamInfo not available"
+msgstr "OScamInfo አይገኝም"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam እየሰራ አይደለም - መረጃ ለማግኘት Cam ጀምር።"
+
+msgid "PRESS RETURN"
+msgstr "ተመለስን ተጫን"
+
+msgid "Password"
+msgstr "የይለፍ ቃል"
+
+msgid "Password (httpwd)"
+msgstr "የይለፍ ቃል (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "ከፍተኛ ጭነት (በየሰራተኛ ክር ከፍተኛ የተሰለፉ ጥያቄዎች)"
+
+msgid "Pid"
+msgstr "ፒድ"
+
+msgid "Please Reset - No File CFG"
+msgstr "እባክዎ ዳግም ያስጀምሩ - ምንም ፋይል የለም CFG"
+
+msgid "Please select ..."
+msgstr "እባክህ ምረጥ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "እባክህ ለማርትዕ መስመር ምረጥ ወይም አዲስ መስመር ለመፍጠር አክልን ምረጥ።"
+
+msgid "Please wait, %s."
+msgstr "እባክዎ ይጠብቁ፣%s።"
+
+msgid "Port"
+msgstr "ወደብ"
+
+msgid "Profile"
+msgstr "መገለጫ"
+
+msgid "Profile: Local box"
+msgstr "መገለጫ፡ የአካባቢ ሳጥን"
+
+msgid "Protocol"
+msgstr "ፕሮቶኮል"
+
+msgid "Provider"
+msgstr "አቅራቢ"
+
+msgid "Provider Name:"
+msgstr "የአቅራቢ ስም፡-"
+
+msgid "Provider:"
+msgstr "አቅራቢ፡"
+
+msgid "Providers"
+msgstr "አቅራቢዎች"
+
+msgid "Providers:"
+msgstr "አቅራቢዎች፡-"
+
+msgid "Quick restart %s?"
+msgstr "ፈጣን ዳግም መጀመር %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "የተጠቃሚ ውሂብን ከ%s.conf ያንብቡ"
+
+msgid "Reader"
+msgstr "አንባቢ"
+
+msgid "Reader Statistics"
+msgstr "የአንባቢ ስታቲስቲክስ"
+
+msgid "Reader/User"
+msgstr "አንባቢ/ተጠቃሚ"
+
+msgid "Recover Peer"
+msgstr "እኩያ መልሰው ያግኙ"
+
+msgid "Remote box"
+msgstr "የርቀት ሳጥን"
+
+msgid "Remove"
+msgstr "አስወግድ"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "መስመሩን ከ CCcam.cfg ያስወግዱ"
+
+msgid "Removing %s"
+msgstr "%sን በማስወገድ ላይ"
+
+msgid "Rename"
+msgstr "እንደገና ይሰይሙ"
+
+msgid "Rename failed!"
+msgstr "ዳግም መሰየም አልተሳካም!"
+
+msgid "Rename to:"
+msgstr "እንደገና ሰይም ወደ፡"
+
+msgid "Renamed %s!"
+msgstr "%s ተሰይሟል!"
+
+msgid "Reset"
+msgstr "ዳግም አስጀምር"
+
+msgid "Reshare"
+msgstr "ዳግም አጋራ"
+
+msgid "Reshare:"
+msgstr "አጋራ፡"
+
+msgid "Resources"
+msgstr "መርጃዎች"
+
+msgid "Restart GUI?"
+msgstr "GUI እንደገና ይጀመር?"
+
+msgid "Restart error: %s"
+msgstr "ዳግም ማስጀመር ስህተት፡ %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "የተመለሰውን ውቅር ለመተግበር softcam እንደገና ይጀምር?"
+
+msgid "Save"
+msgstr "አስቀምጥ"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "የሶፍት ካሜራ ዝርዝርን በመቃኘት ላይ…"
+
+msgid "Select CCcam"
+msgstr "CCcam ይምረጡ"
+
+msgid "Select Get Link"
+msgstr "አገናኙን ይምረጡ"
+
+msgid "Select Ncam"
+msgstr "Ncam ን ይምረጡ"
+
+msgid "Select OScam"
+msgstr "OScam ን ይምረጡ"
+
+msgid "Select Your Choice"
+msgstr "ምርጫዎን ይምረጡ"
+
+msgid "Select a cam to run ..."
+msgstr "ለማሄድ ካሜራ ይምረጡ..."
+
+msgid "Select and Install"
+msgstr "ይምረጡ እና ይጫኑ"
+
+msgid "Select backup to restore:"
+msgstr "ወደነበረበት ለመመለስ ምትኬን ይምረጡ፡-"
+
+msgid "Server %s-%s"
+msgstr "አገልጋይ %s-%s"
+
+msgid "Server Config"
+msgstr "የአገልጋይ ውቅር"
+
+msgid "Server Copy in"
+msgstr "የአገልጋይ ቅዳ"
+
+msgid "Server Link"
+msgstr "የአገልጋይ አገናኝ"
+
+msgid "Server Password"
+msgstr "የአገልጋይ ይለፍ ቃል"
+
+msgid "Server Port"
+msgstr "አገልጋይ ወደብ"
+
+msgid "Server URL"
+msgstr "የአገልጋይ URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "የአገልጋይ ዩአርኤል ማለትም 012.345.678.900"
+
+msgid "Server Username"
+msgstr "የአገልጋይ ተጠቃሚ ስም"
+
+msgid "Server:"
+msgstr "አገልጋይ፡"
+
+msgid "Servers"
+msgstr "አገልጋዮች"
+
+msgid "Servers:"
+msgstr "አገልጋዮች፡"
+
+msgid "Service"
+msgstr "አገልግሎት"
+
+msgid "Set as UNIQUE PEER"
+msgstr "እንደ UNIQUE PEER አዘጋጅ"
+
+msgid "Setup"
+msgstr "ማዋቀር"
+
+msgid "Share View"
+msgstr "እይታን አጋራ"
+
+msgid "Shares"
+msgstr "ማጋራቶች"
+
+msgid "Show Clients"
+msgstr "ደንበኞችን አሳይ"
+
+msgid "Show Ecm info"
+msgstr "የEcm መረጃ አሳይ"
+
+msgid "Show Log"
+msgstr "ሎግ አሳይ"
+
+msgid "Show Readers/Proxies"
+msgstr "አንባቢዎችን/ፕሮክሲዎችን አሳይ"
+
+msgid "Softcam Manager"
+msgstr "Softcam አስተዳዳሪ"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam በአዲስ ውቅረት እንደገና ተጀምሯል!"
+
+msgid "Start"
+msgstr "ጀምር"
+
+msgid "Status"
+msgstr "ሁኔታ"
+
+msgid "Stop"
+msgstr "ተወ"
+
+msgid "Stop Finding Fakes"
+msgstr "የውሸት ፍለጋን አቁም"
+
+msgid "Switch config"
+msgstr "ውቅረት ቀይር"
+
+msgid "System"
+msgstr "ስርዓት"
+
+msgid "System cleanup completed!"
+msgstr "የስርዓት ጽዳት ተጠናቅቋል!"
+
+msgid "System:"
+msgstr "ስርዓት፡"
+
+msgid "Temporarely DELETED"
+msgstr "ለጊዜው ተሰርዟል።"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "ይህ ተሰኪ የእርስዎን የCCcam ሁኔታ ያሳየዎታል"
+
+msgid "Total"
+msgstr "ጠቅላላ"
+
+msgid "Total cards:"
+msgstr "ጠቅላላ ካርዶች:"
+
+msgid "Total handled client ecm's"
+msgstr "ጠቅላላ የተያዙ የደንበኛ ecm's"
+
+msgid "Total handled client emm's"
+msgstr "አጠቃላይ የተያዙ የደንበኛ emms"
+
+msgid "Total:"
+msgstr "ጠቅላላ፡"
+
+msgid "Try again later ..."
+msgstr "ቆይተው እንደገና ይሞክሩ..."
+
+msgid "Type:"
+msgstr "ዓይነት፡-"
+
+msgid "UNDELETED"
+msgstr "ተሰርዟል"
+
+msgid "Unable to make the script executable: %s"
+msgstr "ስክሪፕቱን ተፈጻሚ ማድረግ አልተቻለም፡ %s"
+
+msgid "Unknow Image!"
+msgstr "ያልታወቀ ምስል!"
+
+msgid "Update"
+msgstr "አዘምን"
+
+msgid "Update Aborted!"
+msgstr "ዝማኔ ተቋርጧል!"
+
+msgid "Update interval (in seconds)"
+msgstr "ክፍተቱን አዘምን (በሰከንዶች ውስጥ)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr "ሽቅብ -"
+
+msgid "Uphops:"
+msgstr "ሽልማቶች፡"
+
+msgid "Uptime"
+msgstr "የትርፍ ጊዜ"
+
+msgid "Used:"
+msgstr "ጥቅም ላይ የዋለ፡"
+
+msgid "Username"
+msgstr "የተጠቃሚ ስም"
+
+msgid "Username (httpuser)"
+msgstr "የተጠቃሚ ስም (httpuser)"
+
+msgid "Using old profile:"
+msgstr "የድሮ መገለጫን በመጠቀም፡-"
+
+msgid "Version:"
+msgstr "ስሪት፡"
+
+msgid "Wait please..."
+msgstr "ቆይ እባክህ..."
+
+msgid "Write"
+msgstr "ጻፍ"
+
+msgid "Write-Debug"
+msgstr "ጻፍ-ማረም"
+
+msgid "You have the latest version!"
+msgstr "የቅርብ ጊዜው ስሪት አለዎት!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\t ማቅረብ፡"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "አንድ ምናምን.ለማድረግ"
+
+msgid "address:"
+msgstr "አድራሻ፡-"
+
+msgid "and"
+msgstr "እና"
+
+msgid "caid:"
+msgstr "ካይድ፡"
+
+msgid "card"
+msgstr "ካርድ"
+
+msgid "card reader"
+msgstr "ካርድ አንባቢ"
+
+msgid "close share view"
+msgstr "የቅርብ ድርሻ እይታ"
+
+msgid "decrease uphop by 1"
+msgstr "ወደ ላይ በ1 ቀንስ"
+
+msgid "ecm time:"
+msgstr "ecm ጊዜ:"
+
+msgid "ecm.info"
+msgstr "ecm.መረጃ"
+
+msgid "get the cards' server"
+msgstr "የካርዶቹን አገልጋይ ያግኙ"
+
+msgid "handled"
+msgstr "ተያዘ"
+
+msgid "hops:"
+msgstr "ሆፕስ፡"
+
+msgid "increase uphop by 1"
+msgstr "ጭማሪን በ1 ጨምር"
+
+msgid "info"
+msgstr "መረጃ"
+
+msgid "no or unknown card inserted"
+msgstr "ምንም ወይም ያልታወቀ ካርድ አልገባም።"
+
+msgid "pid:"
+msgstr "ፒዲ"
+
+msgid "provid:"
+msgstr "ማቅረብ፡"
+
+msgid "provider:"
+msgstr "አቅራቢ፡"
+
+msgid "share:"
+msgstr "አጋራ፡"
+
+msgid "show all cards"
+msgstr "ሁሉንም ካርዶች አሳይ"
+
+msgid "show cards with uphop 0"
+msgstr "ካርዶችን ከ uphop 0 ጋር አሳይ"
+
+msgid "show cards with uphop 1"
+msgstr "ካርዶችን ከ uphop 1 ጋር አሳይ"
+
+msgid "show cards with uphop 2"
+msgstr "ካርዶችን ከ uphop 2 ጋር አሳይ"
+
+msgid "show cards with uphop 3"
+msgstr "ካርዶችን ከ uphop 3 ጋር አሳይ"
+
+msgid "show cards with uphop 4"
+msgstr "ካርዶችን ከ uphop 4 ጋር አሳይ"
+
+msgid "show cards with uphop 5"
+msgstr "ካርዶችን ከ uphop ጋር አሳይ 5"
+
+msgid "show cards with uphop 6"
+msgstr "ካርዶችን ከ uphop ጋር አሳይ 6"
+
+msgid "show cards with uphop 7"
+msgstr "ካርዶችን ከ uphop ጋር አሳይ 7"
+
+msgid "show cards with uphop 8"
+msgstr "ካርዶችን ከ uphop 8 ጋር አሳይ"
+
+msgid "show cards with uphop 9"
+msgstr "በ uphop ካርዶችን አሳይ 9"
+
+msgid "system:"
+msgstr "ስርዓት፡"
+
+msgid "using:"
+msgstr "በመጠቀም፡-"
+
+msgid "xLine"
+msgstr "xመስመር"

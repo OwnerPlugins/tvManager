@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 22:51+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Basque <translation-team-eu@googlegroups.com>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s txartelak)"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info - Konfigurazioa"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Info - Menu nagusia"
+
+msgid "%s restarted successfully!"
+msgstr "%s behar bezala berrabiarazi da!"
+
+msgid "%s webif disabled"
+msgstr "%s webif desgaituta dago"
+
+msgid "(All readers)"
+msgstr "(Irakurle guztiak)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Erakutsi irakurlea bakarrik) (%s)"
+
+msgid "About"
+msgstr "Buruz"
+
+msgid "Activate"
+msgstr "Aktibatu"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Aktibatu Txertatu lerroa konfigurazio fitxategian:"
+
+msgid "Active clients"
+msgstr "Bezero aktiboak"
+
+msgid "Add"
+msgstr "Gehitu"
+
+msgid "Add new CCcam line"
+msgstr "Gehitu CCcam linea berria"
+
+msgid "Add new NewCamd line"
+msgstr "Gehitu NewCamd lerro berria"
+
+msgid "Address"
+msgstr "Helbidea"
+
+msgid "All"
+msgstr "Denak"
+
+msgid "An error occurred in the green function."
+msgstr "Errore bat gertatu da funtzio berdean."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Ustekabeko errore bat gertatu da: %s"
+
+msgid "Ask all caid"
+msgstr "Galdetu caid guztiei"
+
+msgid "Ask for the selection caid"
+msgstr "Eskatu hautaketaren kaid"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Bezero/Zerbitzariaren ikuspegia automatikoki eguneratu nahi duzu?"
+
+msgid "Available shares:"
+msgstr "Eskuragarri dauden akzioak:"
+
+msgid "Back"
+msgstr "Itzuli"
+
+msgid "Backup failed!"
+msgstr "Babeskopiak huts egin du!"
+
+msgid "Backup restoration failed!"
+msgstr "Babeskopia berreskuratzeak huts egin du!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker ezarpenak"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker abiarazte automatikoa"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam bezeroei informazioa"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM informazioa"
+
+msgid "CCcam Info"
+msgstr "CCcam informazioa"
+
+msgid "CCcam Info %s"
+msgstr "CCcam informazioa %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam Info konfigurazioa"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam Info konfigurazio menua"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line Editatu ekintzak"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam Line Editorea"
+
+msgid "CCcam Organizer"
+msgstr "CCcam Antolatzailea"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam hornitzailearen informazioa"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam Urruneko informazioa"
+
+msgid "CCcam Server Info"
+msgstr "CCcam zerbitzariaren informazioa"
+
+msgid "CCcam Share Info"
+msgstr "CCcam partekatzeko informazioa"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam-ek informazioa partekatzen du"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Oinarrizko Line Editorea"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo ez dago erabilgarri"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Kaid: Srvid"
+
+msgid "Cam Download"
+msgstr "Kamera Deskargatu"
+
+msgid "Cancel"
+msgstr "Utzi"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Txartelaren informazioa (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Txartelak:"
+
+msgid "Cards: 0"
+msgstr "Txartelak: 0"
+
+msgid "Cardserial"
+msgstr "Txartel seriea"
+
+msgid "Channel"
+msgstr "Kanala"
+
+msgid "Channel Name"
+msgstr "Kanalaren izena"
+
+msgid "Check Emm Send"
+msgstr "Egiaztatu Emm Bidali"
+
+msgid "Choose CCcam-Reader"
+msgstr "Aukeratu CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Aukeratu irakurlea"
+
+msgid "Cleanup error: %s"
+msgstr "Garbiketa-errorea: %s"
+
+msgid "Client %s-%s"
+msgstr "%s-%s bezeroa"
+
+msgid "Clients"
+msgstr "Bezeroak"
+
+msgid "Close"
+msgstr "Itxi"
+
+msgid "Command Cancelled"
+msgstr "Komandoa bertan behera utzi da"
+
+msgid "Configfile %s saved."
+msgstr "%s konfigurazio fitxategia gorde da."
+
+msgid "Connected clients"
+msgstr "Konektatutako bezeroak"
+
+msgid "Connected:"
+msgstr "Konektatuta:"
+
+msgid "Content"
+msgstr "Edukia"
+
+msgid "Could not open the file %s!"
+msgstr "Ezin izan da %s fitxategia ireki!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Ezin izan da %s fitxategia ireki! Errorea: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Ezin izan da %s konfigurazio fitxategia gorde! Errorea: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Ezin izan da konfigurazio fitxategia gorde! Errorea: %s"
+
+msgid "Current time"
+msgstr "Egungo ordua"
+
+msgid "Delete"
+msgstr "Ezabatu"
+
+msgid "Delete %s?"
+msgstr "%s ezabatu?"
+
+msgid "Delete Peer"
+msgstr "Ezabatu Peer"
+
+msgid "Delete failed!"
+msgstr "Ezin izan da ezabatu!"
+
+msgid "Deleted %s!"
+msgstr "%s ezabatu da!"
+
+msgid "Do you install this plugin ?"
+msgstr "Instalatzen al duzu plugin hau?"
+
+msgid "Do you want to execute the command?"
+msgstr "Komandoa exekutatu nahi duzu?"
+
+msgid "Do you want to remove?"
+msgstr "Kendu nahi duzu?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Gui Interface berrabiarazi nahi duzu?"
+
+msgid "ECM data format error"
+msgstr "ECM datu-formatuaren errorea"
+
+msgid "ECM error"
+msgstr "ECM errorea"
+
+msgid "ECM file empty"
+msgstr "ECM fitxategia hutsik"
+
+msgid "ECM file not found"
+msgstr "ECM fitxategia ez da aurkitu"
+
+msgid "ECM read error"
+msgstr "ECM irakurketa-errorea"
+
+msgid "Ecm Info"
+msgstr "Ecm informazioa"
+
+msgid "Ecm Statistics"
+msgstr "Ecm Estatistika"
+
+msgid "Ecm Time"
+msgstr "Ecm Denbora"
+
+msgid "Ecm avg"
+msgstr "Ecm batez beste"
+
+msgid "Ecm last"
+msgstr "Ecm azkena"
+
+msgid "Edit"
+msgstr "Editatu"
+
+msgid "Editing one caid"
+msgstr "Caid bat editatzen"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Eskubideak"
+
+msgid "Error"
+msgstr "Errorea"
+
+msgid "Error executing update script: %s"
+msgstr "Errore bat gertatu da eguneratze-scripta exekutatzean: %s"
+
+msgid "Error getting resource information"
+msgstr "Errore bat gertatu da baliabideen informazioa eskuratzean"
+
+msgid "Error loading system info:"
+msgstr "Errore bat gertatu da sistemaren informazioa kargatzean:"
+
+msgid "Error loading system information:"
+msgstr "Errore bat gertatu da sistemaren informazioa kargatzean:"
+
+msgid "Error opening cam info: %s"
+msgstr "Errore bat gertatu da kameraren informazioa irekitzean: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Errore bat gertatu da konfigurazio fitxategia irekitzean: %s"
+
+msgid "Error processing HTML!"
+msgstr "Errorea HTML prozesatzean!"
+
+msgid "Error processing server addons data"
+msgstr "Errore bat gertatu da zerbitzariaren gehigarrien datuak prozesatzen"
+
+msgid "Error reading webpage!"
+msgstr "Errore bat gertatu da web orria irakurtzean!"
+
+msgid "Error stopping %s!"
+msgstr "Errore bat gertatu da %s gelditzean!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Errore bat gertatu da konfigurazioa editatzean: %s"
+
+msgid "Exit"
+msgstr "Irten"
+
+msgid "Extended Shares"
+msgstr "Partaidetza hedatuak"
+
+msgid "Failed to revert file: %s"
+msgstr "Ezin izan da fitxategia leheneratu: %s"
+
+msgid "Find Fakes"
+msgstr "Aurkitu faltsuak"
+
+msgid "Force Update"
+msgstr "Behartu eguneratzea"
+
+msgid "Free memory"
+msgstr "Memoria librea"
+
+msgid "Free memory:"
+msgstr "Memoria librea:"
+
+msgid "Free:"
+msgstr "Doan:"
+
+msgid "General"
+msgstr "Orokorra"
+
+msgid "Get Link"
+msgstr "Lortu Link"
+
+msgid "Getting the list, please wait ..."
+msgstr "Zerrenda eskuratzen, itxaron mesedez..."
+
+msgid "Help"
+msgstr "Laguntza"
+
+msgid "Hops"
+msgstr "Lupulua"
+
+msgid "Hops:"
+msgstr "Lupulua:"
+
+msgid "Hostname:"
+msgstr "Ostalari izena:"
+
+msgid "IP Address"
+msgstr "IP helbidea"
+
+msgid "IP address"
+msgstr "IP helbidea"
+
+msgid "Idle Time:"
+msgstr "Denbora inaktiboa:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Aktibo badago: Deskargatu/Berrezarri zerbitzariaren konfigurazioa"
+
+msgid "Install Cam first!!!"
+msgstr "Instalatu Cam lehenik!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Garatzaileen eguneratzea (%s) instalatu?"
+
+msgid "Invalid HTML content!"
+msgstr "HTML eduki baliogabea!"
+
+msgid "Invalid URL!"
+msgstr "URL baliogabea!"
+
+msgid "Last Req."
+msgstr "Azken eskaria"
+
+msgid "Last used share:"
+msgstr "Erabilitako azken partekatzea:"
+
+msgid "Load"
+msgstr "Kargatu"
+
+msgid "Local box"
+msgstr "Tokiko kutxa"
+
+msgid "Location"
+msgstr "Kokapena"
+
+msgid "Log"
+msgstr "Erregistroa"
+
+msgid "Log %s-%s"
+msgstr "%s-%s erregistroa"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENUA EMM / ZERBITZUAREN KLINA"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Menuaren konfigurazioa"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo ez dago erabilgarri"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ez dago martxan: abiarazi Cam informazioa lortzeko."
+
+msgid "New"
+msgstr "Berria"
+
+msgid "New profile:"
+msgstr "Profil berria:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Ez dago ECM daturik"
+
+msgid "No ECM data - Timeout"
+msgstr "Ez dago ECM daturik - Denbora-muga"
+
+msgid "No ECM file"
+msgstr "Ez dago ECM fitxategirik"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Une honetan ez dago ECM informaziorik eskuragarri. Deszifratzen duzun bitartean bakarrik dago erabilgarri."
+
+msgid "No active cam to restart!"
+msgstr "Ez dago kamera aktiborik berrabiarazteko!"
+
+msgid "No backups available!"
+msgstr "Ez dago babeskopirik!"
+
+msgid "No card inserted!"
+msgstr "Ez da txartela sartu!"
+
+msgid "No softcams available!"
+msgstr "Ez dago softcamrik erabilgarri!"
+
+msgid "No valid backups found!"
+msgstr "Ez da baliozko babeskopirik aurkitu!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr "Nodo ID:"
+
+msgid "OK"
+msgstr "Ados"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam eguneratzea denbora-muga gainditu da. Xehetasunetarako begiratu /tmp/oscam_update.log."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo ez dago eskuragarri"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ez dago martxan: abiarazi Cam informazioa lortzeko."
+
+msgid "PRESS RETURN"
+msgstr "PRENTSA ITZULERA"
+
+msgid "Password"
+msgstr "Pasahitza"
+
+msgid "Password (httpwd)"
+msgstr "Pasahitza (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Zama gorena (langile-hari bakoitzeko gehieneko ilaran dauden eskaerak)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Mesedez, berrezarri - Ez dago CFG fitxategirik"
+
+msgid "Please select ..."
+msgstr "Mesedez, hautatu..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Mesedez, hautatu lerro bat editatzeko edo hautatu gehitu lerro berria sortzeko."
+
+msgid "Please wait, %s."
+msgstr "Mesedez, itxaron, %s."
+
+msgid "Port"
+msgstr "Portua"
+
+msgid "Profile"
+msgstr "Profila"
+
+msgid "Profile: Local box"
+msgstr "Profila: Tokiko kutxa"
+
+msgid "Protocol"
+msgstr "Protokoloa"
+
+msgid "Provider"
+msgstr "Hornitzailea"
+
+msgid "Provider Name:"
+msgstr "Hornitzailearen izena:"
+
+msgid "Provider:"
+msgstr "Hornitzailea:"
+
+msgid "Providers"
+msgstr "Hornitzaileak"
+
+msgid "Providers:"
+msgstr "Hornitzaileak:"
+
+msgid "Quick restart %s?"
+msgstr "%s berrabiarazi azkar?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Irakurri %s.conf-eko erabiltzaile-datuak"
+
+msgid "Reader"
+msgstr "Irakurlea"
+
+msgid "Reader Statistics"
+msgstr "Irakurleen Estatistikak"
+
+msgid "Reader/User"
+msgstr "Irakurlea/Erabiltzailea"
+
+msgid "Recover Peer"
+msgstr "Berreskuratu Peer"
+
+msgid "Remote box"
+msgstr "Urruneko kutxa"
+
+msgid "Remove"
+msgstr "Kendu"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Kendu lerroa CCcam.cfg-tik"
+
+msgid "Removing %s"
+msgstr "%s kentzen"
+
+msgid "Rename"
+msgstr "Aldatu izena"
+
+msgid "Rename failed!"
+msgstr "Ezin izan da izena aldatu!"
+
+msgid "Rename to:"
+msgstr "Aldatu izena hona:"
+
+msgid "Renamed %s!"
+msgstr "%s izena aldatu du!"
+
+msgid "Reset"
+msgstr "Berrezarri"
+
+msgid "Reshare"
+msgstr "Partekatu berriro"
+
+msgid "Reshare:"
+msgstr "Partekatu:"
+
+msgid "Resources"
+msgstr "Baliabideak"
+
+msgid "Restart GUI?"
+msgstr "GUI berrabiarazi?"
+
+msgid "Restart error: %s"
+msgstr "Berrabiarazi errorea: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Berrabiarazi softcam berrezarritako konfigurazioa aplikatzeko?"
+
+msgid "Save"
+msgstr "Gorde"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Softcam-a eskaneatzen eta berreskuratzen..."
+
+msgid "Select CCcam"
+msgstr "Hautatu CCcam"
+
+msgid "Select Get Link"
+msgstr "Hautatu Lortu esteka"
+
+msgid "Select Ncam"
+msgstr "Hautatu Ncam"
+
+msgid "Select OScam"
+msgstr "Hautatu OScam"
+
+msgid "Select Your Choice"
+msgstr "Hautatu Zure Aukera"
+
+msgid "Select a cam to run ..."
+msgstr "Hautatu exekutatzeko kamera bat..."
+
+msgid "Select and Install"
+msgstr "Hautatu eta instalatu"
+
+msgid "Select backup to restore:"
+msgstr "Hautatu babeskopia leheneratzeko:"
+
+msgid "Server %s-%s"
+msgstr "%s-%s zerbitzaria"
+
+msgid "Server Config"
+msgstr "Zerbitzariaren konfigurazioa"
+
+msgid "Server Copy in"
+msgstr "Zerbitzaria kopiatu"
+
+msgid "Server Link"
+msgstr "Zerbitzariaren esteka"
+
+msgid "Server Password"
+msgstr "Zerbitzariaren pasahitza"
+
+msgid "Server Port"
+msgstr "Zerbitzariaren ataka"
+
+msgid "Server URL"
+msgstr "Zerbitzariaren URLa"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Zerbitzariaren URLa, hau da, 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Zerbitzariaren erabiltzaile-izena"
+
+msgid "Server:"
+msgstr "Zerbitzaria:"
+
+msgid "Servers"
+msgstr "Zerbitzariak"
+
+msgid "Servers:"
+msgstr "Zerbitzariak:"
+
+msgid "Service"
+msgstr "Zerbitzua"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Ezarri BERDINEKO BAKARRA gisa"
+
+msgid "Setup"
+msgstr "Konfigurazioa"
+
+msgid "Share View"
+msgstr "Partekatu Ikuspegia"
+
+msgid "Shares"
+msgstr "Akzioak"
+
+msgid "Show Clients"
+msgstr "Erakutsi bezeroak"
+
+msgid "Show Ecm info"
+msgstr "Erakutsi Ecm informazioa"
+
+msgid "Show Log"
+msgstr "Erakutsi erregistroa"
+
+msgid "Show Readers/Proxies"
+msgstr "Erakutsi irakurleak/proxyak"
+
+msgid "Softcam Manager"
+msgstr "Softcam kudeatzailea"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam konfigurazio berriarekin berrabiarazi da!"
+
+msgid "Start"
+msgstr "Hasi"
+
+msgid "Status"
+msgstr "Egoera"
+
+msgid "Stop"
+msgstr "Gelditu"
+
+msgid "Stop Finding Fakes"
+msgstr "Utzi faltsuak aurkitzea"
+
+msgid "Switch config"
+msgstr "Aldatu konfigurazioa"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System cleanup completed!"
+msgstr "Sistemaren garbiketa amaitu da!"
+
+msgid "System:"
+msgstr "Sistema:"
+
+msgid "Temporarely DELETED"
+msgstr "Aldi baterako EZABATUTAKOA"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Plugin honek zure CCcam-aren egoera erakusten dizu"
+
+msgid "Total"
+msgstr "Guztira"
+
+msgid "Total cards:"
+msgstr "Txartelak guztira:"
+
+msgid "Total handled client ecm's"
+msgstr "Kudeatutako bezeroen ecm guztira"
+
+msgid "Total handled client emm's"
+msgstr "Kudeatutako bezeroen guztirakoak"
+
+msgid "Total:"
+msgstr "Guztira:"
+
+msgid "Try again later ..."
+msgstr "Saiatu berriro geroago..."
+
+msgid "Type:"
+msgstr "Mota:"
+
+msgid "UNDELETED"
+msgstr "EZABATUTA"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Ezin da script-a exekutagarri egin: %s"
+
+msgid "Unknow Image!"
+msgstr "Ezezagun Irudia!"
+
+msgid "Update"
+msgstr "Eguneratu"
+
+msgid "Update Aborted!"
+msgstr "Eguneratzea bertan behera utzi da!"
+
+msgid "Update interval (in seconds)"
+msgstr "Eguneratzeko tartea (segundotan)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Epea"
+
+msgid "Used:"
+msgstr "Erabilia:"
+
+msgid "Username"
+msgstr "Erabiltzaile izena"
+
+msgid "Username (httpuser)"
+msgstr "Erabiltzaile izena (httperabiltzailea)"
+
+msgid "Using old profile:"
+msgstr "Profil zaharra erabiliz:"
+
+msgid "Version:"
+msgstr "Bertsioa:"
+
+msgid "Wait please..."
+msgstr "Itxaron mesedez..."
+
+msgid "Write"
+msgstr "Idatzi"
+
+msgid "Write-Debug"
+msgstr "Idatzi-Araztu"
+
+msgid "You have the latest version!"
+msgstr "Azken bertsioa duzu!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tEman:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a EZER.TO.UNDELE"
+
+msgid "address:"
+msgstr "helbidea:"
+
+msgid "and"
+msgstr "eta"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "txartela"
+
+msgid "card reader"
+msgstr "txartel irakurgailua"
+
+msgid "close share view"
+msgstr "hurbil partekatzeko ikuspegia"
+
+msgid "decrease uphop by 1"
+msgstr "igoera 1 gutxitu"
+
+msgid "ecm time:"
+msgstr "ecm denbora:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "eskuratu txartelen zerbitzaria"
+
+msgid "handled"
+msgstr "maneiatu"
+
+msgid "hops:"
+msgstr "lupulua:"
+
+msgid "increase uphop by 1"
+msgstr "igoera 1ean"
+
+msgid "info"
+msgstr "informazioa"
+
+msgid "no or unknown card inserted"
+msgstr "txartela ez edo ezezaguna sartuta"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "eman:"
+
+msgid "provider:"
+msgstr "hornitzailea:"
+
+msgid "share:"
+msgstr "partekatu:"
+
+msgid "show all cards"
+msgstr "erakutsi karta guztiak"
+
+msgid "show cards with uphop 0"
+msgstr "erakutsi uphop 0 duten txartelak"
+
+msgid "show cards with uphop 1"
+msgstr "erakutsi txartelak uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "erakutsi txartelak uphop 2rekin"
+
+msgid "show cards with uphop 3"
+msgstr "erakutsi txartelak uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "erakutsi txartelak uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "erakutsi txartelak uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "erakutsi txartelak uphop 6rekin"
+
+msgid "show cards with uphop 7"
+msgstr "erakutsi txartelak uphop 7rekin"
+
+msgid "show cards with uphop 8"
+msgstr "erakutsi txartelak uphop 8rekin"
+
+msgid "show cards with uphop 9"
+msgstr "erakutsi txartelak uphop 9 batekin"
+
+msgid "system:"
+msgstr "sistema:"
+
+msgid "using:"
+msgstr "erabiliz:"
+
+msgid "xLine"
+msgstr "xLerroa"

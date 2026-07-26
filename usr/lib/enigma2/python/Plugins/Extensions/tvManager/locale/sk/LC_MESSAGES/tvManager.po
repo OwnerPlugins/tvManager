@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 01:52+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s karty)"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info - Konfigurácia"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Info - Hlavná ponuka"
+
+msgid "%s restarted successfully!"
+msgstr "%s úspešne reštartovaný!"
+
+msgid "%s webif disabled"
+msgstr "%s webif zakázané"
+
+msgid "(All readers)"
+msgstr "(Všetci čitatelia)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Zobraziť iba čitateľa) (%s)"
+
+msgid "About"
+msgstr "O"
+
+msgid "Activate"
+msgstr "Aktivovať"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Aktivujte vložiť riadok v konfiguračnom súbore:"
+
+msgid "Active clients"
+msgstr "Aktívni klienti"
+
+msgid "Add"
+msgstr "Pridať"
+
+msgid "Add new CCcam line"
+msgstr "Pridať nový rad CCcam"
+
+msgid "Add new NewCamd line"
+msgstr "Pridať nový riadok NewCamd"
+
+msgid "Address"
+msgstr "Adresa"
+
+msgid "All"
+msgstr "Všetky"
+
+msgid "An error occurred in the green function."
+msgstr "V zelenej funkcii sa vyskytla chyba."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Vyskytla sa neočakávaná chyba: %s"
+
+msgid "Ask all caid"
+msgstr "Opýtajte sa všetkých caid"
+
+msgid "Ask for the selection caid"
+msgstr "Požiadajte o výber caid"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Automaticky aktualizovať zobrazenie klienta/servera?"
+
+msgid "Available shares:"
+msgstr "Dostupné zdieľania:"
+
+msgid "Back"
+msgstr "Späť"
+
+msgid "Backup failed!"
+msgstr "Zálohovanie zlyhalo!"
+
+msgid "Backup restoration failed!"
+msgstr "Obnovenie zálohy zlyhalo!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Nastavenia CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "Automatické spustenie CCPrioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Informácie o klientoch CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "Informácie o CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "Informácie o CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Informácie o CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "Konfigurácia informácií CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "Ponuka konfigurácie informácií CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr ""
+
+msgid "CCcam Line Editor"
+msgstr "Editor riadkov CCcam"
+
+msgid "CCcam Organizer"
+msgstr ""
+
+msgid "CCcam Prio Maker"
+msgstr "Tvorca CCcam Prio"
+
+msgid "CCcam Provider Info"
+msgstr "Informácie o poskytovateľovi CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Informácie na diaľku CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Informácie o serveri CCcam"
+
+msgid "CCcam Share Info"
+msgstr "Informácie o zdieľaní CCcam"
+
+msgid "CCcam Shares Info"
+msgstr "Informácie o zdieľaní CCcam"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "Editor základných čiar CCcam.cfg"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo nie je k dispozícii"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Cam na stiahnutie"
+
+msgid "Cancel"
+msgstr "Zrušiť"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Informácie o karte (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "karty:"
+
+msgid "Cards: 0"
+msgstr "Karty: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "kanál"
+
+msgid "Channel Name"
+msgstr "Názov kanála"
+
+msgid "Check Emm Send"
+msgstr "Začiarknite políčko Odoslať Emm"
+
+msgid "Choose CCcam-Reader"
+msgstr "Vyberte CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Vyberte si čítačku"
+
+msgid "Cleanup error: %s"
+msgstr "Chyba čistenia: %s"
+
+msgid "Client %s-%s"
+msgstr "Klient %s-%s"
+
+msgid "Clients"
+msgstr "klientov"
+
+msgid "Close"
+msgstr "Zavrieť"
+
+msgid "Command Cancelled"
+msgstr "Príkaz zrušený"
+
+msgid "Configfile %s saved."
+msgstr "Konfiguračný súbor %s bol uložený."
+
+msgid "Connected clients"
+msgstr "Pripojení klienti"
+
+msgid "Connected:"
+msgstr "Pripojené:"
+
+msgid "Content"
+msgstr "Obsah"
+
+msgid "Could not open the file %s!"
+msgstr "Nepodarilo sa otvoriť súbor %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Nepodarilo sa otvoriť súbor %s! Chyba: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Nepodarilo sa uložiť konfiguračný súbor %s! Chyba: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Nepodarilo sa uložiť konfiguračný súbor! Chyba: %s"
+
+msgid "Current time"
+msgstr "Aktuálny čas"
+
+msgid "Delete"
+msgstr "Odstrániť"
+
+msgid "Delete %s?"
+msgstr "Odstrániť %s?"
+
+msgid "Delete Peer"
+msgstr "Odstrániť Peer"
+
+msgid "Delete failed!"
+msgstr "Odstránenie zlyhalo!"
+
+msgid "Deleted %s!"
+msgstr "Odstránené %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Inštalujete tento plugin?"
+
+msgid "Do you want to execute the command?"
+msgstr "Chcete vykonať príkaz?"
+
+msgid "Do you want to remove?"
+msgstr "Chcete odstrániť?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Chcete reštartovať rozhranie Gui?"
+
+msgid "ECM data format error"
+msgstr "Chyba formátu údajov ECM"
+
+msgid "ECM error"
+msgstr "Chyba ECM"
+
+msgid "ECM file empty"
+msgstr "Súbor ECM je prázdny"
+
+msgid "ECM file not found"
+msgstr "Súbor ECM sa nenašiel"
+
+msgid "ECM read error"
+msgstr "Chyba čítania ECM"
+
+msgid "Ecm Info"
+msgstr "Informácie o ECM"
+
+msgid "Ecm Statistics"
+msgstr "Štatistika ECM"
+
+msgid "Ecm Time"
+msgstr "Ecm čas"
+
+msgid "Ecm avg"
+msgstr "Ecm priem"
+
+msgid "Ecm last"
+msgstr "Ecm posledný"
+
+msgid "Edit"
+msgstr "Upraviť"
+
+msgid "Editing one caid"
+msgstr "Úprava jedného caidu"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Nároky"
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "Error executing update script: %s"
+msgstr "Chyba pri vykonávaní skriptu aktualizácie: %s"
+
+msgid "Error getting resource information"
+msgstr "Chyba pri získavaní informácií o zdroji"
+
+msgid "Error loading system info:"
+msgstr "Chyba pri načítavaní informácií o systéme:"
+
+msgid "Error loading system information:"
+msgstr "Chyba pri načítavaní systémových informácií:"
+
+msgid "Error opening cam info: %s"
+msgstr "Chyba pri otváraní informácií o vačke: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Chyba pri otváraní konfiguračného súboru: %s"
+
+msgid "Error processing HTML!"
+msgstr "Chyba pri spracovaní HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Chyba pri spracovaní údajov doplnkov servera"
+
+msgid "Error reading webpage!"
+msgstr "Chyba pri čítaní webovej stránky!"
+
+msgid "Error stopping %s!"
+msgstr "Chyba pri zastavení %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Chyba pri úprave konfigurácie: %s"
+
+msgid "Exit"
+msgstr "VÝCHOD"
+
+msgid "Extended Shares"
+msgstr "Rozšírené akcie"
+
+msgid "Failed to revert file: %s"
+msgstr "Nepodarilo sa vrátiť súbor: %s"
+
+msgid "Find Fakes"
+msgstr "Nájdite falzifikáty"
+
+msgid "Force Update"
+msgstr "Vynútiť aktualizáciu"
+
+msgid "Free memory"
+msgstr "Voľná ​​pamäť"
+
+msgid "Free memory:"
+msgstr "Voľná ​​pamäť:"
+
+msgid "Free:"
+msgstr "zadarmo:"
+
+msgid "General"
+msgstr "generál"
+
+msgid "Get Link"
+msgstr "Získajte odkaz"
+
+msgid "Getting the list, please wait ..."
+msgstr "Načítava sa zoznam, čakajte prosím..."
+
+msgid "Help"
+msgstr "Pomoc"
+
+msgid "Hops"
+msgstr "Chmeľ"
+
+msgid "Hops:"
+msgstr "Chmeľ:"
+
+msgid "Hostname:"
+msgstr "Názov hostiteľa:"
+
+msgid "IP Address"
+msgstr "IP adresa"
+
+msgid "IP address"
+msgstr "IP adresa"
+
+msgid "Idle Time:"
+msgstr "Čas nečinnosti:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Ak je aktívny: Stiahnuť/resetovať konfiguráciu servera"
+
+msgid "Install Cam first!!!"
+msgstr "Najprv nainštalujte Cam!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Nainštalovať aktualizáciu pre vývojárov (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Neplatný obsah HTML!"
+
+msgid "Invalid URL!"
+msgstr "Neplatná adresa URL!"
+
+msgid "Last Req."
+msgstr "Posledná požiadavka"
+
+msgid "Last used share:"
+msgstr "Naposledy použité zdieľanie:"
+
+msgid "Load"
+msgstr "Načítať"
+
+msgid "Local box"
+msgstr "Miestny box"
+
+msgid "Location"
+msgstr "Poloha"
+
+msgid "Log"
+msgstr ""
+
+msgid "Log %s-%s"
+msgstr "Prihlásiť %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM / CLINE SERVERU"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Konfigurácia ponuky"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo nie je k dispozícii"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam nebeží - spustite Cam na získanie informácií."
+
+msgid "New"
+msgstr "Nové"
+
+msgid "New profile:"
+msgstr "Nový profil:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Žiadne údaje ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Žiadne údaje ECM – časový limit"
+
+msgid "No ECM file"
+msgstr "Žiadny súbor ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Momentálne nie sú k dispozícii žiadne informácie ECM. Toto je dostupné iba počas dešifrovania."
+
+msgid "No active cam to restart!"
+msgstr "Žiadna aktívna kamera na reštartovanie!"
+
+msgid "No backups available!"
+msgstr "Nie sú k dispozícii žiadne zálohy!"
+
+msgid "No card inserted!"
+msgstr "Nie je vložená karta!"
+
+msgid "No softcams available!"
+msgstr "Nie sú k dispozícii žiadne softcams!"
+
+msgid "No valid backups found!"
+msgstr "Nenašli sa žiadne platné zálohy!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Časový limit aktualizácie OSCam vypršal. Podrobnosti nájdete v /tmp/oscam_update.log."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo nie je k dispozícii"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam nebeží - spustite Cam a získajte informácie."
+
+msgid "PRESS RETURN"
+msgstr "STLAČTE SPÄŤ"
+
+msgid "Password"
+msgstr "heslo"
+
+msgid "Password (httpwd)"
+msgstr "heslo (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Maximálne zaťaženie (maximálny počet žiadostí vo fronte na pracovné vlákno)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Resetujte – žiadny súbor CFG"
+
+msgid "Please select ..."
+msgstr "Vyberte prosím..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Vyberte riadok, ktorý chcete upraviť, alebo výberom položky Pridať vytvorte nový riadok."
+
+msgid "Please wait, %s."
+msgstr "Počkajte, prosím, %s."
+
+msgid "Port"
+msgstr ""
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile: Local box"
+msgstr "Profil: Miestny box"
+
+msgid "Protocol"
+msgstr "Protokol"
+
+msgid "Provider"
+msgstr "Poskytovateľ"
+
+msgid "Provider Name:"
+msgstr "Meno poskytovateľa:"
+
+msgid "Provider:"
+msgstr "Poskytovateľ:"
+
+msgid "Providers"
+msgstr "Poskytovatelia"
+
+msgid "Providers:"
+msgstr "Poskytovatelia:"
+
+msgid "Quick restart %s?"
+msgstr "Rýchly reštart %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Prečítajte si údaje používateľa z %s.conf"
+
+msgid "Reader"
+msgstr "Čitateľ"
+
+msgid "Reader Statistics"
+msgstr "Štatistika čitateľa"
+
+msgid "Reader/User"
+msgstr "Čitateľ/používateľ"
+
+msgid "Recover Peer"
+msgstr "Obnoviť Peer"
+
+msgid "Remote box"
+msgstr "Vzdialený box"
+
+msgid "Remove"
+msgstr "Odstrániť"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Odstráňte riadok z CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Odstraňuje sa %s"
+
+msgid "Rename"
+msgstr "Premenovať"
+
+msgid "Rename failed!"
+msgstr "Premenovanie zlyhalo!"
+
+msgid "Rename to:"
+msgstr "Premenovať na:"
+
+msgid "Renamed %s!"
+msgstr "Premenované na %s!"
+
+msgid "Reset"
+msgstr "Resetovať"
+
+msgid "Reshare"
+msgstr "Opätovné zdieľanie"
+
+msgid "Reshare:"
+msgstr "zdieľať:"
+
+msgid "Resources"
+msgstr "Zdroje"
+
+msgid "Restart GUI?"
+msgstr "Reštartovať GUI?"
+
+msgid "Restart error: %s"
+msgstr "Chyba reštartu: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Reštartovať softcam, aby sa použila obnovená konfigurácia?"
+
+msgid "Save"
+msgstr "Uložiť"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Skenovanie a vyhľadávanie zoznamu softcam ..."
+
+msgid "Select CCcam"
+msgstr "Vyberte CCcam"
+
+msgid "Select Get Link"
+msgstr "Vyberte možnosť Získať odkaz"
+
+msgid "Select Ncam"
+msgstr "Vyberte Ncam"
+
+msgid "Select OScam"
+msgstr "Vyberte OScam"
+
+msgid "Select Your Choice"
+msgstr "Vyberte možnosť Vaša voľba"
+
+msgid "Select a cam to run ..."
+msgstr "Vyberte kameru, ktorú chcete spustiť..."
+
+msgid "Select and Install"
+msgstr "Vyberte a nainštalujte"
+
+msgid "Select backup to restore:"
+msgstr "Vyberte zálohu na obnovenie:"
+
+msgid "Server %s-%s"
+msgstr ""
+
+msgid "Server Config"
+msgstr "Konfigurácia servera"
+
+msgid "Server Copy in"
+msgstr ""
+
+msgid "Server Link"
+msgstr "Odkaz na server"
+
+msgid "Server Password"
+msgstr "Heslo servera"
+
+msgid "Server Port"
+msgstr "Port servera"
+
+msgid "Server URL"
+msgstr "Adresa URL servera"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Adresa URL servera, napr. 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Používateľské meno servera"
+
+msgid "Server:"
+msgstr ""
+
+msgid "Servers"
+msgstr "Servery"
+
+msgid "Servers:"
+msgstr "Servery:"
+
+msgid "Service"
+msgstr "servis"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Nastaviť ako UNIQUE PEER"
+
+msgid "Setup"
+msgstr "Nastavenie"
+
+msgid "Share View"
+msgstr "Zdieľať zobrazenie"
+
+msgid "Shares"
+msgstr "akcie"
+
+msgid "Show Clients"
+msgstr "Zobraziť klientov"
+
+msgid "Show Ecm info"
+msgstr "Zobraziť informácie o ECM"
+
+msgid "Show Log"
+msgstr "Zobraziť denník"
+
+msgid "Show Readers/Proxies"
+msgstr "Zobraziť čitateľov/zástupcov"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam sa reštartoval s novou konfiguráciou!"
+
+msgid "Start"
+msgstr "Štart"
+
+msgid "Status"
+msgstr "Stav"
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop Finding Fakes"
+msgstr "Prestaňte hľadať falzifikáty"
+
+msgid "Switch config"
+msgstr "Prepnúť konfiguráciu"
+
+msgid "System"
+msgstr "Systém"
+
+msgid "System cleanup completed!"
+msgstr "Čistenie systému dokončené!"
+
+msgid "System:"
+msgstr "systém:"
+
+msgid "Temporarely DELETED"
+msgstr "Dočasne VYMAZANÉ"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Tento doplnok vám zobrazuje stav vašej CCcam"
+
+msgid "Total"
+msgstr "Celkom"
+
+msgid "Total cards:"
+msgstr "Celkový počet kariet:"
+
+msgid "Total handled client ecm's"
+msgstr "Celkový počet spracovaných ECM klienta"
+
+msgid "Total handled client emm's"
+msgstr "Celkom spracovaných klientov emm"
+
+msgid "Total:"
+msgstr "Celkom:"
+
+msgid "Try again later ..."
+msgstr "Skúste to neskôr..."
+
+msgid "Type:"
+msgstr "Typ:"
+
+msgid "UNDELETED"
+msgstr "NEVYMAZANÝ"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Nedá sa urobiť skript spustiteľným: %s"
+
+msgid "Unknow Image!"
+msgstr "Neznámy obrázok!"
+
+msgid "Update"
+msgstr "Aktualizovať"
+
+msgid "Update Aborted!"
+msgstr "Aktualizácia prerušená!"
+
+msgid "Update interval (in seconds)"
+msgstr "Interval aktualizácie (v sekundách)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Used:"
+msgstr "Použité:"
+
+msgid "Username"
+msgstr "Používateľské meno"
+
+msgid "Username (httpuser)"
+msgstr "Používateľské meno (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Použitie starého profilu:"
+
+msgid "Version:"
+msgstr "Verzia:"
+
+msgid "Wait please..."
+msgstr "Počkaj prosím..."
+
+msgid "Write"
+msgstr "Napíšte"
+
+msgid "Write-Debug"
+msgstr ""
+
+msgid "You have the latest version!"
+msgstr "Máte najnovšiu verziu!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tPoskytnite:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a NIČ.K.ODBÚRAŤ"
+
+msgid "address:"
+msgstr "adresa:"
+
+msgid "and"
+msgstr "a"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kartu"
+
+msgid "card reader"
+msgstr "čítačka kariet"
+
+msgid "close share view"
+msgstr "zavrieť zdieľaný pohľad"
+
+msgid "decrease uphop by 1"
+msgstr "znížiť vzostup o 1"
+
+msgid "ecm time:"
+msgstr "ECM čas:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "získajte server kariet"
+
+msgid "handled"
+msgstr "spracované"
+
+msgid "hops:"
+msgstr "chmeľ:"
+
+msgid "increase uphop by 1"
+msgstr "zvýšiť vzostup o 1"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "nie je vložená žiadna alebo neznáma karta"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "poskytnúť:"
+
+msgid "provider:"
+msgstr "poskytovateľ:"
+
+msgid "share:"
+msgstr "zdieľať:"
+
+msgid "show all cards"
+msgstr "ukázať všetky karty"
+
+msgid "show cards with uphop 0"
+msgstr "zobraziť karty s uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "ukázať karty s uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "ukázať karty s uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "ukázať karty s uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "ukázať karty s uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "ukázať karty s uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "ukázať karty s uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "ukázať karty s uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "ukázať karty s uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "ukázať karty s uphop 9"
+
+msgid "system:"
+msgstr "systém:"
+
+msgid "using:"
+msgstr "pomocou:"
+
+msgid "xLine"
+msgstr ""

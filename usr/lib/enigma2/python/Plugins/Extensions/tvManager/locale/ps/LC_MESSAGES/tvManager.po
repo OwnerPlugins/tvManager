@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 01:38+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Pashto\n"
+"Language: ps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s کارتونه)"
+
+msgid "%s Info - Configuration"
+msgstr "%s معلومات - ترتیب"
+
+msgid "%s Info - Main Menu"
+msgstr "%s معلومات - اصلي مینو"
+
+msgid "%s restarted successfully!"
+msgstr "%s په بریالیتوب سره بیا پیل شو!"
+
+msgid "%s webif disabled"
+msgstr "%s ویب که غیر فعال شوی"
+
+msgid "(All readers)"
+msgstr "(ټول لوستونکي)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(یوازې لوستونکی وښایاست) (%s)"
+
+msgid "About"
+msgstr "په اړه"
+
+msgid "Activate"
+msgstr "فعالول"
+
+msgid "Activate Insert line in Config File:"
+msgstr "په کنفګ فایل کې د داخلولو لاین فعال کړئ:"
+
+msgid "Active clients"
+msgstr "فعال پیرودونکي"
+
+msgid "Add"
+msgstr "اضافه کړئ"
+
+msgid "Add new CCcam line"
+msgstr "نوی CCcam لاین اضافه کړئ"
+
+msgid "Add new NewCamd line"
+msgstr "نوی NewCamd لاین اضافه کړئ"
+
+msgid "Address"
+msgstr "پته"
+
+msgid "All"
+msgstr "ټول"
+
+msgid "An error occurred in the green function."
+msgstr "په شنه فعالیت کې یوه تېروتنه رامنځته شوه."
+
+msgid "An unexpected error occurred: %s"
+msgstr "یوه ناڅاپي تېروتنه رامنځته شوه: %s"
+
+msgid "Ask all caid"
+msgstr "له ټولو کیډ څخه پوښتنه وکړئ"
+
+msgid "Ask for the selection caid"
+msgstr "د انتخاب کیډ غوښتنه وکړئ"
+
+msgid "Automatically update Client/Server View?"
+msgstr "په اتوماتيک ډول د پیرودونکي/سرور لید تازه کړئ؟"
+
+msgid "Available shares:"
+msgstr "شته ونډې:"
+
+msgid "Back"
+msgstr "شاته"
+
+msgid "Backup failed!"
+msgstr "بیک اپ ناکام شو!"
+
+msgid "Backup restoration failed!"
+msgstr "د بیک اپ بیا رغونه ناکامه شوه!"
+
+msgid "CCPrioMaker Settings"
+msgstr "د CCPrioMaker ترتیبات"
+
+msgid "CCPrioMaker autostart"
+msgstr "د CCPrioMaker اتوماتیک پیل"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "د CCcam مراجعینو معلومات"
+
+msgid "CCcam Config Switcher"
+msgstr "د CCcam کنفیګ سویچر"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM معلومات"
+
+msgid "CCcam Info"
+msgstr "د CCcam معلومات"
+
+msgid "CCcam Info %s"
+msgstr "د CCcam معلومات %s"
+
+msgid "CCcam Info Config"
+msgstr "د CCcam معلوماتو ترتیب"
+
+msgid "CCcam Info Config Menu"
+msgstr "د CCcam معلوماتو ترتیب مینو"
+
+msgid "CCcam Line Edit Actions"
+msgstr "د CCcam لاین ایډیټ کړنې"
+
+msgid "CCcam Line Editor"
+msgstr "د CCcam لاین مدیر"
+
+msgid "CCcam Organizer"
+msgstr "د CCcam تنظیم کوونکی"
+
+msgid "CCcam Prio Maker"
+msgstr "د CCcam Prio جوړونکی"
+
+msgid "CCcam Provider Info"
+msgstr "د CCcam چمتو کونکي معلومات"
+
+msgid "CCcam Remote Info"
+msgstr "د CCcam ریموټ معلومات"
+
+msgid "CCcam Server Info"
+msgstr "د CCcam سرور معلومات"
+
+msgid "CCcam Share Info"
+msgstr "CCcam د معلوماتو شریکول"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam د معلوماتو شریکول"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg د بنسټیز لاین مدیر"
+
+msgid "CCcamInfo not available"
+msgstr "د CCcamInfo شتون نلري"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "کید"
+
+msgid "Caid:"
+msgstr "کید:"
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "کیم ډاونلوډ کړئ"
+
+msgid "Cancel"
+msgstr "لغوه کړئ"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "د کارت معلومات (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "کارتونه:"
+
+msgid "Cards: 0"
+msgstr "کارتونه: 0"
+
+msgid "Cardserial"
+msgstr "کارتسیریل"
+
+msgid "Channel"
+msgstr "چینل"
+
+msgid "Channel Name"
+msgstr "د چینل نوم"
+
+msgid "Check Emm Send"
+msgstr "د ایم ایم لیږل چیک کړئ"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader غوره کړئ"
+
+msgid "Choose reader"
+msgstr "لوستونکی غوره کړئ"
+
+msgid "Cleanup error: %s"
+msgstr "د پاکولو تېروتنه: %s"
+
+msgid "Client %s-%s"
+msgstr "پیرودونکي %s-%s"
+
+msgid "Clients"
+msgstr "مراجعین"
+
+msgid "Close"
+msgstr "تړل"
+
+msgid "Command Cancelled"
+msgstr "کمانډ لغوه شو"
+
+msgid "Configfile %s saved."
+msgstr "کنفیګ فایل %s خوندي شو."
+
+msgid "Connected clients"
+msgstr "تړل شوي پیرودونکي"
+
+msgid "Connected:"
+msgstr "نښلول:"
+
+msgid "Content"
+msgstr "منځپانګه"
+
+msgid "Could not open the file %s!"
+msgstr "فایل %s خلاص نشو!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "فایل %s خلاص نشو! تېروتنه: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "د %s د تشکیل فایل خوندي نه شو! تېروتنه: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "د تشکیل فایل خوندي نشو کولی! تېروتنه: %s"
+
+msgid "Current time"
+msgstr "اوسنی وخت"
+
+msgid "Delete"
+msgstr "ړنګول"
+
+msgid "Delete %s?"
+msgstr "%s حذف کړئ؟"
+
+msgid "Delete Peer"
+msgstr "پیر ړنګ کړئ"
+
+msgid "Delete failed!"
+msgstr "ړنګول ناکام شول!"
+
+msgid "Deleted %s!"
+msgstr "ړنګ شوی %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "ایا تاسو دا پلگ ان نصب کوئ؟"
+
+msgid "Do you want to execute the command?"
+msgstr "ایا تاسو غواړئ کمانډ اجرا کړئ؟"
+
+msgid "Do you want to remove?"
+msgstr "ایا تاسو غواړئ لرې کړئ؟"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "ایا تاسو غواړئ د Gui انٹرفیس بیا پیل کړئ؟"
+
+msgid "ECM data format error"
+msgstr "د ECM ډیټا فارمیټ تېروتنه"
+
+msgid "ECM error"
+msgstr "د ECM تېروتنه"
+
+msgid "ECM file empty"
+msgstr "د ECM فایل خالي دی"
+
+msgid "ECM file not found"
+msgstr "د ECM فایل ونه موندل شو"
+
+msgid "ECM read error"
+msgstr "د ECM لوستلو تېروتنه"
+
+msgid "Ecm Info"
+msgstr "د Ecm معلومات"
+
+msgid "Ecm Statistics"
+msgstr "د Ecm احصایې"
+
+msgid "Ecm Time"
+msgstr "د Ecm وخت"
+
+msgid "Ecm avg"
+msgstr "Ecm اوسط"
+
+msgid "Ecm last"
+msgstr "Ecm وروستی"
+
+msgid "Edit"
+msgstr "سمون"
+
+msgid "Editing one caid"
+msgstr "د یو کیډ ترمیم کول"
+
+msgid "Emm Info"
+msgstr "د ارم معلومات"
+
+msgid "Entitlements"
+msgstr "استحقاق"
+
+msgid "Error"
+msgstr "تېروتنه"
+
+msgid "Error executing update script: %s"
+msgstr "د تازه سکریپټ په اجرا کولو کې تېروتنه: %s"
+
+msgid "Error getting resource information"
+msgstr "د سرچینې معلوماتو ترلاسه کولو کې تېروتنه"
+
+msgid "Error loading system info:"
+msgstr "د سیسټم معلوماتو بارولو کې تېروتنه:"
+
+msgid "Error loading system information:"
+msgstr "د سیسټم معلوماتو بارولو کې تېروتنه:"
+
+msgid "Error opening cam info: %s"
+msgstr "د کامرې د معلوماتو په خلاصولو کې تېروتنه: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "د تشکیلاتو دوتنې په پرانیستلو کې تېروتنه: %s"
+
+msgid "Error processing HTML!"
+msgstr "د HTML پروسس کولو تېروتنه!"
+
+msgid "Error processing server addons data"
+msgstr "د سرور اډون ډیټا پروسس کولو کې تېروتنه"
+
+msgid "Error reading webpage!"
+msgstr "د ویب پاڼې په لوستلو کې تېروتنه!"
+
+msgid "Error stopping %s!"
+msgstr "د %s د بندولو تېروتنه!"
+
+msgid "Error while editing configuration: %s"
+msgstr "د ترتیب کولو په وخت کې تېروتنه: %s"
+
+msgid "Exit"
+msgstr "وتل"
+
+msgid "Extended Shares"
+msgstr "پراخ شوي ونډې"
+
+msgid "Failed to revert file: %s"
+msgstr "د دوتنې په راګرځولو کې پاتې راغلی: %s"
+
+msgid "Find Fakes"
+msgstr "جعلي ومومئ"
+
+msgid "Force Update"
+msgstr "د ځواک تازه کول"
+
+msgid "Free memory"
+msgstr "وړیا حافظه"
+
+msgid "Free memory:"
+msgstr "وړیا حافظه:"
+
+msgid "Free:"
+msgstr "وړيا:"
+
+msgid "General"
+msgstr "جنرال"
+
+msgid "Get Link"
+msgstr "لینک ترلاسه کړئ"
+
+msgid "Getting the list, please wait ..."
+msgstr "لیست ترلاسه کول، مهرباني وکړئ انتظار وکړئ ..."
+
+msgid "Help"
+msgstr "مرسته"
+
+msgid "Hops"
+msgstr "هپس"
+
+msgid "Hops:"
+msgstr "هپس:"
+
+msgid "Hostname:"
+msgstr "کوربه نوم:"
+
+msgid "IP Address"
+msgstr "IP پته"
+
+msgid "IP address"
+msgstr "IP پته"
+
+msgid "Idle Time:"
+msgstr "بې کاره وخت:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "که فعال وي: د سرور کنفیګ ډاونلوډ/ری سیٹ کړئ"
+
+msgid "Install Cam first!!!"
+msgstr "لومړی کیم نصب کړئ !!!"
+
+msgid "Install developer update (%s)?"
+msgstr "د پراختیا کونکي تازه (%s) نصب کړئ؟"
+
+msgid "Invalid HTML content!"
+msgstr "ناسم HTML منځپانګه!"
+
+msgid "Invalid URL!"
+msgstr "ناسم URL!"
+
+msgid "Last Req."
+msgstr "وروستۍ غوښتنه"
+
+msgid "Last used share:"
+msgstr "وروستۍ کارول شوې برخه:"
+
+msgid "Load"
+msgstr "بار"
+
+msgid "Local box"
+msgstr "محلي بکس"
+
+msgid "Location"
+msgstr "ځای"
+
+msgid "Log"
+msgstr "ننوتل"
+
+msgid "Log %s-%s"
+msgstr "ننوتل %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "د مینو ترتیب"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo شتون نلري"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam نه چلیږي - د معلوماتو ترلاسه کولو لپاره کیم پیل کړئ."
+
+msgid "New"
+msgstr "نوی"
+
+msgid "New profile:"
+msgstr "نوی پروفایل:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "د ECM ډاټا نشته"
+
+msgid "No ECM data - Timeout"
+msgstr "د ECM ډاټا نشته - وخت پای"
+
+msgid "No ECM file"
+msgstr "د ECM فایل نشته"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "اوس مهال د ECM هیڅ معلومات شتون نلري. دا یوازې د کوډ کولو پرمهال شتون لري."
+
+msgid "No active cam to restart!"
+msgstr "د بیا پیل کولو لپاره هیڅ فعال کیمر نشته!"
+
+msgid "No backups available!"
+msgstr "هیڅ بیک اپ شتون نلري!"
+
+msgid "No card inserted!"
+msgstr "هیڅ کارت نه دی داخل شوی!"
+
+msgid "No softcams available!"
+msgstr "هیڅ سافټ کیمونه شتون نلري!"
+
+msgid "No valid backups found!"
+msgstr "هیڅ معتبر بیک اپ ونه موندل شو!"
+
+msgid "NodeID"
+msgstr "نوډ ID"
+
+msgid "NodeID:"
+msgstr "نوډ ID:"
+
+msgid "OK"
+msgstr "سمه ده"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "د OSCam تازه وخت پای ته ورسید. د جزیاتو لپاره /tmp/oscam_update.log وګورئ."
+
+msgid "OSCamInfo not available"
+msgstr "د OSCamInfo شتون نلري"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "اوسکام نه چلیږي - د معلوماتو ترلاسه کولو لپاره کیم پیل کړئ."
+
+msgid "PRESS RETURN"
+msgstr "د بیرته ستنیدو فشار ورکړئ"
+
+msgid "Password"
+msgstr "رمز"
+
+msgid "Password (httpwd)"
+msgstr "پټنوم (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "لوړ بار (د هر کارکټر تاریډ اعظمي قطار غوښتنې)"
+
+msgid "Pid"
+msgstr "پیډ"
+
+msgid "Please Reset - No File CFG"
+msgstr "مهرباني وکړئ بیا تنظیم کړئ - د CFG فایل نشته"
+
+msgid "Please select ..."
+msgstr "مهرباني وکړئ غوره کړئ ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "مهرباني وکړئ د سمون لپاره یوه کرښه وټاکئ یا د نوې کرښې جوړولو لپاره اضافه غوره کړئ."
+
+msgid "Please wait, %s."
+msgstr "مهرباني وکړئ انتظار وکړئ، %s."
+
+msgid "Port"
+msgstr "پورټ"
+
+msgid "Profile"
+msgstr "پروفایل"
+
+msgid "Profile: Local box"
+msgstr "پېژندنه: محلي بکس"
+
+msgid "Protocol"
+msgstr "پروتوکول"
+
+msgid "Provider"
+msgstr "چمتو کوونکی"
+
+msgid "Provider Name:"
+msgstr "د برابرونکي نوم:"
+
+msgid "Provider:"
+msgstr "وړاندې کوونکی:"
+
+msgid "Providers"
+msgstr "برابرونکي"
+
+msgid "Providers:"
+msgstr "وړاندې کوونکي:"
+
+msgid "Quick restart %s?"
+msgstr "سمدستي بیا پیل کول %s؟"
+
+msgid "Read Userdata from %s.conf"
+msgstr "د %s.conf څخه د کاروونکي ډاټا ولولئ"
+
+msgid "Reader"
+msgstr "لوستونکی"
+
+msgid "Reader Statistics"
+msgstr "د لوستونکي احصایې"
+
+msgid "Reader/User"
+msgstr "لوستونکی/کاروونکی"
+
+msgid "Recover Peer"
+msgstr "پییر بیرته ترلاسه کړئ"
+
+msgid "Remote box"
+msgstr "ریموټ بکس"
+
+msgid "Remove"
+msgstr "لرې کړئ"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "کرښه له CCcam.cfg څخه لرې کړئ"
+
+msgid "Removing %s"
+msgstr "%s لرې کول"
+
+msgid "Rename"
+msgstr "نوم بدل کړئ"
+
+msgid "Rename failed!"
+msgstr "نوم بدلول ناکام شول!"
+
+msgid "Rename to:"
+msgstr "نوم یې بدل کړئ:"
+
+msgid "Renamed %s!"
+msgstr "نوم بدل شو %s!"
+
+msgid "Reset"
+msgstr "بیا تنظیم کړئ"
+
+msgid "Reshare"
+msgstr "بیا شریکول"
+
+msgid "Reshare:"
+msgstr "شریکول:"
+
+msgid "Resources"
+msgstr "سرچینې"
+
+msgid "Restart GUI?"
+msgstr "GUI بیا پیل کړئ؟"
+
+msgid "Restart error: %s"
+msgstr "د بیا پیل کولو تېروتنه: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "د بحال شوي ترتیب پلي کولو لپاره سافټ کیم بیا پیل کړئ؟"
+
+msgid "Save"
+msgstr "خوندي کړئ"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "د سافټ کیم سکین کولو او ترلاسه کولو لیست ..."
+
+msgid "Select CCcam"
+msgstr "CCcam غوره کړئ"
+
+msgid "Select Get Link"
+msgstr "لینک ترلاسه کړئ غوره کړئ"
+
+msgid "Select Ncam"
+msgstr "Ncam غوره کړئ"
+
+msgid "Select OScam"
+msgstr "OScam غوره کړئ"
+
+msgid "Select Your Choice"
+msgstr "خپل انتخاب وټاکئ"
+
+msgid "Select a cam to run ..."
+msgstr "د چلولو لپاره کیم غوره کړئ ..."
+
+msgid "Select and Install"
+msgstr "وټاکئ او نصب کړئ"
+
+msgid "Select backup to restore:"
+msgstr "د بیا رغولو لپاره بیک اپ غوره کړئ:"
+
+msgid "Server %s-%s"
+msgstr "سرور %s-%s"
+
+msgid "Server Config"
+msgstr "د سرور ترتیب"
+
+msgid "Server Copy in"
+msgstr "سرور کاپي دننه کړئ"
+
+msgid "Server Link"
+msgstr "د سرور لینک"
+
+msgid "Server Password"
+msgstr "د سرور پټنوم"
+
+msgid "Server Port"
+msgstr "د سرور بندر"
+
+msgid "Server URL"
+msgstr "د سرور URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "د سرور یو آر ایل یعنی 012.345.678.900"
+
+msgid "Server Username"
+msgstr "د سرور کارن نوم"
+
+msgid "Server:"
+msgstr "سرور:"
+
+msgid "Servers"
+msgstr "سرورونه"
+
+msgid "Servers:"
+msgstr "سرورونه:"
+
+msgid "Service"
+msgstr "خدمت"
+
+msgid "Set as UNIQUE PEER"
+msgstr "د یونیک پیر په توګه تنظیم کړئ"
+
+msgid "Setup"
+msgstr "چمتو کول"
+
+msgid "Share View"
+msgstr "نظر شریک کړئ"
+
+msgid "Shares"
+msgstr "ونډې"
+
+msgid "Show Clients"
+msgstr "مراجعین ښکاره کړئ"
+
+msgid "Show Ecm info"
+msgstr "د Ecm معلومات ښکاره کړئ"
+
+msgid "Show Log"
+msgstr "ننداره"
+
+msgid "Show Readers/Proxies"
+msgstr "لوستونکي / پراکسي ښکاره کړئ"
+
+msgid "Softcam Manager"
+msgstr "د سافټ کیم مدیر"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "سافټ کیم د نوي ترتیب سره بیا پیل شو!"
+
+msgid "Start"
+msgstr "پیل"
+
+msgid "Status"
+msgstr "حالت"
+
+msgid "Stop"
+msgstr "ودریږي"
+
+msgid "Stop Finding Fakes"
+msgstr "د جعلي موندلو مخه ونیسئ"
+
+msgid "Switch config"
+msgstr "ترتیب بدل کړئ"
+
+msgid "System"
+msgstr "سیسټم"
+
+msgid "System cleanup completed!"
+msgstr "د سیسټم پاکول بشپړ شول!"
+
+msgid "System:"
+msgstr "سیسټم:"
+
+msgid "Temporarely DELETED"
+msgstr "په لنډمهاله توګه ړنګ شوی"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "دا پلگ ان تاسو ته ستاسو د CCcam وضعیت ښیې"
+
+msgid "Total"
+msgstr "ټول"
+
+msgid "Total cards:"
+msgstr "ټول کارتونه:"
+
+msgid "Total handled client ecm's"
+msgstr "ټول سمبال شوي پیرودونکي ECMs"
+
+msgid "Total handled client emm's"
+msgstr "ټول سمبال شوي پیرودونکي emm's"
+
+msgid "Total:"
+msgstr "ټولټال:"
+
+msgid "Try again later ..."
+msgstr "وروسته بیا هڅه وکړئ ..."
+
+msgid "Type:"
+msgstr "ډول:"
+
+msgid "UNDELETED"
+msgstr "ړنګ شوی"
+
+msgid "Unable to make the script executable: %s"
+msgstr "د سکریپټ د اجرا وړ کولو توان نلري: %s"
+
+msgid "Unknow Image!"
+msgstr "ناڅرګند انځور!"
+
+msgid "Update"
+msgstr "تازه کول"
+
+msgid "Update Aborted!"
+msgstr "تازه کول لغوه شوي!"
+
+msgid "Update interval (in seconds)"
+msgstr "د تازه کولو وقفه (په ثانیو کې)"
+
+msgid "Uphops +"
+msgstr "uphops +"
+
+msgid "Uphops -"
+msgstr "اپپس -"
+
+msgid "Uphops:"
+msgstr "اپپس:"
+
+msgid "Uptime"
+msgstr "وخت"
+
+msgid "Used:"
+msgstr "کارول شوي:"
+
+msgid "Username"
+msgstr "کارن نوم"
+
+msgid "Username (httpuser)"
+msgstr "کارن نوم (httpuser)"
+
+msgid "Using old profile:"
+msgstr "د زاړه پروفایل کارول:"
+
+msgid "Version:"
+msgstr "نسخه:"
+
+msgid "Wait please..."
+msgstr "مهرباني وکړئ انتظار وکړئ ..."
+
+msgid "Write"
+msgstr "ولیکئ"
+
+msgid "Write-Debug"
+msgstr "ولیکئ - ډیبګ"
+
+msgid "You have the latest version!"
+msgstr "تاسو وروستۍ نسخه لرئ!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "برابرول:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "A NOTHING.TO.UNDELE"
+
+msgid "address:"
+msgstr "پته:"
+
+msgid "and"
+msgstr "او"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "کارت"
+
+msgid "card reader"
+msgstr "کارت لوستونکی"
+
+msgid "close share view"
+msgstr "نږدې شریک لید"
+
+msgid "decrease uphop by 1"
+msgstr "د 1 لخوا پورته ښکته کول"
+
+msgid "ecm time:"
+msgstr "د ecm وخت:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "د کارتونو سرور ترلاسه کړئ"
+
+msgid "handled"
+msgstr "سمبال شوی"
+
+msgid "hops:"
+msgstr "هپس:"
+
+msgid "increase uphop by 1"
+msgstr "د 1 لخوا پورته کول"
+
+msgid "info"
+msgstr "معلومات"
+
+msgid "no or unknown card inserted"
+msgstr "نه یا نامعلوم کارت داخل شوی"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "برابرول:"
+
+msgid "provider:"
+msgstr "وړاندې کوونکی:"
+
+msgid "share:"
+msgstr "شریکول:"
+
+msgid "show all cards"
+msgstr "ټول کارتونه وښایاست"
+
+msgid "show cards with uphop 0"
+msgstr "د uphop 0 سره کارتونه ښکاره کړئ"
+
+msgid "show cards with uphop 1"
+msgstr "د uphop 1 سره کارتونه ښکاره کړئ"
+
+msgid "show cards with uphop 2"
+msgstr "د uphop 2 سره کارتونه ښکاره کړئ"
+
+msgid "show cards with uphop 3"
+msgstr "د uphop 3 سره کارتونه ښکاره کړئ"
+
+msgid "show cards with uphop 4"
+msgstr "د uphop 4 سره کارتونه ښکاره کړئ"
+
+msgid "show cards with uphop 5"
+msgstr "د uphop 5 سره کارتونه ښکاره کړئ"
+
+msgid "show cards with uphop 6"
+msgstr "د uphop 6 سره کارتونه ښکاره کړئ"
+
+msgid "show cards with uphop 7"
+msgstr "د uphop 7 سره کارتونه ښکاره کړئ"
+
+msgid "show cards with uphop 8"
+msgstr "د uphop 8 سره کارتونه ښکاره کړئ"
+
+msgid "show cards with uphop 9"
+msgstr "د uphop 9 سره کارتونه ښکاره کړئ"
+
+msgid "system:"
+msgstr "سیسټم:"
+
+msgid "using:"
+msgstr "کارول:"
+
+msgid "xLine"
+msgstr ""

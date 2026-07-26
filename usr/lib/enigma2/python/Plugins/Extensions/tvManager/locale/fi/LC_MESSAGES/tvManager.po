@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 22:59+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s korttia )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info - Asetukset"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Info - Päävalikko"
+
+msgid "%s restarted successfully!"
+msgstr "%s käynnistyi uudelleen onnistuneesti!"
+
+msgid "%s webif disabled"
+msgstr "%s verkko on poistettu käytöstä"
+
+msgid "(All readers)"
+msgstr "(Kaikki lukijat)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Näytä vain lukija) (%s)"
+
+msgid "About"
+msgstr "Noin"
+
+msgid "Activate"
+msgstr "Aktivoida"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Aktivoi Lisää rivi asetustiedostossa:"
+
+msgid "Active clients"
+msgstr "Aktiivisia asiakkaita"
+
+msgid "Add"
+msgstr "Lisätä"
+
+msgid "Add new CCcam line"
+msgstr "Lisää uusi CCcam-rivi"
+
+msgid "Add new NewCamd line"
+msgstr "Lisää uusi NewCamd-rivi"
+
+msgid "Address"
+msgstr "Osoite"
+
+msgid "All"
+msgstr "Kaikki"
+
+msgid "An error occurred in the green function."
+msgstr "Vihreässä toiminnossa tapahtui virhe."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Tapahtui odottamaton virhe: %s"
+
+msgid "Ask all caid"
+msgstr "Kysy kaikilta"
+
+msgid "Ask for the selection caid"
+msgstr "Pyydä valintaavustaja"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Päivitetäänkö asiakas/palvelinnäkymä automaattisesti?"
+
+msgid "Available shares:"
+msgstr "Saatavilla olevat osakkeet:"
+
+msgid "Back"
+msgstr "Takaisin"
+
+msgid "Backup failed!"
+msgstr "Varmuuskopiointi epäonnistui!"
+
+msgid "Backup restoration failed!"
+msgstr "Varmuuskopion palauttaminen epäonnistui!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker-asetukset"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker automaattinen käynnistys"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam-asiakastiedot"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM-tiedot"
+
+msgid "CCcam Info"
+msgstr "CCcam tiedot"
+
+msgid "CCcam Info %s"
+msgstr ""
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr ""
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line Edit -toiminnot"
+
+msgid "CCcam Line Editor"
+msgstr ""
+
+msgid "CCcam Organizer"
+msgstr "CCcam Järjestäjä"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam-palveluntarjoajan tiedot"
+
+msgid "CCcam Remote Info"
+msgstr ""
+
+msgid "CCcam Server Info"
+msgstr "CCcam-palvelimen tiedot"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Jaa tiedot"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam jakaa tietoja"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr ""
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo ei ole saatavilla"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Kameran lataus"
+
+msgid "Cancel"
+msgstr "Peruuttaa"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kortin tiedot (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kortit:"
+
+msgid "Cards: 0"
+msgstr "Kortit: 0"
+
+msgid "Cardserial"
+msgstr "Korttisarja"
+
+msgid "Channel"
+msgstr "kanava"
+
+msgid "Channel Name"
+msgstr "Kanavan nimi"
+
+msgid "Check Emm Send"
+msgstr "Tarkista Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Valitse CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Valitse lukija"
+
+msgid "Cleanup error: %s"
+msgstr "Puhdistusvirhe: %s"
+
+msgid "Client %s-%s"
+msgstr "Asiakas %s-%s"
+
+msgid "Clients"
+msgstr "Asiakkaat"
+
+msgid "Close"
+msgstr "Lähellä"
+
+msgid "Command Cancelled"
+msgstr "Komento peruutettu"
+
+msgid "Configfile %s saved."
+msgstr "Määritystiedosto %s tallennettu."
+
+msgid "Connected clients"
+msgstr "Yhdistetyt asiakkaat"
+
+msgid "Connected:"
+msgstr "Yhdistetty:"
+
+msgid "Content"
+msgstr "Sisältö"
+
+msgid "Could not open the file %s!"
+msgstr "Tiedostoa %s ei voitu avata!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Tiedostoa %s ei voitu avata! Virhe: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Ei voitu tallentaa asetustiedostoa %s! Virhe: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Asetustiedostoa ei voitu tallentaa! Virhe: %s"
+
+msgid "Current time"
+msgstr "Nykyinen aika"
+
+msgid "Delete"
+msgstr "Poistaa"
+
+msgid "Delete %s?"
+msgstr "Poistetaanko %s?"
+
+msgid "Delete Peer"
+msgstr "Poista Peer"
+
+msgid "Delete failed!"
+msgstr "Poistaminen epäonnistui!"
+
+msgid "Deleted %s!"
+msgstr "Poistettu %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Asennatko tämän laajennuksen?"
+
+msgid "Do you want to execute the command?"
+msgstr "Haluatko suorittaa komennon?"
+
+msgid "Do you want to remove?"
+msgstr "Haluatko poistaa?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Haluatko käynnistää Gui Interfacen uudelleen?"
+
+msgid "ECM data format error"
+msgstr "ECM-tietojen muotovirhe"
+
+msgid "ECM error"
+msgstr "ECM-virhe"
+
+msgid "ECM file empty"
+msgstr "ECM-tiedosto tyhjä"
+
+msgid "ECM file not found"
+msgstr "ECM-tiedostoa ei löydy"
+
+msgid "ECM read error"
+msgstr "ECM-lukuvirhe"
+
+msgid "Ecm Info"
+msgstr "ECM tiedot"
+
+msgid "Ecm Statistics"
+msgstr "ECM-tilastot"
+
+msgid "Ecm Time"
+msgstr "Ecm aika"
+
+msgid "Ecm avg"
+msgstr "ECM keskim"
+
+msgid "Ecm last"
+msgstr "Ecm viimeinen"
+
+msgid "Edit"
+msgstr "Muokata"
+
+msgid "Editing one caid"
+msgstr "Muokataan yhtä tapaa"
+
+msgid "Emm Info"
+msgstr "Erm tiedot"
+
+msgid "Entitlements"
+msgstr "Oikeudet"
+
+msgid "Error"
+msgstr "Virhe"
+
+msgid "Error executing update script: %s"
+msgstr "Virhe suoritettaessa päivitysskriptiä: %s"
+
+msgid "Error getting resource information"
+msgstr "Virhe haettaessa resurssitietoja"
+
+msgid "Error loading system info:"
+msgstr "Virhe ladattaessa järjestelmätietoja:"
+
+msgid "Error loading system information:"
+msgstr "Virhe ladattaessa järjestelmätietoja:"
+
+msgid "Error opening cam info: %s"
+msgstr "Virhe avattaessa kameran tietoja: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Virhe avattaessa asetustiedostoa: %s"
+
+msgid "Error processing HTML!"
+msgstr "HTML-koodin käsittelyssä tapahtui virhe!"
+
+msgid "Error processing server addons data"
+msgstr "Virhe palvelimen lisätietojen käsittelyssä"
+
+msgid "Error reading webpage!"
+msgstr "Verkkosivun lukemisessa tapahtui virhe!"
+
+msgid "Error stopping %s!"
+msgstr "Virhe pysäytettäessä %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Virhe muokatessa määrityksiä: %s"
+
+msgid "Exit"
+msgstr "Poistu"
+
+msgid "Extended Shares"
+msgstr "Laajennetut osakkeet"
+
+msgid "Failed to revert file: %s"
+msgstr "Tiedoston palautus epäonnistui: %s"
+
+msgid "Find Fakes"
+msgstr "Etsi väärennöksiä"
+
+msgid "Force Update"
+msgstr "Pakota päivitys"
+
+msgid "Free memory"
+msgstr "Vapaa muisti"
+
+msgid "Free memory:"
+msgstr "Vapaa muisti:"
+
+msgid "Free:"
+msgstr "Ilmainen:"
+
+msgid "General"
+msgstr "Kenraali"
+
+msgid "Get Link"
+msgstr "Hanki linkki"
+
+msgid "Getting the list, please wait ..."
+msgstr "Haetaan luetteloa, odota..."
+
+msgid "Help"
+msgstr "Auttaa"
+
+msgid "Hops"
+msgstr "Humala"
+
+msgid "Hops:"
+msgstr "Humalat:"
+
+msgid "Hostname:"
+msgstr "Isäntänimi:"
+
+msgid "IP Address"
+msgstr "IP-osoite"
+
+msgid "IP address"
+msgstr "IP-osoite"
+
+msgid "Idle Time:"
+msgstr "Tyhjäkäyntiaika:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Jos aktiivinen: Lataa/nollaa palvelimen kokoonpano"
+
+msgid "Install Cam first!!!"
+msgstr "Asenna kamera ensin!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Asennetaanko kehittäjäpäivitys (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Virheellinen HTML-sisältö!"
+
+msgid "Invalid URL!"
+msgstr "Virheellinen URL-osoite!"
+
+msgid "Last Req."
+msgstr "Viimeinen pyyntö"
+
+msgid "Last used share:"
+msgstr "Viimeksi käytetty jako:"
+
+msgid "Load"
+msgstr "Ladata"
+
+msgid "Local box"
+msgstr "Paikallinen laatikko"
+
+msgid "Location"
+msgstr "Sijainti"
+
+msgid "Log"
+msgstr "Loki"
+
+msgid "Log %s-%s"
+msgstr "Kirjaudu %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM / PALVELIN CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Valikkomääritykset"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo ei ole saatavilla"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ei toimi - käynnistä Cam saadaksesi tietoja."
+
+msgid "New"
+msgstr "Uusi"
+
+msgid "New profile:"
+msgstr "Uusi profiili:"
+
+msgid "NewCamd"
+msgstr "Uusi Camd"
+
+msgid "No ECM data"
+msgstr "Ei ECM-tietoja"
+
+msgid "No ECM data - Timeout"
+msgstr "Ei ECM-tietoja - Aikakatkaisu"
+
+msgid "No ECM file"
+msgstr "Ei ECM-tiedostoa"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ECM-tietoja ei ole tällä hetkellä saatavilla. Tämä on käytettävissä vain salauksen purkamisen aikana."
+
+msgid "No active cam to restart!"
+msgstr "Ei aktiivista kameraa uudelleenkäynnistettäväksi!"
+
+msgid "No backups available!"
+msgstr "Varmuuskopioita ei ole saatavilla!"
+
+msgid "No card inserted!"
+msgstr "Ei korttia asetettu!"
+
+msgid "No softcams available!"
+msgstr "Softcameja ei ole saatavilla!"
+
+msgid "No valid backups found!"
+msgstr "Kelvollisia varmuuskopioita ei löytynyt!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam-päivitys aikakatkaistiin. Katso lisätietoja osoitteesta /tmp/oscam_update.log."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo ei ole saatavilla"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ei ole käynnissä - käynnistä Cam saadaksesi tietoja."
+
+msgid "PRESS RETURN"
+msgstr "PAINA PALAUTUS"
+
+msgid "Password"
+msgstr "Salasana"
+
+msgid "Password (httpwd)"
+msgstr "Salasana (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Huippukuorma (jonossa olevien pyyntöjen enimmäismäärä työntekijäsäiettä kohti)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Nollaa - ei tiedostoa CFG"
+
+msgid "Please select ..."
+msgstr "Ole hyvä ja valitse..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Valitse muokattava rivi tai luo uusi rivi valitsemalla Lisää."
+
+msgid "Please wait, %s."
+msgstr "Odota, %s."
+
+msgid "Port"
+msgstr "Portti"
+
+msgid "Profile"
+msgstr "Profiili"
+
+msgid "Profile: Local box"
+msgstr "Profiili: Paikallinen laatikko"
+
+msgid "Protocol"
+msgstr "pöytäkirja"
+
+msgid "Provider"
+msgstr "Palveluntarjoaja"
+
+msgid "Provider Name:"
+msgstr "Palveluntarjoajan nimi:"
+
+msgid "Provider:"
+msgstr "Palveluntarjoaja:"
+
+msgid "Providers"
+msgstr "Palveluntarjoajat"
+
+msgid "Providers:"
+msgstr "Palveluntarjoajat:"
+
+msgid "Quick restart %s?"
+msgstr "Nopea uudelleenkäynnistys %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Lue käyttäjätiedot osoitteesta %s.conf"
+
+msgid "Reader"
+msgstr "Lukija"
+
+msgid "Reader Statistics"
+msgstr "Lukijatilastot"
+
+msgid "Reader/User"
+msgstr "Lukija/käyttäjä"
+
+msgid "Recover Peer"
+msgstr "Palauta Peer"
+
+msgid "Remote box"
+msgstr "Kaukolaatikko"
+
+msgid "Remove"
+msgstr "Poistaa"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Poista viiva tiedostosta CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Poistetaan %s"
+
+msgid "Rename"
+msgstr "Nimeä uudelleen"
+
+msgid "Rename failed!"
+msgstr "Uudelleennimeäminen epäonnistui!"
+
+msgid "Rename to:"
+msgstr "Nimeä uudelleen muotoon:"
+
+msgid "Renamed %s!"
+msgstr "Nimetty uudelleen %s!"
+
+msgid "Reset"
+msgstr "Nollaa"
+
+msgid "Reshare"
+msgstr "Jaa uudelleen"
+
+msgid "Reshare:"
+msgstr "Jakaa:"
+
+msgid "Resources"
+msgstr "Resurssit"
+
+msgid "Restart GUI?"
+msgstr "Käynnistetäänkö GUI uudelleen?"
+
+msgid "Restart error: %s"
+msgstr "Uudelleenkäynnistysvirhe: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Käynnistetäänkö softcam uudelleen, jotta palautetut asetukset otetaan käyttöön?"
+
+msgid "Save"
+msgstr "Tallentaa"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Ohjelmistokameran skannaus ja hakuluettelo..."
+
+msgid "Select CCcam"
+msgstr "Valitse CCcam"
+
+msgid "Select Get Link"
+msgstr "Valitse Hae linkki"
+
+msgid "Select Ncam"
+msgstr "Valitse Ncam"
+
+msgid "Select OScam"
+msgstr "Valitse OScam"
+
+msgid "Select Your Choice"
+msgstr "Valitse valintasi"
+
+msgid "Select a cam to run ..."
+msgstr "Valitse käytettävä kamera..."
+
+msgid "Select and Install"
+msgstr "Valitse ja asenna"
+
+msgid "Select backup to restore:"
+msgstr "Valitse palautettava varmuuskopio:"
+
+msgid "Server %s-%s"
+msgstr "Palvelin %s-%s"
+
+msgid "Server Config"
+msgstr "Palvelimen kokoonpano"
+
+msgid "Server Copy in"
+msgstr "Palvelinkopio sisään"
+
+msgid "Server Link"
+msgstr "Palvelin linkki"
+
+msgid "Server Password"
+msgstr "Palvelimen salasana"
+
+msgid "Server Port"
+msgstr "Palvelimen portti"
+
+msgid "Server URL"
+msgstr "Palvelimen URL-osoite"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Palvelimen URL eli 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Palvelimen käyttäjätunnus"
+
+msgid "Server:"
+msgstr "Palvelin:"
+
+msgid "Servers"
+msgstr "Palvelimet"
+
+msgid "Servers:"
+msgstr "Palvelimet:"
+
+msgid "Service"
+msgstr "Palvelu"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Aseta UNIQUE PEER"
+
+msgid "Setup"
+msgstr "Asennus"
+
+msgid "Share View"
+msgstr "Jaa näkymä"
+
+msgid "Shares"
+msgstr "Osakkeet"
+
+msgid "Show Clients"
+msgstr "Näytä asiakkaat"
+
+msgid "Show Ecm info"
+msgstr "Näytä ECM-tiedot"
+
+msgid "Show Log"
+msgstr "Näytä loki"
+
+msgid "Show Readers/Proxies"
+msgstr "Näytä lukijat/välityspalvelimet"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam käynnistyi uudelleen uudella kokoonpanolla!"
+
+msgid "Start"
+msgstr "Aloita"
+
+msgid "Status"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop Finding Fakes"
+msgstr "Lopeta väärennösten etsiminen"
+
+msgid "Switch config"
+msgstr "Vaihda konfiguraatiota"
+
+msgid "System"
+msgstr "Järjestelmä"
+
+msgid "System cleanup completed!"
+msgstr "Järjestelmän puhdistus suoritettu!"
+
+msgid "System:"
+msgstr "Järjestelmä:"
+
+msgid "Temporarely DELETED"
+msgstr "Tilapäisesti POISTETTU"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Tämä laajennus näyttää CCcam-kamerasi tilan"
+
+msgid "Total"
+msgstr "Kokonais"
+
+msgid "Total cards:"
+msgstr "Kortteja yhteensä:"
+
+msgid "Total handled client ecm's"
+msgstr "Käsitellyt asiakkaan sähköiset sähköpostit yhteensä"
+
+msgid "Total handled client emm's"
+msgstr "Käsitellyt asiakasemm:t yhteensä"
+
+msgid "Total:"
+msgstr "Kokonais:"
+
+msgid "Try again later ..."
+msgstr "Yritä myöhemmin uudelleen..."
+
+msgid "Type:"
+msgstr "Tyyppi:"
+
+msgid "UNDELETED"
+msgstr "POISTETTU"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Komentosarjaa ei voida tehdä suoritettavaksi: %s"
+
+msgid "Unknow Image!"
+msgstr "Tuntematon kuva!"
+
+msgid "Update"
+msgstr "Päivittää"
+
+msgid "Update Aborted!"
+msgstr "Päivitys keskeytetty!"
+
+msgid "Update interval (in seconds)"
+msgstr "Päivitysväli (sekunteina)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Päällä"
+
+msgid "Used:"
+msgstr "Käytetty:"
+
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+msgid "Username (httpuser)"
+msgstr ""
+
+msgid "Using old profile:"
+msgstr "Vanhan profiilin käyttö:"
+
+msgid "Version:"
+msgstr "Versio:"
+
+msgid "Wait please..."
+msgstr "Odota kiitos..."
+
+msgid "Write"
+msgstr "Kirjoittaa"
+
+msgid "Write-Debug"
+msgstr ""
+
+msgid "You have the latest version!"
+msgstr "Sinulla on uusin versio!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tTarjoa:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a EI MITÄÄN.POISTA"
+
+msgid "address:"
+msgstr "osoite:"
+
+msgid "and"
+msgstr "ja"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kortti"
+
+msgid "card reader"
+msgstr "kortinlukija"
+
+msgid "close share view"
+msgstr "sulje jaa näkymä"
+
+msgid "decrease uphop by 1"
+msgstr "vähennä uphopia 1"
+
+msgid "ecm time:"
+msgstr "ECM aika:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "hanki korttien palvelin"
+
+msgid "handled"
+msgstr "hoidettu"
+
+msgid "hops:"
+msgstr "humala:"
+
+msgid "increase uphop by 1"
+msgstr "lisää uphopia 1"
+
+msgid "info"
+msgstr "tiedot"
+
+msgid "no or unknown card inserted"
+msgstr "ei tai tuntematon kortti asetettu"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "tarjota:"
+
+msgid "provider:"
+msgstr "tarjoaja:"
+
+msgid "share:"
+msgstr "jakaa:"
+
+msgid "show all cards"
+msgstr "näytä kaikki kortit"
+
+msgid "show cards with uphop 0"
+msgstr "näytä kortit uphop 0:lla"
+
+msgid "show cards with uphop 1"
+msgstr "näytä kortit uphopilla 1"
+
+msgid "show cards with uphop 2"
+msgstr "näytä kortit uphopilla 2"
+
+msgid "show cards with uphop 3"
+msgstr "näytä kortit uphopilla 3"
+
+msgid "show cards with uphop 4"
+msgstr "näytä kortit uphopilla 4"
+
+msgid "show cards with uphop 5"
+msgstr "näytä kortit uphopilla 5"
+
+msgid "show cards with uphop 6"
+msgstr "näytä kortit uphopilla 6"
+
+msgid "show cards with uphop 7"
+msgstr "näytä kortit uphopilla 7"
+
+msgid "show cards with uphop 8"
+msgstr "näytä kortit uphopilla 8"
+
+msgid "show cards with uphop 9"
+msgstr "näytä kortit uphopilla 9"
+
+msgid "system:"
+msgstr "järjestelmä:"
+
+msgid "using:"
+msgstr "käyttäen:"
+
+msgid "xLine"
+msgstr ""

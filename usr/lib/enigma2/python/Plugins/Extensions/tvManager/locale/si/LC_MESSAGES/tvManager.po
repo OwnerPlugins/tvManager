@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 01:51+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Sinhala\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s කාඩ්පත්)"
+
+msgid "%s Info - Configuration"
+msgstr "%s තොරතුරු - වින්‍යාස කිරීම"
+
+msgid "%s Info - Main Menu"
+msgstr "%s තොරතුරු - ප්‍රධාන මෙනුව"
+
+msgid "%s restarted successfully!"
+msgstr "%s සාර්ථකව නැවත ආරම්භ කරන ලදී!"
+
+msgid "%s webif disabled"
+msgstr "%s webif අබල කර ඇත"
+
+msgid "(All readers)"
+msgstr "(සියලු පාඨකයින්)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(පාඨකයා පමණක් පෙන්වන්න) (%s)"
+
+msgid "About"
+msgstr "ගැන"
+
+msgid "Activate"
+msgstr "සක්රිය කරන්න"
+
+msgid "Activate Insert line in Config File:"
+msgstr "වින්‍යාස ගොනුවේ ඇතුල් කිරීමේ රේඛාව සක්‍රිය කරන්න:"
+
+msgid "Active clients"
+msgstr "ක්රියාකාරී ගනුදෙනුකරුවන්"
+
+msgid "Add"
+msgstr "එකතු කරන්න"
+
+msgid "Add new CCcam line"
+msgstr "නව CCcam රේඛාවක් එක් කරන්න"
+
+msgid "Add new NewCamd line"
+msgstr "නව NewCamd රේඛාව එක් කරන්න"
+
+msgid "Address"
+msgstr "ලිපිනය"
+
+msgid "All"
+msgstr "සියල්ල"
+
+msgid "An error occurred in the green function."
+msgstr "හරිත ශ්‍රිතයේ දෝෂයක් සිදු විය."
+
+msgid "An unexpected error occurred: %s"
+msgstr "අනපේක්ෂිත දෝෂයක් සිදු විය: %s"
+
+msgid "Ask all caid"
+msgstr "සියලු caid අහන්න"
+
+msgid "Ask for the selection caid"
+msgstr "තේරීම් කේඩ් එක ඉල්ලන්න"
+
+msgid "Automatically update Client/Server View?"
+msgstr "සේවාලාභියා/සේවාදායක දසුන ස්වයංක්‍රීයව යාවත්කාලීන කරන්නද?"
+
+msgid "Available shares:"
+msgstr "පවතින කොටස්:"
+
+msgid "Back"
+msgstr "ආපසු"
+
+msgid "Backup failed!"
+msgstr "උපස්ථ කිරීම අසාර්ථක විය!"
+
+msgid "Backup restoration failed!"
+msgstr "උපස්ථ ප්‍රතිසාධනය අසාර්ථක විය!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCprioMaker සැකසුම්"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker ස්වයංක්‍රීය ආරම්භය"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam සේවාලාභීන්ගේ තොරතුරු"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM තොරතුරු"
+
+msgid "CCcam Info"
+msgstr "CCcam තොරතුරු"
+
+msgid "CCcam Info %s"
+msgstr "CCcam තොරතුරු %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam තොරතුරු වින්‍යාසය"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam තොරතුරු වින්‍යාස මෙනුව"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam රේඛා සංස්කරණ ක්‍රියා"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam ලයින් සංස්කාරකය"
+
+msgid "CCcam Organizer"
+msgstr "CCcam සංවිධායක"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam සපයන්නාගේ තොරතුරු"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam දුරස්ථ තොරතුරු"
+
+msgid "CCcam Server Info"
+msgstr "CCcam සේවාදායක තොරතුරු"
+
+msgid "CCcam Share Info"
+msgstr "CCcam තොරතුරු බෙදාගන්න"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam බෙදාගැනීම් තොරතුරු"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg මූලික රේඛා සංස්කාරකය"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo නොමැත"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "කේඩ්"
+
+msgid "Caid:"
+msgstr "කේඩ්:"
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "කැම් බාගත කරන්න"
+
+msgid "Cancel"
+msgstr "අවලංගු කරන්න"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "කාඩ්පත් තොරතුරු (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "කාඩ්පත්:"
+
+msgid "Cards: 0"
+msgstr "කාඩ්පත්: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "නාලිකාව"
+
+msgid "Channel Name"
+msgstr "නාලිකාවේ නම"
+
+msgid "Check Emm Send"
+msgstr "Emm Send පරීක්ෂා කරන්න"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader තෝරන්න"
+
+msgid "Choose reader"
+msgstr "කියවන්නා තෝරන්න"
+
+msgid "Cleanup error: %s"
+msgstr "පිරිසිදු කිරීමේ දෝෂය: %s"
+
+msgid "Client %s-%s"
+msgstr "සේවාලාභියා %s-%s"
+
+msgid "Clients"
+msgstr "ගනුදෙනුකරුවන්"
+
+msgid "Close"
+msgstr "වසන්න"
+
+msgid "Command Cancelled"
+msgstr "විධානය අවලංගු කරන ලදී"
+
+msgid "Configfile %s saved."
+msgstr "වින්‍යාස ගොනුව %s සුරකින ලදී."
+
+msgid "Connected clients"
+msgstr "සම්බන්ධිත ගනුදෙනුකරුවන්"
+
+msgid "Connected:"
+msgstr "සම්බන්ධිත:"
+
+msgid "Content"
+msgstr "අන්තර්ගතය"
+
+msgid "Could not open the file %s!"
+msgstr "%s ගොනුව විවෘත කිරීමට නොහැකි විය!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "%s ගොනුව විවෘත කිරීමට නොහැකි විය! දෝෂය: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "වින්‍යාස ගොනුව %s සුරැකීමට නොහැකි විය! දෝෂය: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "වින්‍යාස ගොනුව සුරැකීමට නොහැකි විය! දෝෂය: %s"
+
+msgid "Current time"
+msgstr "වත්මන් කාලය"
+
+msgid "Delete"
+msgstr "මකන්න"
+
+msgid "Delete %s?"
+msgstr "%s මකන්නද?"
+
+msgid "Delete Peer"
+msgstr "Peer මකන්න"
+
+msgid "Delete failed!"
+msgstr "මකා දැමීම අසාර්ථක විය!"
+
+msgid "Deleted %s!"
+msgstr "%s මකන ලදී!"
+
+msgid "Do you install this plugin ?"
+msgstr "ඔබ මෙම ප්ලගිනය ස්ථාපනය කරන්නේද?"
+
+msgid "Do you want to execute the command?"
+msgstr "ඔබට විධානය ක්‍රියාත්මක කිරීමට අවශ්‍යද?"
+
+msgid "Do you want to remove?"
+msgstr "ඔබට ඉවත් කිරීමට අවශ්‍යද?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "ඔබට Gui අතුරුමුහුණත නැවත ආරම්භ කිරීමට අවශ්‍යද?"
+
+msgid "ECM data format error"
+msgstr "ECM දත්ත ආකෘතියේ දෝෂයකි"
+
+msgid "ECM error"
+msgstr "ECM දෝෂය"
+
+msgid "ECM file empty"
+msgstr "ECM ගොනුව හිස්"
+
+msgid "ECM file not found"
+msgstr "ECM ගොනුව හමු නොවීය"
+
+msgid "ECM read error"
+msgstr "ECM කියවීමේ දෝෂයකි"
+
+msgid "Ecm Info"
+msgstr "Ecm තොරතුරු"
+
+msgid "Ecm Statistics"
+msgstr "Ecm සංඛ්යාලේඛන"
+
+msgid "Ecm Time"
+msgstr "Ecm වේලාව"
+
+msgid "Ecm avg"
+msgstr "Ecm සාමාන්‍යය"
+
+msgid "Ecm last"
+msgstr "Ecm අන්තිම"
+
+msgid "Edit"
+msgstr "සංස්කරණය කරන්න"
+
+msgid "Editing one caid"
+msgstr "එක් caid සංස්කරණය කිරීම"
+
+msgid "Emm Info"
+msgstr "Erm තොරතුරු"
+
+msgid "Entitlements"
+msgstr "හිමිකම්"
+
+msgid "Error"
+msgstr "දෝෂයකි"
+
+msgid "Error executing update script: %s"
+msgstr "යාවත්කාලීන ස්ක්‍රිප්ට් ක්‍රියාත්මක කිරීමේ දෝෂයකි: %s"
+
+msgid "Error getting resource information"
+msgstr "සම්පත් තොරතුරු ලබා ගැනීමේ දෝෂයකි"
+
+msgid "Error loading system info:"
+msgstr "පද්ධති තොරතුරු පූරණය කිරීමේ දෝෂයකි:"
+
+msgid "Error loading system information:"
+msgstr "පද්ධති තොරතුරු පූරණය කිරීමේ දෝෂයකි:"
+
+msgid "Error opening cam info: %s"
+msgstr "කැමරා තොරතුරු විවෘත කිරීමේ දෝෂයකි: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "වින්‍යාස ගොනුව විවෘත කිරීමේ දෝෂයකි: %s"
+
+msgid "Error processing HTML!"
+msgstr "HTML සැකසීමේ දෝෂයකි!"
+
+msgid "Error processing server addons data"
+msgstr "සේවාදායක ඇඩෝන දත්ත සැකසීමේ දෝෂයකි"
+
+msgid "Error reading webpage!"
+msgstr "වෙබ් පිටුව කියවීමේ දෝෂයකි!"
+
+msgid "Error stopping %s!"
+msgstr "%s නැවැත්වීමේ දෝෂයක්!"
+
+msgid "Error while editing configuration: %s"
+msgstr "වින්‍යාසය සංස්කරණය කිරීමේදී දෝෂයකි: %s"
+
+msgid "Exit"
+msgstr "පිටවෙන්න"
+
+msgid "Extended Shares"
+msgstr "විස්තීරණ කොටස්"
+
+msgid "Failed to revert file: %s"
+msgstr "ගොනුව ප්‍රතිවර්තනය කිරීමට අසමත් විය: %s"
+
+msgid "Find Fakes"
+msgstr "බොරු හොයන්න"
+
+msgid "Force Update"
+msgstr "බලහත්කාරයෙන් යාවත්කාලීන කිරීම"
+
+msgid "Free memory"
+msgstr "නිදහස් මතකය"
+
+msgid "Free memory:"
+msgstr "නිදහස් මතකය:"
+
+msgid "Free:"
+msgstr "නොමිලේ:"
+
+msgid "General"
+msgstr "ජෙනරාල්"
+
+msgid "Get Link"
+msgstr "සබැඳිය ලබා ගන්න"
+
+msgid "Getting the list, please wait ..."
+msgstr "ලැයිස්තුව ලබා ගනිමින්, කරුණාකර රැඳී සිටින්න..."
+
+msgid "Help"
+msgstr "උදව්"
+
+msgid "Hops"
+msgstr "හොප්ස්"
+
+msgid "Hops:"
+msgstr "හොප්ස්:"
+
+msgid "Hostname:"
+msgstr "සත්කාරක නාමය:"
+
+msgid "IP Address"
+msgstr "IP ලිපිනය"
+
+msgid "IP address"
+msgstr "IP ලිපිනය"
+
+msgid "Idle Time:"
+msgstr "නිෂ්ක්‍රීය වේලාව:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "සක්‍රිය නම්: සේවාදායක වින්‍යාසය බාගැනීම/නැවත සකසන්න"
+
+msgid "Install Cam first!!!"
+msgstr "මුලින්ම Cam එක Install කරගන්න!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "සංවර්ධක යාවත්කාලීන (%s) ස්ථාපනය කරන්නද?"
+
+msgid "Invalid HTML content!"
+msgstr "වලංගු නොවන HTML අන්තර්ගතයක්!"
+
+msgid "Invalid URL!"
+msgstr "වලංගු නොවන URL එකක්!"
+
+msgid "Last Req."
+msgstr "අවසාන Req."
+
+msgid "Last used share:"
+msgstr "අවසන් වරට භාවිතා කළ කොටස:"
+
+msgid "Load"
+msgstr "පැටවීම"
+
+msgid "Local box"
+msgstr "දේශීය පෙට්ටිය"
+
+msgid "Location"
+msgstr "ස්ථානය"
+
+msgid "Log"
+msgstr "ලොග් කරන්න"
+
+msgid "Log %s-%s"
+msgstr "ලොග් %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "මෙනුව EMM / Server CLINE"
+
+msgid "Maxdown +"
+msgstr "මැක්ස්ඩවුන් +"
+
+msgid "Maxdown -"
+msgstr "මැක්ස්ඩවුන් -"
+
+msgid "Maxdown:"
+msgstr "මැක්ස්ඩවුන්:"
+
+msgid "Menu config"
+msgstr "මෙනු වින්‍යාසය"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo නොමැත"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ක්‍රියාත්මක නොවේ - තොරතුරු ලබා ගැනීමට Cam ආරම්භ කරන්න."
+
+msgid "New"
+msgstr "අලුත්"
+
+msgid "New profile:"
+msgstr "නව පැතිකඩ:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "ECM දත්ත නැත"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM දත්ත නැත - කල් ඉකුත්වීම"
+
+msgid "No ECM file"
+msgstr "ECM ගොනුවක් නැත"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ECM තොරතුරු දැනට නොමැත. මෙය ලබා ගත හැක්කේ විකේතනය කිරීමේදී පමණි."
+
+msgid "No active cam to restart!"
+msgstr "නැවත ආරම්භ කිරීමට සක්‍රිය කැමරාවක් නැත!"
+
+msgid "No backups available!"
+msgstr "උපස්ථ නොමැත!"
+
+msgid "No card inserted!"
+msgstr "කාඩ්පතක් ඇතුළත් කර නැත!"
+
+msgid "No softcams available!"
+msgstr "මෘදු කැමරා නොමැත!"
+
+msgid "No valid backups found!"
+msgstr "වලංගු උපස්ථ කිසිවක් හමු නොවීය!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "හරි"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam යාවත්කාලීන කල් ඉකුත් විය. විස්තර සඳහා /tmp/oscam_update.log පරීක්ෂා කරන්න."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo නොමැත"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ධාවනය නොවේ - තොරතුරු ලබා ගැනීමට Cam ආරම්භ කරන්න."
+
+msgid "PRESS RETURN"
+msgstr "ආපසු ඔබන්න"
+
+msgid "Password"
+msgstr "මුරපදය"
+
+msgid "Password (httpwd)"
+msgstr "මුරපදය (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "උපරිම පැටවීම (සේවක ත්‍රෙඩ් එකකට උපරිම පෝලිම් ඉල්ලීම්)"
+
+msgid "Pid"
+msgstr "පිඩ්"
+
+msgid "Please Reset - No File CFG"
+msgstr "කරුණාකර යළි පිහිටුවන්න - CFG ගොනුවක් නැත"
+
+msgid "Please select ..."
+msgstr "කරුණාකර තෝරන්න..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "කරුණාකර සංස්කරණය කිරීමට පේළියක් තෝරන්න හෝ නව පේළියක් සෑදීමට එකතු කරන්න තෝරන්න."
+
+msgid "Please wait, %s."
+msgstr "කරුණාකර රැඳී සිටින්න, %s."
+
+msgid "Port"
+msgstr "වරාය"
+
+msgid "Profile"
+msgstr "පැතිකඩ"
+
+msgid "Profile: Local box"
+msgstr "පැතිකඩ: දේශීය පෙට්ටිය"
+
+msgid "Protocol"
+msgstr "ප්රොටෝකෝලය"
+
+msgid "Provider"
+msgstr "සපයන්නා"
+
+msgid "Provider Name:"
+msgstr "සපයන්නාගේ නම:"
+
+msgid "Provider:"
+msgstr "සපයන්නා:"
+
+msgid "Providers"
+msgstr "සපයන්නන්"
+
+msgid "Providers:"
+msgstr "සපයන්නන්:"
+
+msgid "Quick restart %s?"
+msgstr "ඉක්මන් නැවත ආරම්භ කරන්න %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "%s.conf වෙතින් පරිශීලක දත්ත කියවන්න"
+
+msgid "Reader"
+msgstr "පාඨකයා"
+
+msgid "Reader Statistics"
+msgstr "පාඨක සංඛ්යා ලේඛන"
+
+msgid "Reader/User"
+msgstr "කියවන්නා/පරිශීලක"
+
+msgid "Recover Peer"
+msgstr "සම වයසේ අයව ගොඩගන්න"
+
+msgid "Remote box"
+msgstr "දුරස්ථ පෙට්ටිය"
+
+msgid "Remove"
+msgstr "ඉවත් කරන්න"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "CCcam.cfg වෙතින් රේඛාව ඉවත් කරන්න"
+
+msgid "Removing %s"
+msgstr "%s ඉවත් කරමින්"
+
+msgid "Rename"
+msgstr "නැවත නම් කරන්න"
+
+msgid "Rename failed!"
+msgstr "නැවත නම් කිරීම අසාර්ථක විය!"
+
+msgid "Rename to:"
+msgstr "නැවත නම් කරන්න:"
+
+msgid "Renamed %s!"
+msgstr "%s නැවත නම් කරන ලදී!"
+
+msgid "Reset"
+msgstr "යළි පිහිටුවන්න"
+
+msgid "Reshare"
+msgstr "නැවත බෙදාගන්න"
+
+msgid "Reshare:"
+msgstr "බෙදාගන්න:"
+
+msgid "Resources"
+msgstr "සම්පත්"
+
+msgid "Restart GUI?"
+msgstr "GUI නැවත ආරම්භ කරන්නද?"
+
+msgid "Restart error: %s"
+msgstr "නැවත ආරම්භ කිරීමේ දෝෂය: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "ප්‍රතිසාධන වින්‍යාසය යෙදීමට softcam නැවත ආරම්භ කරන්නද?"
+
+msgid "Save"
+msgstr "සුරකින්න"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "ස්කෑන් කිරීම සහ ලබා ගැනීමේ ලැයිස්තු මෘදුකාංගය ..."
+
+msgid "Select CCcam"
+msgstr "CCcam තෝරන්න"
+
+msgid "Select Get Link"
+msgstr "Get Link තෝරන්න"
+
+msgid "Select Ncam"
+msgstr "Ncam තෝරන්න"
+
+msgid "Select OScam"
+msgstr "OScam තෝරන්න"
+
+msgid "Select Your Choice"
+msgstr "ඔබේ තේරීම තෝරන්න"
+
+msgid "Select a cam to run ..."
+msgstr "ධාවනය කිරීමට කැමරාවක් තෝරන්න ..."
+
+msgid "Select and Install"
+msgstr "තෝරන්න සහ ස්ථාපනය කරන්න"
+
+msgid "Select backup to restore:"
+msgstr "ප්‍රතිසාධනය කිරීමට උපස්ථය තෝරන්න:"
+
+msgid "Server %s-%s"
+msgstr "සේවාදායකය %s-%s"
+
+msgid "Server Config"
+msgstr "සේවාදායක වින්‍යාසය"
+
+msgid "Server Copy in"
+msgstr "සේවාදායකය පිටපත් කරන්න"
+
+msgid "Server Link"
+msgstr "සේවාදායක සබැඳිය"
+
+msgid "Server Password"
+msgstr "සේවාදායක මුරපදය"
+
+msgid "Server Port"
+msgstr "සේවාදායක වරාය"
+
+msgid "Server URL"
+msgstr "සේවාදායක URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Server Url එනම් 012.345.678.900"
+
+msgid "Server Username"
+msgstr "සේවාදායක පරිශීලක නාමය"
+
+msgid "Server:"
+msgstr "සේවාදායකය:"
+
+msgid "Servers"
+msgstr "සේවාදායකයන්"
+
+msgid "Servers:"
+msgstr "සේවාදායක:"
+
+msgid "Service"
+msgstr "සේවාව"
+
+msgid "Set as UNIQUE PEER"
+msgstr "UNIQUE PEER ලෙස සකසන්න"
+
+msgid "Setup"
+msgstr "සැලසුම"
+
+msgid "Share View"
+msgstr "Share දැක්ම"
+
+msgid "Shares"
+msgstr "කොටස්"
+
+msgid "Show Clients"
+msgstr "ගනුදෙනුකරුවන් පෙන්වන්න"
+
+msgid "Show Ecm info"
+msgstr "Ecm තොරතුරු පෙන්වන්න"
+
+msgid "Show Log"
+msgstr "ලොගය පෙන්වන්න"
+
+msgid "Show Readers/Proxies"
+msgstr "කියවන්නන්/ප්‍රොක්සි පෙන්වන්න"
+
+msgid "Softcam Manager"
+msgstr "Softcam කළමනාකරු"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam නව වින්‍යාසය සමඟ නැවත ආරම්භ විය!"
+
+msgid "Start"
+msgstr "ආරම්භ කරන්න"
+
+msgid "Status"
+msgstr "තත්ත්වය"
+
+msgid "Stop"
+msgstr "නවත්වන්න"
+
+msgid "Stop Finding Fakes"
+msgstr "බොරු සෙවීම නවත්වන්න"
+
+msgid "Switch config"
+msgstr "වින්‍යාසය මාරු කරන්න"
+
+msgid "System"
+msgstr "පද්ධතිය"
+
+msgid "System cleanup completed!"
+msgstr "පද්ධතිය පිරිසිදු කිරීම අවසන්!"
+
+msgid "System:"
+msgstr "පද්ධතිය:"
+
+msgid "Temporarely DELETED"
+msgstr "තාවකාලිකව මකා ඇත"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "මෙම ප්ලගිනය ඔබගේ CCcam හි තත්ත්වය පෙන්වයි"
+
+msgid "Total"
+msgstr "මුළු"
+
+msgid "Total cards:"
+msgstr "මුළු කාඩ්පත්:"
+
+msgid "Total handled client ecm's"
+msgstr "සම්පූර්ණ හසුරුවන සේවාදායක ECM"
+
+msgid "Total handled client emm's"
+msgstr "සම්පූර්ණ හසුරුවන සේවාදායක emm"
+
+msgid "Total:"
+msgstr "එකතුව:"
+
+msgid "Try again later ..."
+msgstr "පසුව නැවත උත්සාහ කරන්න..."
+
+msgid "Type:"
+msgstr "වර්ගය:"
+
+msgid "UNDELETED"
+msgstr "මකාදැමුවේ නැත"
+
+msgid "Unable to make the script executable: %s"
+msgstr "ස්ක්‍රිප්ට් ක්‍රියාත්මක කළ නොහැකි බවට පත් කළ නොහැක: %s"
+
+msgid "Unknow Image!"
+msgstr "නොදන්නා රූපයක්!"
+
+msgid "Update"
+msgstr "යාවත්කාලීන කරන්න"
+
+msgid "Update Aborted!"
+msgstr "යාවත්කාලීන කිරීම නවත්වන ලදී!"
+
+msgid "Update interval (in seconds)"
+msgstr "යාවත්කාලීන පරතරය (තත්පර වලින්)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr "අප්පොප්ස් -"
+
+msgid "Uphops:"
+msgstr "අප්පොප්ස්:"
+
+msgid "Uptime"
+msgstr "අතිකාල"
+
+msgid "Used:"
+msgstr "භාවිතා කළේ:"
+
+msgid "Username"
+msgstr "පරිශීලක නාමය"
+
+msgid "Username (httpuser)"
+msgstr "පරිශීලක නාමය (http පරිශීලක)"
+
+msgid "Using old profile:"
+msgstr "පැරණි පැතිකඩ භාවිතා කිරීම:"
+
+msgid "Version:"
+msgstr "අනුවාදය:"
+
+msgid "Wait please..."
+msgstr "කරුණාකර ඉන්න..."
+
+msgid "Write"
+msgstr "ලියන්න"
+
+msgid "Write-Debug"
+msgstr "ලියන්න-නිදොස්කරණය"
+
+msgid "You have the latest version!"
+msgstr "ඔබට නවතම අනුවාදය තිබේ!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\t සපයන්න:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "UNDELE කිරීමට කිසිවක් නැත"
+
+msgid "address:"
+msgstr "ලිපිනය:"
+
+msgid "and"
+msgstr "සහ"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "කාඩ්පත"
+
+msgid "card reader"
+msgstr "කාඩ් කියවනය"
+
+msgid "close share view"
+msgstr "සමීප කොටස් දසුන"
+
+msgid "decrease uphop by 1"
+msgstr "ඉහළ යාම 1 කින් අඩු කරන්න"
+
+msgid "ecm time:"
+msgstr "ඊසීඑම් වේලාව:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "කාඩ්පත් සේවාදායකය ලබා ගන්න"
+
+msgid "handled"
+msgstr "හසුරුවන ලදී"
+
+msgid "hops:"
+msgstr ""
+
+msgid "increase uphop by 1"
+msgstr "ඉහළ යාම 1 කින් වැඩි කරන්න"
+
+msgid "info"
+msgstr "තොරතුරු"
+
+msgid "no or unknown card inserted"
+msgstr "නැත හෝ නොදන්නා කාඩ්පතක් ඇතුළත් කර ඇත"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "සපයන:"
+
+msgid "provider:"
+msgstr "සපයන්නා:"
+
+msgid "share:"
+msgstr "බෙදාගන්න:"
+
+msgid "show all cards"
+msgstr "සියලුම කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 0"
+msgstr "uphop 0 සහිත කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 1"
+msgstr "uphop 1 සමඟ කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 2"
+msgstr "uphop 2 සමඟ කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 3"
+msgstr "uphop 3 සමඟ කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 4"
+msgstr "uphop 4 සමඟ කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 5"
+msgstr "uphop 5 සමඟ කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 6"
+msgstr "uphop 6 සමඟ කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 7"
+msgstr "uphop 7 සමඟ කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 8"
+msgstr "uphop 8 සමඟ කාඩ්පත් පෙන්වන්න"
+
+msgid "show cards with uphop 9"
+msgstr "uphop 9 සමඟ කාඩ්පත් පෙන්වන්න"
+
+msgid "system:"
+msgstr "පද්ධතිය:"
+
+msgid "using:"
+msgstr "භාවිතා කරමින්:"
+
+msgid "xLine"
+msgstr ""

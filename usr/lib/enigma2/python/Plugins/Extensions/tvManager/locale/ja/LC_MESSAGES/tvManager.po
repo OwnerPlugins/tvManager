@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 00:00+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s カード )"
+
+msgid "%s Info - Configuration"
+msgstr "%s 情報 - 構成"
+
+msgid "%s Info - Main Menu"
+msgstr "%s 情報 - メインメニュー"
+
+msgid "%s restarted successfully!"
+msgstr "%s が正常に再起動されました!"
+
+msgid "%s webif disabled"
+msgstr "%s webif が無効になりました"
+
+msgid "(All readers)"
+msgstr "（読者の皆様）"
+
+msgid "(Show only reader) (%s)"
+msgstr "(リーダーのみを表示) (%s)"
+
+msgid "About"
+msgstr "について"
+
+msgid "Activate"
+msgstr "活性化"
+
+msgid "Activate Insert line in Config File:"
+msgstr "構成ファイルで行の挿入をアクティブ化します。"
+
+msgid "Active clients"
+msgstr "アクティブなクライアント"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Add new CCcam line"
+msgstr "新しい CCcam ラインを追加"
+
+msgid "Add new NewCamd line"
+msgstr "新しい NewCamd 行を追加"
+
+msgid "Address"
+msgstr "住所"
+
+msgid "All"
+msgstr "全て"
+
+msgid "An error occurred in the green function."
+msgstr "緑色の関数でエラーが発生しました。"
+
+msgid "An unexpected error occurred: %s"
+msgstr "予期しないエラーが発生しました: %s"
+
+msgid "Ask all caid"
+msgstr "みんなに質問してください"
+
+msgid "Ask for the selection caid"
+msgstr "選択を依頼してください"
+
+msgid "Automatically update Client/Server View?"
+msgstr "クライアント/サーバービューを自動的に更新しますか?"
+
+msgid "Available shares:"
+msgstr "利用可能な株式:"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Backup failed!"
+msgstr "バックアップに失敗しました!"
+
+msgid "Backup restoration failed!"
+msgstr "バックアップの復元に失敗しました!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker の設定"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker 自動起動"
+
+msgid "CCcam"
+msgstr "CCカム"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam クライアント情報"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam 設定スイッチャー"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM 情報"
+
+msgid "CCcam Info"
+msgstr "CCcam 情報"
+
+msgid "CCcam Info %s"
+msgstr "CCcam 情報 %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam 情報設定"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam 情報設定メニュー"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam ライン編集アクション"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam ラインエディター"
+
+msgid "CCcam Organizer"
+msgstr "CCcam オーガナイザー"
+
+msgid "CCcam Prio Maker"
+msgstr "CCcam プリオ メーカー"
+
+msgid "CCcam Provider Info"
+msgstr "CCcam プロバイダー情報"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam リモート情報"
+
+msgid "CCcam Server Info"
+msgstr "CCcam サーバー情報"
+
+msgid "CCcam Share Info"
+msgstr "CCcam 情報の共有"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam が情報を共有"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg 基本ラインエディタ"
+
+msgid "CCcamInfo not available"
+msgstr "CCcam情報が利用できません"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "カイド"
+
+msgid "Caid:"
+msgstr "カイド:"
+
+msgid "Caid:Srvid"
+msgstr "カイド：スルヴィド"
+
+msgid "Cam Download"
+msgstr "カメラのダウンロード"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "カード情報 (CCcam リーダー)"
+
+msgid "Cards:"
+msgstr "カード:"
+
+msgid "Cards: 0"
+msgstr "カード: 0"
+
+msgid "Cardserial"
+msgstr "カードシリアル"
+
+msgid "Channel"
+msgstr "チャネル"
+
+msgid "Channel Name"
+msgstr "チャンネル名"
+
+msgid "Check Emm Send"
+msgstr "チェック EMM 送信"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam リーダーを選択します"
+
+msgid "Choose reader"
+msgstr "リーダーを選択してください"
+
+msgid "Cleanup error: %s"
+msgstr "クリーンアップ エラー: %s"
+
+msgid "Client %s-%s"
+msgstr "クライアント %s-%s"
+
+msgid "Clients"
+msgstr "クライアント"
+
+msgid "Close"
+msgstr "近い"
+
+msgid "Command Cancelled"
+msgstr "コマンドがキャンセルされました"
+
+msgid "Configfile %s saved."
+msgstr "構成ファイル %s が保存されました。"
+
+msgid "Connected clients"
+msgstr "接続されたクライアント"
+
+msgid "Connected:"
+msgstr "接続済み:"
+
+msgid "Content"
+msgstr "コンテンツ"
+
+msgid "Could not open the file %s!"
+msgstr "ファイル %s を開けませんでした!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "ファイル %s を開けませんでした!エラー: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "構成ファイル %s を保存できませんでした!エラー: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "設定ファイルを保存できませんでした。エラー: %s"
+
+msgid "Current time"
+msgstr "現在時刻"
+
+msgid "Delete"
+msgstr "消去"
+
+msgid "Delete %s?"
+msgstr "%sを削除しますか?"
+
+msgid "Delete Peer"
+msgstr "ピアの削除"
+
+msgid "Delete failed!"
+msgstr "削除に失敗しました!"
+
+msgid "Deleted %s!"
+msgstr "%s を削除しました!"
+
+msgid "Do you install this plugin ?"
+msgstr "このプラグインをインストールしますか?"
+
+msgid "Do you want to execute the command?"
+msgstr "コマンドを実行しますか?"
+
+msgid "Do you want to remove?"
+msgstr "削除しますか?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Gui インターフェイスを再起動しますか?"
+
+msgid "ECM data format error"
+msgstr "ECMデータフォーマットエラー"
+
+msgid "ECM error"
+msgstr "ECMエラー"
+
+msgid "ECM file empty"
+msgstr "ECM ファイルが空です"
+
+msgid "ECM file not found"
+msgstr "ECMファイルが見つかりません"
+
+msgid "ECM read error"
+msgstr "ECM読み取りエラー"
+
+msgid "Ecm Info"
+msgstr "ECM 情報"
+
+msgid "Ecm Statistics"
+msgstr "ECM 統計"
+
+msgid "Ecm Time"
+msgstr "ECM 時間"
+
+msgid "Ecm avg"
+msgstr "Ecm平均"
+
+msgid "Ecm last"
+msgstr "Ecmラスト"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Editing one caid"
+msgstr "1 つの Caid を編集する"
+
+msgid "Emm Info"
+msgstr "えーっと情報"
+
+msgid "Entitlements"
+msgstr "権利"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Error executing update script: %s"
+msgstr "更新スクリプトの実行中にエラーが発生しました: %s"
+
+msgid "Error getting resource information"
+msgstr "リソース情報の取得中にエラーが発生しました"
+
+msgid "Error loading system info:"
+msgstr "システム情報のロード中にエラーが発生しました:"
+
+msgid "Error loading system information:"
+msgstr "システム情報のロード中にエラーが発生しました:"
+
+msgid "Error opening cam info: %s"
+msgstr "カム情報を開くときにエラーが発生しました: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "構成ファイルを開くときにエラーが発生しました: %s"
+
+msgid "Error processing HTML!"
+msgstr "HTML の処理中にエラーが発生しました!"
+
+msgid "Error processing server addons data"
+msgstr "サーバーアドオンデータの処理中にエラーが発生しました"
+
+msgid "Error reading webpage!"
+msgstr "ウェブページの読み取り中にエラーが発生しました!"
+
+msgid "Error stopping %s!"
+msgstr "%s の停止中にエラーが発生しました!"
+
+msgid "Error while editing configuration: %s"
+msgstr "構成編集中のエラー: %s"
+
+msgid "Exit"
+msgstr "出口"
+
+msgid "Extended Shares"
+msgstr "拡張共有"
+
+msgid "Failed to revert file: %s"
+msgstr "ファイルを元に戻すことができませんでした: %s"
+
+msgid "Find Fakes"
+msgstr "偽物を見つける"
+
+msgid "Force Update"
+msgstr "強制更新"
+
+msgid "Free memory"
+msgstr "空きメモリ"
+
+msgid "Free memory:"
+msgstr "空きメモリ:"
+
+msgid "Free:"
+msgstr "無料："
+
+msgid "General"
+msgstr "一般的な"
+
+msgid "Get Link"
+msgstr "リンクを取得"
+
+msgid "Getting the list, please wait ..."
+msgstr "リストを取得しています。お待ちください..."
+
+msgid "Help"
+msgstr "ヘルプ"
+
+msgid "Hops"
+msgstr "ホップ"
+
+msgid "Hops:"
+msgstr "ホップ:"
+
+msgid "Hostname:"
+msgstr "ホスト名:"
+
+msgid "IP Address"
+msgstr "IPアドレス"
+
+msgid "IP address"
+msgstr "IPアドレス"
+
+msgid "Idle Time:"
+msgstr "アイドル時間:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "アクティブな場合: サーバー構成のダウンロード/リセット"
+
+msgid "Install Cam first!!!"
+msgstr "まずCamをインストールしてください!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "開発者アップデート (%s) をインストールしますか?"
+
+msgid "Invalid HTML content!"
+msgstr "無効な HTML コンテンツです。"
+
+msgid "Invalid URL!"
+msgstr "URLが無効です!"
+
+msgid "Last Req."
+msgstr "最後の要求"
+
+msgid "Last used share:"
+msgstr "最後に使用した共有:"
+
+msgid "Load"
+msgstr "負荷"
+
+msgid "Local box"
+msgstr "ローカルボックス"
+
+msgid "Location"
+msgstr "位置"
+
+msgid "Log"
+msgstr "ログ"
+
+msgid "Log %s-%s"
+msgstr "ログ %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "メニュー EMM / サーバークライン"
+
+msgid "Maxdown +"
+msgstr "マックスダウン+"
+
+msgid "Maxdown -"
+msgstr "マックスダウン -"
+
+msgid "Maxdown:"
+msgstr "マックスダウン:"
+
+msgid "Menu config"
+msgstr "メニュー構成"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo が利用できません"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam が実行されていません - Cam を起動して情報を取得してください。"
+
+msgid "New"
+msgstr "新しい"
+
+msgid "New profile:"
+msgstr "新しいプロフィール:"
+
+msgid "NewCamd"
+msgstr "ニューカムド"
+
+msgid "No ECM data"
+msgstr "ECMデータがありません"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM データなし - タイムアウト"
+
+msgid "No ECM file"
+msgstr "ECMファイルがありません"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "現在利用可能な ECM 情報はありません。これは復号化中にのみ使用できます。"
+
+msgid "No active cam to restart!"
+msgstr "再起動できるアクティブなカメラがありません!"
+
+msgid "No backups available!"
+msgstr "利用可能なバックアップはありません!"
+
+msgid "No card inserted!"
+msgstr "カードが挿入されていません!"
+
+msgid "No softcams available!"
+msgstr "利用可能なソフトカムがありません!"
+
+msgid "No valid backups found!"
+msgstr "有効なバックアップが見つかりません!"
+
+msgid "NodeID"
+msgstr "ノードID"
+
+msgid "NodeID:"
+msgstr "ノードID:"
+
+msgid "OK"
+msgstr "わかりました"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam の更新がタイムアウトしました。詳細については、/tmp/oscam_update.log を確認してください。"
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo が利用できません"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam が実行されていません - Cam を起動して情報を取得してください。"
+
+msgid "PRESS RETURN"
+msgstr "戻るを押してください"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Password (httpwd)"
+msgstr "パスワード (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "ピーク負荷 (ワーカースレッドごとのキューに入れられる最大リクエスト)"
+
+msgid "Pid"
+msgstr "ピド"
+
+msgid "Please Reset - No File CFG"
+msgstr "リセットしてください - ファイル CFG がありません"
+
+msgid "Please select ..."
+msgstr "選択してください..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "編集する行を選択するか、追加を選択して新しい行を作成してください。"
+
+msgid "Please wait, %s."
+msgstr "お待ちください、%s。"
+
+msgid "Port"
+msgstr "ポート"
+
+msgid "Profile"
+msgstr "プロフィール"
+
+msgid "Profile: Local box"
+msgstr "プロフィール: ローカルボックス"
+
+msgid "Protocol"
+msgstr "プロトコル"
+
+msgid "Provider"
+msgstr "プロバイダー"
+
+msgid "Provider Name:"
+msgstr "プロバイダー名:"
+
+msgid "Provider:"
+msgstr "プロバイダー:"
+
+msgid "Providers"
+msgstr "プロバイダー"
+
+msgid "Providers:"
+msgstr "プロバイダー:"
+
+msgid "Quick restart %s?"
+msgstr "%s をクイック再起動しますか?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "%s.conf からユーザーデータを読み取ります"
+
+msgid "Reader"
+msgstr "リーダー"
+
+msgid "Reader Statistics"
+msgstr "読者統計"
+
+msgid "Reader/User"
+msgstr "リーダー/ユーザー"
+
+msgid "Recover Peer"
+msgstr "ピアを回復する"
+
+msgid "Remote box"
+msgstr "リモートボックス"
+
+msgid "Remove"
+msgstr "取り除く"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "CCcam.cfg から行を削除します。"
+
+msgid "Removing %s"
+msgstr "%sを削除しています"
+
+msgid "Rename"
+msgstr "名前の変更"
+
+msgid "Rename failed!"
+msgstr "名前の変更に失敗しました!"
+
+msgid "Rename to:"
+msgstr "名前を次のように変更します:"
+
+msgid "Renamed %s!"
+msgstr "%s の名前が変更されました!"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Reshare"
+msgstr "再共有"
+
+msgid "Reshare:"
+msgstr "共有："
+
+msgid "Resources"
+msgstr "リソース"
+
+msgid "Restart GUI?"
+msgstr "GUIを再起動しますか?"
+
+msgid "Restart error: %s"
+msgstr "再起動エラー: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "復元された設定を適用するにはソフトカムを再起動しますか?"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "ソフトカムのスキャンとリストの取得 ..."
+
+msgid "Select CCcam"
+msgstr "CCcamを選択します"
+
+msgid "Select Get Link"
+msgstr "「リンクを取得」を選択します"
+
+msgid "Select Ncam"
+msgstr "Ncam を選択します"
+
+msgid "Select OScam"
+msgstr "OScamを選択します"
+
+msgid "Select Your Choice"
+msgstr "選択してください"
+
+msgid "Select a cam to run ..."
+msgstr "実行するカムを選択してください..."
+
+msgid "Select and Install"
+msgstr "選択してインストールする"
+
+msgid "Select backup to restore:"
+msgstr "復元するバックアップを選択してください:"
+
+msgid "Server %s-%s"
+msgstr "サーバー %s-%s"
+
+msgid "Server Config"
+msgstr "サーバー構成"
+
+msgid "Server Copy in"
+msgstr "サーバーコピーイン"
+
+msgid "Server Link"
+msgstr "サーバーリンク"
+
+msgid "Server Password"
+msgstr "サーバーのパスワード"
+
+msgid "Server Port"
+msgstr "サーバーポート"
+
+msgid "Server URL"
+msgstr "サーバーURL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "サーバー URL 例: 012.345.678.900"
+
+msgid "Server Username"
+msgstr "サーバーのユーザー名"
+
+msgid "Server:"
+msgstr "サーバ："
+
+msgid "Servers"
+msgstr "サーバー"
+
+msgid "Servers:"
+msgstr "サーバー:"
+
+msgid "Service"
+msgstr "サービス"
+
+msgid "Set as UNIQUE PEER"
+msgstr "ユニークピアとして設定"
+
+msgid "Setup"
+msgstr "設定"
+
+msgid "Share View"
+msgstr "ビューを共有する"
+
+msgid "Shares"
+msgstr "株式"
+
+msgid "Show Clients"
+msgstr "クライアントを表示する"
+
+msgid "Show Ecm info"
+msgstr "ECM 情報を表示"
+
+msgid "Show Log"
+msgstr "ログを表示"
+
+msgid "Show Readers/Proxies"
+msgstr "リーダー/プロキシを表示"
+
+msgid "Softcam Manager"
+msgstr "ソフトカムマネージャー"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "ソフトカムが新しい設定で再起動されました!"
+
+msgid "Start"
+msgstr "始める"
+
+msgid "Status"
+msgstr "状態"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Stop Finding Fakes"
+msgstr "偽物を見つけるのをやめる"
+
+msgid "Switch config"
+msgstr "スイッチ構成"
+
+msgid "System"
+msgstr "システム"
+
+msgid "System cleanup completed!"
+msgstr "システムのクリーンアップが完了しました。"
+
+msgid "System:"
+msgstr "システム："
+
+msgid "Temporarely DELETED"
+msgstr "一時的に削除されました"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "このプラグインは CCcam のステータスを表示します。"
+
+msgid "Total"
+msgstr "合計"
+
+msgid "Total cards:"
+msgstr "合計カード:"
+
+msgid "Total handled client ecm's"
+msgstr "処理されたクライアント ECM の合計数"
+
+msgid "Total handled client emm's"
+msgstr "処理されたクライアント emm の合計数"
+
+msgid "Total:"
+msgstr "合計："
+
+msgid "Try again later ..."
+msgstr "後でもう一度試してください..."
+
+msgid "Type:"
+msgstr "タイプ："
+
+msgid "UNDELETED"
+msgstr "削除されていない"
+
+msgid "Unable to make the script executable: %s"
+msgstr "スクリプトを実行可能にできません: %s"
+
+msgid "Unknow Image!"
+msgstr "未知のイメージ！"
+
+msgid "Update"
+msgstr "アップデート"
+
+msgid "Update Aborted!"
+msgstr "アップデートが中止されました!"
+
+msgid "Update interval (in seconds)"
+msgstr "更新間隔 (秒単位)"
+
+msgid "Uphops +"
+msgstr "アップホップ +"
+
+msgid "Uphops -"
+msgstr "アップホップ -"
+
+msgid "Uphops:"
+msgstr "アップホップ:"
+
+msgid "Uptime"
+msgstr "稼働時間"
+
+msgid "Used:"
+msgstr "使用済み："
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Username (httpuser)"
+msgstr "ユーザー名 (httpuser)"
+
+msgid "Using old profile:"
+msgstr "古いプロファイルを使用する場合:"
+
+msgid "Version:"
+msgstr "バージョン:"
+
+msgid "Wait please..."
+msgstr "お待ちください..."
+
+msgid "Write"
+msgstr "書く"
+
+msgid "Write-Debug"
+msgstr "書き込みデバッグ"
+
+msgid "You have the latest version!"
+msgstr "最新バージョンをお持ちです!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\t提供:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "NOTHING.TO.UNDELE"
+
+msgid "address:"
+msgstr "住所："
+
+msgid "and"
+msgstr "そして"
+
+msgid "caid:"
+msgstr "助けました:"
+
+msgid "card"
+msgstr "カード"
+
+msgid "card reader"
+msgstr "カードリーダー"
+
+msgid "close share view"
+msgstr "共有ビューを閉じる"
+
+msgid "decrease uphop by 1"
+msgstr "アップホップを 1 減らす"
+
+msgid "ecm time:"
+msgstr "ECM 時間:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "カードのサーバーを取得する"
+
+msgid "handled"
+msgstr "処理された"
+
+msgid "hops:"
+msgstr "ホップ:"
+
+msgid "increase uphop by 1"
+msgstr "アップホップを 1 増やす"
+
+msgid "info"
+msgstr "情報"
+
+msgid "no or unknown card inserted"
+msgstr "カードが挿入されていないか、不明なカードが挿入されています"
+
+msgid "pid:"
+msgstr "ピッド:"
+
+msgid "provid:"
+msgstr "以下を提供します："
+
+msgid "provider:"
+msgstr "プロバイダー:"
+
+msgid "share:"
+msgstr "共有："
+
+msgid "show all cards"
+msgstr "すべてのカードを表示する"
+
+msgid "show cards with uphop 0"
+msgstr "uphop 0のカードを表示"
+
+msgid "show cards with uphop 1"
+msgstr "Uphop 1 でカードを表示する"
+
+msgid "show cards with uphop 2"
+msgstr "Uphop 2 でカードを表示"
+
+msgid "show cards with uphop 3"
+msgstr "Uphop 3 でカードを表示"
+
+msgid "show cards with uphop 4"
+msgstr "Uphop 4 でカードを表示する"
+
+msgid "show cards with uphop 5"
+msgstr "Uphop 5 でカードを表示する"
+
+msgid "show cards with uphop 6"
+msgstr "Uphop 6 でカードを表示する"
+
+msgid "show cards with uphop 7"
+msgstr "Uphop 7 でカードを表示する"
+
+msgid "show cards with uphop 8"
+msgstr "Uphop 8 でカードを表示する"
+
+msgid "show cards with uphop 9"
+msgstr "Uphop 9 でカードを表示する"
+
+msgid "system:"
+msgstr "システム："
+
+msgid "using:"
+msgstr "使用:"
+
+msgid "xLine"
+msgstr ""

@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 22:46+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s kaarti )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info – konfiguratsioon"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Info – peamenüü"
+
+msgid "%s restarted successfully!"
+msgstr "%s taaskäivitus edukalt!"
+
+msgid "%s webif disabled"
+msgstr "%s veeb on keelatud"
+
+msgid "(All readers)"
+msgstr "(Kõik lugejad)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Kuva ainult lugeja) (%s)"
+
+msgid "About"
+msgstr "Umbes"
+
+msgid "Activate"
+msgstr "Aktiveerige"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Aktiveerige konfiguratsioonifailis rida Lisamine:"
+
+msgid "Active clients"
+msgstr "Aktiivsed kliendid"
+
+msgid "Add"
+msgstr "Lisa"
+
+msgid "Add new CCcam line"
+msgstr "Lisage uus CCcam rida"
+
+msgid "Add new NewCamd line"
+msgstr "Lisage uus NewCamd rida"
+
+msgid "Address"
+msgstr "Aadress"
+
+msgid "All"
+msgstr "Kõik"
+
+msgid "An error occurred in the green function."
+msgstr "Rohelises funktsioonis ilmnes viga."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Ilmnes ootamatu viga: %s"
+
+msgid "Ask all caid"
+msgstr "Küsige kõigilt"
+
+msgid "Ask for the selection caid"
+msgstr "Küsi valikukaid"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Kas värskendada automaatselt kliendi-/serverivaadet?"
+
+msgid "Available shares:"
+msgstr "Saadaolevad aktsiad:"
+
+msgid "Back"
+msgstr "Tagasi"
+
+msgid "Backup failed!"
+msgstr "Varundamine ebaõnnestus!"
+
+msgid "Backup restoration failed!"
+msgstr "Varunduse taastamine ebaõnnestus!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMakeri seaded"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker automaatkäivitus"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam klientide teave"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM-i teave"
+
+msgid "CCcam Info"
+msgstr "CCcam teave"
+
+msgid "CCcam Info %s"
+msgstr "CCcam info %s"
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam teabe konfiguratsioonimenüü"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line Redigeerimise toimingud"
+
+msgid "CCcam Line Editor"
+msgstr ""
+
+msgid "CCcam Organizer"
+msgstr "CCcam korraldaja"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam pakkuja teave"
+
+msgid "CCcam Remote Info"
+msgstr ""
+
+msgid "CCcam Server Info"
+msgstr "CCcam serveri teave"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Jaga teavet"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam jagab teavet"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg põhirearedaktor"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo pole saadaval"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Kaamera allalaadimine"
+
+msgid "Cancel"
+msgstr "Tühista"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kaardi teave (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kaardid:"
+
+msgid "Cards: 0"
+msgstr "Kaardid: 0"
+
+msgid "Cardserial"
+msgstr "Kaardi seeria"
+
+msgid "Channel"
+msgstr "Kanal"
+
+msgid "Channel Name"
+msgstr "Kanali nimi"
+
+msgid "Check Emm Send"
+msgstr "Kontrollige Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Valige CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Valige lugeja"
+
+msgid "Cleanup error: %s"
+msgstr "Puhastamise viga: %s"
+
+msgid "Client %s-%s"
+msgstr "Klient %s-%s"
+
+msgid "Clients"
+msgstr "Kliendid"
+
+msgid "Close"
+msgstr "Sule"
+
+msgid "Command Cancelled"
+msgstr "Käsk tühistatud"
+
+msgid "Configfile %s saved."
+msgstr "Konfiguratsioonifail %s on salvestatud."
+
+msgid "Connected clients"
+msgstr "Ühendatud kliendid"
+
+msgid "Connected:"
+msgstr "Ühendatud:"
+
+msgid "Content"
+msgstr "Sisu"
+
+msgid "Could not open the file %s!"
+msgstr "Faili %s ei õnnestunud avada!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Faili %s ei õnnestunud avada! Viga: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Konfiguratsioonifaili %s ei õnnestunud salvestada! Viga: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Konfiguratsioonifaili ei saanud salvestada! Viga: %s"
+
+msgid "Current time"
+msgstr "Praegune aeg"
+
+msgid "Delete"
+msgstr "Kustuta"
+
+msgid "Delete %s?"
+msgstr "Kas kustutada %s?"
+
+msgid "Delete Peer"
+msgstr "Kustuta Peer"
+
+msgid "Delete failed!"
+msgstr "Kustutamine ebaõnnestus!"
+
+msgid "Deleted %s!"
+msgstr "Kustutatud %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Kas installite selle pistikprogrammi?"
+
+msgid "Do you want to execute the command?"
+msgstr "Kas soovite käsku täita?"
+
+msgid "Do you want to remove?"
+msgstr "Kas soovite eemaldada?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Kas soovite Gui liidese taaskäivitada?"
+
+msgid "ECM data format error"
+msgstr "ECM-i andmevormingu viga"
+
+msgid "ECM error"
+msgstr "ECM-i viga"
+
+msgid "ECM file empty"
+msgstr "ECM-fail on tühi"
+
+msgid "ECM file not found"
+msgstr "ECM-faili ei leitud"
+
+msgid "ECM read error"
+msgstr "ECM-i lugemisviga"
+
+msgid "Ecm Info"
+msgstr "ECM teave"
+
+msgid "Ecm Statistics"
+msgstr "ECM statistika"
+
+msgid "Ecm Time"
+msgstr "Ecm aeg"
+
+msgid "Ecm avg"
+msgstr "ECM keskm"
+
+msgid "Ecm last"
+msgstr "Ecm viimane"
+
+msgid "Edit"
+msgstr "Muuda"
+
+msgid "Editing one caid"
+msgstr "Ühe kaidi toimetamine"
+
+msgid "Emm Info"
+msgstr "Ermi teave"
+
+msgid "Entitlements"
+msgstr "Õigused"
+
+msgid "Error"
+msgstr "Viga"
+
+msgid "Error executing update script: %s"
+msgstr "Viga värskendusskripti käivitamisel: %s"
+
+msgid "Error getting resource information"
+msgstr "Viga ressursi teabe hankimisel"
+
+msgid "Error loading system info:"
+msgstr "Viga süsteemi teabe laadimisel:"
+
+msgid "Error loading system information:"
+msgstr "Viga süsteemi teabe laadimisel:"
+
+msgid "Error opening cam info: %s"
+msgstr "Viga kaamera teabe avamisel: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Viga konfiguratsioonifaili avamisel: %s"
+
+msgid "Error processing HTML!"
+msgstr "Viga HTML-i töötlemisel!"
+
+msgid "Error processing server addons data"
+msgstr "Viga serveri lisandandmete töötlemisel"
+
+msgid "Error reading webpage!"
+msgstr "Veebilehe lugemisel tekkis viga!"
+
+msgid "Error stopping %s!"
+msgstr "Viga %s peatamisel!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Viga konfiguratsiooni muutmisel: %s"
+
+msgid "Exit"
+msgstr "Välju"
+
+msgid "Extended Shares"
+msgstr "Laiendatud aktsiad"
+
+msgid "Failed to revert file: %s"
+msgstr "Faili ennistamine nurjus: %s"
+
+msgid "Find Fakes"
+msgstr "Leia võltsinguid"
+
+msgid "Force Update"
+msgstr "Värskendamine sunniviisiliselt"
+
+msgid "Free memory"
+msgstr "Vaba mälu"
+
+msgid "Free memory:"
+msgstr "Vaba mälu:"
+
+msgid "Free:"
+msgstr "Tasuta:"
+
+msgid "General"
+msgstr "Kindral"
+
+msgid "Get Link"
+msgstr "Hangi link"
+
+msgid "Getting the list, please wait ..."
+msgstr "Loendi hankimine, palun oodake..."
+
+msgid "Help"
+msgstr "Abi"
+
+msgid "Hops"
+msgstr "Humal"
+
+msgid "Hops:"
+msgstr "Humal:"
+
+msgid "Hostname:"
+msgstr "Hostinimi:"
+
+msgid "IP Address"
+msgstr "IP-aadress"
+
+msgid "IP address"
+msgstr "IP-aadress"
+
+msgid "Idle Time:"
+msgstr "Jõudeaeg:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr ""
+
+msgid "Install Cam first!!!"
+msgstr "Installige kaamera esmalt!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Kas installida arendaja värskendus (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Kehtetu HTML-sisu!"
+
+msgid "Invalid URL!"
+msgstr "Vigane URL!"
+
+msgid "Last Req."
+msgstr "Viimane nõue"
+
+msgid "Last used share:"
+msgstr "Viimati kasutatud jagamine:"
+
+msgid "Load"
+msgstr "Laadige"
+
+msgid "Local box"
+msgstr "Kohalik kast"
+
+msgid "Location"
+msgstr "Asukoht"
+
+msgid "Log"
+msgstr "Logi sisse"
+
+msgid "Log %s-%s"
+msgstr "Logi %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENÜÜ EMM / SERVER CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Menüü konfiguratsioon"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo pole saadaval"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ei tööta – teabe hankimiseks käivitage Cam."
+
+msgid "New"
+msgstr "Uus"
+
+msgid "New profile:"
+msgstr "Uus profiil:"
+
+msgid "NewCamd"
+msgstr "UusCamd"
+
+msgid "No ECM data"
+msgstr "ECM-i andmed puuduvad"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM-i andmed puuduvad – ajalõpp"
+
+msgid "No ECM file"
+msgstr "ECM-faili pole"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ECM-teave pole praegu saadaval. See on saadaval ainult dekrüpteerimise ajal."
+
+msgid "No active cam to restart!"
+msgstr "Taaskäivitamiseks pole aktiivset kaamerat!"
+
+msgid "No backups available!"
+msgstr "Varukoopiaid pole saadaval!"
+
+msgid "No card inserted!"
+msgstr "Kaarti pole sisestatud!"
+
+msgid "No softcams available!"
+msgstr "Softcams pole saadaval!"
+
+msgid "No valid backups found!"
+msgstr "Kehtivaid varukoopiaid ei leitud!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr "Sõlme ID:"
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCami värskendus aegus. Üksikasju vaadake /tmp/oscam_update.log."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo pole saadaval"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ei tööta – teabe hankimiseks käivitage Cam."
+
+msgid "PRESS RETURN"
+msgstr "VAJUTA TAGASI"
+
+msgid "Password"
+msgstr "Parool"
+
+msgid "Password (httpwd)"
+msgstr "Parool (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Tippkoormus (maksimaalne järjekorras olevaid taotlusi töötaja lõime kohta)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Lähtestage – CFG faili pole"
+
+msgid "Please select ..."
+msgstr "Palun valige..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Palun valige redigeeritav rida või valige uue rea loomiseks lisamine."
+
+msgid "Please wait, %s."
+msgstr "Palun oota, %s."
+
+msgid "Port"
+msgstr ""
+
+msgid "Profile"
+msgstr "Profiil"
+
+msgid "Profile: Local box"
+msgstr "Profiil: kohalik kast"
+
+msgid "Protocol"
+msgstr "Protokoll"
+
+msgid "Provider"
+msgstr "Pakkuja"
+
+msgid "Provider Name:"
+msgstr "Pakkuja nimi:"
+
+msgid "Provider:"
+msgstr "Pakkuja:"
+
+msgid "Providers"
+msgstr "Pakkujad"
+
+msgid "Providers:"
+msgstr "Pakkujad:"
+
+msgid "Quick restart %s?"
+msgstr "Kiire taaskäivitamine %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Lugege kasutajaandmeid saidilt %s.conf"
+
+msgid "Reader"
+msgstr "Lugeja"
+
+msgid "Reader Statistics"
+msgstr "Lugeja statistika"
+
+msgid "Reader/User"
+msgstr "Lugeja/kasutaja"
+
+msgid "Recover Peer"
+msgstr "Taastage Peer"
+
+msgid "Remote box"
+msgstr "Kaugkast"
+
+msgid "Remove"
+msgstr "Eemalda"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Eemaldage rida failist CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "%s eemaldamine"
+
+msgid "Rename"
+msgstr "Nimeta ümber"
+
+msgid "Rename failed!"
+msgstr "Ümbernimetamine ebaõnnestus!"
+
+msgid "Rename to:"
+msgstr "Nimeta ümber:"
+
+msgid "Renamed %s!"
+msgstr "Nimetati ümber %s!"
+
+msgid "Reset"
+msgstr "Lähtesta"
+
+msgid "Reshare"
+msgstr "Jaga edasi"
+
+msgid "Reshare:"
+msgstr "Jaga:"
+
+msgid "Resources"
+msgstr "Vahendid"
+
+msgid "Restart GUI?"
+msgstr "Kas taaskäivitada GUI?"
+
+msgid "Restart error: %s"
+msgstr "Taaskäivitamise viga: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Kas taaskäivitada tarkvarakaamera taastatud konfiguratsiooni rakendamiseks?"
+
+msgid "Save"
+msgstr "Salvesta"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Programmikaamera skannimine ja otsimise loend ..."
+
+msgid "Select CCcam"
+msgstr "Valige CCcam"
+
+msgid "Select Get Link"
+msgstr "Valige Hangi link"
+
+msgid "Select Ncam"
+msgstr "Valige Ncam"
+
+msgid "Select OScam"
+msgstr "Valige OScam"
+
+msgid "Select Your Choice"
+msgstr "Valige oma valik"
+
+msgid "Select a cam to run ..."
+msgstr "Valige käivitamiseks kaamera..."
+
+msgid "Select and Install"
+msgstr "Valige ja installige"
+
+msgid "Select backup to restore:"
+msgstr "Valige taastamiseks varukoopia:"
+
+msgid "Server %s-%s"
+msgstr ""
+
+msgid "Server Config"
+msgstr "Serveri konfiguratsioon"
+
+msgid "Server Copy in"
+msgstr "Server Kopeeri sisse"
+
+msgid "Server Link"
+msgstr "Serveri link"
+
+msgid "Server Password"
+msgstr "Serveri parool"
+
+msgid "Server Port"
+msgstr "Serveri port"
+
+msgid "Server URL"
+msgstr "Serveri URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Serveri URL, st 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Serveri kasutajanimi"
+
+msgid "Server:"
+msgstr ""
+
+msgid "Servers"
+msgstr "Serverid"
+
+msgid "Servers:"
+msgstr "Serverid:"
+
+msgid "Service"
+msgstr "Teenindus"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Määra UNIQUE PEER-iks"
+
+msgid "Setup"
+msgstr "Seadistamine"
+
+msgid "Share View"
+msgstr "Jaga vaadet"
+
+msgid "Shares"
+msgstr "Aktsiad"
+
+msgid "Show Clients"
+msgstr "Näita kliente"
+
+msgid "Show Ecm info"
+msgstr "Näita ECM-teavet"
+
+msgid "Show Log"
+msgstr "Kuva logi"
+
+msgid "Show Readers/Proxies"
+msgstr "Kuva lugejad/puhverserverid"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam taaskäivitatud uue konfiguratsiooniga!"
+
+msgid "Start"
+msgstr "Alusta"
+
+msgid "Status"
+msgstr "Olek"
+
+msgid "Stop"
+msgstr "Peatus"
+
+msgid "Stop Finding Fakes"
+msgstr "Lõpetage võltsingute leidmine"
+
+msgid "Switch config"
+msgstr "Lüliti konfiguratsiooni"
+
+msgid "System"
+msgstr "Süsteem"
+
+msgid "System cleanup completed!"
+msgstr "Süsteemi puhastamine on lõpetatud!"
+
+msgid "System:"
+msgstr "Süsteem:"
+
+msgid "Temporarely DELETED"
+msgstr "Ajutiselt KUSTUTATUD"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "See pistikprogramm näitab teie CCcam olekut"
+
+msgid "Total"
+msgstr "Kokku"
+
+msgid "Total cards:"
+msgstr "Kaardid kokku:"
+
+msgid "Total handled client ecm's"
+msgstr "Käsitletud kliendi ECM-id kokku"
+
+msgid "Total handled client emm's"
+msgstr "Käsitletud klientide emm kokku"
+
+msgid "Total:"
+msgstr "Kokku:"
+
+msgid "Try again later ..."
+msgstr "Proovi hiljem uuesti..."
+
+msgid "Type:"
+msgstr "Tüüp:"
+
+msgid "UNDELETED"
+msgstr "TÜHISTATUD"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Skripti ei saa käivitatavaks muuta: %s"
+
+msgid "Unknow Image!"
+msgstr "Tundmatu pilt!"
+
+msgid "Update"
+msgstr "Värskenda"
+
+msgid "Update Aborted!"
+msgstr "Värskendus katkestatud!"
+
+msgid "Update interval (in seconds)"
+msgstr "Värskendusintervall (sekundites)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Tööaeg"
+
+msgid "Used:"
+msgstr "Kasutatud:"
+
+msgid "Username"
+msgstr "Kasutajanimi"
+
+msgid "Username (httpuser)"
+msgstr "Kasutajanimi (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Vana profiili kasutamine:"
+
+msgid "Version:"
+msgstr "Versioon:"
+
+msgid "Wait please..."
+msgstr "Oota palun..."
+
+msgid "Write"
+msgstr "Kirjutage"
+
+msgid "Write-Debug"
+msgstr "Kirjutamine-silumine"
+
+msgid "You have the latest version!"
+msgstr "Teil on uusim versioon!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tPaku:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a MIDAGI.TO.UNELE"
+
+msgid "address:"
+msgstr "aadress:"
+
+msgid "and"
+msgstr "ja"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kaardile"
+
+msgid "card reader"
+msgstr "kaardilugeja"
+
+msgid "close share view"
+msgstr "sulge jagamisvaade"
+
+msgid "decrease uphop by 1"
+msgstr "vähenda üleshüpet 1 võrra"
+
+msgid "ecm time:"
+msgstr "ECM aeg:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "hankige kaartide server"
+
+msgid "handled"
+msgstr "käsitletud"
+
+msgid "hops:"
+msgstr "humal:"
+
+msgid "increase uphop by 1"
+msgstr "suurenda uphopi 1 võrra"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "kaarti pole sisestatud või see on tundmatu"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "tingimusel:"
+
+msgid "provider:"
+msgstr "pakkuja:"
+
+msgid "share:"
+msgstr "jaga:"
+
+msgid "show all cards"
+msgstr "näita kõiki kaarte"
+
+msgid "show cards with uphop 0"
+msgstr "näita kaarte uphop 0-ga"
+
+msgid "show cards with uphop 1"
+msgstr "näita kaarte uphopiga 1"
+
+msgid "show cards with uphop 2"
+msgstr "näita kaarte uphop 2-ga"
+
+msgid "show cards with uphop 3"
+msgstr "näita kaarte uphopiga 3"
+
+msgid "show cards with uphop 4"
+msgstr "näita kaarte uphopiga 4"
+
+msgid "show cards with uphop 5"
+msgstr "näita kaarte uphopiga 5"
+
+msgid "show cards with uphop 6"
+msgstr "näita kaarte uphopiga 6"
+
+msgid "show cards with uphop 7"
+msgstr "näita kaarte uphopiga 7"
+
+msgid "show cards with uphop 8"
+msgstr "näita kaarte uphopiga 8"
+
+msgid "show cards with uphop 9"
+msgstr "näita kaarte uphopiga 9"
+
+msgid "system:"
+msgstr "süsteem:"
+
+msgid "using:"
+msgstr "kasutades:"
+
+msgid "xLine"
+msgstr ""

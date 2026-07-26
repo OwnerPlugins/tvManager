@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 01:21+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Occitan <(nothing)>\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Cartas )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info - Configuracion"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Infos - Menú principal"
+
+msgid "%s restarted successfully!"
+msgstr "%s reaviat amb succès !"
+
+msgid "%s webif disabled"
+msgstr "%s webif desactivat"
+
+msgid "(All readers)"
+msgstr "(Totes los legeires)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Afichar lo lector sonque) (%s)"
+
+msgid "About"
+msgstr "A prepaus"
+
+msgid "Activate"
+msgstr "Activar"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Activar la linha d'insercion dins lo fichièr de configuracion :"
+
+msgid "Active clients"
+msgstr "Clients actius"
+
+msgid "Add"
+msgstr "Apondre"
+
+msgid "Add new CCcam line"
+msgstr "Ajustar una novèla linha de CCcam"
+
+msgid "Add new NewCamd line"
+msgstr "Apondre una novèla linha NewCamd"
+
+msgid "Address"
+msgstr "Adreça"
+
+msgid "All"
+msgstr "Tot"
+
+msgid "An error occurred in the green function."
+msgstr "Una error s'es producha dins la foncion verda."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Una error inesperada s'es producha : %s"
+
+msgid "Ask all caid"
+msgstr "Demandatz a totes caid"
+
+msgid "Ask for the selection caid"
+msgstr "Demandatz la seleccion caid"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Actualizar automaticament la vista client/servidor?"
+
+msgid "Available shares:"
+msgstr "Partatges disponibles:"
+
+msgid "Back"
+msgstr "Arrièr"
+
+msgid "Backup failed!"
+msgstr "La salvagarda a fracassat!"
+
+msgid "Backup restoration failed!"
+msgstr "La restauracion de la còpia de seguretat a fracassat !"
+
+msgid "CCPrioMaker Settings"
+msgstr "Paramètres de CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "Aviada automatica de CCPrioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Informacion dels clients de CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "Commutador de configuracion de CCcam"
+
+msgid "CCcam ECM Info"
+msgstr ""
+
+msgid "CCcam Info"
+msgstr "Informacion de CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Informacions de CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "Configuracion d'informacions de la CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "Menú de configuracion d'informacions CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Accions d'edicion de la linha CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "Editor de linha CCcam"
+
+msgid "CCcam Organizer"
+msgstr "Organizador de CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr "Fabricant de prio de CCcam"
+
+msgid "CCcam Provider Info"
+msgstr "Informacion del provesidor de CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Informacions a distància de CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Informacion del servidor CCcam"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Partejar d'informacions"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam parteja d'informacions"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Editor de linha de basa"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo pas disponibla"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Cam Telecargar"
+
+msgid "Cancel"
+msgstr "Anullar"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Informacions de la carta (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Cartas:"
+
+msgid "Cards: 0"
+msgstr "Cartas: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Canal"
+
+msgid "Channel Name"
+msgstr "Nom de canal"
+
+msgid "Check Emm Send"
+msgstr "Verificar Emm Enviar"
+
+msgid "Choose CCcam-Reader"
+msgstr "Causissètz CCcam-Lector"
+
+msgid "Choose reader"
+msgstr "Causissètz lo legeire"
+
+msgid "Cleanup error: %s"
+msgstr "Error de netejament : %s"
+
+msgid "Client %s-%s"
+msgstr ""
+
+msgid "Clients"
+msgstr ""
+
+msgid "Close"
+msgstr "Barrar"
+
+msgid "Command Cancelled"
+msgstr "Comanda anullada"
+
+msgid "Configfile %s saved."
+msgstr "Fichièr de configuracion %s enregistrat."
+
+msgid "Connected clients"
+msgstr "Clients connectats"
+
+msgid "Connected:"
+msgstr "Connectat:"
+
+msgid "Content"
+msgstr "Contengut"
+
+msgid "Could not open the file %s!"
+msgstr "Impossible de dobrir lo fichièr %s !"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Impossible de dobrir lo fichièr %s ! Error : %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Impossible d'enregistrar lo fichièr de configuracion %s ! Error : %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Impossible d'enregistrar lo fichièr de configuracion ! Error : %s"
+
+msgid "Current time"
+msgstr "Ora actuala"
+
+msgid "Delete"
+msgstr "Escafar"
+
+msgid "Delete %s?"
+msgstr "Suprimir %s?"
+
+msgid "Delete Peer"
+msgstr "Suprimir par"
+
+msgid "Delete failed!"
+msgstr "La supression a fracassat!"
+
+msgid "Deleted %s!"
+msgstr "%s suprimit !"
+
+msgid "Do you install this plugin ?"
+msgstr "Installatz aqueste ensamblador ?"
+
+msgid "Do you want to execute the command?"
+msgstr "Volètz executar la comanda ?"
+
+msgid "Do you want to remove?"
+msgstr "Volètz suprimir?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Volètz reaviar l'interfàcia Gui ?"
+
+msgid "ECM data format error"
+msgstr "Error de format de donadas ECM"
+
+msgid "ECM error"
+msgstr "Error ECM"
+
+msgid "ECM file empty"
+msgstr "Fichièr ECM vuèg"
+
+msgid "ECM file not found"
+msgstr "Fichièr ECM pas trobat"
+
+msgid "ECM read error"
+msgstr "Error de lectura ECM"
+
+msgid "Ecm Info"
+msgstr ""
+
+msgid "Ecm Statistics"
+msgstr "Estadísticas Ecm"
+
+msgid "Ecm Time"
+msgstr "Temps Ecm"
+
+msgid "Ecm avg"
+msgstr "Ecm mejana"
+
+msgid "Ecm last"
+msgstr "Ecm darrièr"
+
+msgid "Edit"
+msgstr "Modificar"
+
+msgid "Editing one caid"
+msgstr "Edicion d'un caid"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Dreches"
+
+msgid "Error"
+msgstr ""
+
+msgid "Error executing update script: %s"
+msgstr "Error al moment de l'execucion de l'escript de mesa a jorn : %s"
+
+msgid "Error getting resource information"
+msgstr "Error al moment de l'obtencion d'informacions de la ressorsa"
+
+msgid "Error loading system info:"
+msgstr "Error al moment de cargament d'informacions del sistèma :"
+
+msgid "Error loading system information:"
+msgstr "Error al moment de cargament d'informacions del sistèma :"
+
+msgid "Error opening cam info: %s"
+msgstr "Error al moment de la dobertura d'informacions de cam : %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Error al moment de la dobertura del fichièr de configuracion : %s"
+
+msgid "Error processing HTML!"
+msgstr "Error al tractament de l'HTML !"
+
+msgid "Error processing server addons data"
+msgstr "Error al tractament de las donadas dels addons del servidor"
+
+msgid "Error reading webpage!"
+msgstr "Error al moment de la lectura de la pagina web!"
+
+msgid "Error stopping %s!"
+msgstr "Error a l'arrèst de %s !"
+
+msgid "Error while editing configuration: %s"
+msgstr "Error al moment de l'edicion de la configuracion : %s"
+
+msgid "Exit"
+msgstr "Sortida"
+
+msgid "Extended Shares"
+msgstr "Accions prolongadas"
+
+msgid "Failed to revert file: %s"
+msgstr "Fracàs al retorn del fichièr : %s"
+
+msgid "Find Fakes"
+msgstr "Trobar de falsificacions"
+
+msgid "Force Update"
+msgstr "Forçar la mesa a jorn"
+
+msgid "Free memory"
+msgstr "Memòria liura"
+
+msgid "Free memory:"
+msgstr "Memòria liura:"
+
+msgid "Free:"
+msgstr "Liure:"
+
+msgid "General"
+msgstr ""
+
+msgid "Get Link"
+msgstr "Obténer lo ligam"
+
+msgid "Getting the list, please wait ..."
+msgstr "En obtenent la lista, esperatz ..."
+
+msgid "Help"
+msgstr "Ajudar"
+
+msgid "Hops"
+msgstr "Lop"
+
+msgid "Hops:"
+msgstr "Lòps:"
+
+msgid "Hostname:"
+msgstr "Nom d'òste :"
+
+msgid "IP Address"
+msgstr "Adreça IP"
+
+msgid "IP address"
+msgstr "Adreça IP"
+
+msgid "Idle Time:"
+msgstr "Temps d'inactivitat:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Se actiu: Telecargar/Reïnicializar la configuracion del servidor"
+
+msgid "Install Cam first!!!"
+msgstr "Installatz Cam primièr!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Installar la mesa a jorn del desvolopaire (%s) ?"
+
+msgid "Invalid HTML content!"
+msgstr "Contengut HTML invalid !"
+
+msgid "Invalid URL!"
+msgstr "URL pas valida!"
+
+msgid "Last Req."
+msgstr "Darrièra Req."
+
+msgid "Last used share:"
+msgstr "Darrièr partatge utilizat :"
+
+msgid "Load"
+msgstr "Cargar"
+
+msgid "Local box"
+msgstr "Bóstia locala"
+
+msgid "Location"
+msgstr "Endrech"
+
+msgid "Log"
+msgstr "Enregistrar"
+
+msgid "Log %s-%s"
+msgstr "Jornal %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM / CLINE DE SERVIDOR"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Configuracion de menú"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo pas disponibla"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam pas en cors - aviar Cam per obténer d'informacions."
+
+msgid "New"
+msgstr "Novèl"
+
+msgid "New profile:"
+msgstr "Perfil novèl:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Pas de donadas ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Pas de donadas ECM - Temps d'espèra"
+
+msgid "No ECM file"
+msgstr "Cap de fichièr ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Cap d'informacion ECM es pas disponibla actualament. Aquò es disponible sonque al moment del deschiframent."
+
+msgid "No active cam to restart!"
+msgstr "Pas de cam activa per reaviar!"
+
+msgid "No backups available!"
+msgstr "Pas de còpias de seguretat disponiblas!"
+
+msgid "No card inserted!"
+msgstr "Cap de carta inserida!"
+
+msgid "No softcams available!"
+msgstr "Pas de softcams disponiblas!"
+
+msgid "No valid backups found!"
+msgstr "Cap de còpia de seguretat valida pas trobada !"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "ÒC BEN"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "La mesa a jorn OSCam es passada. Verificatz /tmp/oscam_update.log pels detalhs."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo pas disponibla"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam pas en cors d'execucion - aviar Cam per obténer d'informacions."
+
+msgid "PRESS RETURN"
+msgstr "PREMIAR RETORN"
+
+msgid "Password"
+msgstr "Senhal"
+
+msgid "Password (httpwd)"
+msgstr "Senhal (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Carga màxima (demandas maximalas en còla per fial de trabalh)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Mercés de reïnicializar - Pas de fichièr CFG"
+
+msgid "Please select ..."
+msgstr "Seleccionatz ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Seleccionatz una linha a modificar o seleccionatz apondre per crear una linha novèla."
+
+msgid "Please wait, %s."
+msgstr "Esperatz, %s."
+
+msgid "Port"
+msgstr "Pòrt"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Profile: Local box"
+msgstr "Perfil: Bóstia locala"
+
+msgid "Protocol"
+msgstr "Protocòl"
+
+msgid "Provider"
+msgstr "Provesidor"
+
+msgid "Provider Name:"
+msgstr "Nom del provesidor:"
+
+msgid "Provider:"
+msgstr "Provesidor:"
+
+msgid "Providers"
+msgstr "Proveidors"
+
+msgid "Providers:"
+msgstr "Proveidors:"
+
+msgid "Quick restart %s?"
+msgstr "Reaviada rapida %s ?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Legir las donadas d'utilizaire dempuèi %s.conf"
+
+msgid "Reader"
+msgstr "Legeire"
+
+msgid "Reader Statistics"
+msgstr "Estatisticas dels legeires"
+
+msgid "Reader/User"
+msgstr "Lector/Utilizaire"
+
+msgid "Recover Peer"
+msgstr "Recuperar lo parelh"
+
+msgid "Remote box"
+msgstr "Bóstia a distància"
+
+msgid "Remove"
+msgstr "Levar"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Suprimir la linha de CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Suprimir %s"
+
+msgid "Rename"
+msgstr "Renomenar"
+
+msgid "Rename failed!"
+msgstr "Renomenar a fracassat!"
+
+msgid "Rename to:"
+msgstr "Renomenar a:"
+
+msgid "Renamed %s!"
+msgstr "Renomenat %s !"
+
+msgid "Reset"
+msgstr "Reïnicializar"
+
+msgid "Reshare"
+msgstr "Tornatz partejar"
+
+msgid "Reshare:"
+msgstr "Partejar:"
+
+msgid "Resources"
+msgstr "Ressorgas"
+
+msgid "Restart GUI?"
+msgstr "Reaviar l'interfaci grafica?"
+
+msgid "Restart error: %s"
+msgstr "Error de reaviada : %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Reaviar la softcam per aplicar la configuracion restaurada ?"
+
+msgid "Save"
+msgstr "Salvar"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Softcam de lista d'escanatge e de recuperacion ..."
+
+msgid "Select CCcam"
+msgstr "Seleccionatz CCcam"
+
+msgid "Select Get Link"
+msgstr "Seleccionatz Obténer lo ligam"
+
+msgid "Select Ncam"
+msgstr "Seleccionatz Ncam"
+
+msgid "Select OScam"
+msgstr "Seleccionatz OScam"
+
+msgid "Select Your Choice"
+msgstr "Seleccionatz vòstra causida"
+
+msgid "Select a cam to run ..."
+msgstr "Seleccionatz una cam per executar ..."
+
+msgid "Select and Install"
+msgstr "Seleccionatz e installatz"
+
+msgid "Select backup to restore:"
+msgstr "Seleccionatz la salvagarda per restablir :"
+
+msgid "Server %s-%s"
+msgstr "Servidor %s-%s"
+
+msgid "Server Config"
+msgstr "Configuracion del servidor"
+
+msgid "Server Copy in"
+msgstr "Còpia del servidor dins"
+
+msgid "Server Link"
+msgstr "Ligam del servidor"
+
+msgid "Server Password"
+msgstr "Senhal del servidor"
+
+msgid "Server Port"
+msgstr "Pòrt del servidor"
+
+msgid "Server URL"
+msgstr "URL del servidor"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Url del servidor es a dire 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Nom d'utilizaire del servidor"
+
+msgid "Server:"
+msgstr "Servidor:"
+
+msgid "Servers"
+msgstr "Servidors"
+
+msgid "Servers:"
+msgstr "Servidors:"
+
+msgid "Service"
+msgstr "Servici"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Definir coma PAR UNIC"
+
+msgid "Setup"
+msgstr "Metre en plaça"
+
+msgid "Share View"
+msgstr "Partejar la vista"
+
+msgid "Shares"
+msgstr "Accions"
+
+msgid "Show Clients"
+msgstr "Mostrar los clients"
+
+msgid "Show Ecm info"
+msgstr "Mostrar las informacions Ecm"
+
+msgid "Show Log"
+msgstr "Afichar lo jornal"
+
+msgid "Show Readers/Proxies"
+msgstr "Mostrar los legeires/proxys"
+
+msgid "Softcam Manager"
+msgstr "Gestionari de softcam"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam reaviada amb una novèla configuracion!"
+
+msgid "Start"
+msgstr "Començar"
+
+msgid "Status"
+msgstr "Estatut"
+
+msgid "Stop"
+msgstr "Arrestar"
+
+msgid "Stop Finding Fakes"
+msgstr "Arrèsta de trobar de falsificacions"
+
+msgid "Switch config"
+msgstr "Cambiar la configuracion"
+
+msgid "System"
+msgstr "Sistèma"
+
+msgid "System cleanup completed!"
+msgstr "La neteja del sistèma acabada!"
+
+msgid "System:"
+msgstr "Sistèma:"
+
+msgid "Temporarely DELETED"
+msgstr "Suprimit temporàriament"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Aqueste ensamblador vos mòstra l'estat de vòstra CCcam"
+
+msgid "Total"
+msgstr ""
+
+msgid "Total cards:"
+msgstr "Total de cartas:"
+
+msgid "Total handled client ecm's"
+msgstr "Total de clients ecm gestionats"
+
+msgid "Total handled client emm's"
+msgstr "Total de emm's de client gestionats"
+
+msgid "Total:"
+msgstr ""
+
+msgid "Try again later ..."
+msgstr "Tornatz ensajar mai tard ..."
+
+msgid "Type:"
+msgstr "Tipe:"
+
+msgid "UNDELETED"
+msgstr "SINSUPRIMIT"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Impossible de rendre l'escript executable : %s"
+
+msgid "Unknow Image!"
+msgstr "Imatge desconeguda!"
+
+msgid "Update"
+msgstr "Metre al jorn"
+
+msgid "Update Aborted!"
+msgstr "Mesa a jorn avortada!"
+
+msgid "Update interval (in seconds)"
+msgstr "Interval de mesa a jorn (en segondas)"
+
+msgid "Uphops +"
+msgstr "Upphops +"
+
+msgid "Uphops -"
+msgstr "Upphops -"
+
+msgid "Uphops:"
+msgstr "Upphoms:"
+
+msgid "Uptime"
+msgstr "Temps d'activitat"
+
+msgid "Used:"
+msgstr "Utilizat:"
+
+msgid "Username"
+msgstr "Nom d'utilizaire"
+
+msgid "Username (httpuser)"
+msgstr "Nom d'utilizaire (httpuser)"
+
+msgid "Using old profile:"
+msgstr "En utilizant lo perfil ancian :"
+
+msgid "Version:"
+msgstr ""
+
+msgid "Wait please..."
+msgstr "Espèra mercés..."
+
+msgid "Write"
+msgstr "Escriure"
+
+msgid "Write-Debug"
+msgstr "Escriure-Depuracion"
+
+msgid "You have the latest version!"
+msgstr "Avètz la darrièra version!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr ""
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "un RÈS.A.DESALLAR"
+
+msgid "address:"
+msgstr "adreça:"
+
+msgid "and"
+msgstr "e"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "carta"
+
+msgid "card reader"
+msgstr "lector de cartas"
+
+msgid "close share view"
+msgstr "tampar la vista de partatge"
+
+msgid "decrease uphop by 1"
+msgstr "diminuir l'upphop de 1"
+
+msgid "ecm time:"
+msgstr "temps ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "obténer lo servidor de las cartas"
+
+msgid "handled"
+msgstr "manejat"
+
+msgid "hops:"
+msgstr "lops:"
+
+msgid "increase uphop by 1"
+msgstr "aumentar l'upphop de 1"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "cap de carta o desconeguda inserida"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "provesir:"
+
+msgid "provider:"
+msgstr "provesidor:"
+
+msgid "share:"
+msgstr "partejar:"
+
+msgid "show all cards"
+msgstr "mostrar totas las cartas"
+
+msgid "show cards with uphop 0"
+msgstr "mostrar las cartas amb upphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "mostrar las cartas amb upphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "mostrar las cartas amb upphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "mostrar las cartas amb upphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "mostrar las cartas amb upphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "mostrar las cartas amb upphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "mostrar las cartas amb upphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "mostrar las cartas amb upphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "mostrar las cartas amb upphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "mostrar las cartas amb upphop 9"
+
+msgid "system:"
+msgstr "sistèma:"
+
+msgid "using:"
+msgstr "en utilizant:"
+
+msgid "xLine"
+msgstr ""

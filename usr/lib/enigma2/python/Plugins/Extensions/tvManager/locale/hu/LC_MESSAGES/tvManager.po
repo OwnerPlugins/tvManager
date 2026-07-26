@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 23:41+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s kártya )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info - Konfiguráció"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Info - Főmenü"
+
+msgid "%s restarted successfully!"
+msgstr "%s sikeresen újraindult!"
+
+msgid "%s webif disabled"
+msgstr "%s web, ha le van tiltva"
+
+msgid "(All readers)"
+msgstr "(Minden olvasó)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Csak olvasó megjelenítése) (%s)"
+
+msgid "About"
+msgstr "Körülbelül"
+
+msgid "Activate"
+msgstr "Aktiválja"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Aktiválja a sor beszúrását a konfigurációs fájlban:"
+
+msgid "Active clients"
+msgstr "Aktív ügyfelek"
+
+msgid "Add"
+msgstr "Hozzáadás"
+
+msgid "Add new CCcam line"
+msgstr "Új CCcam sor hozzáadása"
+
+msgid "Add new NewCamd line"
+msgstr "Új NewCamd sor hozzáadása"
+
+msgid "Address"
+msgstr "Cím"
+
+msgid "All"
+msgstr "Minden"
+
+msgid "An error occurred in the green function."
+msgstr "Hiba történt a zöld funkcióban."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Váratlan hiba történt: %s"
+
+msgid "Ask all caid"
+msgstr "Kérdezzen meg mindenkit"
+
+msgid "Ask for the selection caid"
+msgstr "Kérje a kiválasztási segédletet"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Automatikusan frissíti a kliens/szerver nézetet?"
+
+msgid "Available shares:"
+msgstr "Elérhető részvények:"
+
+msgid "Back"
+msgstr "Vissza"
+
+msgid "Backup failed!"
+msgstr "A biztonsági mentés nem sikerült!"
+
+msgid "Backup restoration failed!"
+msgstr "A biztonsági mentés visszaállítása nem sikerült!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker beállításai"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker automatikus indítás"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr ""
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr ""
+
+msgid "CCcam Info"
+msgstr ""
+
+msgid "CCcam Info %s"
+msgstr ""
+
+msgid "CCcam Info Config"
+msgstr ""
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam Info konfigurációs menü"
+
+msgid "CCcam Line Edit Actions"
+msgstr ""
+
+msgid "CCcam Line Editor"
+msgstr ""
+
+msgid "CCcam Organizer"
+msgstr "CCcam szervező"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam Szolgáltatói információk"
+
+msgid "CCcam Remote Info"
+msgstr ""
+
+msgid "CCcam Server Info"
+msgstr "CCcam szerver információ"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Info megosztása"
+
+msgid "CCcam Shares Info"
+msgstr "A CCcam megosztja az információkat"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr ""
+
+msgid "CCcamInfo not available"
+msgstr "A CCcamInfo nem érhető el"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Cam letöltés"
+
+msgid "Cancel"
+msgstr "Mégsem"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kártyaadatok (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kártyák:"
+
+msgid "Cards: 0"
+msgstr "Kártyák: 0"
+
+msgid "Cardserial"
+msgstr "Kártyasorozat"
+
+msgid "Channel"
+msgstr "Csatorna"
+
+msgid "Channel Name"
+msgstr "Csatorna neve"
+
+msgid "Check Emm Send"
+msgstr "Ellenőrizze az Emm Send-et"
+
+msgid "Choose CCcam-Reader"
+msgstr "Válassza a CCcam-Reader lehetőséget"
+
+msgid "Choose reader"
+msgstr "Válasszon olvasót"
+
+msgid "Cleanup error: %s"
+msgstr "Tisztítási hiba: %s"
+
+msgid "Client %s-%s"
+msgstr "Ügyfél %s-%s"
+
+msgid "Clients"
+msgstr "Ügyfelek"
+
+msgid "Close"
+msgstr "Közeli"
+
+msgid "Command Cancelled"
+msgstr "Parancs megszakítva"
+
+msgid "Configfile %s saved."
+msgstr "%s konfigurációs fájl mentve."
+
+msgid "Connected clients"
+msgstr "Csatlakoztatott kliensek"
+
+msgid "Connected:"
+msgstr "Csatlakozva:"
+
+msgid "Content"
+msgstr "Tartalom"
+
+msgid "Could not open the file %s!"
+msgstr "Nem sikerült megnyitni a(z) %s fájlt!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Nem sikerült megnyitni a(z) %s fájlt! Hiba: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Nem sikerült menteni a %s konfigurációs fájlt! Hiba: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Nem sikerült menteni a konfigurációs fájlt! Hiba: %s"
+
+msgid "Current time"
+msgstr "Jelenlegi idő"
+
+msgid "Delete"
+msgstr "Töröl"
+
+msgid "Delete %s?"
+msgstr "Törli %s?"
+
+msgid "Delete Peer"
+msgstr "Peer törlése"
+
+msgid "Delete failed!"
+msgstr "A törlés nem sikerült!"
+
+msgid "Deleted %s!"
+msgstr "%s törölve!"
+
+msgid "Do you install this plugin ?"
+msgstr "Telepíted ezt a plugint?"
+
+msgid "Do you want to execute the command?"
+msgstr "Szeretné végrehajtani a parancsot?"
+
+msgid "Do you want to remove?"
+msgstr "El szeretné távolítani?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Szeretné újraindítani a Gui Interface-t?"
+
+msgid "ECM data format error"
+msgstr "ECM adatformátum hiba"
+
+msgid "ECM error"
+msgstr "ECM hiba"
+
+msgid "ECM file empty"
+msgstr "Az ECM-fájl üres"
+
+msgid "ECM file not found"
+msgstr "Az ECM fájl nem található"
+
+msgid "ECM read error"
+msgstr "ECM olvasási hiba"
+
+msgid "Ecm Info"
+msgstr "ECM Info"
+
+msgid "Ecm Statistics"
+msgstr "ECM statisztika"
+
+msgid "Ecm Time"
+msgstr "Ecm idő"
+
+msgid "Ecm avg"
+msgstr "ECM átl"
+
+msgid "Ecm last"
+msgstr "Ecm utolsó"
+
+msgid "Edit"
+msgstr "Szerkesztés"
+
+msgid "Editing one caid"
+msgstr "Egy caid szerkesztése"
+
+msgid "Emm Info"
+msgstr "Erm Info"
+
+msgid "Entitlements"
+msgstr "Jogosultságok"
+
+msgid "Error"
+msgstr "Hiba"
+
+msgid "Error executing update script: %s"
+msgstr "Hiba a frissítési szkript végrehajtása során: %s"
+
+msgid "Error getting resource information"
+msgstr "Hiba az erőforrás-információk lekérésekor"
+
+msgid "Error loading system info:"
+msgstr "Hiba a rendszeradatok betöltésekor:"
+
+msgid "Error loading system information:"
+msgstr "Hiba a rendszerinformációk betöltésekor:"
+
+msgid "Error opening cam info: %s"
+msgstr "Hiba történt a kameraadatok megnyitásakor: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Hiba a konfigurációs fájl megnyitásakor: %s"
+
+msgid "Error processing HTML!"
+msgstr "Hiba a HTML feldolgozása közben!"
+
+msgid "Error processing server addons data"
+msgstr "Hiba a kiszolgáló-kiegészítők adatainak feldolgozásakor"
+
+msgid "Error reading webpage!"
+msgstr "Hiba a weboldal olvasásakor!"
+
+msgid "Error stopping %s!"
+msgstr "Hiba a %s leállításakor!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Hiba a konfiguráció szerkesztése közben: %s"
+
+msgid "Exit"
+msgstr "Kijárat"
+
+msgid "Extended Shares"
+msgstr "Kiterjesztett részvények"
+
+msgid "Failed to revert file: %s"
+msgstr "Nem sikerült visszaállítani a fájlt: %s"
+
+msgid "Find Fakes"
+msgstr "Hamisítványok keresése"
+
+msgid "Force Update"
+msgstr "Frissítés kényszerítése"
+
+msgid "Free memory"
+msgstr "Szabad memória"
+
+msgid "Free memory:"
+msgstr "Szabad memória:"
+
+msgid "Free:"
+msgstr "Ingyenes:"
+
+msgid "General"
+msgstr "Általános"
+
+msgid "Get Link"
+msgstr ""
+
+msgid "Getting the list, please wait ..."
+msgstr "A lista lekérése, kérem, várjon..."
+
+msgid "Help"
+msgstr "Segítség"
+
+msgid "Hops"
+msgstr "Komló"
+
+msgid "Hops:"
+msgstr "Komló:"
+
+msgid "Hostname:"
+msgstr "Gazdanév:"
+
+msgid "IP Address"
+msgstr "IP-cím"
+
+msgid "IP address"
+msgstr "IP-cím"
+
+msgid "Idle Time:"
+msgstr "Holtidő:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Ha aktív: Szerver konfiguráció letöltése/visszaállítása"
+
+msgid "Install Cam first!!!"
+msgstr "Először telepítsd a kamerát!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Telepíti a fejlesztői frissítést (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Érvénytelen HTML tartalom!"
+
+msgid "Invalid URL!"
+msgstr "Érvénytelen URL!"
+
+msgid "Last Req."
+msgstr "Utolsó kérés"
+
+msgid "Last used share:"
+msgstr "Utoljára használt megosztás:"
+
+msgid "Load"
+msgstr "Terhelés"
+
+msgid "Local box"
+msgstr "Helyi doboz"
+
+msgid "Location"
+msgstr "Elhelyezkedés"
+
+msgid "Log"
+msgstr "Napló"
+
+msgid "Log %s-%s"
+msgstr "Napló: %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENÜ EMM / SZERVER CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Menü konfig"
+
+msgid "NCamInfo not available"
+msgstr "Az NCamInfo nem érhető el"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Az Ncam nem fut – indítsa el a Cam-t az információszerzéshez."
+
+msgid "New"
+msgstr "Új"
+
+msgid "New profile:"
+msgstr "Új profil:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Nincs ECM adat"
+
+msgid "No ECM data - Timeout"
+msgstr "Nincs ECM adat – Időtúllépés"
+
+msgid "No ECM file"
+msgstr "Nincs ECM fájl"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Jelenleg nem áll rendelkezésre ECM-információ. Ez csak dekódolás közben érhető el."
+
+msgid "No active cam to restart!"
+msgstr "Nincs aktív cam az újraindításhoz!"
+
+msgid "No backups available!"
+msgstr "Nincsenek biztonsági mentések!"
+
+msgid "No card inserted!"
+msgstr "Nincs kártya behelyezve!"
+
+msgid "No softcams available!"
+msgstr "Nincs elérhető szoftverkamera!"
+
+msgid "No valid backups found!"
+msgstr "Nem található érvényes biztonsági másolat!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "RENDBEN"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Az OSCam frissítése időtúllépést szenvedett. A részletekért tekintse meg a /tmp/oscam_update.log fájlt."
+
+msgid "OSCamInfo not available"
+msgstr "Az OSCamInfo nem érhető el"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Az Oscam nem fut – indítsa el a Cam funkciót az információszerzéshez."
+
+msgid "PRESS RETURN"
+msgstr "NYOMJON VISSZA"
+
+msgid "Password"
+msgstr "Jelszó"
+
+msgid "Password (httpwd)"
+msgstr "Jelszó (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Csúcsterhelés (max. sorba állított kérések munkaszálonként)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Reset - No File CFG"
+
+msgid "Please select ..."
+msgstr "Kérjük, válasszon..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Kérjük, válassza ki a szerkeszteni kívánt sort, vagy válassza a Hozzáadás lehetőséget az új sor létrehozásához."
+
+msgid "Please wait, %s."
+msgstr "Kérjük, várjon, %s."
+
+msgid "Port"
+msgstr "Kikötő"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile: Local box"
+msgstr "Profil: Helyi doboz"
+
+msgid "Protocol"
+msgstr "Jegyzőkönyv"
+
+msgid "Provider"
+msgstr "Szolgáltató"
+
+msgid "Provider Name:"
+msgstr "Szolgáltató neve:"
+
+msgid "Provider:"
+msgstr "Szolgáltató:"
+
+msgid "Providers"
+msgstr "Szolgáltatók"
+
+msgid "Providers:"
+msgstr "Szolgáltatók:"
+
+msgid "Quick restart %s?"
+msgstr "Gyors újraindítás: %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Felhasználói adatok olvasása a %s.conf webhelyről"
+
+msgid "Reader"
+msgstr "Olvasó"
+
+msgid "Reader Statistics"
+msgstr "Olvasói statisztika"
+
+msgid "Reader/User"
+msgstr "Olvasó/Felhasználó"
+
+msgid "Recover Peer"
+msgstr ""
+
+msgid "Remote box"
+msgstr "Távoli doboz"
+
+msgid "Remove"
+msgstr "Távolítsa el"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Távolítsa el a vonalat a CCcam.cfg fájlból"
+
+msgid "Removing %s"
+msgstr "%s eltávolítása"
+
+msgid "Rename"
+msgstr "Átnevezés"
+
+msgid "Rename failed!"
+msgstr "Az átnevezés nem sikerült!"
+
+msgid "Rename to:"
+msgstr "Átnevezés erre:"
+
+msgid "Renamed %s!"
+msgstr "Átnevezve %s!"
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reshare"
+msgstr "Újramegosztás"
+
+msgid "Reshare:"
+msgstr "Részesedés:"
+
+msgid "Resources"
+msgstr "Erőforrás"
+
+msgid "Restart GUI?"
+msgstr "Újraindítja a GUI-t?"
+
+msgid "Restart error: %s"
+msgstr "Újraindítási hiba: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Újraindítja a szoftverkamerát a visszaállított konfiguráció alkalmazásához?"
+
+msgid "Save"
+msgstr "Megtakarítás"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Szoftverkamera beolvasása és visszakeresése..."
+
+msgid "Select CCcam"
+msgstr "Válassza a CCcam lehetőséget"
+
+msgid "Select Get Link"
+msgstr "Válassza a Hivatkozás lekérése lehetőséget"
+
+msgid "Select Ncam"
+msgstr "Válassza az Ncam lehetőséget"
+
+msgid "Select OScam"
+msgstr "Válassza az OScam lehetőséget"
+
+msgid "Select Your Choice"
+msgstr "Válassza ki az Ön választását"
+
+msgid "Select a cam to run ..."
+msgstr "Válassza ki a futtatni kívánt kamerát..."
+
+msgid "Select and Install"
+msgstr "Válassza ki és telepítse"
+
+msgid "Select backup to restore:"
+msgstr "Válassza ki a biztonsági másolatot a visszaállításhoz:"
+
+msgid "Server %s-%s"
+msgstr "Szerver %s-%s"
+
+msgid "Server Config"
+msgstr "Szerver konfig"
+
+msgid "Server Copy in"
+msgstr "Szerverbemásolás"
+
+msgid "Server Link"
+msgstr "Szerver link"
+
+msgid "Server Password"
+msgstr "Szerver jelszó"
+
+msgid "Server Port"
+msgstr "Szerver port"
+
+msgid "Server URL"
+msgstr "Szerver URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Szerver URL-je, azaz 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Szerver felhasználónév"
+
+msgid "Server:"
+msgstr "Szerver:"
+
+msgid "Servers"
+msgstr "Szerverek"
+
+msgid "Servers:"
+msgstr "Szerverek:"
+
+msgid "Service"
+msgstr "Szolgáltatás"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Beállítás UNIQUE PEER-ként"
+
+msgid "Setup"
+msgstr "Beállítás"
+
+msgid "Share View"
+msgstr "Nézet megosztása"
+
+msgid "Shares"
+msgstr "Megosztások"
+
+msgid "Show Clients"
+msgstr "Mutasd az ügyfeleket"
+
+msgid "Show Ecm info"
+msgstr "ECM információ megjelenítése"
+
+msgid "Show Log"
+msgstr "Napló megjelenítése"
+
+msgid "Show Readers/Proxies"
+msgstr "Olvasók/Proxyk megjelenítése"
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr "A Softcam újraindult új konfigurációval!"
+
+msgid "Start"
+msgstr "Indul"
+
+msgid "Status"
+msgstr "Állapot"
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop Finding Fakes"
+msgstr "Ne keressen hamisítványokat"
+
+msgid "Switch config"
+msgstr "Kapcsoló konfig"
+
+msgid "System"
+msgstr "Rendszer"
+
+msgid "System cleanup completed!"
+msgstr "A rendszer tisztítása befejeződött!"
+
+msgid "System:"
+msgstr "Rendszer:"
+
+msgid "Temporarely DELETED"
+msgstr "Ideiglenesen TÖRÖLT"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Ez a bővítmény megmutatja a CCcam állapotát"
+
+msgid "Total"
+msgstr "Teljes"
+
+msgid "Total cards:"
+msgstr "Összes kártya:"
+
+msgid "Total handled client ecm's"
+msgstr "Összes kezelt ügyfél elektronikus üzenet"
+
+msgid "Total handled client emm's"
+msgstr "Összes kezelt ügyfél emm"
+
+msgid "Total:"
+msgstr "Teljes:"
+
+msgid "Try again later ..."
+msgstr "Próbáld újra később..."
+
+msgid "Type:"
+msgstr "Típus:"
+
+msgid "UNDELETED"
+msgstr "TÖRÖLVE"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Nem lehet végrehajthatóvá tenni a szkriptet: %s"
+
+msgid "Unknow Image!"
+msgstr "Ismeretlen kép!"
+
+msgid "Update"
+msgstr "Frissítés"
+
+msgid "Update Aborted!"
+msgstr "Frissítés megszakítva!"
+
+msgid "Update interval (in seconds)"
+msgstr "Frissítési időköz (másodpercben)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Üzemidő"
+
+msgid "Used:"
+msgstr "Használt:"
+
+msgid "Username"
+msgstr "Felhasználónév"
+
+msgid "Username (httpuser)"
+msgstr "Felhasználónév (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Régi profil használata:"
+
+msgid "Version:"
+msgstr "Változat:"
+
+msgid "Wait please..."
+msgstr "Várj kérlek..."
+
+msgid "Write"
+msgstr "Írj"
+
+msgid "Write-Debug"
+msgstr ""
+
+msgid "You have the latest version!"
+msgstr "Megvan a legújabb verzió!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tAdja meg:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a SEMMI.TO.UNELE"
+
+msgid "address:"
+msgstr "cím:"
+
+msgid "and"
+msgstr "és"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kártya"
+
+msgid "card reader"
+msgstr "kártyaolvasó"
+
+msgid "close share view"
+msgstr "nézet bezárása"
+
+msgid "decrease uphop by 1"
+msgstr "csökkentse az uphop-ot 1-gyel"
+
+msgid "ecm time:"
+msgstr "ECM idő:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "szerezze be a kártya szerverét"
+
+msgid "handled"
+msgstr "kezelt"
+
+msgid "hops:"
+msgstr "komló:"
+
+msgid "increase uphop by 1"
+msgstr "az uphop növelése 1-gyel"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "nincs vagy ismeretlen kártya van behelyezve"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "feltéve:"
+
+msgid "provider:"
+msgstr "szolgáltató:"
+
+msgid "share:"
+msgstr "részesedés:"
+
+msgid "show all cards"
+msgstr "mutasd meg az összes kártyát"
+
+msgid "show cards with uphop 0"
+msgstr "mutasd a kártyákat uphop 0-val"
+
+msgid "show cards with uphop 1"
+msgstr "mutass kártyákat uphop 1-el"
+
+msgid "show cards with uphop 2"
+msgstr "mutass kártyákat uphop 2-vel"
+
+msgid "show cards with uphop 3"
+msgstr "mutass kártyákat uphop 3-mal"
+
+msgid "show cards with uphop 4"
+msgstr "mutass kártyákat uphop 4-el"
+
+msgid "show cards with uphop 5"
+msgstr "mutass kártyákat uphop 5-el"
+
+msgid "show cards with uphop 6"
+msgstr "mutass kártyákat uphop 6-tal"
+
+msgid "show cards with uphop 7"
+msgstr "mutasd a kártyákat uphop 7-el"
+
+msgid "show cards with uphop 8"
+msgstr "mutass kártyákat uphop 8-mal"
+
+msgid "show cards with uphop 9"
+msgstr "mutass kártyákat uphop 9-el"
+
+msgid "system:"
+msgstr "rendszer:"
+
+msgid "using:"
+msgstr "használja:"
+
+msgid "xLine"
+msgstr ""

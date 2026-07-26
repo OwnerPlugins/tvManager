@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 22:36+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Greek <team@lists.gnome.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s κάρτες )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Πληροφορίες - Διαμόρφωση"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Πληροφορίες - Κύριο μενού"
+
+msgid "%s restarted successfully!"
+msgstr "Το %s επανεκκινήθηκε με επιτυχία!"
+
+msgid "%s webif disabled"
+msgstr "%s webif απενεργοποιημένο"
+
+msgid "(All readers)"
+msgstr "(Όλοι οι αναγνώστες)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Εμφάνιση μόνο αναγνώστη) (%s)"
+
+msgid "About"
+msgstr "Για"
+
+msgid "Activate"
+msgstr "Δραστηριοποιώ"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Ενεργοποίηση της γραμμής Εισαγωγής στο αρχείο Config:"
+
+msgid "Active clients"
+msgstr "Ενεργοί πελάτες"
+
+msgid "Add"
+msgstr "Προσθέτω"
+
+msgid "Add new CCcam line"
+msgstr "Προσθήκη νέας γραμμής CCcam"
+
+msgid "Add new NewCamd line"
+msgstr "Προσθήκη νέας γραμμής NewCamd"
+
+msgid "Address"
+msgstr "Διεύθυνση"
+
+msgid "All"
+msgstr "Ολοι"
+
+msgid "An error occurred in the green function."
+msgstr "Παρουσιάστηκε σφάλμα στην πράσινη συνάρτηση."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Παρουσιάστηκε μη αναμενόμενο σφάλμα: %s"
+
+msgid "Ask all caid"
+msgstr "Ρωτήστε όλα τα caid"
+
+msgid "Ask for the selection caid"
+msgstr "Ζητήστε τον κάτοχο επιλογής"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Αυτόματη ενημέρωση της προβολής πελάτη/διακομιστή;"
+
+msgid "Available shares:"
+msgstr "Διαθέσιμες μετοχές:"
+
+msgid "Back"
+msgstr "Πίσω"
+
+msgid "Backup failed!"
+msgstr "Η δημιουργία αντιγράφων ασφαλείας απέτυχε!"
+
+msgid "Backup restoration failed!"
+msgstr "Η επαναφορά αντιγράφων ασφαλείας απέτυχε!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Ρυθμίσεις CCprioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "Αυτόματη εκκίνηση του CCprioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Πληροφορίες πελατών CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "Πληροφορίες CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "Πληροφορίες CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Πληροφορίες CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "Διαμόρφωση πληροφοριών CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "Μενού διαμόρφωσης πληροφοριών CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Ενέργειες επεξεργασίας γραμμής CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "Επεξεργαστής γραμμής CCcam"
+
+msgid "CCcam Organizer"
+msgstr ""
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Πληροφορίες παρόχου CCcam"
+
+msgid "CCcam Remote Info"
+msgstr ""
+
+msgid "CCcam Server Info"
+msgstr "Πληροφορίες διακομιστή CCcam"
+
+msgid "CCcam Share Info"
+msgstr "Πληροφορίες κοινής χρήσης CCcam"
+
+msgid "CCcam Shares Info"
+msgstr "Πληροφορίες για μερίδια CCcam"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Επεξεργαστής βασικής γραμμής"
+
+msgid "CCcamInfo not available"
+msgstr "Το CCcamInfo δεν είναι διαθέσιμο"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Λήψη κάμερας"
+
+msgid "Cancel"
+msgstr "Ματαίωση"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Πληροφορίες κάρτας (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Καρτέλλες:"
+
+msgid "Cards: 0"
+msgstr "Κάρτες: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Κανάλι"
+
+msgid "Channel Name"
+msgstr "Όνομα καναλιού"
+
+msgid "Check Emm Send"
+msgstr "Ελέγξτε το Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Επιλέξτε CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Επιλέξτε αναγνώστη"
+
+msgid "Cleanup error: %s"
+msgstr "Σφάλμα εκκαθάρισης: %s"
+
+msgid "Client %s-%s"
+msgstr "Πελάτης %s-%s"
+
+msgid "Clients"
+msgstr "Πελάτες"
+
+msgid "Close"
+msgstr "Κοντά"
+
+msgid "Command Cancelled"
+msgstr "Η εντολή ακυρώθηκε"
+
+msgid "Configfile %s saved."
+msgstr "Το αρχείο διαμόρφωσης %s αποθηκεύτηκε."
+
+msgid "Connected clients"
+msgstr "Συνδεδεμένοι πελάτες"
+
+msgid "Connected:"
+msgstr "Συνδεδεμένος:"
+
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+msgid "Could not open the file %s!"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου %s! Σφάλμα: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείου διαμόρφωσης %s! Σφάλμα: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείου διαμόρφωσης! Σφάλμα: %s"
+
+msgid "Current time"
+msgstr "Τρέχουσα ώρα"
+
+msgid "Delete"
+msgstr "Διαγράφω"
+
+msgid "Delete %s?"
+msgstr "Διαγραφή %s;"
+
+msgid "Delete Peer"
+msgstr "Διαγραφή Peer"
+
+msgid "Delete failed!"
+msgstr "Η διαγραφή απέτυχε!"
+
+msgid "Deleted %s!"
+msgstr "Διαγράφηκε %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Εγκαθιστάτε αυτό το πρόσθετο;"
+
+msgid "Do you want to execute the command?"
+msgstr "Θέλετε να εκτελέσετε την εντολή;"
+
+msgid "Do you want to remove?"
+msgstr "Θέλετε να αφαιρέσετε;"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Θέλετε να επανεκκινήσετε το Gui Interface;"
+
+msgid "ECM data format error"
+msgstr "Σφάλμα μορφής δεδομένων ECM"
+
+msgid "ECM error"
+msgstr "Σφάλμα ECM"
+
+msgid "ECM file empty"
+msgstr "Κενό αρχείο ECM"
+
+msgid "ECM file not found"
+msgstr "Το αρχείο ECM δεν βρέθηκε"
+
+msgid "ECM read error"
+msgstr "Σφάλμα ανάγνωσης ECM"
+
+msgid "Ecm Info"
+msgstr "Ecm Πληροφορίες"
+
+msgid "Ecm Statistics"
+msgstr "Στατιστικά Ecm"
+
+msgid "Ecm Time"
+msgstr "Ώρα Ecm"
+
+msgid "Ecm avg"
+msgstr "Ecm κατά μέσο όρο"
+
+msgid "Ecm last"
+msgstr "Εκμ τελευταίο"
+
+msgid "Edit"
+msgstr "Εκδίδω"
+
+msgid "Editing one caid"
+msgstr "Επεξεργασία ενός caid"
+
+msgid "Emm Info"
+msgstr "Ερμ Πληροφορίες"
+
+msgid "Entitlements"
+msgstr "Δικαιώματα"
+
+msgid "Error"
+msgstr "Σφάλμα"
+
+msgid "Error executing update script: %s"
+msgstr "Σφάλμα κατά την εκτέλεση του σεναρίου ενημέρωσης: %s"
+
+msgid "Error getting resource information"
+msgstr "Σφάλμα λήψης πληροφοριών πόρων"
+
+msgid "Error loading system info:"
+msgstr "Σφάλμα φόρτωσης πληροφοριών συστήματος:"
+
+msgid "Error loading system information:"
+msgstr "Σφάλμα φόρτωσης πληροφοριών συστήματος:"
+
+msgid "Error opening cam info: %s"
+msgstr "Σφάλμα κατά το άνοιγμα των πληροφοριών κάμερας: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Σφάλμα κατά το άνοιγμα του αρχείου διαμόρφωσης: %s"
+
+msgid "Error processing HTML!"
+msgstr "Σφάλμα κατά την επεξεργασία HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Σφάλμα κατά την επεξεργασία των δεδομένων πρόσθετων διακομιστή"
+
+msgid "Error reading webpage!"
+msgstr "Σφάλμα κατά την ανάγνωση της ιστοσελίδας!"
+
+msgid "Error stopping %s!"
+msgstr "Σφάλμα διακοπής %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Σφάλμα κατά την επεξεργασία της διαμόρφωσης: %s"
+
+msgid "Exit"
+msgstr "Εξοδος"
+
+msgid "Extended Shares"
+msgstr "Εκτεταμένες Μετοχές"
+
+msgid "Failed to revert file: %s"
+msgstr "Απέτυχε η επαναφορά του αρχείου: %s"
+
+msgid "Find Fakes"
+msgstr "Βρείτε ψεύτικα"
+
+msgid "Force Update"
+msgstr "Αναγκαστική ενημέρωση"
+
+msgid "Free memory"
+msgstr "Ελεύθερη μνήμη"
+
+msgid "Free memory:"
+msgstr "Ελεύθερη μνήμη:"
+
+msgid "Free:"
+msgstr "Δωρεάν:"
+
+msgid "General"
+msgstr "Γενικός"
+
+msgid "Get Link"
+msgstr "Λήψη συνδέσμου"
+
+msgid "Getting the list, please wait ..."
+msgstr "Λήψη της λίστας, περιμένετε..."
+
+msgid "Help"
+msgstr "Βοήθεια"
+
+msgid "Hops"
+msgstr "Λυκίσκος"
+
+msgid "Hops:"
+msgstr "Λυκίσκος:"
+
+msgid "Hostname:"
+msgstr "Όνομα κεντρικού υπολογιστή:"
+
+msgid "IP Address"
+msgstr "Διεύθυνση IP"
+
+msgid "IP address"
+msgstr "διεύθυνση IP"
+
+msgid "Idle Time:"
+msgstr "Χρόνος αδράνειας:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Εάν είναι ενεργό: Λήψη/Επαναφορά διαμόρφωσης διακομιστή"
+
+msgid "Install Cam first!!!"
+msgstr "Εγκαταστήστε πρώτα την κάμερα!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Εγκατάσταση ενημέρωσης προγραμματιστή (%s);"
+
+msgid "Invalid HTML content!"
+msgstr "Μη έγκυρο περιεχόμενο HTML!"
+
+msgid "Invalid URL!"
+msgstr "Μη έγκυρη διεύθυνση URL!"
+
+msgid "Last Req."
+msgstr "Τελευταία Απαίτηση"
+
+msgid "Last used share:"
+msgstr "Τελευταία κοινή χρήση:"
+
+msgid "Load"
+msgstr "Φορτίο"
+
+msgid "Local box"
+msgstr "Τοπικό κουτί"
+
+msgid "Location"
+msgstr "Τοποθεσία"
+
+msgid "Log"
+msgstr "Κούτσουρο"
+
+msgid "Log %s-%s"
+msgstr "Καταγραφή %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Διαμόρφωση μενού"
+
+msgid "NCamInfo not available"
+msgstr "Το NCamInfo δεν είναι διαθέσιμο"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Το Ncam δεν εκτελείται - ξεκινήστε την κάμερα για να λάβετε πληροφορίες."
+
+msgid "New"
+msgstr "Νέος"
+
+msgid "New profile:"
+msgstr "Νέο προφίλ:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Δεν υπάρχουν δεδομένα ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Δεν υπάρχουν δεδομένα ECM - Λήξη χρονικού ορίου"
+
+msgid "No ECM file"
+msgstr "Δεν υπάρχει αρχείο ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Δεν υπάρχουν διαθέσιμες πληροφορίες ECM αυτήν τη στιγμή. Αυτό είναι διαθέσιμο μόνο κατά την αποκρυπτογράφηση."
+
+msgid "No active cam to restart!"
+msgstr "Δεν υπάρχει ενεργή κάμερα για επανεκκίνηση!"
+
+msgid "No backups available!"
+msgstr "Δεν υπάρχουν διαθέσιμα αντίγραφα ασφαλείας!"
+
+msgid "No card inserted!"
+msgstr "Δεν έχει τοποθετηθεί κάρτα!"
+
+msgid "No softcams available!"
+msgstr "Δεν υπάρχουν διαθέσιμες softcams!"
+
+msgid "No valid backups found!"
+msgstr "Δεν βρέθηκαν έγκυρα αντίγραφα ασφαλείας!"
+
+msgid "NodeID"
+msgstr "Αναγνωριστικό κόμβου"
+
+msgid "NodeID:"
+msgstr "Αναγνωριστικό κόμβου:"
+
+msgid "OK"
+msgstr "ΕΝΤΑΞΕΙ"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Η ενημέρωση OSCam έληξε. Ελέγξτε /tmp/oscam_update.log για λεπτομέρειες."
+
+msgid "OSCamInfo not available"
+msgstr "Το OSCamInfo δεν είναι διαθέσιμο"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Το Oscam δεν εκτελείται - ξεκινήστε την κάμερα για να λάβετε πληροφορίες."
+
+msgid "PRESS RETURN"
+msgstr "ΠΑΤΗΣΤΕ ΕΠΙΣΤΡΟΦΗ"
+
+msgid "Password"
+msgstr "Σύνθημα"
+
+msgid "Password (httpwd)"
+msgstr "Κωδικός πρόσβασης (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Φορτίο αιχμής (μέγ. αιτήματα σε ουρά ανά νήματα εργασίας)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Παρακαλώ επαναφέρετε - Δεν υπάρχει αρχείο CFG"
+
+msgid "Please select ..."
+msgstr "Επιλέξτε..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Επιλέξτε μια γραμμή για επεξεργασία ή επιλέξτε προσθήκη για δημιουργία νέας γραμμής."
+
+msgid "Please wait, %s."
+msgstr "Περιμένετε, %s."
+
+msgid "Port"
+msgstr "Λιμάνι"
+
+msgid "Profile"
+msgstr "Προφίλ"
+
+msgid "Profile: Local box"
+msgstr "Προφίλ: Τοπικό κουτί"
+
+msgid "Protocol"
+msgstr "Πρωτόκολλο"
+
+msgid "Provider"
+msgstr "Προμηθευτής"
+
+msgid "Provider Name:"
+msgstr "Όνομα παρόχου:"
+
+msgid "Provider:"
+msgstr "Προμηθευτής:"
+
+msgid "Providers"
+msgstr "Παρόχους"
+
+msgid "Providers:"
+msgstr "Πάροχοι:"
+
+msgid "Quick restart %s?"
+msgstr "Γρήγορη επανεκκίνηση %s;"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Διαβάστε τα δεδομένα χρήστη από %s.conf"
+
+msgid "Reader"
+msgstr "Αναγνώστης"
+
+msgid "Reader Statistics"
+msgstr "Στατιστικά αναγνωστών"
+
+msgid "Reader/User"
+msgstr "Αναγνώστης/Χρήστης"
+
+msgid "Recover Peer"
+msgstr "Ανάκτηση Peer"
+
+msgid "Remote box"
+msgstr "Απομακρυσμένο κουτί"
+
+msgid "Remove"
+msgstr "Αφαιρώ"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Καταργήστε τη γραμμή από το CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Κατάργηση %s"
+
+msgid "Rename"
+msgstr "Μετονομάζω"
+
+msgid "Rename failed!"
+msgstr "Η μετονομασία απέτυχε!"
+
+msgid "Rename to:"
+msgstr "Μετονομασία σε:"
+
+msgid "Renamed %s!"
+msgstr "Μετονομάστηκε %s!"
+
+msgid "Reset"
+msgstr "Επαναφορά"
+
+msgid "Reshare"
+msgstr "Αναδημοσίευση"
+
+msgid "Reshare:"
+msgstr "Μερίδιο:"
+
+msgid "Resources"
+msgstr "Πόροι"
+
+msgid "Restart GUI?"
+msgstr "Επανεκκίνηση GUI;"
+
+msgid "Restart error: %s"
+msgstr "Σφάλμα επανεκκίνησης: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Να γίνει επανεκκίνηση της softcam για εφαρμογή επαναφοράς παραμέτρων;"
+
+msgid "Save"
+msgstr "Εκτός"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Σάρωση και ανάκτηση λίστας softcam..."
+
+msgid "Select CCcam"
+msgstr "Επιλέξτε CCcam"
+
+msgid "Select Get Link"
+msgstr "Επιλέξτε Λήψη συνδέσμου"
+
+msgid "Select Ncam"
+msgstr "Επιλέξτε Ncam"
+
+msgid "Select OScam"
+msgstr "Επιλέξτε OScam"
+
+msgid "Select Your Choice"
+msgstr "Επιλέξτε την επιλογή σας"
+
+msgid "Select a cam to run ..."
+msgstr "Επιλέξτε μια κάμερα για εκτέλεση..."
+
+msgid "Select and Install"
+msgstr "Επιλέξτε και εγκαταστήστε"
+
+msgid "Select backup to restore:"
+msgstr "Επιλέξτε αντίγραφο ασφαλείας για επαναφορά:"
+
+msgid "Server %s-%s"
+msgstr "Διακομιστής %s-%s"
+
+msgid "Server Config"
+msgstr "Διαμόρφωση διακομιστή"
+
+msgid "Server Copy in"
+msgstr "Αντιγραφή διακομιστή"
+
+msgid "Server Link"
+msgstr "Σύνδεσμος διακομιστή"
+
+msgid "Server Password"
+msgstr "Κωδικός διακομιστή"
+
+msgid "Server Port"
+msgstr "Θύρα διακομιστή"
+
+msgid "Server URL"
+msgstr "URL διακομιστή"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Url διακομιστή, δηλαδή 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Όνομα χρήστη διακομιστή"
+
+msgid "Server:"
+msgstr "Υπηρέτης:"
+
+msgid "Servers"
+msgstr "Διακομιστές"
+
+msgid "Servers:"
+msgstr "Διακομιστές:"
+
+msgid "Service"
+msgstr "Υπηρεσία"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Ορισμός ως ΜΟΝΑΔΙΚΟΣ ΟΜΟΛΟΜΟΣ"
+
+msgid "Setup"
+msgstr "Ρύθμιση"
+
+msgid "Share View"
+msgstr "Κοινή χρήση προβολής"
+
+msgid "Shares"
+msgstr "Μερίδια"
+
+msgid "Show Clients"
+msgstr "Εμφάνιση πελατών"
+
+msgid "Show Ecm info"
+msgstr "Εμφάνιση πληροφοριών Ecm"
+
+msgid "Show Log"
+msgstr "Εμφάνιση αρχείου καταγραφής"
+
+msgid "Show Readers/Proxies"
+msgstr "Εμφάνιση αναγνωστών/διακομιστών μεσολάβησης"
+
+msgid "Softcam Manager"
+msgstr "Διαχειριστής Softcam"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Η Softcam επανεκκινήθηκε με νέα διαμόρφωση!"
+
+msgid "Start"
+msgstr "Αρχή"
+
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgid "Stop"
+msgstr "Στάση"
+
+msgid "Stop Finding Fakes"
+msgstr "Σταματήστε να βρίσκετε πλαστά"
+
+msgid "Switch config"
+msgstr "Εναλλαγή διαμόρφωσης"
+
+msgid "System"
+msgstr "Σύστημα"
+
+msgid "System cleanup completed!"
+msgstr "Ο καθαρισμός συστήματος ολοκληρώθηκε!"
+
+msgid "System:"
+msgstr "Σύστημα:"
+
+msgid "Temporarely DELETED"
+msgstr "ΔΙΑΓΡΑΦΗΚΕ προσωρινά"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Αυτό το πρόσθετο σάς δείχνει την κατάσταση της κάμερας CCcam σας"
+
+msgid "Total"
+msgstr "Σύνολο"
+
+msgid "Total cards:"
+msgstr "Σύνολο καρτών:"
+
+msgid "Total handled client ecm's"
+msgstr "Συνολικά διαχειριζόμενα ecm πελατών"
+
+msgid "Total handled client emm's"
+msgstr "Συνολικά διαχειριζόμενα emm's πελάτη"
+
+msgid "Total:"
+msgstr "Σύνολο:"
+
+msgid "Try again later ..."
+msgstr "Δοκιμάστε ξανά αργότερα..."
+
+msgid "Type:"
+msgstr "Τύπος:"
+
+msgid "UNDELETED"
+msgstr "ΑΔΙΑΓΡΑΦΗ"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Δεν είναι δυνατή η εκτέλεση του σεναρίου: %s"
+
+msgid "Unknow Image!"
+msgstr "Άγνωστη εικόνα!"
+
+msgid "Update"
+msgstr "Εκσυγχρονίζω"
+
+msgid "Update Aborted!"
+msgstr "Η ενημέρωση ματαιώθηκε!"
+
+msgid "Update interval (in seconds)"
+msgstr "Μεσοδιάστημα ενημέρωσης (σε δευτερόλεπτα)"
+
+msgid "Uphops +"
+msgstr "Upphops +"
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr "Upphops:"
+
+msgid "Uptime"
+msgstr "Χρόνος λειτουργίας"
+
+msgid "Used:"
+msgstr "Μεταχειρισμένος:"
+
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+msgid "Username (httpuser)"
+msgstr "Όνομα χρήστη (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Χρήση παλιού προφίλ:"
+
+msgid "Version:"
+msgstr "Εκδοχή:"
+
+msgid "Wait please..."
+msgstr "Περίμενε παρακαλώ..."
+
+msgid "Write"
+msgstr "Γράφω"
+
+msgid "Write-Debug"
+msgstr "Εγγραφή-Εντοπισμός σφαλμάτων"
+
+msgid "You have the latest version!"
+msgstr "Έχετε την πιο πρόσφατη έκδοση!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tΠαροχή:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "ένα ΤΙΠΟΤΑ.TO.UNDELE"
+
+msgid "address:"
+msgstr "διεύθυνση:"
+
+msgid "and"
+msgstr "και"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "κάρτα"
+
+msgid "card reader"
+msgstr "συσκευή ανάγνωσης καρτών"
+
+msgid "close share view"
+msgstr "κλείσιμο κοινής προβολής"
+
+msgid "decrease uphop by 1"
+msgstr "μειώστε το uphop κατά 1"
+
+msgid "ecm time:"
+msgstr "χρόνος ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "λάβετε τον διακομιστή των καρτών"
+
+msgid "handled"
+msgstr "χειρίζεται"
+
+msgid "hops:"
+msgstr "λυκίσκος:"
+
+msgid "increase uphop by 1"
+msgstr "αύξηση της αύξησης κατά 1"
+
+msgid "info"
+msgstr "πληροφορίες"
+
+msgid "no or unknown card inserted"
+msgstr "δεν έχει τοποθετηθεί ή άγνωστη κάρτα"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "παρέχουν:"
+
+msgid "provider:"
+msgstr "προμηθευτής:"
+
+msgid "share:"
+msgstr "μερίδιο:"
+
+msgid "show all cards"
+msgstr "δείξτε όλες τις κάρτες"
+
+msgid "show cards with uphop 0"
+msgstr "δείξτε κάρτες με uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "δείξτε κάρτες με uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "δείξτε κάρτες με uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "δείξτε κάρτες με uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "δείξτε κάρτες με uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "δείξτε κάρτες με uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "δείξτε κάρτες με uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "δείξτε κάρτες με uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "δείξτε κάρτες με uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "δείξτε κάρτες με uphop 9"
+
+msgid "system:"
+msgstr "σύστημα:"
+
+msgid "using:"
+msgstr "χρησιμοποιώντας:"
+
+msgid "xLine"
+msgstr ""

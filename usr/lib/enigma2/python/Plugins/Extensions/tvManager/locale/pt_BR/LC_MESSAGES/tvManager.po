@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 01:41+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Language pt-BR\n"
+"Language: pt-BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s cartões)"
+
+msgid "%s Info - Configuration"
+msgstr "%s Informações - Configuração"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Informações - Menu Principal"
+
+msgid "%s restarted successfully!"
+msgstr "%s reiniciado com sucesso!"
+
+msgid "%s webif disabled"
+msgstr "%s webif desativado"
+
+msgid "(All readers)"
+msgstr "(Todos os leitores)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Mostrar apenas leitor) (%s)"
+
+msgid "About"
+msgstr "Sobre"
+
+msgid "Activate"
+msgstr "Ativar"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Ative a linha Inserir no arquivo de configuração:"
+
+msgid "Active clients"
+msgstr "Clientes ativos"
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "Add new CCcam line"
+msgstr "Adicionar nova linha CCcam"
+
+msgid "Add new NewCamd line"
+msgstr "Adicionar nova linha NewCamd"
+
+msgid "Address"
+msgstr "Endereço"
+
+msgid "All"
+msgstr "Todos"
+
+msgid "An error occurred in the green function."
+msgstr "Ocorreu um erro na função verde."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Ocorreu um erro inesperado: %s"
+
+msgid "Ask all caid"
+msgstr "Pergunte a todos caid"
+
+msgid "Ask for the selection caid"
+msgstr "Peça a seleção caid"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Atualizar automaticamente a visualização cliente/servidor?"
+
+msgid "Available shares:"
+msgstr "Ações disponíveis:"
+
+msgid "Back"
+msgstr "Voltar"
+
+msgid "Backup failed!"
+msgstr "Falha no backup!"
+
+msgid "Backup restoration failed!"
+msgstr "A restauração do backup falhou!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Configurações do CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "Inicialização automática do CCPrioMaker"
+
+msgid "CCcam"
+msgstr "câmera"
+
+msgid "CCcam Clients Info"
+msgstr "Informações dos clientes CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "Alternador de configuração CCcam"
+
+msgid "CCcam ECM Info"
+msgstr "Informações do CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "Informações da CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Informações da câmera CC %s"
+
+msgid "CCcam Info Config"
+msgstr "Configuração de informações da CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "Menu de configuração de informações da CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "Ações de edição de linha CCcam"
+
+msgid "CCcam Line Editor"
+msgstr "Editor de linha CCcam"
+
+msgid "CCcam Organizer"
+msgstr "Organizador CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr "Criador CCcam Prio"
+
+msgid "CCcam Provider Info"
+msgstr "Informações do provedor CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Informações remotas da CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Informações do servidor CCcam"
+
+msgid "CCcam Share Info"
+msgstr "Informações de compartilhamento CCcam"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam compartilha informações"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "Editor de linha básico CCcam.cfg"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo não disponível"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Baixar câmera"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Informações do cartão (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Cartões:"
+
+msgid "Cards: 0"
+msgstr "Cartões: 0"
+
+msgid "Cardserial"
+msgstr "Série de cartões"
+
+msgid "Channel"
+msgstr "Canal"
+
+msgid "Channel Name"
+msgstr "Nome do canal"
+
+msgid "Check Emm Send"
+msgstr "Verifique o envio do Emm"
+
+msgid "Choose CCcam-Reader"
+msgstr "Escolha CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Escolha o leitor"
+
+msgid "Cleanup error: %s"
+msgstr "Erro de limpeza: %s"
+
+msgid "Client %s-%s"
+msgstr "Cliente %s-%s"
+
+msgid "Clients"
+msgstr "Clientes"
+
+msgid "Close"
+msgstr "Fechar"
+
+msgid "Command Cancelled"
+msgstr "Comando cancelado"
+
+msgid "Configfile %s saved."
+msgstr "Arquivo de configuração %s salvo."
+
+msgid "Connected clients"
+msgstr "Clientes conectados"
+
+msgid "Connected:"
+msgstr "Conectado:"
+
+msgid "Content"
+msgstr "Contente"
+
+msgid "Could not open the file %s!"
+msgstr "Não foi possível abrir o arquivo %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Não foi possível abrir o arquivo %s! Erro: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Não foi possível salvar o arquivo de configuração %s! Erro: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Não foi possível salvar o arquivo de configuração! Erro: %s"
+
+msgid "Current time"
+msgstr "Hora atual"
+
+msgid "Delete"
+msgstr "Excluir"
+
+msgid "Delete %s?"
+msgstr "Excluir %s?"
+
+msgid "Delete Peer"
+msgstr "Excluir par"
+
+msgid "Delete failed!"
+msgstr "Falha na exclusão!"
+
+msgid "Deleted %s!"
+msgstr "Excluído %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Você instala este plugin?"
+
+msgid "Do you want to execute the command?"
+msgstr "Deseja executar o comando?"
+
+msgid "Do you want to remove?"
+msgstr "Você quer remover?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Deseja reiniciar a Interface Gui?"
+
+msgid "ECM data format error"
+msgstr "Erro no formato de dados do ECM"
+
+msgid "ECM error"
+msgstr "Erro de ECM"
+
+msgid "ECM file empty"
+msgstr "Arquivo ECM vazio"
+
+msgid "ECM file not found"
+msgstr "Arquivo ECM não encontrado"
+
+msgid "ECM read error"
+msgstr "Erro de leitura do ECM"
+
+msgid "Ecm Info"
+msgstr "Informações do ECM"
+
+msgid "Ecm Statistics"
+msgstr "Estatísticas ECM"
+
+msgid "Ecm Time"
+msgstr "Tempo ECM"
+
+msgid "Ecm avg"
+msgstr "Média de Ecm"
+
+msgid "Ecm last"
+msgstr "Ecm último"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Editing one caid"
+msgstr "Editando um caid"
+
+msgid "Emm Info"
+msgstr "Informações"
+
+msgid "Entitlements"
+msgstr "Direitos"
+
+msgid "Error"
+msgstr "Erro"
+
+msgid "Error executing update script: %s"
+msgstr "Erro ao executar o script de atualização: %s"
+
+msgid "Error getting resource information"
+msgstr "Erro ao obter informações do recurso"
+
+msgid "Error loading system info:"
+msgstr "Erro ao carregar informações do sistema:"
+
+msgid "Error loading system information:"
+msgstr "Erro ao carregar informações do sistema:"
+
+msgid "Error opening cam info: %s"
+msgstr "Erro ao abrir informações da câmera: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Erro ao abrir arquivo de configuração: %s"
+
+msgid "Error processing HTML!"
+msgstr "Erro ao processar HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Erro ao processar dados de complementos do servidor"
+
+msgid "Error reading webpage!"
+msgstr "Erro ao ler a página da web!"
+
+msgid "Error stopping %s!"
+msgstr "Erro ao parar %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Erro ao editar a configuração: %s"
+
+msgid "Exit"
+msgstr "Saída"
+
+msgid "Extended Shares"
+msgstr "Ações Estendidas"
+
+msgid "Failed to revert file: %s"
+msgstr "Falha ao reverter arquivo: %s"
+
+msgid "Find Fakes"
+msgstr "Encontre falsificações"
+
+msgid "Force Update"
+msgstr "Forçar atualização"
+
+msgid "Free memory"
+msgstr "Memória livre"
+
+msgid "Free memory:"
+msgstr "Memória livre:"
+
+msgid "Free:"
+msgstr "Livre:"
+
+msgid "General"
+msgstr "Em geral"
+
+msgid "Get Link"
+msgstr "Obter link"
+
+msgid "Getting the list, please wait ..."
+msgstr "Obtendo a lista, por favor aguarde..."
+
+msgid "Help"
+msgstr "Ajuda"
+
+msgid "Hops"
+msgstr "Lúpulo"
+
+msgid "Hops:"
+msgstr "Lúpulo:"
+
+msgid "Hostname:"
+msgstr "Nome do host:"
+
+msgid "IP Address"
+msgstr "Endereço IP"
+
+msgid "IP address"
+msgstr "Endereço IP"
+
+msgid "Idle Time:"
+msgstr "Tempo ocioso:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Se ativo: baixar/redefinir configuração do servidor"
+
+msgid "Install Cam first!!!"
+msgstr "Instale o Cam primeiro!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Instalar atualização do desenvolvedor (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Conteúdo HTML inválido!"
+
+msgid "Invalid URL!"
+msgstr "URL inválido!"
+
+msgid "Last Req."
+msgstr "Última solicitação."
+
+msgid "Last used share:"
+msgstr "Último compartilhamento usado:"
+
+msgid "Load"
+msgstr "Carregar"
+
+msgid "Local box"
+msgstr "Caixa local"
+
+msgid "Location"
+msgstr "Localização"
+
+msgid "Log"
+msgstr "Registro"
+
+msgid "Log %s-%s"
+msgstr "Registro %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM / CLINICA DO SERVIDOR"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr "Redução máxima:"
+
+msgid "Menu config"
+msgstr "Configuração do menu"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo não disponível"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam não está em execução - inicie o Cam para obter informações."
+
+msgid "New"
+msgstr "Novo"
+
+msgid "New profile:"
+msgstr "Novo perfil:"
+
+msgid "NewCamd"
+msgstr "NovaCamd"
+
+msgid "No ECM data"
+msgstr "Sem dados de ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Sem dados de ECM - Tempo limite"
+
+msgid "No ECM file"
+msgstr "Nenhum arquivo ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Nenhuma informação de ECM está disponível no momento. Isso só está disponível durante a descriptografia."
+
+msgid "No active cam to restart!"
+msgstr "Nenhuma câmera ativa para reiniciar!"
+
+msgid "No backups available!"
+msgstr "Nenhum backup disponível!"
+
+msgid "No card inserted!"
+msgstr "Nenhum cartão inserido!"
+
+msgid "No softcams available!"
+msgstr "Nenhuma softcam disponível!"
+
+msgid "No valid backups found!"
+msgstr "Nenhum backup válido encontrado!"
+
+msgid "NodeID"
+msgstr "ID do nó"
+
+msgid "NodeID:"
+msgstr "ID do nó:"
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "A atualização da OSCam expirou. Verifique /tmp/oscam_update.log para obter detalhes."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo não disponível"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam não está em execução - inicie o Cam para obter informações."
+
+msgid "PRESS RETURN"
+msgstr "IMPRENSA RETORNAR"
+
+msgid "Password"
+msgstr "Senha"
+
+msgid "Password (httpwd)"
+msgstr "Senha (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Carga máxima (máximo de solicitações enfileiradas por workthread)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Por favor, reinicie - Nenhum arquivo CFG"
+
+msgid "Please select ..."
+msgstr "Por favor selecione..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Selecione uma linha para editar ou selecione adicionar para criar uma nova linha."
+
+msgid "Please wait, %s."
+msgstr "Aguarde, %s."
+
+msgid "Port"
+msgstr "Porta"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Profile: Local box"
+msgstr "Perfil: Caixa local"
+
+msgid "Protocol"
+msgstr "Protocolo"
+
+msgid "Provider"
+msgstr "Provedor"
+
+msgid "Provider Name:"
+msgstr "Nome do provedor:"
+
+msgid "Provider:"
+msgstr "Provedor:"
+
+msgid "Providers"
+msgstr "Provedores"
+
+msgid "Providers:"
+msgstr "Provedores:"
+
+msgid "Quick restart %s?"
+msgstr "Reinicialização rápida %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Leia os dados do usuário de %s.conf"
+
+msgid "Reader"
+msgstr "Leitor"
+
+msgid "Reader Statistics"
+msgstr "Estatísticas do leitor"
+
+msgid "Reader/User"
+msgstr "Leitor/Usuário"
+
+msgid "Recover Peer"
+msgstr "Recuperar ponto"
+
+msgid "Remote box"
+msgstr "Caixa remota"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Remova a linha de CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Removendo %s"
+
+msgid "Rename"
+msgstr "Renomear"
+
+msgid "Rename failed!"
+msgstr "Falha ao renomear!"
+
+msgid "Rename to:"
+msgstr "Renomear para:"
+
+msgid "Renamed %s!"
+msgstr "Renomeado %s!"
+
+msgid "Reset"
+msgstr "Reiniciar"
+
+msgid "Reshare"
+msgstr "Compartilhar de novo"
+
+msgid "Reshare:"
+msgstr "Compartilhar:"
+
+msgid "Resources"
+msgstr "Recursos"
+
+msgid "Restart GUI?"
+msgstr "Reiniciar a GUI?"
+
+msgid "Restart error: %s"
+msgstr "Erro de reinicialização: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Reiniciar a softcam para aplicar a configuração restaurada?"
+
+msgid "Save"
+msgstr "Salvar"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Softcam da lista de digitalização e recuperação ..."
+
+msgid "Select CCcam"
+msgstr "Selecione CCcam"
+
+msgid "Select Get Link"
+msgstr "Selecione Obter link"
+
+msgid "Select Ncam"
+msgstr "Selecione Ncam"
+
+msgid "Select OScam"
+msgstr "Selecione OScam"
+
+msgid "Select Your Choice"
+msgstr "Selecione sua escolha"
+
+msgid "Select a cam to run ..."
+msgstr "Selecione uma câmera para executar..."
+
+msgid "Select and Install"
+msgstr "Selecione e instale"
+
+msgid "Select backup to restore:"
+msgstr "Selecione backup para restaurar:"
+
+msgid "Server %s-%s"
+msgstr "Servidor %s-%s"
+
+msgid "Server Config"
+msgstr "Configuração do servidor"
+
+msgid "Server Copy in"
+msgstr "Cópia do servidor em"
+
+msgid "Server Link"
+msgstr "Link do servidor"
+
+msgid "Server Password"
+msgstr "Senha do servidor"
+
+msgid "Server Port"
+msgstr "Porta do servidor"
+
+msgid "Server URL"
+msgstr "URL do servidor"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "URL do servidor, ou seja, 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Nome de usuário do servidor"
+
+msgid "Server:"
+msgstr "Servidor:"
+
+msgid "Servers"
+msgstr "Servidores"
+
+msgid "Servers:"
+msgstr "Servidores:"
+
+msgid "Service"
+msgstr "Serviço"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Definir como PEER ÚNICO"
+
+msgid "Setup"
+msgstr "Configurar"
+
+msgid "Share View"
+msgstr "Compartilhar visualização"
+
+msgid "Shares"
+msgstr "Ações"
+
+msgid "Show Clients"
+msgstr "Mostrar clientes"
+
+msgid "Show Ecm info"
+msgstr "Mostrar informações de Ecm"
+
+msgid "Show Log"
+msgstr "Mostrar registro"
+
+msgid "Show Readers/Proxies"
+msgstr "Mostrar leitores/proxies"
+
+msgid "Softcam Manager"
+msgstr "Gerenciador de Softcam"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam reiniciado com nova configuração!"
+
+msgid "Start"
+msgstr "Começar"
+
+msgid "Status"
+msgstr ""
+
+msgid "Stop"
+msgstr "Parar"
+
+msgid "Stop Finding Fakes"
+msgstr "Pare de encontrar falsificações"
+
+msgid "Switch config"
+msgstr "Configuração do switch"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System cleanup completed!"
+msgstr "Limpeza do sistema concluída!"
+
+msgid "System:"
+msgstr "Sistema:"
+
+msgid "Temporarely DELETED"
+msgstr "Excluído temporariamente"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Este plugin mostra o status da sua CCcam"
+
+msgid "Total"
+msgstr ""
+
+msgid "Total cards:"
+msgstr "Total de cartas:"
+
+msgid "Total handled client ecm's"
+msgstr "Total de ecms de clientes atendidos"
+
+msgid "Total handled client emm's"
+msgstr "Total de clientes atendidos emms"
+
+msgid "Total:"
+msgstr ""
+
+msgid "Try again later ..."
+msgstr "Tente novamente mais tarde..."
+
+msgid "Type:"
+msgstr "Tipo:"
+
+msgid "UNDELETED"
+msgstr "NÃO EXCLUÍDO"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Não foi possível tornar o script executável: %s"
+
+msgid "Unknow Image!"
+msgstr "Imagem desconhecida!"
+
+msgid "Update"
+msgstr "Atualizar"
+
+msgid "Update Aborted!"
+msgstr "Atualização abortada!"
+
+msgid "Update interval (in seconds)"
+msgstr "Intervalo de atualização (em segundos)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Tempo de atividade"
+
+msgid "Used:"
+msgstr "Usado:"
+
+msgid "Username"
+msgstr "Nome de usuário"
+
+msgid "Username (httpuser)"
+msgstr "Nome de usuário (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Usando perfil antigo:"
+
+msgid "Version:"
+msgstr "Versão:"
+
+msgid "Wait please..."
+msgstr "Espere, por favor..."
+
+msgid "Write"
+msgstr "Escrever"
+
+msgid "Write-Debug"
+msgstr "Gravação-Depuração"
+
+msgid "You have the latest version!"
+msgstr "Você tem a versão mais recente!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tForneça:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "um NADA.PARA.UNDELE"
+
+msgid "address:"
+msgstr "endereço:"
+
+msgid "and"
+msgstr "e"
+
+msgid "caid:"
+msgstr "Caid:"
+
+msgid "card"
+msgstr "cartão"
+
+msgid "card reader"
+msgstr "leitor de cartão"
+
+msgid "close share view"
+msgstr "fechar visualização de compartilhamento"
+
+msgid "decrease uphop by 1"
+msgstr "diminuir o uphop em 1"
+
+msgid "ecm time:"
+msgstr "tempo ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "pegue o servidor dos cartões"
+
+msgid "handled"
+msgstr "manipulado"
+
+msgid "hops:"
+msgstr "lúpulo:"
+
+msgid "increase uphop by 1"
+msgstr "aumentar o uphop em 1"
+
+msgid "info"
+msgstr "informações"
+
+msgid "no or unknown card inserted"
+msgstr "nenhum cartão ou cartão desconhecido inserido"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "fornecer:"
+
+msgid "provider:"
+msgstr "provedor:"
+
+msgid "share:"
+msgstr "compartilhar:"
+
+msgid "show all cards"
+msgstr "mostrar todos os cartões"
+
+msgid "show cards with uphop 0"
+msgstr "mostrar cartas com uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "mostrar cartas com uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "mostrar cartas com uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "mostrar cartas com uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "mostrar cartas com uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "mostrar cartas com uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "mostrar cartas com uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "mostrar cartas com uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "mostrar cartas com uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "mostrar cartas com uphop 9"
+
+msgid "system:"
+msgstr "sistema:"
+
+msgid "using:"
+msgstr "usando:"
+
+msgid "xLine"
+msgstr "Linha x"

@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 00:46+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Malayalam\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s കാർഡുകൾ)"
+
+msgid "%s Info - Configuration"
+msgstr "%s വിവരം - കോൺഫിഗറേഷൻ"
+
+msgid "%s Info - Main Menu"
+msgstr "%s വിവരം - പ്രധാന മെനു"
+
+msgid "%s restarted successfully!"
+msgstr "%s പുനരാരംഭിച്ചു!"
+
+msgid "%s webif disabled"
+msgstr "%s webif പ്രവർത്തനരഹിതമാക്കി"
+
+msgid "(All readers)"
+msgstr "(എല്ലാ വായനക്കാരും)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(വായനക്കാരനെ മാത്രം കാണിക്കുക) (%s)"
+
+msgid "About"
+msgstr "കുറിച്ച്"
+
+msgid "Activate"
+msgstr "സജീവമാക്കുക"
+
+msgid "Activate Insert line in Config File:"
+msgstr "കോൺഫിഗറേഷൻ ഫയലിൽ ഇൻസേർട്ട് ലൈൻ സജീവമാക്കുക:"
+
+msgid "Active clients"
+msgstr "സജീവ ഉപഭോക്താക്കൾ"
+
+msgid "Add"
+msgstr "ചേർക്കുക"
+
+msgid "Add new CCcam line"
+msgstr "പുതിയ സിസിക്യാം ലൈൻ ചേർക്കുക"
+
+msgid "Add new NewCamd line"
+msgstr "പുതിയ NewCamd ലൈൻ ചേർക്കുക"
+
+msgid "Address"
+msgstr "വിലാസം"
+
+msgid "All"
+msgstr "എല്ലാം"
+
+msgid "An error occurred in the green function."
+msgstr "ഗ്രീൻ ഫംഗ്‌ഷനിൽ ഒരു പിശക് സംഭവിച്ചു."
+
+msgid "An unexpected error occurred: %s"
+msgstr "ഒരു അപ്രതീക്ഷിത പിശക് സംഭവിച്ചു: %s"
+
+msgid "Ask all caid"
+msgstr "എല്ലാ കെയ്ഡുകളോടും ചോദിക്കുക"
+
+msgid "Ask for the selection caid"
+msgstr "സെലക്ഷൻ കെയ്ഡിനായി ആവശ്യപ്പെടുക"
+
+msgid "Automatically update Client/Server View?"
+msgstr "ക്ലയൻ്റ്/സെർവർ കാഴ്‌ച സ്വയമേവ അപ്‌ഡേറ്റ് ചെയ്യണോ?"
+
+msgid "Available shares:"
+msgstr "ലഭ്യമായ ഓഹരികൾ:"
+
+msgid "Back"
+msgstr "തിരികെ"
+
+msgid "Backup failed!"
+msgstr "ബാക്കപ്പ് പരാജയപ്പെട്ടു!"
+
+msgid "Backup restoration failed!"
+msgstr "ബാക്കപ്പ് പുനഃസ്ഥാപിക്കൽ പരാജയപ്പെട്ടു!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker ക്രമീകരണങ്ങൾ"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker ഓട്ടോസ്റ്റാർട്ട്"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "സിസിക്യാം ക്ലയൻ്റ് വിവരം"
+
+msgid "CCcam Config Switcher"
+msgstr "സിസിക്യാം കോൺഫിഗറേഷൻ സ്വിച്ചർ"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM വിവരം"
+
+msgid "CCcam Info"
+msgstr "സിസിക്യാം വിവരം"
+
+msgid "CCcam Info %s"
+msgstr "CCcam വിവരം %s"
+
+msgid "CCcam Info Config"
+msgstr "സിസിക്യാം വിവര കോൺഫിഗറേഷൻ"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam ഇൻഫോ കോൺഫിഗറേഷൻ മെനു"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam ലൈൻ എഡിറ്റ് പ്രവർത്തനങ്ങൾ"
+
+msgid "CCcam Line Editor"
+msgstr "സിസിക്യാം ലൈൻ എഡിറ്റർ"
+
+msgid "CCcam Organizer"
+msgstr "സിസിക്യാം ഓർഗനൈസർ"
+
+msgid "CCcam Prio Maker"
+msgstr "സിസിക്യാം പ്രിയോ മേക്കർ"
+
+msgid "CCcam Provider Info"
+msgstr "സിസിക്യാം പ്രൊവൈഡർ വിവരം"
+
+msgid "CCcam Remote Info"
+msgstr "സിസിക്യാം റിമോട്ട് വിവരം"
+
+msgid "CCcam Server Info"
+msgstr "സിസിക്യാം സെർവർ വിവരം"
+
+msgid "CCcam Share Info"
+msgstr "സിസിക്യാം പങ്കിടൽ വിവരങ്ങൾ"
+
+msgid "CCcam Shares Info"
+msgstr "സിസിക്യാം വിവരങ്ങൾ പങ്കിടുന്നു"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg അടിസ്ഥാന ലൈൻ എഡിറ്റർ"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo ലഭ്യമല്ല"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "കെയ്ഡ്"
+
+msgid "Caid:"
+msgstr "കെയ്ഡ്:"
+
+msgid "Caid:Srvid"
+msgstr "കെയ്ഡ്: ശ്രീവിദ്"
+
+msgid "Cam Download"
+msgstr "ക്യാം ഡൗൺലോഡ്"
+
+msgid "Cancel"
+msgstr "റദ്ദാക്കുക"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "കാർഡ് വിവരം (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "കാർഡുകൾ:"
+
+msgid "Cards: 0"
+msgstr "കാർഡുകൾ: 0"
+
+msgid "Cardserial"
+msgstr "കാർഡസീരിയൽ"
+
+msgid "Channel"
+msgstr "ചാനൽ"
+
+msgid "Channel Name"
+msgstr "ചാനലിൻ്റെ പേര്"
+
+msgid "Check Emm Send"
+msgstr "Emm Send പരിശോധിക്കുക"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader തിരഞ്ഞെടുക്കുക"
+
+msgid "Choose reader"
+msgstr "വായനക്കാരനെ തിരഞ്ഞെടുക്കുക"
+
+msgid "Cleanup error: %s"
+msgstr "വൃത്തിയാക്കൽ പിശക്: %s"
+
+msgid "Client %s-%s"
+msgstr "ക്ലയൻ്റ് %s-%s"
+
+msgid "Clients"
+msgstr "ഉപഭോക്താക്കൾ"
+
+msgid "Close"
+msgstr "അടയ്ക്കുക"
+
+msgid "Command Cancelled"
+msgstr "കമാൻഡ് റദ്ദാക്കി"
+
+msgid "Configfile %s saved."
+msgstr "കോൺഫിഗറേഷൻ %s സംരക്ഷിച്ചു."
+
+msgid "Connected clients"
+msgstr "ബന്ധിപ്പിച്ച ഉപഭോക്താക്കൾ"
+
+msgid "Connected:"
+msgstr "ബന്ധിപ്പിച്ചത്:"
+
+msgid "Content"
+msgstr "ഉള്ളടക്കം"
+
+msgid "Could not open the file %s!"
+msgstr "%s ഫയൽ തുറക്കാൻ കഴിഞ്ഞില്ല!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "%s ഫയൽ തുറക്കാൻ കഴിഞ്ഞില്ല! പിശക്: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "കോൺഫിഗറേഷൻ %s സംരക്ഷിക്കാൻ കഴിഞ്ഞില്ല! പിശക്: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "കോൺഫിഗറേഷൻ ഫയൽ സംരക്ഷിക്കാൻ കഴിഞ്ഞില്ല! പിശക്: %s"
+
+msgid "Current time"
+msgstr "നിലവിലെ സമയം"
+
+msgid "Delete"
+msgstr "ഇല്ലാതാക്കുക"
+
+msgid "Delete %s?"
+msgstr "%s ഇല്ലാതാക്കണോ?"
+
+msgid "Delete Peer"
+msgstr "പിയർ ഇല്ലാതാക്കുക"
+
+msgid "Delete failed!"
+msgstr "ഇല്ലാതാക്കൽ പരാജയപ്പെട്ടു!"
+
+msgid "Deleted %s!"
+msgstr "%s ഇല്ലാതാക്കി!"
+
+msgid "Do you install this plugin ?"
+msgstr "നിങ്ങൾ ഈ പ്ലഗിൻ ഇൻസ്റ്റാൾ ചെയ്യുന്നുണ്ടോ?"
+
+msgid "Do you want to execute the command?"
+msgstr "നിങ്ങൾക്ക് കമാൻഡ് എക്സിക്യൂട്ട് ചെയ്യണോ?"
+
+msgid "Do you want to remove?"
+msgstr "നിങ്ങൾക്ക് നീക്കം ചെയ്യണോ?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "നിങ്ങൾക്ക് Gui ഇൻ്റർഫേസ് പുനരാരംഭിക്കണോ?"
+
+msgid "ECM data format error"
+msgstr "ECM ഡാറ്റ ഫോർമാറ്റ് പിശക്"
+
+msgid "ECM error"
+msgstr "ECM പിശക്"
+
+msgid "ECM file empty"
+msgstr "ECM ഫയൽ ശൂന്യമാണ്"
+
+msgid "ECM file not found"
+msgstr "ECM ഫയൽ കണ്ടെത്തിയില്ല"
+
+msgid "ECM read error"
+msgstr "ECM വായന പിശക്"
+
+msgid "Ecm Info"
+msgstr "ഇസിഎം വിവരം"
+
+msgid "Ecm Statistics"
+msgstr "ഇസിഎം സ്ഥിതിവിവരക്കണക്കുകൾ"
+
+msgid "Ecm Time"
+msgstr "Ecm സമയം"
+
+msgid "Ecm avg"
+msgstr "Em ശരാശരി"
+
+msgid "Ecm last"
+msgstr "Ecm അവസാനം"
+
+msgid "Edit"
+msgstr "എഡിറ്റ് ചെയ്യുക"
+
+msgid "Editing one caid"
+msgstr "ഒരു കെയ്ഡ് എഡിറ്റുചെയ്യുന്നു"
+
+msgid "Emm Info"
+msgstr "Erm വിവരം"
+
+msgid "Entitlements"
+msgstr "അവകാശങ്ങൾ"
+
+msgid "Error"
+msgstr "പിശക്"
+
+msgid "Error executing update script: %s"
+msgstr "അപ്ഡേറ്റ് സ്ക്രിപ്റ്റ് നടപ്പിലാക്കുന്നതിൽ പിശക്: %s"
+
+msgid "Error getting resource information"
+msgstr "ഉറവിട വിവരങ്ങൾ ലഭിക്കുന്നതിൽ പിശക്"
+
+msgid "Error loading system info:"
+msgstr "സിസ്റ്റം വിവരം ലോഡ് ചെയ്യുന്നതിൽ പിശക്:"
+
+msgid "Error loading system information:"
+msgstr "സിസ്റ്റം വിവരങ്ങൾ ലോഡ് ചെയ്യുന്നതിൽ പിശക്:"
+
+msgid "Error opening cam info: %s"
+msgstr "ക്യാമറ വിവരം തുറക്കുന്നതിൽ പിശക്: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "കോൺഫിഗറേഷൻ ഫയൽ തുറക്കുന്നതിൽ പിശക്: %s"
+
+msgid "Error processing HTML!"
+msgstr "HTML പ്രോസസ്സ് ചെയ്യുന്നതിൽ പിശക്!"
+
+msgid "Error processing server addons data"
+msgstr "സെർവർ ആഡ്ഓൺ ഡാറ്റ പ്രോസസ്സ് ചെയ്യുന്നതിൽ പിശക്"
+
+msgid "Error reading webpage!"
+msgstr "വെബ്‌പേജ് വായിക്കുന്നതിൽ പിശക്!"
+
+msgid "Error stopping %s!"
+msgstr "%s നിർത്തുന്നതിൽ പിശക്!"
+
+msgid "Error while editing configuration: %s"
+msgstr "കോൺഫിഗറേഷൻ എഡിറ്റ് ചെയ്യുമ്പോൾ പിശക്: %s"
+
+msgid "Exit"
+msgstr "പുറത്ത്"
+
+msgid "Extended Shares"
+msgstr "വിപുലീകരിച്ച ഓഹരികൾ"
+
+msgid "Failed to revert file: %s"
+msgstr "ഫയൽ പഴയപടിയാക്കുന്നതിൽ പരാജയപ്പെട്ടു: %s"
+
+msgid "Find Fakes"
+msgstr "വ്യാജങ്ങൾ കണ്ടെത്തുക"
+
+msgid "Force Update"
+msgstr "നിർബന്ധിത അപ്‌ഡേറ്റ്"
+
+msgid "Free memory"
+msgstr "സ്വതന്ത്ര മെമ്മറി"
+
+msgid "Free memory:"
+msgstr "സൗജന്യ മെമ്മറി:"
+
+msgid "Free:"
+msgstr "സൗജന്യം:"
+
+msgid "General"
+msgstr "ജനറൽ"
+
+msgid "Get Link"
+msgstr "ലിങ്ക് നേടുക"
+
+msgid "Getting the list, please wait ..."
+msgstr "ലിസ്റ്റ് ലഭിക്കുന്നു, ദയവായി കാത്തിരിക്കൂ..."
+
+msgid "Help"
+msgstr "സഹായം"
+
+msgid "Hops"
+msgstr "ഹോപ്സ്"
+
+msgid "Hops:"
+msgstr "ഹോപ്സ്:"
+
+msgid "Hostname:"
+msgstr "ഹോസ്റ്റിൻ്റെ പേര്:"
+
+msgid "IP Address"
+msgstr "IP വിലാസം"
+
+msgid "IP address"
+msgstr "IP വിലാസം"
+
+msgid "Idle Time:"
+msgstr "നിഷ്‌ക്രിയ സമയം:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "സജീവമാണെങ്കിൽ: സെർവർ കോൺഫിഗറേഷൻ ഡൗൺലോഡ്/പുനഃസജ്ജമാക്കുക"
+
+msgid "Install Cam first!!!"
+msgstr "ആദ്യം ക്യാം ഇൻസ്റ്റാൾ ചെയ്യുക!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "ഡെവലപ്പർ അപ്ഡേറ്റ് (%s) ഇൻസ്റ്റാൾ ചെയ്യണോ?"
+
+msgid "Invalid HTML content!"
+msgstr "അസാധുവായ HTML ഉള്ളടക്കം!"
+
+msgid "Invalid URL!"
+msgstr "അസാധുവായ URL!"
+
+msgid "Last Req."
+msgstr "അവസാന അപേക്ഷ"
+
+msgid "Last used share:"
+msgstr "അവസാനം ഉപയോഗിച്ച പങ്ക്:"
+
+msgid "Load"
+msgstr "ലോഡ് ചെയ്യുക"
+
+msgid "Local box"
+msgstr "പ്രാദേശിക പെട്ടി"
+
+msgid "Location"
+msgstr "സ്ഥാനം"
+
+msgid "Log"
+msgstr "ലോഗ്"
+
+msgid "Log %s-%s"
+msgstr "ലോഗ് %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "മെനു EMM / സെർവർ ക്ലൈൻ"
+
+msgid "Maxdown +"
+msgstr "മാക്സ്ഡൗൺ +"
+
+msgid "Maxdown -"
+msgstr "മാക്സ്ഡൗൺ -"
+
+msgid "Maxdown:"
+msgstr "മാക്സ്ഡൗൺ:"
+
+msgid "Menu config"
+msgstr "മെനു കോൺഫിഗറേഷൻ"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo ലഭ്യമല്ല"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam പ്രവർത്തിക്കുന്നില്ല - വിവരങ്ങൾ ലഭിക്കാൻ Cam ആരംഭിക്കുക."
+
+msgid "New"
+msgstr "പുതിയത്"
+
+msgid "New profile:"
+msgstr "പുതിയ പ്രൊഫൈൽ:"
+
+msgid "NewCamd"
+msgstr "ന്യൂകാംഡ്"
+
+msgid "No ECM data"
+msgstr "ECM ഡാറ്റ ഇല്ല"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM ഡാറ്റ ഇല്ല - കാലഹരണപ്പെട്ടു"
+
+msgid "No ECM file"
+msgstr "ECM ഫയൽ ഇല്ല"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ECM വിവരങ്ങളൊന്നും നിലവിൽ ലഭ്യമല്ല. ഡീക്രിപ്റ്റ് ചെയ്യുമ്പോൾ മാത്രമേ ഇത് ലഭ്യമാകൂ."
+
+msgid "No active cam to restart!"
+msgstr "പുനരാരംഭിക്കാൻ സജീവ ക്യാമറയില്ല!"
+
+msgid "No backups available!"
+msgstr "ബാക്കപ്പുകളൊന്നും ലഭ്യമല്ല!"
+
+msgid "No card inserted!"
+msgstr "കാർഡ് ചേർത്തിട്ടില്ല!"
+
+msgid "No softcams available!"
+msgstr "സോഫ്റ്റ്‌ക്യാമുകളൊന്നും ലഭ്യമല്ല!"
+
+msgid "No valid backups found!"
+msgstr "സാധുവായ ബാക്കപ്പുകളൊന്നും കണ്ടെത്തിയില്ല!"
+
+msgid "NodeID"
+msgstr "നോഡ്ഐഡി"
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "ശരി"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam അപ്‌ഡേറ്റ് കാലഹരണപ്പെട്ടു. വിശദാംശങ്ങൾക്ക് /tmp/oscam_update.log പരിശോധിക്കുക."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo ലഭ്യമല്ല"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "ഓസ്കാം പ്രവർത്തിക്കുന്നില്ല - വിവരങ്ങൾ ലഭിക്കാൻ ക്യാം ആരംഭിക്കുക."
+
+msgid "PRESS RETURN"
+msgstr "റിട്ടേൺ അമർത്തുക"
+
+msgid "Password"
+msgstr "രഹസ്യവാക്ക്"
+
+msgid "Password (httpwd)"
+msgstr "പാസ്‌വേഡ് (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "പീക്ക് ലോഡ് (ഒരു വർക്കർ ത്രെഡിന് പരമാവധി ക്യൂവിലുള്ള അഭ്യർത്ഥനകൾ)"
+
+msgid "Pid"
+msgstr "പിഡ്"
+
+msgid "Please Reset - No File CFG"
+msgstr "ദയവായി പുനഃസജ്ജമാക്കുക - CFG ഫയൽ ഇല്ല"
+
+msgid "Please select ..."
+msgstr "ദയവായി തിരഞ്ഞെടുക്കുക..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "എഡിറ്റുചെയ്യാൻ ഒരു ലൈൻ തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ പുതിയ ലൈൻ സൃഷ്‌ടിക്കാൻ ചേർക്കുക തിരഞ്ഞെടുക്കുക."
+
+msgid "Please wait, %s."
+msgstr "ദയവായി കാത്തിരിക്കുക, %s."
+
+msgid "Port"
+msgstr "തുറമുഖം"
+
+msgid "Profile"
+msgstr "പ്രൊഫൈൽ"
+
+msgid "Profile: Local box"
+msgstr "പ്രൊഫൈൽ: ലോക്കൽ ബോക്സ്"
+
+msgid "Protocol"
+msgstr "പ്രോട്ടോക്കോൾ"
+
+msgid "Provider"
+msgstr "ദാതാവ്"
+
+msgid "Provider Name:"
+msgstr "ദാതാവിൻ്റെ പേര്:"
+
+msgid "Provider:"
+msgstr "ദാതാവ്:"
+
+msgid "Providers"
+msgstr "ദാതാക്കൾ"
+
+msgid "Providers:"
+msgstr "ദാതാക്കൾ:"
+
+msgid "Quick restart %s?"
+msgstr "%s വേഗത്തിൽ പുനരാരംഭിക്കണോ?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "%s.conf-ൽ നിന്നുള്ള ഉപയോക്തൃ ഡാറ്റ വായിക്കുക"
+
+msgid "Reader"
+msgstr "വായനക്കാരൻ"
+
+msgid "Reader Statistics"
+msgstr "റീഡർ സ്റ്റാറ്റിസ്റ്റിക്സ്"
+
+msgid "Reader/User"
+msgstr "വായനക്കാരൻ/ഉപയോക്താവ്"
+
+msgid "Recover Peer"
+msgstr "പിയർ വീണ്ടെടുക്കുക"
+
+msgid "Remote box"
+msgstr "റിമോട്ട് ബോക്സ്"
+
+msgid "Remove"
+msgstr "നീക്കം ചെയ്യുക"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "CCcam.cfg-ൽ നിന്ന് ലൈൻ നീക്കം ചെയ്യുക"
+
+msgid "Removing %s"
+msgstr "%s നീക്കം ചെയ്യുന്നു"
+
+msgid "Rename"
+msgstr "പേരുമാറ്റുക"
+
+msgid "Rename failed!"
+msgstr "പേരുമാറ്റുന്നത് പരാജയപ്പെട്ടു!"
+
+msgid "Rename to:"
+msgstr "പേരുമാറ്റുക:"
+
+msgid "Renamed %s!"
+msgstr "%s എന്ന പേര് മാറ്റി!"
+
+msgid "Reset"
+msgstr "പുനഃസജ്ജമാക്കുക"
+
+msgid "Reshare"
+msgstr "വീണ്ടും പങ്കിടുക"
+
+msgid "Reshare:"
+msgstr "പങ്കിടുക:"
+
+msgid "Resources"
+msgstr "വിഭവങ്ങൾ"
+
+msgid "Restart GUI?"
+msgstr "GUI പുനരാരംഭിക്കണോ?"
+
+msgid "Restart error: %s"
+msgstr "പുനരാരംഭിക്കുന്നതിൽ പിശക്: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "പുനഃസ്ഥാപിച്ച കോൺഫിഗറേഷൻ പ്രയോഗിക്കാൻ സോഫ്റ്റ്‌ക്യാം പുനരാരംഭിക്കണോ?"
+
+msgid "Save"
+msgstr "സംരക്ഷിക്കുക"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "ലിസ്റ്റ് സോഫ്റ്റ്‌ക്യാം സ്കാനിംഗും വീണ്ടെടുക്കലും ..."
+
+msgid "Select CCcam"
+msgstr "CCcam തിരഞ്ഞെടുക്കുക"
+
+msgid "Select Get Link"
+msgstr "ലിങ്ക് നേടുക തിരഞ്ഞെടുക്കുക"
+
+msgid "Select Ncam"
+msgstr "Ncam തിരഞ്ഞെടുക്കുക"
+
+msgid "Select OScam"
+msgstr "OScam തിരഞ്ഞെടുക്കുക"
+
+msgid "Select Your Choice"
+msgstr "നിങ്ങളുടെ ചോയ്സ് തിരഞ്ഞെടുക്കുക"
+
+msgid "Select a cam to run ..."
+msgstr "പ്രവർത്തിപ്പിക്കാൻ ഒരു ക്യാമറ തിരഞ്ഞെടുക്കുക..."
+
+msgid "Select and Install"
+msgstr "തിരഞ്ഞെടുത്ത് ഇൻസ്റ്റാൾ ചെയ്യുക"
+
+msgid "Select backup to restore:"
+msgstr "പുനഃസ്ഥാപിക്കാൻ ബാക്കപ്പ് തിരഞ്ഞെടുക്കുക:"
+
+msgid "Server %s-%s"
+msgstr "സെർവർ %s-%s"
+
+msgid "Server Config"
+msgstr "സെർവർ കോൺഫിഗറേഷൻ"
+
+msgid "Server Copy in"
+msgstr "സെർവർ പകർത്തുക"
+
+msgid "Server Link"
+msgstr "സെർവർ ലിങ്ക്"
+
+msgid "Server Password"
+msgstr "സെർവർ പാസ്‌വേഡ്"
+
+msgid "Server Port"
+msgstr "സെർവർ പോർട്ട്"
+
+msgid "Server URL"
+msgstr "സെർവർ URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "സെർവർ യുആർഎൽ അതായത് 012.345.678.900"
+
+msgid "Server Username"
+msgstr "സെർവർ ഉപയോക്തൃനാമം"
+
+msgid "Server:"
+msgstr "സെർവർ:"
+
+msgid "Servers"
+msgstr "സെർവറുകൾ"
+
+msgid "Servers:"
+msgstr "സെർവറുകൾ:"
+
+msgid "Service"
+msgstr "സേവനം"
+
+msgid "Set as UNIQUE PEER"
+msgstr "UNIQUE PEER ആയി സജ്ജീകരിക്കുക"
+
+msgid "Setup"
+msgstr "സജ്ജമാക്കുക"
+
+msgid "Share View"
+msgstr "കാഴ്ച പങ്കിടുക"
+
+msgid "Shares"
+msgstr "ഓഹരികൾ"
+
+msgid "Show Clients"
+msgstr "ക്ലയൻ്റുകൾ കാണിക്കുക"
+
+msgid "Show Ecm info"
+msgstr "Ecm വിവരം കാണിക്കുക"
+
+msgid "Show Log"
+msgstr "ലോഗ് കാണിക്കുക"
+
+msgid "Show Readers/Proxies"
+msgstr "റീഡറുകൾ/പ്രോക്സികൾ കാണിക്കുക"
+
+msgid "Softcam Manager"
+msgstr "സോഫ്റ്റ്‌ക്യാം മാനേജർ"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "പുതിയ കോൺഫിഗറേഷൻ ഉപയോഗിച്ച് സോഫ്റ്റ്‌ക്യാം പുനരാരംഭിച്ചു!"
+
+msgid "Start"
+msgstr "ആരംഭിക്കുക"
+
+msgid "Status"
+msgstr "നില"
+
+msgid "Stop"
+msgstr "നിർത്തുക"
+
+msgid "Stop Finding Fakes"
+msgstr "വ്യാജങ്ങൾ കണ്ടെത്തുന്നത് നിർത്തുക"
+
+msgid "Switch config"
+msgstr "കോൺഫിഗറേഷൻ മാറ്റുക"
+
+msgid "System"
+msgstr "സിസ്റ്റം"
+
+msgid "System cleanup completed!"
+msgstr "സിസ്റ്റം വൃത്തിയാക്കൽ പൂർത്തിയായി!"
+
+msgid "System:"
+msgstr "സിസ്റ്റം:"
+
+msgid "Temporarely DELETED"
+msgstr "താൽക്കാലികമായി ഇല്ലാതാക്കി"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "ഈ പ്ലഗിൻ നിങ്ങളുടെ CCcam-ൻ്റെ നില കാണിക്കുന്നു"
+
+msgid "Total"
+msgstr "ആകെ"
+
+msgid "Total cards:"
+msgstr "ആകെ കാർഡുകൾ:"
+
+msgid "Total handled client ecm's"
+msgstr "മൊത്തം കൈകാര്യം ചെയ്ത ക്ലയൻ്റ് ഇസിഎം"
+
+msgid "Total handled client emm's"
+msgstr "ആകെ കൈകാര്യം ചെയ്ത ക്ലയൻ്റ് എമ്മിൻ്റെ"
+
+msgid "Total:"
+msgstr "ആകെ:"
+
+msgid "Try again later ..."
+msgstr "പിന്നീട് വീണ്ടും ശ്രമിക്കുക..."
+
+msgid "Type:"
+msgstr "തരം:"
+
+msgid "UNDELETED"
+msgstr "ഇല്ലാതാക്കിയത്"
+
+msgid "Unable to make the script executable: %s"
+msgstr "സ്ക്രിപ്റ്റ് എക്സിക്യൂട്ടബിൾ ആക്കാനായില്ല: %s"
+
+msgid "Unknow Image!"
+msgstr "അജ്ഞാത ചിത്രം!"
+
+msgid "Update"
+msgstr "അപ്ഡേറ്റ്"
+
+msgid "Update Aborted!"
+msgstr "അപ്ഡേറ്റ് നിർത്തലാക്കി!"
+
+msgid "Update interval (in seconds)"
+msgstr "ഇടവേള അപ്ഡേറ്റ് ചെയ്യുക (സെക്കൻഡിൽ)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr "അപ്ഹോപ്സ് -"
+
+msgid "Uphops:"
+msgstr "അപ്ഹോപ്സ്:"
+
+msgid "Uptime"
+msgstr "പ്രവർത്തനസമയം"
+
+msgid "Used:"
+msgstr "ഉപയോഗിച്ചത്:"
+
+msgid "Username"
+msgstr "ഉപയോക്തൃനാമം"
+
+msgid "Username (httpuser)"
+msgstr "ഉപയോക്തൃനാമം (httpuser)"
+
+msgid "Using old profile:"
+msgstr "പഴയ പ്രൊഫൈൽ ഉപയോഗിക്കുന്നത്:"
+
+msgid "Version:"
+msgstr "പതിപ്പ്:"
+
+msgid "Wait please..."
+msgstr "ദയവായി കാത്തിരിക്കൂ..."
+
+msgid "Write"
+msgstr "എഴുതുക"
+
+msgid "Write-Debug"
+msgstr "എഴുതുക-ഡീബഗ് ചെയ്യുക"
+
+msgid "You have the latest version!"
+msgstr "നിങ്ങൾക്ക് ഏറ്റവും പുതിയ പതിപ്പുണ്ട്!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\t നൽകുന്നു:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "ഒന്നുമില്ല.ഉണ്ടെലെ"
+
+msgid "address:"
+msgstr "വിലാസം:"
+
+msgid "and"
+msgstr "ഒപ്പം"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "കാർഡ്"
+
+msgid "card reader"
+msgstr "കാർഡ് റീഡർ"
+
+msgid "close share view"
+msgstr "അടുത്ത് പങ്കിടൽ കാഴ്ച"
+
+msgid "decrease uphop by 1"
+msgstr "ഉയർച്ച 1 കുറയ്ക്കുക"
+
+msgid "ecm time:"
+msgstr "ഇസിഎം സമയം:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "കാർഡുകളുടെ സെർവർ നേടുക"
+
+msgid "handled"
+msgstr "കൈകാര്യം ചെയ്തു"
+
+msgid "hops:"
+msgstr "ഹോപ്സ്:"
+
+msgid "increase uphop by 1"
+msgstr "1 വർദ്ധിപ്പിക്കുക"
+
+msgid "info"
+msgstr "വിവരം"
+
+msgid "no or unknown card inserted"
+msgstr "ഇല്ല അല്ലെങ്കിൽ അജ്ഞാത കാർഡ് ചേർത്തു"
+
+msgid "pid:"
+msgstr "പിഡ്:"
+
+msgid "provid:"
+msgstr "നൽകുന്നത്:"
+
+msgid "provider:"
+msgstr "ദാതാവ്:"
+
+msgid "share:"
+msgstr "പങ്കിടുക:"
+
+msgid "show all cards"
+msgstr "എല്ലാ കാർഡുകളും കാണിക്കുക"
+
+msgid "show cards with uphop 0"
+msgstr "uphop 0 ഉള്ള കാർഡുകൾ കാണിക്കുക"
+
+msgid "show cards with uphop 1"
+msgstr "uphop 1 ഉപയോഗിച്ച് കാർഡുകൾ കാണിക്കുക"
+
+msgid "show cards with uphop 2"
+msgstr "uphop 2 ഉപയോഗിച്ച് കാർഡുകൾ കാണിക്കുക"
+
+msgid "show cards with uphop 3"
+msgstr "uphop 3 ഉപയോഗിച്ച് കാർഡുകൾ കാണിക്കുക"
+
+msgid "show cards with uphop 4"
+msgstr "uphop 4 ഉപയോഗിച്ച് കാർഡുകൾ കാണിക്കുക"
+
+msgid "show cards with uphop 5"
+msgstr "uphop 5 ഉപയോഗിച്ച് കാർഡുകൾ കാണിക്കുക"
+
+msgid "show cards with uphop 6"
+msgstr "uphop 6 ഉപയോഗിച്ച് കാർഡുകൾ കാണിക്കുക"
+
+msgid "show cards with uphop 7"
+msgstr "uphop 7 ഉപയോഗിച്ച് കാർഡുകൾ കാണിക്കുക"
+
+msgid "show cards with uphop 8"
+msgstr "uphop 8 ഉള്ള കാർഡുകൾ കാണിക്കുക"
+
+msgid "show cards with uphop 9"
+msgstr "uphop 9 ഉപയോഗിച്ച് കാർഡുകൾ കാണിക്കുക"
+
+msgid "system:"
+msgstr "സിസ്റ്റം:"
+
+msgid "using:"
+msgstr "ഉപയോഗിക്കുന്നത്:"
+
+msgid "xLine"
+msgstr ""

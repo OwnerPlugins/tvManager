@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 02:16+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Swahili\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Kadi )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Maelezo - Usanidi"
+
+msgid "%s Info - Main Menu"
+msgstr "%s Maelezo - Menyu Kuu"
+
+msgid "%s restarted successfully!"
+msgstr "%s imeanzishwa upya!"
+
+msgid "%s webif disabled"
+msgstr "%s webif imezimwa"
+
+msgid "(All readers)"
+msgstr "(Wasomaji wote)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Onyesha msomaji pekee) (%s)"
+
+msgid "About"
+msgstr "Kuhusu"
+
+msgid "Activate"
+msgstr "Amilisha"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Amilisha Ingiza laini katika Faili ya Usanidi:"
+
+msgid "Active clients"
+msgstr "Wateja wanaofanya kazi"
+
+msgid "Add"
+msgstr "Ongeza"
+
+msgid "Add new CCcam line"
+msgstr "Ongeza laini mpya ya CCcam"
+
+msgid "Add new NewCamd line"
+msgstr "Ongeza laini mpya ya NewCamd"
+
+msgid "Address"
+msgstr "Anwani"
+
+msgid "All"
+msgstr "Wote"
+
+msgid "An error occurred in the green function."
+msgstr "Hitilafu ilitokea katika chaguo za kukokotoa za kijani."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Hitilafu isiyotarajiwa imetokea: %s"
+
+msgid "Ask all caid"
+msgstr "Uliza wahusika wote"
+
+msgid "Ask for the selection caid"
+msgstr "Uliza kaida ya uteuzi"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Ungependa kusasisha Mwonekano wa Mteja/Seva kiotomatiki?"
+
+msgid "Available shares:"
+msgstr "Hisa zinazopatikana:"
+
+msgid "Back"
+msgstr "Nyuma"
+
+msgid "Backup failed!"
+msgstr "Imeshindwa kuhifadhi nakala!"
+
+msgid "Backup restoration failed!"
+msgstr "Urejeshaji wa nakala umeshindwa!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Mipangilio ya CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker kuanzisha otomatiki"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Maelezo ya Wateja wa CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "Kibadilishaji cha Usanidi wa CCcam"
+
+msgid "CCcam ECM Info"
+msgstr "Maelezo ya CCcam ya ECM"
+
+msgid "CCcam Info"
+msgstr "Maelezo ya CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Maelezo ya CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "Usanidi wa Maelezo ya CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "Menyu ya Usanidi wa Maelezo ya CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Line Hariri Vitendo"
+
+msgid "CCcam Line Editor"
+msgstr "Mhariri wa Mstari wa CCcam"
+
+msgid "CCcam Organizer"
+msgstr "Mratibu wa CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr "CCcam Prio Muumba"
+
+msgid "CCcam Provider Info"
+msgstr "Maelezo ya Mtoa huduma wa CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Maelezo ya Mbali ya CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Maelezo ya Seva ya CCcam"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Shiriki Habari"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam Inashiriki Habari"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "Mhariri wa Mstari wa Msingi wa CCcam.cfg"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo haipatikani"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Upakuaji wa Cam"
+
+msgid "Cancel"
+msgstr "Ghairi"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Maelezo ya kadi (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kadi:"
+
+msgid "Cards: 0"
+msgstr "Kadi: 0"
+
+msgid "Cardserial"
+msgstr ""
+
+msgid "Channel"
+msgstr "Kituo"
+
+msgid "Channel Name"
+msgstr "Jina la Kituo"
+
+msgid "Check Emm Send"
+msgstr "Angalia Emm Tuma"
+
+msgid "Choose CCcam-Reader"
+msgstr "Chagua CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Chagua msomaji"
+
+msgid "Cleanup error: %s"
+msgstr "Hitilafu ya kusafisha: %s"
+
+msgid "Client %s-%s"
+msgstr "Mteja %s-%s"
+
+msgid "Clients"
+msgstr "Wateja"
+
+msgid "Close"
+msgstr "Funga"
+
+msgid "Command Cancelled"
+msgstr "Amri Imeghairiwa"
+
+msgid "Configfile %s saved."
+msgstr "Faili ya usanidi %s imehifadhiwa."
+
+msgid "Connected clients"
+msgstr "Wateja waliounganishwa"
+
+msgid "Connected:"
+msgstr "Imeunganishwa:"
+
+msgid "Content"
+msgstr "Maudhui"
+
+msgid "Could not open the file %s!"
+msgstr "Haikuweza kufungua faili %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Haikuweza kufungua faili %s! Hitilafu: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Haikuweza kuhifadhi faili ya usanidi %s! Hitilafu: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Haikuweza kuhifadhi faili ya usanidi! Hitilafu: %s"
+
+msgid "Current time"
+msgstr "Wakati wa sasa"
+
+msgid "Delete"
+msgstr "Futa"
+
+msgid "Delete %s?"
+msgstr "Ungependa kufuta %s?"
+
+msgid "Delete Peer"
+msgstr "Futa Rika"
+
+msgid "Delete failed!"
+msgstr "Imeshindwa kufuta!"
+
+msgid "Deleted %s!"
+msgstr "Imefutwa %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Je, unasakinisha programu-jalizi hii?"
+
+msgid "Do you want to execute the command?"
+msgstr "Je, unataka kutekeleza amri?"
+
+msgid "Do you want to remove?"
+msgstr "Je, ungependa kuondoa?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Je, ungependa kuwasha upya Kiolesura cha Gui?"
+
+msgid "ECM data format error"
+msgstr "Hitilafu ya umbizo la data ya ECM"
+
+msgid "ECM error"
+msgstr "Hitilafu ya ECM"
+
+msgid "ECM file empty"
+msgstr "Faili ya ECM haina chochote"
+
+msgid "ECM file not found"
+msgstr "Faili ya ECM haijapatikana"
+
+msgid "ECM read error"
+msgstr "Hitilafu ya kusoma ya ECM"
+
+msgid "Ecm Info"
+msgstr "Habari Ecm"
+
+msgid "Ecm Statistics"
+msgstr "Takwimu za Ecm"
+
+msgid "Ecm Time"
+msgstr "Muda wa Ecm"
+
+msgid "Ecm avg"
+msgstr "Ecm wastani"
+
+msgid "Ecm last"
+msgstr "Ecm mwisho"
+
+msgid "Edit"
+msgstr "Hariri"
+
+msgid "Editing one caid"
+msgstr "Kuhariri caid moja"
+
+msgid "Emm Info"
+msgstr "Maelezo ya Erm"
+
+msgid "Entitlements"
+msgstr "Haki"
+
+msgid "Error"
+msgstr "Hitilafu"
+
+msgid "Error executing update script: %s"
+msgstr "Hitilafu katika kutekeleza hati ya sasisho: %s"
+
+msgid "Error getting resource information"
+msgstr "Hitilafu katika kupata taarifa ya nyenzo"
+
+msgid "Error loading system info:"
+msgstr "Hitilafu katika kupakia maelezo ya mfumo:"
+
+msgid "Error loading system information:"
+msgstr "Hitilafu katika kupakia maelezo ya mfumo:"
+
+msgid "Error opening cam info: %s"
+msgstr "Hitilafu imetokea wakati wa kufungua maelezo ya kamera: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Hitilafu katika kufungua faili ya usanidi: %s"
+
+msgid "Error processing HTML!"
+msgstr "Hitilafu katika kuchakata HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Hitilafu katika kuchakata data ya nyongeza za seva"
+
+msgid "Error reading webpage!"
+msgstr "Hitilafu katika kusoma ukurasa wa tovuti!"
+
+msgid "Error stopping %s!"
+msgstr "Hitilafu katika kusimamisha %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Hitilafu wakati wa kuhariri usanidi: %s"
+
+msgid "Exit"
+msgstr "Utgång"
+
+msgid "Extended Shares"
+msgstr "Hisa Zilizoongezwa"
+
+msgid "Failed to revert file: %s"
+msgstr "Imeshindwa kurejesha faili: %s"
+
+msgid "Find Fakes"
+msgstr "Tafuta Feki"
+
+msgid "Force Update"
+msgstr "Lazimisha Usasishaji"
+
+msgid "Free memory"
+msgstr "Kumbukumbu ya bure"
+
+msgid "Free memory:"
+msgstr "Kumbukumbu ya bure:"
+
+msgid "Free:"
+msgstr "Bure:"
+
+msgid "General"
+msgstr "Mkuu"
+
+msgid "Get Link"
+msgstr "Pata Kiungo"
+
+msgid "Getting the list, please wait ..."
+msgstr "Kupata orodha, tafadhali subiri ..."
+
+msgid "Help"
+msgstr "Msaada"
+
+msgid "Hops"
+msgstr "Humle"
+
+msgid "Hops:"
+msgstr "Humle:"
+
+msgid "Hostname:"
+msgstr "Jina la mwenyeji:"
+
+msgid "IP Address"
+msgstr "Anwani ya IP"
+
+msgid "IP address"
+msgstr "Anwani ya IP"
+
+msgid "Idle Time:"
+msgstr "Muda wa Kutofanya Kazi:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Ikiwa Imetumika: Pakua/Weka Upya Usanidi wa Seva"
+
+msgid "Install Cam first!!!"
+msgstr "Sakinisha Cam kwanza !!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Sakinisha sasisho la msanidi (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Maudhui batili ya HTML!"
+
+msgid "Invalid URL!"
+msgstr "URL batili!"
+
+msgid "Last Req."
+msgstr "Req ya Mwisho."
+
+msgid "Last used share:"
+msgstr "Iliyoshirikiwa mwisho:"
+
+msgid "Load"
+msgstr "Mzigo"
+
+msgid "Local box"
+msgstr "Sanduku la ndani"
+
+msgid "Location"
+msgstr "Mahali"
+
+msgid "Log"
+msgstr "Kumbukumbu"
+
+msgid "Log %s-%s"
+msgstr "Rekodi %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr "Kiwango cha juu zaidi +"
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr "Kiwango cha juu zaidi:"
+
+msgid "Menu config"
+msgstr "Mipangilio ya menyu"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo haipatikani"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam haifanyi kazi - anzisha Cam ili kupata habari."
+
+msgid "New"
+msgstr "Mpya"
+
+msgid "New profile:"
+msgstr "Wasifu mpya:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Hakuna data ya ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Hakuna data ya ECM - Muda umekwisha"
+
+msgid "No ECM file"
+msgstr "Hakuna faili ya ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Hakuna maelezo ya ECM yanayopatikana kwa sasa. Hii inapatikana tu wakati wa kusimbua."
+
+msgid "No active cam to restart!"
+msgstr "Hakuna kamera inayotumika ya kuwasha upya!"
+
+msgid "No backups available!"
+msgstr "Hakuna chelezo zinazopatikana!"
+
+msgid "No card inserted!"
+msgstr "Hakuna kadi iliyoingizwa!"
+
+msgid "No softcams available!"
+msgstr "Hakuna kamera za laini zinazopatikana!"
+
+msgid "No valid backups found!"
+msgstr "Hakuna chelezo halali zilizopatikana!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "Sawa"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Muda wa kusasisha OScam umekwisha. Angalia /tmp/oscam_update.log kwa maelezo."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo haipatikani"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam haifanyiki - anzisha Cam ili kupata maelezo."
+
+msgid "PRESS RETURN"
+msgstr "VYOMBO VYA HABARI KURUDI"
+
+msgid "Password"
+msgstr "Nenosiri"
+
+msgid "Password (httpwd)"
+msgstr "Nenosiri (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Mzigo wa kilele (maombi ya juu zaidi kwenye foleni kwa kila somo la mfanyakazi)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Tafadhali Weka Upya - Hakuna Faili ya CFG"
+
+msgid "Please select ..."
+msgstr "Tafadhali chagua..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Tafadhali chagua mstari wa kuhariri au uchague kuongeza ili kuunda laini mpya."
+
+msgid "Please wait, %s."
+msgstr "Tafadhali subiri, %s."
+
+msgid "Port"
+msgstr "Bandari"
+
+msgid "Profile"
+msgstr "Wasifu"
+
+msgid "Profile: Local box"
+msgstr "Profaili: Sanduku la ndani"
+
+msgid "Protocol"
+msgstr "Itifaki"
+
+msgid "Provider"
+msgstr "Mtoa huduma"
+
+msgid "Provider Name:"
+msgstr "Jina la Mtoa Huduma:"
+
+msgid "Provider:"
+msgstr "Mtoa huduma:"
+
+msgid "Providers"
+msgstr "Watoa huduma"
+
+msgid "Providers:"
+msgstr "Watoa huduma:"
+
+msgid "Quick restart %s?"
+msgstr "Ungependa kuanzisha upya %s kwa haraka?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Soma data ya mtumiaji kutoka %s.conf"
+
+msgid "Reader"
+msgstr "Msomaji"
+
+msgid "Reader Statistics"
+msgstr "Takwimu za Msomaji"
+
+msgid "Reader/User"
+msgstr "Msomaji/Mtumiaji"
+
+msgid "Recover Peer"
+msgstr "Rejesha Mwenzi"
+
+msgid "Remote box"
+msgstr "Sanduku la mbali"
+
+msgid "Remove"
+msgstr "Ondoa"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Ondoa Line kutoka CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Inaondoa %s"
+
+msgid "Rename"
+msgstr "Badilisha jina"
+
+msgid "Rename failed!"
+msgstr "Imeshindwa kubadilisha jina!"
+
+msgid "Rename to:"
+msgstr "Badilisha jina hadi:"
+
+msgid "Renamed %s!"
+msgstr "Imepewa jina jipya %s!"
+
+msgid "Reset"
+msgstr "Weka upya"
+
+msgid "Reshare"
+msgstr "Shiriki upya"
+
+msgid "Reshare:"
+msgstr "Shiriki:"
+
+msgid "Resources"
+msgstr "Rasilimali"
+
+msgid "Restart GUI?"
+msgstr "Ungependa kuanzisha upya GUI?"
+
+msgid "Restart error: %s"
+msgstr "Hitilafu ya kuanzisha upya: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Ungependa kuanzisha upya kamera laini ili kuweka usanidi uliorejeshwa?"
+
+msgid "Save"
+msgstr "Hifadhi"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Kuchanganua na kupata orodha ya kamera laini ..."
+
+msgid "Select CCcam"
+msgstr "Chagua CCcam"
+
+msgid "Select Get Link"
+msgstr "Chagua Pata Kiungo"
+
+msgid "Select Ncam"
+msgstr "Chagua Ncam"
+
+msgid "Select OScam"
+msgstr "Chagua OScam"
+
+msgid "Select Your Choice"
+msgstr "Chagua Chaguo Lako"
+
+msgid "Select a cam to run ..."
+msgstr "Chagua kamera ya kuendesha..."
+
+msgid "Select and Install"
+msgstr "Chagua na Sakinisha"
+
+msgid "Select backup to restore:"
+msgstr "Chagua chelezo ili kurejesha:"
+
+msgid "Server %s-%s"
+msgstr "Seva %s-%s"
+
+msgid "Server Config"
+msgstr "Usanidi wa Seva"
+
+msgid "Server Copy in"
+msgstr "Nakili Seva ndani"
+
+msgid "Server Link"
+msgstr "Kiungo cha Seva"
+
+msgid "Server Password"
+msgstr "Nenosiri la seva"
+
+msgid "Server Port"
+msgstr "Bandari ya Seva"
+
+msgid "Server URL"
+msgstr "URL ya seva"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Url ya Seva yaani 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Jina la mtumiaji la Seva"
+
+msgid "Server:"
+msgstr "Seva:"
+
+msgid "Servers"
+msgstr "Seva"
+
+msgid "Servers:"
+msgstr "Seva:"
+
+msgid "Service"
+msgstr "Huduma"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Weka kama UNIQUE PEER"
+
+msgid "Setup"
+msgstr "Sanidi"
+
+msgid "Share View"
+msgstr "Shiriki Mwonekano"
+
+msgid "Shares"
+msgstr "Hisa"
+
+msgid "Show Clients"
+msgstr "Onyesha Wateja"
+
+msgid "Show Ecm info"
+msgstr "Onyesha habari ya Ecm"
+
+msgid "Show Log"
+msgstr "Onyesha Kumbukumbu"
+
+msgid "Show Readers/Proxies"
+msgstr "Onyesha Wasomaji/Wakala"
+
+msgid "Softcam Manager"
+msgstr "Meneja wa Softcam"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam imeanza upya na usanidi mpya!"
+
+msgid "Start"
+msgstr "Anza"
+
+msgid "Status"
+msgstr "Hali"
+
+msgid "Stop"
+msgstr "Acha"
+
+msgid "Stop Finding Fakes"
+msgstr "Acha Kutafuta Feki"
+
+msgid "Switch config"
+msgstr "Badilisha usanidi"
+
+msgid "System"
+msgstr "Mfumo"
+
+msgid "System cleanup completed!"
+msgstr "Usafishaji wa mfumo umekamilika!"
+
+msgid "System:"
+msgstr "Mfumo:"
+
+msgid "Temporarely DELETED"
+msgstr "IMEFUTWA kwa muda"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Programu-jalizi hii inakuonyesha hali ya CCcam yako"
+
+msgid "Total"
+msgstr "Jumla"
+
+msgid "Total cards:"
+msgstr "Jumla ya kadi:"
+
+msgid "Total handled client ecm's"
+msgstr "Jumla ya mteja anayeshughulikiwa ecm's"
+
+msgid "Total handled client emm's"
+msgstr "Jumla ya emm za mteja zinazoshughulikiwa"
+
+msgid "Total:"
+msgstr "Jumla:"
+
+msgid "Try again later ..."
+msgstr "Jaribu tena baadaye..."
+
+msgid "Type:"
+msgstr "Aina:"
+
+msgid "UNDELETED"
+msgstr "HAIJAFUTWA"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Haiwezi kufanya hati itekelezwe: %s"
+
+msgid "Unknow Image!"
+msgstr "Picha Isiyojulikana!"
+
+msgid "Update"
+msgstr "Sasisha"
+
+msgid "Update Aborted!"
+msgstr "Usasishaji Umeghairiwa!"
+
+msgid "Update interval (in seconds)"
+msgstr "Sasisha muda (kwa sekunde)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Used:"
+msgstr "Imetumika:"
+
+msgid "Username"
+msgstr "Jina la mtumiaji"
+
+msgid "Username (httpuser)"
+msgstr "Jina la mtumiaji (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Kutumia wasifu wa zamani:"
+
+msgid "Version:"
+msgstr "Toleo:"
+
+msgid "Wait please..."
+msgstr "Subiri tafadhali..."
+
+msgid "Write"
+msgstr "Andika"
+
+msgid "Write-Debug"
+msgstr "Andika-Tatua"
+
+msgid "You have the latest version!"
+msgstr "Una toleo jipya zaidi!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tHutoa:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a HAKUNA.KWA.UNDELE"
+
+msgid "address:"
+msgstr "anwani:"
+
+msgid "and"
+msgstr "na"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "kadi"
+
+msgid "card reader"
+msgstr "msomaji wa kadi"
+
+msgid "close share view"
+msgstr "funga mtazamo wa kushiriki"
+
+msgid "decrease uphop by 1"
+msgstr "punguza uphop kwa 1"
+
+msgid "ecm time:"
+msgstr "wakati wa ecm:"
+
+msgid "ecm.info"
+msgstr "ecm.maelezo"
+
+msgid "get the cards' server"
+msgstr "pata seva ya kadi"
+
+msgid "handled"
+msgstr "kubebwa"
+
+msgid "hops:"
+msgstr "humle:"
+
+msgid "increase uphop by 1"
+msgstr "kuongeza uphop kwa 1"
+
+msgid "info"
+msgstr "habari"
+
+msgid "no or unknown card inserted"
+msgstr "hakuna au kadi isiyojulikana imeingizwa"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "toa:"
+
+msgid "provider:"
+msgstr "mtoaji:"
+
+msgid "share:"
+msgstr "shiriki:"
+
+msgid "show all cards"
+msgstr "onyesha kadi zote"
+
+msgid "show cards with uphop 0"
+msgstr "onyesha kadi zilizo na uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "onyesha kadi zilizo na uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "onyesha kadi zilizo na uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "onyesha kadi zilizo na uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "onyesha kadi zilizo na uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "onyesha kadi zilizo na uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "onyesha kadi zilizo na uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "onyesha kadi zilizo na uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "onyesha kadi zilizo na uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "onyesha kadi zilizo na uphop 9"
+
+msgid "system:"
+msgstr "mfumo:"
+
+msgid "using:"
+msgstr "kutumia:"
+
+msgid "xLine"
+msgstr ""

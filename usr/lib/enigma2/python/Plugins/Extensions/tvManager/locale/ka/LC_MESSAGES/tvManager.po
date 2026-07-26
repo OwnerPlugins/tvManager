@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 00:05+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s ბარათები )"
+
+msgid "%s Info - Configuration"
+msgstr "%s ინფორმაცია - კონფიგურაცია"
+
+msgid "%s Info - Main Menu"
+msgstr "%s ინფორმაცია - მთავარი მენიუ"
+
+msgid "%s restarted successfully!"
+msgstr "%s წარმატებით გადაიტვირთა!"
+
+msgid "%s webif disabled"
+msgstr "%s webif გამორთულია"
+
+msgid "(All readers)"
+msgstr "(ყველა მკითხველი)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(მხოლოდ მკითხველის ჩვენება) (%s)"
+
+msgid "About"
+msgstr "შესახებ"
+
+msgid "Activate"
+msgstr "გააქტიურება"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Config File-ში Insert ხაზის გააქტიურება:"
+
+msgid "Active clients"
+msgstr "აქტიური კლიენტები"
+
+msgid "Add"
+msgstr "დამატება"
+
+msgid "Add new CCcam line"
+msgstr "დაამატეთ ახალი CCcam ხაზი"
+
+msgid "Add new NewCamd line"
+msgstr "დაამატეთ ახალი NewCamd ხაზი"
+
+msgid "Address"
+msgstr "მისამართი"
+
+msgid "All"
+msgstr "ყველა"
+
+msgid "An error occurred in the green function."
+msgstr "მწვანე ფუნქციაში მოხდა შეცდომა."
+
+msgid "An unexpected error occurred: %s"
+msgstr "მოხდა მოულოდნელი შეცდომა: %s"
+
+msgid "Ask all caid"
+msgstr "კითხე ყველა კაიდს"
+
+msgid "Ask for the selection caid"
+msgstr "მოითხოვეთ შერჩევის კაიდი"
+
+msgid "Automatically update Client/Server View?"
+msgstr "გსურთ ავტომატურად განახლდეს კლიენტის/სერვერის ხედი?"
+
+msgid "Available shares:"
+msgstr "ხელმისაწვდომი აქციები:"
+
+msgid "Back"
+msgstr "უკან"
+
+msgid "Backup failed!"
+msgstr "სარეზერვო ასლის შექმნა ვერ მოხერხდა!"
+
+msgid "Backup restoration failed!"
+msgstr "სარეზერვო ასლის აღდგენა ვერ მოხერხდა!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCprioMaker პარამეტრები"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCprioMaker ავტომატური გაშვება"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam კლიენტების ინფორმაცია"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam კონფიგურაციის გადამრთველი"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM ინფორმაცია"
+
+msgid "CCcam Info"
+msgstr "CCcam ინფორმაცია"
+
+msgid "CCcam Info %s"
+msgstr "CCcam ინფორმაცია %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam ინფორმაციის კონფიგურაცია"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam ინფორმაციის კონფიგურაციის მენიუ"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam ხაზის რედაქტირების მოქმედებები"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam ხაზის რედაქტორი"
+
+msgid "CCcam Organizer"
+msgstr "CCcam ორგანიზატორი"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam პროვაიდერის ინფორმაცია"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam დისტანციური ინფორმაცია"
+
+msgid "CCcam Server Info"
+msgstr "CCcam სერვერის ინფორმაცია"
+
+msgid "CCcam Share Info"
+msgstr "CCcam გაზიარების ინფორმაცია"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam აქციების ინფორმაცია"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg ძირითადი ხაზის რედაქტორი"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo მიუწვდომელია"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "კაიდი"
+
+msgid "Caid:"
+msgstr "კაიდი:"
+
+msgid "Caid:Srvid"
+msgstr "კაიდი: სრვიდი"
+
+msgid "Cam Download"
+msgstr "კამერის ჩამოტვირთვა"
+
+msgid "Cancel"
+msgstr "გაუქმება"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "ბარათის ინფორმაცია (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "ბარათები:"
+
+msgid "Cards: 0"
+msgstr "ბარათები: 0"
+
+msgid "Cardserial"
+msgstr "კარდსერიალი"
+
+msgid "Channel"
+msgstr "არხი"
+
+msgid "Channel Name"
+msgstr "არხის სახელი"
+
+msgid "Check Emm Send"
+msgstr "შეამოწმეთ Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "აირჩიეთ CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "აირჩიეთ მკითხველი"
+
+msgid "Cleanup error: %s"
+msgstr "გასუფთავების შეცდომა: %s"
+
+msgid "Client %s-%s"
+msgstr "კლიენტი %s-%s"
+
+msgid "Clients"
+msgstr "კლიენტები"
+
+msgid "Close"
+msgstr "დახურვა"
+
+msgid "Command Cancelled"
+msgstr "ბრძანება გაუქმდა"
+
+msgid "Configfile %s saved."
+msgstr "კონფიგურაციის %s შენახულია."
+
+msgid "Connected clients"
+msgstr "დაკავშირებული კლიენტები"
+
+msgid "Connected:"
+msgstr "დაკავშირებულია:"
+
+msgid "Content"
+msgstr "შინაარსი"
+
+msgid "Could not open the file %s!"
+msgstr "ფაილის %s გახსნა ვერ მოხერხდა!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "ფაილის %s გახსნა ვერ მოხერხდა! შეცდომა: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "კონფიგურაციის %s შენახვა ვერ მოხერხდა! შეცდომა: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "კონფიგურაციის ფაილის შენახვა ვერ მოხერხდა! შეცდომა: %s"
+
+msgid "Current time"
+msgstr "მიმდინარე დრო"
+
+msgid "Delete"
+msgstr "წაშლა"
+
+msgid "Delete %s?"
+msgstr "წაშალოთ %s?"
+
+msgid "Delete Peer"
+msgstr "თანატოლების წაშლა"
+
+msgid "Delete failed!"
+msgstr "წაშლა ვერ მოხერხდა!"
+
+msgid "Deleted %s!"
+msgstr "წაიშალა %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "დააინსტალირეთ ეს დანამატი?"
+
+msgid "Do you want to execute the command?"
+msgstr "გსურთ შეასრულოთ ბრძანება?"
+
+msgid "Do you want to remove?"
+msgstr "გსურთ წაშლა?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "გსურთ გადატვირთოთ Gui ინტერფეისი?"
+
+msgid "ECM data format error"
+msgstr "ECM მონაცემთა ფორმატის შეცდომა"
+
+msgid "ECM error"
+msgstr "ECM შეცდომა"
+
+msgid "ECM file empty"
+msgstr "ECM ფაილი ცარიელია"
+
+msgid "ECM file not found"
+msgstr "ECM ფაილი ვერ მოიძებნა"
+
+msgid "ECM read error"
+msgstr "ECM წაკითხვის შეცდომა"
+
+msgid "Ecm Info"
+msgstr "Ecm ინფორმაცია"
+
+msgid "Ecm Statistics"
+msgstr "Ecm სტატისტიკა"
+
+msgid "Ecm Time"
+msgstr "Ecm დრო"
+
+msgid "Ecm avg"
+msgstr "Ecm საშ"
+
+msgid "Ecm last"
+msgstr "Ecm ბოლო"
+
+msgid "Edit"
+msgstr "რედაქტირება"
+
+msgid "Editing one caid"
+msgstr "ერთი კაიდის რედაქტირება"
+
+msgid "Emm Info"
+msgstr "ერმ ინფო"
+
+msgid "Entitlements"
+msgstr "უფლებები"
+
+msgid "Error"
+msgstr "შეცდომა"
+
+msgid "Error executing update script: %s"
+msgstr "შეცდომა განახლების სკრიპტის შესრულებისას: %s"
+
+msgid "Error getting resource information"
+msgstr "რესურსის ინფორმაციის მიღების შეცდომა"
+
+msgid "Error loading system info:"
+msgstr "შეცდომა სისტემის ინფორმაციის ჩატვირთვისას:"
+
+msgid "Error loading system information:"
+msgstr "შეცდომა სისტემის ინფორმაციის ჩატვირთვისას:"
+
+msgid "Error opening cam info: %s"
+msgstr "შეცდომა კამერის ინფორმაციის გახსნისას: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "შეცდომა კონფიგურაციის ფაილის გახსნისას: %s"
+
+msgid "Error processing HTML!"
+msgstr "შეცდომა HTML-ის დამუშავებისას!"
+
+msgid "Error processing server addons data"
+msgstr "სერვერის დამატებების მონაცემების დამუშავების შეცდომა"
+
+msgid "Error reading webpage!"
+msgstr "შეცდომა ვებგვერდის წაკითხვისას!"
+
+msgid "Error stopping %s!"
+msgstr "შეცდომა %s-ის შეჩერებისას!"
+
+msgid "Error while editing configuration: %s"
+msgstr "შეცდომა კონფიგურაციის რედაქტირებისას: %s"
+
+msgid "Exit"
+msgstr "გასვლა"
+
+msgid "Extended Shares"
+msgstr "გაფართოებული აქციები"
+
+msgid "Failed to revert file: %s"
+msgstr "ფაილის დაბრუნება ვერ მოხერხდა: %s"
+
+msgid "Find Fakes"
+msgstr "იპოვეთ ყალბი"
+
+msgid "Force Update"
+msgstr "იძულებითი განახლება"
+
+msgid "Free memory"
+msgstr "უფასო მეხსიერება"
+
+msgid "Free memory:"
+msgstr "თავისუფალი მეხსიერება:"
+
+msgid "Free:"
+msgstr "უფასო:"
+
+msgid "General"
+msgstr "გენერალი"
+
+msgid "Get Link"
+msgstr "მიიღეთ ბმული"
+
+msgid "Getting the list, please wait ..."
+msgstr "სიის მიღება, გთხოვთ დაელოდოთ..."
+
+msgid "Help"
+msgstr "დახმარება"
+
+msgid "Hops"
+msgstr "სვია"
+
+msgid "Hops:"
+msgstr "სვია:"
+
+msgid "Hostname:"
+msgstr "მასპინძლის სახელი:"
+
+msgid "IP Address"
+msgstr "IP მისამართი"
+
+msgid "IP address"
+msgstr "IP მისამართი"
+
+msgid "Idle Time:"
+msgstr "უმოქმედობის დრო:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "თუ აქტიურია: სერვერის კონფიგურაციის ჩამოტვირთვა/გადატვირთვა"
+
+msgid "Install Cam first!!!"
+msgstr "ჯერ დააინსტალირე კამერა!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "დააინსტალირო დეველოპერის განახლება (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "არასწორი HTML კონტენტი!"
+
+msgid "Invalid URL!"
+msgstr "არასწორი URL!"
+
+msgid "Last Req."
+msgstr "ბოლო მოთხოვნა"
+
+msgid "Last used share:"
+msgstr "ბოლო გამოყენებული წილი:"
+
+msgid "Load"
+msgstr "ჩატვირთვა"
+
+msgid "Local box"
+msgstr "ადგილობრივი ყუთი"
+
+msgid "Location"
+msgstr "მდებარეობა"
+
+msgid "Log"
+msgstr "შესვლა"
+
+msgid "Log %s-%s"
+msgstr "ჟურნალი %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "მენიუ EMM / სერვერის CLINE"
+
+msgid "Maxdown +"
+msgstr "მაქსდაუნი +"
+
+msgid "Maxdown -"
+msgstr "მაქსდაუნი -"
+
+msgid "Maxdown:"
+msgstr "მაქსდაუნი:"
+
+msgid "Menu config"
+msgstr "მენიუს კონფიგურაცია"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo მიუწვდომელია"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam არ მუშაობს - დაიწყეთ Cam ინფორმაციის მისაღებად."
+
+msgid "New"
+msgstr "ახალი"
+
+msgid "New profile:"
+msgstr "ახალი პროფილი:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "ECM მონაცემები არ არის"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM მონაცემები არ არის - ვადის ამოწურვა"
+
+msgid "No ECM file"
+msgstr "ECM ფაილი არ არის"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ECM ინფორმაცია ამჟამად არ არის ხელმისაწვდომი. ეს ხელმისაწვდომია მხოლოდ გაშიფვრის დროს."
+
+msgid "No active cam to restart!"
+msgstr "არ არის აქტიური კამერა გადატვირთვისთვის!"
+
+msgid "No backups available!"
+msgstr "სარეზერვო ასლები არ არის ხელმისაწვდომი!"
+
+msgid "No card inserted!"
+msgstr "ბარათი არ არის ჩასმული!"
+
+msgid "No softcams available!"
+msgstr "არ არის ხელმისაწვდომი რბილი კამერები!"
+
+msgid "No valid backups found!"
+msgstr "მოქმედი სარეზერვო ასლები ვერ მოიძებნა!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam განახლების დრო ამოიწურა. დეტალებისთვის შეამოწმეთ /tmp/oscam_update.log."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo მიუწვდომელია"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam არ მუშაობს - დაიწყეთ Cam ინფორმაციის მისაღებად."
+
+msgid "PRESS RETURN"
+msgstr "დააჭირე დაბრუნებას"
+
+msgid "Password"
+msgstr "პაროლი"
+
+msgid "Password (httpwd)"
+msgstr "პაროლი (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "პიკური დატვირთვა (მოთხოვნის მაქსიმალური რიგში თითო სამუშაო ძაფზე)"
+
+msgid "Pid"
+msgstr "პიდ"
+
+msgid "Please Reset - No File CFG"
+msgstr "გთხოვთ გადატვირთოთ - ფაილი არ არის CFG"
+
+msgid "Please select ..."
+msgstr "გთხოვთ, აირჩიოთ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "გთხოვთ, აირჩიოთ ხაზი რედაქტირებისთვის ან აირჩიეთ დამატება ახალი ხაზის შესაქმნელად."
+
+msgid "Please wait, %s."
+msgstr "გთხოვთ დაელოდოთ, %s."
+
+msgid "Port"
+msgstr "პორტი"
+
+msgid "Profile"
+msgstr "პროფილი"
+
+msgid "Profile: Local box"
+msgstr "პროფილი: ადგილობრივი ყუთი"
+
+msgid "Protocol"
+msgstr "პროტოკოლი"
+
+msgid "Provider"
+msgstr "პროვაიდერი"
+
+msgid "Provider Name:"
+msgstr "პროვაიდერის სახელი:"
+
+msgid "Provider:"
+msgstr "პროვაიდერი:"
+
+msgid "Providers"
+msgstr "პროვაიდერები"
+
+msgid "Providers:"
+msgstr "პროვაიდერები:"
+
+msgid "Quick restart %s?"
+msgstr "სწრაფი გადატვირთვა %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "წაიკითხეთ მომხმარებლის მონაცემები %s.conf-დან"
+
+msgid "Reader"
+msgstr "მკითხველი"
+
+msgid "Reader Statistics"
+msgstr "მკითხველის სტატისტიკა"
+
+msgid "Reader/User"
+msgstr "მკითხველი/მომხმარებელი"
+
+msgid "Recover Peer"
+msgstr "აღადგინე თანატოლი"
+
+msgid "Remote box"
+msgstr "დისტანციური ყუთი"
+
+msgid "Remove"
+msgstr "ამოღება"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "ამოიღეთ ხაზი CCcam.cfg-დან"
+
+msgid "Removing %s"
+msgstr "%s წაშლა"
+
+msgid "Rename"
+msgstr "გადარქმევა"
+
+msgid "Rename failed!"
+msgstr "გადარქმევა ვერ მოხერხდა!"
+
+msgid "Rename to:"
+msgstr "გადარქმევა:"
+
+msgid "Renamed %s!"
+msgstr "გადაერქვა %s!"
+
+msgid "Reset"
+msgstr "გადატვირთვა"
+
+msgid "Reshare"
+msgstr "ხელახლა გაზიარება"
+
+msgid "Reshare:"
+msgstr "გაზიარება:"
+
+msgid "Resources"
+msgstr "რესურსები"
+
+msgid "Restart GUI?"
+msgstr "გადატვირთოთ GUI?"
+
+msgid "Restart error: %s"
+msgstr "გადატვირთვის შეცდომა: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "გადატვირთოთ რბილი კამერა აღდგენილი კონფიგურაციის გამოსაყენებლად?"
+
+msgid "Save"
+msgstr "შენახვა"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "პროგრამული კამერის სიის სკანირება და მოძიება ..."
+
+msgid "Select CCcam"
+msgstr "აირჩიეთ CCcam"
+
+msgid "Select Get Link"
+msgstr "აირჩიეთ ბმულის მიღება"
+
+msgid "Select Ncam"
+msgstr "აირჩიეთ Ncam"
+
+msgid "Select OScam"
+msgstr "აირჩიეთ OScam"
+
+msgid "Select Your Choice"
+msgstr "აირჩიეთ თქვენი არჩევანი"
+
+msgid "Select a cam to run ..."
+msgstr "აირჩიეთ კამერა გასაშვებად..."
+
+msgid "Select and Install"
+msgstr "აირჩიეთ და დააინსტალირეთ"
+
+msgid "Select backup to restore:"
+msgstr "აირჩიეთ სარეზერვო ასლი აღსადგენად:"
+
+msgid "Server %s-%s"
+msgstr "სერვერი %s-%s"
+
+msgid "Server Config"
+msgstr "სერვერის კონფიგურაცია"
+
+msgid "Server Copy in"
+msgstr "სერვერის კოპირება"
+
+msgid "Server Link"
+msgstr "სერვერის ლინკი"
+
+msgid "Server Password"
+msgstr "სერვერის პაროლი"
+
+msgid "Server Port"
+msgstr "სერვერის პორტი"
+
+msgid "Server URL"
+msgstr "სერვერის URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "სერვერის URL, ანუ 012.345.678.900"
+
+msgid "Server Username"
+msgstr "სერვერის მომხმარებლის სახელი"
+
+msgid "Server:"
+msgstr "სერვერი:"
+
+msgid "Servers"
+msgstr "სერვერები"
+
+msgid "Servers:"
+msgstr "სერვერები:"
+
+msgid "Service"
+msgstr "სერვისი"
+
+msgid "Set as UNIQUE PEER"
+msgstr "დააყენეთ როგორც UNIQUE PEER"
+
+msgid "Setup"
+msgstr "დაყენება"
+
+msgid "Share View"
+msgstr "ხედის გაზიარება"
+
+msgid "Shares"
+msgstr "აქციები"
+
+msgid "Show Clients"
+msgstr "კლიენტების ჩვენება"
+
+msgid "Show Ecm info"
+msgstr "Ecm ინფორმაციის ჩვენება"
+
+msgid "Show Log"
+msgstr "ჟურნალის ჩვენება"
+
+msgid "Show Readers/Proxies"
+msgstr "მკითხველების/პროქსიების ჩვენება"
+
+msgid "Softcam Manager"
+msgstr "Softcam მენეჯერი"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam გადატვირთა ახალი კონფიგურაციით!"
+
+msgid "Start"
+msgstr "დაწყება"
+
+msgid "Status"
+msgstr "სტატუსი"
+
+msgid "Stop"
+msgstr "გაჩერდი"
+
+msgid "Stop Finding Fakes"
+msgstr "შეაჩერე ყალბების პოვნა"
+
+msgid "Switch config"
+msgstr "გადართვის კონფიგურაცია"
+
+msgid "System"
+msgstr "სისტემა"
+
+msgid "System cleanup completed!"
+msgstr "სისტემის გასუფთავება დასრულდა!"
+
+msgid "System:"
+msgstr "სისტემა:"
+
+msgid "Temporarely DELETED"
+msgstr "დროებით წაშლილია"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "ეს მოდული გიჩვენებთ თქვენი CCcam-ის სტატუსს"
+
+msgid "Total"
+msgstr "სულ"
+
+msgid "Total cards:"
+msgstr "სულ ბარათები:"
+
+msgid "Total handled client ecm's"
+msgstr "სულ დამუშავებული კლიენტის ecm's"
+
+msgid "Total handled client emm's"
+msgstr "სულ დამუშავებული კლიენტი emm's"
+
+msgid "Total:"
+msgstr "სულ:"
+
+msgid "Try again later ..."
+msgstr "სცადეთ მოგვიანებით..."
+
+msgid "Type:"
+msgstr "ტიპი:"
+
+msgid "UNDELETED"
+msgstr "წაშლილი"
+
+msgid "Unable to make the script executable: %s"
+msgstr "სკრიპტის შესრულება შეუძლებელია: %s"
+
+msgid "Unknow Image!"
+msgstr "უცნობი სურათი!"
+
+msgid "Update"
+msgstr "განახლება"
+
+msgid "Update Aborted!"
+msgstr "განახლება შეწყვეტილია!"
+
+msgid "Update interval (in seconds)"
+msgstr "განახლების ინტერვალი (წამებში)"
+
+msgid "Uphops +"
+msgstr "უფფსი +"
+
+msgid "Uphops -"
+msgstr "აუფფები -"
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Used:"
+msgstr "მეორადი:"
+
+msgid "Username"
+msgstr "მომხმარებლის სახელი"
+
+msgid "Username (httpuser)"
+msgstr "მომხმარებლის სახელი (httpuser)"
+
+msgid "Using old profile:"
+msgstr "ძველი პროფილის გამოყენება:"
+
+msgid "Version:"
+msgstr "ვერსია:"
+
+msgid "Wait please..."
+msgstr "დაელოდე გთხოვ..."
+
+msgid "Write"
+msgstr "დაწერე"
+
+msgid "Write-Debug"
+msgstr "ჩაწერა-გამართვა"
+
+msgid "You have the latest version!"
+msgstr "თქვენ გაქვთ უახლესი ვერსია!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\t უზრუნველყოს:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "NOTHING.TO.UDELE"
+
+msgid "address:"
+msgstr "მისამართი:"
+
+msgid "and"
+msgstr "და"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "ბარათი"
+
+msgid "card reader"
+msgstr "ბარათის წამკითხველი"
+
+msgid "close share view"
+msgstr "გაზიარების ხედის დახურვა"
+
+msgid "decrease uphop by 1"
+msgstr "შეამცირეთ ამაღლება 1-ით"
+
+msgid "ecm time:"
+msgstr "ecm დრო:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "მიიღეთ ბარათების სერვერი"
+
+msgid "handled"
+msgstr "დამუშავებული"
+
+msgid "hops:"
+msgstr "სვია:"
+
+msgid "increase uphop by 1"
+msgstr "გაზარდეთ ამაღლება 1-ით"
+
+msgid "info"
+msgstr "ინფორმაცია"
+
+msgid "no or unknown card inserted"
+msgstr "არ არის ჩასმული ან უცნობი ბარათი"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "უზრუნველყოს:"
+
+msgid "provider:"
+msgstr "პროვაიდერი:"
+
+msgid "share:"
+msgstr "გააზიარე:"
+
+msgid "show all cards"
+msgstr "აჩვენე ყველა ბარათი"
+
+msgid "show cards with uphop 0"
+msgstr "ბარათების ჩვენება uphop 0-ით"
+
+msgid "show cards with uphop 1"
+msgstr "ბარათების ჩვენება uphop 1-ით"
+
+msgid "show cards with uphop 2"
+msgstr "ბარათების ჩვენება uphop 2-ით"
+
+msgid "show cards with uphop 3"
+msgstr "ბარათების ჩვენება uphop 3-ით"
+
+msgid "show cards with uphop 4"
+msgstr "ბარათების ჩვენება uphop 4-ით"
+
+msgid "show cards with uphop 5"
+msgstr "ბარათების ჩვენება uphop 5-ით"
+
+msgid "show cards with uphop 6"
+msgstr "ბარათების ჩვენება uphop 6-ით"
+
+msgid "show cards with uphop 7"
+msgstr "ბარათების ჩვენება uphop 7-ით"
+
+msgid "show cards with uphop 8"
+msgstr "ბარათების ჩვენება uphop 8-ით"
+
+msgid "show cards with uphop 9"
+msgstr "ბარათების ჩვენება uphop 9-ით"
+
+msgid "system:"
+msgstr "სისტემა:"
+
+msgid "using:"
+msgstr "გამოყენებით:"
+
+msgid "xLine"
+msgstr ""

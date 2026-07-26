@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 00:38+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s kartes )"
+
+msgid "%s Info - Configuration"
+msgstr "%s informācija — konfigurācija"
+
+msgid "%s Info - Main Menu"
+msgstr "%s informācija — galvenā izvēlne"
+
+msgid "%s restarted successfully!"
+msgstr "%s veiksmīgi restartēts!"
+
+msgid "%s webif disabled"
+msgstr "%s tīmekļa vietne ir atspējota"
+
+msgid "(All readers)"
+msgstr "(Visi lasītāji)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Rādīt tikai lasītāju) (%s)"
+
+msgid "About"
+msgstr "Par"
+
+msgid "Activate"
+msgstr "Aktivizēt"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Konfigurācijas failā aktivizējiet Insert line:"
+
+msgid "Active clients"
+msgstr "Aktīvie klienti"
+
+msgid "Add"
+msgstr "Pievienot"
+
+msgid "Add new CCcam line"
+msgstr "Pievienojiet jaunu CCcam līniju"
+
+msgid "Add new NewCamd line"
+msgstr "Pievienojiet jaunu NewCamd līniju"
+
+msgid "Address"
+msgstr "Adrese"
+
+msgid "All"
+msgstr "Visi"
+
+msgid "An error occurred in the green function."
+msgstr "Zaļajā funkcijā radās kļūda."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Radās neparedzēta kļūda: %s"
+
+msgid "Ask all caid"
+msgstr "Jautājiet visiem caid"
+
+msgid "Ask for the selection caid"
+msgstr "Jautājiet atlases palīgu"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Vai automātiski atjaunināt klienta/servera skatu?"
+
+msgid "Available shares:"
+msgstr "Pieejamās akcijas:"
+
+msgid "Back"
+msgstr "Atpakaļ"
+
+msgid "Backup failed!"
+msgstr "Dublēšana neizdevās!"
+
+msgid "Backup restoration failed!"
+msgstr "Dublējuma atjaunošana neizdevās!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker iestatījumi"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker automātiskā palaišana"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Informācija par CCcam klientiem"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam konfigurācijas pārslēdzējs"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM informācija"
+
+msgid "CCcam Info"
+msgstr "CCcam informācija"
+
+msgid "CCcam Info %s"
+msgstr "CCcam informācija %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam informācijas konfigurācija"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam informācijas konfigurācijas izvēlne"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam līnijas rediģēšanas darbības"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam līnijas redaktors"
+
+msgid "CCcam Organizer"
+msgstr "CCcam organizators"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "Informācija par CCcam nodrošinātāju"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam tālvadības informācija"
+
+msgid "CCcam Server Info"
+msgstr "CCcam servera informācija"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Kopīgojiet informāciju"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam kopīgo informāciju"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg pamata rindiņas redaktors"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo nav pieejams"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "Keids"
+
+msgid "Caid:"
+msgstr "Keids:"
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Kameras lejupielāde"
+
+msgid "Cancel"
+msgstr "Atcelt"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kartes informācija (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Kartes:"
+
+msgid "Cards: 0"
+msgstr "Kartes: 0"
+
+msgid "Cardserial"
+msgstr "Kāršu sērija"
+
+msgid "Channel"
+msgstr "Kanāls"
+
+msgid "Channel Name"
+msgstr "Kanāla nosaukums"
+
+msgid "Check Emm Send"
+msgstr "Pārbaudiet Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "Izvēlieties CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Izvēlieties lasītāju"
+
+msgid "Cleanup error: %s"
+msgstr "Tīrīšanas kļūda: %s"
+
+msgid "Client %s-%s"
+msgstr "Klients %s-%s"
+
+msgid "Clients"
+msgstr "Klienti"
+
+msgid "Close"
+msgstr "Aizvērt"
+
+msgid "Command Cancelled"
+msgstr "Komanda atcelta"
+
+msgid "Configfile %s saved."
+msgstr "Konfigurācijas fails %s saglabāts."
+
+msgid "Connected clients"
+msgstr "Savienotie klienti"
+
+msgid "Connected:"
+msgstr "Savienots:"
+
+msgid "Content"
+msgstr "Saturs"
+
+msgid "Could not open the file %s!"
+msgstr "Nevarēja atvērt failu %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Nevarēja atvērt failu %s! Kļūda: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Nevarēja saglabāt konfigurācijas failu %s! Kļūda: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Nevarēja saglabāt konfigurācijas failu! Kļūda: %s"
+
+msgid "Current time"
+msgstr "Pašreizējais laiks"
+
+msgid "Delete"
+msgstr "Dzēst"
+
+msgid "Delete %s?"
+msgstr "Vai dzēst %s?"
+
+msgid "Delete Peer"
+msgstr "Dzēst Peer"
+
+msgid "Delete failed!"
+msgstr "Dzēst neizdevās!"
+
+msgid "Deleted %s!"
+msgstr "Izdzēsts %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "Vai instalējat šo spraudni?"
+
+msgid "Do you want to execute the command?"
+msgstr "Vai vēlaties izpildīt komandu?"
+
+msgid "Do you want to remove?"
+msgstr "Vai vēlaties noņemt?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Vai vēlaties restartēt Gui interfeisu?"
+
+msgid "ECM data format error"
+msgstr "ECM datu formāta kļūda"
+
+msgid "ECM error"
+msgstr "ECM kļūda"
+
+msgid "ECM file empty"
+msgstr "ECM fails ir tukšs"
+
+msgid "ECM file not found"
+msgstr "ECM fails nav atrasts"
+
+msgid "ECM read error"
+msgstr "ECM nolasīšanas kļūda"
+
+msgid "Ecm Info"
+msgstr "ECM informācija"
+
+msgid "Ecm Statistics"
+msgstr "ECM statistika"
+
+msgid "Ecm Time"
+msgstr "ECM laiks"
+
+msgid "Ecm avg"
+msgstr "ECM vid"
+
+msgid "Ecm last"
+msgstr "Ecm pēdējais"
+
+msgid "Edit"
+msgstr "Rediģēt"
+
+msgid "Editing one caid"
+msgstr "Rediģējot vienu caid"
+
+msgid "Emm Info"
+msgstr "Erm informācija"
+
+msgid "Entitlements"
+msgstr "Tiesības"
+
+msgid "Error"
+msgstr "Kļūda"
+
+msgid "Error executing update script: %s"
+msgstr "Kļūda, izpildot atjaunināšanas skriptu: %s"
+
+msgid "Error getting resource information"
+msgstr "Iegūstot resursa informāciju, radās kļūda"
+
+msgid "Error loading system info:"
+msgstr "Ielādējot sistēmas informāciju, radās kļūda:"
+
+msgid "Error loading system information:"
+msgstr "Ielādējot sistēmas informāciju, radās kļūda:"
+
+msgid "Error opening cam info: %s"
+msgstr "Atverot kameras informāciju, radās kļūda: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Atverot konfigurācijas failu, radās kļūda: %s"
+
+msgid "Error processing HTML!"
+msgstr "Kļūda, apstrādājot HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Kļūda, apstrādājot servera papildinājumu datus"
+
+msgid "Error reading webpage!"
+msgstr "Kļūda, lasot tīmekļa lapu!"
+
+msgid "Error stopping %s!"
+msgstr "Apturot %s, radās kļūda!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Kļūda, rediģējot konfigurāciju: %s"
+
+msgid "Exit"
+msgstr "Iziet"
+
+msgid "Extended Shares"
+msgstr "Paplašinātās akcijas"
+
+msgid "Failed to revert file: %s"
+msgstr "Neizdevās atjaunot failu: %s"
+
+msgid "Find Fakes"
+msgstr "Atrodi viltojumus"
+
+msgid "Force Update"
+msgstr "Piespiedu atjaunināšana"
+
+msgid "Free memory"
+msgstr "Brīva atmiņa"
+
+msgid "Free memory:"
+msgstr "Brīvā atmiņa:"
+
+msgid "Free:"
+msgstr "Bezmaksas:"
+
+msgid "General"
+msgstr "Ģenerālis"
+
+msgid "Get Link"
+msgstr "Iegūstiet saiti"
+
+msgid "Getting the list, please wait ..."
+msgstr "Notiek saraksta iegūšana, lūdzu, uzgaidiet..."
+
+msgid "Help"
+msgstr "Palīdzība"
+
+msgid "Hops"
+msgstr "Apiņi"
+
+msgid "Hops:"
+msgstr "Apiņi:"
+
+msgid "Hostname:"
+msgstr "Saimniekdatora nosaukums:"
+
+msgid "IP Address"
+msgstr "IP adrese"
+
+msgid "IP address"
+msgstr "IP adrese"
+
+msgid "Idle Time:"
+msgstr "Dīkstāves laiks:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Ja aktīvs: Lejupielādēt/atiestatīt servera konfigurāciju"
+
+msgid "Install Cam first!!!"
+msgstr "Vispirms instalējiet kameru!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Vai instalēt izstrādātāja atjauninājumu (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Nederīgs HTML saturs!"
+
+msgid "Invalid URL!"
+msgstr "Nederīgs URL!"
+
+msgid "Last Req."
+msgstr "Pēdējā prasība"
+
+msgid "Last used share:"
+msgstr "Pēdējoreiz izmantotā koplietošana:"
+
+msgid "Load"
+msgstr "Ielādēt"
+
+msgid "Local box"
+msgstr "Vietējā kaste"
+
+msgid "Location"
+msgstr "Atrašanās vieta"
+
+msgid "Log"
+msgstr "Žurnāls"
+
+msgid "Log %s-%s"
+msgstr "Pieteikties %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "IZVĒLNE EMM / SERVER CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Izvēlnes konfigurācija"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo nav pieejams"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam nedarbojas — palaidiet Cam, lai iegūtu informāciju."
+
+msgid "New"
+msgstr "Jauns"
+
+msgid "New profile:"
+msgstr "Jauns profils:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Nav ECM datu"
+
+msgid "No ECM data - Timeout"
+msgstr "Nav ECM datu — taimauts"
+
+msgid "No ECM file"
+msgstr "Nav ECM faila"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "ECM informācija pašlaik nav pieejama. Tas ir pieejams tikai atšifrēšanas laikā."
+
+msgid "No active cam to restart!"
+msgstr "Nav aktīvas kameras, ko restartēt!"
+
+msgid "No backups available!"
+msgstr "Dublējumkopijas nav pieejamas!"
+
+msgid "No card inserted!"
+msgstr "Nav ievietota karte!"
+
+msgid "No softcams available!"
+msgstr "Nav pieejamas programmatūras kameras!"
+
+msgid "No valid backups found!"
+msgstr "Nav atrasts neviens derīgs dublējums!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "Labi"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam atjaunināšanas noildze. Detalizētu informāciju skatiet vietnē /tmp/oscam_update.log."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo nav pieejams"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam nedarbojas — palaidiet Cam, lai iegūtu informāciju."
+
+msgid "PRESS RETURN"
+msgstr "NOSPIEDIET RETURN"
+
+msgid "Password"
+msgstr "Parole"
+
+msgid "Password (httpwd)"
+msgstr "Parole (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Maksimālā slodze (maksimālais pieprasījumu skaits rindā uz vienu darbinieka pavedienu)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Lūdzu, atiestatiet — nav faila CFG"
+
+msgid "Please select ..."
+msgstr "Lūdzu, atlasiet..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Lūdzu, atlasiet rediģējamo rindiņu vai atlasiet pievienot, lai izveidotu jaunu rindu."
+
+msgid "Please wait, %s."
+msgstr "Lūdzu, uzgaidiet, %s."
+
+msgid "Port"
+msgstr "Osta"
+
+msgid "Profile"
+msgstr "Profils"
+
+msgid "Profile: Local box"
+msgstr "Profils: vietējā kaste"
+
+msgid "Protocol"
+msgstr "Protokols"
+
+msgid "Provider"
+msgstr "Pakalpojumu sniedzējs"
+
+msgid "Provider Name:"
+msgstr "Pakalpojumu sniedzēja nosaukums:"
+
+msgid "Provider:"
+msgstr "Pakalpojumu sniedzējs:"
+
+msgid "Providers"
+msgstr "Pakalpojumu sniedzēji"
+
+msgid "Providers:"
+msgstr "Pakalpojumu sniedzēji:"
+
+msgid "Quick restart %s?"
+msgstr "Ātri restartēt %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Lasīt lietotāja datus no %s.conf"
+
+msgid "Reader"
+msgstr "Lasītājs"
+
+msgid "Reader Statistics"
+msgstr "Lasītāju statistika"
+
+msgid "Reader/User"
+msgstr "Lasītājs/lietotājs"
+
+msgid "Recover Peer"
+msgstr "Atgūt Peer"
+
+msgid "Remote box"
+msgstr "Tālvadības kaste"
+
+msgid "Remove"
+msgstr "Noņemt"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Noņemiet līniju no CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "Notiek %s noņemšana"
+
+msgid "Rename"
+msgstr "Pārdēvēt"
+
+msgid "Rename failed!"
+msgstr "Neizdevās pārdēvēt!"
+
+msgid "Rename to:"
+msgstr "Pārdēvēt uz:"
+
+msgid "Renamed %s!"
+msgstr "Pārdēvēts %s!"
+
+msgid "Reset"
+msgstr "Atiestatīt"
+
+msgid "Reshare"
+msgstr "Atkārtoti kopīgot"
+
+msgid "Reshare:"
+msgstr "Kopīgot:"
+
+msgid "Resources"
+msgstr "Resursi"
+
+msgid "Restart GUI?"
+msgstr "Vai restartēt GUI?"
+
+msgid "Restart error: %s"
+msgstr "Restartēšanas kļūda: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Vai restartēt programmatūras kameru, lai lietotu atjaunoto konfigurāciju?"
+
+msgid "Save"
+msgstr "Saglabāt"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Programmatūras kameras skenēšana un izguves saraksts..."
+
+msgid "Select CCcam"
+msgstr "Izvēlieties CCcam"
+
+msgid "Select Get Link"
+msgstr "Atlasiet Saņemt saiti"
+
+msgid "Select Ncam"
+msgstr "Izvēlieties Ncam"
+
+msgid "Select OScam"
+msgstr "Izvēlieties OScam"
+
+msgid "Select Your Choice"
+msgstr "Izvēlieties savu izvēli"
+
+msgid "Select a cam to run ..."
+msgstr "Izvēlieties kameru, kuru palaist..."
+
+msgid "Select and Install"
+msgstr "Izvēlieties un instalējiet"
+
+msgid "Select backup to restore:"
+msgstr "Atlasiet dublējumu, ko atjaunot:"
+
+msgid "Server %s-%s"
+msgstr "Serveris %s-%s"
+
+msgid "Server Config"
+msgstr "Servera konfigurācija"
+
+msgid "Server Copy in"
+msgstr "Servera kopēšana"
+
+msgid "Server Link"
+msgstr "Servera saite"
+
+msgid "Server Password"
+msgstr "Servera parole"
+
+msgid "Server Port"
+msgstr "Servera ports"
+
+msgid "Server URL"
+msgstr "Servera URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Servera URL, t.i., 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Servera lietotājvārds"
+
+msgid "Server:"
+msgstr "Serveris:"
+
+msgid "Servers"
+msgstr "Serveri"
+
+msgid "Servers:"
+msgstr "Serveri:"
+
+msgid "Service"
+msgstr "Serviss"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Iestatīt kā UNIQUE PEER"
+
+msgid "Setup"
+msgstr "Iestatīšana"
+
+msgid "Share View"
+msgstr "Kopīgot skatu"
+
+msgid "Shares"
+msgstr "Akcijas"
+
+msgid "Show Clients"
+msgstr "Rādīt klientus"
+
+msgid "Show Ecm info"
+msgstr "Rādīt ECM informāciju"
+
+msgid "Show Log"
+msgstr "Rādīt žurnālu"
+
+msgid "Show Readers/Proxies"
+msgstr "Rādīt lasītājus/starpniekserverus"
+
+msgid "Softcam Manager"
+msgstr "Softcam pārvaldnieks"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam restartēts ar jaunu konfigurāciju!"
+
+msgid "Start"
+msgstr "Sākt"
+
+msgid "Status"
+msgstr "Statuss"
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop Finding Fakes"
+msgstr "Pārtrauciet viltojumu atrašanu"
+
+msgid "Switch config"
+msgstr "Pārslēgt konfigurāciju"
+
+msgid "System"
+msgstr "Sistēma"
+
+msgid "System cleanup completed!"
+msgstr "Sistēmas tīrīšana pabeigta!"
+
+msgid "System:"
+msgstr "Sistēma:"
+
+msgid "Temporarely DELETED"
+msgstr "Īslaicīgi DZĒSTS"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Šis spraudnis parāda jūsu CCcam statusu"
+
+msgid "Total"
+msgstr "Kopā"
+
+msgid "Total cards:"
+msgstr "Kopējais karšu skaits:"
+
+msgid "Total handled client ecm's"
+msgstr "Kopējais apstrādāto klientu ECM"
+
+msgid "Total handled client emm's"
+msgstr "Kopējais apstrādāto klientu emm"
+
+msgid "Total:"
+msgstr "Kopā:"
+
+msgid "Try again later ..."
+msgstr "Mēģiniet vēlāk vēlreiz..."
+
+msgid "Type:"
+msgstr "Veids:"
+
+msgid "UNDELETED"
+msgstr "NEdzēsts"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Nevar padarīt skriptu izpildāmu: %s"
+
+msgid "Unknow Image!"
+msgstr "Nezināms attēls!"
+
+msgid "Update"
+msgstr "Atjaunināt"
+
+msgid "Update Aborted!"
+msgstr "Atjaunināšana pārtraukta!"
+
+msgid "Update interval (in seconds)"
+msgstr "Atjaunināšanas intervāls (sekundēs)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Darbības laiks"
+
+msgid "Used:"
+msgstr "Lietots:"
+
+msgid "Username"
+msgstr "Lietotājvārds"
+
+msgid "Username (httpuser)"
+msgstr "Lietotājvārds (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Izmantojot veco profilu:"
+
+msgid "Version:"
+msgstr "Versija:"
+
+msgid "Wait please..."
+msgstr "Pagaidi lūdzu..."
+
+msgid "Write"
+msgstr "Rakstiet"
+
+msgid "Write-Debug"
+msgstr "Rakstīt-atkļūdot"
+
+msgid "You have the latest version!"
+msgstr "Jums ir jaunākā versija!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tNodrošina:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a NEKAS.TO.ATDELE"
+
+msgid "address:"
+msgstr "adrese:"
+
+msgid "and"
+msgstr "un"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "karti"
+
+msgid "card reader"
+msgstr "karšu lasītājs"
+
+msgid "close share view"
+msgstr "aizvērt kopīgošanas skatu"
+
+msgid "decrease uphop by 1"
+msgstr "samaziniet augšup par 1"
+
+msgid "ecm time:"
+msgstr "ECM laiks:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "iegūt karšu serveri"
+
+msgid "handled"
+msgstr "apstrādāts"
+
+msgid "hops:"
+msgstr "apiņi:"
+
+msgid "increase uphop by 1"
+msgstr "palielināt uphop par 1"
+
+msgid "info"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr "nav ievietota vai nezināma karte"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "nodrošināt:"
+
+msgid "provider:"
+msgstr "nodrošinātājs:"
+
+msgid "share:"
+msgstr "dalīties:"
+
+msgid "show all cards"
+msgstr "parādīt visas kartes"
+
+msgid "show cards with uphop 0"
+msgstr "parādīt kārtis ar uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "parādīt kartītes ar uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "parādīt kārtis ar uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "parādīt kartītes ar uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "parādīt kartītes ar uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "parādīt kartītes ar uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "parādīt kartītes ar uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "parādīt kartītes ar uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "parādīt kartītes ar uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "parādīt kartītes ar uphop 9"
+
+msgid "system:"
+msgstr "sistēma:"
+
+msgid "using:"
+msgstr "izmantojot:"
+
+msgid "xLine"
+msgstr ""

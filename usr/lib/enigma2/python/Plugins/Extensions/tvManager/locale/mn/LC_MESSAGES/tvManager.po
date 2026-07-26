@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 00:47+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Mongolian\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s карт )"
+
+msgid "%s Info - Configuration"
+msgstr "%s мэдээлэл - Тохиргоо"
+
+msgid "%s Info - Main Menu"
+msgstr "%s мэдээлэл - Үндсэн цэс"
+
+msgid "%s restarted successfully!"
+msgstr "%s амжилттай дахин эхлүүллээ!"
+
+msgid "%s webif disabled"
+msgstr "%s вэбийг идэвхгүй болгосон"
+
+msgid "(All readers)"
+msgstr "(Бүх уншигчид)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Зөвхөн уншигчийг харуулах) (%s)"
+
+msgid "About"
+msgstr "тухай"
+
+msgid "Activate"
+msgstr "Идэвхжүүлэх"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Тохиргооны файлд мөр оруулахыг идэвхжүүлнэ үү:"
+
+msgid "Active clients"
+msgstr "Идэвхтэй үйлчлүүлэгчид"
+
+msgid "Add"
+msgstr "Нэмэх"
+
+msgid "Add new CCcam line"
+msgstr "Шинэ CCcam шугам нэмнэ үү"
+
+msgid "Add new NewCamd line"
+msgstr "Шинэ Camd шугам нэмнэ үү"
+
+msgid "Address"
+msgstr "Хаяг"
+
+msgid "All"
+msgstr "Бүгд"
+
+msgid "An error occurred in the green function."
+msgstr "Ногоон функцэд алдаа гарлаа."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Гэнэтийн алдаа гарлаа: %s"
+
+msgid "Ask all caid"
+msgstr "Бүгдээс асуу"
+
+msgid "Ask for the selection caid"
+msgstr "Сонгон шалгаруулалтын эмчээс асуу"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Клиент/Серверийн харагдацыг автоматаар шинэчлэх үү?"
+
+msgid "Available shares:"
+msgstr "Боломжтой хувьцаа:"
+
+msgid "Back"
+msgstr "Буцах"
+
+msgid "Backup failed!"
+msgstr "Нөөцлөлт амжилтгүй боллоо!"
+
+msgid "Backup restoration failed!"
+msgstr "Нөөцлөлтийг сэргээж чадсангүй!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker тохиргоо"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker автоматаар эхлүүлэх"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "CCcam үйлчлүүлэгчийн мэдээлэл"
+
+msgid "CCcam Config Switcher"
+msgstr "CCcam тохиргоо шилжүүлэгч"
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM мэдээлэл"
+
+msgid "CCcam Info"
+msgstr "CCcam мэдээлэл"
+
+msgid "CCcam Info %s"
+msgstr "CCcam мэдээлэл %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam мэдээллийн тохиргоо"
+
+msgid "CCcam Info Config Menu"
+msgstr "CCcam мэдээллийн тохиргооны цэс"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam шугамын засварлах үйлдлүүд"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam шугам засварлагч"
+
+msgid "CCcam Organizer"
+msgstr "CCcam зохион байгуулагч"
+
+msgid "CCcam Prio Maker"
+msgstr ""
+
+msgid "CCcam Provider Info"
+msgstr "CCcam үйлчилгээ үзүүлэгчийн мэдээлэл"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam алсын удирдлагатай мэдээлэл"
+
+msgid "CCcam Server Info"
+msgstr "CCcam серверийн мэдээлэл"
+
+msgid "CCcam Share Info"
+msgstr "CCcam мэдээлэл хуваалцах"
+
+msgid "CCcam Shares Info"
+msgstr "CCcam мэдээлэл хуваалцдаг"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg үндсэн шугам засварлагч"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo байхгүй байна"
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid"
+msgstr "Каид"
+
+msgid "Caid:"
+msgstr "Каид:"
+
+msgid "Caid:Srvid"
+msgstr "Каид: Срвид"
+
+msgid "Cam Download"
+msgstr "Камер татаж авах"
+
+msgid "Cancel"
+msgstr "Цуцлах"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Картын мэдээлэл (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Картууд:"
+
+msgid "Cards: 0"
+msgstr "Картууд: 0"
+
+msgid "Cardserial"
+msgstr "Картсериал"
+
+msgid "Channel"
+msgstr "Суваг"
+
+msgid "Channel Name"
+msgstr "Сувгийн нэр"
+
+msgid "Check Emm Send"
+msgstr "Emm Send-г шалгана уу"
+
+msgid "Choose CCcam-Reader"
+msgstr "CCcam-Reader-ийг сонгоно уу"
+
+msgid "Choose reader"
+msgstr "Уншигч сонго"
+
+msgid "Cleanup error: %s"
+msgstr "Цэвэрлэх алдаа: %s"
+
+msgid "Client %s-%s"
+msgstr "Үйлчлүүлэгч %s-%s"
+
+msgid "Clients"
+msgstr "Үйлчлүүлэгчид"
+
+msgid "Close"
+msgstr "Хаах"
+
+msgid "Command Cancelled"
+msgstr "Тушаалыг цуцалсан"
+
+msgid "Configfile %s saved."
+msgstr "%s тохиргооны файл хадгалагдсан."
+
+msgid "Connected clients"
+msgstr "Холбогдсон үйлчлүүлэгчид"
+
+msgid "Connected:"
+msgstr "Холбогдсон:"
+
+msgid "Content"
+msgstr "Агуулга"
+
+msgid "Could not open the file %s!"
+msgstr "%s файлыг нээж чадсангүй!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "%s файлыг нээж чадсангүй! Алдаа: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "%s тохиргооны файлыг хадгалж чадсангүй! Алдаа: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Тохируулгын файлыг хадгалж чадсангүй! Алдаа: %s"
+
+msgid "Current time"
+msgstr "Одоогийн цаг"
+
+msgid "Delete"
+msgstr "Устгах"
+
+msgid "Delete %s?"
+msgstr "%s-г устгах уу?"
+
+msgid "Delete Peer"
+msgstr "Peer-г устгах"
+
+msgid "Delete failed!"
+msgstr "Устгаж чадсангүй!"
+
+msgid "Deleted %s!"
+msgstr "%s-г устгасан!"
+
+msgid "Do you install this plugin ?"
+msgstr "Та энэ залгаасыг суулгаж байна уу?"
+
+msgid "Do you want to execute the command?"
+msgstr "Та тушаалыг гүйцэтгэхийг хүсч байна уу?"
+
+msgid "Do you want to remove?"
+msgstr "Та устгахыг хүсэж байна уу?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Та Gui интерфэйсийг дахин эхлүүлэхийг хүсэж байна уу?"
+
+msgid "ECM data format error"
+msgstr "ECM өгөгдлийн форматын алдаа"
+
+msgid "ECM error"
+msgstr "ECM алдаа"
+
+msgid "ECM file empty"
+msgstr "ECM файл хоосон байна"
+
+msgid "ECM file not found"
+msgstr "ECM файл олдсонгүй"
+
+msgid "ECM read error"
+msgstr "ECM унших алдаа"
+
+msgid "Ecm Info"
+msgstr "ECM мэдээлэл"
+
+msgid "Ecm Statistics"
+msgstr "ECM статистик"
+
+msgid "Ecm Time"
+msgstr "Ecm цаг"
+
+msgid "Ecm avg"
+msgstr "Ecm дундаж"
+
+msgid "Ecm last"
+msgstr "Хамгийн сүүлд"
+
+msgid "Edit"
+msgstr "Засварлах"
+
+msgid "Editing one caid"
+msgstr "Нэг caid засварлаж байна"
+
+msgid "Emm Info"
+msgstr "Эрм мэдээлэл"
+
+msgid "Entitlements"
+msgstr "Эрх"
+
+msgid "Error"
+msgstr "Алдаа"
+
+msgid "Error executing update script: %s"
+msgstr "Шинэчлэх скриптийг гүйцэтгэхэд алдаа гарлаа: %s"
+
+msgid "Error getting resource information"
+msgstr "Нөөцийн мэдээллийг авахад алдаа гарлаа"
+
+msgid "Error loading system info:"
+msgstr "Системийн мэдээллийг ачаалахад алдаа гарсан:"
+
+msgid "Error loading system information:"
+msgstr "Системийн мэдээллийг ачаалахад алдаа гарсан:"
+
+msgid "Error opening cam info: %s"
+msgstr "Камерын мэдээллийг нээхэд алдаа гарлаа: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Тохиргооны файлыг нээхэд алдаа гарлаа: %s"
+
+msgid "Error processing HTML!"
+msgstr "HTML боловсруулахад алдаа гарлаа!"
+
+msgid "Error processing server addons data"
+msgstr "Серверийн нэмэлт мэдээллийг боловсруулахад алдаа гарлаа"
+
+msgid "Error reading webpage!"
+msgstr "Вэб хуудсыг уншихад алдаа гарлаа!"
+
+msgid "Error stopping %s!"
+msgstr "%s-г зогсооход алдаа гарлаа!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Тохиргоог засварлахад алдаа гарлаа: %s"
+
+msgid "Exit"
+msgstr "Гарах"
+
+msgid "Extended Shares"
+msgstr "Өргөтгөсөн хувьцаанууд"
+
+msgid "Failed to revert file: %s"
+msgstr "Файлыг буцааж чадсангүй: %s"
+
+msgid "Find Fakes"
+msgstr "Хуурамч зүйлийг олох"
+
+msgid "Force Update"
+msgstr "Хүчээр шинэчлэх"
+
+msgid "Free memory"
+msgstr ""
+
+msgid "Free memory:"
+msgstr "Чөлөөт санах ой:"
+
+msgid "Free:"
+msgstr "Үнэгүй:"
+
+msgid "General"
+msgstr "Генерал"
+
+msgid "Get Link"
+msgstr "Холбоос авах"
+
+msgid "Getting the list, please wait ..."
+msgstr "Жагсаалтыг авч байна, түр хүлээнэ үү..."
+
+msgid "Help"
+msgstr "Туслаач"
+
+msgid "Hops"
+msgstr "Хоп"
+
+msgid "Hops:"
+msgstr "Хоп:"
+
+msgid "Hostname:"
+msgstr "Хост нэр:"
+
+msgid "IP Address"
+msgstr "IP хаяг"
+
+msgid "IP address"
+msgstr "IP хаяг"
+
+msgid "Idle Time:"
+msgstr "Сул зогсолтын хугацаа:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Хэрэв идэвхтэй бол: Татаж авах/Серверийн тохиргоог дахин тохируулах"
+
+msgid "Install Cam first!!!"
+msgstr "Эхлээд Cam суулгаарай!!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Хөгжүүлэгчийн шинэчлэлтийг (%s) суулгах уу?"
+
+msgid "Invalid HTML content!"
+msgstr "Хүчингүй HTML контент!"
+
+msgid "Invalid URL!"
+msgstr "Хүчингүй URL!"
+
+msgid "Last Req."
+msgstr "Сүүлийн шаардлага."
+
+msgid "Last used share:"
+msgstr "Хамгийн сүүлд ашигласан хуваалцах:"
+
+msgid "Load"
+msgstr "Ачаалал"
+
+msgid "Local box"
+msgstr "Орон нутгийн хайрцаг"
+
+msgid "Location"
+msgstr "Байршил"
+
+msgid "Log"
+msgstr "Бүртгэл"
+
+msgid "Log %s-%s"
+msgstr "%s-%s бүртгэл"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr "Цэс EMM / СЕРВЕР CLINE"
+
+msgid "Maxdown +"
+msgstr ""
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Цэсийн тохиргоо"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo байхгүй байна"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ажиллахгүй байна - мэдээлэл авахын тулд Cam-г эхлүүлнэ үү."
+
+msgid "New"
+msgstr "Шинэ"
+
+msgid "New profile:"
+msgstr "Шинэ профайл:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "ECM өгөгдөл байхгүй"
+
+msgid "No ECM data - Timeout"
+msgstr "ECM өгөгдөл байхгүй - Хугацаа хэтэрсэн"
+
+msgid "No ECM file"
+msgstr "ECM файл байхгүй"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Одоогоор ECM мэдээлэл байхгүй байна. Энэ нь зөвхөн шифрийг тайлах үед л боломжтой."
+
+msgid "No active cam to restart!"
+msgstr "Дахин эхлүүлэх идэвхтэй камер алга!"
+
+msgid "No backups available!"
+msgstr "Ямар ч нөөцлөлт байхгүй!"
+
+msgid "No card inserted!"
+msgstr "Карт оруулаагүй байна!"
+
+msgid "No softcams available!"
+msgstr "Ямар ч softcam байхгүй!"
+
+msgid "No valid backups found!"
+msgstr "Хүчинтэй нөөцлөлт олдсонгүй!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam шинэчлэлтийн хугацаа дууссан. Дэлгэрэнгүйг /tmp/oscam_update.log-оос авна уу."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo байхгүй байна"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Oscam ажиллахгүй байна - мэдээлэл авахын тулд Cam-г эхлүүлнэ үү."
+
+msgid "PRESS RETURN"
+msgstr "БУЦАХ ГЭДГИЙГ ДАР"
+
+msgid "Password"
+msgstr "Нууц үг"
+
+msgid "Password (httpwd)"
+msgstr "Нууц үг (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Оргил ачаалал (ажилчны урсгалын хамгийн их дараалалд орсон хүсэлт)"
+
+msgid "Pid"
+msgstr "Пид"
+
+msgid "Please Reset - No File CFG"
+msgstr "Дахин тохируулна уу - Файл CFG байхгүй"
+
+msgid "Please select ..."
+msgstr "Сонгоно уу ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Засах мөрийг сонгох эсвэл шинэ мөр үүсгэхийн тулд нэмэхийг сонгоно уу."
+
+msgid "Please wait, %s."
+msgstr "Хүлээгээрэй, %s."
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Profile"
+msgstr "Профайл"
+
+msgid "Profile: Local box"
+msgstr "Профайл: Орон нутгийн хайрцаг"
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "Provider"
+msgstr "Үйлчилгээ үзүүлэгч"
+
+msgid "Provider Name:"
+msgstr "Үйлчилгээ үзүүлэгчийн нэр:"
+
+msgid "Provider:"
+msgstr "Үйлчилгээ үзүүлэгч:"
+
+msgid "Providers"
+msgstr "Нийлүүлэгчид"
+
+msgid "Providers:"
+msgstr "Үйлчилгээ үзүүлэгчид:"
+
+msgid "Quick restart %s?"
+msgstr "%s-г хурдан дахин эхлүүлэх үү?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "%s.conf-с хэрэглэгчийн өгөгдлийг уншина уу"
+
+msgid "Reader"
+msgstr "Уншигч"
+
+msgid "Reader Statistics"
+msgstr "Уншигчийн статистик"
+
+msgid "Reader/User"
+msgstr "Уншигч/Хэрэглэгч"
+
+msgid "Recover Peer"
+msgstr "Үе тэнгийнгээ сэргээх"
+
+msgid "Remote box"
+msgstr "Алсын хайрцаг"
+
+msgid "Remove"
+msgstr "Устгах"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "CCcam.cfg-с мөрийг устгана уу"
+
+msgid "Removing %s"
+msgstr "%s-г устгаж байна"
+
+msgid "Rename"
+msgstr "Нэрээ өөрчлөх"
+
+msgid "Rename failed!"
+msgstr "Нэрийг нь өөрчилж чадсангүй!"
+
+msgid "Rename to:"
+msgstr "Нэрийг нь өөрчлөх:"
+
+msgid "Renamed %s!"
+msgstr "%s нэрийг өөрчилсөн!"
+
+msgid "Reset"
+msgstr "Дахин тохируулах"
+
+msgid "Reshare"
+msgstr "Дахин хуваалцах"
+
+msgid "Reshare:"
+msgstr "Хуваалцах:"
+
+msgid "Resources"
+msgstr "Нөөц"
+
+msgid "Restart GUI?"
+msgstr "GUI-г дахин эхлүүлэх үү?"
+
+msgid "Restart error: %s"
+msgstr "Дахин эхлүүлэх алдаа: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Сэргээгдсэн тохиргоог хэрэгжүүлэхийн тулд softcam-ыг дахин эхлүүлэх үү?"
+
+msgid "Save"
+msgstr "Хадгалах"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Софткамны жагсаалтыг скан хийж, татаж байна ..."
+
+msgid "Select CCcam"
+msgstr "CCcam-г сонгоно уу"
+
+msgid "Select Get Link"
+msgstr "Холбоос авахыг сонгоно уу"
+
+msgid "Select Ncam"
+msgstr "Ncam-г сонгоно уу"
+
+msgid "Select OScam"
+msgstr "OScam-г сонгоно уу"
+
+msgid "Select Your Choice"
+msgstr "Сонголтоо сонго"
+
+msgid "Select a cam to run ..."
+msgstr "Ажиллуулах камер сонгоно уу..."
+
+msgid "Select and Install"
+msgstr "Сонгоод суулгана уу"
+
+msgid "Select backup to restore:"
+msgstr "Сэргээх нөөцийг сонгоно уу:"
+
+msgid "Server %s-%s"
+msgstr "Сервер %s-%s"
+
+msgid "Server Config"
+msgstr "Серверийн тохиргоо"
+
+msgid "Server Copy in"
+msgstr "Сервер хуулах"
+
+msgid "Server Link"
+msgstr "Серверийн холбоос"
+
+msgid "Server Password"
+msgstr "Серверийн нууц үг"
+
+msgid "Server Port"
+msgstr "Сервер порт"
+
+msgid "Server URL"
+msgstr "Серверийн URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "Серверийн URL, өөрөөр хэлбэл 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Серверийн хэрэглэгчийн нэр"
+
+msgid "Server:"
+msgstr "Сервер:"
+
+msgid "Servers"
+msgstr "Серверүүд"
+
+msgid "Servers:"
+msgstr "Серверүүд:"
+
+msgid "Service"
+msgstr "Үйлчилгээ"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Өвөрмөц үе шат болгон тохируулна уу"
+
+msgid "Setup"
+msgstr "Тохиргоо"
+
+msgid "Share View"
+msgstr "Хуваалцах харах"
+
+msgid "Shares"
+msgstr "Хувьцаа"
+
+msgid "Show Clients"
+msgstr "Үйлчлүүлэгчдийг харуулах"
+
+msgid "Show Ecm info"
+msgstr "Ecm мэдээллийг харуулах"
+
+msgid "Show Log"
+msgstr "Бүртгэлийг харуулах"
+
+msgid "Show Readers/Proxies"
+msgstr "Уншигч/прокси харуулах"
+
+msgid "Softcam Manager"
+msgstr "Softcam менежер"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam шинэ тохиргоогоор дахин ачааллаа!"
+
+msgid "Start"
+msgstr "Эхлэх"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Stop"
+msgstr "Зогс"
+
+msgid "Stop Finding Fakes"
+msgstr "Хуурамч зүйл хайхаа боль"
+
+msgid "Switch config"
+msgstr "Тохиргоог солих"
+
+msgid "System"
+msgstr "Систем"
+
+msgid "System cleanup completed!"
+msgstr "Системийн цэвэрлэгээ дууссан!"
+
+msgid "System:"
+msgstr "Систем:"
+
+msgid "Temporarely DELETED"
+msgstr "Түр УССАН"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Энэ залгаас нь таны CCcam-ийн статусыг харуулдаг"
+
+msgid "Total"
+msgstr "Нийт"
+
+msgid "Total cards:"
+msgstr "Нийт картууд:"
+
+msgid "Total handled client ecm's"
+msgstr "Нийт зохицуулсан үйлчлүүлэгчийн eCM"
+
+msgid "Total handled client emm's"
+msgstr "Нийт зохицуулсан үйлчлүүлэгчийн эмм"
+
+msgid "Total:"
+msgstr "Нийт:"
+
+msgid "Try again later ..."
+msgstr "Дараа дахин оролдоно уу..."
+
+msgid "Type:"
+msgstr "Төрөл:"
+
+msgid "UNDELETED"
+msgstr "УСТГАСГҮЙ"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Скриптийг гүйцэтгэх боломжтой болгох боломжгүй: %s"
+
+msgid "Unknow Image!"
+msgstr "Мэдэхгүй зураг!"
+
+msgid "Update"
+msgstr "Шинэчлэх"
+
+msgid "Update Aborted!"
+msgstr "Шинэчлэлтийг зогсоосон!"
+
+msgid "Update interval (in seconds)"
+msgstr "Шинэчлэх интервал (секундэд)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Ажиллах хугацаа"
+
+msgid "Used:"
+msgstr "Ашигласан:"
+
+msgid "Username"
+msgstr "Хэрэглэгчийн нэр"
+
+msgid "Username (httpuser)"
+msgstr "Хэрэглэгчийн нэр (http хэрэглэгч)"
+
+msgid "Using old profile:"
+msgstr "Хуучин профайлыг ашиглах:"
+
+msgid "Version:"
+msgstr "Хувилбар:"
+
+msgid "Wait please..."
+msgstr "Хүлээгээрэй..."
+
+msgid "Write"
+msgstr "бичих"
+
+msgid "Write-Debug"
+msgstr "Бичих - Дебаг хийх"
+
+msgid "You have the latest version!"
+msgstr "Танд хамгийн сүүлийн хувилбар байна!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\tБолно уу:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "БУЦАХГҮЙ"
+
+msgid "address:"
+msgstr "хаяг:"
+
+msgid "and"
+msgstr "болон"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "карт"
+
+msgid "card reader"
+msgstr "карт уншигч"
+
+msgid "close share view"
+msgstr "хуваалцах харагдацыг хаах"
+
+msgid "decrease uphop by 1"
+msgstr "дээшээ 1-ээр бууруулна"
+
+msgid "ecm time:"
+msgstr "ECM цаг:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "картын серверийг авах"
+
+msgid "handled"
+msgstr "зохицуулсан"
+
+msgid "hops:"
+msgstr "хоп:"
+
+msgid "increase uphop by 1"
+msgstr "uphop-ийг 1-ээр нэмэгдүүлэх"
+
+msgid "info"
+msgstr "мэдээлэл"
+
+msgid "no or unknown card inserted"
+msgstr "байхгүй эсвэл үл мэдэгдэх карт оруулаагүй байна"
+
+msgid "pid:"
+msgstr "пид:"
+
+msgid "provid:"
+msgstr "хангах:"
+
+msgid "provider:"
+msgstr "үйлчилгээ үзүүлэгч:"
+
+msgid "share:"
+msgstr "хуваалцах:"
+
+msgid "show all cards"
+msgstr "бүх картыг харуулах"
+
+msgid "show cards with uphop 0"
+msgstr "uphop 0-тэй картуудыг харуулах"
+
+msgid "show cards with uphop 1"
+msgstr "uphop-тэй картуудыг харуулах 1"
+
+msgid "show cards with uphop 2"
+msgstr "uphop 2-той картуудыг харуулах"
+
+msgid "show cards with uphop 3"
+msgstr "uphop 3-тай картуудыг харуулах"
+
+msgid "show cards with uphop 4"
+msgstr "uphop 4-тэй картуудыг харуулах"
+
+msgid "show cards with uphop 5"
+msgstr "uphop 5-тай картуудыг харуулах"
+
+msgid "show cards with uphop 6"
+msgstr "uphop 6-тай картуудыг харуулах"
+
+msgid "show cards with uphop 7"
+msgstr "uphop 7-той картуудыг харуулах"
+
+msgid "show cards with uphop 8"
+msgstr "uphop 8-тай картуудыг харуулах"
+
+msgid "show cards with uphop 9"
+msgstr "uphop 9-тэй картуудыг харуулах"
+
+msgid "system:"
+msgstr "систем:"
+
+msgid "using:"
+msgstr "ашиглан:"
+
+msgid "xLine"
+msgstr ""

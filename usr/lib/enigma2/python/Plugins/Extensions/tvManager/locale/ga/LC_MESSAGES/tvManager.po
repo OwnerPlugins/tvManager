@@ -1,0 +1,945 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-25 23:11+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Cártaí )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Eolas - Cumraíocht"
+
+msgid "%s Info - Main Menu"
+msgstr "Eolas %s - Príomhroghchlár"
+
+msgid "%s restarted successfully!"
+msgstr "D'éirigh le %s a atosú!"
+
+msgid "%s webif disabled"
+msgstr "%s webif díchumasaithe"
+
+msgid "(All readers)"
+msgstr "(Gach léitheoir)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(Taispeáin léitheoir amháin) (%s)"
+
+msgid "About"
+msgstr "Maidir"
+
+msgid "Activate"
+msgstr "Gníomhachtaigh"
+
+msgid "Activate Insert line in Config File:"
+msgstr "Gníomhachtaigh Ionsáigh líne sa Chomhad Cumraíochta:"
+
+msgid "Active clients"
+msgstr "cliaint ghníomhacha"
+
+msgid "Add"
+msgstr "Cuir"
+
+msgid "Add new CCcam line"
+msgstr "Cuir líne CCcam nua leis"
+
+msgid "Add new NewCamd line"
+msgstr "Cuir líne nua NewCamd leis"
+
+msgid "Address"
+msgstr "Seoladh"
+
+msgid "All"
+msgstr "Gach"
+
+msgid "An error occurred in the green function."
+msgstr "Tharla earráid san fheidhm ghlas."
+
+msgid "An unexpected error occurred: %s"
+msgstr "Tharla earráid gan choinne: %s"
+
+msgid "Ask all caid"
+msgstr "Iarr ar gach caid"
+
+msgid "Ask for the selection caid"
+msgstr "Iarr ar an gcaid roghnúcháin"
+
+msgid "Automatically update Client/Server View?"
+msgstr "Nuashonraigh Amharc Cliant/Freastalaí go huathoibríoch?"
+
+msgid "Available shares:"
+msgstr "Scaireanna ar fáil:"
+
+msgid "Back"
+msgstr "Ar ais"
+
+msgid "Backup failed!"
+msgstr "Theip ar an gcúltaca!"
+
+msgid "Backup restoration failed!"
+msgstr "Theip ar athchóiriú an chúltaca!"
+
+msgid "CCPrioMaker Settings"
+msgstr "Socruithe CCPrioMaker"
+
+msgid "CCPrioMaker autostart"
+msgstr "Uath-thosú CCPrioMaker"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "Eolas do Chliaint CCcam"
+
+msgid "CCcam Config Switcher"
+msgstr "Lascóir Cumraíochta CCcam"
+
+msgid "CCcam ECM Info"
+msgstr "Eolas CCcam ECM"
+
+msgid "CCcam Info"
+msgstr "Eolas CCcam"
+
+msgid "CCcam Info %s"
+msgstr "Eolas CCcam %s"
+
+msgid "CCcam Info Config"
+msgstr "Cumraíocht Faisnéise CCcam"
+
+msgid "CCcam Info Config Menu"
+msgstr "Roghchlár Cumraíochta Faisnéise CCcam"
+
+msgid "CCcam Line Edit Actions"
+msgstr "CCcam Líne Eagar Gníomhartha"
+
+msgid "CCcam Line Editor"
+msgstr "CCcam eagarthóir líne"
+
+msgid "CCcam Organizer"
+msgstr "Eagraí CCcam"
+
+msgid "CCcam Prio Maker"
+msgstr "CCcam Prio Déantóir"
+
+msgid "CCcam Provider Info"
+msgstr "Eolas faoi Sholáthraí CCcam"
+
+msgid "CCcam Remote Info"
+msgstr "Eolas cianda CCcam"
+
+msgid "CCcam Server Info"
+msgstr "Eolas Freastalaí CCcam"
+
+msgid "CCcam Share Info"
+msgstr "CCcam Comhroinn Faisnéise"
+
+msgid "CCcam Shares Info"
+msgstr "Eolas faoi Scaireanna CCcam"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg Eagarthóir Líne Bunúsach"
+
+msgid "CCcamInfo not available"
+msgstr "Níl CCcamInfo ar fáil"
+
+msgid "CaID:"
+msgstr "CAID:"
+
+msgid "Caid"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Cam íosluchtaigh"
+
+msgid "Cancel"
+msgstr "Cealaigh"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Eolas faoin gcárta (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Cártaí:"
+
+msgid "Cards: 0"
+msgstr "Cártaí: 0"
+
+msgid "Cardserial"
+msgstr "Cárta sraitheach"
+
+msgid "Channel"
+msgstr "Cainéal"
+
+msgid "Channel Name"
+msgstr "Ainm Cainéal"
+
+msgid "Check Emm Send"
+msgstr "Seiceáil Emm Seol"
+
+msgid "Choose CCcam-Reader"
+msgstr "Roghnaigh CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "Roghnaigh léitheoir"
+
+msgid "Cleanup error: %s"
+msgstr "Earráid ghlanta: %s"
+
+msgid "Client %s-%s"
+msgstr "Cliant %s-%s"
+
+msgid "Clients"
+msgstr "Cliaint"
+
+msgid "Close"
+msgstr "Dún"
+
+msgid "Command Cancelled"
+msgstr "Ordú Cealaithe"
+
+msgid "Configfile %s saved."
+msgstr "Sábháilte cumraíochta %s."
+
+msgid "Connected clients"
+msgstr "Cliaint nasctha"
+
+msgid "Connected:"
+msgstr "Ceangailte:"
+
+msgid "Content"
+msgstr "Ábhar"
+
+msgid "Could not open the file %s!"
+msgstr "Níorbh fhéidir an comhad %s a oscailt!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "Níorbh fhéidir an comhad %s a oscailt! Earráid: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "Níorbh fhéidir an comhad cumraíochta %s a shábháil! Earráid: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "Níorbh fhéidir an comhad cumraíochta a shábháil! Earráid: %s"
+
+msgid "Current time"
+msgstr "Am reatha"
+
+msgid "Delete"
+msgstr "Scrios"
+
+msgid "Delete %s?"
+msgstr "Scrios %s?"
+
+msgid "Delete Peer"
+msgstr "Scrios Piara"
+
+msgid "Delete failed!"
+msgstr "Theip ar an scriosadh!"
+
+msgid "Deleted %s!"
+msgstr "Scriosadh %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "An suiteálann tú an breiseán seo?"
+
+msgid "Do you want to execute the command?"
+msgstr "Ar mhaith leat an t-ordú a rith?"
+
+msgid "Do you want to remove?"
+msgstr "Ar mhaith leat a bhaint?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "Ar mhaith leat Comhéadan Gui a atosú?"
+
+msgid "ECM data format error"
+msgstr "Earráid i bhformáid sonraí ECM"
+
+msgid "ECM error"
+msgstr "Earráid ECM"
+
+msgid "ECM file empty"
+msgstr "Comhad ECM folamh"
+
+msgid "ECM file not found"
+msgstr "Níor aimsíodh an comhad ECM"
+
+msgid "ECM read error"
+msgstr "Earráid léite ECM"
+
+msgid "Ecm Info"
+msgstr "Eolas Ecm"
+
+msgid "Ecm Statistics"
+msgstr "Staitisticí Ecm"
+
+msgid "Ecm Time"
+msgstr "Am Ecm"
+
+msgid "Ecm avg"
+msgstr "Ecm meánlíon"
+
+msgid "Ecm last"
+msgstr "Ecm seo caite"
+
+msgid "Edit"
+msgstr "Cuir in eagar"
+
+msgid "Editing one caid"
+msgstr "Caidé amháin a chur in eagar"
+
+msgid "Emm Info"
+msgstr "Eolas Erm"
+
+msgid "Entitlements"
+msgstr "Teidlíochtaí"
+
+msgid "Error"
+msgstr "Earráid"
+
+msgid "Error executing update script: %s"
+msgstr "Earráid agus script nuashonraithe á rith: %s"
+
+msgid "Error getting resource information"
+msgstr "Earráid agus faisnéis acmhainní á fáil"
+
+msgid "Error loading system info:"
+msgstr "Earráid agus faisnéis an chórais á lódáil:"
+
+msgid "Error loading system information:"
+msgstr "Earráid agus faisnéis an chórais á lódáil:"
+
+msgid "Error opening cam info: %s"
+msgstr "Earráid agus eolas cam á oscailt: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "Earráid agus an comhad cumraíochta á oscailt: %s"
+
+msgid "Error processing HTML!"
+msgstr "Earráid ag próiseáil HTML!"
+
+msgid "Error processing server addons data"
+msgstr "Earráid agus sonraí breiseán freastalaí á bpróiseáil"
+
+msgid "Error reading webpage!"
+msgstr "Earráid agus leathanach gréasáin á léamh!"
+
+msgid "Error stopping %s!"
+msgstr "Earráid agus %s á stopadh!"
+
+msgid "Error while editing configuration: %s"
+msgstr "Earráid agus cumraíocht á cur in eagar: %s"
+
+msgid "Exit"
+msgstr "Scoir"
+
+msgid "Extended Shares"
+msgstr "Scaireanna Breisithe"
+
+msgid "Failed to revert file: %s"
+msgstr "Níorbh fhéidir an comhad a aischur: %s"
+
+msgid "Find Fakes"
+msgstr "Faigh Fakes"
+
+msgid "Force Update"
+msgstr "Nuashonrú Fórsa"
+
+msgid "Free memory"
+msgstr "Cuimhne saor in aisce,"
+
+msgid "Free memory:"
+msgstr "Cuimhne saor in aisce:"
+
+msgid "Free:"
+msgstr "Saor in aisce:"
+
+msgid "General"
+msgstr "Ginearálta"
+
+msgid "Get Link"
+msgstr "Faigh Nasc"
+
+msgid "Getting the list, please wait ..."
+msgstr "Ag fáil an liosta, fan le do thoil ..."
+
+msgid "Help"
+msgstr "Cabhrú"
+
+msgid "Hops"
+msgstr "Leannlusanna"
+
+msgid "Hops:"
+msgstr "Leannlusanna:"
+
+msgid "Hostname:"
+msgstr "Ainm an ósta:"
+
+msgid "IP Address"
+msgstr "Seoladh IP"
+
+msgid "IP address"
+msgstr "Seoladh IP"
+
+msgid "Idle Time:"
+msgstr "Am Díomhaoin:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "Má tá Gníomhach: Íoslódáil/Athshocraigh Cumraíocht Freastalaí"
+
+msgid "Install Cam first!!!"
+msgstr "Suiteáil Cam ar dtús !!!"
+
+msgid "Install developer update (%s)?"
+msgstr "Suiteáil nuashonrú an fhorbróra (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "Ábhar HTML neamhbhailí!"
+
+msgid "Invalid URL!"
+msgstr "URL neamhbhailí!"
+
+msgid "Last Req."
+msgstr "Req."
+
+msgid "Last used share:"
+msgstr "An sciar is déanaí a úsáideadh:"
+
+msgid "Load"
+msgstr "Luchtaigh"
+
+msgid "Local box"
+msgstr "Bosca áitiúil"
+
+msgid "Location"
+msgstr "Suíomh"
+
+msgid "Log"
+msgstr "Loga"
+
+msgid "Log %s-%s"
+msgstr "Logchomhaid %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr "Maxdown+"
+
+msgid "Maxdown -"
+msgstr ""
+
+msgid "Maxdown:"
+msgstr ""
+
+msgid "Menu config"
+msgstr "Cumraíocht roghchláir"
+
+msgid "NCamInfo not available"
+msgstr "Níl NCamInfo ar fáil"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam ag rith - cuir tús le Cam chun faisnéis a fháil."
+
+msgid "New"
+msgstr "Nua"
+
+msgid "New profile:"
+msgstr "Próifíl nua:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "Uimh sonraí ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Gan sonraí ECM - Teorainn Ama"
+
+msgid "No ECM file"
+msgstr "Níl aon chomhad ECM ann"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Níl aon fhaisnéis ECM ar fáil faoi láthair. Níl sé seo ar fáil ach amháin agus é á dhíchriptiú."
+
+msgid "No active cam to restart!"
+msgstr "Níl ceamara gníomhach le atosú!"
+
+msgid "No backups available!"
+msgstr "Níl cúltacaí ar fáil!"
+
+msgid "No card inserted!"
+msgstr "Níor cuireadh aon chárta isteach!"
+
+msgid "No softcams available!"
+msgstr "Níl aon bhogchláir ar fáil!"
+
+msgid "No valid backups found!"
+msgstr "Níor aimsíodh cúltacaí bailí!"
+
+msgid "NodeID"
+msgstr "NódID"
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "ceart go leor"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Tháinig deireadh leis an nuashonrú OSCam. Seiceáil /tmp/oscam_update.log le haghaidh sonraí."
+
+msgid "OSCamInfo not available"
+msgstr "Níl OSCamInfo ar fáil"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "Níl Oscam ag rith - cuir tús le Cam chun faisnéis a fháil."
+
+msgid "PRESS RETURN"
+msgstr "PREAS TUAIRISCEÁN"
+
+msgid "Password"
+msgstr "Pasfhocal"
+
+msgid "Password (httpwd)"
+msgstr "Pasfhocal (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "Buaic-ualach (iarratais scuaine uasta in aghaidh an tsnáithe oibrithe)"
+
+msgid "Pid"
+msgstr ""
+
+msgid "Please Reset - No File CFG"
+msgstr "Athshocraigh le do thoil - Gan Chomhad CFG"
+
+msgid "Please select ..."
+msgstr "Roghnaigh le do thoil ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "Roghnaigh líne le cur in eagar nó roghnaigh cuir leis chun líne nua a chruthú."
+
+msgid "Please wait, %s."
+msgstr "Fan go fóill, %s."
+
+msgid "Port"
+msgstr ""
+
+msgid "Profile"
+msgstr "Próifíl"
+
+msgid "Profile: Local box"
+msgstr "Próifíl: Bosca áitiúil"
+
+msgid "Protocol"
+msgstr "Prótacal"
+
+msgid "Provider"
+msgstr "Soláthraí"
+
+msgid "Provider Name:"
+msgstr "Ainm an tSoláthraí:"
+
+msgid "Provider:"
+msgstr "Soláthraí:"
+
+msgid "Providers"
+msgstr "Soláthraithe"
+
+msgid "Providers:"
+msgstr "Soláthraithe:"
+
+msgid "Quick restart %s?"
+msgstr "Atosú tapa %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "Léigh Sonraí Úsáideora ó %s.conf"
+
+msgid "Reader"
+msgstr "Léitheoir"
+
+msgid "Reader Statistics"
+msgstr "Staitisticí Léitheoirí"
+
+msgid "Reader/User"
+msgstr "Léitheoir/Úsáideoir"
+
+msgid "Recover Peer"
+msgstr "Aisghabháil Piara"
+
+msgid "Remote box"
+msgstr "Bosca cianda"
+
+msgid "Remove"
+msgstr "Bain"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "Bain an Líne ó CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "%s á bhaint"
+
+msgid "Rename"
+msgstr "Athainmnigh"
+
+msgid "Rename failed!"
+msgstr "Theip ar athainmniú!"
+
+msgid "Rename to:"
+msgstr "Athainmnigh go:"
+
+msgid "Renamed %s!"
+msgstr "Athainmnithe %s!"
+
+msgid "Reset"
+msgstr "Athshocraigh"
+
+msgid "Reshare"
+msgstr "Roinn arís"
+
+msgid "Reshare:"
+msgstr "Roinn:"
+
+msgid "Resources"
+msgstr "Acmhainní"
+
+msgid "Restart GUI?"
+msgstr "Atosaigh GUI?"
+
+msgid "Restart error: %s"
+msgstr "Earráid atosú: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "Atosaigh softcam chun cumraíocht athchóirithe a chur i bhfeidhm?"
+
+msgid "Save"
+msgstr "Sábháil"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "Scanadh agus aisghabháil liosta softcam ..."
+
+msgid "Select CCcam"
+msgstr "Roghnaigh CCcam"
+
+msgid "Select Get Link"
+msgstr "Roghnaigh Faigh Nasc"
+
+msgid "Select Ncam"
+msgstr "Roghnaigh Ncam"
+
+msgid "Select OScam"
+msgstr "Roghnaigh OScam"
+
+msgid "Select Your Choice"
+msgstr "Roghnaigh Do Rogha"
+
+msgid "Select a cam to run ..."
+msgstr "Roghnaigh camán le rith..."
+
+msgid "Select and Install"
+msgstr "Roghnaigh agus Suiteáil"
+
+msgid "Select backup to restore:"
+msgstr "Roghnaigh cúltaca le hathchóiriú:"
+
+msgid "Server %s-%s"
+msgstr "Freastalaí %s-%s"
+
+msgid "Server Config"
+msgstr "Cumraíocht Freastalaí"
+
+msgid "Server Copy in"
+msgstr "Cóipeáil Freastalaí isteach"
+
+msgid "Server Link"
+msgstr "Nasc Freastalaí"
+
+msgid "Server Password"
+msgstr "Pasfhocal Freastalaí"
+
+msgid "Server Port"
+msgstr "Port Freastalaí"
+
+msgid "Server URL"
+msgstr "URL an fhreastalaí"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "URL an fhreastalaí i.e. 012.345.678.900"
+
+msgid "Server Username"
+msgstr "Ainm Úsáideora Freastalaí"
+
+msgid "Server:"
+msgstr "Freastalaí:"
+
+msgid "Servers"
+msgstr "Freastalaithe"
+
+msgid "Servers:"
+msgstr "Freastalaithe:"
+
+msgid "Service"
+msgstr "Seirbhís"
+
+msgid "Set as UNIQUE PEER"
+msgstr "Socraigh mar piaraí Uathúil"
+
+msgid "Setup"
+msgstr "Socrú"
+
+msgid "Share View"
+msgstr "Comhroinn Amharc"
+
+msgid "Shares"
+msgstr "Scaireanna"
+
+msgid "Show Clients"
+msgstr "Taispeáin Cliaint"
+
+msgid "Show Ecm info"
+msgstr "Taispeáin eolas Ecm"
+
+msgid "Show Log"
+msgstr "Taispeáin Loga"
+
+msgid "Show Readers/Proxies"
+msgstr "Taispeáin Léitheoirí/Proxies"
+
+msgid "Softcam Manager"
+msgstr "Softcam Bainisteoir"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Atosaíodh Softcam le cumraíocht nua!"
+
+msgid "Start"
+msgstr "Tosaigh"
+
+msgid "Status"
+msgstr "Stádas"
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop Finding Fakes"
+msgstr "Stop Lorg Fakes"
+
+msgid "Switch config"
+msgstr "Athraigh config"
+
+msgid "System"
+msgstr "Córas"
+
+msgid "System cleanup completed!"
+msgstr "Glanadh an chórais críochnaithe!"
+
+msgid "System:"
+msgstr "Córas:"
+
+msgid "Temporarely DELETED"
+msgstr "Scriosta go sealadach"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Taispeánann an breiseán seo stádas do CCcam duit"
+
+msgid "Total"
+msgstr "Iomlán"
+
+msgid "Total cards:"
+msgstr "Cártaí iomlána:"
+
+msgid "Total handled client ecm's"
+msgstr "ECManna iomlán na gcliant láimhsithe"
+
+msgid "Total handled client emm's"
+msgstr "Iomlán emm an chliaint láimhseála"
+
+msgid "Total:"
+msgstr "Iomlán:"
+
+msgid "Try again later ..."
+msgstr "Bain triail eile as ar ball..."
+
+msgid "Type:"
+msgstr "Cineál:"
+
+msgid "UNDELETED"
+msgstr "neamhscriosta"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Ní féidir an script a dhéanamh inrite: %s"
+
+msgid "Unknow Image!"
+msgstr "Íomhá Anaithnid!"
+
+msgid "Update"
+msgstr "Nuashonrú"
+
+msgid "Update Aborted!"
+msgstr "Tobscoireadh an Nuashonrú!"
+
+msgid "Update interval (in seconds)"
+msgstr "Eatramh nuashonraithe (i soicindí)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr "Aga fónaimh"
+
+msgid "Used:"
+msgstr "Úsáidte:"
+
+msgid "Username"
+msgstr "Ainm úsáideora"
+
+msgid "Username (httpuser)"
+msgstr "Ainm Úsáideora (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Ag baint úsáide as seanphróifíl:"
+
+msgid "Version:"
+msgstr "Leagan:"
+
+msgid "Wait please..."
+msgstr "Fan le do thoil..."
+
+msgid "Write"
+msgstr "Scríobh"
+
+msgid "Write-Debug"
+msgstr "Scríobh-Debug"
+
+msgid "You have the latest version!"
+msgstr "Tá an leagan is déanaí agat!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\ sholáthar:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "rud ar bith.GO.UNDELE"
+
+msgid "address:"
+msgstr "seoladh:"
+
+msgid "and"
+msgstr "agus"
+
+msgid "caid:"
+msgstr ""
+
+msgid "card"
+msgstr "cárta"
+
+msgid "card reader"
+msgstr "léitheoir cárta"
+
+msgid "close share view"
+msgstr "radharc sciar gar"
+
+msgid "decrease uphop by 1"
+msgstr "laghdú uphop faoi 1"
+
+msgid "ecm time:"
+msgstr "am ecm:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "Íosluchtaigh freastalaí na cártaí"
+
+msgid "handled"
+msgstr "láimhsithe"
+
+msgid "hops:"
+msgstr "leannlusanna:"
+
+msgid "increase uphop by 1"
+msgstr "méadú uphop faoi 1"
+
+msgid "info"
+msgstr "eolas"
+
+msgid "no or unknown card inserted"
+msgstr "níor cuireadh nó cárta anaithnid isteach"
+
+msgid "pid:"
+msgstr ""
+
+msgid "provid:"
+msgstr "sholáthar:"
+
+msgid "provider:"
+msgstr "soláthraí:"
+
+msgid "share:"
+msgstr "roinnt:"
+
+msgid "show all cards"
+msgstr "taispeáin na cártaí go léir"
+
+msgid "show cards with uphop 0"
+msgstr "taispeáin cártaí le uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "taispeáin cártaí le uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "Taispeáin cártaí le uphop 2 saor in aisce"
+
+msgid "show cards with uphop 3"
+msgstr "Taispeáin cártaí le uphop 3 saor in aisce"
+
+msgid "show cards with uphop 4"
+msgstr "Taispeáin cártaí le uphop 4 saor in aisce"
+
+msgid "show cards with uphop 5"
+msgstr "taispeáin cártaí le uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "Taispeáin cártaí le uphop 6 saor in aisce"
+
+msgid "show cards with uphop 7"
+msgstr "Taispeáin cártaí le uphop 7 saor in aisce"
+
+msgid "show cards with uphop 8"
+msgstr "Taispeáin cártaí le uphop 8 saor in aisce,"
+
+msgid "show cards with uphop 9"
+msgstr "taispeáin cártaí le uphop 9"
+
+msgid "system:"
+msgstr "córas:"
+
+msgid "using:"
+msgstr "ag baint úsáide as:"
+
+msgid "xLine"
+msgstr ""

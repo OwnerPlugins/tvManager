@@ -1,0 +1,944 @@
+# tvManager translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tvManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-07-26 03:17+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Yiddish\n"
+"Language: yi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ( %s Cards )"
+msgstr "%s (%s קאַרדס)"
+
+msgid "%s Info - Configuration"
+msgstr "%s אינפֿאָרמאַציע - קאַנפיגיעריישאַן"
+
+msgid "%s Info - Main Menu"
+msgstr "%s אינפֿאָרמאַציע - הויפּט מעניו"
+
+msgid "%s restarted successfully!"
+msgstr "%s ריסטאַרטיד הצלחה!"
+
+msgid "%s webif disabled"
+msgstr "%s webif פאַרקריפּלט"
+
+msgid "(All readers)"
+msgstr "(אַלע לייענער)"
+
+msgid "(Show only reader) (%s)"
+msgstr "(ווייַז בלויז לייענער) (%s)"
+
+msgid "About"
+msgstr "וועגן"
+
+msgid "Activate"
+msgstr "אַקטאַווייט"
+
+msgid "Activate Insert line in Config File:"
+msgstr "אַקטאַווייט אַרייַנלייגן שורה אין קאָנפיג טעקע:"
+
+msgid "Active clients"
+msgstr "אַקטיוו קלייאַנץ"
+
+msgid "Add"
+msgstr "לייג"
+
+msgid "Add new CCcam line"
+msgstr "לייג אַ נייַע CCcam שורה"
+
+msgid "Add new NewCamd line"
+msgstr "לייג נייַ NewCamd שורה"
+
+msgid "Address"
+msgstr "אַדרעס"
+
+msgid "All"
+msgstr "אַלע"
+
+msgid "An error occurred in the green function."
+msgstr "א טעות פארגעקומען אין די גרין פֿונקציע."
+
+msgid "An unexpected error occurred: %s"
+msgstr "אַן אומגעריכט טעות איז פארגעקומען: %s"
+
+msgid "Ask all caid"
+msgstr "פרעגן אַלע קאַיד"
+
+msgid "Ask for the selection caid"
+msgstr "פרעגן פֿאַר די סעלעקציע קאַיד"
+
+msgid "Automatically update Client/Server View?"
+msgstr "אויטאָמאַטיש דערהייַנטיקן קליענט / סערווער View?"
+
+msgid "Available shares:"
+msgstr "בנימצא שאַרעס:"
+
+msgid "Back"
+msgstr "צוריק"
+
+msgid "Backup failed!"
+msgstr "באַקקופּ דורכפאַל!"
+
+msgid "Backup restoration failed!"
+msgstr "באַקקופּ רעסטאָראַטיאָן ניט אַנדערש!"
+
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker סעטטינגס"
+
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker אַוטאָסטאַרט"
+
+msgid "CCcam"
+msgstr "cccam"
+
+msgid "CCcam Clients Info"
+msgstr "קקקאַם קלייאַנץ אינפֿאָרמאַציע"
+
+msgid "CCcam Config Switcher"
+msgstr ""
+
+msgid "CCcam ECM Info"
+msgstr "CCcam ECM אינפֿאָרמאַציע"
+
+msgid "CCcam Info"
+msgstr "CCcam אינפֿאָרמאַציע"
+
+msgid "CCcam Info %s"
+msgstr "CCcam אינפֿאָרמאַציע %s"
+
+msgid "CCcam Info Config"
+msgstr "CCcam אינפֿאָרמאַציע קאָנפיג"
+
+msgid "CCcam Info Config Menu"
+msgstr "קקקאַם אינפֿאָרמאַציע קאָנפיג מעניו"
+
+msgid "CCcam Line Edit Actions"
+msgstr "קקקאַם שורה רעדאַגירן אַקטיאָנס"
+
+msgid "CCcam Line Editor"
+msgstr ""
+
+msgid "CCcam Organizer"
+msgstr "קקקאַם אָרגאַניזאַטאָר"
+
+msgid "CCcam Prio Maker"
+msgstr "קקאַם פּריאָ מאַקער"
+
+msgid "CCcam Provider Info"
+msgstr "קקקאַם פּראַוויידער אינפֿאָרמאַציע"
+
+msgid "CCcam Remote Info"
+msgstr "CCcam רימאָוט אינפֿאָרמאַציע"
+
+msgid "CCcam Server Info"
+msgstr "קקקאַם סערווירער אינפֿאָרמאַציע"
+
+msgid "CCcam Share Info"
+msgstr "קקקאַם ייַנטיילן אינפֿאָרמאַציע"
+
+msgid "CCcam Shares Info"
+msgstr "קקקאַם שאַרעס אינפֿאָרמאַציע"
+
+msgid "CCcam.cfg Basic Line Editor"
+msgstr "CCcam.cfg באַסיק ליניע עדיטאָר"
+
+msgid "CCcamInfo not available"
+msgstr "CCcamInfo ניט בנימצא"
+
+msgid "CaID:"
+msgstr "קאַיד:"
+
+msgid "Caid"
+msgstr "קאַיד"
+
+msgid "Caid:"
+msgstr "קאיד:"
+
+msgid "Caid:Srvid"
+msgstr "קאיד: שרוויד"
+
+msgid "Cam Download"
+msgstr "קאַם אראפקאפיע"
+
+msgid "Cancel"
+msgstr "באָטל מאַכן"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "קאָרט אינפֿאָרמאַציע (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "קאַרדס:"
+
+msgid "Cards: 0"
+msgstr "קאַרדס: 0"
+
+msgid "Cardserial"
+msgstr "קאָרטסעריאַל"
+
+msgid "Channel"
+msgstr "קאַנאַל"
+
+msgid "Channel Name"
+msgstr "קאַנאַל נאָמען"
+
+msgid "Check Emm Send"
+msgstr "קוק Emm Send"
+
+msgid "Choose CCcam-Reader"
+msgstr "קלייַבן CCcam-Reader"
+
+msgid "Choose reader"
+msgstr "קלייַבן לייענער"
+
+msgid "Cleanup error: %s"
+msgstr "רייניקונג טעות: %s"
+
+msgid "Client %s-%s"
+msgstr "קליענט %s-%s"
+
+msgid "Clients"
+msgstr "קלייאַנץ"
+
+msgid "Close"
+msgstr "נאָענט"
+
+msgid "Command Cancelled"
+msgstr "באַפֿעל קאַנסאַלד"
+
+msgid "Configfile %s saved."
+msgstr "קאָנפיגילע %s געראטעוועט."
+
+msgid "Connected clients"
+msgstr "קאָננעקטעד קלייאַנץ"
+
+msgid "Connected:"
+msgstr "פֿאַרבונדן:"
+
+msgid "Content"
+msgstr "אינהאַלט"
+
+msgid "Could not open the file %s!"
+msgstr "קען נישט עפענען די טעקע %s!"
+
+msgid "Could not open the file %s! Error: %s"
+msgstr "קען נישט עפענען די טעקע %s! טעות: %s"
+
+msgid "Could not save configfile %s! Error: %s"
+msgstr "קען נישט ראַטעווען די קאָנפיגוראַטיאָן %s! טעות: %s"
+
+msgid "Could not save the config file! Error: %s"
+msgstr "קען נישט ראַטעווען די קאַנפיגיעריישאַן טעקע! טעות: %s"
+
+msgid "Current time"
+msgstr "איצטיקע צייט"
+
+msgid "Delete"
+msgstr "ויסמעקן"
+
+msgid "Delete %s?"
+msgstr "ויסמעקן %s?"
+
+msgid "Delete Peer"
+msgstr "ויסמעקן פּיער"
+
+msgid "Delete failed!"
+msgstr "ויסמעקן ניט אַנדערש!"
+
+msgid "Deleted %s!"
+msgstr "אויסגעמעקט %s!"
+
+msgid "Do you install this plugin ?"
+msgstr "צי איר ינסטאַלירן דעם פּלוגין?"
+
+msgid "Do you want to execute the command?"
+msgstr "צי איר ווילן צו ויספירן דעם באַפֿעל?"
+
+msgid "Do you want to remove?"
+msgstr "צי איר ווילן צו באַזייַטיקן?"
+
+msgid "Do you want to restart Gui Interface?"
+msgstr "צי איר ווילן צו ריסטאַרט Gui Interface?"
+
+msgid "ECM data format error"
+msgstr "ECM דאַטן פֿאָרמאַט טעות"
+
+msgid "ECM error"
+msgstr "ECM טעות"
+
+msgid "ECM file empty"
+msgstr "ECM טעקע ליידיק"
+
+msgid "ECM file not found"
+msgstr "ECM טעקע ניט געפֿונען"
+
+msgid "ECM read error"
+msgstr "ECM לייענען טעות"
+
+msgid "Ecm Info"
+msgstr "עקם אינפֿאָרמאַציע"
+
+msgid "Ecm Statistics"
+msgstr "עקם סטאַטיסטיק"
+
+msgid "Ecm Time"
+msgstr "עקם צייט"
+
+msgid "Ecm avg"
+msgstr "עקם אַווג"
+
+msgid "Ecm last"
+msgstr "עקם לעצטע"
+
+msgid "Edit"
+msgstr "רעדאַגירן"
+
+msgid "Editing one caid"
+msgstr "עדיטינג איין קאַיד"
+
+msgid "Emm Info"
+msgstr "ערם אינפֿאָרמאַציע"
+
+msgid "Entitlements"
+msgstr "בארעכטיגונגען"
+
+msgid "Error"
+msgstr "טעות"
+
+msgid "Error executing update script: %s"
+msgstr "פֿעלער עקסאַקיוטינג דערהייַנטיקן שריפט: %s"
+
+msgid "Error getting resource information"
+msgstr "א טעות צו באַקומען מיטל אינפֿאָרמאַציע"
+
+msgid "Error loading system info:"
+msgstr "טעות לאָודינג סיסטעם אינפֿאָרמאַציע:"
+
+msgid "Error loading system information:"
+msgstr "טעות לאָודינג סיסטעם אינפֿאָרמאַציע:"
+
+msgid "Error opening cam info: %s"
+msgstr "טעות עפֿענען קאַם אינפֿאָרמאַציע: %s"
+
+msgid "Error opening configuration file: %s"
+msgstr "טעות אין עפֿענען קאָנפיגוראַטיאָן טעקע: %s"
+
+msgid "Error processing HTML!"
+msgstr "טעות פּראַסעסינג HTML!"
+
+msgid "Error processing server addons data"
+msgstr "טעות פּראַסעסינג סערווער אַדדאָנס דאַטן"
+
+msgid "Error reading webpage!"
+msgstr "טעות לייענען וועב בלאַט!"
+
+msgid "Error stopping %s!"
+msgstr "טעות אפשטעלן %s!"
+
+msgid "Error while editing configuration: %s"
+msgstr "טעות בשעת רעדאַגירן קאַנפיגיעריישאַן: %s"
+
+msgid "Exit"
+msgstr "אַרויסגאַנג"
+
+msgid "Extended Shares"
+msgstr "עקסטענדעד שאַרעס"
+
+msgid "Failed to revert file: %s"
+msgstr "ניט אַנדערש צו צוריקקריגן טעקע: %s"
+
+msgid "Find Fakes"
+msgstr "געפֿינען פאַקעס"
+
+msgid "Force Update"
+msgstr "פאָרס דערהייַנטיקן"
+
+msgid "Free memory"
+msgstr "פֿרייַ זכּרון"
+
+msgid "Free memory:"
+msgstr "פריי זכּרון:"
+
+msgid "Free:"
+msgstr "פריי:"
+
+msgid "General"
+msgstr "אַלגעמיינע"
+
+msgid "Get Link"
+msgstr "באַקומען לינק"
+
+msgid "Getting the list, please wait ..."
+msgstr "באַקומען די רשימה, ביטע וואַרטן ..."
+
+msgid "Help"
+msgstr "הילף"
+
+msgid "Hops"
+msgstr "האָפּס"
+
+msgid "Hops:"
+msgstr "האָפּס:"
+
+msgid "Hostname:"
+msgstr "האָסט נאָמען:"
+
+msgid "IP Address"
+msgstr "IP אַדרעס"
+
+msgid "IP address"
+msgstr "IP אַדרעס"
+
+msgid "Idle Time:"
+msgstr "ליידיק צייט:"
+
+msgid "If Active: Download/Reset Server Config"
+msgstr "אויב אַקטיוו: אראפקאפיע / באַשטעטיק סערווירער קאָנפיג"
+
+msgid "Install Cam first!!!"
+msgstr "ינסטאַלירן קאַם ערשטער !!!"
+
+msgid "Install developer update (%s)?"
+msgstr "ינסטאַלירן דעוועלאָפּער דערהייַנטיקן (%s)?"
+
+msgid "Invalid HTML content!"
+msgstr "אומגילטיגע HTML אינהאַלט!"
+
+msgid "Invalid URL!"
+msgstr "אומגילטיגע URL!"
+
+msgid "Last Req."
+msgstr "לעצטע רעק."
+
+msgid "Last used share:"
+msgstr "לעצטע געוויינט טיילן:"
+
+msgid "Load"
+msgstr "לאָדן"
+
+msgid "Local box"
+msgstr "לאקאלע קעסטל"
+
+msgid "Location"
+msgstr "אָרט"
+
+msgid "Log"
+msgstr "קלאָץ"
+
+msgid "Log %s-%s"
+msgstr "קלאָץ אין %s-%s"
+
+msgid "MENU EMM / SERVER CLINE"
+msgstr ""
+
+msgid "Maxdown +"
+msgstr "מאַקסדאָוון +"
+
+msgid "Maxdown -"
+msgstr "מאַקסדאָוון -"
+
+msgid "Maxdown:"
+msgstr "מאַקסדאָוון:"
+
+msgid "Menu config"
+msgstr "מעניו קאַנפיגיער"
+
+msgid "NCamInfo not available"
+msgstr "NCamInfo ניט בנימצא"
+
+msgid "Ncam not running - start Cam to obtain information."
+msgstr "Ncam איז נישט פליסנדיק - אָנהייב קאַם צו באַקומען אינפֿאָרמאַציע."
+
+msgid "New"
+msgstr "ניו"
+
+msgid "New profile:"
+msgstr "ניו פּראָפיל:"
+
+msgid "NewCamd"
+msgstr ""
+
+msgid "No ECM data"
+msgstr "קיין ECM דאַטן"
+
+msgid "No ECM data - Timeout"
+msgstr "קיין ECM דאַטן - טיימאַוט"
+
+msgid "No ECM file"
+msgstr "קיין ECM טעקע"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "קיין ECM אינפֿאָרמאַציע איז דערווייַל בנימצא. דאָס איז בלויז בנימצא בשעת דעקריפּטינג."
+
+msgid "No active cam to restart!"
+msgstr "קיין אַקטיוו קאַם צו ריסטאַרט!"
+
+msgid "No backups available!"
+msgstr "קיין באַקאַפּס בנימצא!"
+
+msgid "No card inserted!"
+msgstr "קיין קארטל איז נישט אריינגעלייגט!"
+
+msgid "No softcams available!"
+msgstr "קיין סאָפטקאַמס בנימצא!"
+
+msgid "No valid backups found!"
+msgstr "קיין גילטיק באַקאַפּס געפֿונען!"
+
+msgid "NodeID"
+msgstr ""
+
+msgid "NodeID:"
+msgstr ""
+
+msgid "OK"
+msgstr "גוט"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam דערהייַנטיקן טיימד אויס. קוק /tmp/oscam_update.log פֿאַר פרטים."
+
+msgid "OSCamInfo not available"
+msgstr "OSCamInfo ניט בנימצא"
+
+msgid "Oscam not running - start Cam to obtain information."
+msgstr "אָסקאַם איז נישט פליסנדיק - אָנהייב קאַם צו באַקומען אינפֿאָרמאַציע."
+
+msgid "PRESS RETURN"
+msgstr "דרוק צוריק"
+
+msgid "Password"
+msgstr "שפּריכוואָרט"
+
+msgid "Password (httpwd)"
+msgstr "שפּריכוואָרט (httpwd)"
+
+msgid "Peak load (max queued requests per workerthread)"
+msgstr "שפּיץ מאַסע (מאַקסימום ריי ריקוועס פּער וואָרקער פאָדעם)"
+
+msgid "Pid"
+msgstr "פּיד"
+
+msgid "Please Reset - No File CFG"
+msgstr "ביטע באַשטעטיק - קיין טעקע CFG"
+
+msgid "Please select ..."
+msgstr "ביטע אויסקלייַבן ..."
+
+msgid "Please select a line to edit or select add to create new line."
+msgstr "ביטע אויסקלייַבן אַ שורה צו רעדאַגירן אָדער סעלעקטירן לייגן צו שאַפֿן נייַע שורה."
+
+msgid "Please wait, %s."
+msgstr "ביטע וואַרטן, %s."
+
+msgid "Port"
+msgstr "פּאָרט"
+
+msgid "Profile"
+msgstr "פּראָפיל"
+
+msgid "Profile: Local box"
+msgstr "פּראָפיל: לאקאלע קעסטל"
+
+msgid "Protocol"
+msgstr "פּראָטאָקאָל"
+
+msgid "Provider"
+msgstr "פּראַוויידער"
+
+msgid "Provider Name:"
+msgstr "אָנגעשטעלטער נאָמען:"
+
+msgid "Provider:"
+msgstr "פאַרזאָרגער:"
+
+msgid "Providers"
+msgstr "פּראַוויידערז"
+
+msgid "Providers:"
+msgstr "פּראַוויידערז:"
+
+msgid "Quick restart %s?"
+msgstr "שנעל ריסטאַרט %s?"
+
+msgid "Read Userdata from %s.conf"
+msgstr "לייענען Userdata פֿון %s.conf"
+
+msgid "Reader"
+msgstr "לייענער"
+
+msgid "Reader Statistics"
+msgstr "לייענער סטאַטיסטיק"
+
+msgid "Reader/User"
+msgstr "לייענער / באַניצער"
+
+msgid "Recover Peer"
+msgstr "צוריקקריגן פּיר"
+
+msgid "Remote box"
+msgstr "ווייַט קעסטל"
+
+msgid "Remove"
+msgstr "אַראָפּנעמען"
+
+msgid "Remove the Line from CCcam.cfg"
+msgstr "אַראָפּנעמען די שורה פון CCcam.cfg"
+
+msgid "Removing %s"
+msgstr "רימוווינג %s"
+
+msgid "Rename"
+msgstr "רענאַמע"
+
+msgid "Rename failed!"
+msgstr "רענאַמע ניט אַנדערש!"
+
+msgid "Rename to:"
+msgstr "רענאַמע צו:"
+
+msgid "Renamed %s!"
+msgstr "ריניימד %s!"
+
+msgid "Reset"
+msgstr "באַשטעטיק"
+
+msgid "Reshare"
+msgstr "ייַנטיילן ווידער"
+
+msgid "Reshare:"
+msgstr "ייַנטיילן:"
+
+msgid "Resources"
+msgstr "רעסאָורסעס"
+
+msgid "Restart GUI?"
+msgstr "ריסטאַרט GUI?"
+
+msgid "Restart error: %s"
+msgstr "ריסטאַרט טעות: %s"
+
+msgid "Restart softcam to apply restored configuration?"
+msgstr "ריסטאַרט סאָפטקאַם צו צולייגן געזונט קאַנפיגיעריישאַן?"
+
+msgid "Save"
+msgstr "היט"
+
+msgid "Scanning and retrieval list softcam ..."
+msgstr "סקאַנינג און ריטריוואַל רשימה סאָפטקאַם ..."
+
+msgid "Select CCcam"
+msgstr "אויסקלייַבן CCcam"
+
+msgid "Select Get Link"
+msgstr "אויסקלייַבן באַקומען לינק"
+
+msgid "Select Ncam"
+msgstr "אויסקלייַבן Ncam"
+
+msgid "Select OScam"
+msgstr "אויסקלייַבן OScam"
+
+msgid "Select Your Choice"
+msgstr "אויסקלייַבן דיין ברירה"
+
+msgid "Select a cam to run ..."
+msgstr "אויסקלייַבן אַ קאַם צו לויפן ..."
+
+msgid "Select and Install"
+msgstr "אויסקלייַבן און ינסטאַלירן"
+
+msgid "Select backup to restore:"
+msgstr "אויסקלייַבן באַקאַפּ צו ומקערן:"
+
+msgid "Server %s-%s"
+msgstr "סערווער %s-%s"
+
+msgid "Server Config"
+msgstr "סערווירער קאָנפיג"
+
+msgid "Server Copy in"
+msgstr "סערווירער קאָפּי אין"
+
+msgid "Server Link"
+msgstr "סערווירער לינק"
+
+msgid "Server Password"
+msgstr "סערווירער שפּריכוואָרט"
+
+msgid "Server Port"
+msgstr "סערווירער פּאָרט"
+
+msgid "Server URL"
+msgstr "סערווירער URL"
+
+msgid "Server Url i.e. 012.345.678.900"
+msgstr "סערווירער URL הייסט 012.345.678.900"
+
+msgid "Server Username"
+msgstr "סערווירער נאמען"
+
+msgid "Server:"
+msgstr "סערווער:"
+
+msgid "Servers"
+msgstr "סערווערס"
+
+msgid "Servers:"
+msgstr "סערווערס:"
+
+msgid "Service"
+msgstr "סערוויס"
+
+msgid "Set as UNIQUE PEER"
+msgstr "שטעלן ווי יינציק PEER"
+
+msgid "Setup"
+msgstr "סעטאַפּ"
+
+msgid "Share View"
+msgstr "ייַנטיילן View"
+
+msgid "Shares"
+msgstr "שאַרעס"
+
+msgid "Show Clients"
+msgstr "ווייַזן קלייאַנץ"
+
+msgid "Show Ecm info"
+msgstr "ווייַזן Ecm אינפֿאָרמאַציע"
+
+msgid "Show Log"
+msgstr "ווייַזן קלאָץ"
+
+msgid "Show Readers/Proxies"
+msgstr "ווייַזן רידערז / פּראַקסיז"
+
+msgid "Softcam Manager"
+msgstr "סאָפטקאַם מאַנאַגער"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "סאָפטקאַם ריסטאַרטיד מיט נייַע קאַנפיגיעריישאַן!"
+
+msgid "Start"
+msgstr "אָנהייב"
+
+msgid "Status"
+msgstr "סטאַטוס"
+
+msgid "Stop"
+msgstr "האַלטן"
+
+msgid "Stop Finding Fakes"
+msgstr "האַלטן געפֿינען פאַקעס"
+
+msgid "Switch config"
+msgstr "באַשטימען קאַנפיגיעריישאַן"
+
+msgid "System"
+msgstr "סיסטעם"
+
+msgid "System cleanup completed!"
+msgstr "סיסטעם קלינאַפּ געענדיקט!"
+
+msgid "System:"
+msgstr "סיסטעם:"
+
+msgid "Temporarely DELETED"
+msgstr "צייטווייליג אויסגעמעקט"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "דער פּלוגין ווייזט איר די סטאַטוס פון דיין CCcam"
+
+msgid "Total"
+msgstr "גאַנץ"
+
+msgid "Total cards:"
+msgstr "גאַנץ קאַרדס:"
+
+msgid "Total handled client ecm's"
+msgstr "גאַנץ כאַנדאַלד קליענט עקם ס"
+
+msgid "Total handled client emm's"
+msgstr "גאַנץ כאַנדאַלד קליענט עמ ס"
+
+msgid "Total:"
+msgstr "גאַנץ:"
+
+msgid "Try again later ..."
+msgstr "פּרוּווט ווידער שפּעטער..."
+
+msgid "Type:"
+msgstr "טיפּ:"
+
+msgid "UNDELETED"
+msgstr ""
+
+msgid "Unable to make the script executable: %s"
+msgstr "ניט געקענט מאַכן די שריפט עקסאַקיוטאַבאַל: %s"
+
+msgid "Unknow Image!"
+msgstr "אומבאַקאַנט בילד!"
+
+msgid "Update"
+msgstr "דערהייַנטיקן"
+
+msgid "Update Aborted!"
+msgstr "דערהייַנטיקן אַבאָרטיד!"
+
+msgid "Update interval (in seconds)"
+msgstr "דערהייַנטיקן מעהאַלעך (אין סעקונדעס)"
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops -"
+msgstr "אפשאפס -"
+
+msgid "Uphops:"
+msgstr "אפהאפס:"
+
+msgid "Uptime"
+msgstr "ופּטימע"
+
+msgid "Used:"
+msgstr "געוויינט:"
+
+msgid "Username"
+msgstr "נאמען"
+
+msgid "Username (httpuser)"
+msgstr "באַניצער נאָמען (הטטפּ באַניצער)"
+
+msgid "Using old profile:"
+msgstr "ניצן אַלט פּראָפיל:"
+
+msgid "Version:"
+msgstr "ווערסיע:"
+
+msgid "Wait please..."
+msgstr "ווארט ביטע..."
+
+msgid "Write"
+msgstr "שרייב"
+
+msgid "Write-Debug"
+msgstr "שרייב-דעבוג"
+
+msgid "You have the latest version!"
+msgstr "איר האָט די לעצטע ווערסיע!"
+
+msgid "\n"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr "\ט צושטעלן:"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "אַ גאָרנישט.צו.ונדעלע"
+
+msgid "address:"
+msgstr "אַדרעס:"
+
+msgid "and"
+msgstr "און"
+
+msgid "caid:"
+msgstr "קאַיד:"
+
+msgid "card"
+msgstr "קאָרט"
+
+msgid "card reader"
+msgstr "קאָרט לייענער"
+
+msgid "close share view"
+msgstr "נאָענט טיילן מיינונג"
+
+msgid "decrease uphop by 1"
+msgstr "פאַרמינערן די אַפּהאָפּ מיט 1"
+
+msgid "ecm time:"
+msgstr "ecm צייט:"
+
+msgid "ecm.info"
+msgstr ""
+
+msgid "get the cards' server"
+msgstr "באַקומען די קאַרדס 'סערווער"
+
+msgid "handled"
+msgstr "כאַנדאַלד"
+
+msgid "hops:"
+msgstr "האָפּס:"
+
+msgid "increase uphop by 1"
+msgstr "פאַרגרעסערן אַפּהאָפּ מיט 1"
+
+msgid "info"
+msgstr "אינפֿאָרמאַציע"
+
+msgid "no or unknown card inserted"
+msgstr "קיין אָדער אומבאַקאַנט קאָרט ינסערטאַד"
+
+msgid "pid:"
+msgstr "פּיד:"
+
+msgid "provid:"
+msgstr "צושטעלן:"
+
+msgid "provider:"
+msgstr "פאַרזאָרגער:"
+
+msgid "share:"
+msgstr "טיילן:"
+
+msgid "show all cards"
+msgstr "ווייַזן אַלע קאַרדס"
+
+msgid "show cards with uphop 0"
+msgstr "ווייַזן קאַרדס מיט Uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "ווייַזן קאַרדס מיט Uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "ווייַזן קאַרדס מיט Uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "ווייַזן קאַרדס מיט Uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "ווייַזן קאַרדס מיט Uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "ווייַזן קאַרדס מיט Uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "ווייַזן קאַרדס מיט Uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "ווייַזן קאַרדס מיט Uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "ווייַזן קאַרדס מיט Uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "ווייַזן קאַרדס מיט Uphop 9"
+
+msgid "system:"
+msgstr "סיסטעם:"
+
+msgid "using:"
+msgstr "ניצן:"
+
+msgid "xLine"
+msgstr ""
