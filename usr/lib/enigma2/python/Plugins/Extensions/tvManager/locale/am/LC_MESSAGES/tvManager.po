@@ -98,7 +98,7 @@ msgid "CCPrioMaker autostart"
 msgstr "CCPrioMaker ራስ-ጀምር"
 
 msgid "CCcam"
-msgstr ""
+msgstr "ሲ.ሲ.ኬ"
 
 msgid "CCcam Clients Info"
 msgstr "የCCcam ደንበኞች መረጃ"

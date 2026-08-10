@@ -711,7 +711,7 @@ msgid "Shares"
 msgstr "Aktier"
 
 msgid "Show Clients"
-msgstr ""
+msgstr "Visa kunder"
 
 msgid "Show Ecm info"
 msgstr "Visa Ecm info"
@@ -720,13 +720,13 @@ msgid "Show Log"
 msgstr "Visa logg"
 
 msgid "Show Readers/Proxies"
-msgstr ""
+msgstr "Visa läsare/fullmakter"
 
 msgid "Softcam Manager"
 msgstr ""
 
 msgid "Softcam restarted with new configuration!"
-msgstr ""
+msgstr "Softcam startade om med ny konfiguration!"
 
 msgid "Start"
 msgstr ""
@@ -747,13 +747,13 @@ msgid "System"
 msgstr ""
 
 msgid "System cleanup completed!"
-msgstr ""
+msgstr "Systemrensning klar!"
 
 msgid "System:"
 msgstr ""
 
 msgid "Temporarely DELETED"
-msgstr ""
+msgstr "Tillfälligt RADERAT"
 
 msgid "This plugin shows you the status of your CCcam"
 msgstr "Detta plugin visar statusen för din CCcam"

@@ -659,7 +659,7 @@ msgid "Select backup to restore:"
 msgstr "Zgjidhni kopjen rezervë për të rivendosur:"
 
 msgid "Server %s-%s"
-msgstr ""
+msgstr "Serveri %s-%s"
 
 msgid "Server Config"
 msgstr "Konfigurimi i serverit"

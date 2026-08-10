@@ -129,7 +129,7 @@ msgid "CCcam Line Editor"
 msgstr "Editor riadkov CCcam"
 
 msgid "CCcam Organizer"
-msgstr ""
+msgstr "Organizátor CCcam"
 
 msgid "CCcam Prio Maker"
 msgstr "Tvorca CCcam Prio"

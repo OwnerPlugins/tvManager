@@ -209,7 +209,7 @@ msgid "Clients"
 msgstr "Мизоҷон"
 
 msgid "Close"
-msgstr ""
+msgstr "Пӯшед"
 
 msgid "Command Cancelled"
 msgstr "Фармон бекор карда шуд"

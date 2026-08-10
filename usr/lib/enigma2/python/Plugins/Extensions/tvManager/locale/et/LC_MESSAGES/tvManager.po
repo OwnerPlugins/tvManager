@@ -402,7 +402,7 @@ msgid "Idle Time:"
 msgstr "Jõudeaeg:"
 
 msgid "If Active: Download/Reset Server Config"
-msgstr ""
+msgstr "Kui aktiivne: laadige alla/lähtestage serveri konfiguratsioon"
 
 msgid "Install Cam first!!!"
 msgstr "Installige kaamera esmalt!!!"

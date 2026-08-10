@@ -272,7 +272,7 @@ msgid "ECM data format error"
 msgstr "Error sa format ng data ng ECM"
 
 msgid "ECM error"
-msgstr ""
+msgstr "Error sa ECM"
 
 msgid "ECM file empty"
 msgstr "Walang laman ang ECM file"

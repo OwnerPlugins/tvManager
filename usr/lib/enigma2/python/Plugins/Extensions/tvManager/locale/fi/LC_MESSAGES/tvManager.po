@@ -816,7 +816,7 @@ msgid "Username"
 msgstr "Käyttäjätunnus"
 
 msgid "Username (httpuser)"
-msgstr ""
+msgstr "Käyttäjätunnus (httpuser)"
 
 msgid "Using old profile:"
 msgstr "Vanhan profiilin käyttö:"

@@ -462,7 +462,7 @@ msgid "New"
 msgstr "Nauja"
 
 msgid "New profile:"
-msgstr ""
+msgstr "Naujas profilis:"
 
 msgid "NewCamd"
 msgstr ""
@@ -471,7 +471,7 @@ msgid "No ECM data"
 msgstr "Nėra ECM duomenų"
 
 msgid "No ECM data - Timeout"
-msgstr ""
+msgstr "Nėra ECM duomenų – skirtasis laikas"
 
 msgid "No ECM file"
 msgstr "Nėra ECM failo"

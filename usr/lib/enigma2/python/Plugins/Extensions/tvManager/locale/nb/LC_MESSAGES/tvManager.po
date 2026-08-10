@@ -888,7 +888,7 @@ msgid "info"
 msgstr ""
 
 msgid "no or unknown card inserted"
-msgstr ""
+msgstr "intet eller ukjent kort satt inn"
 
 msgid "pid:"
 msgstr ""

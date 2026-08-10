@@ -626,7 +626,7 @@ msgid "Restart error: %s"
 msgstr "Herstartflater: %s"
 
 msgid "Restart softcam to apply restored configuration?"
-msgstr ""
+msgstr "Softcam opnij starte om weromsette konfiguraasje oan te passen?"
 
 msgid "Save"
 msgstr "Rêde"
@@ -689,7 +689,7 @@ msgid "Server:"
 msgstr "Tsjinner:"
 
 msgid "Servers"
-msgstr ""
+msgstr "Tsjinners"
 
 msgid "Servers:"
 msgstr "Tsjinners:"

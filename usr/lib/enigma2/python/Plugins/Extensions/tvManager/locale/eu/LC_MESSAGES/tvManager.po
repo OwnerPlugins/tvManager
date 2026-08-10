@@ -494,7 +494,7 @@ msgid "No valid backups found!"
 msgstr "Ez da baliozko babeskopirik aurkitu!"
 
 msgid "NodeID"
-msgstr ""
+msgstr "Nodo ID"
 
 msgid "NodeID:"
 msgstr "Nodo ID:"

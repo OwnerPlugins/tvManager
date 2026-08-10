@@ -102,7 +102,7 @@ msgid "CCcam"
 msgstr "cccam"
 
 msgid "CCcam Clients Info"
-msgstr ""
+msgstr "CCcam klientoplysninger"
 
 msgid "CCcam Config Switcher"
 msgstr ""

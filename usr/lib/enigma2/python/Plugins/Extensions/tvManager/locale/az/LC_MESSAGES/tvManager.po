@@ -245,7 +245,7 @@ msgid "Delete"
 msgstr "Sil"
 
 msgid "Delete %s?"
-msgstr ""
+msgstr "%s silinsin?"
 
 msgid "Delete Peer"
 msgstr "Peer-i silin"

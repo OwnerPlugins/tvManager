@@ -362,7 +362,7 @@ msgid "Force Update"
 msgstr "Хүчээр шинэчлэх"
 
 msgid "Free memory"
-msgstr ""
+msgstr "Чөлөөт санах ой"
 
 msgid "Free memory:"
 msgstr "Чөлөөт санах ой:"
