@@ -836,11 +836,11 @@ msgstr "Schrijf-debug"
 msgid "You have the latest version!"
 msgstr "Je hebt de nieuwste versie!"
 
-msgid "\n"
-msgstr "\N"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\N"
 
-msgid "\tProvid:"
-msgstr "\tGeef op:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tGeef op:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "een NIETS TE UNDELE"

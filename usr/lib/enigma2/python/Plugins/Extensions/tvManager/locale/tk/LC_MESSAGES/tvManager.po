@@ -835,11 +835,11 @@ msgstr "-Azmak-düzetmek"
 msgid "You have the latest version!"
 msgstr "Iň soňky wersiýaňyz bar!"
 
-msgid "\n"
-msgstr "\ n"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\ n"
 
-msgid "\tProvid:"
-msgstr "\ tProvid:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\ tProvid:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "HÖKMAN.TO.UNDELE"

@@ -836,11 +836,11 @@ msgstr "Rašymas – derinimas"
 msgid "You have the latest version!"
 msgstr "Turite naujausią versiją!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tPateikti:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tPateikti:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NIEKO.TO.UNELE"

@@ -836,11 +836,11 @@ msgstr "Pisanje-Debug"
 msgid "You have the latest version!"
 msgstr "Imate najnoviju verziju!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tPruža:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tPruža:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NIŠTA.TO.UNDELE"

@@ -835,11 +835,11 @@ msgstr "Escritura-Depuración"
 msgid "You have the latest version!"
 msgstr "Tes a última versión!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tProporcionar:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tProporcionar:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "un NADA.TO.UNDELE"

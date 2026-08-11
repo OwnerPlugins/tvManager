@@ -835,11 +835,11 @@ msgstr "Andika-Tatua"
 msgid "You have the latest version!"
 msgstr "Una toleo jipya zaidi!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tHutoa:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tHutoa:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a HAKUNA.KWA.UNDELE"

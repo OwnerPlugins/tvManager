@@ -836,11 +836,11 @@ msgstr "Write-Debug"
 msgid "You have the latest version!"
 msgstr "You have the latest version!"
 
-msgid "\n"
-msgstr "\n"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\n"
 
-msgid "\tProvid:"
-msgstr "\tProvid:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tProvid:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NOTHING.TO.UNDELE"

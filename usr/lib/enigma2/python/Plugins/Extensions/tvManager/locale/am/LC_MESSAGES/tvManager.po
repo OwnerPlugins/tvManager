@@ -835,11 +835,11 @@ msgstr "ጻፍ-ማረም"
 msgid "You have the latest version!"
 msgstr "የቅርብ ጊዜው ስሪት አለዎት!"
 
-msgid "\n"
-msgstr ""
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\\\\\n"
 
-msgid "\tProvid:"
-msgstr "\t ማቅረብ፡"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\t ማቅረብ፡"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "አንድ ምናምን.ለማድረግ"

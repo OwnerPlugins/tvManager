@@ -835,10 +835,10 @@ msgstr "લખો-ડિબગ કરો"
 msgid "You have the latest version!"
 msgstr "તમારી પાસે નવીનતમ સંસ્કરણ છે!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "પૂરી પાડો:"
 
 msgid "a NOTHING.TO.UNDELE"

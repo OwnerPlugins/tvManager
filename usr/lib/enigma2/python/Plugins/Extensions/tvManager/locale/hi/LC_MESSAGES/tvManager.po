@@ -835,11 +835,11 @@ msgstr "लिखें-डिबग"
 msgid "You have the latest version!"
 msgstr "आपके पास नवीनतम संस्करण है!"
 
-msgid "\n"
-msgstr "\एन"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\एन"
 
-msgid "\tProvid:"
-msgstr "\tप्रदान करें:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tप्रदान करें:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "कुछ भी नहीं.अंडेले को"

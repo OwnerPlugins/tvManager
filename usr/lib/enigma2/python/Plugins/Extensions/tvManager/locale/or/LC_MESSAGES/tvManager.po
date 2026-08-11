@@ -835,11 +835,11 @@ msgstr "ଲେଖ-ଡିବଗ୍ |"
 msgid "You have the latest version!"
 msgstr "ଆପଣଙ୍କର ସର୍ବଶେଷ ସଂସ୍କରଣ ଅଛି!"
 
-msgid "\n"
-msgstr "\ n"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\ n"
 
-msgid "\tProvid:"
-msgstr "\ t ପ୍ରୋଭିଡ୍:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\ t ପ୍ରୋଭିଡ୍:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ଏକ NOTHING.TO.UNDELE |"

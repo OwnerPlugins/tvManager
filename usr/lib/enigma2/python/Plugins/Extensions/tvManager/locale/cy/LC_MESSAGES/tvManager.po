@@ -835,11 +835,11 @@ msgstr "Ysgrifennu-Debug"
 msgid "You have the latest version!"
 msgstr "Mae gennych y fersiwn diweddaraf!"
 
-msgid "\n"
-msgstr ""
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\\\\\n"
 
-msgid "\tProvid:"
-msgstr "\ Darparu:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\ Darparu:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a DIM.TO.UNDELE"

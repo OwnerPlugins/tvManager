@@ -835,11 +835,11 @@ msgstr "كتابة التصحيح"
 msgid "You have the latest version!"
 msgstr "لديك أحدث إصدار!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tتوفير:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tتوفير:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "لا شيء.إلى.UNDELE"

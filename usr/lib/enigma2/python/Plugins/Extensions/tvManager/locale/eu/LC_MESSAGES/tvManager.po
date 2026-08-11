@@ -835,11 +835,11 @@ msgstr "Idatzi-Araztu"
 msgid "You have the latest version!"
 msgstr "Azken bertsioa duzu!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tEman:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tEman:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a EZER.TO.UNDELE"

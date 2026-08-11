@@ -836,11 +836,11 @@ msgstr "Написати-Налагодити"
 msgid "You have the latest version!"
 msgstr "У вас остання версія!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tНадання:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tНадання:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a НІЧОГО.ВІДМЕНИТИ"

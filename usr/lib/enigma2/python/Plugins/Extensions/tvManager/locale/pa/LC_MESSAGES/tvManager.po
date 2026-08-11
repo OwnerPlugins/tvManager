@@ -835,10 +835,10 @@ msgstr "ਲਿਖੋ-ਡੀਬੱਗ ਕਰੋ"
 msgid "You have the latest version!"
 msgstr "ਤੁਹਾਡੇ ਕੋਲ ਨਵੀਨਤਮ ਸੰਸਕਰਣ ਹੈ!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "ਪ੍ਰਦਾਨ ਕਰੋ:"
 
 msgid "a NOTHING.TO.UNDELE"

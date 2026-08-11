@@ -835,10 +835,10 @@ msgstr "ولیکئ - ډیبګ"
 msgid "You have the latest version!"
 msgstr "تاسو وروستۍ نسخه لرئ!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "برابرول:"
 
 msgid "a NOTHING.TO.UNDELE"

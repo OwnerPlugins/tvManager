@@ -835,11 +835,11 @@ msgstr "Skryf-Ontfout"
 msgid "You have the latest version!"
 msgstr "Jy het die nuutste weergawe!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tVoorsien:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tVoorsien:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "'n NIKS.OM.TE"

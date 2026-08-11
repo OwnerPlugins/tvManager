@@ -843,11 +843,11 @@ msgstr "Scrivi-Debug"
 msgid "You have the latest version!"
 msgstr "Hai l'ultima versione!"
 
-msgid "\n"
-msgstr "\n"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\n"
 
-msgid "\tProvid:"
-msgstr "\tFornisci:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tFornisci:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NIENTE.DA.UNDELE"

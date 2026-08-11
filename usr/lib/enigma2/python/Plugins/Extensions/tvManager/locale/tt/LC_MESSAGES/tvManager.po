@@ -835,11 +835,11 @@ msgstr "Язу-төзәтү"
 msgid "You have the latest version!"
 msgstr "Сезнең соңгы версиягез бар!"
 
-msgid "\n"
-msgstr "\ n"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\ n"
 
-msgid "\tProvid:"
-msgstr "\ tПровид:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\ tПровид:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "БЕРЕНЧЕ.ТО.УНДЕЛЕ"

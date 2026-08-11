@@ -836,11 +836,11 @@ msgstr "Rakstīt-atkļūdot"
 msgid "You have the latest version!"
 msgstr "Jums ir jaunākā versija!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tNodrošina:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tNodrošina:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NEKAS.TO.ATDELE"

@@ -835,11 +835,11 @@ msgstr "Ikteb-Debug"
 msgid "You have the latest version!"
 msgstr "Għandek l-aħħar verżjoni!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tProva:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tProva:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a XEJN.TO.UNDELE"

@@ -836,11 +836,11 @@ msgstr ""
 msgid "You have the latest version!"
 msgstr "Sie haben die neueste Version!"
 
-msgid "\n"
-msgstr "\N"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\N"
 
-msgid "\tProvid:"
-msgstr "\tBereitstellen:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tBereitstellen:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ein NICHTS.ZUM.UNDELE"

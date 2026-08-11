@@ -835,11 +835,11 @@ msgstr ""
 msgid "You have the latest version!"
 msgstr "သင့်တွင် နောက်ဆုံးထွက်ဗားရှင်းရှိသည်။"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tProvid-"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tProvid-"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "NOTHING.TO.UNDELE"

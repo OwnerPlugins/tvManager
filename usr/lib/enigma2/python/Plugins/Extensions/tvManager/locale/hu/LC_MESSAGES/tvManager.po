@@ -836,11 +836,11 @@ msgstr ""
 msgid "You have the latest version!"
 msgstr "Megvan a legújabb verzió!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tAdja meg:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tAdja meg:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a SEMMI.TO.UNELE"

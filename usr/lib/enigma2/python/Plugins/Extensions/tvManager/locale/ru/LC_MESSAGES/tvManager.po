@@ -836,11 +836,11 @@ msgstr "Запись-отладка"
 msgid "You have the latest version!"
 msgstr "У вас последняя версия!"
 
-msgid "\n"
-msgstr "\п"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\п"
 
-msgid "\tProvid:"
-msgstr "\tПредоставление:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tПредоставление:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "НИЧЕГО.ТО.ОТМЕНИТЬ"

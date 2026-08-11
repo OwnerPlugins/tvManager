@@ -836,11 +836,11 @@ msgstr ""
 msgid "You have the latest version!"
 msgstr "Máte nejnovější verzi!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tPoskytněte:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tPoskytněte:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NIC.K.ODBĚRU"

@@ -836,11 +836,11 @@ msgstr "Scríobh-Debug"
 msgid "You have the latest version!"
 msgstr "Tá an leagan is déanaí agat!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\ sholáthar:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\ sholáthar:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "rud ar bith.GO.UNDELE"

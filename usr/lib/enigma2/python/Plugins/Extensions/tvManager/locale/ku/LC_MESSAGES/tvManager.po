@@ -835,11 +835,11 @@ msgstr "Binivîsin-Debug"
 msgid "You have the latest version!"
 msgstr "We guhertoya herî dawî heye!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tPêşkêşî:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tPêşkêşî:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "TIŞTÎ.TO.UNDELE"

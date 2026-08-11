@@ -836,11 +836,11 @@ msgstr "Yazma-Hata Ayıklama"
 msgid "You have the latest version!"
 msgstr "En son sürüme sahipsiniz!"
 
-msgid "\n"
-msgstr "\N"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\N"
 
-msgid "\tProvid:"
-msgstr ""
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\\\\\\\\\tŞunu sağlayın:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "SÖYLENECEK HİÇBİR ŞEY"

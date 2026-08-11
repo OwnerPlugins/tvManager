@@ -835,11 +835,11 @@ msgstr "写调试"
 msgid "You have the latest version!"
 msgstr "你已经是最新版本了！"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\t提供："
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\t提供："
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "无需取消删除"

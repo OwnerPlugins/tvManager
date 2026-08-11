@@ -835,11 +835,11 @@ msgstr "Yaz-Debug"
 msgid "You have the latest version!"
 msgstr "Ən son versiyanız var!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tTəqdim edin:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tTəqdim edin:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "SİLMƏK ÜÇÜN HEÇ BİR ŞEY"

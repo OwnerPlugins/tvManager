@@ -836,11 +836,11 @@ msgstr "Εγγραφή-Εντοπισμός σφαλμάτων"
 msgid "You have the latest version!"
 msgstr "Έχετε την πιο πρόσφατη έκδοση!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tΠαροχή:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tΠαροχή:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ένα ΤΙΠΟΤΑ.TO.UNDELE"

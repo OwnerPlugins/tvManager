@@ -836,11 +836,11 @@ msgstr "Écriture-Débogage"
 msgid "You have the latest version!"
 msgstr "Vous disposez de la dernière version !"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tFournir :"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tFournir :"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a RIEN.A.UNDELE"

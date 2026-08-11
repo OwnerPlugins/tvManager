@@ -835,11 +835,11 @@ msgstr "Запишување-Дебагирање"
 msgid "You have the latest version!"
 msgstr "Ја имате најновата верзија!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tОбезбедете:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tОбезбедете:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "НИШТО.TO.UNDELE"

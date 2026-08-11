@@ -835,10 +835,10 @@ msgstr "लिहा-डीबग करा"
 msgid "You have the latest version!"
 msgstr "तुमच्याकडे नवीनतम आवृत्ती आहे!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "प्रदान करा:"
 
 msgid "a NOTHING.TO.UNDELE"

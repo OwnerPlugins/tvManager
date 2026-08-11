@@ -835,11 +835,11 @@ msgstr "Жазу - Түзету"
 msgid "You have the latest version!"
 msgstr "Сізде соңғы нұсқа бар!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tҚамтамасыз ету:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tҚамтамасыз ету:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ҚОЙЫЛУҒА ЕШТЕҢЕ"

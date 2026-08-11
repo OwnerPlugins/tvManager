@@ -510,7 +510,7 @@ msgid "OSCamInfo not available"
 msgstr "OSCamInfo nie jest dostępne"
 
 msgid "Oscam not running - start Cam to obtain information."
-msgstr ""
+msgstr "Oscam nie działa - uruchom Cam, aby uzyskać informacje."
 
 msgid "PRESS RETURN"
 msgstr "NACIŚNIJ POWRÓT"
@@ -836,11 +836,11 @@ msgstr "Zapis-debugowanie"
 msgid "You have the latest version!"
 msgstr "Masz najnowszą wersję!"
 
-msgid "\n"
-msgstr "\N"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\N"
 
-msgid "\tProvid:"
-msgstr "\tPod warunkiem:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tPod warunkiem:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "NIC DO.ROZWOLNIENIA"

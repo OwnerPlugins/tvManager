@@ -835,11 +835,11 @@ msgstr "എഴുതുക-ഡീബഗ് ചെയ്യുക"
 msgid "You have the latest version!"
 msgstr "നിങ്ങൾക്ക് ഏറ്റവും പുതിയ പതിപ്പുണ്ട്!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\t നൽകുന്നു:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\t നൽകുന്നു:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ഒന്നുമില്ല.ഉണ്ടെലെ"

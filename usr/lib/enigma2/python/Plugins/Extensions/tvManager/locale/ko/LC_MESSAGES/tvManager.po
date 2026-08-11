@@ -836,11 +836,11 @@ msgstr "쓰기 디버그"
 msgid "You have the latest version!"
 msgstr "최신 버전이 있습니다!"
 
-msgid "\n"
-msgstr "\N"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\N"
 
-msgid "\tProvid:"
-msgstr "\t제공:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\t제공:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "아무것도 삭제하지 마세요."

@@ -104,7 +104,7 @@ msgid "CCcam Clients Info"
 msgstr "קקקאַם קלייאַנץ אינפֿאָרמאַציע"
 
 msgid "CCcam Config Switcher"
-msgstr ""
+msgstr "CCcam Config סוויטטשער"
 
 msgid "CCcam ECM Info"
 msgstr "CCcam ECM אינפֿאָרמאַציע"
@@ -835,11 +835,11 @@ msgstr "שרייב-דעבוג"
 msgid "You have the latest version!"
 msgstr "איר האָט די לעצטע ווערסיע!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\ט צושטעלן:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\ט צושטעלן:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "אַ גאָרנישט.צו.ונדעלע"

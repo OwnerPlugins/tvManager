@@ -835,11 +835,11 @@ msgstr "ලියන්න-නිදොස්කරණය"
 msgid "You have the latest version!"
 msgstr "ඔබට නවතම අනුවාදය තිබේ!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\t සපයන්න:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\t සපයන්න:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "UNDELE කිරීමට කිසිවක් නැත"

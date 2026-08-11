@@ -836,11 +836,11 @@ msgstr "Gravação-Depuração"
 msgid "You have the latest version!"
 msgstr "Você tem a versão mais recente!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tForneça:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tForneça:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "um NADA.PARA.UNDELE"

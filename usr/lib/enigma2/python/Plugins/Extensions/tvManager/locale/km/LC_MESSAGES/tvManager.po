@@ -835,11 +835,11 @@ msgstr "សរសេរ-បំបាត់កំហុស"
 msgid "You have the latest version!"
 msgstr "អ្នកមានកំណែចុងក្រោយបំផុត!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\t ផ្តល់ជូន៖"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\t ផ្តល់ជូន៖"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "NOTHING.TO.UNDELE"

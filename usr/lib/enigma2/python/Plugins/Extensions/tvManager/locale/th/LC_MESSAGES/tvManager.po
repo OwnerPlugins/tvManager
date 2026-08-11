@@ -835,11 +835,11 @@ msgstr "เขียน-ดีบั๊ก"
 msgid "You have the latest version!"
 msgstr "คุณมีเวอร์ชันล่าสุดแล้ว!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tให้ไว้:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tให้ไว้:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ไม่มีอะไรที่จะยกเลิก"

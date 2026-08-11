@@ -835,11 +835,11 @@ msgstr "Yozish - nosozliklarni tuzatish"
 msgid "You have the latest version!"
 msgstr "Sizda oxirgi versiya bor!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tTaqdim eting:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tTaqdim eting:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a HECHING.TO.UNDELE"

@@ -836,11 +836,11 @@ msgstr "Viết-Gỡ lỗi"
 msgid "You have the latest version!"
 msgstr "Bạn có phiên bản mới nhất!"
 
-msgid "\n"
-msgstr "\N"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\N"
 
-msgid "\tProvid:"
-msgstr "\tCung cấp:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tCung cấp:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "một KHÔNG GÌ.TO.UNDELE"

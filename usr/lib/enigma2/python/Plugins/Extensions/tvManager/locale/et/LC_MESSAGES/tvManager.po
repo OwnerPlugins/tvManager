@@ -836,11 +836,11 @@ msgstr "Kirjutamine-silumine"
 msgid "You have the latest version!"
 msgstr "Teil on uusim versioon!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tPaku:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tPaku:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a MIDAGI.TO.UNELE"

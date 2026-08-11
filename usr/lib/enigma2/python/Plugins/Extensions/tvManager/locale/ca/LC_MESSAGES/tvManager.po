@@ -835,11 +835,11 @@ msgstr "Escriptura-Depuració"
 msgid "You have the latest version!"
 msgstr "Tens la darrera versió!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tProporcioneu:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tProporcioneu:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "un RES.PER.UNDELE"

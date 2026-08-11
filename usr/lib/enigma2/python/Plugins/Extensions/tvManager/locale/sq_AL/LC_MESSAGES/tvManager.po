@@ -835,11 +835,11 @@ msgstr "Shkruaj-Debug"
 msgid "You have the latest version!"
 msgstr "Ju keni versionin më të fundit!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tSiguroni:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tSiguroni:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "një ASGJE.TO.UNDELE"

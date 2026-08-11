@@ -835,11 +835,11 @@ msgstr "Tulis-Nyahpepijat"
 msgid "You have the latest version!"
 msgstr "Anda mempunyai versi terkini!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tMenyediakan:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tMenyediakan:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr ""

@@ -835,11 +835,11 @@ msgstr "ಬರೆಯಿರಿ-ಡೀಬಗ್ ಮಾಡಿ"
 msgid "You have the latest version!"
 msgstr "ನೀವು ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಹೊಂದಿರುವಿರಿ!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tಒದಗಿಸುವುದು:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tಒದಗಿಸುವುದು:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ಒಂದು ನಥಿಂಗ್.ಟು.ಉಂಡೆಲೆ"

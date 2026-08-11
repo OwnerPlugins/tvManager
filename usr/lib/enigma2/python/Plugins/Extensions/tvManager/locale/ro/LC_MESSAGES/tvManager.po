@@ -836,11 +836,11 @@ msgstr "Scriere-Depanare"
 msgid "You have the latest version!"
 msgstr "Ai cea mai recentă versiune!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tFurnizează:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tFurnizează:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "un NIMIC.LA.UNDELE"

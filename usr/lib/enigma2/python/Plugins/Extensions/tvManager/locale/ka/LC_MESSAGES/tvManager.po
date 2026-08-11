@@ -835,11 +835,11 @@ msgstr "ჩაწერა-გამართვა"
 msgid "You have the latest version!"
 msgstr "თქვენ გაქვთ უახლესი ვერსია!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\t უზრუნველყოს:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\t უზრუნველყოს:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "NOTHING.TO.UDELE"

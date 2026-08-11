@@ -835,11 +835,11 @@ msgstr "Գրել-Վրիպազերծել"
 msgid "You have the latest version!"
 msgstr "Դուք ունեք վերջին տարբերակը:"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tՏրամադրել՝"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tՏրամադրել՝"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "մի NOTHING.TO.UNDELE"

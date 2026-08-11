@@ -836,11 +836,11 @@ msgstr "Skriv-fejlretning"
 msgid "You have the latest version!"
 msgstr "Du har den seneste version!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\t Giv:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\t Giv:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "et INTET.AT.UNDELE"

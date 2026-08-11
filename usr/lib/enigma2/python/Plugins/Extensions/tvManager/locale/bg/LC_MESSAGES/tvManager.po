@@ -836,11 +836,11 @@ msgstr "Писане-Отстраняване на грешки"
 msgid "You have the latest version!"
 msgstr "Имате най-новата версия!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tОсигурява:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tОсигурява:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a НИЩО.ЗА.УНЕДЕЛЕНЕ"

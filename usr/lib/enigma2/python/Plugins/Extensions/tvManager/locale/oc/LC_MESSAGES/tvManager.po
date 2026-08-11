@@ -835,10 +835,10 @@ msgstr "Escriure-Depuracion"
 msgid "You have the latest version!"
 msgstr "Avètz la darrièra version!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr ""
 
 msgid "a NOTHING.TO.UNDELE"

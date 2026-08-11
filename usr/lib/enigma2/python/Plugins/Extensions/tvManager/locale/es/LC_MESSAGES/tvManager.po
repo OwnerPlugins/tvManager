@@ -836,11 +836,11 @@ msgstr "Depuración de escritura"
 msgid "You have the latest version!"
 msgstr "¡Tienes la última versión!"
 
-msgid "\n"
-msgstr "\norte"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\norte"
 
-msgid "\tProvid:"
-msgstr "\tProporcionar:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tProporcionar:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NADA.PARA.DESHACERSE"

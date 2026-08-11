@@ -836,11 +836,11 @@ msgstr "Pisanje-Odpravljanje napak"
 msgid "You have the latest version!"
 msgstr "Imate najnovejšo različico!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tNudi:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tNudi:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NIČ.ZA.UNDELE"

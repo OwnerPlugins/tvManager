@@ -835,11 +835,11 @@ msgstr "எழுது - பிழைத்திருத்தம்"
 msgid "You have the latest version!"
 msgstr "உங்களிடம் சமீபத்திய பதிப்பு உள்ளது!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\t வழங்குவது:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\t வழங்குவது:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ஒன்றுமில்லை.உண்டேல்"

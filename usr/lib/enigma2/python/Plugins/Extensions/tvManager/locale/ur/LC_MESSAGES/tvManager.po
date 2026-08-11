@@ -835,10 +835,10 @@ msgstr "لکھنا ڈیبگ"
 msgid "You have the latest version!"
 msgstr "آپ کے پاس تازہ ترین ورژن ہے!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "فراہم کریں:"
 
 msgid "a NOTHING.TO.UNDELE"

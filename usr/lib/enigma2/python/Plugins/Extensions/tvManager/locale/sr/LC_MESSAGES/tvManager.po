@@ -836,11 +836,11 @@ msgstr "Врите-Дебуг"
 msgid "You have the latest version!"
 msgstr "Имате најновију верзију!"
 
-msgid "\n"
-msgstr "\н"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\н"
 
-msgid "\tProvid:"
-msgstr "\тОбезбедити:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\тОбезбедити:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "а НОТХИНГ.ТО.УНДЕЛЕ"

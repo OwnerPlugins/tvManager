@@ -740,7 +740,7 @@ msgid "Stop Finding Fakes"
 msgstr "Prestanite sa pronalaženjem lažnjaka"
 
 msgid "Switch config"
-msgstr ""
+msgstr "Konfiguracija prekidača"
 
 msgid "System"
 msgstr "Sistem"
@@ -835,11 +835,11 @@ msgstr ""
 msgid "You have the latest version!"
 msgstr "Imate najnoviju verziju!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tOmogućuje:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tOmogućuje:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr ""

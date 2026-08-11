@@ -835,11 +835,11 @@ msgstr "Бичих - Дебаг хийх"
 msgid "You have the latest version!"
 msgstr "Танд хамгийн сүүлийн хувилбар байна!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tБолно уу:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tБолно уу:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "БУЦАХГҮЙ"

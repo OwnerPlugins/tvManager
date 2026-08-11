@@ -287,7 +287,7 @@ msgid "Ecm Info"
 msgstr ""
 
 msgid "Ecm Statistics"
-msgstr ""
+msgstr "Ecm Statistiken"
 
 msgid "Ecm Time"
 msgstr "Ecm Tiid"
@@ -835,11 +835,11 @@ msgstr "Skriuw-Debug"
 msgid "You have the latest version!"
 msgstr "Jo hawwe de lêste ferzje!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tFoarsjen:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tFoarsjen:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "in NOTHING.TO.UNDELE"

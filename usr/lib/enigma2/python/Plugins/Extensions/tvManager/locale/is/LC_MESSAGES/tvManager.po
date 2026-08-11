@@ -835,11 +835,11 @@ msgstr "Skrifa-kembiforrit"
 msgid "You have the latest version!"
 msgstr "Þú ert með nýjustu útgáfuna!"
 
-msgid "\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
-msgid "\tProvid:"
-msgstr "\tGefðu:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tGefðu:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a EKKERT.AÐ.UNDELA"

@@ -830,16 +830,16 @@ msgid "Write"
 msgstr "يېزىڭ"
 
 msgid "Write-Debug"
-msgstr ""
+msgstr "يېزىش-ھەل قىلىش"
 
 msgid "You have the latest version!"
 msgstr "ئەڭ يېڭى نەشرىڭىز بار!"
 
-msgid "\n"
-msgstr "\ n"
+msgid "\\\\\\\\n"
+msgstr "\\\\\\\\ n"
 
-msgid "\tProvid:"
-msgstr "\ tProvid:"
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\ tProvid:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr ""
