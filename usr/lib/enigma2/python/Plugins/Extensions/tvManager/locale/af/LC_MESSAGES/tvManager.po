@@ -835,11 +835,11 @@ msgstr "Skryf-Ontfout"
 msgid "You have the latest version!"
 msgstr "Jy het die nuutste weergawe!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Verskaffer:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,10 @@ msgstr "gebruik:"
 
 msgid "xLine"
 msgstr "xlyn"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Verskaffer:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\tVoorsien:"

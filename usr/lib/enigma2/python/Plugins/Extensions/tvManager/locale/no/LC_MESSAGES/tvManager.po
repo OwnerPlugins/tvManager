@@ -836,11 +836,11 @@ msgstr "Skrive-Debug"
 msgid "You have the latest version!"
 msgstr "Du har den nyeste versjonen!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Leverandør:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -944,6 +944,10 @@ msgstr "bruker:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Leverandør:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\tLegg til:"

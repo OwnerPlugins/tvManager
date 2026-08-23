@@ -835,11 +835,11 @@ msgstr "వ్రాయండి-డీబగ్ చేయండి"
 msgid "You have the latest version!"
 msgstr "మీకు తాజా వెర్షన్ ఉంది!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "ప్రొవైడర్:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,10 @@ msgstr "ఉపయోగించి:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "ప్రొవైడర్:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\tఅందించు:"

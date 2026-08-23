@@ -835,11 +835,11 @@ msgstr "എഴുതുക-ഡീബഗ് ചെയ്യുക"
 msgid "You have the latest version!"
 msgstr "നിങ്ങൾക്ക് ഏറ്റവും പുതിയ പതിപ്പുണ്ട്!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "ദാതാവ്:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,10 @@ msgstr "ഉപയോഗിക്കുന്നത്:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "ദാതാവ്:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\t നൽകുന്നു:"

@@ -835,11 +835,11 @@ msgstr "Ysgrifennu-Debug"
 msgid "You have the latest version!"
 msgstr "Mae gennych y fersiwn diweddaraf!"
 
-msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\n"
+msgid "\\\\n"
+msgstr "\\\\ n"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Darparwr:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,13 @@ msgstr "gan ddefnyddio:"
 
 msgid "xLine"
 msgstr "xLlin"
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Darparwr:"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\n"

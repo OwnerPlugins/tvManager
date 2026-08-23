@@ -835,11 +835,11 @@ msgstr "Бичих - Дебаг хийх"
 msgid "You have the latest version!"
 msgstr "Танд хамгийн сүүлийн хувилбар байна!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Үйлчилгээ үзүүлэгч:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,10 @@ msgstr "ашиглан:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Үйлчилгээ үзүүлэгч:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\tБолно уу:"

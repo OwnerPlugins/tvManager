@@ -835,11 +835,11 @@ msgstr "Навиштан-Debug"
 msgid "You have the latest version!"
 msgstr "Шумо версияи охиринро доред!"
 
-msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\\\\\н"
+msgid "\\\\n"
+msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Таъминкунанда:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,13 @@ msgstr "бо истифода аз:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\н"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Таъминкунанда:"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\н"

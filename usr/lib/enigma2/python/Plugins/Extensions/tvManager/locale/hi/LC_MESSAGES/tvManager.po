@@ -835,11 +835,11 @@ msgstr "लिखें-डिबग"
 msgid "You have the latest version!"
 msgstr "आपके पास नवीनतम संस्करण है!"
 
-msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\\\\\एन"
+msgid "\\\\n"
+msgstr "\\\\\\\\एन"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "प्रदाता:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,13 @@ msgstr "का उपयोग करना:"
 
 msgid "xLine"
 msgstr "एक्सलाइन"
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\एन"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "प्रदाता:"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\एन"

@@ -836,11 +836,11 @@ msgstr "Skribu-Elpurigi"
 msgid "You have the latest version!"
 msgstr "Vi havas la lastan version!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Provizanto:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -944,6 +944,10 @@ msgstr "uzante:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Provizanto:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\tProvizo:"

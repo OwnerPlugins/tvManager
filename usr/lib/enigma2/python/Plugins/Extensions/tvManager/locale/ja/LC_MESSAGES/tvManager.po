@@ -836,11 +836,11 @@ msgstr "書き込みデバッグ"
 msgid "You have the latest version!"
 msgstr "最新バージョンをお持ちです!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "プロバイダー:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -944,6 +944,10 @@ msgstr "使用:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "プロバイダー:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\t提供:"

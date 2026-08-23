@@ -836,11 +836,11 @@ msgstr ""
 msgid "You have the latest version!"
 msgstr "Megvan a legújabb verzió!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Szolgáltató:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -944,6 +944,10 @@ msgstr "használja:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Szolgáltató:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\tAdja meg:"

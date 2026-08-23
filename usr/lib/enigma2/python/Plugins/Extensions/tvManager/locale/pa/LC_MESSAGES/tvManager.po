@@ -835,11 +835,11 @@ msgstr "ਲਿਖੋ-ਡੀਬੱਗ ਕਰੋ"
 msgid "You have the latest version!"
 msgstr "ਤੁਹਾਡੇ ਕੋਲ ਨਵੀਨਤਮ ਸੰਸਕਰਣ ਹੈ!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "ਪ੍ਰਦਾਤਾ:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,10 @@ msgstr "ਵਰਤਦੇ ਹੋਏ:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "ਪ੍ਰਦਾਤਾ:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "ਪ੍ਰਦਾਨ ਕਰੋ:"

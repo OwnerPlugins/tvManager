@@ -836,11 +836,11 @@ msgstr "Schrijf-debug"
 msgid "You have the latest version!"
 msgstr "Je hebt de nieuwste versie!"
 
-msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\\\\\N"
+msgid "\\\\n"
+msgstr "\\\\\\\\N"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Aanbieder:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -944,6 +944,13 @@ msgstr "gebruik makend van:"
 
 msgid "xLine"
 msgstr "xLijn"
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\N"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Aanbieder:"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\N"

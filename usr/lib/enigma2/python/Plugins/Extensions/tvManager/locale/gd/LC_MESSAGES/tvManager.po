@@ -835,11 +835,11 @@ msgstr "Sgrìobh-Debug"
 msgid "You have the latest version!"
 msgstr "Tha an dreach as ùire agad!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr "\\\\\\\\ n"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Solaraiche:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,13 @@ msgstr "a' cleachdadh:"
 
 msgid "xLine"
 msgstr "x loidhne"
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ n"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Solaraiche:"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\ n"

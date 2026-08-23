@@ -836,11 +836,11 @@ msgstr "Zapis-debugowanie"
 msgid "You have the latest version!"
 msgstr "Masz najnowszą wersję!"
 
-msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\\\\\N"
+msgid "\\\\n"
+msgstr "\\\\\\\\N"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Dostawca:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -944,6 +944,13 @@ msgstr "używając:"
 
 msgid "xLine"
 msgstr "xLinia"
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\N"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Dostawca:"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\N"

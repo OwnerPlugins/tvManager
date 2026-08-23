@@ -835,11 +835,11 @@ msgstr "لکھنا ڈیبگ"
 msgid "You have the latest version!"
 msgstr "آپ کے پاس تازہ ترین ورژن ہے!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "فراہم کنندہ:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,10 @@ msgstr "استعمال کرتے ہوئے:"
 
 msgid "xLine"
 msgstr "ایکس لائن"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "فراہم کنندہ:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "فراہم کریں:"

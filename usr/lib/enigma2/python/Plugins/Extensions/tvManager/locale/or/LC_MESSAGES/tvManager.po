@@ -835,11 +835,11 @@ msgstr "ଲେଖ-ଡିବଗ୍ |"
 msgid "You have the latest version!"
 msgstr "ଆପଣଙ୍କର ସର୍ବଶେଷ ସଂସ୍କରଣ ଅଛି!"
 
-msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\\\\\ n"
+msgid "\\\\n"
+msgstr "\\\\\\\\ n"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "ପ୍ରଦାନକାରୀ:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,13 @@ msgstr "ବ୍ୟବହାର କରି:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ n"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "ପ୍ରଦାନକାରୀ:"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\ n"

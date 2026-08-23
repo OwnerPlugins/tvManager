@@ -943,3 +943,7 @@ msgstr "gamit ang:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "ibigay:"

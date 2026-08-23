@@ -835,11 +835,11 @@ msgstr ""
 msgid "You have the latest version!"
 msgstr "သင့်တွင် နောက်ဆုံးထွက်ဗားရှင်းရှိသည်။"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "ပံ့ပိုးသူ-"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,10 @@ msgstr "အသုံးပြုခြင်း-"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "ပံ့ပိုးသူ-"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\tProvid-"

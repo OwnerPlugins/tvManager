@@ -836,11 +836,11 @@ msgstr "Yazma-Hata Ayıklama"
 msgid "You have the latest version!"
 msgstr "En son sürüme sahipsiniz!"
 
-msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\\\\\N"
+msgid "\\\\n"
+msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Sağlayıcı:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -944,6 +944,13 @@ msgstr "kullanarak:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\N"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Sağlayıcı:"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\N"

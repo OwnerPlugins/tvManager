@@ -835,11 +835,11 @@ msgstr "ጻፍ-ማረም"
 msgid "You have the latest version!"
 msgstr "የቅርብ ጊዜው ስሪት አለዎት!"
 
-msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\n"
+msgid "\\\\n"
+msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "አቅራቢ፡"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,13 @@ msgstr "በመጠቀም፡-"
 
 msgid "xLine"
 msgstr "xመስመር"
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "አቅራቢ፡"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\n"

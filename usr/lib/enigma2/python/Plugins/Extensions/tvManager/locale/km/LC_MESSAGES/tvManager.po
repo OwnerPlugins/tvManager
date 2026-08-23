@@ -835,11 +835,11 @@ msgstr "សរសេរ-បំបាត់កំហុស"
 msgid "You have the latest version!"
 msgstr "អ្នកមានកំណែចុងក្រោយបំផុត!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "អ្នកផ្គត់ផ្គង់៖"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,10 @@ msgstr "ដោយប្រើ៖"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "អ្នកផ្គត់ផ្គង់៖"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\t ផ្តល់ជូន៖"

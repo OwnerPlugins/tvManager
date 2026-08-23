@@ -836,11 +836,11 @@ msgstr "Depuración de escritura"
 msgid "You have the latest version!"
 msgstr "¡Tienes la última versión!"
 
-msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\\\\\norte"
+msgid "\\\\n"
+msgstr "\\\\\\\\norte"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Proveedor:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -944,6 +944,13 @@ msgstr "usando:"
 
 msgid "xLine"
 msgstr "Línea x"
+
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\norte"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Proveedor:"
 
 #~ msgid "\\\\\\\\\\\\\\\\n"
 #~ msgstr "\\\\\\\\\\\\\\\\norte"

@@ -835,11 +835,11 @@ msgstr "எழுது - பிழைத்திருத்தம்"
 msgid "You have the latest version!"
 msgstr "உங்களிடம் சமீபத்திய பதிப்பு உள்ளது!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "வழங்குபவர்:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -943,6 +943,10 @@ msgstr "பயன்படுத்தி:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "வழங்குபவர்:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\t வழங்குவது:"

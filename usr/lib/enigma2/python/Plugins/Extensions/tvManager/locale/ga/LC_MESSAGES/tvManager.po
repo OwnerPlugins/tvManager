@@ -836,11 +836,11 @@ msgstr "Scríobh-Debug"
 msgid "You have the latest version!"
 msgstr "Tá an leagan is déanaí agat!"
 
-msgid "\\\\\\\\n"
-msgstr ""
+msgid "\\\\n"
+msgstr "\\\\ n"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Soláthraí:"
 
 msgid "a NOTHING.TO.UNDELE"
@@ -944,6 +944,10 @@ msgstr "ag baint úsáide as:"
 
 msgid "xLine"
 msgstr ""
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Soláthraí:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\ sholáthar:"
