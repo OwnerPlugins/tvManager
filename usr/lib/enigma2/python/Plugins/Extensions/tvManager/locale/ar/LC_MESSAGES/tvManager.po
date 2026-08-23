@@ -838,8 +838,9 @@ msgstr "لديك أحدث إصدار!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tتوفير:"
+msgstr "مزود:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "لا شيء.إلى.UNDELE"
@@ -942,3 +943,6 @@ msgstr "استخدام:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tتوفير:"

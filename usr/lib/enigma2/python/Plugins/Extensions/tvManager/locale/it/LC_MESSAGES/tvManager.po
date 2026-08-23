@@ -844,10 +844,11 @@ msgid "You have the latest version!"
 msgstr "Hai l'ultima versione!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\n"
+msgstr "\\\\\\\\\\\\\\\\N"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tFornisci:"
+msgstr "Fornitore:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NIENTE.DA.UNDELE"
@@ -950,6 +951,12 @@ msgstr "utilizzando:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\n"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tFornisci:"
 
 #~ msgid "Update SoftcamKeys from google search?"
 #~ msgstr "Aggiornamento SoftcamKeys da ricerca google?"

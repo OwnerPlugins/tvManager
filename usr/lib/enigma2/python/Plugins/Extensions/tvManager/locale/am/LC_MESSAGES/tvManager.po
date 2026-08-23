@@ -838,8 +838,9 @@ msgstr "የቅርብ ጊዜው ስሪት አለዎት!"
 msgid "\\\\\\\\n"
 msgstr "\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\t ማቅረብ፡"
+msgstr "አቅራቢ፡"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "አንድ ምናምን.ለማድረግ"
@@ -942,3 +943,9 @@ msgstr "በመጠቀም፡-"
 
 msgid "xLine"
 msgstr "xመስመር"
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\t ማቅረብ፡"

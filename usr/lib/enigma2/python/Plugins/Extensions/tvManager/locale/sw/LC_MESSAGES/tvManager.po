@@ -838,8 +838,9 @@ msgstr "Una toleo jipya zaidi!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tHutoa:"
+msgstr "Mtoa huduma:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a HAKUNA.KWA.UNDELE"
@@ -942,3 +943,6 @@ msgstr "kutumia:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tHutoa:"

@@ -838,8 +838,9 @@ msgstr "Шумо версияи охиринро доред!"
 msgid "\\\\\\\\n"
 msgstr "\\\\\\\\\\\\\\\\н"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tТаъмин кардан:"
+msgstr "Таъминкунанда:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "А ҲЕЧӢ.БА.UNDELE"
@@ -942,3 +943,9 @@ msgstr "бо истифода аз:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\н"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tТаъмин кардан:"

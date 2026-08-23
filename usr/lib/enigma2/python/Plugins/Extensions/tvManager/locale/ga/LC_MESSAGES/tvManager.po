@@ -839,8 +839,9 @@ msgstr "Tá an leagan is déanaí agat!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\ sholáthar:"
+msgstr "Soláthraí:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "rud ar bith.GO.UNDELE"
@@ -943,3 +944,6 @@ msgstr "ag baint úsáide as:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\ sholáthar:"

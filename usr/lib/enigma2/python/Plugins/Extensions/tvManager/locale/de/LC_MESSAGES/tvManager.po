@@ -150,7 +150,7 @@ msgid "CCcam Shares Info"
 msgstr "CCcam teilt Informationen"
 
 msgid "CCcam.cfg Basic Line Editor"
-msgstr ""
+msgstr "CCcam.cfg Einfacher Zeileneditor"
 
 msgid "CCcamInfo not available"
 msgstr "CCcamInfo nicht verfügbar"
@@ -837,10 +837,11 @@ msgid "You have the latest version!"
 msgstr "Sie haben die neueste Version!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\N"
+msgstr "\\\\\\\\\\\\\\\\N"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tBereitstellen:"
+msgstr "Anbieter:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ein NICHTS.ZUM.UNDELE"
@@ -943,3 +944,9 @@ msgstr "mit:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\N"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tBereitstellen:"

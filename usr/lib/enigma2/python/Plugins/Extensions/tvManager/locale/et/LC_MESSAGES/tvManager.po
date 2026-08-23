@@ -839,8 +839,9 @@ msgstr "Teil on uusim versioon!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tPaku:"
+msgstr "Pakkuja:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a MIDAGI.TO.UNELE"
@@ -943,3 +944,6 @@ msgstr "kasutades:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tPaku:"

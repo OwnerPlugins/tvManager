@@ -838,8 +838,9 @@ msgstr "Ju keni versionin më të fundit!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tSiguroni:"
+msgstr "Ofruesi:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "një ASGJE.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "duke përdorur:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tSiguroni:"

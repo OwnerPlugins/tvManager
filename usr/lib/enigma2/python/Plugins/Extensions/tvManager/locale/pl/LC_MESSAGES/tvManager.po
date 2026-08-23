@@ -798,7 +798,7 @@ msgid "Update interval (in seconds)"
 msgstr "Interwał aktualizacji (w sekundach)"
 
 msgid "Uphops +"
-msgstr ""
+msgstr "Uphopy +"
 
 msgid "Uphops -"
 msgstr "Uphopy -"
@@ -837,10 +837,11 @@ msgid "You have the latest version!"
 msgstr "Masz najnowszą wersję!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\N"
+msgstr "\\\\\\\\\\\\\\\\N"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tPod warunkiem:"
+msgstr "Dostawca:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "NIC DO.ROZWOLNIENIA"
@@ -943,3 +944,9 @@ msgstr "używając:"
 
 msgid "xLine"
 msgstr "xLinia"
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\N"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tPod warunkiem:"

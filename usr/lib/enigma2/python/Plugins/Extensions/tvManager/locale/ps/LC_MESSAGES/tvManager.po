@@ -838,8 +838,9 @@ msgstr "تاسو وروستۍ نسخه لرئ!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "برابرول:"
+msgstr "وړاندې کوونکی:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "A NOTHING.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "کارول:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "برابرول:"

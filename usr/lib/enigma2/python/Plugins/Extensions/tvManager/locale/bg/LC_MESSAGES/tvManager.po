@@ -839,8 +839,9 @@ msgstr "Имате най-новата версия!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tОсигурява:"
+msgstr "Доставчик:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a НИЩО.ЗА.УНЕДЕЛЕНЕ"
@@ -943,3 +944,6 @@ msgstr "използвайки:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tОсигурява:"

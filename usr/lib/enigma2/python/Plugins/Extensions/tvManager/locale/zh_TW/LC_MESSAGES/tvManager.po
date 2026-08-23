@@ -838,8 +838,9 @@ msgstr "你已經是最新版本了！"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\t提供："
+msgstr "提供者："
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "無需取消刪除"
@@ -942,3 +943,6 @@ msgstr "使用："
 
 msgid "xLine"
 msgstr "線"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\t提供："

@@ -836,10 +836,11 @@ msgid "You have the latest version!"
 msgstr "Сизде акыркы версия бар!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\\\\\\\\\н"
+msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tКамсыз кылуу:"
+msgstr "Провайдер:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr ""
@@ -942,3 +943,9 @@ msgstr "колдонуу:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\н"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tКамсыз кылуу:"

@@ -838,8 +838,9 @@ msgstr "ನೀವು ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನ�
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tಒದಗಿಸುವುದು:"
+msgstr "ಒದಗಿಸುವವರು:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ಒಂದು ನಥಿಂಗ್.ಟು.ಉಂಡೆಲೆ"
@@ -942,3 +943,6 @@ msgstr "ಬಳಸುವುದು:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tಒದಗಿಸುವುದು:"

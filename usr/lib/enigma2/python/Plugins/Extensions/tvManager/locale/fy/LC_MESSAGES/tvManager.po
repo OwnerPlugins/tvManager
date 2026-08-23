@@ -838,8 +838,9 @@ msgstr "Jo hawwe de lêste ferzje!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tFoarsjen:"
+msgstr "Oanbieder:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "in NOTHING.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "mei help fan:"
 
 msgid "xLine"
 msgstr "x lyn"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tFoarsjen:"

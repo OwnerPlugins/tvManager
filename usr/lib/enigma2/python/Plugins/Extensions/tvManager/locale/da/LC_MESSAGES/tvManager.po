@@ -839,8 +839,9 @@ msgstr "Du har den seneste version!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\t Giv:"
+msgstr "Udbyder:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "et INTET.AT.UNDELE"
@@ -943,3 +944,6 @@ msgstr "bruger:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\t Giv:"

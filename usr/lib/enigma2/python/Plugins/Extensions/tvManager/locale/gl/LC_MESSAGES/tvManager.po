@@ -838,8 +838,9 @@ msgstr "Tes a última versión!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tProporcionar:"
+msgstr "Provedor:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "un NADA.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "usando:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tProporcionar:"

@@ -839,8 +839,9 @@ msgstr "Turite naujausią versiją!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tPateikti:"
+msgstr "Teikėjas:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NIEKO.TO.UNELE"
@@ -943,3 +944,6 @@ msgstr "naudojant:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tPateikti:"

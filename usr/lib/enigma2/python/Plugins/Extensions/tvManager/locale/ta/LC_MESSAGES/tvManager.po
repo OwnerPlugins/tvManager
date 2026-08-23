@@ -838,8 +838,9 @@ msgstr "உங்களிடம் சமீபத்திய பதிப்�
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\t வழங்குவது:"
+msgstr "வழங்குபவர்:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ஒன்றுமில்லை.உண்டேல்"
@@ -942,3 +943,6 @@ msgstr "பயன்படுத்தி:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\t வழங்குவது:"

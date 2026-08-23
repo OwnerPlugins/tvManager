@@ -839,8 +839,9 @@ msgstr "Jums ir jaunākā versija!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tNodrošina:"
+msgstr "Pakalpojumu sniedzējs:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NEKAS.TO.ATDELE"
@@ -943,3 +944,6 @@ msgstr "izmantojot:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tNodrošina:"

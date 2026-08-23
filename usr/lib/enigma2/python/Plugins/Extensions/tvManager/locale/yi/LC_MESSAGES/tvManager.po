@@ -838,8 +838,9 @@ msgstr "איר האָט די לעצטע ווערסיע!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\ט צושטעלן:"
+msgstr "פאַרזאָרגער:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "אַ גאָרנישט.צו.ונדעלע"
@@ -942,3 +943,6 @@ msgstr "ניצן:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\ט צושטעלן:"

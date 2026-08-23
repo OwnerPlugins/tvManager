@@ -838,8 +838,9 @@ msgstr "We guhertoya herî dawî heye!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tPêşkêşî:"
+msgstr "Pêşkêşker:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "TIŞTÎ.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "bi kar tînin:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tPêşkêşî:"

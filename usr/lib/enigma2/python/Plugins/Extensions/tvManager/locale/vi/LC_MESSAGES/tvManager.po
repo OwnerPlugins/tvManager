@@ -837,10 +837,11 @@ msgid "You have the latest version!"
 msgstr "Bạn có phiên bản mới nhất!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\N"
+msgstr "\\\\\\\\\\\\\\\\N"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tCung cấp:"
+msgstr "Nhà cung cấp:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "một KHÔNG GÌ.TO.UNDELE"
@@ -943,3 +944,9 @@ msgstr "sử dụng:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\N"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tCung cấp:"

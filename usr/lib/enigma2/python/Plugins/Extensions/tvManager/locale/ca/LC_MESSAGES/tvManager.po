@@ -838,8 +838,9 @@ msgstr "Tens la darrera versió!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tProporcioneu:"
+msgstr "Proveïdor:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "un RES.PER.UNDELE"
@@ -942,3 +943,6 @@ msgstr "utilitzant:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tProporcioneu:"

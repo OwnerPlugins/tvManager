@@ -837,10 +837,11 @@ msgid "You have the latest version!"
 msgstr "최신 버전이 있습니다!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\N"
+msgstr "\\\\\\\\\\\\\\\\N"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\t제공:"
+msgstr "공급자:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "아무것도 삭제하지 마세요."
@@ -943,3 +944,9 @@ msgstr "사용:"
 
 msgid "xLine"
 msgstr "엑스라인"
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\N"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\t제공:"

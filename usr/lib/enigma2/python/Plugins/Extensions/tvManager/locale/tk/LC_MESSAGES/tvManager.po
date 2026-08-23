@@ -836,10 +836,11 @@ msgid "You have the latest version!"
 msgstr "Iň soňky wersiýaňyz bar!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\ n"
+msgstr "\\\\\\\\\\\\\\\\ n"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\ tProvid:"
+msgstr "Üpjün ediji:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "HÖKMAN.TO.UNDELE"
@@ -942,3 +943,9 @@ msgstr "ulanyp:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\ n"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\ tProvid:"

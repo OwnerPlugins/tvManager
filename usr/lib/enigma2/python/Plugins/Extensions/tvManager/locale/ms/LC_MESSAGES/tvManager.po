@@ -838,8 +838,9 @@ msgstr "Anda mempunyai versi terkini!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tMenyediakan:"
+msgstr "Pembekal:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr ""
@@ -942,3 +943,6 @@ msgstr "menggunakan:"
 
 msgid "xLine"
 msgstr "xBaris"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tMenyediakan:"

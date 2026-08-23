@@ -839,8 +839,9 @@ msgstr "У вас апошняя версія!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tПрадастаўленне:"
+msgstr "Пастаўшчык:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a НІЧОГА.КАБЫ.РАДАЛЕЦЬ"
@@ -943,3 +944,6 @@ msgstr "выкарыстоўваючы:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tПрадастаўленне:"

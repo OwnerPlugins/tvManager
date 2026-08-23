@@ -838,8 +838,9 @@ msgstr "Ən son versiyanız var!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tTəqdim edin:"
+msgstr "Təchizatçı:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "SİLMƏK ÜÇÜN HEÇ BİR ŞEY"
@@ -942,3 +943,6 @@ msgstr "istifadə edərək:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tTəqdim edin:"

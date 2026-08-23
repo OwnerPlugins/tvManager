@@ -838,8 +838,9 @@ msgstr "თქვენ გაქვთ უახლესი ვერსია
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\t უზრუნველყოს:"
+msgstr "პროვაიდერი:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "NOTHING.TO.UDELE"
@@ -942,3 +943,6 @@ msgstr "გამოყენებით:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\t უზრუნველყოს:"

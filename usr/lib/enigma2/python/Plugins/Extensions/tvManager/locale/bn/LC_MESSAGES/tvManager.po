@@ -838,8 +838,9 @@ msgstr "আপনার কাছে সর্বশেষ সংস্করণ
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "প্রদান করুন:"
+msgstr "প্রদানকারী:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "একটি কিছুই না"
@@ -942,3 +943,6 @@ msgstr "ব্যবহার করে:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "প্রদান করুন:"

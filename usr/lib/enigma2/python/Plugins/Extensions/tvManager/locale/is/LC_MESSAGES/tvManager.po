@@ -838,8 +838,9 @@ msgstr "Þú ert með nýjustu útgáfuna!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tGefðu:"
+msgstr "Veitandi:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a EKKERT.AÐ.UNDELA"
@@ -942,3 +943,6 @@ msgstr "nota:"
 
 msgid "xLine"
 msgstr "xLína"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tGefðu:"

@@ -838,8 +838,9 @@ msgstr "Mae gennych y fersiwn diweddaraf!"
 msgid "\\\\\\\\n"
 msgstr "\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\ Darparu:"
+msgstr "Darparwr:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a DIM.TO.UNDELE"
@@ -942,3 +943,9 @@ msgstr "gan ddefnyddio:"
 
 msgid "xLine"
 msgstr "xLlin"
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\ Darparu:"

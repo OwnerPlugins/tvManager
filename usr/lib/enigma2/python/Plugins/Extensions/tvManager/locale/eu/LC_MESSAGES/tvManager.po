@@ -838,8 +838,9 @@ msgstr "Azken bertsioa duzu!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tEman:"
+msgstr "Hornitzailea:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a EZER.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "erabiliz:"
 
 msgid "xLine"
 msgstr "xLerroa"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tEman:"

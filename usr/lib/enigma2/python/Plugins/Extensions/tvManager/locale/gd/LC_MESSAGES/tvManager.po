@@ -838,8 +838,9 @@ msgstr "Tha an dreach as ùire agad!"
 msgid "\\\\\\\\n"
 msgstr "\\\\\\\\ n"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\ t-solar:"
+msgstr "Solaraiche:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NOCHD.TO.UNDELE"
@@ -942,3 +943,9 @@ msgstr "a' cleachdadh:"
 
 msgid "xLine"
 msgstr "x loidhne"
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\ n"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\ t-solar:"

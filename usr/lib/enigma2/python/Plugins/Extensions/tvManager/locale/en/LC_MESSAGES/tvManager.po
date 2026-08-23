@@ -837,10 +837,11 @@ msgid "You have the latest version!"
 msgstr "You have the latest version!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\n"
+msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tProvid:"
+msgstr "Provider:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a NOTHING.TO.UNDELE"
@@ -943,3 +944,9 @@ msgstr "using:"
 
 msgid "xLine"
 msgstr "xLine"
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\n"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tProvid:"

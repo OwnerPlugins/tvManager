@@ -838,8 +838,9 @@ msgstr "អ្នកមានកំណែចុងក្រោយបំផុត
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\t ផ្តល់ជូន៖"
+msgstr "អ្នកផ្គត់ផ្គង់៖"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "NOTHING.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "ដោយប្រើ៖"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\t ផ្តល់ជូន៖"

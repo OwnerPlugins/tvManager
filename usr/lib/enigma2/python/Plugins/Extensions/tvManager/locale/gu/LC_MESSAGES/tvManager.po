@@ -838,8 +838,9 @@ msgstr "તમારી પાસે નવીનતમ સંસ્કરણ �
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "પૂરી પાડો:"
+msgstr "પ્રદાતા:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "A NOTHING.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "ઉપયોગ કરીને:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "પૂરી પાડો:"

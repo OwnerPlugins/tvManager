@@ -838,8 +838,9 @@ msgstr "Sizda oxirgi versiya bor!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tTaqdim eting:"
+msgstr "Provayder:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a HECHING.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "foydalanish:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tTaqdim eting:"

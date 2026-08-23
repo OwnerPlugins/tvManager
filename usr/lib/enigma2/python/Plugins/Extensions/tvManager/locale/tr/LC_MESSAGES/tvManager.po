@@ -837,10 +837,11 @@ msgid "You have the latest version!"
 msgstr "En son sürüme sahipsiniz!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\N"
+msgstr "\\\\\\\\\\\\\\\\N"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\\\\\\\\\tŞunu sağlayın:"
+msgstr "Sağlayıcı:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "SÖYLENECEK HİÇBİR ŞEY"
@@ -943,3 +944,9 @@ msgstr "kullanarak:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\N"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tŞunu sağlayın:"

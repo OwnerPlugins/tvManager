@@ -839,8 +839,9 @@ msgstr "Du har den senaste versionen!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tGe:"
+msgstr "Leverantör:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ett INGENTING.ATT.UNDELA"
@@ -943,3 +944,6 @@ msgstr "använder:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tGe:"

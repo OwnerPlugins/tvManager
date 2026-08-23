@@ -838,8 +838,9 @@ msgstr "ਤੁਹਾਡੇ ਕੋਲ ਨਵੀਨਤਮ ਸੰਸਕਰਣ ਹ�
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "ਪ੍ਰਦਾਨ ਕਰੋ:"
+msgstr "ਪ੍ਰਦਾਤਾ:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ਕੁਝ ਵੀ ਨਹੀਂ"
@@ -942,3 +943,6 @@ msgstr "ਵਰਤਦੇ ਹੋਏ:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "ਪ੍ਰਦਾਨ ਕਰੋ:"

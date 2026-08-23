@@ -704,7 +704,7 @@ msgid "Setup"
 msgstr "Կարգավորում"
 
 msgid "Share View"
-msgstr ""
+msgstr "Համօգտագործել դիտումը"
 
 msgid "Shares"
 msgstr "Բաժնետոմսեր"
@@ -838,8 +838,9 @@ msgstr "Դուք ունեք վերջին տարբերակը:"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tՏրամադրել՝"
+msgstr "Մատակարար:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "մի NOTHING.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "օգտագործելով՝"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tՏրամադրել՝"

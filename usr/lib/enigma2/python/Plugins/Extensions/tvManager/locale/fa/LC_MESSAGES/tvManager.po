@@ -838,8 +838,9 @@ msgstr "شما آخرین نسخه را دارید!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tارائه کنید:"
+msgstr "ارائه دهنده:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "یک NOTHING.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "با استفاده از:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tارائه کنید:"

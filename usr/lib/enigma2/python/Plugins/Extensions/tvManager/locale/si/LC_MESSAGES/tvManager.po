@@ -838,8 +838,9 @@ msgstr "ඔබට නවතම අනුවාදය තිබේ!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\t සපයන්න:"
+msgstr "සපයන්නා:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "UNDELE කිරීමට කිසිවක් නැත"
@@ -942,3 +943,6 @@ msgstr "භාවිතා කරමින්:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\t සපයන්න:"

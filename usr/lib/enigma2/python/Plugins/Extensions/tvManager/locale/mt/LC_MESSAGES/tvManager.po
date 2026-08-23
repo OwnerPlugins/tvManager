@@ -838,8 +838,9 @@ msgstr "Għandek l-aħħar verżjoni!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tProva:"
+msgstr "Fornitur:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a XEJN.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "bl-użu:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tProva:"

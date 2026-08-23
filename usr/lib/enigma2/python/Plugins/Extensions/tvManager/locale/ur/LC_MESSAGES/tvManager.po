@@ -838,8 +838,9 @@ msgstr "آپ کے پاس تازہ ترین ورژن ہے!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "فراہم کریں:"
+msgstr "فراہم کنندہ:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "A NOTHING.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "استعمال کرتے ہوئے:"
 
 msgid "xLine"
 msgstr "ایکس لائن"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "فراہم کریں:"

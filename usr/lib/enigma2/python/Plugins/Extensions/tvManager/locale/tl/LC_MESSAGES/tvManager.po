@@ -838,8 +838,9 @@ msgstr "Mayroon kang pinakabagong bersyon!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr ""
+msgstr "ibigay:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a WALA.TO.UNDELE"

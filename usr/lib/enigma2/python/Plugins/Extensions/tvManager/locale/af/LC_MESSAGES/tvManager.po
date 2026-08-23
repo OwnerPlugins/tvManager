@@ -838,8 +838,9 @@ msgstr "Jy het die nuutste weergawe!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tVoorsien:"
+msgstr "Verskaffer:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "'n NIKS.OM.TE"
@@ -942,3 +943,6 @@ msgstr "gebruik:"
 
 msgid "xLine"
 msgstr "xlyn"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tVoorsien:"

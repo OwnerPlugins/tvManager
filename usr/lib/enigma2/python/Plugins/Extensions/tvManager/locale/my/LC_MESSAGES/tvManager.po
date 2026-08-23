@@ -838,8 +838,9 @@ msgstr "သင့်တွင် နောက်ဆုံးထွက်ဗာ�
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tProvid-"
+msgstr "ပံ့ပိုးသူ-"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "NOTHING.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "အသုံးပြုခြင်း-"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tProvid-"

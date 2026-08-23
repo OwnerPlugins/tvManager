@@ -838,8 +838,9 @@ msgstr "Imate najnoviju verziju!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tOmogućuje:"
+msgstr "Provajder:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr ""
@@ -942,3 +943,6 @@ msgstr "koristeći:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tOmogućuje:"

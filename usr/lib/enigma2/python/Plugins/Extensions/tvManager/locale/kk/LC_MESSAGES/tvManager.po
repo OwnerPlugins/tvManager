@@ -838,8 +838,9 @@ msgstr "Сізде соңғы нұсқа бар!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tҚамтамасыз ету:"
+msgstr "Провайдер:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ҚОЙЫЛУҒА ЕШТЕҢЕ"
@@ -942,3 +943,6 @@ msgstr "пайдалану:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tҚамтамасыз ету:"

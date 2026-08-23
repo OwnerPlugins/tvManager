@@ -838,8 +838,9 @@ msgstr "Avètz la darrièra version!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr ""
+msgstr "Provesidor:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "un RÈS.A.DESALLAR"

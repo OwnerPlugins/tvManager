@@ -765,10 +765,10 @@ msgid "Total cards:"
 msgstr "סך הקלפים:"
 
 msgid "Total handled client ecm's"
-msgstr "סה\\\\\\\"כ eCM של לקוחות מטופלים"
+msgstr "סה\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"כ eCM של לקוחות מטופלים"
 
 msgid "Total handled client emm's"
-msgstr "סה\\\\\\\"כ טיפל ב-emm's של לקוחות"
+msgstr "סה\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"כ טיפל ב-emm's של לקוחות"
 
 msgid "Total:"
 msgstr "סַך הַכֹּל:"
@@ -839,8 +839,9 @@ msgstr "יש לך את הגרסה העדכנית ביותר!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tספק:"
+msgstr "ספק:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr ""
@@ -943,3 +944,6 @@ msgstr "באמצעות:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tספק:"

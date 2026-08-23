@@ -839,8 +839,9 @@ msgstr "Sinulla on uusin versio!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tTarjoa:"
+msgstr "Palveluntarjoaja:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "a EI MITÄÄN.POISTA"
@@ -943,3 +944,6 @@ msgstr "käyttäen:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tTarjoa:"

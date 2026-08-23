@@ -800,7 +800,7 @@ msgid "Uphops +"
 msgstr "Upphops +"
 
 msgid "Uphops -"
-msgstr ""
+msgstr "Уапси -"
 
 msgid "Uphops:"
 msgstr "Успевања:"
@@ -838,8 +838,9 @@ msgstr "Ја имате најновата верзија!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tОбезбедете:"
+msgstr "Давател:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "НИШТО.TO.UNDELE"
@@ -942,3 +943,6 @@ msgstr "користејќи:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tОбезбедете:"

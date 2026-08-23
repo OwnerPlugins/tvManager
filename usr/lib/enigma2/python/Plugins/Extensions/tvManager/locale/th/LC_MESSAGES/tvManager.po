@@ -838,8 +838,9 @@ msgstr "คุณมีเวอร์ชันล่าสุดแล้ว!"
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tให้ไว้:"
+msgstr "ผู้ให้บริการ:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ไม่มีอะไรที่จะยกเลิก"
@@ -942,3 +943,6 @@ msgstr "โดยใช้:"
 
 msgid "xLine"
 msgstr "เอ็กซ์ไลน์"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tให้ไว้:"

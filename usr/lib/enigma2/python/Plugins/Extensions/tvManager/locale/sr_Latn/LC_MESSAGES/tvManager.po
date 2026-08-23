@@ -836,10 +836,11 @@ msgid "You have the latest version!"
 msgstr "Имате најновију верзију!"
 
 msgid "\\\\\\\\n"
-msgstr "\\\\\\\\н"
+msgstr "\\\\\\\\\\\\\\\\н"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\тОбезбедити:"
+msgstr "Провајдер:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "а НОТХИНГ.ТО.УНДЕЛЕ"
@@ -942,3 +943,9 @@ msgstr "користећи:"
 
 msgid "xLine"
 msgstr "кЛине"
+
+#~ msgid "\\\\\\\\\\\\\\\\n"
+#~ msgstr "\\\\\\\\\\\\\\\\н"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\тОбезбедити:"

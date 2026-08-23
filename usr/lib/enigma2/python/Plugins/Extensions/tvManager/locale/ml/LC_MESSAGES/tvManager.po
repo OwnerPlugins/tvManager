@@ -838,8 +838,9 @@ msgstr "നിങ്ങൾക്ക് ഏറ്റവും പുതിയ പ
 msgid "\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\t നൽകുന്നു:"
+msgstr "ദാതാവ്:"
 
 msgid "a NOTHING.TO.UNDELE"
 msgstr "ഒന്നുമില്ല.ഉണ്ടെലെ"
@@ -942,3 +943,6 @@ msgstr "ഉപയോഗിക്കുന്നത്:"
 
 msgid "xLine"
 msgstr ""
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\t നൽകുന്നു:"
