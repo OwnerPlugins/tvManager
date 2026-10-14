@@ -836,11 +836,11 @@ msgstr "Viết-Gỡ lỗi"
 msgid "You have the latest version!"
 msgstr "Bạn có phiên bản mới nhất!"
 
-msgid "\\\\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "Nhà cung cấp:"
 
 msgid "a NOTHING.TO.UNDELE"

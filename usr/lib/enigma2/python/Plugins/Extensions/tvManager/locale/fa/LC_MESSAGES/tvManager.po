@@ -835,11 +835,11 @@ msgstr ""
 msgid "You have the latest version!"
 msgstr "شما آخرین نسخه را دارید!"
 
-msgid "\\\\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "ارائه دهنده:"
 
 msgid "a NOTHING.TO.UNDELE"

@@ -835,11 +835,11 @@ msgstr "লিখুন-ডিবাগ"
 msgid "You have the latest version!"
 msgstr "আপনার কাছে সর্বশেষ সংস্করণ আছে!"
 
-msgid "\\\\n"
+msgid "\\\\\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "প্রদানকারী:"
 
 msgid "a NOTHING.TO.UNDELE"
