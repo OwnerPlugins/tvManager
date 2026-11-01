@@ -836,11 +836,11 @@ msgstr "Depuración de escritura"
 msgid "You have the latest version!"
 msgstr "¡Tienes la última versión!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
 msgstr "Proveedor:"
 
 msgid "a NOTHING.TO.UNDELE"

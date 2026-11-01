@@ -835,11 +835,11 @@ msgstr "Tulis-Debug"
 msgid "You have the latest version!"
 msgstr "Anda memiliki versi terbaru!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
 msgstr "Penyedia:"
 
 msgid "a NOTHING.TO.UNDELE"

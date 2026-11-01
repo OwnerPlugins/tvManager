@@ -836,11 +836,11 @@ msgstr "쓰기 디버그"
 msgid "You have the latest version!"
 msgstr "최신 버전이 있습니다!"
 
-msgid "\\\\\\\\n"
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 msgstr ""
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
 msgstr "공급자:"
 
 msgid "a NOTHING.TO.UNDELE"
