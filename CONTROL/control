@@ -5,7 +5,7 @@ OE: 2.0
 License: GPLv3
 Priority: optional
 Architecture: all
-Depends: python-core, wget
+Depends: wget
 Recommends: libusb-1.0-0, libssl1.1
 Maintainer: Lululla
 Description: Professional Softcam Manager for Enigma2
