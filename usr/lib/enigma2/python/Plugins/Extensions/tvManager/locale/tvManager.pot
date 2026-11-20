@@ -16,16 +16,16 @@ msgstr ""
 msgid "-"
 msgstr ""
 
+msgid "(Active)"
+msgstr ""
+
 msgid "(All readers)"
 msgstr ""
 
-msgid "\n"
+msgid "(Not running)"
 msgstr ""
 
 msgid "\n All Caid:"
-msgstr ""
-
-msgid "\n....\n.....\n"
 msgstr ""
 
 msgid "\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"
@@ -53,9 +53,6 @@ msgid "<no capabilities found>"
 msgstr ""
 
 msgid "<no log found>"
-msgstr ""
-
-msgid "a NOTHING.TO.UNDELE"
 msgstr ""
 
 msgid "About"
@@ -202,9 +199,6 @@ msgstr ""
 msgid "CCcam Info Config Menu"
 msgstr ""
 
-msgid "CCcam Line Edit Actions"
-msgstr ""
-
 msgid "CCcam Line Editor"
 msgstr ""
 
@@ -268,9 +262,6 @@ msgstr ""
 msgid "close share view"
 msgstr ""
 
-msgid "Command Cancelled"
-msgstr ""
-
 msgid "Configfile %s saved."
 msgstr ""
 
@@ -319,10 +310,10 @@ msgstr ""
 msgid "Deleted %s!"
 msgstr ""
 
-msgid "Do you install this plugin ?"
+msgid "DES key (28 hex)"
 msgstr ""
 
-msgid "Do you want to execute the command?"
+msgid "Do you install this plugin ?"
 msgstr ""
 
 msgid "Do you want to remove?"
@@ -334,16 +325,7 @@ msgstr ""
 msgid "Ecm avg"
 msgstr ""
 
-msgid "ECM data format error"
-msgstr ""
-
-msgid "ECM error"
-msgstr ""
-
 msgid "ECM file empty"
-msgstr ""
-
-msgid "ECM file not found"
 msgstr ""
 
 msgid "Ecm Info"
@@ -379,6 +361,9 @@ msgstr ""
 msgid "Emm Info"
 msgstr ""
 
+msgid "emm_sender.sh not found"
+msgstr ""
+
 msgid "Entitlements"
 msgstr ""
 
@@ -388,13 +373,7 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-msgid "Error executing update script: %s"
-msgstr ""
-
 msgid "Error getting resource information"
-msgstr ""
-
-msgid "Error opening configuration file: %s"
 msgstr ""
 
 msgid "Error processing HTML!"
@@ -487,10 +466,16 @@ msgstr ""
 msgid "Install Cam first!!!"
 msgstr ""
 
+msgid "Install developer update (%s)?"
+msgstr ""
+
 msgid "Installing %s\nPlease Wait..."
 msgstr ""
 
 msgid "Installing Softcam Keys\nPlease Wait..."
+msgstr ""
+
+msgid "Invalid download URL:\n%s"
 msgstr ""
 
 msgid "Invalid HTML content!"
@@ -503,6 +488,9 @@ msgid "IP address"
 msgstr ""
 
 msgid "IP Address"
+msgstr ""
+
+msgid "IP address / host"
 msgstr ""
 
 msgid "Last Req."
@@ -541,6 +529,9 @@ msgstr ""
 msgid "MENU EMM / SERVER CLINE"
 msgstr ""
 
+msgid "Name"
+msgstr ""
+
 msgid "Ncam not running - start Cam to obtain information."
 msgstr ""
 
@@ -568,13 +559,13 @@ msgstr ""
 msgid "No card inserted!"
 msgstr ""
 
+msgid "No default file for %s"
+msgstr ""
+
+msgid "No ECM (clear channel or cam not decoding)"
+msgstr ""
+
 msgid "No ECM data"
-msgstr ""
-
-msgid "No ECM data - Timeout"
-msgstr ""
-
-msgid "No ECM file"
 msgstr ""
 
 msgid "No ECM info is currently available."
@@ -604,22 +595,16 @@ msgstr ""
 msgid "NodeID:"
 msgstr ""
 
+msgid "Nothing to show"
+msgstr ""
+
 msgid "OK"
 msgstr ""
 
 msgid "OK: Entitlements   MENU: more"
 msgstr ""
 
-msgid "OSCam codes updated successfully!\n%s"
-msgstr ""
-
 msgid "Oscam not running - start Cam to obtain information."
-msgstr ""
-
-msgid "OSCam update completed with errors.\n%s"
-msgstr ""
-
-msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
 msgstr ""
 
 msgid "Password"
@@ -646,9 +631,6 @@ msgstr ""
 msgid "Please select a line to edit or select add to create new line."
 msgstr ""
 
-msgid "Please wait, %s."
-msgstr ""
-
 msgid "Please wait..."
 msgstr ""
 
@@ -665,9 +647,6 @@ msgid "Please wait..\nSTOP CAM"
 msgstr ""
 
 msgid "Port"
-msgstr ""
-
-msgid "PRESS RETURN"
 msgstr ""
 
 msgid "Profile"
@@ -724,9 +703,6 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-msgid "Remove the Line from CCcam.cfg"
-msgstr ""
-
 msgid "Removing %s"
 msgstr ""
 
@@ -754,6 +730,9 @@ msgstr ""
 msgid "Resources"
 msgstr ""
 
+msgid "Restart"
+msgstr ""
+
 msgid "Restart %s"
 msgstr ""
 
@@ -770,6 +749,9 @@ msgid "Restart softcam to apply restored configuration?"
 msgstr ""
 
 msgid "Restore backup '%s'?\nThis will overwrite current configurations."
+msgstr ""
+
+msgid "Running cams"
 msgstr ""
 
 msgid "Save"
@@ -800,6 +782,15 @@ msgid "Select OScam"
 msgstr ""
 
 msgid "Select Your Choice"
+msgstr ""
+
+msgid "Send EMM to Tivusat card"
+msgstr ""
+
+msgid "Send the Tivusat EMM to your card through OSCam?\n(OSCam with webif must be running)"
+msgstr ""
+
+msgid "Server"
 msgstr ""
 
 msgid "Server %s-%s"
@@ -949,7 +940,10 @@ msgstr ""
 msgid "System:"
 msgstr ""
 
-msgid "Temporarely DELETED"
+msgid "Temporarily DELETED"
+msgstr ""
+
+msgid "The DES key must have 28 hex digits."
 msgstr ""
 
 msgid "This plugin shows you the status of your CCcam"
@@ -976,13 +970,13 @@ msgstr ""
 msgid "Type:"
 msgstr ""
 
-msgid "Unable to make the script executable: %s"
-msgstr ""
-
 msgid "UNDELETED"
 msgstr ""
 
 msgid "Unknow Image!"
+msgstr ""
+
+msgid "Unknown package type:\n%s"
 msgstr ""
 
 msgid "Update"
@@ -992,6 +986,9 @@ msgid "Update Aborted!"
 msgstr ""
 
 msgid "Update interval (in seconds)"
+msgstr ""
+
+msgid "Update OSCam Tivusat codes"
 msgstr ""
 
 msgid "Update script not found!\nPath: %s"

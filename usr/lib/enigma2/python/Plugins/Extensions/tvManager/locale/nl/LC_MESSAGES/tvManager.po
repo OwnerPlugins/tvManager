@@ -16,17 +16,17 @@ msgstr ""
 msgid "-"
 msgstr "-"
 
+msgid "(Active)"
+msgstr "(Actief)"
+
 msgid "(All readers)"
 msgstr "(Alle lezers)"
 
-msgid "\n"
-msgstr "\n"
+msgid "(Not running)"
+msgstr "(Niet actief)"
 
 msgid "\n All Caid:"
 msgstr "\n Alle Caid:"
-
-msgid "\n....\n.....\n"
-msgstr "\n....\n...\n"
 
 msgid "\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"
 msgstr "\nGESTOPT MET HET VINDEN VAN FAKES \n\nTERUG NAAR DE OORSPRONKELIJKE STATUS"
@@ -54,9 +54,6 @@ msgstr "<geen mogelijkheden gevonden>"
 
 msgid "<no log found>"
 msgstr "<geen logboek gevonden>"
-
-msgid "a NOTHING.TO.UNDELE"
-msgstr "een NIETS TE UNDELE"
 
 msgid "About"
 msgstr "Over"
@@ -202,9 +199,6 @@ msgstr "CCcam Info-configuratie"
 msgid "CCcam Info Config Menu"
 msgstr "CCcam Info Configuratiemenu"
 
-msgid "CCcam Line Edit Actions"
-msgstr "CCcam-lijnbewerkingsacties"
-
 msgid "CCcam Line Editor"
 msgstr "CCcam-lijneditor"
 
@@ -268,9 +262,6 @@ msgstr "Dichtbij"
 msgid "close share view"
 msgstr "weergave delen sluiten"
 
-msgid "Command Cancelled"
-msgstr "Commando geannuleerd"
-
 msgid "Configfile %s saved."
 msgstr "Configuratiebestand %s opgeslagen."
 
@@ -319,11 +310,11 @@ msgstr "Peer verwijderen"
 msgid "Deleted %s!"
 msgstr "%s verwijderd!"
 
+msgid "DES key (28 hex)"
+msgstr "DES-sleutel (28 hex)"
+
 msgid "Do you install this plugin ?"
 msgstr "Installeer jij deze plugin?"
-
-msgid "Do you want to execute the command?"
-msgstr "Wilt u de opdracht uitvoeren?"
 
 msgid "Do you want to remove?"
 msgstr "Wilt u verwijderen?"
@@ -334,17 +325,8 @@ msgstr "Wilt u Gui Interface opnieuw opstarten?"
 msgid "Ecm avg"
 msgstr "Ecm gem"
 
-msgid "ECM data format error"
-msgstr "ECM-gegevensformaatfout"
-
-msgid "ECM error"
-msgstr "ECM-fout"
-
 msgid "ECM file empty"
 msgstr "ECM-bestand leeg"
-
-msgid "ECM file not found"
-msgstr "ECM-bestand niet gevonden"
 
 msgid "Ecm Info"
 msgstr "Ecm-info"
@@ -379,6 +361,9 @@ msgstr "Eén caid bewerken"
 msgid "Emm Info"
 msgstr "Erm Info"
 
+msgid "emm_sender.sh not found"
+msgstr "emm_sender.sh niet gevonden"
+
 msgid "Entitlements"
 msgstr "Rechten"
 
@@ -388,14 +373,8 @@ msgstr "Rechten voor '%s'"
 msgid "Error"
 msgstr "Fout"
 
-msgid "Error executing update script: %s"
-msgstr "Fout bij het uitvoeren van updatescript: %s"
-
 msgid "Error getting resource information"
 msgstr "Fout bij ophalen van broninformatie"
-
-msgid "Error opening configuration file: %s"
-msgstr "Fout bij openen van configuratiebestand: %s"
 
 msgid "Error processing HTML!"
 msgstr "Fout bij het verwerken van HTML!"
@@ -487,11 +466,17 @@ msgstr "informatie"
 msgid "Install Cam first!!!"
 msgstr "Installeer eerst Cam!!!"
 
+msgid "Install developer update (%s)?"
+msgstr "Ontwikkelaarsupdate installeren (%s)?"
+
 msgid "Installing %s\nPlease Wait..."
 msgstr "%s\n installerenEen ogenblik geduld..."
 
 msgid "Installing Softcam Keys\nPlease Wait..."
 msgstr "Softcam Keys installeren\nEen ogenblik geduld..."
+
+msgid "Invalid download URL:\n%s"
+msgstr "Ongeldige download-URL:\n%s"
 
 msgid "Invalid HTML content!"
 msgstr "Ongeldige HTML-inhoud!"
@@ -504,6 +489,9 @@ msgstr "IP-adres"
 
 msgid "IP Address"
 msgstr "IP-adres"
+
+msgid "IP address / host"
+msgstr "IP-adres / host"
 
 msgid "Last Req."
 msgstr "Laatste aanvraag"
@@ -541,6 +529,9 @@ msgstr "Menuconfiguratie"
 msgid "MENU EMM / SERVER CLINE"
 msgstr "MENU EMM / SERVER CLINE"
 
+msgid "Name"
+msgstr "Naam"
+
 msgid "Ncam not running - start Cam to obtain information."
 msgstr "Ncam draait niet - start Cam om informatie te verkrijgen."
 
@@ -568,14 +559,14 @@ msgstr "Geen back-ups beschikbaar!"
 msgid "No card inserted!"
 msgstr "Geen kaart geplaatst!"
 
+msgid "No default file for %s"
+msgstr "Geen standaardbestand voor %s"
+
+msgid "No ECM (clear channel or cam not decoding)"
+msgstr "Geen ECM (clear channel of cam decodeert niet)"
+
 msgid "No ECM data"
 msgstr "Geen ECM-gegevens"
-
-msgid "No ECM data - Timeout"
-msgstr "Geen ECM-gegevens - Time-out"
-
-msgid "No ECM file"
-msgstr "Geen ECM-bestand"
 
 msgid "No ECM info is currently available."
 msgstr "Er is momenteel geen ECM-informatie beschikbaar."
@@ -604,23 +595,17 @@ msgstr "NodeID"
 msgid "NodeID:"
 msgstr "NodeID:"
 
+msgid "Nothing to show"
+msgstr "Niets om te laten zien"
+
 msgid "OK"
 msgstr "OK"
 
 msgid "OK: Entitlements   MENU: more"
 msgstr "OK: Rechten MENU: meer"
 
-msgid "OSCam codes updated successfully!\n%s"
-msgstr "OSCam-codes zijn succesvol bijgewerkt!\n%s"
-
 msgid "Oscam not running - start Cam to obtain information."
 msgstr "Oscam draait niet - start Cam om informatie te verkrijgen."
-
-msgid "OSCam update completed with errors.\n%s"
-msgstr "OSCam-update voltooid met fouten.\n%s"
-
-msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
-msgstr "OSCam-update is verlopen. Controleer /tmp/oscam_update.log voor details."
 
 msgid "Password"
 msgstr "Wachtwoord"
@@ -646,9 +631,6 @@ msgstr "Selecteer a.u.b...."
 msgid "Please select a line to edit or select add to create new line."
 msgstr "Selecteer een regel om te bewerken of selecteer Toevoegen om een ​​nieuwe regel te maken."
 
-msgid "Please wait, %s."
-msgstr "Een ogenblik geduld, %s."
-
 msgid "Please wait..."
 msgstr "Even geduld a.u.b...."
 
@@ -666,9 +648,6 @@ msgstr "Een ogenblik geduld..\nSTOP CAM"
 
 msgid "Port"
 msgstr "Haven"
-
-msgid "PRESS RETURN"
-msgstr "DRUK OP TERUG"
 
 msgid "Profile"
 msgstr "Profiel"
@@ -724,9 +703,6 @@ msgstr "Externe doos"
 msgid "Remove"
 msgstr "Verwijderen"
 
-msgid "Remove the Line from CCcam.cfg"
-msgstr "Verwijder de regel uit CCcam.cfg"
-
 msgid "Removing %s"
 msgstr "%s verwijderen"
 
@@ -754,6 +730,9 @@ msgstr "Deel:"
 msgid "Resources"
 msgstr "Bronnen"
 
+msgid "Restart"
+msgstr "Opnieuw opstarten"
+
 msgid "Restart %s"
 msgstr "Start %s opnieuw"
 
@@ -771,6 +750,9 @@ msgstr "Softcam opnieuw starten om de herstelde configuratie toe te passen?"
 
 msgid "Restore backup '%s'?\nThis will overwrite current configurations."
 msgstr "Back-up '%s' herstellen?\nHiermee worden de huidige configuraties overschreven."
+
+msgid "Running cams"
+msgstr "Lopende camera's"
 
 msgid "Save"
 msgstr "Redden"
@@ -801,6 +783,15 @@ msgstr "Selecteer OScam"
 
 msgid "Select Your Choice"
 msgstr "Selecteer uw keuze"
+
+msgid "Send EMM to Tivusat card"
+msgstr "Stuur EMM naar Tivusat-kaart"
+
+msgid "Send the Tivusat EMM to your card through OSCam?\n(OSCam with webif must be running)"
+msgstr "Stuur de Tivusat EMM naar uw kaart via OSCam?\n (OSCam met webif moet actief zijn)"
+
+msgid "Server"
+msgstr "Server"
 
 msgid "Server %s-%s"
 msgstr "Server %s-%s"
@@ -949,8 +940,11 @@ msgstr "systeem:"
 msgid "System:"
 msgstr "Systeem:"
 
-msgid "Temporarely DELETED"
+msgid "Temporarily DELETED"
 msgstr "Tijdelijk VERWIJDERD"
+
+msgid "The DES key must have 28 hex digits."
+msgstr "De DES-sleutel moet uit 28 hexadecimale cijfers bestaan."
 
 msgid "This plugin shows you the status of your CCcam"
 msgstr "Deze plug-in toont u de status van uw CCcam"
@@ -976,14 +970,14 @@ msgstr "Probeer het later opnieuw..."
 msgid "Type:"
 msgstr "Type:"
 
-msgid "Unable to make the script executable: %s"
-msgstr "Kan het script niet uitvoerbaar maken: %s"
-
 msgid "UNDELETED"
 msgstr "ONVERWIJDERD"
 
 msgid "Unknow Image!"
 msgstr "Onbekende afbeelding!"
+
+msgid "Unknown package type:\n%s"
+msgstr "Onbekend pakkettype: \n%s"
 
 msgid "Update"
 msgstr "Update"
@@ -993,6 +987,9 @@ msgstr "Update afgebroken!"
 
 msgid "Update interval (in seconds)"
 msgstr "Update-interval (in seconden)"
+
+msgid "Update OSCam Tivusat codes"
+msgstr "Update OSCam Tivusat-codes"
 
 msgid "Update script not found!\nPath: %s"
 msgstr "Updatescript niet gevonden!\nPad: %s"

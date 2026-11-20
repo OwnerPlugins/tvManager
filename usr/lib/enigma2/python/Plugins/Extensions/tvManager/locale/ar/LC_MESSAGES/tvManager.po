@@ -16,17 +16,17 @@ msgstr ""
 msgid "-"
 msgstr "-"
 
+msgid "(Active)"
+msgstr "(نشيط)"
+
 msgid "(All readers)"
 msgstr "(جميع القراء)"
 
-msgid "\n"
-msgstr "\n"
+msgid "(Not running)"
+msgstr "(لا يعمل)"
 
 msgid "\n All Caid:"
 msgstr "\n الكل القائد:"
-
-msgid "\n....\n.....\n"
-msgstr "\n....\n.....\n"
 
 msgid "\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"
 msgstr "\nتوقف عن البحث عن المنتجات المزيفة \n\nتم الرجوع إلى الحالة الأولية"
@@ -54,9 +54,6 @@ msgstr "<لم يتم العثور على القدرات>"
 
 msgid "<no log found>"
 msgstr "<لم يتم العثور على سجل>"
-
-msgid "a NOTHING.TO.UNDELE"
-msgstr "لا شيء.إلى.UNDELE"
 
 msgid "About"
 msgstr "عن"
@@ -202,9 +199,6 @@ msgstr "تكوين معلومات CCcam"
 msgid "CCcam Info Config Menu"
 msgstr "قائمة تكوين معلومات CCcam"
 
-msgid "CCcam Line Edit Actions"
-msgstr "إجراءات تحرير خط CCcam"
-
 msgid "CCcam Line Editor"
 msgstr "محرر خط CCcam"
 
@@ -268,9 +262,6 @@ msgstr "يغلق"
 msgid "close share view"
 msgstr "إغلاق عرض المشاركة"
 
-msgid "Command Cancelled"
-msgstr "تم إلغاء الأمر"
-
 msgid "Configfile %s saved."
 msgstr "تم حفظ ملف التكوين %s."
 
@@ -319,11 +310,11 @@ msgstr "حذف النظير"
 msgid "Deleted %s!"
 msgstr "تم حذف %s!"
 
+msgid "DES key (28 hex)"
+msgstr "مفتاح DES (28 سداسيًا)"
+
 msgid "Do you install this plugin ?"
 msgstr "هل قمت بتثبيت هذا البرنامج المساعد؟"
-
-msgid "Do you want to execute the command?"
-msgstr "هل تريد تنفيذ الأمر؟"
 
 msgid "Do you want to remove?"
 msgstr "هل تريد إزالة؟"
@@ -334,17 +325,8 @@ msgstr "هل تريد إعادة تشغيل واجهة المستخدم الرس
 msgid "Ecm avg"
 msgstr "متوسط ​​ECM"
 
-msgid "ECM data format error"
-msgstr "خطأ في تنسيق بيانات ECM"
-
-msgid "ECM error"
-msgstr "خطأ في إدارة المحتوى في المؤسسة"
-
 msgid "ECM file empty"
 msgstr "ملف ECM فارغ"
-
-msgid "ECM file not found"
-msgstr "لم يتم العثور على ملف ECM"
 
 msgid "Ecm Info"
 msgstr "معلومات اي سي ام"
@@ -379,6 +361,9 @@ msgstr "تحرير قائد واحد"
 msgid "Emm Info"
 msgstr "معلومات ارم"
 
+msgid "emm_sender.sh not found"
+msgstr "لم يتم العثور على emm_sender.sh"
+
 msgid "Entitlements"
 msgstr "الاستحقاقات"
 
@@ -388,14 +373,8 @@ msgstr "استحقاقات '%s'"
 msgid "Error"
 msgstr "خطأ"
 
-msgid "Error executing update script: %s"
-msgstr "خطأ في تنفيذ البرنامج النصي للتحديث: %s"
-
 msgid "Error getting resource information"
 msgstr "خطأ في الحصول على معلومات الموارد"
-
-msgid "Error opening configuration file: %s"
-msgstr "خطأ في فتح ملف التكوين: %s"
 
 msgid "Error processing HTML!"
 msgstr "خطأ في معالجة HTML!"
@@ -487,11 +466,17 @@ msgstr "معلومات"
 msgid "Install Cam first!!!"
 msgstr "قم بتثبيت الكاميرا أولاً!!!"
 
+msgid "Install developer update (%s)?"
+msgstr "هل تريد تثبيت تحديث المطور (%s)؟"
+
 msgid "Installing %s\nPlease Wait..."
 msgstr "جارٍ تثبيت %s\nالرجاء الانتظار..."
 
 msgid "Installing Softcam Keys\nPlease Wait..."
 msgstr "جارٍ تثبيت مفاتيح Softcam\nالرجاء الانتظار..."
+
+msgid "Invalid download URL:\n%s"
+msgstr "عنوان URL للتنزيل غير صالح:\n%s"
 
 msgid "Invalid HTML content!"
 msgstr "محتوى HTML غير صالح!"
@@ -504,6 +489,9 @@ msgstr "عنوان IP"
 
 msgid "IP Address"
 msgstr "عنوان IP"
+
+msgid "IP address / host"
+msgstr "عنوان IP / المضيف"
 
 msgid "Last Req."
 msgstr "الطلب الأخير"
@@ -541,6 +529,9 @@ msgstr "تكوين القائمة"
 msgid "MENU EMM / SERVER CLINE"
 msgstr "القائمة EMM / خط الخادم"
 
+msgid "Name"
+msgstr "اسم"
+
 msgid "Ncam not running - start Cam to obtain information."
 msgstr "Ncam لا يعمل - ابدأ تشغيل Cam للحصول على المعلومات."
 
@@ -568,14 +559,14 @@ msgstr "لا توجد نسخ احتياطية متاحة!"
 msgid "No card inserted!"
 msgstr "لم يتم إدخال أي بطاقة!"
 
+msgid "No default file for %s"
+msgstr "لا يوجد ملف افتراضي لـ %s"
+
+msgid "No ECM (clear channel or cam not decoding)"
+msgstr "لا يوجد ECM (قناة واضحة أو كاميرا لا يتم فك تشفيرها)"
+
 msgid "No ECM data"
 msgstr "لا توجد بيانات ECM"
-
-msgid "No ECM data - Timeout"
-msgstr "لا توجد بيانات ECM - انتهت المهلة"
-
-msgid "No ECM file"
-msgstr "لا يوجد ملف ECM"
 
 msgid "No ECM info is currently available."
 msgstr "لا توجد معلومات ECM متاحة حاليًا."
@@ -604,23 +595,17 @@ msgstr "معرف العقدة"
 msgid "NodeID:"
 msgstr "معرف العقدة:"
 
+msgid "Nothing to show"
+msgstr "لا شيء لإظهاره"
+
 msgid "OK"
 msgstr "نعم"
 
 msgid "OK: Entitlements   MENU: more"
 msgstr "موافق: قائمة الاستحقاقات: المزيد"
 
-msgid "OSCam codes updated successfully!\n%s"
-msgstr "تم تحديث رموز OSCam بنجاح!\n%s"
-
 msgid "Oscam not running - start Cam to obtain information."
 msgstr "Oscam لا يعمل - ابدأ تشغيل الكاميرا للحصول على المعلومات."
-
-msgid "OSCam update completed with errors.\n%s"
-msgstr "اكتمل تحديث OSCam مع حدوث أخطاء.\n%s"
-
-msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
-msgstr "انتهت مهلة تحديث OSCam. تحقق من /tmp/oscam_update.log للحصول على التفاصيل."
 
 msgid "Password"
 msgstr "كلمة المرور"
@@ -646,9 +631,6 @@ msgstr "الرجاء التحديد..."
 msgid "Please select a line to edit or select add to create new line."
 msgstr "يرجى تحديد سطر لتحريره أو تحديد إضافة لإنشاء سطر جديد."
 
-msgid "Please wait, %s."
-msgstr "الرجاء الانتظار، %s."
-
 msgid "Please wait..."
 msgstr "انتظر من فضلك..."
 
@@ -666,9 +648,6 @@ msgstr "من فضلك انتظر..\nSTOP CAM"
 
 msgid "Port"
 msgstr "ميناء"
-
-msgid "PRESS RETURN"
-msgstr "اضغط على العودة"
 
 msgid "Profile"
 msgstr "حساب تعريفي"
@@ -724,9 +703,6 @@ msgstr "صندوق بعيد"
 msgid "Remove"
 msgstr "يزيل"
 
-msgid "Remove the Line from CCcam.cfg"
-msgstr "قم بإزالة الخط من CCcam.cfg"
-
 msgid "Removing %s"
 msgstr "إزالة %s"
 
@@ -754,6 +730,9 @@ msgstr "يشارك:"
 msgid "Resources"
 msgstr "موارد"
 
+msgid "Restart"
+msgstr "إعادة تشغيل"
+
 msgid "Restart %s"
 msgstr "أعد تشغيل %s"
 
@@ -771,6 +750,9 @@ msgstr "هل تريد إعادة تشغيل softcam لتطبيق التكوين 
 
 msgid "Restore backup '%s'?\nThis will overwrite current configurations."
 msgstr "هل تريد استعادة النسخة الاحتياطية '%s'؟\nسيؤدي هذا إلى استبدال التكوينات الحالية."
+
+msgid "Running cams"
+msgstr "تشغيل الكاميرات"
 
 msgid "Save"
 msgstr "يحفظ"
@@ -801,6 +783,15 @@ msgstr "حدد أوسكام"
 
 msgid "Select Your Choice"
 msgstr "حدد اختيارك"
+
+msgid "Send EMM to Tivusat card"
+msgstr "أرسل EMM إلى بطاقة Tivusat"
+
+msgid "Send the Tivusat EMM to your card through OSCam?\n(OSCam with webif must be running)"
+msgstr "أرسل Tivusat EMM إلى بطاقتك من خلال OSCam؟\n (يجب تشغيل OSCam مع webif)"
+
+msgid "Server"
+msgstr "الخادم"
 
 msgid "Server %s-%s"
 msgstr "الخادم %s-%s"
@@ -949,8 +940,11 @@ msgstr "نظام:"
 msgid "System:"
 msgstr "نظام:"
 
-msgid "Temporarely DELETED"
+msgid "Temporarily DELETED"
 msgstr "تم الحذف مؤقتًا"
+
+msgid "The DES key must have 28 hex digits."
+msgstr "يجب أن يحتوي مفتاح DES على 28 رقمًا سداسيًا."
 
 msgid "This plugin shows you the status of your CCcam"
 msgstr "يوضح لك هذا البرنامج المساعد حالة CCcam الخاصة بك"
@@ -976,14 +970,14 @@ msgstr "حاول مرة أخرى لاحقا..."
 msgid "Type:"
 msgstr "يكتب:"
 
-msgid "Unable to make the script executable: %s"
-msgstr "غير قادر على جعل البرنامج النصي قابلاً للتنفيذ: %s"
-
 msgid "UNDELETED"
 msgstr "غير محذوفة"
 
 msgid "Unknow Image!"
 msgstr "صورة غير معروفة!"
+
+msgid "Unknown package type:\n%s"
+msgstr "نوع الحزمة غير معروف:\n%s"
 
 msgid "Update"
 msgstr "تحديث"
@@ -993,6 +987,9 @@ msgstr "تم إحباط التحديث!"
 
 msgid "Update interval (in seconds)"
 msgstr "الفاصل الزمني للتحديث (بالثواني)"
+
+msgid "Update OSCam Tivusat codes"
+msgstr "تحديث رموز OSCam Tivusat"
 
 msgid "Update script not found!\nPath: %s"
 msgstr "لم يتم العثور على البرنامج النصي للتحديث!\nالمسار: %s"
