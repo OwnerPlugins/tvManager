@@ -123,7 +123,8 @@ class CCPrioMaker(Screen):
         self.caid = None
         self.ecmTimer = eTimer()
         try:
-            self.ecmTimer_conn = self.ecmTimer.timeout.connect(self.parseEcmInfo)
+            self.ecmTimer_conn = self.ecmTimer.timeout.connect(
+                self.parseEcmInfo)
         except AttributeError:
             self.ecmTimer.callback.append(self.parseEcmInfo)
         self.__event_tracker = ServiceEventTracker(

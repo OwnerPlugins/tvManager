@@ -78,11 +78,19 @@ class OrganizerMenu(Screen):
 
     def revert(self):
         try:
-            _write(self.cfg, [_swap_prefix(x, FAKE, "C:") for x in _read(self.cfg)])
-            self.session.open(MessageBox, _("\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"),
-                              MessageBox.TYPE_INFO)
+            _write(
+                self.cfg, [
+                    _swap_prefix(
+                        x, FAKE, "C:") for x in _read(
+                        self.cfg)])
+            self.session.open(
+                MessageBox,
+                _("\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"),
+                MessageBox.TYPE_INFO)
         except (IOError, OSError) as e:
-            self.session.open(MessageBox, _("Failed to revert file: %s") % str(e), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox, _("Failed to revert file: %s") %
+                str(e), MessageBox.TYPE_ERROR)
 
 
 class OrganizerNewmenu(Screen):
@@ -107,8 +115,13 @@ class OrganizerNewmenu(Screen):
             menu_list.append((_("Nothing to show"), None))
         self.setTitle(_("CCcam Organizer"))
         self["Newmenu"] = MenuList(menu_list)
-        action = {"delete": self.delete, "recover": self.undelete, "fakes": self.find_fakes}[mode]
-        self["Actions"] = ActionMap(["SetupActions"], {"ok": action, "cancel": self.close}, -2)
+        action = {
+            "delete": self.delete,
+            "recover": self.undelete,
+            "fakes": self.find_fakes}[mode]
+        self["Actions"] = ActionMap(
+            ["SetupActions"], {
+                "ok": action, "cancel": self.close}, -2)
 
     def selected(self):
         sel = self["Newmenu"].l.getCurrentSelection()
@@ -120,19 +133,32 @@ class OrganizerNewmenu(Screen):
             return
         try:
             _write(self.cfg, [func(x, line) for x in _read(self.cfg)])
-            self.session.open(MessageBox, "\n%s \n\n%s" % (_host(line), done_text), MessageBox.TYPE_INFO)
+            self.session.open(
+                MessageBox, "\n%s \n\n%s" %
+                (_host(line), done_text), MessageBox.TYPE_INFO)
         except (IOError, OSError) as e:
-            self.session.open(MessageBox, _("Error while editing configuration: %s") % str(e),
-                              MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox, _("Error while editing configuration: %s") %
+                str(e), MessageBox.TYPE_ERROR)
 
     def delete(self):
-        self._edit(lambda x, sel: _swap_prefix(x, ACTIVE, "#!C:") if x == sel else x,
-                   _("Temporarily DELETED"))
+        self._edit(lambda x, sel: _swap_prefix(x, ACTIVE, "#!C:")
+                   if x == sel else x, _("Temporarily DELETED"))
 
     def undelete(self):
-        self._edit(lambda x, sel: _swap_prefix(x, DELETED, "C:") if x == sel else x,
-                   _("UNDELETED"))
+        self._edit(
+            lambda x,
+            sel: _swap_prefix(
+                x,
+                DELETED,
+                "C:") if x == sel else x,
+            _("UNDELETED"))
 
     def find_fakes(self):
-        self._edit(lambda x, sel: x if x == sel else _swap_prefix(x, ACTIVE, "#FC:"),
-                   _("Set as UNIQUE PEER"))
+        self._edit(
+            lambda x,
+            sel: x if x == sel else _swap_prefix(
+                x,
+                ACTIVE,
+                "#FC:"),
+            _("Set as UNIQUE PEER"))

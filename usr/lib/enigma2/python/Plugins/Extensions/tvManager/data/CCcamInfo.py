@@ -6,6 +6,8 @@
 # TOGGLE_SHOW = InfoBar.toggleShow
 # modded by lululla 20240314
 from __future__ import print_function
+from . import CCcamOrganizer
+from . import CCcamPrioMaker
 from Components.ActionMap import (
     ActionMap,
     NumberActionMap,
@@ -69,8 +71,6 @@ try:
     readKeymap(join(dirname(__file__), "keymap.xml"))
 except Exception as e:
     print("[CCcamInfo] keymap not loaded: %s" % e)
-from . import CCcamPrioMaker
-from . import CCcamOrganizer
 
 try:
     from urllib.parse import urlparse, urlunparse
@@ -299,7 +299,10 @@ config.cccamlineedit.domain = NoSave(ConfigText(fixed_size=False))
 config.cccamlineedit.port = NoSave(ConfigNumber())
 config.cccamlineedit.username = NoSave(ConfigText(fixed_size=False))
 config.cccamlineedit.password = NoSave(ConfigText(fixed_size=False))
-config.cccamlineedit.deskey = NoSave(ConfigText(default="0102030405060708091011121314", fixed_size=False))
+config.cccamlineedit.deskey = NoSave(
+    ConfigText(
+        default="0102030405060708091011121314",
+        fixed_size=False))
 config.tvm_cccaminfo = ConfigSubsection()
 config.tvm_cccaminfo.blacklist = ConfigText(
     default="/etc/enigma2/CCcamInfo.blacklisted",
@@ -307,12 +310,21 @@ config.tvm_cccaminfo.blacklist = ConfigText(
 config.tvm_cccaminfo.profiles = ConfigText(
     default="/etc/enigma2/CCcamInfo.profiles",
     fixed_size=False)
-config.tvm_cccaminfo.profile = ConfigText(default="", fixed_size=False)  # active remote URL
+config.tvm_cccaminfo.profile = ConfigText(
+    default="", fixed_size=False)  # active remote URL
 # temporary values for the profile editor
-config.tvm_cccaminfo.name = NoSave(ConfigText(default="Profile", fixed_size=False))
-config.tvm_cccaminfo.ip = NoSave(ConfigText(default="192.168.1.2", fixed_size=False))
-config.tvm_cccaminfo.username = NoSave(ConfigText(default="", fixed_size=False))
-config.tvm_cccaminfo.password = NoSave(ConfigText(default="", fixed_size=False))
+config.tvm_cccaminfo.name = NoSave(
+    ConfigText(
+        default="Profile",
+        fixed_size=False))
+config.tvm_cccaminfo.ip = NoSave(
+    ConfigText(
+        default="192.168.1.2",
+        fixed_size=False))
+config.tvm_cccaminfo.username = NoSave(
+    ConfigText(default="", fixed_size=False))
+config.tvm_cccaminfo.password = NoSave(
+    ConfigText(default="", fixed_size=False))
 config.tvm_cccaminfo.port = NoSave(ConfigNumber(default=16001))
 
 
@@ -389,7 +401,10 @@ class SimpleConfigScreen(ConfigListScreen, Screen):
                         int(610 * sf), int(460 * sf), int(280 * sf), int(45 * sf), int(26 * sf))
         Screen.__init__(self, session)
         self.setTitle(title)
-        ConfigListScreen.__init__(self, [getConfigListEntry(t, c) for t, c in entries], session=session)
+        ConfigListScreen.__init__(
+            self, [
+                getConfigListEntry(
+                    t, c) for t, c in entries], session=session)
         self["key_red"] = Label(_("Cancel"))
         self["key_green"] = Label(_("Save"))
         self["key_yellow"] = Label(remove_label or "")
@@ -443,22 +458,30 @@ class CCcamLineEdit(SimpleConfigScreen):
         c.username.value = username
         c.password.value = password
         c.deskey.value = deskey
-        entries = [(_("Protocol"), c.protocol), (_("Server"), c.domain), (_("Port"), c.port),
-                   (_("Username"), c.username), (_("Password"), c.password)]
+        entries = [(_("Protocol"), c.protocol), (_("Server"), c.domain), (_(
+            "Port"), c.port), (_("Username"), c.username), (_("Password"), c.password)]
         if protocol == "N:":
             entries.append((_("DES key (28 hex)"), c.deskey))
-        SimpleConfigScreen.__init__(self, session, _("CCcam Line Editor"), entries,
-                                    None if "new" in line else _("Remove"))
+        SimpleConfigScreen.__init__(
+            self,
+            session,
+            _("CCcam Line Editor"),
+            entries,
+            None if "new" in line else _("Remove"))
 
     def keySave(self):
         c = config.cccamlineedit
-        newline = " ".join([c.protocol.value, c.domain.value.strip(), str(c.port.value),
-                            c.username.value.strip(), c.password.value.strip()])
+        newline = " ".join([c.protocol.value, c.domain.value.strip(), str(
+            c.port.value), c.username.value.strip(), c.password.value.strip()])
         if c.protocol.value == "N:":
-            des = "".join(ch for ch in c.deskey.value if ch in "0123456789abcdefABCDEF")
+            des = "".join(
+                ch for ch in c.deskey.value if ch in "0123456789abcdefABCDEF")
             if len(des) != 28:
-                self.session.open(MessageBox, _("The DES key must have 28 hex digits."),
-                                  MessageBox.TYPE_ERROR, timeout=5)
+                self.session.open(
+                    MessageBox,
+                    _("The DES key must have 28 hex digits."),
+                    MessageBox.TYPE_ERROR,
+                    timeout=5)
                 return
             newline += " " + " ".join(des[x:x + 2] for x in range(0, 28, 2))
         if self.extras:
@@ -1041,9 +1064,8 @@ class CCcamInfoMain(Screen):
             cfgLines.append((_("Add new CCcam line"), "newC"))
             cfgLines.append((_("Add new NewCamd line"), "newN"))
             from Screens.ChoiceBox import ChoiceBox
-            self.session.openWithCallback(
-                self.showCfgSelectionCallback, ChoiceBox,
-                _("Please select a line to edit or select add to create new line."), cfgLines)
+            self.session.openWithCallback(self.showCfgSelectionCallback, ChoiceBox, _(
+                "Please select a line to edit or select add to create new line."), cfgLines)
             # self.session.openWithCallback(self.showCfgSelectionCallback, MessageBox, _("Please select a line to edit or select add to create new line."), list=cfgLines, windowTitle=_("CCcam - Lines"))
 
         else:
@@ -1842,8 +1864,13 @@ class CCcamInfoProfileSetup(SimpleConfigScreen):
 
     def keySave(self):
         c = config.tvm_cccaminfo
-        self.close(CCcamInfoRemoteBox(c.name.value, c.ip.value.strip(), c.username.value,
-                                      c.password.value, c.port.value))
+        self.close(
+            CCcamInfoRemoteBox(
+                c.name.value,
+                c.ip.value.strip(),
+                c.username.value,
+                c.password.value,
+                c.port.value))
 
 
 class CCcamInfoRemoteBoxMenu(Screen):
