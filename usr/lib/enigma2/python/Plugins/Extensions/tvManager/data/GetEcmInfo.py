@@ -5,6 +5,20 @@ import os
 import time
 
 ECM_INFO = '/tmp/ecm.info'
+
+
+def current_ecm_file():
+    """Newest of /tmp/ecm.info, ecm0.info, ecm1.info ... (multi tuner)."""
+    from glob import glob
+    best, best_time = ECM_INFO, -1
+    for path in [ECM_INFO] + sorted(glob('/tmp/ecm[0-9]*.info')):
+        try:
+            t = os.stat(path).st_mtime
+        except OSError:
+            continue
+        if t > best_time:
+            best, best_time = path, t
+    return best
 EMPTY_ECM_INFO = '', '0', '0', '0'
 old_ecm_time = time.time()
 info = {}
@@ -18,8 +32,9 @@ class GetEcmInfo:
         global old_ecm_time
         global info
         global ecm
+        path = current_ecm_file()
         try:
-            ecm_time = os.stat(ECM_INFO).st_mtime
+            ecm_time = os.stat(path).st_mtime
         except BaseException:
             ecm_time = old_ecm_time
             data = EMPTY_ECM_INFO
@@ -33,7 +48,8 @@ class GetEcmInfo:
             info['ecminterval1'] = oecmi0
             old_ecm_time = ecm_time
             try:
-                ecm = open(ECM_INFO, 'r').readlines()
+                with open(path, 'r') as f:
+                    ecm = f.readlines()
             except BaseException:
                 ecm = ''
             if ecm != '':
@@ -84,7 +100,7 @@ class GetEcmInfo:
                     if info['decode'] == 'Network':
                         cardid = 'id:' + info.get('prov', '')
                         try:
-                            share = open('/tmp/share.info', 'rb').readlines()
+                            share = open('/tmp/share.info', 'r').readlines()
                             for line in share:
                                 if cardid in line:
                                     self.textvalue = line.strip()

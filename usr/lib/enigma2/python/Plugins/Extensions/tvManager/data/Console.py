@@ -194,7 +194,7 @@ class Console(Screen):
 
     def dataAvail(self, str):
         if PY3:
-            data = str.decode()
+            data = str.decode("utf-8", "ignore")
         else:
             data = str
         print("[Console] Data received: ", data)

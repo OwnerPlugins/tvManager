@@ -1,113 +1,134 @@
-#!/bin/bash
-#DESCRIPTION=send emm
-# mod by lululla 21/02/2025
-# Aggiornato il $(date +"%d/%m/%Y")
-# bash -x /usr/lib/enigma2/python/Plugins/Extensions/tvManager/data/emm_sender.sh
+#!/bin/sh
+# DESCRIPTION=send emm
+# Sends the published EMMs for Tivusat (CAID 183E) to your own Tivusat card
+# through the OSCam webif. mod by lululla - rewritten for busybox sh (tvManager)
+#
+# Output goes to the screen (tvManager Console) and to /tmp/tvmanager_emm.log
 
-set -e
-# set -x
-## Funzione di cleanup
-cleanup() {
-    rm -f /tmp/*.tmp /tmp/*.html /tmp/emm.txt
-}
-
-trap cleanup EXIT
-
-## Constanti
 ATR_183E='3F FF 95 00 FF 91 81 71 FE 47 00 54 49 47 45 52 36 30 31 20 52 65 76 4D 38 37 14'
-atr_string='aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1U0ZU02RGpW'
-SECONDARY_ATR_STRING='aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2FWaVJ3TjVy'
+EMM_URL_B64='aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1U0ZU02RGpW'
+EMM_URL2_B64='aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2FWaVJ3TjVy'
+EMM_PREFIX='82708E0000000000D3875411'
 IP='127.0.0.1'
 CAID='183E'
+LOG=/tmp/tvmanager_emm.log
 
-## Trova la directory di configurazione di OSCam
-OSCAM_VERSION=$(find /tmp/ -name oscam.version | sed -n 1p)
-if [ ! -f "$OSCAM_VERSION" ]; then
-    echo "Errore: il file oscam.version non è stato trovato."
+WORK=$(mktemp -d /tmp/tvm_emm.XXXXXX) || exit 1
+trap 'rm -rf "$WORK"' EXIT
+
+say() { echo "$1"; echo "$(date '+%H:%M:%S') $1" >> "$LOG"; }
+: > "$LOG"
+
+# ---- find the running OSCam config ------------------------------------
+VERSION_FILE=""
+for v in /tmp/.oscam/oscam.version /tmp/.*/oscam.version; do
+    [ -f "$v" ] && { VERSION_FILE="$v"; break; }
+done
+if [ -z "$VERSION_FILE" ]; then
+    say "Error: OSCam is not running (oscam.version not found)."
+    exit 1
+fi
+CONF_DIR=$(sed -n 's/^ConfigDir:[[:space:]]*//p' "$VERSION_FILE" | head -n1)
+CONF_DIR=${CONF_DIR%/}
+OSCAM_CONF="$CONF_DIR/oscam.conf"
+LOCAL_EMM_FILE="$CONF_DIR/emm"
+if [ ! -f "$OSCAM_CONF" ]; then
+    say "Error: $OSCAM_CONF not found."
     exit 1
 fi
 
-OSCAM_CONFIG_DIR=$(grep -ir "ConfigDir" "$OSCAM_VERSION" | awk -F ":      " '{ print $2 }')
-if [ ! -d "$OSCAM_CONFIG_DIR" ]; then
-    echo "Errore: la directory di configurazione di OSCam non è stata trovata."
+# read one key from the [webif] section, ignoring comments
+webif_value() {
+    awk -v key="$1" '
+        /^[[:space:]]*[#;]/ { next }
+        /^[[:space:]]*\[/ { sec = tolower($0); next }
+        sec ~ /\[webif\]/ {
+            line = $0; k = line; sub(/=.*/, "", k); gsub(/[[:space:]]/, "", k)
+            if (tolower(k) == key) { sub(/^[^=]*=[[:space:]]*/, "", line); sub(/[[:space:]]+$/, "", line); print line; exit }
+        }' "$OSCAM_CONF"
+}
+OSCAM_USER=$(webif_value httpuser)
+OSCAM_PASSWD=$(webif_value httppwd)
+OSCAM_HTTPPORT=$(webif_value httpport)
+case "$OSCAM_HTTPPORT" in
+    +*) PROTOCOL=https ;;
+    *)  PROTOCOL=http ;;
+esac
+PORT=$(echo "$OSCAM_HTTPPORT" | tr -d '+ ')
+if [ -z "$PORT" ] || [ "$PORT" = "0" ]; then
+    say "Error: OSCam webif disabled (httpport) in $OSCAM_CONF"
     exit 1
 fi
+BASE="$PROTOCOL://$IP:$PORT"
 
-OSCAM_CONF="${OSCAM_CONFIG_DIR}/oscam.conf"
-LOCAL_EMM_FILE="${OSCAM_CONFIG_DIR}/emm"
-
-## Estrai credenziali e porta HTTP di OSCam
-OSCAM_USER=$(grep -ir "httpuser" "$OSCAM_CONF" | awk -F "=" '{ print $2 }' | sed 's/^[ \t]*//')
-OSCAM_PASSWD=$(grep -ir "httppwd" "$OSCAM_CONF" | awk -F "=" '{ print $2 }' | sed 's/^[ \t]*//')
-OSCAM_HTTPPORT=$(grep -ir "httpport" "$OSCAM_CONF" | awk -F "=" '{ print $2 }' | sed 's/^[ \t]*//')
-PROTOCOL=$([[ $OSCAM_HTTPPORT == *"+"* ]] && echo "https" || echo "http")
-PORT=$(echo "$OSCAM_HTTPPORT" | sed 's/+//g' | sed 's/^[ \t]*//;s/[ \t]*$//')
-
-## Verifica se curl è installato
-if ! command -v curl &>/dev/null; then
-    echo "curl non trovato. Tentativo di installazione..."
-    if uname -m | grep -qE 'sh4|mips|armv7l'; then
-        opkg install curl || { echo "Installazione di curl fallita. Uscita."; exit 1; }
-    else
-        apt update && apt install -y curl || { echo "Installazione di curl fallita. Uscita."; exit 1; }
+# ---- curl ---------------------------------------------------------------
+if ! command -v curl >/dev/null 2>&1; then
+    say "curl not found, installing..."
+    if command -v opkg >/dev/null 2>&1; then
+        opkg update >/dev/null 2>&1; opkg install curl >/dev/null 2>&1
+    elif command -v apt-get >/dev/null 2>&1; then
+        apt-get update >/dev/null 2>&1; apt-get install -y curl >/dev/null 2>&1
     fi
+    command -v curl >/dev/null 2>&1 || { say "Error: curl installation failed."; exit 1; }
+fi
+# -k only for the local OSCam webif (self-signed certificate)
+webif() { curl -s -k --max-time 10 --anyauth --user "$OSCAM_USER:$OSCAM_PASSWD" "$BASE/$1"; }
+
+# ---- download EMM list --------------------------------------------------
+say "Downloading EMM list..."
+REMOTE="$WORK/emm.remote"
+for b64 in "$EMM_URL_B64" "$EMM_URL2_B64"; do
+    url=$(echo "$b64" | base64 -d 2>/dev/null)
+    curl -s --max-time 20 "$url" | tr -d '\r' > "$REMOTE"
+    grep -q "^$EMM_PREFIX" "$REMOTE" && break
+done
+if ! grep -q "^$EMM_PREFIX" "$REMOTE"; then
+    say "Error: no valid EMM downloaded (both sources failed)."
+    exit 1
+fi
+if [ ! -f "$LOCAL_EMM_FILE" ] || ! cmp -s "$REMOTE" "$LOCAL_EMM_FILE"; then
+    cat "$REMOTE" > "$LOCAL_EMM_FILE"
+    say "EMM list updated: $LOCAL_EMM_FILE"
 fi
 
-## Scarica l'EMM
-emm_url=$(echo "$atr_string" | base64 -d)
-REMOTE_EMM_CONTENT=$(curl -s "$emm_url")
-
-if [ -z "$REMOTE_EMM_CONTENT" ]; then
-    echo "URL primario fallito. Provo con URL alternativo..."
-    emm_url=$(echo "$SECONDARY_ATR_STRING" | base64 -d)
-    REMOTE_EMM_CONTENT=$(curl -s "$emm_url")
-    if [ -z "$REMOTE_EMM_CONTENT" ]; then
-        echo "Entrambi gli URL hanno fallito. Uscita."
-        exit 1
-    fi
-fi
-
-## Salva EMM locale se diverso da remoto
-if [ ! -f "$LOCAL_EMM_FILE" ] || ! diff <(echo "$REMOTE_EMM_CONTENT") "$LOCAL_EMM_FILE" >/dev/null; then
-    echo "$REMOTE_EMM_CONTENT" > "$LOCAL_EMM_FILE"
-fi
-
-## Ottieni i reader attivi
-readers=$(curl -s --user "${OSCAM_USER}:${OSCAM_PASSWD}" --anyauth -k "${PROTOCOL}://${IP}:${PORT}/status.html" | grep "Restart Reader")
-if [ -z "$readers" ]; then
-    echo "Nessun reader attivo trovato."
+# ---- active readers -----------------------------------------------------
+webif "status.html" | grep "Restart Reader" \
+    | sed -e 's|.*status.html?action=restart&amp;label=||' -e 's|".*||' > "$WORK/readers"
+if [ ! -s "$WORK/readers" ]; then
+    say "No active reader found (check httpuser/httppwd in $OSCAM_CONF)."
     exit 1
 fi
 
-echo "$readers" | sed -e 's|<TD CLASS="statuscol1"><A HREF="status.html?action=restart&amp;label=||g' | 
-    sed 's/^[ \t]*//' | 
-    awk -F "\"" '{ print $1 }' > /tmp/active_readers.tmp
-
-## Itera sui reader attivi
+ATR_CLEAN=$(echo "$ATR_183E" | tr -d '[:space:]')
+SENT_TOTAL=0
 while IFS= read -r label; do
-    entitlements=$(curl -s --user "${OSCAM_USER}:${OSCAM_PASSWD}" --anyauth -k "${PROTOCOL}://${IP}:${PORT}/entitlements.html?label=${label}")
-    atr=$(echo "$entitlements" | sed -n 's/.*<TD COLSPAN="4">\(.*\)<\/TD>.*/\1/p' | sed 's/.$//g')
+    [ -n "$label" ] || continue
+    atr=$(webif "entitlements.html?label=$label" \
+        | sed -n 's/.*<TD COLSPAN="4">\(.*\)<\/TD>.*/\1/p' | head -n1 | tr -d '[:space:]')
+    case "$atr" in
+        "$ATR_CLEAN"*) ;;
+        *) continue ;;
+    esac
+    say "Tivusat card found on reader '$label', sending EMM..."
+    sent=0
+    while IFS= read -r EMM; do
+        EMM=$(echo "$EMM" | tr -d ' \t')
+        case "$EMM" in
+            "$EMM_PREFIX"*)
+                webif "emm_running.html?label=$label&emmcaid=$CAID&ep=$EMM&action=Launch" >/dev/null
+                sent=$((sent + 1))
+                say "  EMM $sent sent: $(echo "$EMM" | cut -c1-20)..."
+                sleep 1
+                ;;
+        esac
+    done < "$LOCAL_EMM_FILE"
+    SENT_TOTAL=$((SENT_TOTAL + sent))
+    curl -s --max-time 5 "http://$IP/web/message?text=EMM+sent+to+$label+($sent)&type=2&timeout=5" >/dev/null
+done < "$WORK/readers"
 
-    atr_cleaned=$(echo "$atr" | tr -d '[:space:]')
-    ATR_183E_cleaned=$(echo "$ATR_183E" | tr -d '[:space:]')
-
-    if [ "$ATR_183E_cleaned" == "$atr_cleaned" ]; then
-        echo "Invio EMM alla carta $label"
-        
-        while IFS= read -r EMM; do
-            EMM=$(echo "$EMM" | tr -d '\r' | xargs)
-            if [[ ${EMM:0:24} == "82708E0000000000D3875411" ]]; then
-                curl -s --user "${OSCAM_USER}:${OSCAM_PASSWD}" --anyauth -k \
-                    "${PROTOCOL}://${IP}:${PORT}/emm_running.html?label=${label}&emmcaid=${CAID}&ep=${EMM}&action=Launch" >/dev/null
-                echo "EMM inviata: ${EMM:0:20}..."  # Mostra solo l'inizio per brevità
-            fi
-            sleep 1
-        done < "$LOCAL_EMM_FILE"
-
-        # Notifica su schermo OSCam
-        curl -s "http://${IP}/web/message?text=EMM+inviate+a+${label}&type=2&timeout=5" >/dev/null
-    fi
-done < /tmp/active_readers.tmp
-
-echo "Aggiornamento EMM completato."
+if [ "$SENT_TOTAL" -eq 0 ]; then
+    say "No Tivusat card (ATR 183E) found on the active readers."
+    exit 1
+fi
+say "Done: $SENT_TOTAL EMM sent."
 exit 0

@@ -5,10 +5,8 @@ from __future__ import print_function
 import base64
 import codecs
 import re
-import ssl
-import subprocess
 import sys
-from os import X_OK, access, chmod, listdir, popen, stat, system
+from os import chmod, listdir, popen, stat, system
 from os.path import dirname, exists, join
 from random import choice
 from threading import Thread
@@ -103,20 +101,16 @@ data_path = plugin_path + "/data/"
 skin_path = plugin_path
 
 
-try:
-    _create_unverified_https_context = ssl._create_unverified_context
-except AttributeError:
-    pass
-else:
-    ssl._create_default_https_context = _create_unverified_https_context
+# NOTE: the global "ssl._create_default_https_context = unverified" patch was
+# removed: it disabled certificate checks for every plugin running in enigma2.
 
 
 def checkStr(txt):
     if PY3:
-        if isinstance(type(txt), type(bytes())):
-            txt = txt.decode("utf-8")
+        if isinstance(txt, bytes):
+            txt = txt.decode("utf-8", "ignore")
     else:
-        if isinstance(type(txt), type(unicode())):
+        if isinstance(txt, unicode):
             txt = txt.encode("utf-8")
     return txt
 
@@ -533,80 +527,26 @@ class tv_config(Screen, ConfigListScreen):
     def sendemm(self):
         if config.plugins.tvmanager.active.value:
             self.getcl()
-        else:
-            try:
-                from ..plugin import runningcam
-                print("datas runningcam=", runningcam)
+            return
+        script = join(data_path, "emm_sender.sh")
+        if not exists(script):
+            self.session.open(MessageBox, _("emm_sender.sh not found"),
+                              MessageBox.TYPE_ERROR, timeout=5)
+            return
 
-                def execute_command(choice):
-                    if choice:
-                        if "oscam" in runningcam.lower():
-                            # cmd = "ps aux | grep -i '[o]scam'"
-                            # res = subprocess.getoutput(cmd)
-                            res = ""
-                            msg = []
-                            cmd = ["ps"]
-                            output = subprocess.Popen(
-                                cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-                            stdout, stderr = output.communicate()
-
-                            if output.returncode == 0:
-                                res = "\n".join(line for line in stdout.decode(
-                                    "utf-8").split("\n") if "oscam" in line.lower())
-                                print("execute_command res ps:", res)
-                            else:
-                                print("Error:", stderr.decode("utf-8"))
-
-                            if any(cam in res.lower()
-                                   for cam in ["oscam", "icam", "ncam", "gcam"]):
-                                print("oscam exist")
-                                msg.append(_("\n....\n.....\n"))
-                                self.cmd1 = "/usr/lib/enigma2/python/Plugins/Extensions/tvManager/data/emm_sender.sh"
-                                if not access(self.cmd1, X_OK):
-                                    chmod(self.cmd1, 493)
-
-                                def run_command():
-                                    subprocess.run(self.cmd1, shell=True)
-
-                                thread = Thread(target=run_command)
-                                thread.start()
-
-                            if exists("/tmp/emm.txt"):
-                                print("EMM file exists!")
-                                with open("/tmp/emm.txt") as f:
-                                    file_content = f.read().strip()
-                                    msg.append("CURRENT EMM IS:\n")
-                                    msg.append(file_content)
-                                    msg.append(
-                                        "\nCurrent Emm saved to /tmp/emm.txt")
-                                    msg = (" %s " % _("\n")).join(msg)
-                                    print("DEBUG: msg_output =", msg)
-                                self.session.open(
-                                    MessageBox, _("Please wait, %s.") %
-                                    msg, MessageBox.TYPE_INFO, timeout=10)
-
-                self.session.openWithCallback(execute_command, MessageBox, _(
-                    "Do you want to execute the command?"), MessageBox.TYPE_YESNO)
-            except Exception as e:
-                print("error on emm", str(e))
+        def run(answer):
+            if answer:
+                from .Console import Console
+                self.session.open(Console, _("Send EMM to Tivusat card"),
+                                  ["/bin/sh %s" % script], closeOnSuccess=False)
+        self.session.openWithCallback(
+            run, MessageBox,
+            _("Send the Tivusat EMM to your card through OSCam?\n(OSCam with webif must be running)"),
+            MessageBox.TYPE_YESNO)
 
     def callMyMsg(self, answer=False):
         if answer:
-            self.cmd1 = "/usr/lib/enigma2/python/Plugins/Extensions/tvManager/data/emm_sender.sh"
-            if not access(self.cmd1, X_OK):
-                chmod(self.cmd1, 493)
-
-            def run_command():
-                subprocess.run(self.cmd1, shell=True)
-
-            thread = Thread(target=run_command)
-            thread.start()
-        else:
-            self.session.open(
-                MessageBox,
-                _("Command Cancelled"),
-                MessageBox.TYPE_INFO,
-                timeout=5)
+            self.sendemm()
 
     def closex(self):
         self.close()
@@ -614,8 +554,13 @@ class tv_config(Screen, ConfigListScreen):
     def resetcfg(self):
         if config.plugins.tvmanager.active.value is True:
             import shutil
-            shutil.copy2(data_path + rstcfg, putlbl)
-            system("chmod -R 755 %s" % putlbl)
+            src = data_path + rstcfg
+            if not exists(src):
+                self.session.open(MessageBox, _("No default file for %s") % putlbl,
+                                  MessageBox.TYPE_ERROR, timeout=5)
+                return
+            shutil.copy2(src, putlbl)
+            chmod(putlbl, 0o644)
             self.session.open(
                 MessageBox,
                 _("Reset") + " " + putlbl,
@@ -806,7 +751,7 @@ class tv_config(Screen, ConfigListScreen):
                 type=MessageBox.TYPE_INFO,
                 timeout=5)
             return
-        system("chmod -R 755 %s" % dest)
+        chmod(dest, 0o644)
         cfgdok = open(dest, "a")
         cfgdok.write("\n\n" + host + " " + port + " " + user + " " + passw)
         cfgdok.close()
@@ -840,7 +785,7 @@ class tv_config(Screen, ConfigListScreen):
                 type=MessageBox.TYPE_INFO,
                 timeout=5)
             return
-        system("chmod -R 755 %s" % dest)
+        chmod(dest, 0o644)
         cfgdok = open(dest, "a")
         cfgdok.write(
             "\n[reader]\nlabel = Server_" +
@@ -889,7 +834,7 @@ class tv_config(Screen, ConfigListScreen):
                 type=MessageBox.TYPE_INFO,
                 timeout=5)
             return
-        system("chmod -R 755 %s" % dest)
+        chmod(dest, 0o644)
         cfgdok = open(dest, "a")
         cfgdok.write(
             "\n[reader]\nlabel = Server_" +

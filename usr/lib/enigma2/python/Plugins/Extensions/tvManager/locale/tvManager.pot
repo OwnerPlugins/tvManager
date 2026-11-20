@@ -1,8 +1,38 @@
 # tvManager translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# Copyright (C) 2026 Lululla Team
 #
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "-"
+msgstr ""
+
+msgid "(All readers)"
+msgstr ""
+
+msgid "\n"
+msgstr ""
+
+msgid "\n All Caid:"
+msgstr ""
+
+msgid "\n....\n.....\n"
+msgstr ""
+
+msgid "\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"
+msgstr ""
+
+msgid "\tProvid:"
+msgstr ""
 
 msgid "%s ( %s Cards )"
 msgstr ""
@@ -10,19 +40,22 @@ msgstr ""
 msgid "%s Info - Configuration"
 msgstr ""
 
-msgid "%s Info - Main Menu"
+msgid "%s not available:\n%s"
 msgstr ""
 
 msgid "%s restarted successfully!"
 msgstr ""
 
-msgid "%s webif disabled"
+msgid "%s\n\n%s\n%s\n\nPrio entry\n%s"
 msgstr ""
 
-msgid "(All readers)"
+msgid "<no capabilities found>"
 msgstr ""
 
-msgid "(Show only reader) (%s)"
+msgid "<no log found>"
+msgstr ""
+
+msgid "a NOTHING.TO.UNDELE"
 msgstr ""
 
 msgid "About"
@@ -49,6 +82,9 @@ msgstr ""
 msgid "Address"
 msgstr ""
 
+msgid "address:"
+msgstr ""
+
 msgid "All"
 msgstr ""
 
@@ -58,10 +94,16 @@ msgstr ""
 msgid "An unexpected error occurred: %s"
 msgstr ""
 
+msgid "and"
+msgstr ""
+
 msgid "Ask all caid"
 msgstr ""
 
 msgid "Ask for the selection caid"
+msgstr ""
+
+msgid "Autocam assigned to the current channel"
 msgstr ""
 
 msgid "Automatically update Client/Server View?"
@@ -79,13 +121,61 @@ msgstr ""
 msgid "Backup restoration failed!"
 msgstr ""
 
-msgid "CCPrioMaker Settings"
+msgid "Backup restored successfully!\nRestored files:\n- %s"
 msgstr ""
 
-msgid "CCPrioMaker autostart"
+msgid "Caid"
+msgstr ""
+
+msgid "caid:"
+msgstr ""
+
+msgid "Caid:"
+msgstr ""
+
+msgid "CaID:"
+msgstr ""
+
+msgid "Caid:Srvid"
+msgstr ""
+
+msgid "Cam Download"
+msgstr ""
+
+msgid "camscript exit code %s"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot reach the %s webif:\n%s\n\nYou can enter IP/port/user manually in Setup."
+msgstr ""
+
+msgid "Capabilities"
+msgstr ""
+
+msgid "card"
+msgstr ""
+
+msgid "Card info (CCcam-Reader)"
+msgstr ""
+
+msgid "card reader"
+msgstr ""
+
+msgid "Cards:"
+msgstr ""
+
+msgid "Cards: 0"
+msgstr ""
+
+msgid "Cardserial"
 msgstr ""
 
 msgid "CCcam"
+msgstr ""
+
+msgid "CCcam - Lines"
 msgstr ""
 
 msgid "CCcam Clients Info"
@@ -101,6 +191,9 @@ msgid "CCcam Info"
 msgstr ""
 
 msgid "CCcam Info %s"
+msgstr ""
+
+msgid "CCcam Info %s\nby AliAbdul %s\n\nrecoded from Lululla\n\nThis screen shows you the status of CCcam."
 msgstr ""
 
 msgid "CCcam Info Config"
@@ -139,37 +232,10 @@ msgstr ""
 msgid "CCcam.cfg Basic Line Editor"
 msgstr ""
 
-msgid "CCcamInfo not available"
+msgid "CCPrioMaker autostart"
 msgstr ""
 
-msgid "CaID:"
-msgstr ""
-
-msgid "Caid"
-msgstr ""
-
-msgid "Caid:"
-msgstr ""
-
-msgid "Caid:Srvid"
-msgstr ""
-
-msgid "Cam Download"
-msgstr ""
-
-msgid "Cancel"
-msgstr ""
-
-msgid "Card info (CCcam-Reader)"
-msgstr ""
-
-msgid "Cards:"
-msgstr ""
-
-msgid "Cards: 0"
-msgstr ""
-
-msgid "Cardserial"
+msgid "CCPrioMaker Settings"
 msgstr ""
 
 msgid "Channel"
@@ -199,6 +265,9 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
+msgid "close share view"
+msgstr ""
+
 msgid "Command Cancelled"
 msgstr ""
 
@@ -209,6 +278,9 @@ msgid "Connected clients"
 msgstr ""
 
 msgid "Connected:"
+msgstr ""
+
+msgid "Connecting..."
 msgstr ""
 
 msgid "Content"
@@ -229,16 +301,19 @@ msgstr ""
 msgid "Current time"
 msgstr ""
 
+msgid "decrease uphop by 1"
+msgstr ""
+
 msgid "Delete"
 msgstr ""
 
 msgid "Delete %s?"
 msgstr ""
 
-msgid "Delete Peer"
+msgid "Delete failed!"
 msgstr ""
 
-msgid "Delete failed!"
+msgid "Delete Peer"
 msgstr ""
 
 msgid "Deleted %s!"
@@ -256,6 +331,9 @@ msgstr ""
 msgid "Do you want to restart Gui Interface?"
 msgstr ""
 
+msgid "Ecm avg"
+msgstr ""
+
 msgid "ECM data format error"
 msgstr ""
 
@@ -268,10 +346,16 @@ msgstr ""
 msgid "ECM file not found"
 msgstr ""
 
-msgid "ECM read error"
+msgid "Ecm Info"
 msgstr ""
 
-msgid "Ecm Info"
+msgid "ECM info"
+msgstr ""
+
+msgid "Ecm last"
+msgstr ""
+
+msgid "ECM read error"
 msgstr ""
 
 msgid "Ecm Statistics"
@@ -280,10 +364,10 @@ msgstr ""
 msgid "Ecm Time"
 msgstr ""
 
-msgid "Ecm avg"
+msgid "ecm time:"
 msgstr ""
 
-msgid "Ecm last"
+msgid "ecm.info"
 msgstr ""
 
 msgid "Edit"
@@ -298,6 +382,9 @@ msgstr ""
 msgid "Entitlements"
 msgstr ""
 
+msgid "Entitlements for '%s'"
+msgstr ""
+
 msgid "Error"
 msgstr ""
 
@@ -305,15 +392,6 @@ msgid "Error executing update script: %s"
 msgstr ""
 
 msgid "Error getting resource information"
-msgstr ""
-
-msgid "Error loading system info:"
-msgstr ""
-
-msgid "Error loading system information:"
-msgstr ""
-
-msgid "Error opening cam info: %s"
 msgstr ""
 
 msgid "Error opening configuration file: %s"
@@ -332,6 +410,9 @@ msgid "Error stopping %s!"
 msgstr ""
 
 msgid "Error while editing configuration: %s"
+msgstr ""
+
+msgid "Error:\n%s"
 msgstr ""
 
 msgid "Exit"
@@ -364,7 +445,16 @@ msgstr ""
 msgid "Get Link"
 msgstr ""
 
+msgid "get the cards' server"
+msgstr ""
+
 msgid "Getting the list, please wait ..."
+msgstr ""
+
+msgid "GREEN: start %s"
+msgstr ""
+
+msgid "handled"
 msgstr ""
 
 msgid "Help"
@@ -373,16 +463,13 @@ msgstr ""
 msgid "Hops"
 msgstr ""
 
+msgid "hops:"
+msgstr ""
+
 msgid "Hops:"
 msgstr ""
 
 msgid "Hostname:"
-msgstr ""
-
-msgid "IP Address"
-msgstr ""
-
-msgid "IP address"
 msgstr ""
 
 msgid "Idle Time:"
@@ -391,16 +478,31 @@ msgstr ""
 msgid "If Active: Download/Reset Server Config"
 msgstr ""
 
+msgid "increase uphop by 1"
+msgstr ""
+
+msgid "info"
+msgstr ""
+
 msgid "Install Cam first!!!"
 msgstr ""
 
-msgid "Install developer update (%s)?"
+msgid "Installing %s\nPlease Wait..."
+msgstr ""
+
+msgid "Installing Softcam Keys\nPlease Wait..."
 msgstr ""
 
 msgid "Invalid HTML content!"
 msgstr ""
 
 msgid "Invalid URL!"
+msgstr ""
+
+msgid "IP address"
+msgstr ""
+
+msgid "IP Address"
 msgstr ""
 
 msgid "Last Req."
@@ -424,13 +526,10 @@ msgstr ""
 msgid "Log %s-%s"
 msgstr ""
 
-msgid "MENU EMM / SERVER CLINE"
+msgid "Maxdown -"
 msgstr ""
 
 msgid "Maxdown +"
-msgstr ""
-
-msgid "Maxdown -"
 msgstr ""
 
 msgid "Maxdown:"
@@ -439,7 +538,7 @@ msgstr ""
 msgid "Menu config"
 msgstr ""
 
-msgid "NCamInfo not available"
+msgid "MENU EMM / SERVER CLINE"
 msgstr ""
 
 msgid "Ncam not running - start Cam to obtain information."
@@ -451,19 +550,13 @@ msgstr ""
 msgid "New profile:"
 msgstr ""
 
+msgid "New version %s is available.\n\nChangelog: %s \n\nInstall now?"
+msgstr ""
+
+msgid "New version %s is available\n\nChangelog: %s\n\nPress yellow button to update."
+msgstr ""
+
 msgid "NewCamd"
-msgstr ""
-
-msgid "No ECM data"
-msgstr ""
-
-msgid "No ECM data - Timeout"
-msgstr ""
-
-msgid "No ECM file"
-msgstr ""
-
-msgid "No ECM info is currently available. This is only available while decrypting."
 msgstr ""
 
 msgid "No active cam to restart!"
@@ -475,7 +568,31 @@ msgstr ""
 msgid "No card inserted!"
 msgstr ""
 
+msgid "No ECM data"
+msgstr ""
+
+msgid "No ECM data - Timeout"
+msgstr ""
+
+msgid "No ECM file"
+msgstr ""
+
+msgid "No ECM info is currently available."
+msgstr ""
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr ""
+
+msgid "No entitlements for '%s'"
+msgstr ""
+
+msgid "no or unknown card inserted"
+msgstr ""
+
 msgid "No softcams available!"
+msgstr ""
+
+msgid "No tvManager camscript for the current cam."
 msgstr ""
 
 msgid "No valid backups found!"
@@ -490,16 +607,19 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
-msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgid "OK: Entitlements   MENU: more"
 msgstr ""
 
-msgid "OSCamInfo not available"
+msgid "OSCam codes updated successfully!\n%s"
 msgstr ""
 
 msgid "Oscam not running - start Cam to obtain information."
 msgstr ""
 
-msgid "PRESS RETURN"
+msgid "OSCam update completed with errors.\n%s"
+msgstr ""
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
 msgstr ""
 
 msgid "Password"
@@ -514,6 +634,9 @@ msgstr ""
 msgid "Pid"
 msgstr ""
 
+msgid "pid:"
+msgstr ""
+
 msgid "Please Reset - No File CFG"
 msgstr ""
 
@@ -526,7 +649,25 @@ msgstr ""
 msgid "Please wait, %s."
 msgstr ""
 
+msgid "Please wait..."
+msgstr ""
+
+msgid "Please wait..\nRESTART CAM"
+msgstr ""
+
+msgid "Please wait..\nSTART UP CAM"
+msgstr ""
+
+msgid "Please wait..\nSTOP & RESTART CAM"
+msgstr ""
+
+msgid "Please wait..\nSTOP CAM"
+msgstr ""
+
 msgid "Port"
+msgstr ""
+
+msgid "PRESS RETURN"
 msgstr ""
 
 msgid "Profile"
@@ -538,10 +679,16 @@ msgstr ""
 msgid "Protocol"
 msgstr ""
 
+msgid "provid:"
+msgstr ""
+
 msgid "Provider"
 msgstr ""
 
 msgid "Provider Name:"
+msgstr ""
+
+msgid "provider:"
 msgstr ""
 
 msgid "Provider:"
@@ -556,10 +703,10 @@ msgstr ""
 msgid "Quick restart %s?"
 msgstr ""
 
-msgid "Read Userdata from %s.conf"
+msgid "Reader"
 msgstr ""
 
-msgid "Reader"
+msgid "Reader statistics"
 msgstr ""
 
 msgid "Reader Statistics"
@@ -607,19 +754,37 @@ msgstr ""
 msgid "Resources"
 msgstr ""
 
-msgid "Restart GUI?"
+msgid "Restart %s"
+msgstr ""
+
+msgid "Restart %s?"
 msgstr ""
 
 msgid "Restart error: %s"
 msgstr ""
 
+msgid "Restart GUI?"
+msgstr ""
+
 msgid "Restart softcam to apply restored configuration?"
+msgstr ""
+
+msgid "Restore backup '%s'?\nThis will overwrite current configurations."
 msgstr ""
 
 msgid "Save"
 msgstr ""
 
 msgid "Scanning and retrieval list softcam ..."
+msgstr ""
+
+msgid "Select a cam to run ..."
+msgstr ""
+
+msgid "Select and Install"
+msgstr ""
+
+msgid "Select backup to restore:"
 msgstr ""
 
 msgid "Select CCcam"
@@ -635,15 +800,6 @@ msgid "Select OScam"
 msgstr ""
 
 msgid "Select Your Choice"
-msgstr ""
-
-msgid "Select a cam to run ..."
-msgstr ""
-
-msgid "Select and Install"
-msgstr ""
-
-msgid "Select backup to restore:"
 msgstr ""
 
 msgid "Server %s-%s"
@@ -691,202 +847,16 @@ msgstr ""
 msgid "Setup"
 msgstr ""
 
+msgid "Setup (manual IP / user)"
+msgstr ""
+
 msgid "Share View"
 msgstr ""
 
-msgid "Shares"
-msgstr ""
-
-msgid "Show Clients"
-msgstr ""
-
-msgid "Show Ecm info"
-msgstr ""
-
-msgid "Show Log"
-msgstr ""
-
-msgid "Show Readers/Proxies"
-msgstr ""
-
-msgid "Softcam Manager"
-msgstr ""
-
-msgid "Softcam restarted with new configuration!"
-msgstr ""
-
-msgid "Start"
-msgstr ""
-
-msgid "Status"
-msgstr ""
-
-msgid "Stop"
-msgstr ""
-
-msgid "Stop Finding Fakes"
-msgstr ""
-
-msgid "Switch config"
-msgstr ""
-
-msgid "System"
-msgstr ""
-
-msgid "System cleanup completed!"
-msgstr ""
-
-msgid "System:"
-msgstr ""
-
-msgid "Temporarely DELETED"
-msgstr ""
-
-msgid "This plugin shows you the status of your CCcam"
-msgstr ""
-
-msgid "Total"
-msgstr ""
-
-msgid "Total cards:"
-msgstr ""
-
-msgid "Total handled client ecm's"
-msgstr ""
-
-msgid "Total handled client emm's"
-msgstr ""
-
-msgid "Total:"
-msgstr ""
-
-msgid "Try again later ..."
-msgstr ""
-
-msgid "Type:"
-msgstr ""
-
-msgid "UNDELETED"
-msgstr ""
-
-msgid "Unable to make the script executable: %s"
-msgstr ""
-
-msgid "Unknow Image!"
-msgstr ""
-
-msgid "Update"
-msgstr ""
-
-msgid "Update Aborted!"
-msgstr ""
-
-msgid "Update interval (in seconds)"
-msgstr ""
-
-msgid "Uphops +"
-msgstr ""
-
-msgid "Uphops -"
-msgstr ""
-
-msgid "Uphops:"
-msgstr ""
-
-msgid "Uptime"
-msgstr ""
-
-msgid "Used:"
-msgstr ""
-
-msgid "Username"
-msgstr ""
-
-msgid "Username (httpuser)"
-msgstr ""
-
-msgid "Using old profile:"
-msgstr ""
-
-msgid "Version:"
-msgstr ""
-
-msgid "Wait please..."
-msgstr ""
-
-msgid "Write"
-msgstr ""
-
-msgid "Write-Debug"
-msgstr ""
-
-msgid "You have the latest version!"
-msgstr ""
-
-msgid "\\n"
-msgstr ""
-
-msgid "\\tProvid:"
-msgstr ""
-
-msgid "a NOTHING.TO.UNDELE"
-msgstr ""
-
-msgid "address:"
-msgstr ""
-
-msgid "and"
-msgstr ""
-
-msgid "caid:"
-msgstr ""
-
-msgid "card"
-msgstr ""
-
-msgid "card reader"
-msgstr ""
-
-msgid "close share view"
-msgstr ""
-
-msgid "decrease uphop by 1"
-msgstr ""
-
-msgid "ecm time:"
-msgstr ""
-
-msgid "ecm.info"
-msgstr ""
-
-msgid "get the cards' server"
-msgstr ""
-
-msgid "handled"
-msgstr ""
-
-msgid "hops:"
-msgstr ""
-
-msgid "increase uphop by 1"
-msgstr ""
-
-msgid "info"
-msgstr ""
-
-msgid "no or unknown card inserted"
-msgstr ""
-
-msgid "pid:"
-msgstr ""
-
-msgid "provid:"
-msgstr ""
-
-msgid "provider:"
-msgstr ""
-
 msgid "share:"
+msgstr ""
+
+msgid "Shares"
 msgstr ""
 
 msgid "show all cards"
@@ -922,11 +892,153 @@ msgstr ""
 msgid "show cards with uphop 9"
 msgstr ""
 
+msgid "Show Clients"
+msgstr ""
+
+msgid "Show Ecm info"
+msgstr ""
+
+msgid "Show Log"
+msgstr ""
+
+msgid "Show Readers/Proxies"
+msgstr ""
+
+msgid "Softcam Manager"
+msgstr ""
+
+msgid "Softcam Manager by Lululla\nV.%s\nInstall Cam Software\nForum Support www.corvoboys.org\n"
+msgstr ""
+
+msgid "Softcam restarted with new configuration!"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Start %s"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop %s"
+msgstr ""
+
+msgid "Stop %s?"
+msgstr ""
+
+msgid "Stop Finding Fakes"
+msgstr ""
+
+msgid "Switch config"
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "System cleanup completed!"
+msgstr ""
+
 msgid "system:"
+msgstr ""
+
+msgid "System:"
+msgstr ""
+
+msgid "Temporarely DELETED"
+msgstr ""
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total cards:"
+msgstr ""
+
+msgid "Total handled client ecm's"
+msgstr ""
+
+msgid "Total handled client emm's"
+msgstr ""
+
+msgid "Total:"
+msgstr ""
+
+msgid "Try again later ..."
+msgstr ""
+
+msgid "Type:"
+msgstr ""
+
+msgid "Unable to make the script executable: %s"
+msgstr ""
+
+msgid "UNDELETED"
+msgstr ""
+
+msgid "Unknow Image!"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update Aborted!"
+msgstr ""
+
+msgid "Update interval (in seconds)"
+msgstr ""
+
+msgid "Update script not found!\nPath: %s"
+msgstr ""
+
+msgid "Uphops -"
+msgstr ""
+
+msgid "Uphops +"
+msgstr ""
+
+msgid "Uphops:"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Used:"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Username (httpuser)"
+msgstr ""
+
+msgid "Using old profile:"
 msgstr ""
 
 msgid "using:"
 msgstr ""
 
+msgid "Version:"
+msgstr ""
+
+msgid "Wait please..."
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Write-Debug"
+msgstr ""
+
 msgid "xLine"
 msgstr ""
+
+msgid "You have the latest version!"
+msgstr ""
+

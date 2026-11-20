@@ -46,7 +46,7 @@ def CCPrioMakerAutostart(session=None):
     global CCPrioMaker_session
     if config.plugins.ccprio.autostart.value and session:
         if CCPrioMaker_session is None:
-            CCPrioMaker_session = CCPrioMaker(session)
+            CCPrioMaker_session = session.instantiateDialog(CCPrioMaker)
 
 
 def cleanup_r(val):
@@ -89,7 +89,7 @@ def cleanup(val):
 def readecminfo():
     caid = ""
     provid = ""
-    print(f"[CCPrioMaker] search {ECMINFOPATH}")
+    print("[CCPrioMaker] search %s" % ECMINFOPATH)
     try:
         with open(ECMINFOPATH, "r") as file:
             for line in file:
@@ -98,16 +98,16 @@ def readecminfo():
                 if line.startswith("caid:"):
                     parts = line.split(":")
                     if len(parts) == 2:
-                        caid = f"{int(parts[1], 16):04X}"
+                        caid = "%04X" % int(parts[1], 16)
 
                 elif line.startswith("provid:"):
                     parts = line.split(":")
                     if len(parts) == 2:
-                        provid = f"{int(parts[1], 16):06X}"
+                        provid = "%06X" % int(parts[1], 16)
                 if caid and provid:
                     break
-    except IOError as e:
-        print(f"Error reading file {ECMINFOPATH}: {e}")
+    except (IOError, OSError, ValueError) as e:
+        print("Error reading file %s: %s" % (ECMINFOPATH, e))
     return caid, provid
 
 
@@ -120,13 +120,12 @@ class CCPrioMaker(Screen):
         self.Provider = None
         self.ServiceName = None
         self.caidlist = None
+        self.caid = None
         self.ecmTimer = eTimer()
         try:
-            self.hideTimer_conn = self.hideTimer.timeout.connect(
-                self.parseEcmInfo)
-        except BaseException:
-            self.hideTimer.callback.append(self.parseEcmInfo)
-        self.hideTimer.start(200, 1)
+            self.ecmTimer_conn = self.ecmTimer.timeout.connect(self.parseEcmInfo)
+        except AttributeError:
+            self.ecmTimer.callback.append(self.parseEcmInfo)
         self.__event_tracker = ServiceEventTracker(
             screen=self,
             eventmap={
@@ -170,6 +169,8 @@ class CCPrioMaker(Screen):
                             self.ecmTimer.stop()
 
     def parseEcmInfo(self, caidlist=0):
+        if not self.ssid or not self.caidlist:
+            return
         self.caid = readecminfo()
         if self.caid and len(
             self.caid) == 2 and len(
@@ -205,8 +206,8 @@ class CCPrioMaker(Screen):
 
                 if config.plugins.ccprio.askcaid.value is True:
                     selection = tmplist.index(str(caid))
-                    mess = _("Provider") + " :" + self.Provider + \
-                        "  " + _("Service") + " :" + self.ServiceName
+                    mess = _("Provider") + " :" + str(self.Provider) + \
+                        "  " + _("Service") + " :" + str(self.ServiceName)
 
                     if config.plugins.ccprio.allcaid.value is False:
                         menu = []
@@ -243,10 +244,10 @@ class CCPrioMaker(Screen):
                     (_("Add"),
                      _("Provider") +
                         ": " +
-                        self.Provider,
+                        str(self.Provider),
                         _("Service") +
                         ": " +
-                        self.ServiceName,
+                        str(self.ServiceName),
                         val),
                     MessageBox.TYPE_INFO,
                     3)
@@ -261,10 +262,10 @@ class CCPrioMaker(Screen):
                             "# %s  %s Caids:%s\n" %
                             (_("Provider") +
                              ":" +
-                             self.Provider,
+                             str(self.Provider),
                              _("Service") +
                                 ":" +
-                                self.ServiceName,
+                                str(self.ServiceName),
                                 self.caidlist))
                     file.write("%s\n" % (val))
 

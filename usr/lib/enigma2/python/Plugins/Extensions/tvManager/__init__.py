@@ -8,7 +8,7 @@ from os.path import dirname, join
 import os
 import sys
 
-__version__ = "3.4"
+__version__ = "3.5"
 NAME_PLUG = "Softcam Manager"
 TITLE_PLUG = "..:: " + NAME_PLUG + " V. %s ::.." % __version__
 PLUGIN_PATH = dirname(sys.modules[__name__].__file__)
@@ -61,7 +61,9 @@ def wgetsts():
 
     def _install():
         os.system("opkg update && opkg install wget > /dev/null 2>&1 &")
-    threading.Thread(target=_install, daemon=True).start()
+    t = threading.Thread(target=_install)
+    t.daemon = True
+    t.start()
     return True
 
 
@@ -91,13 +93,12 @@ if isDreamOS:  # check if DreamOS image
         return gettext.dgettext(PluginLanguageDomain, txt) if txt else ""
 else:
     def _(txt):
+        if not txt:
+            return ""
         translation = gettext.dgettext(PluginLanguageDomain, txt)
-        if translation:
+        if translation != txt:
             return translation
-        else:
-            print(("[%s] fallback to default translation for %s" %
-                  (PluginLanguageDomain, txt)))
-            return gettext.gettext(txt)
+        return gettext.gettext(txt)
 
 
 localeInit()

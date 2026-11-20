@@ -1,14 +1,45 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-# CCam Organizer by fsenes 2011
-# modded by lululla 20240314
+# CCcam Organizer by fsenes 2011
+# modded by lululla 20240314 - tvManager fixes:
+# - works on the CCcam.cfg found by CCcamInfo (not only /etc/CCcam.cfg)
+# - no global state between screens
+# - only the "C:" prefix of a line is changed (never text inside passwords)
+# - "C :" lines are handled too
 from Screens.Screen import Screen
 from Components.MenuList import MenuList
 from Components.ActionMap import ActionMap
 from Screens.MessageBox import MessageBox
 from Tools.Directories import fileExists
 from . import _
+
+DEFAULT_CFG = "/etc/CCcam.cfg"
+ACTIVE = ("C:", "C :")
+DELETED = ("#!C:", "#!C :")
+FAKE = ("#FC:", "#FC :")
+
+
+def _read(cfg):
+    with open(cfg, "r") as f:
+        return f.readlines()
+
+
+def _write(cfg, lines):
+    with open(cfg, "w") as f:
+        f.writelines(lines)
+
+
+def _swap_prefix(line, old_prefixes, new_prefix):
+    for old in old_prefixes:
+        if line.startswith(old):
+            return new_prefix + line[len(old):]
+    return line
+
+
+def _host(line):
+    parts = line.replace("C :", "C:", 1).split()
+    return parts[1] if len(parts) > 1 else line.strip()
 
 
 class OrganizerMenu(Screen):
@@ -17,62 +48,41 @@ class OrganizerMenu(Screen):
             <widget name="myMenu" position="10,10" size="420,380" itemHeight="45" scrollbarMode="showOnDemand" />
         </screen>"""
 
-    def __init__(self, session):
+    def __init__(self, session, cfg=DEFAULT_CFG):
         Screen.__init__(self, session)
+        self.cfg = cfg or DEFAULT_CFG
         listx = []
-        if fileExists("/etc/CCcam.cfg"):
-            listx.append((_("Delete Peer"), "two"))
-            listx.append((_("Recover Peer"), "tree"))
-            listx.append((_("Find Fakes"), "four"))
-            listx.append((_("Stop Finding Fakes"), "five"))
+        if fileExists(self.cfg):
+            listx.append((_("Delete Peer"), "delete"))
+            listx.append((_("Recover Peer"), "recover"))
+            listx.append((_("Find Fakes"), "fakes"))
+            listx.append((_("Stop Finding Fakes"), "revert"))
         listx.append((_("Exit"), "exit"))
-
-        Screen.__init__(self, session)
-        self.setTitle(_("CCcam Organizer"))
+        self.setTitle(_("CCcam Organizer") + " - " + self.cfg)
         self["myMenu"] = MenuList(listx)
         self["myActionMap"] = ActionMap(
-            ["SetupActions"], {
-                "ok": self.go, "cancel": self.cancel}, -2)
+            ["SetupActions"], {"ok": self.go, "cancel": self.cancel}, -2)
 
     def go(self):
-        if not fileExists("/etc/CCcam.cfg"):
-            return
-        global returnValue
-        returnValue = self["myMenu"].l.getCurrentSelection(
-        ) and self["myMenu"].l.getCurrentSelection()[1]
-        # if returnValue is "five":
-        if returnValue == "five":
-            self.Revert()
-        # elif returnValue is "exit":
-        elif returnValue == "exit":
+        sel = self["myMenu"].l.getCurrentSelection()
+        mode = sel and sel[1]
+        if mode == "exit" or not fileExists(self.cfg):
             self.close(None)
-        else:
-            self.session.open(OrganizerNewmenu)
+        elif mode == "revert":
+            self.revert()
+        elif mode:
+            self.session.open(OrganizerNewmenu, self.cfg, mode)
 
     def cancel(self):
         self.close(None)
 
-    def Revert(self):
-        lines = []
+    def revert(self):
         try:
-            with open("/etc/CCcam.cfg", "r") as f:
-                for line in f:
-                    if line.startswith("#FC:"):
-                        line = line.replace("#FC:", "C:")
-                    lines.append(line)
-            # Write the modified lines back to the file
-            with open("/etc/CCcam.cfg", "w") as f:
-                f.writelines(lines)
-
-            self.session.open(
-                MessageBox,
-                _("\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"),
-                MessageBox.TYPE_INFO)
-        except IOError as e:
-            print("Error while accessing /etc/CCcam.cfg:", e)
-            self.session.open(
-                MessageBox, _("Failed to revert file: %s") %
-                str(e), MessageBox.TYPE_ERROR)
+            _write(self.cfg, [_swap_prefix(x, FAKE, "C:") for x in _read(self.cfg)])
+            self.session.open(MessageBox, _("\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"),
+                              MessageBox.TYPE_INFO)
+        except (IOError, OSError) as e:
+            self.session.open(MessageBox, _("Failed to revert file: %s") % str(e), MessageBox.TYPE_ERROR)
 
 
 class OrganizerNewmenu(Screen):
@@ -81,124 +91,48 @@ class OrganizerNewmenu(Screen):
             <widget name="Newmenu" position="10,10" size="420,380" scrollbarMode="showOnDemand" />
         </screen>"""
 
-    def __init__(self, session):
+    def __init__(self, session, cfg, mode):
         Screen.__init__(self, session)
-        self.session = session
-        self.CFG = "/etc/CCcam.cfg"
-        if not fileExists(self.CFG):
-            self.close()
-            return
-
-        self.find = ""
-        self.replace = ""
-        self.selected = ""
-
+        self.cfg = cfg
+        self.mode = mode
+        prefixes = DELETED if mode == "recover" else ACTIVE
         menu_list = []
         try:
-            with open(self.CFG, "r") as f:
-                for line in f:
-                    # Per "two" o "four": linee valide normali
-                    if returnValue in (
-                            "two", "four") and (
-                            line.startswith("C:") or line.startswith("C :")):
-                        parts = line.split()
-                        if len(parts) > 1:
-                            menu_list.append((_(parts[1]), line))
-                    # Per "tree": linee commentate speciali
-                    elif returnValue == "tree" and (line.startswith("#!C:") or line.startswith("#!C :")):
-                        parts = line.split()
-                        if len(parts) > 1:
-                            menu_list.append((_(parts[1]), line))
-        except IOError as e:
-            print("Error reading file:", e)
-            self.session.open(
-                MessageBox, _("Error opening configuration file: %s") %
-                str(e), MessageBox.TYPE_ERROR)
-            self.close()
+            for line in _read(cfg):
+                if line.startswith(prefixes):
+                    menu_list.append((_host(line), line))
+        except (IOError, OSError) as e:
+            print("[CCcamOrganizer] %s" % e)
+        if not menu_list:
+            menu_list.append((_("Nothing to show"), None))
         self.setTitle(_("CCcam Organizer"))
         self["Newmenu"] = MenuList(menu_list)
-        # if returnValue is "two":
-        if returnValue == "two":
-            self["Actions"] = ActionMap(
-                ["SetupActions"], {
-                    "ok": self.delete, "cancel": self.close}, -2)
-        # elif returnValue is "tree":
-        elif returnValue == "tree":
-            self["Actions"] = ActionMap(
-                ["SetupActions"], {
-                    "ok": self.undelete, "cancel": self.close}, -2)
-        # elif returnValue is "four":
-        elif returnValue == "four":
-            self["Actions"] = ActionMap(
-                ["SetupActions"], {
-                    "ok": self.FindFakes, "cancel": self.close}, -2)
+        action = {"delete": self.delete, "recover": self.undelete, "fakes": self.find_fakes}[mode]
+        self["Actions"] = ActionMap(["SetupActions"], {"ok": action, "cancel": self.close}, -2)
+
+    def selected(self):
+        sel = self["Newmenu"].l.getCurrentSelection()
+        return sel[1] if sel else None
+
+    def _edit(self, func, done_text):
+        line = self.selected()
+        if not line:
+            return
+        try:
+            _write(self.cfg, [func(x, line) for x in _read(self.cfg)])
+            self.session.open(MessageBox, "\n%s \n\n%s" % (_host(line), done_text), MessageBox.TYPE_INFO)
+        except (IOError, OSError) as e:
+            self.session.open(MessageBox, _("Error while editing configuration: %s") % str(e),
+                              MessageBox.TYPE_ERROR)
 
     def delete(self):
-        self.selected = self["Newmenu"].l.getCurrentSelection(
-        ) and self["Newmenu"].l.getCurrentSelection()[1]
-        if not self.selected:
-            return
-        self.findReplace("C:", "#!C:", self.selected)
-        self.message(self.selected, _("Temporarely DELETED"))
+        self._edit(lambda x, sel: _swap_prefix(x, ACTIVE, "#!C:") if x == sel else x,
+                   _("Temporarily DELETED"))
 
     def undelete(self):
-        if self["Newmenu"].l.getCurrentSelection() is not None:
-            self.selected = self["Newmenu"].l.getCurrentSelection(
-            ) and self["Newmenu"].l.getCurrentSelection()[1]
-            if not self.selected:
-                return
-            self.findReplace("#!C:", "C:", self.selected)
-            self.message(self.selected, _("UNDELETED"))
-        else:
-            self.selected = _("a NOTHING.TO.UNDELE")
-            self.message(self.selected, _("PRESS RETURN"))
+        self._edit(lambda x, sel: _swap_prefix(x, DELETED, "C:") if x == sel else x,
+                   _("UNDELETED"))
 
-    def FindFakes(self):
-        self.selected = self["Newmenu"].l.getCurrentSelection(
-        ) and self["Newmenu"].l.getCurrentSelection()[1]
-        if not self.selected:
-            return
-
-        lines = []
-        try:
-            with open(self.CFG, "r") as f:
-                for line in f:
-                    if line.startswith("C:") and line != self.selected:
-                        line = line.replace("C:", "#FC:")
-                    lines.append(line)
-
-            with open(self.CFG, "w") as f:
-                f.writelines(lines)
-
-            self.message(self.selected, _("Set as UNIQUE PEER"))
-        except IOError as e:
-            print("Error processing CCcam.cfg:", e)
-            self.session.open(
-                MessageBox, _("Error while editing configuration: %s") %
-                str(e), MessageBox.TYPE_ERROR)
-
-    def findReplace(self, find, replace, selected):
-        lines = []
-        try:
-            with open(self.CFG, "r") as f:
-                for line in f:
-                    if line.startswith(find) and line == selected:
-                        line = line.replace(find, replace)
-                    lines.append(line)
-
-            with open(self.CFG, "w") as f:
-                f.writelines(lines)
-        except IOError as e:
-            print("Error processing CCcam.cfg:", e)
-            self.session.open(
-                MessageBox, _("Error while editing configuration: %s") %
-                str(e), MessageBox.TYPE_ERROR)
-
-    def message(self, selected, text):
-        try:
-            msg = selected.split()[1]
-            self.session.open(
-                MessageBox, "\n%s \n\n%s" %
-                (msg, text), MessageBox.TYPE_INFO)
-        except BaseException:
-            pass
+    def find_fakes(self):
+        self._edit(lambda x, sel: x if x == sel else _swap_prefix(x, ACTIVE, "#FC:"),
+                   _("Set as UNIQUE PEER"))

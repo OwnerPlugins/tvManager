@@ -1,21 +1,38 @@
-# tvManager translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# cs translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tvManager\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-07-25 22:18+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: cs <ekekaz@gmail.com>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "-"
+msgstr "-"
+
+msgid "(All readers)"
+msgstr "(Všichni čtenáři)"
+
+msgid "\n"
+msgstr "\n"
+
+msgid "\n All Caid:"
+msgstr "\n Všechny Caid:"
+
+msgid "\n....\n.....\n"
+msgstr "\n....\n.....\n"
+
+msgid "\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"
+msgstr "\nZASTAVENO HLEDÁNÍ PADĚLŮ \n\nVRÁCENO ZPĚT DO PŮVODNÍHO STAVU"
+
+msgid "\tProvid:"
+msgstr "\tPoskyt:"
 
 msgid "%s ( %s Cards )"
 msgstr "%s ( %s karty)"
@@ -23,20 +40,23 @@ msgstr "%s ( %s karty)"
 msgid "%s Info - Configuration"
 msgstr "%s Info - Konfigurace"
 
-msgid "%s Info - Main Menu"
-msgstr "%s Info - Hlavní nabídka"
+msgid "%s not available:\n%s"
+msgstr "%s není k dispozici:\n%s"
 
 msgid "%s restarted successfully!"
 msgstr "%s bylo úspěšně restartováno!"
 
-msgid "%s webif disabled"
-msgstr "%s webif zakázán"
+msgid "%s\n\n%s\n%s\n\nPrio entry\n%s"
+msgstr "%s\n\n%s\n%s\n\nPrio záznam\n%s"
 
-msgid "(All readers)"
-msgstr "(Všichni čtenáři)"
+msgid "<no capabilities found>"
+msgstr "<nenalezeny žádné schopnosti>"
 
-msgid "(Show only reader) (%s)"
-msgstr "(Zobrazit pouze čtenáře) (%s)"
+msgid "<no log found>"
+msgstr "<no log found>"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "a NIC.K.ODBĚRU"
 
 msgid "About"
 msgstr "O"
@@ -62,6 +82,9 @@ msgstr "Přidat nový řádek NewCamd"
 msgid "Address"
 msgstr "Adresa"
 
+msgid "address:"
+msgstr "adresa:"
+
 msgid "All"
 msgstr "Vše"
 
@@ -71,11 +94,17 @@ msgstr "V zelené funkci došlo k chybě."
 msgid "An unexpected error occurred: %s"
 msgstr "Došlo k neočekávané chybě: %s"
 
+msgid "and"
+msgstr "a"
+
 msgid "Ask all caid"
 msgstr "Zeptejte se všech caidů"
 
 msgid "Ask for the selection caid"
 msgstr "Požádejte o výběrový caid"
+
+msgid "Autocam assigned to the current channel"
+msgstr "Autocam přiřazen k aktuálnímu kanálu"
 
 msgid "Automatically update Client/Server View?"
 msgstr "Automaticky aktualizovat zobrazení klienta/serveru?"
@@ -92,14 +121,62 @@ msgstr "Zálohování se nezdařilo!"
 msgid "Backup restoration failed!"
 msgstr "Obnovení zálohy se nezdařilo!"
 
-msgid "CCPrioMaker Settings"
-msgstr "Nastavení CCPrioMaker"
+msgid "Backup restored successfully!\nRestored files:\n- %s"
+msgstr "Záloha byla úspěšně obnovena!\nObnovené soubory:\n- %s"
 
-msgid "CCPrioMaker autostart"
-msgstr "Automatické spuštění CCPrioMaker"
+msgid "Caid"
+msgstr "Caid"
+
+msgid "caid:"
+msgstr "caid:"
+
+msgid "Caid:"
+msgstr "Caid:"
+
+msgid "CaID:"
+msgstr "CaID:"
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Cam ke stažení"
+
+msgid "camscript exit code %s"
+msgstr "výstupní kód camscript %s"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Cannot reach the %s webif:\n%s\n\nYou can enter IP/port/user manually in Setup."
+msgstr "Nelze dosáhnout %s webif:\n%s\n\nIP/port/uživatele můžete zadat ručně v Nastavení."
+
+msgid "Capabilities"
+msgstr "Schopnosti"
+
+msgid "card"
+msgstr "karta"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Informace o kartě (CCcam-Reader)"
+
+msgid "card reader"
+msgstr "čtečka karet"
+
+msgid "Cards:"
+msgstr "karty:"
+
+msgid "Cards: 0"
+msgstr "Karty: 0"
+
+msgid "Cardserial"
+msgstr "Cardserial"
 
 msgid "CCcam"
 msgstr "cccam"
+
+msgid "CCcam - Lines"
+msgstr "CCcam - Linky"
 
 msgid "CCcam Clients Info"
 msgstr "Informace o klientech CCcam"
@@ -116,17 +193,20 @@ msgstr "Informace o CCcam"
 msgid "CCcam Info %s"
 msgstr "Informace o CCcam %s"
 
+msgid "CCcam Info %s\nby AliAbdul %s\n\nrecoded from Lululla\n\nThis screen shows you the status of CCcam."
+msgstr "Informace o CCcam %s\nby AliAbdul %s\n\npřekódované z Lululla\n\nTato obrazovka zobrazuje stav CCcam."
+
 msgid "CCcam Info Config"
-msgstr ""
+msgstr "CCcam Info Config"
 
 msgid "CCcam Info Config Menu"
 msgstr "Nabídka konfigurace informací CCcam"
 
 msgid "CCcam Line Edit Actions"
-msgstr ""
+msgstr "CCcam Line Edit Actions"
 
 msgid "CCcam Line Editor"
-msgstr ""
+msgstr "CCcam Line Editor"
 
 msgid "CCcam Organizer"
 msgstr "Organizátor CCcam"
@@ -152,38 +232,11 @@ msgstr "Informace o sdílení CCcam"
 msgid "CCcam.cfg Basic Line Editor"
 msgstr "Editor základních čar CCcam.cfg"
 
-msgid "CCcamInfo not available"
-msgstr "CCcamInfo není k dispozici"
+msgid "CCPrioMaker autostart"
+msgstr "Automatické spuštění CCPrioMaker"
 
-msgid "CaID:"
-msgstr ""
-
-msgid "Caid"
-msgstr ""
-
-msgid "Caid:"
-msgstr ""
-
-msgid "Caid:Srvid"
-msgstr "Caid: Srvid"
-
-msgid "Cam Download"
-msgstr "Cam ke stažení"
-
-msgid "Cancel"
-msgstr "Zrušit"
-
-msgid "Card info (CCcam-Reader)"
-msgstr "Informace o kartě (CCcam-Reader)"
-
-msgid "Cards:"
-msgstr "karty:"
-
-msgid "Cards: 0"
-msgstr "Karty: 0"
-
-msgid "Cardserial"
-msgstr ""
+msgid "CCPrioMaker Settings"
+msgstr "Nastavení CCPrioMaker"
 
 msgid "Channel"
 msgstr "Kanál"
@@ -212,6 +265,9 @@ msgstr "klienti"
 msgid "Close"
 msgstr "Blízko"
 
+msgid "close share view"
+msgstr "zavřít sdílený pohled"
+
 msgid "Command Cancelled"
 msgstr "Příkaz zrušen"
 
@@ -223,6 +279,9 @@ msgstr "Připojení klienti"
 
 msgid "Connected:"
 msgstr "Připojeno:"
+
+msgid "Connecting..."
+msgstr "Spojovací..."
 
 msgid "Content"
 msgstr "Obsah"
@@ -242,17 +301,20 @@ msgstr "Konfigurační soubor nelze uložit! Chyba: %s"
 msgid "Current time"
 msgstr "Aktuální čas"
 
+msgid "decrease uphop by 1"
+msgstr "snížit vzestup o 1"
+
 msgid "Delete"
 msgstr "Vymazat"
 
 msgid "Delete %s?"
 msgstr "Smazat %s?"
 
-msgid "Delete Peer"
-msgstr "Smazat Peer"
-
 msgid "Delete failed!"
 msgstr "Smazání se nezdařilo!"
+
+msgid "Delete Peer"
+msgstr "Smazat Peer"
 
 msgid "Deleted %s!"
 msgstr "Smazáno %s!"
@@ -269,6 +331,9 @@ msgstr "Chcete odstranit?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Chcete restartovat rozhraní Gui?"
 
+msgid "Ecm avg"
+msgstr "Ecm prům"
+
 msgid "ECM data format error"
 msgstr "Chyba formátu dat ECM"
 
@@ -281,11 +346,17 @@ msgstr "Soubor ECM je prázdný"
 msgid "ECM file not found"
 msgstr "Soubor ECM nebyl nalezen"
 
-msgid "ECM read error"
-msgstr "Chyba čtení ECM"
-
 msgid "Ecm Info"
 msgstr "Informace o ECM"
+
+msgid "ECM info"
+msgstr "Informace o ECM"
+
+msgid "Ecm last"
+msgstr "Ecm poslední"
+
+msgid "ECM read error"
+msgstr "Chyba čtení ECM"
 
 msgid "Ecm Statistics"
 msgstr "Statistika ECM"
@@ -293,11 +364,11 @@ msgstr "Statistika ECM"
 msgid "Ecm Time"
 msgstr "Ecm čas"
 
-msgid "Ecm avg"
-msgstr "Ecm prům"
+msgid "ecm time:"
+msgstr "ecm čas:"
 
-msgid "Ecm last"
-msgstr "Ecm poslední"
+msgid "ecm.info"
+msgstr "ecm.info"
 
 msgid "Edit"
 msgstr "Upravit"
@@ -311,6 +382,9 @@ msgstr "Erm Info"
 msgid "Entitlements"
 msgstr "Nároky"
 
+msgid "Entitlements for '%s'"
+msgstr "Nároky pro '%s'"
+
 msgid "Error"
 msgstr "Chyba"
 
@@ -319,15 +393,6 @@ msgstr "Chyba při provádění skriptu aktualizace: %s"
 
 msgid "Error getting resource information"
 msgstr "Chyba při získávání informací o zdroji"
-
-msgid "Error loading system info:"
-msgstr "Chyba při načítání informací o systému:"
-
-msgid "Error loading system information:"
-msgstr "Chyba při načítání systémových informací:"
-
-msgid "Error opening cam info: %s"
-msgstr "Chyba při otevírání informací o vačce: %s"
 
 msgid "Error opening configuration file: %s"
 msgstr "Chyba při otevírání konfiguračního souboru: %s"
@@ -346,6 +411,9 @@ msgstr "Chyba při zastavování %s!"
 
 msgid "Error while editing configuration: %s"
 msgstr "Chyba při úpravě konfigurace: %s"
+
+msgid "Error:\n%s"
+msgstr "Chyba: \n%s"
 
 msgid "Exit"
 msgstr "Výstup"
@@ -377,8 +445,17 @@ msgstr "Generál"
 msgid "Get Link"
 msgstr "Získejte odkaz"
 
+msgid "get the cards' server"
+msgstr "získat server karet"
+
 msgid "Getting the list, please wait ..."
 msgstr "Získávám seznam, čekejte prosím..."
+
+msgid "GREEN: start %s"
+msgstr "ZELENÁ: start %s"
+
+msgid "handled"
+msgstr "vyřízeno"
 
 msgid "Help"
 msgstr "Pomoc"
@@ -386,17 +463,14 @@ msgstr "Pomoc"
 msgid "Hops"
 msgstr "Chmel"
 
+msgid "hops:"
+msgstr "chmel:"
+
 msgid "Hops:"
 msgstr "Chmel:"
 
 msgid "Hostname:"
 msgstr "Název hostitele:"
-
-msgid "IP Address"
-msgstr "IP adresa"
-
-msgid "IP address"
-msgstr "IP adresa"
 
 msgid "Idle Time:"
 msgstr "Doba nečinnosti:"
@@ -404,17 +478,32 @@ msgstr "Doba nečinnosti:"
 msgid "If Active: Download/Reset Server Config"
 msgstr "Pokud je aktivní: Stáhnout/resetovat konfiguraci serveru"
 
+msgid "increase uphop by 1"
+msgstr "zvýšit vzestup o 1"
+
+msgid "info"
+msgstr "info"
+
 msgid "Install Cam first!!!"
 msgstr "Nejprve nainstalujte Cam!!!"
 
-msgid "Install developer update (%s)?"
-msgstr "Nainstalovat aktualizaci pro vývojáře (%s)?"
+msgid "Installing %s\nPlease Wait..."
+msgstr "Instalace %s\nPočkejte prosím..."
+
+msgid "Installing Softcam Keys\nPlease Wait..."
+msgstr "Instalace Softcam Keys\nPočkejte prosím..."
 
 msgid "Invalid HTML content!"
 msgstr "Neplatný obsah HTML!"
 
 msgid "Invalid URL!"
 msgstr "Neplatná adresa URL!"
+
+msgid "IP address"
+msgstr "IP adresa"
+
+msgid "IP Address"
+msgstr "IP adresa"
 
 msgid "Last Req."
 msgstr "Poslední požadavek"
@@ -432,28 +521,25 @@ msgid "Location"
 msgstr "Umístění"
 
 msgid "Log"
-msgstr ""
+msgstr "Log"
 
 msgid "Log %s-%s"
 msgstr "Přihlásit se %s-%s"
 
-msgid "MENU EMM / SERVER CLINE"
-msgstr "MENU EMM / CLINE SERVERU"
+msgid "Maxdown -"
+msgstr "Maxdown -"
 
 msgid "Maxdown +"
-msgstr ""
-
-msgid "Maxdown -"
-msgstr ""
+msgstr "Maxdown +"
 
 msgid "Maxdown:"
-msgstr ""
+msgstr "Maxdown:"
 
 msgid "Menu config"
 msgstr "Konfigurace menu"
 
-msgid "NCamInfo not available"
-msgstr "NCamInfo není k dispozici"
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM / CLINE SERVERU"
 
 msgid "Ncam not running - start Cam to obtain information."
 msgstr "Ncam neběží - spusťte Cam pro získání informací."
@@ -464,20 +550,14 @@ msgstr "Nový"
 msgid "New profile:"
 msgstr "Nový profil:"
 
+msgid "New version %s is available.\n\nChangelog: %s \n\nInstall now?"
+msgstr "K dispozici je nová verze %s.\n\nChangelog: %s \n\nInstalovat nyní?"
+
+msgid "New version %s is available\n\nChangelog: %s\n\nPress yellow button to update."
+msgstr "Nová verze %s je k dispozici\n\nChangelog: %s\n\nStiskněte žluté tlačítko pro aktualizaci."
+
 msgid "NewCamd"
-msgstr ""
-
-msgid "No ECM data"
-msgstr "Žádná data ECM"
-
-msgid "No ECM data - Timeout"
-msgstr "Žádná data ECM – časový limit"
-
-msgid "No ECM file"
-msgstr "Žádný soubor ECM"
-
-msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr "Aktuálně nejsou k dispozici žádné informace ECM. Toto je dostupné pouze při dešifrování."
+msgstr "NewCamd"
 
 msgid "No active cam to restart!"
 msgstr "Žádná aktivní kamera pro restart!"
@@ -488,32 +568,59 @@ msgstr "Nejsou k dispozici žádné zálohy!"
 msgid "No card inserted!"
 msgstr "Není vložena žádná karta!"
 
+msgid "No ECM data"
+msgstr "Žádná data ECM"
+
+msgid "No ECM data - Timeout"
+msgstr "Žádná data ECM – časový limit"
+
+msgid "No ECM file"
+msgstr "Žádný soubor ECM"
+
+msgid "No ECM info is currently available."
+msgstr "Aktuálně nejsou k dispozici žádné informace ECM."
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Aktuálně nejsou k dispozici žádné informace ECM. Toto je dostupné pouze při dešifrování."
+
+msgid "No entitlements for '%s'"
+msgstr "Žádné nároky pro '%s'"
+
+msgid "no or unknown card inserted"
+msgstr "není vložena žádná nebo neznámá karta"
+
 msgid "No softcams available!"
 msgstr "Nejsou k dispozici žádné softcams!"
+
+msgid "No tvManager camscript for the current cam."
+msgstr "Žádný tvManager camscript pro aktuální kameru."
 
 msgid "No valid backups found!"
 msgstr "Nebyly nalezeny žádné platné zálohy!"
 
 msgid "NodeID"
-msgstr ""
+msgstr "NodeID"
 
 msgid "NodeID:"
-msgstr ""
+msgstr "NodeID:"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
-msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
-msgstr "Vypršel časový limit aktualizace OSCam. Podrobnosti najdete v /tmp/oscam_update.log."
+msgid "OK: Entitlements   MENU: more"
+msgstr "OK: Oprávnění MENU: více"
 
-msgid "OSCamInfo not available"
-msgstr "OSCamInfo není k dispozici"
+msgid "OSCam codes updated successfully!\n%s"
+msgstr "Kódy OSCam byly úspěšně aktualizovány!\n%s"
 
 msgid "Oscam not running - start Cam to obtain information."
 msgstr "Oscam neběží - spusťte Cam pro získání informací."
 
-msgid "PRESS RETURN"
-msgstr "STISKNĚTE NÁVRAT"
+msgid "OSCam update completed with errors.\n%s"
+msgstr "Aktualizace OSCam dokončena s chybami.\n%s"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "Vypršel časový limit aktualizace OSCam. Podrobnosti najdete v /tmp/oscam_update.log."
 
 msgid "Password"
 msgstr "Heslo"
@@ -525,7 +632,10 @@ msgid "Peak load (max queued requests per workerthread)"
 msgstr "Špičkové zatížení (maximální počet požadavků ve frontě na pracovní vlákno)"
 
 msgid "Pid"
-msgstr ""
+msgstr "Pid"
+
+msgid "pid:"
+msgstr "pid:"
 
 msgid "Please Reset - No File CFG"
 msgstr "Resetujte – žádný soubor CFG"
@@ -534,13 +644,31 @@ msgid "Please select ..."
 msgstr "Vyberte prosím..."
 
 msgid "Please select a line to edit or select add to create new line."
-msgstr "Vyberte řádek, který chcete upravit, nebo vyberte možnost Přidat pro vytvoření nového řádku."
+msgstr "Vyberte řádek, který chcete upravit, nebo vyberte možnost Přidat a vytvořte nový řádek."
 
 msgid "Please wait, %s."
 msgstr "Prosím čekejte, %s."
 
+msgid "Please wait..."
+msgstr "Čekejte prosím..."
+
+msgid "Please wait..\nRESTART CAM"
+msgstr "Čekejte prosím..\nRESTARTUJTE CAM"
+
+msgid "Please wait..\nSTART UP CAM"
+msgstr "Čekejte prosím..\nSPUSTÍTE CAM"
+
+msgid "Please wait..\nSTOP & RESTART CAM"
+msgstr "Čekejte prosím..\nZASTAVTE A RESTARTUJTE CAM"
+
+msgid "Please wait..\nSTOP CAM"
+msgstr "Čekejte prosím..\nSTOP CAM"
+
 msgid "Port"
 msgstr "Přístav"
+
+msgid "PRESS RETURN"
+msgstr "STISKNĚTE NÁVRAT"
 
 msgid "Profile"
 msgstr "Profil"
@@ -551,11 +679,17 @@ msgstr "Profil: Místní box"
 msgid "Protocol"
 msgstr "Protokol"
 
+msgid "provid:"
+msgstr "poskytnout:"
+
 msgid "Provider"
 msgstr "Poskytovatel"
 
 msgid "Provider Name:"
 msgstr "Jméno poskytovatele:"
+
+msgid "provider:"
+msgstr "poskytovatel:"
 
 msgid "Provider:"
 msgstr "Poskytovatel:"
@@ -569,11 +703,11 @@ msgstr "Poskytovatelé:"
 msgid "Quick restart %s?"
 msgstr "Rychlý restart %s?"
 
-msgid "Read Userdata from %s.conf"
-msgstr "Číst uživatelská data z %s.conf"
-
 msgid "Reader"
 msgstr "Čtenář"
+
+msgid "Reader statistics"
+msgstr "Statistiky čtenářů"
 
 msgid "Reader Statistics"
 msgstr "Statistiky čtenářů"
@@ -620,20 +754,38 @@ msgstr "Podíl:"
 msgid "Resources"
 msgstr "Zdroje"
 
-msgid "Restart GUI?"
-msgstr "Restartovat GUI?"
+msgid "Restart %s"
+msgstr "Restartujte %s"
+
+msgid "Restart %s?"
+msgstr "Restartovat %s?"
 
 msgid "Restart error: %s"
 msgstr "Chyba restartu: %s"
 
+msgid "Restart GUI?"
+msgstr "Restartovat GUI?"
+
 msgid "Restart softcam to apply restored configuration?"
 msgstr "Restartovat softcam pro použití obnovené konfigurace?"
+
+msgid "Restore backup '%s'?\nThis will overwrite current configurations."
+msgstr "Obnovit zálohu '%s'?\nToto přepíše aktuální konfigurace."
 
 msgid "Save"
 msgstr "Uložit"
 
 msgid "Scanning and retrieval list softcam ..."
 msgstr "Skenování a načítání seznamu softcam ..."
+
+msgid "Select a cam to run ..."
+msgstr "Vyberte kameru, kterou chcete spustit..."
+
+msgid "Select and Install"
+msgstr "Vyberte a nainstalujte"
+
+msgid "Select backup to restore:"
+msgstr "Vyberte zálohu, kterou chcete obnovit:"
 
 msgid "Select CCcam"
 msgstr "Vyberte CCcam"
@@ -650,23 +802,14 @@ msgstr "Vyberte OScam"
 msgid "Select Your Choice"
 msgstr "Vyberte možnost Vaše volba"
 
-msgid "Select a cam to run ..."
-msgstr "Vyberte kameru, kterou chcete spustit..."
-
-msgid "Select and Install"
-msgstr "Vyberte a nainstalujte"
-
-msgid "Select backup to restore:"
-msgstr "Vyberte zálohu, kterou chcete obnovit:"
-
 msgid "Server %s-%s"
-msgstr ""
+msgstr "Server %s-%s"
 
 msgid "Server Config"
 msgstr "Konfigurace serveru"
 
 msgid "Server Copy in"
-msgstr ""
+msgstr "Server Copy in"
 
 msgid "Server Link"
 msgstr "Odkaz na server"
@@ -687,7 +830,7 @@ msgid "Server Username"
 msgstr "Uživatelské jméno serveru"
 
 msgid "Server:"
-msgstr ""
+msgstr "Server:"
 
 msgid "Servers"
 msgstr "servery"
@@ -704,204 +847,17 @@ msgstr "Nastavit jako UNIQUE PEER"
 msgid "Setup"
 msgstr "Nastavení"
 
+msgid "Setup (manual IP / user)"
+msgstr "Nastavení (ruční IP / uživatel)"
+
 msgid "Share View"
 msgstr "Sdílet zobrazení"
 
-msgid "Shares"
-msgstr "akcie"
-
-msgid "Show Clients"
-msgstr "Zobrazit klienty"
-
-msgid "Show Ecm info"
-msgstr "Zobrazit informace o ECM"
-
-msgid "Show Log"
-msgstr "Zobrazit protokol"
-
-msgid "Show Readers/Proxies"
-msgstr "Zobrazit čtenáře/zástupce"
-
-msgid "Softcam Manager"
-msgstr "Správce Softcam"
-
-msgid "Softcam restarted with new configuration!"
-msgstr "Softcam restartován s novou konfigurací!"
-
-msgid "Start"
-msgstr ""
-
-msgid "Status"
-msgstr "Postavení"
-
-msgid "Stop"
-msgstr "Zastávka"
-
-msgid "Stop Finding Fakes"
-msgstr "Přestaňte hledat padělky"
-
-msgid "Switch config"
-msgstr "Přepnout konfiguraci"
-
-msgid "System"
-msgstr "Systém"
-
-msgid "System cleanup completed!"
-msgstr "Čištění systému dokončeno!"
-
-msgid "System:"
-msgstr "Systém:"
-
-msgid "Temporarely DELETED"
-msgstr "Dočasně SMAŽENO"
-
-msgid "This plugin shows you the status of your CCcam"
-msgstr "Tento plugin zobrazuje stav vaší CCcam"
-
-msgid "Total"
-msgstr "Celkový"
-
-msgid "Total cards:"
-msgstr "Celkový počet karet:"
-
-msgid "Total handled client ecm's"
-msgstr "Celkový počet vyřízených ECM klienta"
-
-msgid "Total handled client emm's"
-msgstr "Celkem zpracované klientské emm"
-
-msgid "Total:"
-msgstr "Celkový:"
-
-msgid "Try again later ..."
-msgstr "Zkuste to znovu později..."
-
-msgid "Type:"
-msgstr "Typ:"
-
-msgid "UNDELETED"
-msgstr "NEVYMAŽENO"
-
-msgid "Unable to make the script executable: %s"
-msgstr "Nelze spustit skript: %s"
-
-msgid "Unknow Image!"
-msgstr "Neznámý obrázek!"
-
-msgid "Update"
-msgstr "Aktualizovat"
-
-msgid "Update Aborted!"
-msgstr "Aktualizace zrušena!"
-
-msgid "Update interval (in seconds)"
-msgstr "Interval aktualizace (v sekundách)"
-
-msgid "Uphops +"
-msgstr ""
-
-msgid "Uphops -"
-msgstr ""
-
-msgid "Uphops:"
-msgstr ""
-
-msgid "Uptime"
-msgstr "Doba provozuschopnosti"
-
-msgid "Used:"
-msgstr "Použitý:"
-
-msgid "Username"
-msgstr "Uživatelské jméno"
-
-msgid "Username (httpuser)"
-msgstr "Uživatelské jméno (httpuser)"
-
-msgid "Using old profile:"
-msgstr "Použití starého profilu:"
-
-msgid "Version:"
-msgstr "Verze:"
-
-msgid "Wait please..."
-msgstr "Počkejte prosím..."
-
-msgid "Write"
-msgstr "Napsat"
-
-msgid "Write-Debug"
-msgstr ""
-
-msgid "You have the latest version!"
-msgstr "Máte nejnovější verzi!"
-
-msgid "\\\\n"
-msgstr ""
-
-#, fuzzy
-msgid "\\\\tProvid:"
-msgstr "Poskytovatel:"
-
-msgid "a NOTHING.TO.UNDELE"
-msgstr "a NIC.K.ODBĚRU"
-
-msgid "address:"
-msgstr "adresa:"
-
-msgid "and"
-msgstr "a"
-
-msgid "caid:"
-msgstr ""
-
-msgid "card"
-msgstr "karta"
-
-msgid "card reader"
-msgstr "čtečka karet"
-
-msgid "close share view"
-msgstr "zavřít sdílený pohled"
-
-msgid "decrease uphop by 1"
-msgstr "snížit vzestup o 1"
-
-msgid "ecm time:"
-msgstr "ecm čas:"
-
-msgid "ecm.info"
-msgstr ""
-
-msgid "get the cards' server"
-msgstr "získat server karet"
-
-msgid "handled"
-msgstr "vyřízeno"
-
-msgid "hops:"
-msgstr "chmel:"
-
-msgid "increase uphop by 1"
-msgstr "zvýšit vzestup o 1"
-
-msgid "info"
-msgstr ""
-
-msgid "no or unknown card inserted"
-msgstr "není vložena žádná nebo neznámá karta"
-
-msgid "pid:"
-msgstr ""
-
-msgid "provid:"
-msgstr "poskytnout:"
-
-msgid "provider:"
-msgstr "poskytovatel:"
-
 msgid "share:"
 msgstr "podíl:"
+
+msgid "Shares"
+msgstr "akcie"
 
 msgid "show all cards"
 msgstr "ukázat všechny karty"
@@ -936,18 +892,153 @@ msgstr "ukázat karty s uphop 8"
 msgid "show cards with uphop 9"
 msgstr "ukázat karty s uphop 9"
 
+msgid "Show Clients"
+msgstr "Zobrazit klienty"
+
+msgid "Show Ecm info"
+msgstr "Zobrazit informace o ECM"
+
+msgid "Show Log"
+msgstr "Zobrazit protokol"
+
+msgid "Show Readers/Proxies"
+msgstr "Zobrazit čtenáře/zástupce"
+
+msgid "Softcam Manager"
+msgstr "Správce Softcam"
+
+msgid "Softcam Manager by Lululla\nV.%s\nInstall Cam Software\nForum Support www.corvoboys.org\n"
+msgstr "Softcam Manager od Lululla\nV.%s\nInstalovat software kamery\nPodpora fóra www.corvoboys.org\n"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam restartován s novou konfigurací!"
+
+msgid "Start"
+msgstr "Start"
+
+msgid "Start %s"
+msgstr "Spustit %s"
+
+msgid "Status"
+msgstr "Postavení"
+
+msgid "Stop"
+msgstr "Zastávka"
+
+msgid "Stop %s"
+msgstr "Zastavit %s"
+
+msgid "Stop %s?"
+msgstr "Zastavit %s?"
+
+msgid "Stop Finding Fakes"
+msgstr "Přestaňte hledat padělky"
+
+msgid "Switch config"
+msgstr "Přepnout konfiguraci"
+
+msgid "System"
+msgstr "Systém"
+
+msgid "System cleanup completed!"
+msgstr "Čištění systému dokončeno!"
+
 msgid "system:"
 msgstr "systém:"
+
+msgid "System:"
+msgstr "Systém:"
+
+msgid "Temporarely DELETED"
+msgstr "Dočasně SMAŽENO"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Tento plugin zobrazuje stav vaší CCcam"
+
+msgid "Total"
+msgstr "Celkový"
+
+msgid "Total cards:"
+msgstr "Celkový počet karet:"
+
+msgid "Total handled client ecm's"
+msgstr "Celkový počet vyřízených ECM klienta"
+
+msgid "Total handled client emm's"
+msgstr "Celkem vyřízené klientské emm"
+
+msgid "Total:"
+msgstr "Celkový:"
+
+msgid "Try again later ..."
+msgstr "Zkuste to znovu později..."
+
+msgid "Type:"
+msgstr "Typ:"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Nelze spustit skript: %s"
+
+msgid "UNDELETED"
+msgstr "NEVYMAŽENO"
+
+msgid "Unknow Image!"
+msgstr "Neznámý obrázek!"
+
+msgid "Update"
+msgstr "Aktualizovat"
+
+msgid "Update Aborted!"
+msgstr "Aktualizace zrušena!"
+
+msgid "Update interval (in seconds)"
+msgstr "Interval aktualizace (v sekundách)"
+
+msgid "Update script not found!\nPath: %s"
+msgstr "Aktualizační skript nenalezen!\nCesta: %s"
+
+msgid "Uphops -"
+msgstr "Uphops -"
+
+msgid "Uphops +"
+msgstr "Uphops +"
+
+msgid "Uphops:"
+msgstr "Uphops:"
+
+msgid "Uptime"
+msgstr "Doba provozuschopnosti"
+
+msgid "Used:"
+msgstr "Použitý:"
+
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+msgid "Username (httpuser)"
+msgstr "Uživatelské jméno (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Použití starého profilu:"
 
 msgid "using:"
 msgstr "pomocí:"
 
+msgid "Version:"
+msgstr "Verze:"
+
+msgid "Wait please..."
+msgstr "Počkejte prosím..."
+
+msgid "Write"
+msgstr "Napsat"
+
+msgid "Write-Debug"
+msgstr "Write-Debug"
+
 msgid "xLine"
-msgstr ""
+msgstr "xLine"
 
-#, fuzzy
-#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
-#~ msgstr "Poskytovatel:"
+msgid "You have the latest version!"
+msgstr "Máte nejnovější verzi!"
 
-#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
-#~ msgstr "\\\\\\\\\\\\\\\\tPoskytněte:"

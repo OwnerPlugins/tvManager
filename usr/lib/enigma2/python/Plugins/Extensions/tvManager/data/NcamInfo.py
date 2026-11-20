@@ -19,6 +19,7 @@ from Components.Sources.List import List
 from Components.Sources.StaticText import StaticText
 from enigma import (
     RT_HALIGN_LEFT,
+    RT_WRAP,
     eListboxPythonMultiContent,
     eTimer,
     gFont,
@@ -40,16 +41,10 @@ import struct
 import sys
 import time
 from . import _
+from . import camwebif
 
 PY3 = sys.version_info.major >= 3
 
-if PY3:
-    from urllib.request import build_opener, HTTPHandler, Request, urlopen, install_opener, HTTPPasswordMgrWithDefaultRealm, HTTPDigestAuthHandler
-    from urllib.parse import quote_plus
-    from urllib.error import URLError
-else:
-    from urllib2 import build_opener, HTTPHandler, Request, URLError, urlopen, install_opener, HTTPPasswordMgrWithDefaultRealm, HTTPDigestAuthHandler
-    from urllib import quote_plus
 
 
 global NAMEBIN
@@ -167,139 +162,36 @@ class NcamInfo:
     version = ""
 
     def confPath(self):
-        owebif = False
-        oport = None
-        opath = None
-        ipcompiled = False
-        NAMEBIN = check_NAMEBIN()
-
-        # Find and parse running oscam/ncam
-        if fileExists("/tmp/.%s/%s.version" % (NAMEBIN, NAMEBIN)):
-            with open('/tmp/.%s/%s.version' % (NAMEBIN, NAMEBIN), 'r') as data:
-                for i in data:
-                    if "web interface support:" in i.lower():
-                        owebif = i.split(":")[1].strip()
-                        if owebif == "no":
-                            owebif = False
-                        elif owebif == "yes":
-                            owebif = True
-                    elif "webifport:" in i.lower():
-                        oport = i.split(":")[1].strip()
-                        if oport == "0":
-                            oport = None
-                    elif "configdir:" in i.lower():
-                        opath = i.split(":")[1].strip()
-                    elif "ipv6 support:" in i.lower():
-                        ipcompiled = i.split(":")[1].strip()
-                        if ipcompiled == "no":
-                            ipcompiled = False
-                        elif ipcompiled == "yes":
-                            ipcompiled = True
-                    else:
-                        continue
-        return owebif, oport, opath, ipcompiled
+        """(webif, port, confdir, ipv6) of the running cam - kept for compatibility."""
+        v = camwebif.read_version_info(check_NAMEBIN())
+        return v.get("webif", False), v.get("port"), v.get("confdir"), v.get("ipv6", False)
 
     def getUserData(self):
-        NAMEBIN = check_NAMEBIN()
-        [webif, port, conf, ipcompiled] = self.confPath()
-        if conf is None:
-            conf = ""
-        conf += "/%s.conf" % NAMEBIN
-
-        # Assume that oscam webif is NOT blocking localhost, IPv6 is also configured if it is compiled in,
-        # and no user and password are required
-        blocked = False
-        ipconfigured = ipcompiled
-        user = pwd = None
-
-        ret = _("%s webif disabled" % NAMEBIN)
-
-        if webif and port is not None:
-            # oscam/ncam reports it got webif support and webif is running
-            # (Port != 0)
-            if conf is not None and ospath.exists(conf):
-                # If we have a config file, we need to investigate it further
-                with open(conf, 'r') as data:
-                    for i in data:
-                        if "httpuser" in i.lower():
-                            user = i.split("=")[1].strip()
-                        elif "httppwd" in i.lower():
-                            pwd = i.split("=")[1].strip()
-                        elif "httpport" in i.lower():
-                            port = i.split("=")[1].strip()
-                        elif "httpallowed" in i.lower():
-                            # Once we encounter a httpallowed statement, we
-                            # have to assume oscam/ncam webif is blocking us
-                            allowed = i.split("=")[1].strip()
-                            if "::1" not in allowed:
-                                ipconfigured = False
-                            if "::1" in allowed or "127.0.0.1" in allowed or "0.0.0.0-255.255.255.255" in allowed:
-                                # ... until we find either 127.0.0.1 or ::1 in allowed list
-                                blocked = False
-                            else:
-                                blocked = True
-            if not blocked:
-                ret = [user, pwd, port, ipconfigured]
-        return ret
+        """Settings dict for the local webif, or an error string."""
+        settings, err = camwebif.get_webif_settings(check_NAMEBIN())
+        return err if err else settings
 
     def openWebIF(self, part=None, reader=None):
         NAMEBIN = check_NAMEBIN()
-        self.proto = "http"
         if config.NcamInfo.userdatafromconf.value:
-            udata = self.getUserData()
-            if isinstance(udata, str):
-                return False, udata
-            else:
-                self.port = udata[2]
-                self.username = udata[0]
-                self.password = udata[1]
-                self.ipaccess = udata[3]
-
-            if self.ipaccess == "yes":
-                self.ip = "::1"
-            else:
-                self.ip = getIP()
+            settings = self.getUserData()
+            if isinstance(settings, str):
+                return False, settings
         else:
-            self.ip = ".".join("%d" % d for d in config.NcamInfo.ip.value)
-            self.port = str(config.NcamInfo.port.value)
-            self.username = str(config.NcamInfo.username.value)
-            self.password = str(config.NcamInfo.password.value)
-        if self.port.startswith('+'):
-            self.proto = "https"
-            self.port.replace("+", "")
-        if part is None:
-            self.url = "%s://%s:%s/%sapi.html?part=status" % (
-                self.proto, self.ip, self.port, NAMEBIN)
-        else:
-            self.url = "%s://%s:%s/%sapi.html?part=%s" % (
-                self.proto, self.ip, self.port, NAMEBIN, part)
-        if part is not None and reader is not None:
-            self.url = "%s://%s:%s/%sapi.html?part=%s&label=%s" % (
-                self.proto, self.ip, self.port, NAMEBIN, part, quote_plus(reader))
-        # print("[NcamInfo][openWebIF] NAMEBIN=%s, NAMEBIN=%s url=%s" % (NAMEBIN, NAMEBIN, self.url))
-        # print("[NcamInfo][openWebIF] self.url=%s" % self.url)
-        opener = build_opener(HTTPHandler)
-        if not self.username == "":
-            pwman = HTTPPasswordMgrWithDefaultRealm()
-            pwman.add_password(None, self.url, self.username, self.password)
-            handlers = HTTPDigestAuthHandler(pwman)
-            opener = build_opener(HTTPHandler, handlers)
-            install_opener(opener)
-        request = Request(self.url)
-        err = False
-        try:
-            data = urlopen(request).read()
-            # print("[NcamInfo][openWebIF] data=", data)
-        except URLError as e:
-            if hasattr(e, "reason"):
-                err = str(e.reason)
-            elif hasattr(e, "code"):
-                err = str(e.code)
-        if err is not False:
-            print("[NcamInfo][openWebIF] error: %s" % err)
-            return False, err
-        else:
-            return True, data.decode(encoding="UTF-8", errors="ignore")
+            port = str(config.NcamInfo.port.value)
+            settings = {
+                "proto": "https" if port.startswith("+") else "http",
+                "host": ".".join("%d" % d for d in config.NcamInfo.ip.value),
+                "port": port.lstrip("+"),
+                "user": str(config.NcamInfo.username.value),
+                "pwd": str(config.NcamInfo.password.value),
+                "conf": None,
+            }
+        self.url = camwebif.build_url(settings, NAMEBIN, part, reader)
+        ok, data = camwebif.fetch(settings, NAMEBIN, part, reader)
+        if not ok:
+            print("[%sInfo][openWebIF] %s" % (NAMEBIN, data))
+        return ok, data
 
     def readXML(self, typ):
         if typ == "l":
@@ -309,46 +201,64 @@ class NcamInfo:
             self.showLog = False
             part = None
         result = self.openWebIF(part)
+        if result[0]:
+            try:
+                return self._parseXML(typ, result[1])
+            except Exception as e:
+                print("[readXML] parse error: %s" % e)
+                return False, "invalid answer from webif: %s" % e
+        return result[0], result[1]
+
+    def _clientEntry(self, client):
+        name = client.attrib.get("name", "")
+        proto = client.attrib.get("protocol", "")
+        if name in ("", "anonymous") or proto == "":
+            return None
+        req = client.find("request")
+        rattr = req.attrib if req is not None else {}
+        caid = rattr.get("caid", "0000")
+        srvid = rattr.get("srvid", "0000")
+        ecmtime = rattr.get("ecmtime", "")
+        if ecmtime in ("", "0"):
+            ecmtime = _("-")
+        else:
+            try:
+                ecmtime = str(float(ecmtime) / 1000)[:5]
+            except ValueError:
+                pass
+        srvname = req.text if req is not None else None
+        srvname_short = _("-")
+        if srvname:
+            srvname_short = srvname.split(":", 1)[1].strip() if ":" in srvname else srvname
+        conn = client.find("connection")
+        ip = ""
+        connstatus = ""
+        if conn is not None:
+            if proto.lower() != "dvbapi":
+                ip = conn.attrib.get("ip", "")
+                if ip == "0.0.0.0":
+                    ip = ""
+            connstatus = (conn.text or "").strip()
+        return (name, proto, "%s:%s" % (caid, srvid), srvname_short, ecmtime, ip, connstatus)
+
+    def _parseXML(self, typ, xmltext):
+        result = (True, xmltext)
         retval = []
         tmp = {}
-        if result[0]:
+        logtext = ""
+        if True:
             if not self.showLog:
                 dataXML = ElementTree.XML(result[1])
                 status = dataXML.find("status")
                 clients = status.findall("client")
                 for client in clients:
-                    name = client.attrib["name"]
-                    proto = client.attrib["protocol"]
-                    caid = client.find("request").attrib["caid"]
-                    srvid = client.find("request").attrib["srvid"]
-                    if "ecmtime" in client.find("request").attrib:
-                        ecmtime = client.find("request").attrib["ecmtime"]
-                        if ecmtime == "0" or ecmtime == "":
-                            ecmtime = _("-")
-                        else:
-                            ecmtime = str(float(ecmtime) / 1000)[:5]
-                    else:
-                        ecmtime = _("-")
-                    srvname = client.find("request").text
-                    srvname_short = _("-")
-                    if srvname is not None:
-                        srvname_short = srvname.split(
-                            ":")[1].strip() if ":" in srvname else srvname
-                    if proto.lower() == "dvbapi":
-                        ip = ""
-                    else:
-                        ip = client.find("connection").attrib["ip"]
-                        if ip == "0.0.0.0":
-                            ip = ""
-                    connstatus = client.find("connection").text
-                    if name != "" and name != "anonymous" and proto != "":
-                        try:
-                            tmp[client.attrib["type"]].append((name, proto, "%s:%s" % (
-                                caid, srvid), srvname_short, ecmtime, ip, connstatus))
-                        except KeyError:
-                            tmp[client.attrib["type"]] = []
-                            tmp[client.attrib["type"]].append((name, proto, "%s:%s" % (
-                                caid, srvid), srvname_short, ecmtime, ip, connstatus))
+                    try:
+                        entry = self._clientEntry(client)
+                    except Exception as err:
+                        print("[readXML] skip client: %s" % err)
+                        continue
+                    if entry:
+                        tmp.setdefault(client.attrib.get("type", "?"), []).append(entry)
             else:
                 if "<![CDATA" not in result[1]:
                     tmp = result[1].replace(
@@ -358,7 +268,7 @@ class NcamInfo:
                     tmp = result[1]
                 dataXML = ElementTree.XML(tmp)
                 log = dataXML.find("log")
-                logtext = log.text
+                logtext = (log.text if log is not None else "") or ""
             if typ == "s":
                 if "r" in tmp:
                     for i in tmp["r"]:
@@ -387,69 +297,89 @@ class NcamInfo:
             return result[0], result[1]
 
     def getVersion(self):
-        dataWebif = self.openWebIF()
-        if dataWebif[0]:
-            dataXML = ElementTree.XML(dataWebif[1])
-            if "revision" in dataXML.attrib:
-                self.version = dataXML.attrib["revision"]
+        try:
+            dataWebif = self.openWebIF()
+            if dataWebif[0]:
+                dataXML = ElementTree.XML(dataWebif[1])
+                if "revision" in dataXML.attrib:
+                    self.version = dataXML.attrib["revision"]
+                else:
+                    self.version = _("-")
+                return self.version
             else:
                 self.version = _("-")
             return self.version
-        else:
-            self.version = _("-")
-        return self.version
+
+        except Exception as e:
+            print("[getVersion] %s" % e)
+            return _("-")
 
     def getTotalCards(self, reader):
-        dataWebif = self.openWebIF(part="entitlement", reader=reader)
-        if dataWebif[0]:
-            dataXML = ElementTree.XML(dataWebif[1])
-            cards = dataXML.find("reader").find("cardlist")
-            cardTotal = cards.attrib["totalcards"]
-            return cardTotal
-        else:
+        try:
+            dataWebif = self.openWebIF(part="entitlement", reader=reader)
+            if dataWebif[0]:
+                dataXML = ElementTree.XML(dataWebif[1])
+                cards = dataXML.find("reader").find("cardlist")
+                cardTotal = cards.attrib["totalcards"]
+                return cardTotal
+            else:
+                return None
+
+        except Exception as e:
+            print("[getTotalCards] %s" % e)
             return None
 
     def getReaders(self, spec=None):
-        dataWebif = self.openWebIF()
-        readers = []
-        if dataWebif[0]:
-            dataXML = ElementTree.XML(dataWebif[1])
-            status = dataXML.find("status")
-            clients = status.findall("client")
-            for client in clients:
-                if "type" in client.attrib:
-                    if client.attrib["type"] == "p" or client.attrib["type"] == "r":
-                        if spec is not None:
-                            proto = client.attrib["protocol"]
-                            if spec in proto:
-                                name = client.attrib["name"]
-                                cards = self.getTotalCards(name)
-                                readers.append(
-                                    (_("%s ( %s Cards )") %
-                                     (name, cards), name))
-                        else:
-                            if client.attrib["name"] != "" and client.attrib["name"] != "" and client.attrib["protocol"] != "":
-                                # return tuple for later use in Choicebox
-                                readers.append(
-                                    (client.attrib["name"], client.attrib["name"]))
-            return readers
-        else:
+        try:
+            dataWebif = self.openWebIF()
+            readers = []
+            if dataWebif[0]:
+                dataXML = ElementTree.XML(dataWebif[1])
+                status = dataXML.find("status")
+                clients = status.findall("client")
+                for client in clients:
+                    if "type" in client.attrib:
+                        if client.attrib["type"] == "p" or client.attrib["type"] == "r":
+                            if spec is not None:
+                                proto = client.attrib["protocol"]
+                                if spec in proto:
+                                    name = client.attrib["name"]
+                                    cards = self.getTotalCards(name)
+                                    readers.append(
+                                        (_("%s ( %s Cards )") %
+                                         (name, cards), name))
+                            else:
+                                if client.attrib["name"] != "" and client.attrib["name"] != "" and client.attrib["protocol"] != "":
+                                    # return tuple for later use in Choicebox
+                                    readers.append(
+                                        (client.attrib["name"], client.attrib["name"]))
+                return readers
+            else:
+                return None
+
+        except Exception as e:
+            print("[getReaders] %s" % e)
             return None
 
     def getClients(self):
-        dataWebif = self.openWebIF()
-        clientnames = []
-        if dataWebif[0]:
-            dataXML = ElementTree.XML(dataWebif[1])
-            status = dataXML.find("status")
-            clients = status.findall("client")
-            for client in clients:
-                if "type" in client.attrib and client.attrib["type"] == "c":
-                    # return tuple for later use in Choicebox
-                    clientnames.append(
-                        (client.attrib["name"], client.attrib["name"]))
-            return clientnames
-        else:
+        try:
+            dataWebif = self.openWebIF()
+            clientnames = []
+            if dataWebif[0]:
+                dataXML = ElementTree.XML(dataWebif[1])
+                status = dataXML.find("status")
+                clients = status.findall("client")
+                for client in clients:
+                    if "type" in client.attrib and client.attrib["type"] == "c":
+                        # return tuple for later use in Choicebox
+                        clientnames.append(
+                            (client.attrib["name"], client.attrib["name"]))
+                return clientnames
+            else:
+                return None
+
+        except Exception as e:
+            print("[getClients] %s" % e)
             return None
 
     def getECMInfo(self, ecminfo):
@@ -593,16 +523,12 @@ class NcamInfoMenu(Screen):
         NAMEBIN = check_NAMEBIN()
         if NAMEBIN:
             # print("[NcamInfo][goEntry] NAMEBIN=%s" % (NAMEBIN))
-            if entry in (
-                    1,
-                    2,
-                    3) and config.NcamInfo.userdatafromconf.value and self.osc.confPath()[0] is None:
-                config.NcamInfo.userdatafromconf.setValue(False)
-                config.NcamInfo.userdatafromconf.save()
+            udata = self.osc.getUserData() if config.NcamInfo.userdatafromconf.value else None
+            if entry in (1, 2, 3, 4, 5) and isinstance(udata, str):
                 self.session.openWithCallback(
-                    self.ErrMsgCallback, MessageBox, _(
-                        "File %s.conf not found.\nEnter username/password manually." %
-                        NAMEBIN), MessageBox.TYPE_ERROR)
+                    self.ErrMsgCallback, MessageBox,
+                    _("Cannot reach the %s webif:\n%s\n\nYou can enter IP/port/user manually in Setup.") % (NAMEBIN, udata),
+                    MessageBox.TYPE_ERROR)
             elif entry == 0:
                 if ospath.exists("/tmp/ecm.info"):
                     self.session.open(oscECMInfo)
@@ -1026,9 +952,9 @@ class ncInfo(Screen, NcamInfo):
         if not heading:
             status = listentry[len(listentry) - 1]
             colour = "0xffffff"
-            if status == "OK" or "CONNECTED" or status == "CARDOK":
+            if status in ("OK", "CONNECTED", "CARDOK"):
                 colour = "0x389416"
-            if status == "NEEDINIT" or status == "CARDOK":
+            if status in ("NEEDINIT",):
                 colour = "0xbab329"
             if status == "OFF" or status == "ERROR":
                 colour = "0xf23d21"
@@ -1065,7 +991,7 @@ class ncInfo(Screen, NcamInfo):
     def buildLogListEntry(self, listentry):
         res = [""]
         for i in listentry:
-            if i.strip() != "" or i is not None:
+            if i is not None and i.strip() != "":
                 res.append(
                     (eListboxPythonMultiContent.TYPE_TEXT,
                      5 * f,
@@ -1085,6 +1011,7 @@ class ncInfo(Screen, NcamInfo):
         else:
             data = self.readXML(typ=self.what)
         self.out = []
+        self.errmsg = ""
         self.itemheight = 35
         if data[0]:
             if self.what != "l":
@@ -1126,10 +1053,11 @@ class ncInfo(Screen, NcamInfo):
                 self.itemheight = 20
         else:
             self.errmsg = (data[1],)
-            if config.NcamInfo.autoupdate.value:
+            if getattr(self, "loop", None) is not None:
                 self.loop.stop()
-            for i in self.errmsg:
-                self.out.append(self.buildListEntry((i,)))
+            self.out.append(["", (eListboxPythonMultiContent.TYPE_TEXT, int(10 * f), 0,
+                                  int(self.sizeLH), int(self.itemheight * f * 4), 0,
+                                  RT_HALIGN_LEFT | RT_WRAP, _("Error") + ":\n" + data[1])])
             self.setTitle(_("Error") + ": " + data[1])
             self["key_green"].setText(_("Clients"))
             self["key_yellow"].setText(_("Servers"))
@@ -1267,6 +1195,9 @@ class oscEntitlements(Screen, NcamInfo):
     def showData(self):
         dataWebif_for_reader = self.openWebIF(
             part="entitlement", reader=self.cccamreader)
+        if not dataWebif_for_reader[0]:
+            self.setTitle(_("Error") + ": " + dataWebif_for_reader[1])
+            return
         dataReader = ElementTree.XML(dataWebif_for_reader[1])
         reader = dataReader.find("reader")
         if "hostaddress" in reader.attrib:
@@ -1432,7 +1363,7 @@ class oscReaderStats(Screen, NcamInfo):
         return sorted(datalist, key=itemgetter(sort_col), reverse=reverse)
 
     def showData(self):
-        readers = self.getReaders()
+        readers = self.getReaders() or []
         result = []
         title2 = ""
         for i in readers:
@@ -1581,7 +1512,7 @@ class NcamInfoConfigScreen(ConfigListScreen, Screen):
                 getConfigListEntry(
                     _("Password (httpwd)"),
                     config.NcamInfo.password))
-            oscamconfig.append(getConfigListEntry(_("IP address"), ))
+            oscamconfig.append(getConfigListEntry(_("IP address"), config.NcamInfo.ip))
             oscamconfig.append(
                 getConfigListEntry(
                     _("Port"),

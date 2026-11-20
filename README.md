@@ -1,6 +1,6 @@
 <h1 align="center">🚀 tvManager (Softcam Manager)</h1>
 
-[![Version](https://img.shields.io/badge/Version-3.4-blue.svg)](https://github.com/Belfagor2005/tvManager)
+[![Version](https://img.shields.io/badge/Version-3.5-blue.svg)](https://github.com/Belfagor2005/tvManager)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python-2.7%2B-blue.svg)](https://www.python.org)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -31,32 +31,35 @@
 ### 🎮 Core Management
 - **One-Click Control** - Start, stop, and restart softcams effortlessly
 - **Multi-Cam Support** - OSCam, CCcam, NCam, MGcamd, GCam, Wicardd
-- **Auto-Detection** - Automatic detection of running cam processes
+- **Auto-Detection** - Running cams detected from the process list: "(Active)" only when the cam really runs
 - **Quick Restart** - Instant softcam restart functionality
+- **Reliable Autostart** - The selected cam is started at boot (`/etc/clist.list` + camscript)
 
 ### 📊 Monitoring & Information
-- **Real-time ECM Info** - Live ECM data display with formatting
-- **System Resources** - Memory, CPU, and active cam monitoring
+- **Real-time ECM Info** - Readable summary (CAID, PID, provider, reader, hops, ECM time); multi-tuner `ecm*.info`
+- **System Resources** - Memory, real CPU % and running/installed cams
 - **Process Detection** - Intelligent cam process identification
 - **Resource Statistics** - Comprehensive system usage metrics
 
 ### 💾 Backup & Configuration
-- **Automated Backups** - Timestamped configuration backups
-- **Restore System** - Easy restoration of previous configurations
-- **Multi-Version Support** - Manage multiple backup versions
+- **Automated Backups** - Timestamped backups in `/etc/tvManager/backup` (kept across reboots, last 10)
+- **Restore System** - Restores every saved file to its original path
+- **Running Cam Config** - Also saves `oscam/ncam .conf .user .dvbapi` from the running cam's config dir
 - **Config Management** - Centralized control of all cam configurations
 
 ### 🔧 Integrated Tools
-- **Cam Info Panels** - Built-in CCcam, OSCam, and NCam information
+- **OSCam / NCam Status** - One table with server, readers and clients, live log, memory bar,
+  start/stop/restart (works whoever started the cam, JSON or XML webif API)
+- **CCcam Info** - Self-contained: works on OpenPLi/DreamOS too (no image setup.xml or keymap needed)
 - **Download Manager** - Integrated softcam downloader with repository support
 - **System Cleanup** - Temporary file and cache management
-- **Dependency Check** - Automatic verification and installation of requirements
+- **Tivusat Reader Keys** - Manages only its own `Tivusat-183E` reader, never your own readers
 
 ### 🎯 Smart Features
 - **Quick Shortcuts** - Number key shortcuts for fast access (0-9)
 - **Multi-Skin Support** - HD, FHD, UHD compatibility
 - **Cross-Platform** - DreamOS, OpenPLi, OpenATV support
-- **Background Operations** - Non-blocking command execution
+- **Background Operations** - Network calls in background threads, the GUI never freezes
 
 ## 🚀 Quick Start
 
@@ -77,9 +80,19 @@
 |-----|----------|-----|----------|
 | **0** | Update Softcam Keys | **5** | Restore Backup |
 | **1** | CCcam Info | **6** | System Cleanup |
-| **2** | OSCam Info | **8** | Help Menu |
-| **3** | NCam Info | **9** | Restart GUI |
-| **4** | Create Backup | | |
+| **2** | OSCam Info | **7** | Update Tivusat reader keys |
+| **3** | NCam Info | **8** | Help Menu |
+| **4** | Create Backup | **9** | Restart GUI |
+
+### OSCam / NCam Info keys
+| Key | Function |
+|-----|----------|
+| **Red** | Stop cam |
+| **Green** | Start / Restart cam |
+| **Yellow** | Capabilities of the cam build |
+| **Blue** | Full screen live log |
+| **OK** | Entitlements of the selected reader |
+| **Menu** | ECM info, reader statistics, manual webif setup |
 
 ## 🛠 Technical Specifications
 
@@ -88,9 +101,8 @@
 - Multi-platform compatibility
 
 ### Python Compatibility
-- Python 2.7.x
-- Python 3.x
-- Cross-version support
+- Python 3.x (tested)
+- Python 2.7.x (code kept compatible, not tested on 3.5)
 
 ### Image Compatibility
 - OpenPLi
@@ -103,14 +115,17 @@
 - `/etc/tuxbox/config/oscam.server`
 - `/etc/tuxbox/config/ncam.server`
 - `/usr/keys/SoftCam.Key`
-- `/etc/clist.list`
+- `/etc/clist.list` (active cam) and `/etc/startcam.sh` (cam started at boot)
+- Backups: `/etc/tvManager/backup/backup_YYYYMMDD_HHMMSS/`
 
 ## 📁 Project Structure
 
 ```
 tvManager/
 ├── data/                 # Core functionality modules
-│   ├── Utils.py         # Utility functions and helpers
+│   ├── Utils.py         # Small helpers (user agent, base64, download)
+│   ├── camwebif.py      # Finds the running OSCam/NCam and talks to its webif
+│   ├── OScamStatus.py   # OSCam / NCam status screen
 │   ├── GetEcmInfo.py    # ECM information handling
 │   ├── Console.py       # System command execution
 │   └── *Info.py         # Cam-specific information panels
@@ -120,6 +135,33 @@ tvManager/
 │   └── uhd/             # Ultra HD skins (2560x1440)
 └── logos/               # Application images and icons
 ```
+
+## 📝 Changelog
+
+### 3.5 (2026-11-20)
+**Security**
+- Plugin update and cam downloads verify TLS certificates; installer is downloaded first, then run
+- Download URLs and file names are quoted (no shell injection); install only if the download succeeded
+- Removed the global `ssl` patch that disabled certificate checks for every plugin in enigma2
+- Config files written with permissions 644
+- `update_oscam_codes.sh` and `emm_sender.sh` rewritten for busybox `sh`; they no longer touch other files
+
+**Fixes**
+- Backup/restore: backups were written to one folder and searched in another; now `/etc/tvManager/backup`
+- Quick restart crash (translation function `_` was overwritten)
+- `/etc/clist.list` no longer contains "None"; `/etc/startcam.sh` always starts the cam (never `cam_down`)
+- No more `opkg update` at every boot and no `/tmp` cleanup at every opening
+- ECM info no longer freezes after opening a sub screen
+- Local XML (green key), `.tar.bz2` packages, numeric version compare (3.10 > 3.4)
+- OSCam/NCam Info: connects to 127.0.0.1, passwords with "=", HTTPS port "+", readable errors
+- Own config sections (`config.tvm_oscaminfo`, `config.tvm_cccaminfo`): the image's OScamInfo/CCcamInfo
+  settings are no longer overwritten. Manual settings of the plugin info screens must be entered again once.
+- CCcamInfo: remote box crash, "Local box" deleting the profiles path, Share View keys, Organizer, PrioMaker autostart
+- `Utils.py` reduced to what the plugin uses (faster start)
+
+**New**
+- OSCam / NCam status screen (OpenATV style, standalone)
+- Home screen: real CPU %, running/installed cams, "(Active)" only when the cam runs, smart color keys
 
 ## 🔧 Advanced Features
 
@@ -176,19 +218,9 @@ This project is licensed under the **GNU General Public License v3.0** - see the
 
 **Important Legal Notice:**
 
-No video files are stored in this repository. The repository simply contains user-submitted links to publicly available video stream URLs, which to the best of our knowledge have been intentionally made publicly by the copyright holders. 
-
-If any links in these playlists infringe on your rights as a copyright holder, they may be removed by sending a pull request or opening an issue.
-
-However, note that:
-- We have no control over the destination of links
-- Removing links from playlists does not remove content from the web
-- Linking does not directly infringe copyright (no copy is made on this site)
-- This is not valid grounds for DMCA notices to GitHub
-
-To remove content from the web, contact the actual web host hosting the content (not GitHub or this repository's maintainers).
-
-**No Depository Links on server**
+This plugin is a manager for softcam software installed on your receiver. It does not contain keys,
+subscriptions or card data. Use it only with smart cards and subscriptions you are entitled to,
+in accordance with the laws of your country and the terms of your provider.
 
 ## 👥 Credits
 
@@ -216,10 +248,3 @@ To remove content from the web, contact the actual web host hosting the content 
 *Professional Softcam Management for Enigma2 Systems*
 
 </div>
-
-```
-
-
-
-
-

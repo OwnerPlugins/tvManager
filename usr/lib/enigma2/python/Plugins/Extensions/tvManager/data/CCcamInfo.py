@@ -9,7 +9,6 @@ from __future__ import print_function
 from Components.ActionMap import (
     ActionMap,
     NumberActionMap,
-    HelpableActionMap,
 )
 from Components.Console import Console
 from Components.Label import Label
@@ -32,7 +31,8 @@ from Screens.HelpMenu import HelpableScreen
 from Screens.LocationBox import LocationBox
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
-from Screens.Setup import Setup
+from Components.ConfigList import ConfigListScreen
+from Components.config import getConfigListEntry
 from Screens.VirtualKeyBoard import VirtualKeyBoard
 from Tools.Directories import (
     fileExists,
@@ -53,16 +53,22 @@ from enigma import (
 )
 from glob import glob
 from os import listdir, remove, rename, system
-from os.path import (dirname, exists, isfile)
+from os.path import dirname, exists, isfile, join
 from skin import getSkinFactor  # parameters
 # add lululla
 from sys import _getframe as getframe
 from errno import ENOENT
 from enigma import eGetEnigmaDebugLvl
 import sys
-import requests
 
 from . import _
+
+KEYMAP_CONTEXT = "TvmCCcamInfoActions"
+try:
+    from keymapparser import readKeymap
+    readKeymap(join(dirname(__file__), "keymap.xml"))
+except Exception as e:
+    print("[CCcamInfo] keymap not loaded: %s" % e)
 from . import CCcamPrioMaker
 from . import CCcamOrganizer
 
@@ -151,23 +157,38 @@ def _parse(url):
     return url, AuthHeaders
 
 
-def getPage(url, callback, errback):
-    url, auth_headers = _parse(url)
-    print("[CCcamInfo] URL requested:", url)
+def _http_get(url, headers):
     try:
-        response = requests.get(url, headers=auth_headers, timeout=5)
+        import requests
+        response = requests.get(url, headers=headers, timeout=5)
         response.raise_for_status()
+        content = response.content
+    except ImportError:
         try:
-            data = response.content.decode("utf-8")
-        except UnicodeDecodeError:
-            data = response.content.decode("latin-1")
-        callback(data)
-    except requests.exceptions.RequestException as error:
-        print("[CCcamInfo][getPage] Request error:", error)
-        errback(error)
-    except Exception as e:
-        print("[CCcamInfo][getPage] Unexpected error:", e)
-        errback(e)
+            from urllib.request import Request, urlopen
+        except ImportError:
+            from urllib2 import Request, urlopen
+        content = urlopen(Request(url, headers=headers), timeout=5).read()
+    try:
+        return content.decode("utf-8")
+    except UnicodeDecodeError:
+        return content.decode("latin-1")
+
+
+def getPage(url, callback, errback):
+    """Non blocking: request in a thread, callback/errback on the GUI thread."""
+    from twisted.internet.reactor import callFromThread, callInThread
+    url, auth_headers = _parse(url)
+
+    def work():
+        try:
+            data = _http_get(url, auth_headers)
+        except Exception as error:
+            print("[CCcamInfo][getPage] %s: %s" % (url, error))
+            callFromThread(errback, error)
+            return
+        callFromThread(callback, data)
+    callInThread(work)
 
 
 class HelpableNumberActionMap(NumberActionMap):
@@ -226,7 +247,7 @@ def getConfigValue(line):
 
 def notBlackListed(entry):
     try:
-        with open(config.cccaminfo.blacklist.value, "r") as f:
+        with open(config.tvm_cccaminfo.blacklist.value, "r") as f:
             blacklisted_entries = set(line.strip() for line in f)
 
     except IOError as e:
@@ -278,14 +299,21 @@ config.cccamlineedit.domain = NoSave(ConfigText(fixed_size=False))
 config.cccamlineedit.port = NoSave(ConfigNumber())
 config.cccamlineedit.username = NoSave(ConfigText(fixed_size=False))
 config.cccamlineedit.password = NoSave(ConfigText(fixed_size=False))
-config.cccamlineedit.deskey = NoSave(ConfigNumber())
-config.cccaminfo = ConfigSubsection()
-config.cccaminfo.blacklist = ConfigText(
+config.cccamlineedit.deskey = NoSave(ConfigText(default="0102030405060708091011121314", fixed_size=False))
+config.tvm_cccaminfo = ConfigSubsection()
+config.tvm_cccaminfo.blacklist = ConfigText(
     default="/etc/enigma2/CCcamInfo.blacklisted",
     fixed_size=False)
-config.cccaminfo.profiles = ConfigText(
+config.tvm_cccaminfo.profiles = ConfigText(
     default="/etc/enigma2/CCcamInfo.profiles",
     fixed_size=False)
+config.tvm_cccaminfo.profile = ConfigText(default="", fixed_size=False)  # active remote URL
+# temporary values for the profile editor
+config.tvm_cccaminfo.name = NoSave(ConfigText(default="Profile", fixed_size=False))
+config.tvm_cccaminfo.ip = NoSave(ConfigText(default="192.168.1.2", fixed_size=False))
+config.tvm_cccaminfo.username = NoSave(ConfigText(default="", fixed_size=False))
+config.tvm_cccaminfo.password = NoSave(ConfigText(default="", fixed_size=False))
+config.tvm_cccaminfo.port = NoSave(ConfigNumber(default=16001))
 
 
 def getConfigNameAndContent(fileName):
@@ -344,90 +372,111 @@ class CCcamShareViewList(MenuList):
         self.l.setFont(1, gFont("Regular", 32))
 
 
-class CCcamLineEdit(Setup):
+class SimpleConfigScreen(ConfigListScreen, Screen):
+    """Small setup screen that needs no setup.xml from the image."""
+
+    def __init__(self, session, title, entries, remove_label=None):
+        self.skin = """
+        <screen position="center,center" size="%d,%d" title="%s">
+            <widget name="config" position="%d,%d" size="%d,%d" scrollbarMode="showOnDemand"/>
+            <widget name="key_red" position="%d,%d" size="%d,%d" font="Regular;%d" halign="center" valign="center" backgroundColor="#9f1313"/>
+            <widget name="key_green" position="%d,%d" size="%d,%d" font="Regular;%d" halign="center" valign="center" backgroundColor="#1f771f"/>
+            <widget name="key_yellow" position="%d,%d" size="%d,%d" font="Regular;%d" halign="center" valign="center" backgroundColor="#a08000"/>
+        </screen>""" % (int(900 * sf), int(520 * sf), title,
+                        int(10 * sf), int(10 * sf), int(880 * sf), int(430 * sf),
+                        int(10 * sf), int(460 * sf), int(280 * sf), int(45 * sf), int(26 * sf),
+                        int(310 * sf), int(460 * sf), int(280 * sf), int(45 * sf), int(26 * sf),
+                        int(610 * sf), int(460 * sf), int(280 * sf), int(45 * sf), int(26 * sf))
+        Screen.__init__(self, session)
+        self.setTitle(title)
+        ConfigListScreen.__init__(self, [getConfigListEntry(t, c) for t, c in entries], session=session)
+        self["key_red"] = Label(_("Cancel"))
+        self["key_green"] = Label(_("Save"))
+        self["key_yellow"] = Label(remove_label or "")
+        self["setupactions"] = ActionMap(["SetupActions", "ColorActions"], {
+            "save": self.keySave,
+            "ok": self.keySave,
+            "cancel": self.keyCancel,
+            "red": self.keyCancel,
+            "green": self.keySave,
+            "yellow": self.keyRemove,
+        }, -2)
+
+    def keySave(self):
+        self.close(True)
+
+    def keyCancel(self):
+        self.close(None)
+
+    def keyRemove(self):
+        pass
+
+
+class CCcamLineEdit(SimpleConfigScreen):
+    """Edit / add / remove a C: or N: line in CCcam.cfg."""
+
     def __init__(self, session, line):
         self.line = line
         self.extras = []
-        self.deskey = "0102030405060708091011121314"
-        self.domain = "address.dyndns.org"
-        self.username = "username"
-        self.password = "password"
-        self.port = 12000
-        if line == "newC":
-            self.protocol = "C:"
-        elif line == "newN":
-            self.protocol = "N:"
-        else:
-            mysel = self.line.split()
-            self.protocol = mysel[0]
-            self.domain = mysel[1]
-            self.port = int(mysel[2])
-            self.username = mysel[3]
-            self.password = mysel[4]
-            if mysel[0] == "N:":
-                # self.deskey = mysel[5] + mysel[6] + mysel[7] + mysel[8] + mysel[9] + mysel[10] + mysel[11] + mysel[12] + mysel[13] + mysel[14] + mysel[15] + mysel[16] + mysel[17] + mysel[18]
-                self.deskey = "".join(mysel[5:19])
-            self.extras = mysel[19:]
-
-        config.cccamlineedit.protocol.value = self.protocol
-        config.cccamlineedit.domain.value = self.domain
-        config.cccamlineedit.port.value = self.port
-        config.cccamlineedit.username.value = self.username
-        config.cccamlineedit.password.value = self.password
-        config.cccamlineedit.deskey.value = int(self.deskey)
-
-        Setup.__init__(self, session=session, setup="CCcamLineEdit")
-        self.setTitle(_("CCcam Line Editor"))
-        if "new" not in self.line:
-            self["key_yellow"] = StaticText(_("Remove"))
-            self["cccameditactions"] = HelpableActionMap(self, ["ColorActions"], {
-                "yellow": (self.keyRemove, _("Remove the Line from CCcam.cfg"))
-            }, prio=1, description=_("CCcam Line Edit Actions"))
+        protocol, domain, port = "C:", "address.dyndns.org", 12000
+        username, password, deskey = "username", "password", "0102030405060708091011121314"
+        if line == "newN":
+            protocol = "N:"
+        elif line != "newC":
+            mysel = line.split()
+            protocol, domain = mysel[0], mysel[1]
+            try:
+                port = int(mysel[2])
+            except (ValueError, IndexError):
+                pass
+            username = mysel[3] if len(mysel) > 3 else ""
+            password = mysel[4] if len(mysel) > 4 else ""
+            if protocol == "N:":
+                deskey = "".join(mysel[5:19])
+                self.extras = mysel[19:]
+            else:
+                self.extras = mysel[5:]
+        c = config.cccamlineedit
+        c.protocol.value = protocol
+        c.domain.value = domain
+        c.port.value = port
+        c.username.value = username
+        c.password.value = password
+        c.deskey.value = deskey
+        entries = [(_("Protocol"), c.protocol), (_("Server"), c.domain), (_("Port"), c.port),
+                   (_("Username"), c.username), (_("Password"), c.password)]
+        if protocol == "N:":
+            entries.append((_("DES key (28 hex)"), c.deskey))
+        SimpleConfigScreen.__init__(self, session, _("CCcam Line Editor"), entries,
+                                    None if "new" in line else _("Remove"))
 
     def keySave(self):
-        # TODO isChanged is always true
-        if "new" in self.line or self["config"].isChanged():
-            elements = [
-                config.cccamlineedit.protocol.value,
-                config.cccamlineedit.domain.value,
-                str(config.cccamlineedit.port.value),
-                config.cccamlineedit.username.value,
-                config.cccamlineedit.password.value
-            ]
-            newline = " ".join(elements)
-            if config.cccamlineedit.protocol.value == "N:":
-                des = "%028d" % config.cccamlineedit.deskey.value
-                des = " ".join([des[x:x + 2] for x in range(0, len(des), 2)])
-                # N: 127.0.0.1 10000 dummy dummy 01 02 03 04 05 06 07 08 09 10 11 12 13 14
-                # des = des[0] + des[1] + " " + des[2] + des[3] + " " + des[4] + des[5] + " " + des[6] + des[7] + " " + des[8] + des[9] + " " + des[10] + des[11] + " " + des[12] + des[13] + " " + des[14] + des[15] + " " + des[16] + des[17] + " " + des[18] + des[19] + " " + des[20] + des[21] + " " + des[22] + des[23] + " " + des[24] + des[25] + " " + des[26] + des[27]
-                newline = "%s %s" % (newline, des)
-                if self.extras:
-                    newline = "%s %s" % (newline, " ".join(self.extras))
-
-            lines = fileReadLines(CFG)
-            if lines:
-                if "new" in self.line:
-                    lines = [x.strip() for x in lines]
-                    # add new line at the beginning
-                    lines.insert(0, newline)
-                else:
-                    destlines = []
-                    for line in lines:
-                        if line == self.line:
-                            destlines.append(newline)
-                        else:
-                            destlines.append(line)
-                    lines = destlines
-                fileWriteLines(CFG, lines)
-        self.close()
+        c = config.cccamlineedit
+        newline = " ".join([c.protocol.value, c.domain.value.strip(), str(c.port.value),
+                            c.username.value.strip(), c.password.value.strip()])
+        if c.protocol.value == "N:":
+            des = "".join(ch for ch in c.deskey.value if ch in "0123456789abcdefABCDEF")
+            if len(des) != 28:
+                self.session.open(MessageBox, _("The DES key must have 28 hex digits."),
+                                  MessageBox.TYPE_ERROR, timeout=5)
+                return
+            newline += " " + " ".join(des[x:x + 2] for x in range(0, 28, 2))
+        if self.extras:
+            newline += " " + " ".join(self.extras)
+        lines = fileReadLines(CFG, default=[]) or []
+        if "new" in self.line:
+            lines.insert(0, newline)
+        else:
+            lines = [newline if x.strip() == self.line else x for x in lines]
+        fileWriteLines(CFG, lines)
+        self.close(True)
 
     def keyRemove(self):
-        if "new" not in self.line:
-            lines = fileReadLines(CFG)
-            if lines:
-                lines = [line for line in lines if line != self.line]
-                fileWriteLines(CFG, lines)
-        self.close()
+        if "new" in self.line:
+            return
+        lines = fileReadLines(CFG, default=[]) or []
+        fileWriteLines(CFG, [x for x in lines if x.strip() != self.line])
+        self.close(True)
 
 
 def CCcamListEntry(name, idx):
@@ -780,8 +829,12 @@ class CCcamInfoMain(Screen):
             print("[CCcamInfo] %s not found" % CFG)
             searchConfig()
         self.url = "http://127.0.0.1:16001"
+        if config.tvm_cccaminfo.profile.value:
+            self.url = config.tvm_cccaminfo.profile.value
+        else:
+            self.readConfig()
         self["actions"] = NumberActionMap(
-            ["CCcamInfoActions"],
+            ["TvmCCcamInfoActions"],
             {
                 "1": self.keyNumberGlobal,
                 "2": self.keyNumberGlobal,
@@ -854,20 +907,20 @@ class CCcamInfoMain(Screen):
         if username and password:
             parsed_url = urlparse(self.url)
             # Ricostruzione dell'URL con username e password
-            netloc = f"{username}:{password}@{parsed_url.hostname}"
+            netloc = "%s:%s@%s" % (username, password, parsed_url.hostname)
             if parsed_url.port:
-                netloc += f":{parsed_url.port}"
+                netloc += ":%s" % parsed_url.port
             self.url = urlunparse(
                 (parsed_url.scheme, netloc, parsed_url.path, '', '', ''))
-        # Salva il profilo vuoto in config
-        config.cccaminfo.profiles.value = ""
-        config.cccaminfo.profiles.save()
+        # back to the local box: forget the remote profile
+        config.tvm_cccaminfo.profile.value = ""
+        config.tvm_cccaminfo.profile.save()
 
     def profileSelected(self, url=None):
         if url is not None:
             self.url = url
-            config.cccaminfo.profiles.value = self.url
-            config.cccaminfo.profiles.save()
+            config.tvm_cccaminfo.profile.value = self.url
+            config.tvm_cccaminfo.profile.save()
             self.showInfo(_("New profile: ") + url, _("Profile"))
         else:
             self.showInfo(_("Using old profile: ") + self.url, _("Profile"))
@@ -946,7 +999,7 @@ class CCcamInfoMain(Screen):
 
             elif sel == _("CCcam Organizer"):
                 self.session.openWithCallback(
-                    self.workingFinished, CCcamOrganizer.OrganizerMenu)
+                    self.workingFinished, CCcamOrganizer.OrganizerMenu, CFG)
 
             elif sel == _("Free memory"):
                 if not self.Console:
@@ -979,20 +1032,26 @@ class CCcamInfoMain(Screen):
             lines = [x for x in lines if x.startswith(
                 'C:') or x.startswith('N:')]
             for line in lines:
-                lineElements = line.split(" ")
+                lineElements = line.split()
+                if len(lineElements) < 3:
+                    continue
                 lineDescription = "%s %s %s" % (
                     lineElements[0], lineElements[1], lineElements[2])
                 cfgLines.append((lineDescription, line))
             cfgLines.append((_("Add new CCcam line"), "newC"))
             cfgLines.append((_("Add new NewCamd line"), "newN"))
-            self.session.openWithCallback(self.showCfgSelectionCallback, MessageBox, _(
-                "Please select a line to edit or select add to create new line."), list=cfgLines)
+            from Screens.ChoiceBox import ChoiceBox
+            self.session.openWithCallback(
+                self.showCfgSelectionCallback, ChoiceBox,
+                _("Please select a line to edit or select add to create new line."), cfgLines)
             # self.session.openWithCallback(self.showCfgSelectionCallback, MessageBox, _("Please select a line to edit or select add to create new line."), list=cfgLines, windowTitle=_("CCcam - Lines"))
 
         else:
             self.workingFinished()
 
     def showCfgSelectionCallback(self, line):
+        if isinstance(line, tuple):
+            line = line[1]
         if line:
             self.session.openWithCallback(
                 self.workingFinished, CCcamLineEdit, line)
@@ -1067,7 +1126,7 @@ class CCcamInfoMain(Screen):
         html_content = ""
         # Verifica che html sia una stringa
         if not isinstance(html, str):
-            self.showInfo(_("Invalid HTML content!"))
+            self.showInfo(_("Invalid HTML content!"), _("Error"))
             return
 
         start_idx = html.find(start_tag)
@@ -1086,7 +1145,7 @@ class CCcamInfoMain(Screen):
 
         # Assicurati che self.url sia una stringa
         if not isinstance(self.url, str):
-            self.showInfo(_("Invalid URL!"))
+            self.showInfo(_("Invalid URL!"), _("Error"))
             return
 
         # Verifica che getPage e showCCcamGeneral2 siano definiti correttamente
@@ -1358,7 +1417,7 @@ class CCcamInfoEcmInfoSelection(Screen):
         self["list"] = MenuList(items)
 
         self["actions"] = ActionMap(
-            ["CCcamInfoActions"], {
+            ["TvmCCcamInfoActions"], {
                 "ok": self.ok, "cancel": self.close}, -1)
 
     def ok(self):
@@ -1371,7 +1430,7 @@ class CCcamInfoInfoScreen(Screen):
         self.setTitle(set_title)
         self["text"] = ScrollLabel(info)
         self["actions"] = ActionMap(
-            ["CCcamInfoActions"],
+            ["TvmCCcamInfoActions"],
             {
                 "ok": self.close,
                 "cancel": self.close,
@@ -1410,7 +1469,7 @@ class CCcamShareViewMenu(Screen, HelpableScreen):
         self["title"] = Label()
         self["actions"] = HelpableNumberActionMap(
             self,
-            "CCcamInfoActions",
+            "TvmCCcamInfoActions",
             {
                 "cancel": (self.exit, _("close share view")),
                 "0": (self.getUphop, _("show cards with uphop 0")),
@@ -1432,9 +1491,8 @@ class CCcamShareViewMenu(Screen, HelpableScreen):
         )
         self.onLayoutFinish.append(self.getProviders)
         self["key_red"] = Label(_("Cancel"))
-        self["actions"] = ActionMap(
-            ["CCcamInfoActions"], {
-                "cancel": self.close, "red": self.close}, -1)
+        self["redactions"] = ActionMap(
+            ["TvmCCcamInfoActions"], {"red": self.exit}, -1)
 
     def exit(self):
         if self.working is False:
@@ -1684,7 +1742,7 @@ class CCcamInfoSubMenu(Screen):
         self["key_green"] = Label(_("info"))
         self["key_red"] = Label(_("Cancel"))
         self["actions"] = ActionMap(
-            ["CCcamInfoActions"], {
+            ["TvmCCcamInfoActions"], {
                 "ok": self.okClicked, "cancel": self.close, "red": self.close, "green": self.okClicked}, -1)
 
         self["list"].onSelectionChanged.append(self.showInfo)
@@ -1733,7 +1791,7 @@ class CCcamInfoServerMenu(Screen):
         self["info"] = Label()
         self["key_red"] = Label(_("Cancel"))
         self["actions"] = ActionMap(
-            ["CCcamInfoActions"], {
+            ["TvmCCcamInfoActions"], {
                 "ok": self.okClicked, "cancel": self.close, "red": self.close, "green": self.okClicked}, -1)
         self["list"].onSelectionChanged.append(self.showInfo)
         self.onLayoutFinish.append(self.showInfo)
@@ -1770,40 +1828,22 @@ class CCcamInfoRemoteBox:
         self.port = port
 
 
-class CCcamInfoProfileSetup(Setup):
+class CCcamInfoProfileSetup(SimpleConfigScreen):
     def __init__(self, session, profile):
-        Setup.__init__(self, session=session, setup="CCcamProfile")
-        self.setTitle(_("CCcam Info Config Menu"))
-        config.cccaminfo.name.value = profile.name
-        config.cccaminfo.ip.value = profile.ip
-        config.cccaminfo.username.value = profile.username
-        config.cccaminfo.password.value = profile.password
-        config.cccaminfo.port.value = profile.port
-
-        self["actions"] = ActionMap(
-            ["CCcamInfoActions"], {
-                "ok": self.okClicked, "cancel": self.close}, -2)
-
-    def okClicked(self):
-        self.close(
-            CCcamInfoRemoteBox(
-                config.cccaminfo.name.value,
-                config.cccaminfo.ip.value,
-                config.cccaminfo.username.value,
-                config.cccaminfo.password.value,
-                config.cccaminfo.port.value))
+        c = config.tvm_cccaminfo
+        c.name.value = profile.name
+        c.ip.value = profile.ip
+        c.username.value = profile.username
+        c.password.value = profile.password
+        c.port.value = profile.port
+        SimpleConfigScreen.__init__(self, session, _("CCcam Info Config Menu"), [
+            (_("Name"), c.name), (_("IP address / host"), c.ip), (_("Port"), c.port),
+            (_("Username"), c.username), (_("Password"), c.password)])
 
     def keySave(self):
-        self.close(
-            CCcamInfoRemoteBox(
-                config.cccaminfo.name.value,
-                config.cccaminfo.ip.value,
-                config.cccaminfo.username.value,
-                config.cccaminfo.password.value,
-                config.cccaminfo.port.value))
-
-    def keyCancel(self):
-        self.close(None)
+        c = config.tvm_cccaminfo
+        self.close(CCcamInfoRemoteBox(c.name.value, c.ip.value.strip(), c.username.value,
+                                      c.password.value, c.port.value))
 
 
 class CCcamInfoRemoteBoxMenu(Screen):
@@ -1819,7 +1859,7 @@ class CCcamInfoRemoteBoxMenu(Screen):
         self["key_blue"] = Label(_("Edit"))
         self["list"] = MenuList([])
         self["actions"] = ActionMap(
-            ["CCcamInfoActions"],
+            ["TvmCCcamInfoActions"],
             {
                 "cancel": self.exit,
                 "ok": self.profileSelected,
@@ -1836,7 +1876,7 @@ class CCcamInfoRemoteBoxMenu(Screen):
         self.list = []  # Ensure the list is initialized
         self.profiles = []  # Ensure the profiles list is initialized
         try:
-            with open(config.plugins.cccaminfo.profiles.value, "r") as f:
+            with open(config.tvm_cccaminfo.profiles.value, "r") as f:
                 content = f.read()
 
         except IOError as e:
@@ -1870,7 +1910,7 @@ class CCcamInfoRemoteBoxMenu(Screen):
         for x in self.profiles:
             content += f"{x.name}|{x.ip}|{x.username}|{x.password}|{x.port}\n"
         try:
-            with open(config.cccaminfo.profiles.value, "w") as f:
+            with open(config.tvm_cccaminfo.profiles.value, "w") as f:
                 # Strip to remove any leading/trailing newlines
                 f.write(content.strip())
 
@@ -1927,12 +1967,12 @@ class CCcamInfoRemoteBoxMenu(Screen):
 
     def locationCallback(self, callback):
         if callback:
-            config.cccaminfo.profiles.value = (
+            config.tvm_cccaminfo.profiles.value = (
                 "%s/CCcamInfo.profiles" %
                 callback).replace(
                 "//",
                 "/")
-            config.cccaminfo.profiles.save()
+            config.tvm_cccaminfo.profiles.save()
         del self.list
         self.list = []
         del self.profiles
@@ -1975,7 +2015,7 @@ class CCcamInfoShareInfo(Screen):
         self["key_blue"] = Label(_("Maxdown -"))
         self["list"] = CCcamShareList([])
         self["actions"] = ActionMap(
-            ["CCcamInfoActions"],
+            ["TvmCCcamInfoActions"],
             {
                 "cancel": self.exit,
                 "red": self.uhopsPlus,
@@ -2137,7 +2177,7 @@ class CCcamInfoConfigSwitcher(Screen):
         self["list"] = CCcamConfigList([])
 
         self["actions"] = ActionMap(
-            ["CCcamInfoActions"],
+            ["TvmCCcamInfoActions"],
             {
                 "ok": self.activate,
                 "cancel": self.close,
@@ -2285,7 +2325,7 @@ class CCcamInfoMenuConfig(Screen):
         self["list"] = CCcamConfigList([])
         self.getBlacklistedMenuEntries()
         self["actions"] = ActionMap(
-            ["CCcamInfoActions"],
+            ["TvmCCcamInfoActions"],
             {
                 "ok": self.changeState,
                 "cancel": self.close,
@@ -2299,7 +2339,7 @@ class CCcamInfoMenuConfig(Screen):
 
     def getBlacklistedMenuEntries(self):
         try:
-            with open(config.cccaminfo.blacklist.value, "r") as f:
+            with open(config.tvm_cccaminfo.blacklist.value, "r") as f:
                 content = f.read()
             # Gestione per Python 2 e Python 3 delle stringhe
             if isinstance(content, bytes):
@@ -2339,31 +2379,31 @@ class CCcamInfoMenuConfig(Screen):
         # Join blacklisted entries with newline and ensure no double newlines
         content = "\n".join(self.blacklisted).strip() + "\n"
         try:
-            with open(config.cccaminfo.blacklist.value, "w") as f:
+            with open(config.tvm_cccaminfo.blacklist.value, "w") as f:
                 f.write(content)
 
             self.session.open(
                 MessageBox,
                 _("Configfile %s saved.") %
-                config.cccaminfo.blacklist.value,
+                config.tvm_cccaminfo.blacklist.value,
                 MessageBox.TYPE_INFO)
         except IOError as e:
             # Log the error or handle it appropriately
             self.session.open(
                 MessageBox, _("Could not save configfile %s! Error: %s") %
-                (config.cccaminfo.blacklist.value, str(e)), MessageBox.TYPE_ERROR)
+                (config.tvm_cccaminfo.blacklist.value, str(e)), MessageBox.TYPE_ERROR)
 
     def location(self):
         self.session.openWithCallback(self.locationCallback, LocationBox)
 
     def locationCallback(self, callback):
         if callback:
-            config.cccaminfo.blacklist.value = (
+            config.tvm_cccaminfo.blacklist.value = (
                 "%s/CCcamInfo.blacklisted" %
                 callback).replace(
                 "//",
                 "/")
-            config.cccaminfo.blacklist.save()
+            config.tvm_cccaminfo.blacklist.save()
 
 
 def fileReadLines(

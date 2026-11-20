@@ -1,21 +1,38 @@
-# tvManager translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# nl translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tvManager\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-07-26 01:16+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: nl <ekekaz@gmail.com>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "-"
+msgstr "-"
+
+msgid "(All readers)"
+msgstr "(Alle lezers)"
+
+msgid "\n"
+msgstr "\n"
+
+msgid "\n All Caid:"
+msgstr "\n Alle Caid:"
+
+msgid "\n....\n.....\n"
+msgstr "\n....\n...\n"
+
+msgid "\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"
+msgstr "\nGESTOPT MET HET VINDEN VAN FAKES \n\nTERUG NAAR DE OORSPRONKELIJKE STATUS"
+
+msgid "\tProvid:"
+msgstr "\tGeef:"
 
 msgid "%s ( %s Cards )"
 msgstr "%s ( %s kaarten )"
@@ -23,20 +40,23 @@ msgstr "%s ( %s kaarten )"
 msgid "%s Info - Configuration"
 msgstr "%s Info - Configuratie"
 
-msgid "%s Info - Main Menu"
-msgstr "%s Info - Hoofdmenu"
+msgid "%s not available:\n%s"
+msgstr "%s niet beschikbaar:\n%s"
 
 msgid "%s restarted successfully!"
 msgstr "%s is succesvol opnieuw opgestart!"
 
-msgid "%s webif disabled"
-msgstr "%s webif uitgeschakeld"
+msgid "%s\n\n%s\n%s\n\nPrio entry\n%s"
+msgstr "%s\n\n%s\n%s\n\nPrio-invoer\n%s"
 
-msgid "(All readers)"
-msgstr "(Alle lezers)"
+msgid "<no capabilities found>"
+msgstr "<geen mogelijkheden gevonden>"
 
-msgid "(Show only reader) (%s)"
-msgstr "(Toon alleen lezer) (%s)"
+msgid "<no log found>"
+msgstr "<geen logboek gevonden>"
+
+msgid "a NOTHING.TO.UNDELE"
+msgstr "een NIETS TE UNDELE"
 
 msgid "About"
 msgstr "Over"
@@ -62,6 +82,9 @@ msgstr "Voeg een nieuwe NewCamd-lijn toe"
 msgid "Address"
 msgstr "Adres"
 
+msgid "address:"
+msgstr "adres:"
+
 msgid "All"
 msgstr "Alle"
 
@@ -71,11 +94,17 @@ msgstr "Er is een fout opgetreden in de groene functie."
 msgid "An unexpected error occurred: %s"
 msgstr "Er is een onverwachte fout opgetreden: %s"
 
+msgid "and"
+msgstr "En"
+
 msgid "Ask all caid"
 msgstr "Vraag het aan alle caid"
 
 msgid "Ask for the selection caid"
 msgstr "Vraag naar de selectiekaart"
+
+msgid "Autocam assigned to the current channel"
+msgstr "Autocam toegewezen aan het huidige kanaal"
 
 msgid "Automatically update Client/Server View?"
 msgstr "Client-/serverweergave automatisch bijwerken?"
@@ -92,17 +121,65 @@ msgstr "Back-up mislukt!"
 msgid "Backup restoration failed!"
 msgstr "Back-upherstel mislukt!"
 
-msgid "CCPrioMaker Settings"
-msgstr "CCPrioMaker-instellingen"
+msgid "Backup restored successfully!\nRestored files:\n- %s"
+msgstr "Back-up succesvol hersteld!\nHerstelde bestanden:\n- %s"
 
-msgid "CCPrioMaker autostart"
-msgstr "CCPrioMaker automatisch starten"
+msgid "Caid"
+msgstr "Caid"
+
+msgid "caid:"
+msgstr "caid:"
+
+msgid "Caid:"
+msgstr "Caid:"
+
+msgid "CaID:"
+msgstr "CaID:"
+
+msgid "Caid:Srvid"
+msgstr "Caid: Srvid"
+
+msgid "Cam Download"
+msgstr "Camera downloaden"
+
+msgid "camscript exit code %s"
+msgstr "camscript-afsluitcode %s"
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "Cannot reach the %s webif:\n%s\n\nYou can enter IP/port/user manually in Setup."
+msgstr "Kan %s webif:\n%s\n\n niet bereiken. U kunt IP/poort/gebruiker handmatig invoeren in Set-up."
+
+msgid "Capabilities"
+msgstr "Mogelijkheden"
+
+msgid "card"
+msgstr "kaart"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Kaartinfo (CCcam-Reader)"
+
+msgid "card reader"
+msgstr "kaartlezer"
+
+msgid "Cards:"
+msgstr "Kaarten:"
+
+msgid "Cards: 0"
+msgstr "Kaarten: 0"
+
+msgid "Cardserial"
+msgstr "Kaartserieel"
 
 msgid "CCcam"
 msgstr "cccam"
 
+msgid "CCcam - Lines"
+msgstr "CCcam - Lijnen"
+
 msgid "CCcam Clients Info"
-msgstr "CCcam-klanteninformatie"
+msgstr "CCcam-klanteninfo"
 
 msgid "CCcam Config Switcher"
 msgstr "CCcam-configuratieschakelaar"
@@ -116,8 +193,11 @@ msgstr "CCcam-info"
 msgid "CCcam Info %s"
 msgstr "CCcam-info %s"
 
+msgid "CCcam Info %s\nby AliAbdul %s\n\nrecoded from Lululla\n\nThis screen shows you the status of CCcam."
+msgstr "CCcam-info %s\ndoor AliAbdul %s\n\nhercodeerd van Lululla\n\nDit scherm toont je de status van CCcam."
+
 msgid "CCcam Info Config"
-msgstr "CCcam-infoconfiguratie"
+msgstr "CCcam Info-configuratie"
 
 msgid "CCcam Info Config Menu"
 msgstr "CCcam Info Configuratiemenu"
@@ -135,7 +215,7 @@ msgid "CCcam Prio Maker"
 msgstr "CCcam Priomaker"
 
 msgid "CCcam Provider Info"
-msgstr "CCcam-providerinformatie"
+msgstr "Informatie over CCcam-aanbieder"
 
 msgid "CCcam Remote Info"
 msgstr "CCcam-informatie op afstand"
@@ -152,38 +232,11 @@ msgstr "CCcam deelt informatie"
 msgid "CCcam.cfg Basic Line Editor"
 msgstr "CCcam.cfg Basislijneditor"
 
-msgid "CCcamInfo not available"
-msgstr "CCcamInfo niet beschikbaar"
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker automatisch starten"
 
-msgid "CaID:"
-msgstr ""
-
-msgid "Caid"
-msgstr ""
-
-msgid "Caid:"
-msgstr ""
-
-msgid "Caid:Srvid"
-msgstr "Caid: Srvid"
-
-msgid "Cam Download"
-msgstr "Camera downloaden"
-
-msgid "Cancel"
-msgstr "Annuleren"
-
-msgid "Card info (CCcam-Reader)"
-msgstr "Kaartinfo (CCcam-Reader)"
-
-msgid "Cards:"
-msgstr "Kaarten:"
-
-msgid "Cards: 0"
-msgstr "Kaarten: 0"
-
-msgid "Cardserial"
-msgstr "Kaartserieel"
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker-instellingen"
 
 msgid "Channel"
 msgstr "Kanaal"
@@ -212,6 +265,9 @@ msgstr "Klanten"
 msgid "Close"
 msgstr "Dichtbij"
 
+msgid "close share view"
+msgstr "weergave delen sluiten"
+
 msgid "Command Cancelled"
 msgstr "Commando geannuleerd"
 
@@ -223,6 +279,9 @@ msgstr "Verbonden klanten"
 
 msgid "Connected:"
 msgstr "Aangesloten:"
+
+msgid "Connecting..."
+msgstr "Verbinden..."
 
 msgid "Content"
 msgstr "Inhoud"
@@ -242,17 +301,20 @@ msgstr "Kon het configuratiebestand niet opslaan! Fout: %s"
 msgid "Current time"
 msgstr "Huidige tijd"
 
+msgid "decrease uphop by 1"
+msgstr "verlaag de uphop met 1"
+
 msgid "Delete"
 msgstr "Verwijderen"
 
 msgid "Delete %s?"
 msgstr "%s verwijderen?"
 
-msgid "Delete Peer"
-msgstr "Peer verwijderen"
-
 msgid "Delete failed!"
 msgstr "Verwijderen mislukt!"
+
+msgid "Delete Peer"
+msgstr "Peer verwijderen"
 
 msgid "Deleted %s!"
 msgstr "%s verwijderd!"
@@ -269,6 +331,9 @@ msgstr "Wilt u verwijderen?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Wilt u Gui Interface opnieuw opstarten?"
 
+msgid "Ecm avg"
+msgstr "Ecm gem"
+
 msgid "ECM data format error"
 msgstr "ECM-gegevensformaatfout"
 
@@ -281,11 +346,17 @@ msgstr "ECM-bestand leeg"
 msgid "ECM file not found"
 msgstr "ECM-bestand niet gevonden"
 
-msgid "ECM read error"
-msgstr "ECM-leesfout"
-
 msgid "Ecm Info"
 msgstr "Ecm-info"
+
+msgid "ECM info"
+msgstr "ECM-informatie"
+
+msgid "Ecm last"
+msgstr "Ecm laatste"
+
+msgid "ECM read error"
+msgstr "ECM-leesfout"
 
 msgid "Ecm Statistics"
 msgstr "Ecm-statistieken"
@@ -293,11 +364,11 @@ msgstr "Ecm-statistieken"
 msgid "Ecm Time"
 msgstr "Ecm-tijd"
 
-msgid "Ecm avg"
-msgstr "Ecm gem"
+msgid "ecm time:"
+msgstr "ecm-tijd:"
 
-msgid "Ecm last"
-msgstr "Ecm laatste"
+msgid "ecm.info"
+msgstr "ecm.info"
 
 msgid "Edit"
 msgstr "Bewerking"
@@ -311,6 +382,9 @@ msgstr "Erm Info"
 msgid "Entitlements"
 msgstr "Rechten"
 
+msgid "Entitlements for '%s'"
+msgstr "Rechten voor '%s'"
+
 msgid "Error"
 msgstr "Fout"
 
@@ -319,15 +393,6 @@ msgstr "Fout bij het uitvoeren van updatescript: %s"
 
 msgid "Error getting resource information"
 msgstr "Fout bij ophalen van broninformatie"
-
-msgid "Error loading system info:"
-msgstr "Fout bij het laden van systeeminformatie:"
-
-msgid "Error loading system information:"
-msgstr "Fout bij laden van systeeminformatie:"
-
-msgid "Error opening cam info: %s"
-msgstr "Fout bij openen cam-info: %s"
 
 msgid "Error opening configuration file: %s"
 msgstr "Fout bij openen van configuratiebestand: %s"
@@ -347,6 +412,9 @@ msgstr "Fout bij stoppen van %s!"
 msgid "Error while editing configuration: %s"
 msgstr "Fout bij het bewerken van de configuratie: %s"
 
+msgid "Error:\n%s"
+msgstr "Fout: \n%s"
+
 msgid "Exit"
 msgstr "Uitgang"
 
@@ -360,7 +428,7 @@ msgid "Find Fakes"
 msgstr "Vind vervalsingen"
 
 msgid "Force Update"
-msgstr "Forceer update"
+msgstr "Update forceren"
 
 msgid "Free memory"
 msgstr "Gratis geheugen"
@@ -377,8 +445,17 @@ msgstr "Algemeen"
 msgid "Get Link"
 msgstr "Koppeling verkrijgen"
 
+msgid "get the cards' server"
+msgstr "haal de server van de kaarten op"
+
 msgid "Getting the list, please wait ..."
 msgstr "De lijst wordt opgehaald. Even geduld a.u.b...."
+
+msgid "GREEN: start %s"
+msgstr "GROEN: start %s"
+
+msgid "handled"
+msgstr "afgehandeld"
 
 msgid "Help"
 msgstr "Hulp"
@@ -386,17 +463,14 @@ msgstr "Hulp"
 msgid "Hops"
 msgstr "Hop"
 
+msgid "hops:"
+msgstr "hop:"
+
 msgid "Hops:"
 msgstr "Hop:"
 
 msgid "Hostname:"
 msgstr "Hostnaam:"
-
-msgid "IP Address"
-msgstr "IP-adres"
-
-msgid "IP address"
-msgstr "IP-adres"
 
 msgid "Idle Time:"
 msgstr "Inactieve tijd:"
@@ -404,17 +478,32 @@ msgstr "Inactieve tijd:"
 msgid "If Active: Download/Reset Server Config"
 msgstr "Indien actief: Serverconfiguratie downloaden/resetten"
 
+msgid "increase uphop by 1"
+msgstr "verhoog de uphop met 1"
+
+msgid "info"
+msgstr "informatie"
+
 msgid "Install Cam first!!!"
 msgstr "Installeer eerst Cam!!!"
 
-msgid "Install developer update (%s)?"
-msgstr "Ontwikkelaarsupdate installeren (%s)?"
+msgid "Installing %s\nPlease Wait..."
+msgstr "%s\n installerenEen ogenblik geduld..."
+
+msgid "Installing Softcam Keys\nPlease Wait..."
+msgstr "Softcam Keys installeren\nEen ogenblik geduld..."
 
 msgid "Invalid HTML content!"
 msgstr "Ongeldige HTML-inhoud!"
 
 msgid "Invalid URL!"
 msgstr "Ongeldige URL!"
+
+msgid "IP address"
+msgstr "IP-adres"
+
+msgid "IP Address"
+msgstr "IP-adres"
 
 msgid "Last Req."
 msgstr "Laatste aanvraag"
@@ -437,23 +526,20 @@ msgstr "Logboek"
 msgid "Log %s-%s"
 msgstr "Logboek %s-%s"
 
-msgid "MENU EMM / SERVER CLINE"
-msgstr ""
-
-msgid "Maxdown +"
-msgstr ""
-
 msgid "Maxdown -"
 msgstr "Maxdown-"
 
+msgid "Maxdown +"
+msgstr "Maxdown +"
+
 msgid "Maxdown:"
-msgstr ""
+msgstr "Maxdown:"
 
 msgid "Menu config"
 msgstr "Menuconfiguratie"
 
-msgid "NCamInfo not available"
-msgstr "NCamInfo niet beschikbaar"
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENU EMM / SERVER CLINE"
 
 msgid "Ncam not running - start Cam to obtain information."
 msgstr "Ncam draait niet - start Cam om informatie te verkrijgen."
@@ -464,20 +550,14 @@ msgstr "Nieuw"
 msgid "New profile:"
 msgstr "Nieuw profiel:"
 
+msgid "New version %s is available.\n\nChangelog: %s \n\nInstall now?"
+msgstr "Nieuwe versie %s is beschikbaar.\n\nWijzigingslog: %s \n\nNu installeren?"
+
+msgid "New version %s is available\n\nChangelog: %s\n\nPress yellow button to update."
+msgstr "Nieuwe versie %s is beschikbaar\n\nWijzigingslog: %s\n\nDruk op de gele knop om bij te werken."
+
 msgid "NewCamd"
 msgstr "NieuweCamd"
-
-msgid "No ECM data"
-msgstr "Geen ECM-gegevens"
-
-msgid "No ECM data - Timeout"
-msgstr "Geen ECM-gegevens - Time-out"
-
-msgid "No ECM file"
-msgstr "Geen ECM-bestand"
-
-msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr "Er is momenteel geen ECM-informatie beschikbaar. Dit is alleen beschikbaar tijdens het decoderen."
 
 msgid "No active cam to restart!"
 msgstr "Geen actieve camera om opnieuw op te starten!"
@@ -488,32 +568,59 @@ msgstr "Geen back-ups beschikbaar!"
 msgid "No card inserted!"
 msgstr "Geen kaart geplaatst!"
 
+msgid "No ECM data"
+msgstr "Geen ECM-gegevens"
+
+msgid "No ECM data - Timeout"
+msgstr "Geen ECM-gegevens - Time-out"
+
+msgid "No ECM file"
+msgstr "Geen ECM-bestand"
+
+msgid "No ECM info is currently available."
+msgstr "Er is momenteel geen ECM-informatie beschikbaar."
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Er is momenteel geen ECM-informatie beschikbaar. Dit is alleen beschikbaar tijdens het decoderen."
+
+msgid "No entitlements for '%s'"
+msgstr "Geen rechten voor '%s'"
+
+msgid "no or unknown card inserted"
+msgstr "geen of onbekende kaart geplaatst"
+
 msgid "No softcams available!"
 msgstr "Geen softcams beschikbaar!"
+
+msgid "No tvManager camscript for the current cam."
+msgstr "Geen tvManager-camscript voor de huidige cam."
 
 msgid "No valid backups found!"
 msgstr "Geen geldige back-ups gevonden!"
 
 msgid "NodeID"
-msgstr ""
+msgstr "NodeID"
 
 msgid "NodeID:"
-msgstr ""
+msgstr "NodeID:"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
-msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
-msgstr "OSCam-update is verlopen. Controleer /tmp/oscam_update.log voor details."
+msgid "OK: Entitlements   MENU: more"
+msgstr "OK: Rechten MENU: meer"
 
-msgid "OSCamInfo not available"
-msgstr "OSCamInfo niet beschikbaar"
+msgid "OSCam codes updated successfully!\n%s"
+msgstr "OSCam-codes zijn succesvol bijgewerkt!\n%s"
 
 msgid "Oscam not running - start Cam to obtain information."
 msgstr "Oscam draait niet - start Cam om informatie te verkrijgen."
 
-msgid "PRESS RETURN"
-msgstr "DRUK OP TERUG"
+msgid "OSCam update completed with errors.\n%s"
+msgstr "OSCam-update voltooid met fouten.\n%s"
+
+msgid "OSCam update timed out. Check /tmp/oscam_update.log for details."
+msgstr "OSCam-update is verlopen. Controleer /tmp/oscam_update.log voor details."
 
 msgid "Password"
 msgstr "Wachtwoord"
@@ -525,7 +632,10 @@ msgid "Peak load (max queued requests per workerthread)"
 msgstr "Piekbelasting (max. wachtrijaanvragen per workerthread)"
 
 msgid "Pid"
-msgstr ""
+msgstr "Pid"
+
+msgid "pid:"
+msgstr "pid:"
 
 msgid "Please Reset - No File CFG"
 msgstr "Reset alstublieft - Geen bestand CFG"
@@ -539,8 +649,26 @@ msgstr "Selecteer een regel om te bewerken of selecteer Toevoegen om een ​​n
 msgid "Please wait, %s."
 msgstr "Een ogenblik geduld, %s."
 
+msgid "Please wait..."
+msgstr "Even geduld a.u.b...."
+
+msgid "Please wait..\nRESTART CAM"
+msgstr "Een ogenblik geduld..\nRESTART CAM"
+
+msgid "Please wait..\nSTART UP CAM"
+msgstr "Een ogenblik geduld..\nSTART UP CAM"
+
+msgid "Please wait..\nSTOP & RESTART CAM"
+msgstr "Een ogenblik geduld..\nCAM STOPPEN EN HERSTARTEN"
+
+msgid "Please wait..\nSTOP CAM"
+msgstr "Een ogenblik geduld..\nSTOP CAM"
+
 msgid "Port"
 msgstr "Haven"
+
+msgid "PRESS RETURN"
+msgstr "DRUK OP TERUG"
 
 msgid "Profile"
 msgstr "Profiel"
@@ -549,13 +677,19 @@ msgid "Profile: Local box"
 msgstr "Profiel: Lokale box"
 
 msgid "Protocol"
-msgstr ""
+msgstr "Protocol"
+
+msgid "provid:"
+msgstr "voorzien:"
 
 msgid "Provider"
 msgstr "Aanbieder"
 
 msgid "Provider Name:"
 msgstr "Naam provider:"
+
+msgid "provider:"
+msgstr "aanbieder:"
 
 msgid "Provider:"
 msgstr "Aanbieder:"
@@ -569,11 +703,11 @@ msgstr "Aanbieders:"
 msgid "Quick restart %s?"
 msgstr "%s snel opnieuw opstarten?"
 
-msgid "Read Userdata from %s.conf"
-msgstr "Lees gebruikersgegevens van %s.conf"
-
 msgid "Reader"
 msgstr "Lezer"
+
+msgid "Reader statistics"
+msgstr "Statistieken van lezers"
 
 msgid "Reader Statistics"
 msgstr "Lezerstatistieken"
@@ -620,20 +754,38 @@ msgstr "Deel:"
 msgid "Resources"
 msgstr "Bronnen"
 
-msgid "Restart GUI?"
-msgstr "GUI opnieuw starten?"
+msgid "Restart %s"
+msgstr "Start %s opnieuw"
+
+msgid "Restart %s?"
+msgstr "%s opnieuw opstarten?"
 
 msgid "Restart error: %s"
 msgstr "Herstartfout: %s"
 
+msgid "Restart GUI?"
+msgstr "GUI opnieuw starten?"
+
 msgid "Restart softcam to apply restored configuration?"
 msgstr "Softcam opnieuw starten om de herstelde configuratie toe te passen?"
+
+msgid "Restore backup '%s'?\nThis will overwrite current configurations."
+msgstr "Back-up '%s' herstellen?\nHiermee worden de huidige configuraties overschreven."
 
 msgid "Save"
 msgstr "Redden"
 
 msgid "Scanning and retrieval list softcam ..."
 msgstr "Lijst softcam scannen en ophalen ..."
+
+msgid "Select a cam to run ..."
+msgstr "Selecteer een camera om uit te voeren..."
+
+msgid "Select and Install"
+msgstr "Selecteer en installeer"
+
+msgid "Select backup to restore:"
+msgstr "Selecteer een back-up om te herstellen:"
 
 msgid "Select CCcam"
 msgstr "Selecteer CCcam"
@@ -650,17 +802,8 @@ msgstr "Selecteer OScam"
 msgid "Select Your Choice"
 msgstr "Selecteer uw keuze"
 
-msgid "Select a cam to run ..."
-msgstr "Selecteer een camera om uit te voeren..."
-
-msgid "Select and Install"
-msgstr "Selecteer en installeer"
-
-msgid "Select backup to restore:"
-msgstr "Selecteer een back-up om te herstellen:"
-
 msgid "Server %s-%s"
-msgstr ""
+msgstr "Server %s-%s"
 
 msgid "Server Config"
 msgstr "Serverconfiguratie"
@@ -687,13 +830,13 @@ msgid "Server Username"
 msgstr "Server-gebruikersnaam"
 
 msgid "Server:"
-msgstr ""
+msgstr "Server:"
 
 msgid "Servers"
-msgstr ""
+msgstr "Servers"
 
 msgid "Servers:"
-msgstr ""
+msgstr "Servers:"
 
 msgid "Service"
 msgstr "Dienst"
@@ -704,204 +847,17 @@ msgstr "Instellen als UNIEKE PEER"
 msgid "Setup"
 msgstr "Installatie"
 
+msgid "Setup (manual IP / user)"
+msgstr "Instelling (handmatig IP/gebruiker)"
+
 msgid "Share View"
 msgstr "Deel weergave"
 
-msgid "Shares"
-msgstr "Aandelen"
-
-msgid "Show Clients"
-msgstr "Toon klanten"
-
-msgid "Show Ecm info"
-msgstr "Ecm-info weergeven"
-
-msgid "Show Log"
-msgstr "Log tonen"
-
-msgid "Show Readers/Proxies"
-msgstr "Toon lezers/proxy's"
-
-msgid "Softcam Manager"
-msgstr "Softcam-beheerder"
-
-msgid "Softcam restarted with new configuration!"
-msgstr "Softcam opnieuw opgestart met nieuwe configuratie!"
-
-msgid "Start"
-msgstr "Begin"
-
-msgid "Status"
-msgstr ""
-
-msgid "Stop"
-msgstr ""
-
-msgid "Stop Finding Fakes"
-msgstr "Stop met het vinden van vervalsingen"
-
-msgid "Switch config"
-msgstr "Schakelconfiguratie"
-
-msgid "System"
-msgstr "Systeem"
-
-msgid "System cleanup completed!"
-msgstr "Systeemopruiming voltooid!"
-
-msgid "System:"
-msgstr "Systeem:"
-
-msgid "Temporarely DELETED"
-msgstr "Tijdelijk VERWIJDERD"
-
-msgid "This plugin shows you the status of your CCcam"
-msgstr "Deze plug-in toont u de status van uw CCcam"
-
-msgid "Total"
-msgstr "Totaal"
-
-msgid "Total cards:"
-msgstr "Totaal aantal kaarten:"
-
-msgid "Total handled client ecm's"
-msgstr "Totaal afgehandelde klant-ecm's"
-
-msgid "Total handled client emm's"
-msgstr "Totaal afgehandelde klant emm's"
-
-msgid "Total:"
-msgstr "Totaal:"
-
-msgid "Try again later ..."
-msgstr "Probeer het later opnieuw..."
-
-msgid "Type:"
-msgstr ""
-
-msgid "UNDELETED"
-msgstr "ONVERWIJDERD"
-
-msgid "Unable to make the script executable: %s"
-msgstr "Kan het script niet uitvoerbaar maken: %s"
-
-msgid "Unknow Image!"
-msgstr "Onbekende afbeelding!"
-
-msgid "Update"
-msgstr ""
-
-msgid "Update Aborted!"
-msgstr "Update afgebroken!"
-
-msgid "Update interval (in seconds)"
-msgstr "Update-interval (in seconden)"
-
-msgid "Uphops +"
-msgstr "Uphop +"
-
-msgid "Uphops -"
-msgstr ""
-
-msgid "Uphops:"
-msgstr ""
-
-msgid "Uptime"
-msgstr ""
-
-msgid "Used:"
-msgstr "Gebruikt:"
-
-msgid "Username"
-msgstr "Gebruikersnaam"
-
-msgid "Username (httpuser)"
-msgstr "Gebruikersnaam (httpuser)"
-
-msgid "Using old profile:"
-msgstr "Oud profiel gebruiken:"
-
-msgid "Version:"
-msgstr "Versie:"
-
-msgid "Wait please..."
-msgstr "Wacht alsjeblieft..."
-
-msgid "Write"
-msgstr "Schrijven"
-
-msgid "Write-Debug"
-msgstr "Schrijf-debug"
-
-msgid "You have the latest version!"
-msgstr "Je hebt de nieuwste versie!"
-
-msgid "\\\\n"
-msgstr "\\\\\\\\N"
-
-#, fuzzy
-msgid "\\\\tProvid:"
-msgstr "Aanbieder:"
-
-msgid "a NOTHING.TO.UNDELE"
-msgstr "een NIETS TE UNDELE"
-
-msgid "address:"
-msgstr "adres:"
-
-msgid "and"
-msgstr "En"
-
-msgid "caid:"
-msgstr ""
-
-msgid "card"
-msgstr "kaart"
-
-msgid "card reader"
-msgstr "kaartlezer"
-
-msgid "close share view"
-msgstr "weergave delen sluiten"
-
-msgid "decrease uphop by 1"
-msgstr "verlaag de uphop met 1"
-
-msgid "ecm time:"
-msgstr "ecm-tijd:"
-
-msgid "ecm.info"
-msgstr ""
-
-msgid "get the cards' server"
-msgstr "haal de server van de kaarten op"
-
-msgid "handled"
-msgstr "afgehandeld"
-
-msgid "hops:"
-msgstr "hop:"
-
-msgid "increase uphop by 1"
-msgstr "verhoog de uphop met 1"
-
-msgid "info"
-msgstr "informatie"
-
-msgid "no or unknown card inserted"
-msgstr "geen of onbekende kaart geplaatst"
-
-msgid "pid:"
-msgstr ""
-
-msgid "provid:"
-msgstr "voorzien:"
-
-msgid "provider:"
-msgstr "aanbieder:"
-
 msgid "share:"
 msgstr "deel:"
+
+msgid "Shares"
+msgstr "Aandelen"
 
 msgid "show all cards"
 msgstr "laat alle kaarten zien"
@@ -936,24 +892,153 @@ msgstr "toon kaarten met uphop 8"
 msgid "show cards with uphop 9"
 msgstr "toon kaarten met uphop 9"
 
+msgid "Show Clients"
+msgstr "Toon klanten"
+
+msgid "Show Ecm info"
+msgstr "Ecm-info weergeven"
+
+msgid "Show Log"
+msgstr "Log tonen"
+
+msgid "Show Readers/Proxies"
+msgstr "Toon lezers/proxy's"
+
+msgid "Softcam Manager"
+msgstr "Softcam-beheerder"
+
+msgid "Softcam Manager by Lululla\nV.%s\nInstall Cam Software\nForum Support www.corvoboys.org\n"
+msgstr "Softcam Manager door Lululla\nV.%s\nCam-software installeren\nForumondersteuning www.corvoboys.org\n"
+
+msgid "Softcam restarted with new configuration!"
+msgstr "Softcam opnieuw opgestart met nieuwe configuratie!"
+
+msgid "Start"
+msgstr "Begin"
+
+msgid "Start %s"
+msgstr "Begin %s"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Stop %s"
+msgstr "Stop %s"
+
+msgid "Stop %s?"
+msgstr "%s stoppen?"
+
+msgid "Stop Finding Fakes"
+msgstr "Stop met het vinden van vervalsingen"
+
+msgid "Switch config"
+msgstr "Schakelconfiguratie"
+
+msgid "System"
+msgstr "Systeem"
+
+msgid "System cleanup completed!"
+msgstr "Systeemopruiming voltooid!"
+
 msgid "system:"
 msgstr "systeem:"
+
+msgid "System:"
+msgstr "Systeem:"
+
+msgid "Temporarely DELETED"
+msgstr "Tijdelijk VERWIJDERD"
+
+msgid "This plugin shows you the status of your CCcam"
+msgstr "Deze plug-in toont u de status van uw CCcam"
+
+msgid "Total"
+msgstr "Totaal"
+
+msgid "Total cards:"
+msgstr "Totaal aantal kaarten:"
+
+msgid "Total handled client ecm's"
+msgstr "Totaal afgehandelde klant-ecm's"
+
+msgid "Total handled client emm's"
+msgstr "Totaal afgehandelde klant emm's"
+
+msgid "Total:"
+msgstr "Totaal:"
+
+msgid "Try again later ..."
+msgstr "Probeer het later opnieuw..."
+
+msgid "Type:"
+msgstr "Type:"
+
+msgid "Unable to make the script executable: %s"
+msgstr "Kan het script niet uitvoerbaar maken: %s"
+
+msgid "UNDELETED"
+msgstr "ONVERWIJDERD"
+
+msgid "Unknow Image!"
+msgstr "Onbekende afbeelding!"
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Update Aborted!"
+msgstr "Update afgebroken!"
+
+msgid "Update interval (in seconds)"
+msgstr "Update-interval (in seconden)"
+
+msgid "Update script not found!\nPath: %s"
+msgstr "Updatescript niet gevonden!\nPad: %s"
+
+msgid "Uphops -"
+msgstr "Uphops -"
+
+msgid "Uphops +"
+msgstr "Uphop +"
+
+msgid "Uphops:"
+msgstr "Uphops:"
+
+msgid "Uptime"
+msgstr "Uptime"
+
+msgid "Used:"
+msgstr "Gebruikt:"
+
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+msgid "Username (httpuser)"
+msgstr "Gebruikersnaam (httpuser)"
+
+msgid "Using old profile:"
+msgstr "Oud profiel gebruiken:"
 
 msgid "using:"
 msgstr "gebruik makend van:"
 
+msgid "Version:"
+msgstr "Versie:"
+
+msgid "Wait please..."
+msgstr "Wacht alsjeblieft..."
+
+msgid "Write"
+msgstr "Schrijven"
+
+msgid "Write-Debug"
+msgstr "Schrijf-debug"
+
 msgid "xLine"
 msgstr "xLijn"
 
-#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
-#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\N"
+msgid "You have the latest version!"
+msgstr "Je hebt de nieuwste versie!"
 
-#, fuzzy
-#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
-#~ msgstr "Aanbieder:"
-
-#~ msgid "\\\\\\\\\\\\\\\\n"
-#~ msgstr "\\\\\\\\\\\\\\\\N"
-
-#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
-#~ msgstr "\\\\\\\\\\\\\\\\tGeef op:"
