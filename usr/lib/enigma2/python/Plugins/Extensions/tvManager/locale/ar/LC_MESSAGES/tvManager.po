@@ -13,8 +13,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "-"
-msgstr "-"
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s بطاقات )"
+
+msgid "%s Info - Configuration"
+msgstr "معلومات %s - التكوين"
+
+#, fuzzy
+msgid "%s Info - Main Menu"
+msgstr "معلومات %s - التكوين"
+
+msgid "%s restarted successfully!"
+msgstr "تمت إعادة تشغيل %s بنجاح!"
 
 msgid "(Active)"
 msgstr "(نشيط)"
@@ -25,35 +35,9 @@ msgstr "(جميع القراء)"
 msgid "(Not running)"
 msgstr "(لا يعمل)"
 
-msgid "\n All Caid:"
-msgstr "\n الكل القائد:"
-
-msgid "\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"
-msgstr "\nتوقف عن البحث عن المنتجات المزيفة \n\nتم الرجوع إلى الحالة الأولية"
-
-msgid "\tProvid:"
-msgstr "\tتوفير:"
-
-msgid "%s ( %s Cards )"
-msgstr "%s ( %s بطاقات )"
-
-msgid "%s Info - Configuration"
-msgstr "معلومات %s - التكوين"
-
-msgid "%s not available:\n%s"
-msgstr "%s غير متاح:\n%s"
-
-msgid "%s restarted successfully!"
-msgstr "تمت إعادة تشغيل %s بنجاح!"
-
-msgid "%s\n\n%s\n%s\n\nPrio entry\n%s"
-msgstr "%s\n\n%s\n%s\n\nإدخال مميز\n%s"
-
-msgid "<no capabilities found>"
-msgstr "<لم يتم العثور على القدرات>"
-
-msgid "<no log found>"
-msgstr "<لم يتم العثور على سجل>"
+#, fuzzy
+msgid "(Show only reader) (%s)"
+msgstr "(جميع القراء)"
 
 msgid "About"
 msgstr "عن"
@@ -79,9 +63,6 @@ msgstr "إضافة خط NewCamd جديد"
 msgid "Address"
 msgstr "عنوان"
 
-msgid "address:"
-msgstr "عنوان:"
-
 msgid "All"
 msgstr "الجميع"
 
@@ -91,17 +72,11 @@ msgstr "حدث خطأ في الوظيفة الخضراء."
 msgid "An unexpected error occurred: %s"
 msgstr "حدث خطأ غير متوقع: %s"
 
-msgid "and"
-msgstr "و"
-
 msgid "Ask all caid"
 msgstr "اسأل كل قائد"
 
 msgid "Ask for the selection caid"
 msgstr "اسأل عن مساعد الاختيار"
-
-msgid "Autocam assigned to the current channel"
-msgstr "تم تعيين Autocam للقناة الحالية"
 
 msgid "Automatically update Client/Server View?"
 msgstr "هل تريد تحديث طريقة عرض العميل/الخادم تلقائيًا؟"
@@ -118,62 +93,14 @@ msgstr "فشل النسخ الاحتياطي!"
 msgid "Backup restoration failed!"
 msgstr "فشلت استعادة النسخة الاحتياطية!"
 
-msgid "Backup restored successfully!\nRestored files:\n- %s"
-msgstr "تمت استعادة النسخة الاحتياطية بنجاح!\nالملفات المستعادة:\n- %s"
+msgid "CCPrioMaker Settings"
+msgstr "إعدادات سي سي بيريو ميكر"
 
-msgid "Caid"
-msgstr "قائد"
-
-msgid "caid:"
-msgstr "القائد:"
-
-msgid "Caid:"
-msgstr "قائد:"
-
-msgid "CaID:"
-msgstr "الرقم التعريفي للرقم التعريفي:"
-
-msgid "Caid:Srvid"
-msgstr "قائد: سرفيد"
-
-msgid "Cam Download"
-msgstr "تحميل كام"
-
-msgid "camscript exit code %s"
-msgstr "رمز خروج camscript %s"
-
-msgid "Cancel"
-msgstr "يلغي"
-
-msgid "Cannot reach the %s webif:\n%s\n\nYou can enter IP/port/user manually in Setup."
-msgstr "لا يمكن الوصول إلى موقع %s webif:\n%s\n\nيمكنك إدخال IP/المنفذ/المستخدم يدويًا في الإعداد."
-
-msgid "Capabilities"
-msgstr "القدرات"
-
-msgid "card"
-msgstr "بطاقة"
-
-msgid "Card info (CCcam-Reader)"
-msgstr "معلومات البطاقة (CCcam-Reader)"
-
-msgid "card reader"
-msgstr "قارئ البطاقة"
-
-msgid "Cards:"
-msgstr "البطاقات:"
-
-msgid "Cards: 0"
-msgstr "البطاقات: 0"
-
-msgid "Cardserial"
-msgstr "كاردسيريال"
+msgid "CCPrioMaker autostart"
+msgstr "التشغيل التلقائي لـ CCPrioMaker"
 
 msgid "CCcam"
 msgstr "مكسات"
-
-msgid "CCcam - Lines"
-msgstr "CCcam - خطوط"
 
 msgid "CCcam Clients Info"
 msgstr "معلومات عملاء CCcam"
@@ -189,9 +116,6 @@ msgstr "معلومات CCcam"
 
 msgid "CCcam Info %s"
 msgstr "معلومات CCcam %s"
-
-msgid "CCcam Info %s\nby AliAbdul %s\n\nrecoded from Lululla\n\nThis screen shows you the status of CCcam."
-msgstr "معلومات CCcam %s\n بواسطة AliAbdul %s\n\nتم تسجيلها من Lululla\n\nتظهر لك هذه الشاشة حالة CCcam."
 
 msgid "CCcam Info Config"
 msgstr "تكوين معلومات CCcam"
@@ -226,11 +150,35 @@ msgstr "معلومات مشاركة CCcam"
 msgid "CCcam.cfg Basic Line Editor"
 msgstr "CCcam.cfg محرر الخط الأساسي"
 
-msgid "CCPrioMaker autostart"
-msgstr "التشغيل التلقائي لـ CCPrioMaker"
+msgid "CaID:"
+msgstr "الرقم التعريفي للرقم التعريفي:"
 
-msgid "CCPrioMaker Settings"
-msgstr "إعدادات سي سي بيريو ميكر"
+msgid "Caid"
+msgstr "قائد"
+
+msgid "Caid:"
+msgstr "قائد:"
+
+msgid "Caid:Srvid"
+msgstr "قائد: سرفيد"
+
+msgid "Cam Download"
+msgstr "تحميل كام"
+
+msgid "Cancel"
+msgstr "يلغي"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "معلومات البطاقة (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "البطاقات:"
+
+msgid "Cards: 0"
+msgstr "البطاقات: 0"
+
+msgid "Cardserial"
+msgstr "كاردسيريال"
 
 msgid "Channel"
 msgstr "قناة"
@@ -259,9 +207,6 @@ msgstr "العملاء"
 msgid "Close"
 msgstr "يغلق"
 
-msgid "close share view"
-msgstr "إغلاق عرض المشاركة"
-
 msgid "Configfile %s saved."
 msgstr "تم حفظ ملف التكوين %s."
 
@@ -270,9 +215,6 @@ msgstr "العملاء المتصلين"
 
 msgid "Connected:"
 msgstr "متصل:"
-
-msgid "Connecting..."
-msgstr "جارٍ الاتصال..."
 
 msgid "Content"
 msgstr "محتوى"
@@ -292,8 +234,8 @@ msgstr "لا يمكن حفظ ملف التكوين! خطأ: %s"
 msgid "Current time"
 msgstr "الوقت الحالي"
 
-msgid "decrease uphop by 1"
-msgstr "تقليل uphop بمقدار 1"
+msgid "DES key (28 hex)"
+msgstr "مفتاح DES (28 سداسيًا)"
 
 msgid "Delete"
 msgstr "يمسح"
@@ -301,17 +243,14 @@ msgstr "يمسح"
 msgid "Delete %s?"
 msgstr "هل تريد حذف %s؟"
 
-msgid "Delete failed!"
-msgstr "فشل الحذف!"
-
 msgid "Delete Peer"
 msgstr "حذف النظير"
 
+msgid "Delete failed!"
+msgstr "فشل الحذف!"
+
 msgid "Deleted %s!"
 msgstr "تم حذف %s!"
-
-msgid "DES key (28 hex)"
-msgstr "مفتاح DES (28 سداسيًا)"
 
 msgid "Do you install this plugin ?"
 msgstr "هل قمت بتثبيت هذا البرنامج المساعد؟"
@@ -322,23 +261,14 @@ msgstr "هل تريد إزالة؟"
 msgid "Do you want to restart Gui Interface?"
 msgstr "هل تريد إعادة تشغيل واجهة المستخدم الرسومية؟"
 
-msgid "Ecm avg"
-msgstr "متوسط ​​ECM"
-
 msgid "ECM file empty"
 msgstr "ملف ECM فارغ"
 
-msgid "Ecm Info"
-msgstr "معلومات اي سي ام"
-
-msgid "ECM info"
-msgstr "معلومات ECM"
-
-msgid "Ecm last"
-msgstr "إي سي إم أخيرًا"
-
 msgid "ECM read error"
 msgstr "خطأ في قراءة ECM"
+
+msgid "Ecm Info"
+msgstr "معلومات اي سي ام"
 
 msgid "Ecm Statistics"
 msgstr "إحصائيات إي سي إم"
@@ -346,11 +276,11 @@ msgstr "إحصائيات إي سي إم"
 msgid "Ecm Time"
 msgstr "توقيت إي سي إم"
 
-msgid "ecm time:"
-msgstr "وقت إي سي إم:"
+msgid "Ecm avg"
+msgstr "متوسط ​​ECM"
 
-msgid "ecm.info"
-msgstr "ecm.info"
+msgid "Ecm last"
+msgstr "إي سي إم أخيرًا"
 
 msgid "Edit"
 msgstr "يحرر"
@@ -361,20 +291,25 @@ msgstr "تحرير قائد واحد"
 msgid "Emm Info"
 msgstr "معلومات ارم"
 
-msgid "emm_sender.sh not found"
-msgstr "لم يتم العثور على emm_sender.sh"
-
 msgid "Entitlements"
 msgstr "الاستحقاقات"
-
-msgid "Entitlements for '%s'"
-msgstr "استحقاقات '%s'"
 
 msgid "Error"
 msgstr "خطأ"
 
 msgid "Error getting resource information"
 msgstr "خطأ في الحصول على معلومات الموارد"
+
+msgid "Error loading system info:"
+msgstr ""
+
+#, fuzzy
+msgid "Error loading system information:"
+msgstr "خطأ في الحصول على معلومات الموارد"
+
+#, fuzzy
+msgid "Error opening cam info: %s"
+msgstr "حدث خطأ أثناء إيقاف %s!"
 
 msgid "Error processing HTML!"
 msgstr "خطأ في معالجة HTML!"
@@ -390,9 +325,6 @@ msgstr "حدث خطأ أثناء إيقاف %s!"
 
 msgid "Error while editing configuration: %s"
 msgstr "حدث خطأ أثناء تحرير التكوين: %s"
-
-msgid "Error:\n%s"
-msgstr "خطأ:\n%s"
 
 msgid "Exit"
 msgstr "مخرج"
@@ -424,17 +356,8 @@ msgstr "عام"
 msgid "Get Link"
 msgstr "احصل على الرابط"
 
-msgid "get the cards' server"
-msgstr "الحصول على خادم البطاقات"
-
 msgid "Getting the list, please wait ..."
 msgstr "جارٍ الحصول على القائمة، يرجى الانتظار..."
-
-msgid "GREEN: start %s"
-msgstr "الأخضر: ابدأ %s"
-
-msgid "handled"
-msgstr "التعامل معها"
 
 msgid "Help"
 msgstr "يساعد"
@@ -442,14 +365,20 @@ msgstr "يساعد"
 msgid "Hops"
 msgstr "القفزات"
 
-msgid "hops:"
-msgstr "القفزات:"
-
 msgid "Hops:"
 msgstr "القفزات:"
 
 msgid "Hostname:"
 msgstr "اسم المضيف:"
+
+msgid "IP Address"
+msgstr "عنوان IP"
+
+msgid "IP address"
+msgstr "عنوان IP"
+
+msgid "IP address / host"
+msgstr "عنوان IP / المضيف"
 
 msgid "Idle Time:"
 msgstr "وقت الخمول:"
@@ -457,41 +386,17 @@ msgstr "وقت الخمول:"
 msgid "If Active: Download/Reset Server Config"
 msgstr "إذا كان نشطًا: قم بتنزيل/إعادة تعيين تكوين الخادم"
 
-msgid "increase uphop by 1"
-msgstr "زيادة uphop بنسبة 1"
-
-msgid "info"
-msgstr "معلومات"
-
 msgid "Install Cam first!!!"
 msgstr "قم بتثبيت الكاميرا أولاً!!!"
 
 msgid "Install developer update (%s)?"
 msgstr "هل تريد تثبيت تحديث المطور (%s)؟"
 
-msgid "Installing %s\nPlease Wait..."
-msgstr "جارٍ تثبيت %s\nالرجاء الانتظار..."
-
-msgid "Installing Softcam Keys\nPlease Wait..."
-msgstr "جارٍ تثبيت مفاتيح Softcam\nالرجاء الانتظار..."
-
-msgid "Invalid download URL:\n%s"
-msgstr "عنوان URL للتنزيل غير صالح:\n%s"
-
 msgid "Invalid HTML content!"
 msgstr "محتوى HTML غير صالح!"
 
 msgid "Invalid URL!"
 msgstr "عنوان URL غير صالح!"
-
-msgid "IP address"
-msgstr "عنوان IP"
-
-msgid "IP Address"
-msgstr "عنوان IP"
-
-msgid "IP address / host"
-msgstr "عنوان IP / المضيف"
 
 msgid "Last Req."
 msgstr "الطلب الأخير"
@@ -514,20 +419,20 @@ msgstr "سجل"
 msgid "Log %s-%s"
 msgstr "سجل %s-%s"
 
-msgid "Maxdown -"
-msgstr "ماكسداون -"
+msgid "MENU EMM / SERVER CLINE"
+msgstr "القائمة EMM / خط الخادم"
 
 msgid "Maxdown +"
 msgstr "ماكسداون +"
+
+msgid "Maxdown -"
+msgstr "ماكسداون -"
 
 msgid "Maxdown:"
 msgstr "الحد الأقصى:"
 
 msgid "Menu config"
 msgstr "تكوين القائمة"
-
-msgid "MENU EMM / SERVER CLINE"
-msgstr "القائمة EMM / خط الخادم"
 
 msgid "Name"
 msgstr "اسم"
@@ -541,14 +446,17 @@ msgstr "جديد"
 msgid "New profile:"
 msgstr "الملف الشخصي الجديد:"
 
-msgid "New version %s is available.\n\nChangelog: %s \n\nInstall now?"
-msgstr "الإصدار الجديد %s متوفر.\n\nسجل التغيير: %s \n\nهل تريد التثبيت الآن؟"
-
-msgid "New version %s is available\n\nChangelog: %s\n\nPress yellow button to update."
-msgstr "الإصدار الجديد %s متاح\n\nسجل التغيير: %s\n\nاضغط على الزر الأصفر للتحديث."
-
 msgid "NewCamd"
 msgstr "نيوكامد"
+
+msgid "No ECM (clear channel or cam not decoding)"
+msgstr "لا يوجد ECM (قناة واضحة أو كاميرا لا يتم فك تشفيرها)"
+
+msgid "No ECM data"
+msgstr "لا توجد بيانات ECM"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "لا توجد معلومات ECM متاحة حاليًا. وهذا متاح فقط أثناء فك التشفير."
 
 msgid "No active cam to restart!"
 msgstr "لا توجد كاميرا نشطة لإعادة التشغيل!"
@@ -562,29 +470,8 @@ msgstr "لم يتم إدخال أي بطاقة!"
 msgid "No default file for %s"
 msgstr "لا يوجد ملف افتراضي لـ %s"
 
-msgid "No ECM (clear channel or cam not decoding)"
-msgstr "لا يوجد ECM (قناة واضحة أو كاميرا لا يتم فك تشفيرها)"
-
-msgid "No ECM data"
-msgstr "لا توجد بيانات ECM"
-
-msgid "No ECM info is currently available."
-msgstr "لا توجد معلومات ECM متاحة حاليًا."
-
-msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr "لا توجد معلومات ECM متاحة حاليًا. وهذا متاح فقط أثناء فك التشفير."
-
-msgid "No entitlements for '%s'"
-msgstr "لا توجد حقوق لـ '%s'"
-
-msgid "no or unknown card inserted"
-msgstr "لم يتم إدخال بطاقة أو لم يتم إدخالها"
-
 msgid "No softcams available!"
 msgstr "لا توجد كاميرات لينة متاحة!"
-
-msgid "No tvManager camscript for the current cam."
-msgstr "لا يوجد برنامج tvManager camscript للكاميرا الحالية."
 
 msgid "No valid backups found!"
 msgstr "لم يتم العثور على نسخ احتياطية صالحة!"
@@ -601,9 +488,6 @@ msgstr "لا شيء لإظهاره"
 msgid "OK"
 msgstr "نعم"
 
-msgid "OK: Entitlements   MENU: more"
-msgstr "موافق: قائمة الاستحقاقات: المزيد"
-
 msgid "Oscam not running - start Cam to obtain information."
 msgstr "Oscam لا يعمل - ابدأ تشغيل الكاميرا للحصول على المعلومات."
 
@@ -619,9 +503,6 @@ msgstr "ذروة الحمل (الحد الأقصى للطلبات في قائم�
 msgid "Pid"
 msgstr "معرف المنتج"
 
-msgid "pid:"
-msgstr "معرف الهوية:"
-
 msgid "Please Reset - No File CFG"
 msgstr "يرجى إعادة الضبط - لا يوجد ملف CFG"
 
@@ -630,21 +511,6 @@ msgstr "الرجاء التحديد..."
 
 msgid "Please select a line to edit or select add to create new line."
 msgstr "يرجى تحديد سطر لتحريره أو تحديد إضافة لإنشاء سطر جديد."
-
-msgid "Please wait..."
-msgstr "انتظر من فضلك..."
-
-msgid "Please wait..\nRESTART CAM"
-msgstr "الرجاء الانتظار..\nإعادة تشغيل الكاميرا"
-
-msgid "Please wait..\nSTART UP CAM"
-msgstr "الرجاء الانتظار..\nبدء تشغيل الكاميرا"
-
-msgid "Please wait..\nSTOP & RESTART CAM"
-msgstr "الرجاء الانتظار..\nأوقف وأعد تشغيل الكاميرا"
-
-msgid "Please wait..\nSTOP CAM"
-msgstr "من فضلك انتظر..\nSTOP CAM"
 
 msgid "Port"
 msgstr "ميناء"
@@ -658,17 +524,11 @@ msgstr "الملف الشخصي: الصندوق المحلي"
 msgid "Protocol"
 msgstr "بروتوكول"
 
-msgid "provid:"
-msgstr "توفير:"
-
 msgid "Provider"
 msgstr "مزود"
 
 msgid "Provider Name:"
 msgstr "اسم المزود:"
-
-msgid "provider:"
-msgstr "مزود:"
 
 msgid "Provider:"
 msgstr "مزود:"
@@ -682,11 +542,11 @@ msgstr "مقدمي الخدمة:"
 msgid "Quick restart %s?"
 msgstr "إعادة تشغيل سريعة %s؟"
 
+msgid "Read Userdata from %s.conf"
+msgstr ""
+
 msgid "Reader"
 msgstr "قارئ"
-
-msgid "Reader statistics"
-msgstr "إحصائيات القراء"
 
 msgid "Reader Statistics"
 msgstr "إحصائيات القارئ"
@@ -733,23 +593,14 @@ msgstr "موارد"
 msgid "Restart"
 msgstr "إعادة تشغيل"
 
-msgid "Restart %s"
-msgstr "أعد تشغيل %s"
-
-msgid "Restart %s?"
-msgstr "هل تريد إعادة تشغيل %s؟"
+msgid "Restart GUI?"
+msgstr "هل تريد إعادة تشغيل واجهة المستخدم الرسومية؟"
 
 msgid "Restart error: %s"
 msgstr "خطأ في إعادة التشغيل: %s"
 
-msgid "Restart GUI?"
-msgstr "هل تريد إعادة تشغيل واجهة المستخدم الرسومية؟"
-
 msgid "Restart softcam to apply restored configuration?"
 msgstr "هل تريد إعادة تشغيل softcam لتطبيق التكوين المستعاد؟"
-
-msgid "Restore backup '%s'?\nThis will overwrite current configurations."
-msgstr "هل تريد استعادة النسخة الاحتياطية '%s'؟\nسيؤدي هذا إلى استبدال التكوينات الحالية."
 
 msgid "Running cams"
 msgstr "تشغيل الكاميرات"
@@ -759,15 +610,6 @@ msgstr "يحفظ"
 
 msgid "Scanning and retrieval list softcam ..."
 msgstr "مسح واسترجاع قائمة softcam ..."
-
-msgid "Select a cam to run ..."
-msgstr "اختر كاميرا لتشغيلها..."
-
-msgid "Select and Install"
-msgstr "حدد وتثبيت"
-
-msgid "Select backup to restore:"
-msgstr "حدد النسخة الاحتياطية لاستعادتها:"
 
 msgid "Select CCcam"
 msgstr "حدد CCcam"
@@ -784,11 +626,17 @@ msgstr "حدد أوسكام"
 msgid "Select Your Choice"
 msgstr "حدد اختيارك"
 
+msgid "Select a cam to run ..."
+msgstr "اختر كاميرا لتشغيلها..."
+
+msgid "Select and Install"
+msgstr "حدد وتثبيت"
+
+msgid "Select backup to restore:"
+msgstr "حدد النسخة الاحتياطية لاستعادتها:"
+
 msgid "Send EMM to Tivusat card"
 msgstr "أرسل EMM إلى بطاقة Tivusat"
-
-msgid "Send the Tivusat EMM to your card through OSCam?\n(OSCam with webif must be running)"
-msgstr "أرسل Tivusat EMM إلى بطاقتك من خلال OSCam؟\n (يجب تشغيل OSCam مع webif)"
 
 msgid "Server"
 msgstr "الخادم"
@@ -838,50 +686,11 @@ msgstr "تعيين كنظير فريد"
 msgid "Setup"
 msgstr "يثبت"
 
-msgid "Setup (manual IP / user)"
-msgstr "الإعداد (IP اليدوي / المستخدم)"
-
 msgid "Share View"
 msgstr "مشاركة العرض"
 
-msgid "share:"
-msgstr "يشارك:"
-
 msgid "Shares"
 msgstr "أسهم"
-
-msgid "show all cards"
-msgstr "إظهار كافة البطاقات"
-
-msgid "show cards with uphop 0"
-msgstr "إظهار البطاقات مع uphop 0"
-
-msgid "show cards with uphop 1"
-msgstr "إظهار البطاقات مع uphop 1"
-
-msgid "show cards with uphop 2"
-msgstr "عرض البطاقات مع uphop 2"
-
-msgid "show cards with uphop 3"
-msgstr "إظهار البطاقات مع uphop 3"
-
-msgid "show cards with uphop 4"
-msgstr "إظهار البطاقات مع uphop 4"
-
-msgid "show cards with uphop 5"
-msgstr "إظهار البطاقات مع uphop 5"
-
-msgid "show cards with uphop 6"
-msgstr "إظهار البطاقات مع uphop 6"
-
-msgid "show cards with uphop 7"
-msgstr "إظهار البطاقات مع uphop 7"
-
-msgid "show cards with uphop 8"
-msgstr "إظهار البطاقات مع uphop 8"
-
-msgid "show cards with uphop 9"
-msgstr "إظهار البطاقات مع uphop 9"
 
 msgid "Show Clients"
 msgstr "عرض العملاء"
@@ -898,29 +707,17 @@ msgstr "إظهار القراء/الوكلاء"
 msgid "Softcam Manager"
 msgstr "مدير سوفت كام"
 
-msgid "Softcam Manager by Lululla\nV.%s\nInstall Cam Software\nForum Support www.corvoboys.org\n"
-msgstr "Softcam Manager بواسطة Lululla\nV.%s\nتثبيت برنامج الكاميرا\nدعم المنتدى www.corvoboys.org\n"
-
 msgid "Softcam restarted with new configuration!"
 msgstr "تمت إعادة تشغيل Softcam بتكوين جديد!"
 
 msgid "Start"
 msgstr "يبدأ"
 
-msgid "Start %s"
-msgstr "ابدأ %s"
-
 msgid "Status"
 msgstr "حالة"
 
 msgid "Stop"
 msgstr "قف"
-
-msgid "Stop %s"
-msgstr "أوقف %s"
-
-msgid "Stop %s?"
-msgstr "إيقاف %s؟"
 
 msgid "Stop Finding Fakes"
 msgstr "توقف عن البحث عن المنتجات المقلدة"
@@ -933,9 +730,6 @@ msgstr "نظام"
 
 msgid "System cleanup completed!"
 msgstr "اكتمل تنظيف النظام!"
-
-msgid "system:"
-msgstr "نظام:"
 
 msgid "System:"
 msgstr "نظام:"
@@ -976,29 +770,23 @@ msgstr "غير محذوفة"
 msgid "Unknow Image!"
 msgstr "صورة غير معروفة!"
 
-msgid "Unknown package type:\n%s"
-msgstr "نوع الحزمة غير معروف:\n%s"
-
 msgid "Update"
 msgstr "تحديث"
 
 msgid "Update Aborted!"
 msgstr "تم إحباط التحديث!"
 
-msgid "Update interval (in seconds)"
-msgstr "الفاصل الزمني للتحديث (بالثواني)"
-
 msgid "Update OSCam Tivusat codes"
 msgstr "تحديث رموز OSCam Tivusat"
 
-msgid "Update script not found!\nPath: %s"
-msgstr "لم يتم العثور على البرنامج النصي للتحديث!\nالمسار: %s"
-
-msgid "Uphops -"
-msgstr "أوبس -"
+msgid "Update interval (in seconds)"
+msgstr "الفاصل الزمني للتحديث (بالثواني)"
 
 msgid "Uphops +"
 msgstr "أوبوبس +"
+
+msgid "Uphops -"
+msgstr "أوبس -"
 
 msgid "Uphops:"
 msgstr "أوفوبس:"
@@ -1018,9 +806,6 @@ msgstr "اسم المستخدم (httpuser)"
 msgid "Using old profile:"
 msgstr "باستخدام الملف الشخصي القديم:"
 
-msgid "using:"
-msgstr "استخدام:"
-
 msgid "Version:"
 msgstr "إصدار:"
 
@@ -1033,9 +818,245 @@ msgstr "يكتب"
 msgid "Write-Debug"
 msgstr "كتابة التصحيح"
 
-msgid "xLine"
-msgstr "xLine"
-
 msgid "You have the latest version!"
 msgstr "لديك أحدث إصدار!"
 
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tتوفير:"
+
+msgid "address:"
+msgstr "عنوان:"
+
+msgid "and"
+msgstr "و"
+
+msgid "caid:"
+msgstr "القائد:"
+
+msgid "card"
+msgstr "بطاقة"
+
+msgid "card reader"
+msgstr "قارئ البطاقة"
+
+msgid "close share view"
+msgstr "إغلاق عرض المشاركة"
+
+msgid "decrease uphop by 1"
+msgstr "تقليل uphop بمقدار 1"
+
+msgid "ecm time:"
+msgstr "وقت إي سي إم:"
+
+msgid "ecm.info"
+msgstr "ecm.info"
+
+msgid "emm_sender.sh not found"
+msgstr "لم يتم العثور على emm_sender.sh"
+
+msgid "get the cards' server"
+msgstr "الحصول على خادم البطاقات"
+
+msgid "handled"
+msgstr "التعامل معها"
+
+msgid "hops:"
+msgstr "القفزات:"
+
+msgid "increase uphop by 1"
+msgstr "زيادة uphop بنسبة 1"
+
+msgid "info"
+msgstr "معلومات"
+
+msgid "no or unknown card inserted"
+msgstr "لم يتم إدخال بطاقة أو لم يتم إدخالها"
+
+msgid "pid:"
+msgstr "معرف الهوية:"
+
+msgid "provid:"
+msgstr "توفير:"
+
+msgid "provider:"
+msgstr "مزود:"
+
+msgid "share:"
+msgstr "يشارك:"
+
+msgid "show all cards"
+msgstr "إظهار كافة البطاقات"
+
+msgid "show cards with uphop 0"
+msgstr "إظهار البطاقات مع uphop 0"
+
+msgid "show cards with uphop 1"
+msgstr "إظهار البطاقات مع uphop 1"
+
+msgid "show cards with uphop 2"
+msgstr "عرض البطاقات مع uphop 2"
+
+msgid "show cards with uphop 3"
+msgstr "إظهار البطاقات مع uphop 3"
+
+msgid "show cards with uphop 4"
+msgstr "إظهار البطاقات مع uphop 4"
+
+msgid "show cards with uphop 5"
+msgstr "إظهار البطاقات مع uphop 5"
+
+msgid "show cards with uphop 6"
+msgstr "إظهار البطاقات مع uphop 6"
+
+msgid "show cards with uphop 7"
+msgstr "إظهار البطاقات مع uphop 7"
+
+msgid "show cards with uphop 8"
+msgstr "إظهار البطاقات مع uphop 8"
+
+msgid "show cards with uphop 9"
+msgstr "إظهار البطاقات مع uphop 9"
+
+msgid "system:"
+msgstr "نظام:"
+
+msgid "using:"
+msgstr "استخدام:"
+
+msgid "xLine"
+msgstr "xLine"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "\\n All Caid:"
+#~ msgstr "\\n الكل القائد:"
+
+#~ msgid "\\nSTOPPED FINDING FAKES \\n\\nREVERTED BACK TO INITIAL STATUS"
+#~ msgstr "\\nتوقف عن البحث عن المنتجات المزيفة \\n\\nتم الرجوع إلى الحالة الأولية"
+
+#~ msgid "%s not available:\\n%s"
+#~ msgstr "%s غير متاح:\\n%s"
+
+#~ msgid "%s\\n\\n%s\\n%s\\n\\nPrio entry\\n%s"
+#~ msgstr "%s\\n\\n%s\\n%s\\n\\nإدخال مميز\\n%s"
+
+#~ msgid "<no capabilities found>"
+#~ msgstr "<لم يتم العثور على القدرات>"
+
+#~ msgid "<no log found>"
+#~ msgstr "<لم يتم العثور على سجل>"
+
+#~ msgid "Autocam assigned to the current channel"
+#~ msgstr "تم تعيين Autocam للقناة الحالية"
+
+#~ msgid "Backup restored successfully!\\nRestored files:\\n- %s"
+#~ msgstr "تمت استعادة النسخة الاحتياطية بنجاح!\\nالملفات المستعادة:\\n- %s"
+
+#~ msgid "camscript exit code %s"
+#~ msgstr "رمز خروج camscript %s"
+
+#~ msgid "Cannot reach the %s webif:\\n%s\\n\\nYou can enter IP/port/user manually in Setup."
+#~ msgstr "لا يمكن الوصول إلى موقع %s webif:\\n%s\\n\\nيمكنك إدخال IP/المنفذ/المستخدم يدويًا في الإعداد."
+
+#~ msgid "Capabilities"
+#~ msgstr "القدرات"
+
+#~ msgid "CCcam - Lines"
+#~ msgstr "CCcam - خطوط"
+
+#~ msgid "CCcam Info %s\\nby AliAbdul %s\\n\\nrecoded from Lululla\\n\\nThis screen shows you the status of CCcam."
+#~ msgstr "معلومات CCcam %s\\n بواسطة AliAbdul %s\\n\\nتم تسجيلها من Lululla\\n\\nتظهر لك هذه الشاشة حالة CCcam."
+
+#~ msgid "Connecting..."
+#~ msgstr "جارٍ الاتصال..."
+
+#~ msgid "ECM info"
+#~ msgstr "معلومات ECM"
+
+#~ msgid "Entitlements for '%s'"
+#~ msgstr "استحقاقات '%s'"
+
+#~ msgid "Error:\\n%s"
+#~ msgstr "خطأ:\\n%s"
+
+#~ msgid "GREEN: start %s"
+#~ msgstr "الأخضر: ابدأ %s"
+
+#~ msgid "Installing %s\\nPlease Wait..."
+#~ msgstr "جارٍ تثبيت %s\\nالرجاء الانتظار..."
+
+#~ msgid "Installing Softcam Keys\\nPlease Wait..."
+#~ msgstr "جارٍ تثبيت مفاتيح Softcam\\nالرجاء الانتظار..."
+
+#~ msgid "Invalid download URL:\\n%s"
+#~ msgstr "عنوان URL للتنزيل غير صالح:\\n%s"
+
+#~ msgid "New version %s is available.\\n\\nChangelog: %s \\n\\nInstall now?"
+#~ msgstr "الإصدار الجديد %s متوفر.\\n\\nسجل التغيير: %s \\n\\nهل تريد التثبيت الآن؟"
+
+#~ msgid "New version %s is available\\n\\nChangelog: %s\\n\\nPress yellow button to update."
+#~ msgstr "الإصدار الجديد %s متاح\\n\\nسجل التغيير: %s\\n\\nاضغط على الزر الأصفر للتحديث."
+
+#~ msgid "No ECM info is currently available."
+#~ msgstr "لا توجد معلومات ECM متاحة حاليًا."
+
+#~ msgid "No entitlements for '%s'"
+#~ msgstr "لا توجد حقوق لـ '%s'"
+
+#~ msgid "No tvManager camscript for the current cam."
+#~ msgstr "لا يوجد برنامج tvManager camscript للكاميرا الحالية."
+
+#~ msgid "OK: Entitlements   MENU: more"
+#~ msgstr "موافق: قائمة الاستحقاقات: المزيد"
+
+#~ msgid "Please wait..."
+#~ msgstr "انتظر من فضلك..."
+
+#~ msgid "Please wait..\\nRESTART CAM"
+#~ msgstr "الرجاء الانتظار..\\nإعادة تشغيل الكاميرا"
+
+#~ msgid "Please wait..\\nSTART UP CAM"
+#~ msgstr "الرجاء الانتظار..\\nبدء تشغيل الكاميرا"
+
+#~ msgid "Please wait..\\nSTOP & RESTART CAM"
+#~ msgstr "الرجاء الانتظار..\\nأوقف وأعد تشغيل الكاميرا"
+
+#~ msgid "Please wait..\\nSTOP CAM"
+#~ msgstr "من فضلك انتظر..\\nSTOP CAM"
+
+#~ msgid "Reader statistics"
+#~ msgstr "إحصائيات القراء"
+
+#~ msgid "Restart %s"
+#~ msgstr "أعد تشغيل %s"
+
+#~ msgid "Restart %s?"
+#~ msgstr "هل تريد إعادة تشغيل %s؟"
+
+#~ msgid "Restore backup '%s'?\\nThis will overwrite current configurations."
+#~ msgstr "هل تريد استعادة النسخة الاحتياطية '%s'؟\\nسيؤدي هذا إلى استبدال التكوينات الحالية."
+
+#~ msgid "Send the Tivusat EMM to your card through OSCam?\\n(OSCam with webif must be running)"
+#~ msgstr "أرسل Tivusat EMM إلى بطاقتك من خلال OSCam؟\\n (يجب تشغيل OSCam مع webif)"
+
+#~ msgid "Setup (manual IP / user)"
+#~ msgstr "الإعداد (IP اليدوي / المستخدم)"
+
+#~ msgid "Softcam Manager by Lululla\\nV.%s\\nInstall Cam Software\\nForum Support www.corvoboys.org\\n"
+#~ msgstr "Softcam Manager بواسطة Lululla\\nV.%s\\nتثبيت برنامج الكاميرا\\nدعم المنتدى www.corvoboys.org\\n"
+
+#~ msgid "Start %s"
+#~ msgstr "ابدأ %s"
+
+#~ msgid "Stop %s"
+#~ msgstr "أوقف %s"
+
+#~ msgid "Stop %s?"
+#~ msgstr "إيقاف %s؟"
+
+#~ msgid "Unknown package type:\\n%s"
+#~ msgstr "نوع الحزمة غير معروف:\\n%s"
+
+#~ msgid "Update script not found!\\nPath: %s"
+#~ msgstr "لم يتم العثور على البرنامج النصي للتحديث!\\nالمسار: %s"

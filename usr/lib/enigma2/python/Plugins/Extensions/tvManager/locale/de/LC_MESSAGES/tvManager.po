@@ -13,8 +13,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "-"
-msgstr "-"
+msgid "%s ( %s Cards )"
+msgstr "%s ( %s Karten )"
+
+msgid "%s Info - Configuration"
+msgstr "%s Info – Konfiguration"
+
+#, fuzzy
+msgid "%s Info - Main Menu"
+msgstr "%s Info – Konfiguration"
+
+msgid "%s restarted successfully!"
+msgstr "%s erfolgreich neu gestartet!"
 
 msgid "(Active)"
 msgstr "(Aktiv)"
@@ -25,35 +35,9 @@ msgstr "(Alle Leser)"
 msgid "(Not running)"
 msgstr "(Läuft nicht)"
 
-msgid "\n All Caid:"
-msgstr "\n Alle Caid:"
-
-msgid "\nSTOPPED FINDING FAKES \n\nREVERTED BACK TO INITIAL STATUS"
-msgstr "\nHÖR AUFGEHÖRT, FAKES ZU FINDEN. \n\nWURDE ZURÜCK ZUM AUSGANGSSTATUS"
-
-msgid "\tProvid:"
-msgstr "\tBereitstellen:"
-
-msgid "%s ( %s Cards )"
-msgstr "%s ( %s Karten )"
-
-msgid "%s Info - Configuration"
-msgstr "%s Info – Konfiguration"
-
-msgid "%s not available:\n%s"
-msgstr "%s nicht verfügbar:\n%s"
-
-msgid "%s restarted successfully!"
-msgstr "%s erfolgreich neu gestartet!"
-
-msgid "%s\n\n%s\n%s\n\nPrio entry\n%s"
-msgstr "%s\n\n%s\n%s\n\nPrio-Eintrag\n%s"
-
-msgid "<no capabilities found>"
-msgstr "<keine Funktionen gefunden>"
-
-msgid "<no log found>"
-msgstr "<kein Protokoll gefunden>"
+#, fuzzy
+msgid "(Show only reader) (%s)"
+msgstr "(Alle Leser)"
 
 msgid "About"
 msgstr "Um"
@@ -79,9 +63,6 @@ msgstr "Neue NewCamd-Zeile hinzufügen"
 msgid "Address"
 msgstr "Adresse"
 
-msgid "address:"
-msgstr "Adresse:"
-
 msgid "All"
 msgstr "Alle"
 
@@ -91,17 +72,11 @@ msgstr "In der grünen Funktion ist ein Fehler aufgetreten."
 msgid "An unexpected error occurred: %s"
 msgstr "Es ist ein unerwarteter Fehler aufgetreten: %s"
 
-msgid "and"
-msgstr "Und"
-
 msgid "Ask all caid"
 msgstr "Fragen Sie alle Caid"
 
 msgid "Ask for the selection caid"
 msgstr "Fragen Sie nach der Auswahlhilfe"
-
-msgid "Autocam assigned to the current channel"
-msgstr "Dem aktuellen Kanal zugewiesene Autocam"
 
 msgid "Automatically update Client/Server View?"
 msgstr "Client/Server-Ansicht automatisch aktualisieren?"
@@ -118,62 +93,14 @@ msgstr "Sicherung fehlgeschlagen!"
 msgid "Backup restoration failed!"
 msgstr "Backup-Wiederherstellung fehlgeschlagen!"
 
-msgid "Backup restored successfully!\nRestored files:\n- %s"
-msgstr "Sicherung erfolgreich wiederhergestellt!\nWiederhergestellte Dateien:\n- %s"
+msgid "CCPrioMaker Settings"
+msgstr "CCPrioMaker-Einstellungen"
 
-msgid "Caid"
-msgstr "Caid"
-
-msgid "caid:"
-msgstr "caid:"
-
-msgid "Caid:"
-msgstr "Caid:"
-
-msgid "CaID:"
-msgstr "CaID:"
-
-msgid "Caid:Srvid"
-msgstr "Caid: Servid"
-
-msgid "Cam Download"
-msgstr "Cam-Download"
-
-msgid "camscript exit code %s"
-msgstr "Camscript-Exit-Code %s"
-
-msgid "Cancel"
-msgstr "Stornieren"
-
-msgid "Cannot reach the %s webif:\n%s\n\nYou can enter IP/port/user manually in Setup."
-msgstr "Das %s-Web kann nicht erreicht werden.if:\n%s\n\nSie können IP/Port/Benutzer manuell im Setup eingeben."
-
-msgid "Capabilities"
-msgstr "Fähigkeiten"
-
-msgid "card"
-msgstr "Karte"
-
-msgid "Card info (CCcam-Reader)"
-msgstr "Karteninfo (CCcam-Reader)"
-
-msgid "card reader"
-msgstr "Kartenleser"
-
-msgid "Cards:"
-msgstr "Karten:"
-
-msgid "Cards: 0"
-msgstr "Karten: 0"
-
-msgid "Cardserial"
-msgstr "Kartenserie"
+msgid "CCPrioMaker autostart"
+msgstr "CCPrioMaker-Autostart"
 
 msgid "CCcam"
 msgstr "cccam"
-
-msgid "CCcam - Lines"
-msgstr "CCcam - Linien"
 
 msgid "CCcam Clients Info"
 msgstr "CCcam-Kundeninformationen"
@@ -189,9 +116,6 @@ msgstr "CCcam-Info"
 
 msgid "CCcam Info %s"
 msgstr "CCcam-Info %s"
-
-msgid "CCcam Info %s\nby AliAbdul %s\n\nrecoded from Lululla\n\nThis screen shows you the status of CCcam."
-msgstr "CCcam-Info %s\nvon AliAbdul %s\n\nrekodiert von Lululla\n\nDieser Bildschirm zeigt Ihnen den Status von CCcam."
 
 msgid "CCcam Info Config"
 msgstr "CCcam-Info-Konfiguration"
@@ -226,11 +150,35 @@ msgstr "CCcam teilt Informationen"
 msgid "CCcam.cfg Basic Line Editor"
 msgstr "CCcam.cfg Basic Line Editor"
 
-msgid "CCPrioMaker autostart"
-msgstr "CCPrioMaker-Autostart"
+msgid "CaID:"
+msgstr "CaID:"
 
-msgid "CCPrioMaker Settings"
-msgstr "CCPrioMaker-Einstellungen"
+msgid "Caid"
+msgstr "Caid"
+
+msgid "Caid:"
+msgstr "Caid:"
+
+msgid "Caid:Srvid"
+msgstr "Caid: Servid"
+
+msgid "Cam Download"
+msgstr "Cam-Download"
+
+msgid "Cancel"
+msgstr "Stornieren"
+
+msgid "Card info (CCcam-Reader)"
+msgstr "Karteninfo (CCcam-Reader)"
+
+msgid "Cards:"
+msgstr "Karten:"
+
+msgid "Cards: 0"
+msgstr "Karten: 0"
+
+msgid "Cardserial"
+msgstr "Kartenserie"
 
 msgid "Channel"
 msgstr "Kanal"
@@ -259,9 +207,6 @@ msgstr "Kunden"
 msgid "Close"
 msgstr "Schließen"
 
-msgid "close share view"
-msgstr "Teilen-Ansicht schließen"
-
 msgid "Configfile %s saved."
 msgstr "Konfigurationsdatei %s gespeichert."
 
@@ -270,9 +215,6 @@ msgstr "Verbundene Kunden"
 
 msgid "Connected:"
 msgstr "Verbunden:"
-
-msgid "Connecting..."
-msgstr "Verbinden..."
 
 msgid "Content"
 msgstr "Inhalt"
@@ -292,8 +234,8 @@ msgstr "Die Konfigurationsdatei konnte nicht gespeichert werden! Fehler: %s"
 msgid "Current time"
 msgstr "Aktuelle Uhrzeit"
 
-msgid "decrease uphop by 1"
-msgstr "Uphop um 1 verringern"
+msgid "DES key (28 hex)"
+msgstr "DES-Schlüssel (28 Hex)"
 
 msgid "Delete"
 msgstr "Löschen"
@@ -301,17 +243,14 @@ msgstr "Löschen"
 msgid "Delete %s?"
 msgstr "%s löschen?"
 
-msgid "Delete failed!"
-msgstr "Löschen fehlgeschlagen!"
-
 msgid "Delete Peer"
 msgstr "Peer löschen"
 
+msgid "Delete failed!"
+msgstr "Löschen fehlgeschlagen!"
+
 msgid "Deleted %s!"
 msgstr "%s gelöscht!"
-
-msgid "DES key (28 hex)"
-msgstr "DES-Schlüssel (28 Hex)"
 
 msgid "Do you install this plugin ?"
 msgstr "Installieren Sie dieses Plugin?"
@@ -322,23 +261,14 @@ msgstr "Möchten Sie entfernen?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Möchten Sie Gui Interface neu starten?"
 
-msgid "Ecm avg"
-msgstr "Ecm durchschn"
-
 msgid "ECM file empty"
 msgstr "ECM-Datei leer"
 
-msgid "Ecm Info"
-msgstr "Ecm-Info"
-
-msgid "ECM info"
-msgstr "ECM-Informationen"
-
-msgid "Ecm last"
-msgstr "Ecm zuletzt"
-
 msgid "ECM read error"
 msgstr "ECM-Lesefehler"
+
+msgid "Ecm Info"
+msgstr "Ecm-Info"
 
 msgid "Ecm Statistics"
 msgstr "Ecm-Statistiken"
@@ -346,11 +276,11 @@ msgstr "Ecm-Statistiken"
 msgid "Ecm Time"
 msgstr "Ecm-Zeit"
 
-msgid "ecm time:"
-msgstr "ECM-Zeit:"
+msgid "Ecm avg"
+msgstr "Ecm durchschn"
 
-msgid "ecm.info"
-msgstr "ecm.info"
+msgid "Ecm last"
+msgstr "Ecm zuletzt"
 
 msgid "Edit"
 msgstr "Bearbeiten"
@@ -361,20 +291,25 @@ msgstr "Bearbeiten eines Caid"
 msgid "Emm Info"
 msgstr "Ähm Info"
 
-msgid "emm_sender.sh not found"
-msgstr "emm_sender.sh nicht gefunden"
-
 msgid "Entitlements"
 msgstr "Ansprüche"
-
-msgid "Entitlements for '%s'"
-msgstr "Berechtigungen für „%s“"
 
 msgid "Error"
 msgstr "Fehler"
 
 msgid "Error getting resource information"
 msgstr "Fehler beim Abrufen der Ressourceninformationen"
+
+msgid "Error loading system info:"
+msgstr ""
+
+#, fuzzy
+msgid "Error loading system information:"
+msgstr "Fehler beim Abrufen der Ressourceninformationen"
+
+#, fuzzy
+msgid "Error opening cam info: %s"
+msgstr "Fehler beim Stoppen von %s!"
 
 msgid "Error processing HTML!"
 msgstr "Fehler bei der HTML-Verarbeitung!"
@@ -390,9 +325,6 @@ msgstr "Fehler beim Stoppen von %s!"
 
 msgid "Error while editing configuration: %s"
 msgstr "Fehler beim Bearbeiten der Konfiguration: %s"
-
-msgid "Error:\n%s"
-msgstr "Fehler:\n%s"
 
 msgid "Exit"
 msgstr "Ausfahrt"
@@ -424,17 +356,8 @@ msgstr "Allgemein"
 msgid "Get Link"
 msgstr "Link abrufen"
 
-msgid "get the cards' server"
-msgstr "Holen Sie sich den Kartenserver"
-
 msgid "Getting the list, please wait ..."
 msgstr "Bitte warten Sie, um die Liste zu erhalten ..."
-
-msgid "GREEN: start %s"
-msgstr "GRÜN: %s starten"
-
-msgid "handled"
-msgstr "gehandhabt"
 
 msgid "Help"
 msgstr "Helfen"
@@ -442,14 +365,20 @@ msgstr "Helfen"
 msgid "Hops"
 msgstr "Hopfen"
 
-msgid "hops:"
-msgstr "Hopfen:"
-
 msgid "Hops:"
 msgstr "Hopfen:"
 
 msgid "Hostname:"
 msgstr "Hostname:"
+
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+msgid "IP address"
+msgstr "IP-Adresse"
+
+msgid "IP address / host"
+msgstr "IP-Adresse/Host"
 
 msgid "Idle Time:"
 msgstr "Leerlaufzeit:"
@@ -457,41 +386,17 @@ msgstr "Leerlaufzeit:"
 msgid "If Active: Download/Reset Server Config"
 msgstr "Wenn aktiv: Serverkonfiguration herunterladen/zurücksetzen"
 
-msgid "increase uphop by 1"
-msgstr "Uphop um 1 erhöhen"
-
-msgid "info"
-msgstr "Info"
-
 msgid "Install Cam first!!!"
 msgstr "Zuerst Cam installieren!!!"
 
 msgid "Install developer update (%s)?"
 msgstr "Entwicklerupdate (%s) installieren?"
 
-msgid "Installing %s\nPlease Wait..."
-msgstr "%s\n wird installiert. Bitte warten..."
-
-msgid "Installing Softcam Keys\nPlease Wait..."
-msgstr "Softcam Keys werden installiert\nBitte warten..."
-
-msgid "Invalid download URL:\n%s"
-msgstr "Ungültige Download-URL:\n%s"
-
 msgid "Invalid HTML content!"
 msgstr "Ungültiger HTML-Inhalt!"
 
 msgid "Invalid URL!"
 msgstr "Ungültige URL!"
-
-msgid "IP address"
-msgstr "IP-Adresse"
-
-msgid "IP Address"
-msgstr "IP-Adresse"
-
-msgid "IP address / host"
-msgstr "IP-Adresse/Host"
 
 msgid "Last Req."
 msgstr "Letzte Anforderung."
@@ -514,20 +419,20 @@ msgstr "Protokoll"
 msgid "Log %s-%s"
 msgstr "Protokollieren Sie %s-%s"
 
-msgid "Maxdown -"
-msgstr "Maxdown -"
+msgid "MENU EMM / SERVER CLINE"
+msgstr "MENÜ EMM / SERVER-CLINE"
 
 msgid "Maxdown +"
 msgstr "Maxdown +"
+
+msgid "Maxdown -"
+msgstr "Maxdown -"
 
 msgid "Maxdown:"
 msgstr "Maxdown:"
 
 msgid "Menu config"
 msgstr "Menükonfiguration"
-
-msgid "MENU EMM / SERVER CLINE"
-msgstr "MENÜ EMM / SERVER-CLINE"
 
 msgid "Name"
 msgstr "Name"
@@ -541,14 +446,17 @@ msgstr "Neu"
 msgid "New profile:"
 msgstr "Neues Profil:"
 
-msgid "New version %s is available.\n\nChangelog: %s \n\nInstall now?"
-msgstr "Neue Version %s ist verfügbar.\n\nÄnderungsprotokoll: %s \n\nJetzt installieren?"
-
-msgid "New version %s is available\n\nChangelog: %s\n\nPress yellow button to update."
-msgstr "Neue Version %s ist verfügbar\n\nÄnderungsprotokoll: %s\n\nDrücken Sie die gelbe Taste, um zu aktualisieren."
-
 msgid "NewCamd"
 msgstr "NewCamd"
+
+msgid "No ECM (clear channel or cam not decoding)"
+msgstr "Kein ECM (Kanal löschen oder Kamera dekodiert nicht)"
+
+msgid "No ECM data"
+msgstr "Keine ECM-Daten"
+
+msgid "No ECM info is currently available. This is only available while decrypting."
+msgstr "Derzeit sind keine ECM-Informationen verfügbar. Dies ist nur beim Entschlüsseln verfügbar."
 
 msgid "No active cam to restart!"
 msgstr "Keine aktive Kamera zum Neustart!"
@@ -562,29 +470,8 @@ msgstr "Keine Karte eingelegt!"
 msgid "No default file for %s"
 msgstr "Keine Standarddatei für %s"
 
-msgid "No ECM (clear channel or cam not decoding)"
-msgstr "Kein ECM (Kanal löschen oder Kamera dekodiert nicht)"
-
-msgid "No ECM data"
-msgstr "Keine ECM-Daten"
-
-msgid "No ECM info is currently available."
-msgstr "Derzeit sind keine ECM-Informationen verfügbar."
-
-msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr "Derzeit sind keine ECM-Informationen verfügbar. Dies ist nur beim Entschlüsseln verfügbar."
-
-msgid "No entitlements for '%s'"
-msgstr "Keine Berechtigungen für „%s“"
-
-msgid "no or unknown card inserted"
-msgstr "keine oder unbekannte Karte eingelegt"
-
 msgid "No softcams available!"
 msgstr "Keine Softcams verfügbar!"
-
-msgid "No tvManager camscript for the current cam."
-msgstr "Kein tvManager-Camscript für die aktuelle Cam."
 
 msgid "No valid backups found!"
 msgstr "Keine gültigen Backups gefunden!"
@@ -601,9 +488,6 @@ msgstr "Nichts zu zeigen"
 msgid "OK"
 msgstr "OK"
 
-msgid "OK: Entitlements   MENU: more"
-msgstr "OK: Berechtigungen MENÜ: mehr"
-
 msgid "Oscam not running - start Cam to obtain information."
 msgstr "Oscam läuft nicht – starten Sie Cam, um Informationen zu erhalten."
 
@@ -619,9 +503,6 @@ msgstr "Spitzenlast (maximale Anfragen in der Warteschlange pro Worker-Thread)"
 msgid "Pid"
 msgstr "Pid"
 
-msgid "pid:"
-msgstr "pid:"
-
 msgid "Please Reset - No File CFG"
 msgstr "Bitte zurücksetzen – Keine Datei-CFG"
 
@@ -630,21 +511,6 @@ msgstr "Bitte wählen Sie ..."
 
 msgid "Please select a line to edit or select add to create new line."
 msgstr "Bitte wählen Sie eine Zeile zum Bearbeiten aus oder wählen Sie „Hinzufügen“, um eine neue Zeile zu erstellen."
-
-msgid "Please wait..."
-msgstr "Bitte warten..."
-
-msgid "Please wait..\nRESTART CAM"
-msgstr "Bitte warten..\nKAMERA NEU STARTEN"
-
-msgid "Please wait..\nSTART UP CAM"
-msgstr "Bitte warten..\nKAMERA STARTEN"
-
-msgid "Please wait..\nSTOP & RESTART CAM"
-msgstr "Bitte warten..\nCAM STOPPEN & NEU STARTEN"
-
-msgid "Please wait..\nSTOP CAM"
-msgstr "Bitte warten..\nSTOP CAM"
 
 msgid "Port"
 msgstr "Hafen"
@@ -658,17 +524,11 @@ msgstr "Profil: Lokale Box"
 msgid "Protocol"
 msgstr "Protokoll"
 
-msgid "provid:"
-msgstr "bereitstellen:"
-
 msgid "Provider"
 msgstr "Anbieter"
 
 msgid "Provider Name:"
 msgstr "Anbietername:"
-
-msgid "provider:"
-msgstr "Anbieter:"
 
 msgid "Provider:"
 msgstr "Anbieter:"
@@ -682,11 +542,11 @@ msgstr "Anbieter:"
 msgid "Quick restart %s?"
 msgstr "Schneller Neustart %s?"
 
+msgid "Read Userdata from %s.conf"
+msgstr ""
+
 msgid "Reader"
 msgstr "Leser"
-
-msgid "Reader statistics"
-msgstr "Leserstatistiken"
 
 msgid "Reader Statistics"
 msgstr "Leserstatistik"
@@ -733,23 +593,14 @@ msgstr "Ressourcen"
 msgid "Restart"
 msgstr "Neustart"
 
-msgid "Restart %s"
-msgstr "Starten Sie %s neu"
-
-msgid "Restart %s?"
-msgstr "%s neu starten?"
+msgid "Restart GUI?"
+msgstr "GUI neu starten?"
 
 msgid "Restart error: %s"
 msgstr "Neustartfehler: %s"
 
-msgid "Restart GUI?"
-msgstr "GUI neu starten?"
-
 msgid "Restart softcam to apply restored configuration?"
 msgstr "Softcam neu starten, um die wiederhergestellte Konfiguration zu übernehmen?"
-
-msgid "Restore backup '%s'?\nThis will overwrite current configurations."
-msgstr "Sicherung „%s“ wiederherstellen?\nDadurch werden die aktuellen Konfigurationen überschrieben."
 
 msgid "Running cams"
 msgstr "Laufende Nocken"
@@ -759,15 +610,6 @@ msgstr "Speichern"
 
 msgid "Scanning and retrieval list softcam ..."
 msgstr "Softcam-Liste scannen und abrufen ..."
-
-msgid "Select a cam to run ..."
-msgstr "Wählen Sie eine Kamera zum Ausführen aus ..."
-
-msgid "Select and Install"
-msgstr "Auswählen und installieren"
-
-msgid "Select backup to restore:"
-msgstr "Wählen Sie die wiederherzustellende Sicherung aus:"
 
 msgid "Select CCcam"
 msgstr "Wählen Sie CCcam"
@@ -784,11 +626,17 @@ msgstr "Wählen Sie OScam"
 msgid "Select Your Choice"
 msgstr "Wählen Sie Ihre Wahl"
 
+msgid "Select a cam to run ..."
+msgstr "Wählen Sie eine Kamera zum Ausführen aus ..."
+
+msgid "Select and Install"
+msgstr "Auswählen und installieren"
+
+msgid "Select backup to restore:"
+msgstr "Wählen Sie die wiederherzustellende Sicherung aus:"
+
 msgid "Send EMM to Tivusat card"
 msgstr "Senden Sie EMM an die Tivusat-Karte"
-
-msgid "Send the Tivusat EMM to your card through OSCam?\n(OSCam with webif must be running)"
-msgstr "Senden Sie das Tivusat EMM über OSCam an Ihre Karte?\n(OSCam mit Webif muss ausgeführt werden)"
 
 msgid "Server"
 msgstr "Server"
@@ -838,50 +686,11 @@ msgstr "Als EINZIGARTIGER PEER festlegen"
 msgid "Setup"
 msgstr "Aufstellen"
 
-msgid "Setup (manual IP / user)"
-msgstr "Setup (manuelle IP/Benutzer)"
-
 msgid "Share View"
 msgstr "Ansicht teilen"
 
-msgid "share:"
-msgstr "Aktie:"
-
 msgid "Shares"
 msgstr "Aktien"
-
-msgid "show all cards"
-msgstr "alle Karten anzeigen"
-
-msgid "show cards with uphop 0"
-msgstr "Karten mit Uphop 0 zeigen"
-
-msgid "show cards with uphop 1"
-msgstr "Karten mit Uphop 1 zeigen"
-
-msgid "show cards with uphop 2"
-msgstr "Karten mit Uphop 2 zeigen"
-
-msgid "show cards with uphop 3"
-msgstr "Karten mit Uphop 3 zeigen"
-
-msgid "show cards with uphop 4"
-msgstr "Karten mit Uphop 4 zeigen"
-
-msgid "show cards with uphop 5"
-msgstr "Karten mit Uphop 5 zeigen"
-
-msgid "show cards with uphop 6"
-msgstr "Karten mit Uphop 6 zeigen"
-
-msgid "show cards with uphop 7"
-msgstr "Karten mit Uphop 7 zeigen"
-
-msgid "show cards with uphop 8"
-msgstr "Karten mit Uphop 8 zeigen"
-
-msgid "show cards with uphop 9"
-msgstr "Karten mit Uphop 9 zeigen"
 
 msgid "Show Clients"
 msgstr "Kunden anzeigen"
@@ -898,29 +707,17 @@ msgstr "Leser/Proxys anzeigen"
 msgid "Softcam Manager"
 msgstr "Softcam-Manager"
 
-msgid "Softcam Manager by Lululla\nV.%s\nInstall Cam Software\nForum Support www.corvoboys.org\n"
-msgstr "Softcam Manager von Lululla\nV.%s\nCam-Software installieren\nForum-Unterstützung www.corvoboys.org\n"
-
 msgid "Softcam restarted with new configuration!"
 msgstr "Softcam mit neuer Konfiguration neu gestartet!"
 
 msgid "Start"
 msgstr "Start"
 
-msgid "Start %s"
-msgstr "Starten Sie %s"
-
 msgid "Status"
 msgstr "Status"
 
 msgid "Stop"
 msgstr "Stoppen"
-
-msgid "Stop %s"
-msgstr "Stoppen Sie %s"
-
-msgid "Stop %s?"
-msgstr "%s stoppen?"
 
 msgid "Stop Finding Fakes"
 msgstr "Hören Sie auf, Fälschungen zu finden"
@@ -933,9 +730,6 @@ msgstr "System"
 
 msgid "System cleanup completed!"
 msgstr "Systembereinigung abgeschlossen!"
-
-msgid "system:"
-msgstr "System:"
 
 msgid "System:"
 msgstr "System:"
@@ -976,29 +770,23 @@ msgstr "UNGELÖSCHT"
 msgid "Unknow Image!"
 msgstr "Unbekanntes Bild!"
 
-msgid "Unknown package type:\n%s"
-msgstr "Unbekannter Pakettyp:\n%s"
-
 msgid "Update"
 msgstr "Aktualisieren"
 
 msgid "Update Aborted!"
 msgstr "Update abgebrochen!"
 
-msgid "Update interval (in seconds)"
-msgstr "Aktualisierungsintervall (in Sekunden)"
-
 msgid "Update OSCam Tivusat codes"
 msgstr "Aktualisieren Sie die OSCam Tivusat-Codes"
 
-msgid "Update script not found!\nPath: %s"
-msgstr "Update-Skript nicht gefunden!\nPath: %s"
-
-msgid "Uphops -"
-msgstr "Uphops -"
+msgid "Update interval (in seconds)"
+msgstr "Aktualisierungsintervall (in Sekunden)"
 
 msgid "Uphops +"
 msgstr "Uphops +"
+
+msgid "Uphops -"
+msgstr "Uphops -"
 
 msgid "Uphops:"
 msgstr "Uphops:"
@@ -1018,9 +806,6 @@ msgstr "Benutzername (httpuser)"
 msgid "Using old profile:"
 msgstr "Altes Profil verwenden:"
 
-msgid "using:"
-msgstr "mit:"
-
 msgid "Version:"
 msgstr "Version:"
 
@@ -1033,9 +818,245 @@ msgstr "Schreiben"
 msgid "Write-Debug"
 msgstr "Write-Debug"
 
-msgid "xLine"
-msgstr "xLine"
-
 msgid "You have the latest version!"
 msgstr "Sie haben die neueste Version!"
 
+msgid "\\\\\\\\tProvid:"
+msgstr "\\\\\\\\tBereitstellen:"
+
+msgid "address:"
+msgstr "Adresse:"
+
+msgid "and"
+msgstr "Und"
+
+msgid "caid:"
+msgstr "caid:"
+
+msgid "card"
+msgstr "Karte"
+
+msgid "card reader"
+msgstr "Kartenleser"
+
+msgid "close share view"
+msgstr "Teilen-Ansicht schließen"
+
+msgid "decrease uphop by 1"
+msgstr "Uphop um 1 verringern"
+
+msgid "ecm time:"
+msgstr "ECM-Zeit:"
+
+msgid "ecm.info"
+msgstr "ecm.info"
+
+msgid "emm_sender.sh not found"
+msgstr "emm_sender.sh nicht gefunden"
+
+msgid "get the cards' server"
+msgstr "Holen Sie sich den Kartenserver"
+
+msgid "handled"
+msgstr "gehandhabt"
+
+msgid "hops:"
+msgstr "Hopfen:"
+
+msgid "increase uphop by 1"
+msgstr "Uphop um 1 erhöhen"
+
+msgid "info"
+msgstr "Info"
+
+msgid "no or unknown card inserted"
+msgstr "keine oder unbekannte Karte eingelegt"
+
+msgid "pid:"
+msgstr "pid:"
+
+msgid "provid:"
+msgstr "bereitstellen:"
+
+msgid "provider:"
+msgstr "Anbieter:"
+
+msgid "share:"
+msgstr "Aktie:"
+
+msgid "show all cards"
+msgstr "alle Karten anzeigen"
+
+msgid "show cards with uphop 0"
+msgstr "Karten mit Uphop 0 zeigen"
+
+msgid "show cards with uphop 1"
+msgstr "Karten mit Uphop 1 zeigen"
+
+msgid "show cards with uphop 2"
+msgstr "Karten mit Uphop 2 zeigen"
+
+msgid "show cards with uphop 3"
+msgstr "Karten mit Uphop 3 zeigen"
+
+msgid "show cards with uphop 4"
+msgstr "Karten mit Uphop 4 zeigen"
+
+msgid "show cards with uphop 5"
+msgstr "Karten mit Uphop 5 zeigen"
+
+msgid "show cards with uphop 6"
+msgstr "Karten mit Uphop 6 zeigen"
+
+msgid "show cards with uphop 7"
+msgstr "Karten mit Uphop 7 zeigen"
+
+msgid "show cards with uphop 8"
+msgstr "Karten mit Uphop 8 zeigen"
+
+msgid "show cards with uphop 9"
+msgstr "Karten mit Uphop 9 zeigen"
+
+msgid "system:"
+msgstr "System:"
+
+msgid "using:"
+msgstr "mit:"
+
+msgid "xLine"
+msgstr "xLine"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "\\n All Caid:"
+#~ msgstr "\\n Alle Caid:"
+
+#~ msgid "\\nSTOPPED FINDING FAKES \\n\\nREVERTED BACK TO INITIAL STATUS"
+#~ msgstr "\\nHÖR AUFGEHÖRT, FAKES ZU FINDEN. \\n\\nWURDE ZURÜCK ZUM AUSGANGSSTATUS"
+
+#~ msgid "%s not available:\\n%s"
+#~ msgstr "%s nicht verfügbar:\\n%s"
+
+#~ msgid "%s\\n\\n%s\\n%s\\n\\nPrio entry\\n%s"
+#~ msgstr "%s\\n\\n%s\\n%s\\n\\nPrio-Eintrag\\n%s"
+
+#~ msgid "<no capabilities found>"
+#~ msgstr "<keine Funktionen gefunden>"
+
+#~ msgid "<no log found>"
+#~ msgstr "<kein Protokoll gefunden>"
+
+#~ msgid "Autocam assigned to the current channel"
+#~ msgstr "Dem aktuellen Kanal zugewiesene Autocam"
+
+#~ msgid "Backup restored successfully!\\nRestored files:\\n- %s"
+#~ msgstr "Sicherung erfolgreich wiederhergestellt!\\nWiederhergestellte Dateien:\\n- %s"
+
+#~ msgid "camscript exit code %s"
+#~ msgstr "Camscript-Exit-Code %s"
+
+#~ msgid "Cannot reach the %s webif:\\n%s\\n\\nYou can enter IP/port/user manually in Setup."
+#~ msgstr "Das %s-Web kann nicht erreicht werden.if:\\n%s\\n\\nSie können IP/Port/Benutzer manuell im Setup eingeben."
+
+#~ msgid "Capabilities"
+#~ msgstr "Fähigkeiten"
+
+#~ msgid "CCcam - Lines"
+#~ msgstr "CCcam - Linien"
+
+#~ msgid "CCcam Info %s\\nby AliAbdul %s\\n\\nrecoded from Lululla\\n\\nThis screen shows you the status of CCcam."
+#~ msgstr "CCcam-Info %s\\nvon AliAbdul %s\\n\\nrekodiert von Lululla\\n\\nDieser Bildschirm zeigt Ihnen den Status von CCcam."
+
+#~ msgid "Connecting..."
+#~ msgstr "Verbinden..."
+
+#~ msgid "ECM info"
+#~ msgstr "ECM-Informationen"
+
+#~ msgid "Entitlements for '%s'"
+#~ msgstr "Berechtigungen für „%s“"
+
+#~ msgid "Error:\\n%s"
+#~ msgstr "Fehler:\\n%s"
+
+#~ msgid "GREEN: start %s"
+#~ msgstr "GRÜN: %s starten"
+
+#~ msgid "Installing %s\\nPlease Wait..."
+#~ msgstr "%s\\n wird installiert. Bitte warten..."
+
+#~ msgid "Installing Softcam Keys\\nPlease Wait..."
+#~ msgstr "Softcam Keys werden installiert\\nBitte warten..."
+
+#~ msgid "Invalid download URL:\\n%s"
+#~ msgstr "Ungültige Download-URL:\\n%s"
+
+#~ msgid "New version %s is available.\\n\\nChangelog: %s \\n\\nInstall now?"
+#~ msgstr "Neue Version %s ist verfügbar.\\n\\nÄnderungsprotokoll: %s \\n\\nJetzt installieren?"
+
+#~ msgid "New version %s is available\\n\\nChangelog: %s\\n\\nPress yellow button to update."
+#~ msgstr "Neue Version %s ist verfügbar\\n\\nÄnderungsprotokoll: %s\\n\\nDrücken Sie die gelbe Taste, um zu aktualisieren."
+
+#~ msgid "No ECM info is currently available."
+#~ msgstr "Derzeit sind keine ECM-Informationen verfügbar."
+
+#~ msgid "No entitlements for '%s'"
+#~ msgstr "Keine Berechtigungen für „%s“"
+
+#~ msgid "No tvManager camscript for the current cam."
+#~ msgstr "Kein tvManager-Camscript für die aktuelle Cam."
+
+#~ msgid "OK: Entitlements   MENU: more"
+#~ msgstr "OK: Berechtigungen MENÜ: mehr"
+
+#~ msgid "Please wait..."
+#~ msgstr "Bitte warten..."
+
+#~ msgid "Please wait..\\nRESTART CAM"
+#~ msgstr "Bitte warten..\\nKAMERA NEU STARTEN"
+
+#~ msgid "Please wait..\\nSTART UP CAM"
+#~ msgstr "Bitte warten..\\nKAMERA STARTEN"
+
+#~ msgid "Please wait..\\nSTOP & RESTART CAM"
+#~ msgstr "Bitte warten..\\nCAM STOPPEN & NEU STARTEN"
+
+#~ msgid "Please wait..\\nSTOP CAM"
+#~ msgstr "Bitte warten..\\nSTOP CAM"
+
+#~ msgid "Reader statistics"
+#~ msgstr "Leserstatistiken"
+
+#~ msgid "Restart %s"
+#~ msgstr "Starten Sie %s neu"
+
+#~ msgid "Restart %s?"
+#~ msgstr "%s neu starten?"
+
+#~ msgid "Restore backup '%s'?\\nThis will overwrite current configurations."
+#~ msgstr "Sicherung „%s“ wiederherstellen?\\nDadurch werden die aktuellen Konfigurationen überschrieben."
+
+#~ msgid "Send the Tivusat EMM to your card through OSCam?\\n(OSCam with webif must be running)"
+#~ msgstr "Senden Sie das Tivusat EMM über OSCam an Ihre Karte?\\n(OSCam mit Webif muss ausgeführt werden)"
+
+#~ msgid "Setup (manual IP / user)"
+#~ msgstr "Setup (manuelle IP/Benutzer)"
+
+#~ msgid "Softcam Manager by Lululla\\nV.%s\\nInstall Cam Software\\nForum Support www.corvoboys.org\\n"
+#~ msgstr "Softcam Manager von Lululla\\nV.%s\\nCam-Software installieren\\nForum-Unterstützung www.corvoboys.org\\n"
+
+#~ msgid "Start %s"
+#~ msgstr "Starten Sie %s"
+
+#~ msgid "Stop %s"
+#~ msgstr "Stoppen Sie %s"
+
+#~ msgid "Stop %s?"
+#~ msgstr "%s stoppen?"
+
+#~ msgid "Unknown package type:\\n%s"
+#~ msgstr "Unbekannter Pakettyp:\\n%s"
+
+#~ msgid "Update script not found!\\nPath: %s"
+#~ msgstr "Update-Skript nicht gefunden!\\nPath: %s"
