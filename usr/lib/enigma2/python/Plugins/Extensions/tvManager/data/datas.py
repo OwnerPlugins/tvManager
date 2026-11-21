@@ -537,8 +537,10 @@ class tv_config(Screen, ConfigListScreen):
         def run(answer):
             if answer:
                 from .Console import Console
-                self.session.open(Console, _("Send EMM to Tivusat card"),
-                                  ["/bin/sh %s" % script], closeOnSuccess=False)
+                self.session.open(
+                    Console, _("Send EMM to Tivusat card"), [
+                        "/bin/sh %s" %
+                        script], closeOnSuccess=False)
         self.session.openWithCallback(
             run, MessageBox,
             _("Send the Tivusat EMM to your card through OSCam?\n(OSCam with webif must be running)"),
@@ -556,8 +558,9 @@ class tv_config(Screen, ConfigListScreen):
             import shutil
             src = data_path + rstcfg
             if not exists(src):
-                self.session.open(MessageBox, _("No default file for %s") % putlbl,
-                                  MessageBox.TYPE_ERROR, timeout=5)
+                self.session.open(
+                    MessageBox, _("No default file for %s") %
+                    putlbl, MessageBox.TYPE_ERROR, timeout=5)
                 return
             shutil.copy2(src, putlbl)
             chmod(putlbl, 0o644)

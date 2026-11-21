@@ -45,7 +45,6 @@ from . import camwebif
 PY3 = sys.version_info.major >= 3
 
 
-
 global NAMEBIN
 
 config.NcamInfo = ConfigSubsection()
@@ -79,7 +78,8 @@ def check_NAMEBIN2():
 
 
 def _ifinfo(sock, addr, ifname):
-    iface = struct.pack('256s', ifname[:15].encode('ascii') if not isinstance(ifname, bytes) else ifname[:15])
+    iface = struct.pack('256s', ifname[:15].encode(
+        'ascii') if not isinstance(ifname, bytes) else ifname[:15])
     info = fcntl.ioctl(sock.fileno(), addr, iface)
     if addr == 0x8927:
         return ':'.join(['%02x' % (char if PY3 else ord(char))
@@ -163,7 +163,8 @@ class NcamInfo:
     def confPath(self):
         """(webif, port, confdir, ipv6) of the running cam - kept for compatibility."""
         v = camwebif.read_version_info(check_NAMEBIN())
-        return v.get("webif", False), v.get("port"), v.get("confdir"), v.get("ipv6", False)
+        return v.get("webif", False), v.get(
+            "port"), v.get("confdir"), v.get("ipv6", False)
 
     def getUserData(self):
         """Settings dict for the local webif, or an error string."""
@@ -228,7 +229,8 @@ class NcamInfo:
         srvname = req.text if req is not None else None
         srvname_short = _("-")
         if srvname:
-            srvname_short = srvname.split(":", 1)[1].strip() if ":" in srvname else srvname
+            srvname_short = srvname.split(
+                ":", 1)[1].strip() if ":" in srvname else srvname
         conn = client.find("connection")
         ip = ""
         connstatus = ""
@@ -238,7 +240,16 @@ class NcamInfo:
                 if ip == "0.0.0.0":
                     ip = ""
             connstatus = (conn.text or "").strip()
-        return (name, proto, "%s:%s" % (caid, srvid), srvname_short, ecmtime, ip, connstatus)
+        return (
+            name,
+            proto,
+            "%s:%s" %
+            (caid,
+             srvid),
+            srvname_short,
+            ecmtime,
+            ip,
+            connstatus)
 
     def _parseXML(self, typ, xmltext):
         result = (True, xmltext)
@@ -257,7 +268,9 @@ class NcamInfo:
                         print("[readXML] skip client: %s" % err)
                         continue
                     if entry:
-                        tmp.setdefault(client.attrib.get("type", "?"), []).append(entry)
+                        tmp.setdefault(
+                            client.attrib.get(
+                                "type", "?"), []).append(entry)
             else:
                 if "<![CDATA" not in result[1]:
                     tmp = result[1].replace(
@@ -525,8 +538,11 @@ class NcamInfoMenu(Screen):
             udata = self.osc.getUserData() if config.NcamInfo.userdatafromconf.value else None
             if entry in (1, 2, 3, 4, 5) and isinstance(udata, str):
                 self.session.openWithCallback(
-                    self.ErrMsgCallback, MessageBox,
-                    _("Cannot reach the %s webif:\n%s\n\nYou can enter IP/port/user manually in Setup.") % (NAMEBIN, udata),
+                    self.ErrMsgCallback,
+                    MessageBox,
+                    _("Cannot reach the %s webif:\n%s\n\nYou can enter IP/port/user manually in Setup.") %
+                    (NAMEBIN,
+                     udata),
                     MessageBox.TYPE_ERROR)
             elif entry == 0:
                 if ospath.exists("/tmp/ecm.info"):
@@ -1054,9 +1070,15 @@ class ncInfo(Screen, NcamInfo):
             self.errmsg = (data[1],)
             if getattr(self, "loop", None) is not None:
                 self.loop.stop()
-            self.out.append(["", (eListboxPythonMultiContent.TYPE_TEXT, int(10 * f), 0,
-                                  int(self.sizeLH), int(self.itemheight * f * 4), 0,
-                                  RT_HALIGN_LEFT | RT_WRAP, _("Error") + ":\n" + data[1])])
+            self.out.append(["",
+                             (eListboxPythonMultiContent.TYPE_TEXT,
+                              int(10 * f),
+                                 0,
+                                 int(self.sizeLH),
+                                 int(self.itemheight * f * 4),
+                                 0,
+                                 RT_HALIGN_LEFT | RT_WRAP,
+                                 _("Error") + ":\n" + data[1])])
             self.setTitle(_("Error") + ": " + data[1])
             self["key_green"].setText(_("Clients"))
             self["key_yellow"].setText(_("Servers"))
@@ -1511,7 +1533,10 @@ class NcamInfoConfigScreen(ConfigListScreen, Screen):
                 getConfigListEntry(
                     _("Password (httpwd)"),
                     config.NcamInfo.password))
-            oscamconfig.append(getConfigListEntry(_("IP address"), config.NcamInfo.ip))
+            oscamconfig.append(
+                getConfigListEntry(
+                    _("IP address"),
+                    config.NcamInfo.ip))
             oscamconfig.append(
                 getConfigListEntry(
                     _("Port"),
