@@ -13,568 +13,568 @@ msgstr ""
 # Copyright (C) 2026 Lululla Team
 #
 msgid "%s ( %s Cards )"
-msgstr ""
+msgstr "%s ( %s कार्ड )"
 
 msgid "%s Info - Configuration"
-msgstr ""
+msgstr "%s जानकारी - कॉन्फ़िगरेशन"
 
 msgid "%s Info - Main Menu"
-msgstr ""
+msgstr "%s जानकारी - मुख्य मेनू"
 
 msgid "%s restarted successfully!"
-msgstr ""
+msgstr "%s सफलतापूर्वक पुनः प्रारंभ हुआ!"
 
 msgid "(Active)"
-msgstr ""
+msgstr "(सक्रिय)"
 
 msgid "(All readers)"
-msgstr ""
+msgstr "(सभी पाठक)"
 
 msgid "(Not running)"
-msgstr ""
+msgstr "(नहीं चल रहा)"
 
 msgid "(Show only reader) (%s)"
-msgstr ""
+msgstr "(केवल पाठक दिखाएँ) (%s)"
 
 msgid "About"
-msgstr ""
+msgstr "के बारे में"
 
 msgid "Activate"
-msgstr ""
+msgstr "सक्रिय करें"
 
 msgid "Activate Insert line in Config File:"
-msgstr ""
+msgstr "कॉन्फ़िग फ़ाइल में सम्मिलित पंक्ति सक्रिय करें:"
 
 msgid "Active clients"
-msgstr ""
+msgstr "सक्रिय ग्राहक"
 
 msgid "Add"
-msgstr ""
+msgstr "जोड़ना"
 
 msgid "Add new CCcam line"
-msgstr ""
+msgstr "नई CCcam लाइन जोड़ें"
 
 msgid "Add new NewCamd line"
-msgstr ""
+msgstr "नई NewCamd लाइन जोड़ें"
 
 msgid "Address"
-msgstr ""
+msgstr "पता"
 
 msgid "All"
-msgstr ""
+msgstr "सभी"
 
 msgid "An error occurred in the green function."
-msgstr ""
+msgstr "हरे फ़ंक्शन में कोई त्रुटि उत्पन्न हुई."
 
 msgid "An unexpected error occurred: %s"
-msgstr ""
+msgstr "एक अप्रत्याशित त्रुटि उत्पन्न हुई: %s"
 
 msgid "Ask all caid"
-msgstr ""
+msgstr "सभी कैड से पूछें"
 
 msgid "Ask for the selection caid"
-msgstr ""
+msgstr "चयन कैड के लिए पूछें"
 
 msgid "Automatically update Client/Server View?"
-msgstr ""
+msgstr "क्लाइंट/सर्वर व्यू को स्वचालित रूप से अपडेट करें?"
 
 msgid "Available shares:"
-msgstr ""
+msgstr "उपलब्ध शेयर:"
 
 msgid "Back"
-msgstr ""
+msgstr "पीछे"
 
 msgid "Backup failed!"
-msgstr ""
+msgstr "बैकअप विफल!"
 
 msgid "Backup restoration failed!"
-msgstr ""
+msgstr "बैकअप बहाली विफल!"
 
 msgid "CCPrioMaker Settings"
-msgstr ""
+msgstr "CCPrioMaker सेटिंग्स"
 
 msgid "CCPrioMaker autostart"
-msgstr ""
+msgstr "CCPrioMaker ऑटोस्टार्ट"
 
 msgid "CCcam"
 msgstr ""
 
 msgid "CCcam Clients Info"
-msgstr ""
+msgstr "सीसीसीएएम ग्राहकों की जानकारी"
 
 msgid "CCcam Config Switcher"
-msgstr ""
+msgstr "CCcam कॉन्फ़िग स्विचर"
 
 msgid "CCcam ECM Info"
-msgstr ""
+msgstr "सीसीसीएएम ईसीएम जानकारी"
 
 msgid "CCcam Info"
-msgstr ""
+msgstr "सीसीसीएएम जानकारी"
 
 msgid "CCcam Info %s"
-msgstr ""
+msgstr "CCcam जानकारी %s"
 
 msgid "CCcam Info Config"
-msgstr ""
+msgstr "CCcam जानकारी कॉन्फ़िग"
 
 msgid "CCcam Info Config Menu"
-msgstr ""
+msgstr "CCcam जानकारी कॉन्फ़िग मेनू"
 
 msgid "CCcam Line Editor"
 msgstr ""
 
 msgid "CCcam Organizer"
-msgstr ""
+msgstr "सीसीसीएएम आयोजक"
 
 msgid "CCcam Prio Maker"
 msgstr ""
 
 msgid "CCcam Provider Info"
-msgstr ""
+msgstr "सीसीसीएएम प्रदाता जानकारी"
 
 msgid "CCcam Remote Info"
-msgstr ""
+msgstr "सीसीसीएएम रिमोट जानकारी"
 
 msgid "CCcam Server Info"
-msgstr ""
+msgstr "CCcam सर्वर जानकारी"
 
 msgid "CCcam Share Info"
 msgstr ""
 
 msgid "CCcam Shares Info"
-msgstr ""
+msgstr "सीसीसीएएम जानकारी साझा करता है"
 
 msgid "CCcam.cfg Basic Line Editor"
-msgstr ""
+msgstr "CCcam.cfg बेसिक लाइन एडिटर"
 
 msgid "CaID:"
-msgstr ""
+msgstr "सीएआईडी:"
 
 msgid "Caid"
-msgstr ""
+msgstr "कैद"
 
 msgid "Caid:"
-msgstr ""
+msgstr "कैद:"
 
 msgid "Caid:Srvid"
-msgstr ""
+msgstr "कैद: श्रीविद"
 
 msgid "Cam Download"
-msgstr ""
+msgstr "कैम डाउनलोड"
 
 msgid "Cancel"
-msgstr ""
+msgstr "रद्द करना"
 
 msgid "Card info (CCcam-Reader)"
-msgstr ""
+msgstr "कार्ड की जानकारी (सीसीकैम-रीडर)"
 
 msgid "Cards:"
-msgstr ""
+msgstr "कार्ड:"
 
 msgid "Cards: 0"
-msgstr ""
+msgstr "कार्ड: 0"
 
 msgid "Cardserial"
-msgstr ""
+msgstr "कार्ड सीरियल"
 
 msgid "Channel"
-msgstr ""
+msgstr "चैनल"
 
 msgid "Channel Name"
-msgstr ""
+msgstr "चैनल का नाम"
 
 msgid "Check Emm Send"
-msgstr ""
+msgstr "एम्म भेजें की जाँच करें"
 
 msgid "Choose CCcam-Reader"
-msgstr ""
+msgstr "सीसीकैम-रीडर चुनें"
 
 msgid "Choose reader"
-msgstr ""
+msgstr "पाठक चुनें"
 
 msgid "Cleanup error: %s"
-msgstr ""
+msgstr "सफ़ाई त्रुटि: %s"
 
 msgid "Client %s-%s"
-msgstr ""
+msgstr "ग्राहक %s-%s"
 
 msgid "Clients"
-msgstr ""
+msgstr "ग्राहकों"
 
 msgid "Close"
-msgstr ""
+msgstr "बंद करना"
 
 msgid "Configfile %s saved."
-msgstr ""
+msgstr "कॉन्फ़िगफ़ाइल %s सहेजा गया."
 
 msgid "Connected clients"
-msgstr ""
+msgstr "जुड़े हुए ग्राहक"
 
 msgid "Connected:"
-msgstr ""
+msgstr "जुड़े हुए:"
 
 msgid "Content"
-msgstr ""
+msgstr "सामग्री"
 
 msgid "Could not open the file %s!"
-msgstr ""
+msgstr "%s फ़ाइल नहीं खुल सकी!"
 
 msgid "Could not open the file %s! Error: %s"
-msgstr ""
+msgstr "%s फ़ाइल नहीं खुल सकी! त्रुटि: %s"
 
 msgid "Could not save configfile %s! Error: %s"
-msgstr ""
+msgstr "कॉन्फ़िगफ़ाइल %s सहेजा नहीं जा सका! त्रुटि: %s"
 
 msgid "Could not save the config file! Error: %s"
-msgstr ""
+msgstr "कॉन्फ़िग फ़ाइल को सहेजा नहीं जा सका! त्रुटि: %s"
 
 msgid "Current time"
-msgstr ""
+msgstr "वर्तमान समय"
 
 msgid "DES key (28 hex)"
-msgstr ""
+msgstr "डेस कुंजी (28 हेक्स)"
 
 msgid "Delete"
-msgstr ""
+msgstr "मिटाना"
 
 msgid "Delete %s?"
-msgstr ""
+msgstr "%s हटाएँ?"
 
 msgid "Delete Peer"
-msgstr ""
+msgstr "सहकर्मी हटाएं"
 
 msgid "Delete failed!"
-msgstr ""
+msgstr "हटाना विफल!"
 
 msgid "Deleted %s!"
-msgstr ""
+msgstr "हटा दिया गया %s!"
 
 msgid "Do you install this plugin ?"
-msgstr ""
+msgstr "क्या आप यह प्लगइन इंस्टॉल करते हैं?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "क्या आप हटाना चाहते हैं?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "क्या आप गुई इंटरफ़ेस को पुनः आरंभ करना चाहते हैं?"
 
 msgid "ECM file empty"
-msgstr ""
+msgstr "ईसीएम फ़ाइल खाली"
 
 msgid "ECM read error"
-msgstr ""
+msgstr "ईसीएम पढ़ने में त्रुटि"
 
 msgid "Ecm Info"
-msgstr ""
+msgstr "ईसीएम जानकारी"
 
 msgid "Ecm Statistics"
-msgstr ""
+msgstr "ईसीएम सांख्यिकी"
 
 msgid "Ecm Time"
-msgstr ""
+msgstr "ईसीएम समय"
 
 msgid "Ecm avg"
-msgstr ""
+msgstr "ईसीएम औसत"
 
 msgid "Ecm last"
-msgstr ""
+msgstr "अंतिम ईसीएम"
 
 msgid "Edit"
-msgstr ""
+msgstr "संपादन करना"
 
 msgid "Editing one caid"
-msgstr ""
+msgstr "एक कैड का संपादन"
 
 msgid "Emm Info"
-msgstr ""
+msgstr "एर्म जानकारी"
 
 msgid "Entitlements"
-msgstr ""
+msgstr "पात्रता"
 
 msgid "Error"
-msgstr ""
+msgstr "गलती"
 
 msgid "Error getting resource information"
-msgstr ""
+msgstr "संसाधन जानकारी प्राप्त करने में त्रुटि"
 
 msgid "Error loading system info:"
-msgstr ""
+msgstr "सिस्टम जानकारी लोड करने में त्रुटि:"
 
 msgid "Error loading system information:"
-msgstr ""
+msgstr "सिस्टम जानकारी लोड करने में त्रुटि:"
 
 msgid "Error opening cam info: %s"
-msgstr ""
+msgstr "कैम जानकारी खोलने में त्रुटि: %s"
 
 msgid "Error processing HTML!"
-msgstr ""
+msgstr "HTML संसाधित करने में त्रुटि!"
 
 msgid "Error processing server addons data"
-msgstr ""
+msgstr "सर्वर ऐडऑन डेटा को संसाधित करने में त्रुटि"
 
 msgid "Error reading webpage!"
-msgstr ""
+msgstr "वेबपेज पढ़ने में त्रुटि!"
 
 msgid "Error stopping %s!"
-msgstr ""
+msgstr "%s को रोकने में त्रुटि!"
 
 msgid "Error while editing configuration: %s"
-msgstr ""
+msgstr "कॉन्फ़िगरेशन संपादित करते समय त्रुटि: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "बाहर निकलना"
 
 msgid "Extended Shares"
-msgstr ""
+msgstr "विस्तारित शेयर"
 
 msgid "Failed to revert file: %s"
-msgstr ""
+msgstr "फ़ाइल वापस लाने में विफल: %s"
 
 msgid "Find Fakes"
-msgstr ""
+msgstr "नकली खोजें"
 
 msgid "Force Update"
-msgstr ""
+msgstr "बलपूर्वक जानकारी"
 
 msgid "Free memory"
-msgstr ""
+msgstr "निःशुल्क स्मृति"
 
 msgid "Free memory:"
-msgstr ""
+msgstr "मुफ़्त मेमोरी:"
 
 msgid "Free:"
-msgstr ""
+msgstr "मुक्त:"
 
 msgid "General"
-msgstr ""
+msgstr "सामान्य"
 
 msgid "Get Link"
-msgstr ""
+msgstr "कड़ी मिली"
 
 msgid "Getting the list, please wait ..."
-msgstr ""
+msgstr "सूची मिल रही है, कृपया प्रतीक्षा करें..."
 
 msgid "Help"
-msgstr ""
+msgstr "मदद"
 
 msgid "Hops"
-msgstr ""
+msgstr "हॉप्स"
 
 msgid "Hops:"
-msgstr ""
+msgstr "हॉप्स:"
 
 msgid "Hostname:"
-msgstr ""
+msgstr "होस्टनाम:"
 
 msgid "IP Address"
-msgstr ""
+msgstr "आईपी ​​पता"
 
 msgid "IP address"
-msgstr ""
+msgstr "आईपी ​​पता"
 
 msgid "IP address / host"
-msgstr ""
+msgstr "आईपी ​​​​पता/होस्ट"
 
 msgid "Idle Time:"
-msgstr ""
+msgstr "बेकार का समय:"
 
 msgid "If Active: Download/Reset Server Config"
-msgstr ""
+msgstr "यदि सक्रिय है: सर्वर कॉन्फ़िगरेशन डाउनलोड/रीसेट करें"
 
 msgid "Install Cam first!!!"
-msgstr ""
+msgstr "पहले कैम इंस्टॉल करें!!!"
 
 msgid "Install developer update (%s)?"
-msgstr ""
+msgstr "डेवलपर अद्यतन स्थापित करें (%s)?"
 
 msgid "Invalid HTML content!"
-msgstr ""
+msgstr "अमान्य HTML सामग्री!"
 
 msgid "Invalid URL!"
-msgstr ""
+msgstr "असामान्य यूआरएल!"
 
 msgid "Last Req."
-msgstr ""
+msgstr "अंतिम अनुरोध."
 
 msgid "Last used share:"
-msgstr ""
+msgstr "अंतिम बार उपयोग किया गया शेयर:"
 
 msgid "Load"
-msgstr ""
+msgstr "भार"
 
 msgid "Local box"
-msgstr ""
+msgstr "स्थानीय बॉक्स"
 
 msgid "Location"
-msgstr ""
+msgstr "जगह"
 
 msgid "Log"
-msgstr ""
+msgstr "लकड़ी का लट्ठा"
 
 msgid "Log %s-%s"
-msgstr ""
+msgstr "लॉग %s-%s"
 
 msgid "MENU EMM / SERVER CLINE"
-msgstr ""
+msgstr "मेनू ईएमएम/सर्वर क्लाइन"
 
 msgid "Maxdown +"
-msgstr ""
+msgstr "मैक्सडाउन+"
 
 msgid "Maxdown -"
-msgstr ""
+msgstr "मैक्सडाउन -"
 
 msgid "Maxdown:"
-msgstr ""
+msgstr "मैक्सडाउन:"
 
 msgid "Menu config"
-msgstr ""
+msgstr "मेनू कॉन्फ़िग"
 
 msgid "Name"
-msgstr ""
+msgstr "नाम"
 
 msgid "Ncam not running - start Cam to obtain information."
-msgstr ""
+msgstr "एनकैम नहीं चल रहा - जानकारी प्राप्त करने के लिए कैम प्रारंभ करें।"
 
 msgid "New"
-msgstr ""
+msgstr "नया"
 
 msgid "New profile:"
-msgstr ""
+msgstr "नई प्रोफ़ाइल:"
 
 msgid "NewCamd"
-msgstr ""
+msgstr "न्यूकैमड"
 
 msgid "No ECM (clear channel or cam not decoding)"
-msgstr ""
+msgstr "कोई ईसीएम नहीं (स्पष्ट चैनल या कैम डिकोडिंग नहीं)"
 
 msgid "No ECM data"
-msgstr ""
+msgstr "कोई ईसीएम डेटा नहीं"
 
 msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr ""
+msgstr "फिलहाल कोई ईसीएम जानकारी उपलब्ध नहीं है। यह केवल डिक्रिप्ट करते समय उपलब्ध है।"
 
 msgid "No active cam to restart!"
-msgstr ""
+msgstr "पुनः आरंभ करने के लिए कोई सक्रिय कैम नहीं!"
 
 msgid "No backups available!"
-msgstr ""
+msgstr "कोई बैकअप उपलब्ध नहीं!"
 
 msgid "No card inserted!"
-msgstr ""
+msgstr "कोई कार्ड नहीं डाला गया!"
 
 msgid "No default file for %s"
-msgstr ""
+msgstr "%s के लिए कोई डिफ़ॉल्ट फ़ाइल नहीं"
 
 msgid "No softcams available!"
-msgstr ""
+msgstr "कोई सॉफ़्टकैम उपलब्ध नहीं!"
 
 msgid "No valid backups found!"
-msgstr ""
+msgstr "कोई वैध बैकअप नहीं मिला!"
 
 msgid "NodeID"
-msgstr ""
+msgstr "नोडआईडी"
 
 msgid "NodeID:"
-msgstr ""
+msgstr "नोडआईडी:"
 
 msgid "Nothing to show"
-msgstr ""
+msgstr "दिखाने के लिए कुछ भी नहीं"
 
 msgid "OK"
-msgstr ""
+msgstr "ठीक है"
 
 msgid "Oscam not running - start Cam to obtain information."
-msgstr ""
+msgstr "ऑस्कैम नहीं चल रहा - जानकारी प्राप्त करने के लिए कैम प्रारंभ करें।"
 
 msgid "Password"
-msgstr ""
+msgstr "पासवर्ड"
 
 msgid "Password (httpwd)"
-msgstr ""
+msgstr "पासवर्ड (httpwd)"
 
 msgid "Peak load (max queued requests per workerthread)"
-msgstr ""
+msgstr "पीक लोड (प्रति वर्करथ्रेड अधिकतम कतारबद्ध अनुरोध)"
 
 msgid "Pid"
-msgstr ""
+msgstr "पीआईडी"
 
 msgid "Please Reset - No File CFG"
-msgstr ""
+msgstr "कृपया रीसेट करें - कोई फ़ाइल सीएफजी नहीं"
 
 msgid "Please select ..."
-msgstr ""
+msgstr "कृपया चयन कीजिए ..."
 
 msgid "Please select a line to edit or select add to create new line."
-msgstr ""
+msgstr "कृपया संपादित करने के लिए एक पंक्ति का चयन करें या नई पंक्ति बनाने के लिए जोड़ें का चयन करें।"
 
 msgid "Port"
-msgstr ""
+msgstr "पत्तन"
 
 msgid "Profile"
-msgstr ""
+msgstr "प्रोफ़ाइल"
 
 msgid "Profile: Local box"
-msgstr ""
+msgstr "प्रोफ़ाइल: स्थानीय बॉक्स"
 
 msgid "Protocol"
-msgstr ""
+msgstr "शिष्टाचार"
 
 msgid "Provider"
-msgstr ""
+msgstr "प्रदाता"
 
 msgid "Provider Name:"
-msgstr ""
+msgstr "प्रदाता का नाम:"
 
 msgid "Provider:"
-msgstr ""
+msgstr "प्रदाता:"
 
 msgid "Providers"
-msgstr ""
+msgstr "प्रदाताओं"
 
 msgid "Providers:"
-msgstr ""
+msgstr "प्रदाता:"
 
 msgid "Quick restart %s?"
-msgstr ""
+msgstr "शीघ्र पुनः आरंभ करें %s?"
 
 msgid "Read Userdata from %s.conf"
-msgstr ""
+msgstr "%s.conf से उपयोगकर्ता डेटा पढ़ें"
 
 msgid "Reader"
-msgstr ""
+msgstr "पाठक"
 
 msgid "Reader Statistics"
-msgstr ""
+msgstr "पाठक सांख्यिकी"
 
 msgid "Reader/User"
-msgstr ""
+msgstr "पाठक/उपयोगकर्ता"
 
 msgid "Recover Peer"
-msgstr ""
+msgstr "सहकर्मी को पुनर्प्राप्त करें"
 
 msgid "Remote box"
-msgstr ""
+msgstr "रिमोट बॉक्स"
 
 msgid "Remove"
-msgstr ""
+msgstr "निकालना"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s को हटाया जा रहा है"
 
 msgid "Rename"
-msgstr ""
+msgstr "नाम बदलें"
 
 msgid "Rename failed!"
-msgstr ""
+msgstr "नाम बदलना विफल!"
 
 msgid "Rename to:"
-msgstr ""
+msgstr "इसका नाम बदलें:"
 
 msgid "Renamed %s!"
-msgstr ""
+msgstr "%s का नाम बदला!"
 
 msgid "Reset"
-msgstr ""
+msgstr "रीसेट करें"
 
 msgid "Reshare"
 msgstr ""
@@ -583,100 +583,100 @@ msgid "Reshare:"
 msgstr ""
 
 msgid "Resources"
-msgstr ""
+msgstr "संसाधन"
 
 msgid "Restart"
-msgstr ""
+msgstr "पुनः आरंभ करें"
 
 msgid "Restart GUI?"
-msgstr ""
+msgstr "जीयूआई पुनः प्रारंभ करें?"
 
 msgid "Restart error: %s"
-msgstr ""
+msgstr "पुनरारंभ त्रुटि: %s"
 
 msgid "Restart softcam to apply restored configuration?"
-msgstr ""
+msgstr "पुनर्स्थापित कॉन्फ़िगरेशन लागू करने के लिए सॉफ्टकैम को पुनरारंभ करें?"
 
 msgid "Running cams"
-msgstr ""
+msgstr "चल रहे कैम"
 
 msgid "Save"
-msgstr ""
+msgstr "बचाना"
 
 msgid "Scanning and retrieval list softcam ..."
-msgstr ""
+msgstr "स्कैनिंग और पुनर्प्राप्ति सूची सॉफ़्टकैम..."
 
 msgid "Select CCcam"
 msgstr ""
 
 msgid "Select Get Link"
-msgstr ""
+msgstr "लिंक प्राप्त करें का चयन करें"
 
 msgid "Select Ncam"
-msgstr ""
+msgstr "एनकैम का चयन करें"
 
 msgid "Select OScam"
-msgstr ""
+msgstr "ओएसकैम चुनें"
 
 msgid "Select Your Choice"
-msgstr ""
+msgstr "अपनी पसंद चुनें"
 
 msgid "Select a cam to run ..."
-msgstr ""
+msgstr "चलाने के लिए एक कैम चुनें..."
 
 msgid "Select and Install"
-msgstr ""
+msgstr "चुनें और इंस्टॉल करें"
 
 msgid "Select backup to restore:"
-msgstr ""
+msgstr "पुनर्स्थापित करने के लिए बैकअप का चयन करें:"
 
 msgid "Send EMM to Tivusat card"
-msgstr ""
+msgstr "टिवुसैट कार्ड पर ईएमएम भेजें"
 
 msgid "Server"
 msgstr ""
 
 msgid "Server %s-%s"
-msgstr ""
+msgstr "सर्वर %s-%s"
 
 msgid "Server Config"
-msgstr ""
+msgstr "सर्वर कॉन्फ़िग"
 
 msgid "Server Copy in"
 msgstr ""
 
 msgid "Server Link"
-msgstr ""
+msgstr "सर्वर लिंक"
 
 msgid "Server Password"
-msgstr ""
+msgstr "सर्वर पासवर्ड"
 
 msgid "Server Port"
-msgstr ""
+msgstr "सर्वर पोर्ट"
 
 msgid "Server URL"
-msgstr ""
+msgstr "सर्वर यूआरएल"
 
 msgid "Server Url i.e. 012.345.678.900"
-msgstr ""
+msgstr "सर्वर यूआरएल यानी 012.345.678.900"
 
 msgid "Server Username"
-msgstr ""
+msgstr "सर्वर उपयोगकर्ता नाम"
 
 msgid "Server:"
-msgstr ""
+msgstr "सर्वर:"
 
 msgid "Servers"
-msgstr ""
+msgstr "सर्वर"
 
 msgid "Servers:"
-msgstr ""
+msgstr "सर्वर:"
 
 msgid "Service"
-msgstr ""
+msgstr "सेवा"
 
 msgid "Set as UNIQUE PEER"
-msgstr ""
+msgstr "अद्वितीय सहकर्मी के रूप में सेट करें"
 
 msgid "Setup"
 msgstr ""
@@ -685,28 +685,28 @@ msgid "Share View"
 msgstr ""
 
 msgid "Shares"
-msgstr ""
+msgstr "शेयरों"
 
 msgid "Show Clients"
-msgstr ""
+msgstr "ग्राहक दिखाएँ"
 
 msgid "Show Ecm info"
-msgstr ""
+msgstr "ईसीएम जानकारी दिखाएँ"
 
 msgid "Show Log"
 msgstr ""
 
 msgid "Show Readers/Proxies"
-msgstr ""
+msgstr "रीडर्स/प्रॉक्सी दिखाएँ"
 
 msgid "Softcam Manager"
-msgstr ""
+msgstr "सॉफ़्टकैम मैनेजर"
 
 msgid "Softcam restarted with new configuration!"
 msgstr ""
 
 msgid "Start"
-msgstr ""
+msgstr "शुरू"
 
 msgid "Status"
 msgstr ""
@@ -727,13 +727,13 @@ msgid "System cleanup completed!"
 msgstr ""
 
 msgid "System:"
-msgstr ""
+msgstr "प्रणाली:"
 
 msgid "Temporarily DELETED"
 msgstr ""
 
 msgid "The DES key must have 28 hex digits."
-msgstr ""
+msgstr "DES कुंजी में 28 हेक्स अंक होने चाहिए।"
 
 msgid "This plugin shows you the status of your CCcam"
 msgstr ""
@@ -742,7 +742,7 @@ msgid "Total"
 msgstr ""
 
 msgid "Total cards:"
-msgstr ""
+msgstr "कुल कार्ड:"
 
 msgid "Total handled client ecm's"
 msgstr ""
@@ -757,7 +757,7 @@ msgid "Try again later ..."
 msgstr ""
 
 msgid "Type:"
-msgstr ""
+msgstr "प्रकार:"
 
 msgid "UNDELETED"
 msgstr ""
@@ -766,10 +766,10 @@ msgid "Unknow Image!"
 msgstr ""
 
 msgid "Update"
-msgstr ""
+msgstr "अद्यतन"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "अद्यतन निरस्त किया गया!"
 
 msgid "Update OSCam Tivusat codes"
 msgstr ""
@@ -781,13 +781,13 @@ msgid "Uphops +"
 msgstr ""
 
 msgid "Uphops -"
-msgstr ""
+msgstr "उफ़ॉप्स -"
 
 msgid "Uphops:"
 msgstr ""
 
 msgid "Uptime"
-msgstr ""
+msgstr "अपटाइम"
 
 msgid "Used:"
 msgstr ""

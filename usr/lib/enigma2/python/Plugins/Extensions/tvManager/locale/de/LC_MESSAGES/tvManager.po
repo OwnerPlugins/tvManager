@@ -301,7 +301,7 @@ msgid "Error getting resource information"
 msgstr "Fehler beim Abrufen der Ressourceninformationen"
 
 msgid "Error loading system info:"
-msgstr ""
+msgstr "Fehler beim Laden der Systeminformationen:"
 
 #, fuzzy
 msgid "Error loading system information:"
@@ -543,7 +543,7 @@ msgid "Quick restart %s?"
 msgstr "Schneller Neustart %s?"
 
 msgid "Read Userdata from %s.conf"
-msgstr ""
+msgstr "Benutzerdaten aus %s.conf lesen"
 
 msgid "Reader"
 msgstr "Leser"
@@ -821,8 +821,9 @@ msgstr "Write-Debug"
 msgid "You have the latest version!"
 msgstr "Sie haben die neueste Version!"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tBereitstellen:"
+msgstr "Anbieter:"
 
 msgid "address:"
 msgstr "Adresse:"
@@ -925,6 +926,9 @@ msgstr "mit:"
 
 msgid "xLine"
 msgstr "xLine"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tBereitstellen:"
 
 #~ msgid "-"
 #~ msgstr "-"

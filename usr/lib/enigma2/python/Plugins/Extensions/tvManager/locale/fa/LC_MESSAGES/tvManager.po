@@ -13,910 +13,910 @@ msgstr ""
 # Copyright (C) 2026 Lululla Team
 #
 msgid "%s ( %s Cards )"
-msgstr ""
+msgstr "%s ( %s کارت )"
 
 msgid "%s Info - Configuration"
-msgstr ""
+msgstr "اطلاعات %s - پیکربندی"
 
 msgid "%s Info - Main Menu"
-msgstr ""
+msgstr "اطلاعات %s - منوی اصلی"
 
 msgid "%s restarted successfully!"
-msgstr ""
+msgstr "%s با موفقیت راه اندازی مجدد شد!"
 
 msgid "(Active)"
-msgstr ""
+msgstr "(فعال)"
 
 msgid "(All readers)"
-msgstr ""
+msgstr "(همه خوانندگان)"
 
 msgid "(Not running)"
-msgstr ""
+msgstr "(در حال اجرا نیست)"
 
 msgid "(Show only reader) (%s)"
-msgstr ""
+msgstr "(نمایش فقط خواننده) (%s)"
 
 msgid "About"
-msgstr ""
+msgstr "درباره"
 
 msgid "Activate"
-msgstr ""
+msgstr "فعال کنید"
 
 msgid "Activate Insert line in Config File:"
-msgstr ""
+msgstr "فعال کردن Insert Line در Config File:"
 
 msgid "Active clients"
-msgstr ""
+msgstr "مشتریان فعال"
 
 msgid "Add"
-msgstr ""
+msgstr "اضافه کنید"
 
 msgid "Add new CCcam line"
-msgstr ""
+msgstr "خط CCcam جدید اضافه کنید"
 
 msgid "Add new NewCamd line"
-msgstr ""
+msgstr "اضافه کردن خط جدید NewCamd"
 
 msgid "Address"
-msgstr ""
+msgstr "آدرس"
 
 msgid "All"
-msgstr ""
+msgstr "همه"
 
 msgid "An error occurred in the green function."
-msgstr ""
+msgstr "خطایی در تابع سبز رخ داد."
 
 msgid "An unexpected error occurred: %s"
-msgstr ""
+msgstr "یک خطای غیرمنتظره روی داد: %s"
 
 msgid "Ask all caid"
-msgstr ""
+msgstr "از همه کاید بپرس"
 
 msgid "Ask for the selection caid"
-msgstr ""
+msgstr "کاید انتخاب را بخواهید"
 
 msgid "Automatically update Client/Server View?"
-msgstr ""
+msgstr "به‌روزرسانی خودکار نمای کلاینت/سرور؟"
 
 msgid "Available shares:"
-msgstr ""
+msgstr "سهام موجود:"
 
 msgid "Back"
-msgstr ""
+msgstr "برگشت"
 
 msgid "Backup failed!"
-msgstr ""
+msgstr "پشتیبان گیری انجام نشد!"
 
 msgid "Backup restoration failed!"
-msgstr ""
+msgstr "بازیابی پشتیبان انجام نشد!"
 
 msgid "CCPrioMaker Settings"
-msgstr ""
+msgstr "تنظیمات CCprioMaker"
 
 msgid "CCPrioMaker autostart"
-msgstr ""
+msgstr "راه اندازی خودکار CCPrioMaker"
 
 msgid "CCcam"
-msgstr ""
+msgstr "cccam"
 
 msgid "CCcam Clients Info"
-msgstr ""
+msgstr "اطلاعات مشتریان CCcam"
 
 msgid "CCcam Config Switcher"
-msgstr ""
+msgstr "سوئیچر پیکربندی CCcam"
 
 msgid "CCcam ECM Info"
-msgstr ""
+msgstr "اطلاعات CCcam ECM"
 
 msgid "CCcam Info"
-msgstr ""
+msgstr "اطلاعات CCcam"
 
 msgid "CCcam Info %s"
-msgstr ""
+msgstr "اطلاعات CCcam %s"
 
 msgid "CCcam Info Config"
-msgstr ""
+msgstr "پیکربندی اطلاعات CCcam"
 
 msgid "CCcam Info Config Menu"
-msgstr ""
+msgstr "منوی پیکربندی اطلاعات CCcam"
 
 msgid "CCcam Line Editor"
-msgstr ""
+msgstr "ویرایشگر خط CCcam"
 
 msgid "CCcam Organizer"
-msgstr ""
+msgstr "سازمان دهنده CCcam"
 
 msgid "CCcam Prio Maker"
 msgstr ""
 
 msgid "CCcam Provider Info"
-msgstr ""
+msgstr "اطلاعات ارائه دهنده CCcam"
 
 msgid "CCcam Remote Info"
-msgstr ""
+msgstr "اطلاعات از راه دور CCcam"
 
 msgid "CCcam Server Info"
-msgstr ""
+msgstr "اطلاعات سرور CCcam"
 
 msgid "CCcam Share Info"
-msgstr ""
+msgstr "اطلاعات اشتراک گذاری CCcam"
 
 msgid "CCcam Shares Info"
-msgstr ""
+msgstr "اطلاعات اشتراک‌گذاری CCcam"
 
 msgid "CCcam.cfg Basic Line Editor"
-msgstr ""
+msgstr "CCcam.cfg ویرایشگر خط اصلی"
 
 msgid "CaID:"
 msgstr ""
 
 msgid "Caid"
-msgstr ""
+msgstr "کاید"
 
 msgid "Caid:"
-msgstr ""
+msgstr "کید:"
 
 msgid "Caid:Srvid"
-msgstr ""
+msgstr "کاید: سروید"
 
 msgid "Cam Download"
-msgstr ""
+msgstr "بادامک دانلود"
 
 msgid "Cancel"
-msgstr ""
+msgstr "لغو کنید"
 
 msgid "Card info (CCcam-Reader)"
-msgstr ""
+msgstr "اطلاعات کارت (CCcam-Reader)"
 
 msgid "Cards:"
-msgstr ""
+msgstr "کارت ها:"
 
 msgid "Cards: 0"
-msgstr ""
+msgstr "کارت: 0"
 
 msgid "Cardserial"
 msgstr ""
 
 msgid "Channel"
-msgstr ""
+msgstr "کانال"
 
 msgid "Channel Name"
-msgstr ""
+msgstr "نام کانال"
 
 msgid "Check Emm Send"
-msgstr ""
+msgstr "Emm Send را بررسی کنید"
 
 msgid "Choose CCcam-Reader"
-msgstr ""
+msgstr "CCcam-Reader را انتخاب کنید"
 
 msgid "Choose reader"
-msgstr ""
+msgstr "خواننده را انتخاب کنید"
 
 msgid "Cleanup error: %s"
-msgstr ""
+msgstr "خطای پاکسازی: %s"
 
 msgid "Client %s-%s"
-msgstr ""
+msgstr "مشتری %s-%s"
 
 msgid "Clients"
-msgstr ""
+msgstr "مشتریان"
 
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 msgid "Configfile %s saved."
-msgstr ""
+msgstr "پیکربندی %s ذخیره شد."
 
 msgid "Connected clients"
-msgstr ""
+msgstr "مشتریان متصل"
 
 msgid "Connected:"
-msgstr ""
+msgstr "متصل:"
 
 msgid "Content"
-msgstr ""
+msgstr "محتوا"
 
 msgid "Could not open the file %s!"
-msgstr ""
+msgstr "فایل %s باز نشد!"
 
 msgid "Could not open the file %s! Error: %s"
-msgstr ""
+msgstr "فایل %s باز نشد! خطا: %s"
 
 msgid "Could not save configfile %s! Error: %s"
-msgstr ""
+msgstr "پیکربندی %s ذخیره نشد! خطا: %s"
 
 msgid "Could not save the config file! Error: %s"
-msgstr ""
+msgstr "فایل پیکربندی ذخیره نشد! خطا: %s"
 
 msgid "Current time"
-msgstr ""
+msgstr "زمان فعلی"
 
 msgid "DES key (28 hex)"
-msgstr ""
+msgstr "کلید DES (28 هگز)"
 
 msgid "Delete"
-msgstr ""
+msgstr "حذف کنید"
 
 msgid "Delete %s?"
-msgstr ""
+msgstr "%s حذف شود؟"
 
 msgid "Delete Peer"
-msgstr ""
+msgstr "همتا را حذف کنید"
 
 msgid "Delete failed!"
-msgstr ""
+msgstr "حذف نشد!"
 
 msgid "Deleted %s!"
-msgstr ""
+msgstr "%s حذف شد!"
 
 msgid "Do you install this plugin ?"
-msgstr ""
+msgstr "آیا این افزونه را نصب می کنید؟"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "آیا می خواهید حذف کنید؟"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "آیا می خواهید رابط کاربری Gui را مجددا راه اندازی کنید؟"
 
 msgid "ECM file empty"
-msgstr ""
+msgstr "فایل ECM خالی است"
 
 msgid "ECM read error"
-msgstr ""
+msgstr "خطای خواندن ECM"
 
 msgid "Ecm Info"
-msgstr ""
+msgstr "اطلاعات Ecm"
 
 msgid "Ecm Statistics"
-msgstr ""
+msgstr "آمار Ecm"
 
 msgid "Ecm Time"
-msgstr ""
+msgstr "زمان Ecm"
 
 msgid "Ecm avg"
-msgstr ""
+msgstr "میانگین Ecm"
 
 msgid "Ecm last"
-msgstr ""
+msgstr "Ecm آخرین"
 
 msgid "Edit"
-msgstr ""
+msgstr "ویرایش کنید"
 
 msgid "Editing one caid"
-msgstr ""
+msgstr "در حال ویرایش یک کید"
 
 msgid "Emm Info"
-msgstr ""
+msgstr "اطلاعات ارم"
 
 msgid "Entitlements"
-msgstr ""
+msgstr "حقوق"
 
 msgid "Error"
-msgstr ""
+msgstr "خطا"
 
 msgid "Error getting resource information"
-msgstr ""
+msgstr "خطا در دریافت اطلاعات منبع"
 
 msgid "Error loading system info:"
-msgstr ""
+msgstr "خطا در بارگیری اطلاعات سیستم:"
 
 msgid "Error loading system information:"
-msgstr ""
+msgstr "خطا در بارگیری اطلاعات سیستم:"
 
 msgid "Error opening cam info: %s"
-msgstr ""
+msgstr "خطا در باز کردن اطلاعات دوربین: %s"
 
 msgid "Error processing HTML!"
-msgstr ""
+msgstr "خطا در پردازش HTML!"
 
 msgid "Error processing server addons data"
-msgstr ""
+msgstr "خطا در پردازش داده های افزونه های سرور"
 
 msgid "Error reading webpage!"
-msgstr ""
+msgstr "خطا در خواندن صفحه وب!"
 
 msgid "Error stopping %s!"
-msgstr ""
+msgstr "خطا در توقف %s!"
 
 msgid "Error while editing configuration: %s"
-msgstr ""
+msgstr "خطا هنگام ویرایش پیکربندی: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "خارج شوید"
 
 msgid "Extended Shares"
-msgstr ""
+msgstr "سهام گسترده"
 
 msgid "Failed to revert file: %s"
-msgstr ""
+msgstr "فایل بازگردانی نشد: %s"
 
 msgid "Find Fakes"
-msgstr ""
+msgstr "جعلی را پیدا کنید"
 
 msgid "Force Update"
-msgstr ""
+msgstr "به روز رسانی اجباری"
 
 msgid "Free memory"
-msgstr ""
+msgstr "حافظه آزاد"
 
 msgid "Free memory:"
-msgstr ""
+msgstr "حافظه آزاد:"
 
 msgid "Free:"
-msgstr ""
+msgstr "رایگان:"
 
 msgid "General"
-msgstr ""
+msgstr "ژنرال"
 
 msgid "Get Link"
-msgstr ""
+msgstr "دریافت لینک"
 
 msgid "Getting the list, please wait ..."
-msgstr ""
+msgstr "در حال دریافت لیست، لطفا صبر کنید..."
 
 msgid "Help"
-msgstr ""
+msgstr "کمک کنید"
 
 msgid "Hops"
-msgstr ""
+msgstr "رازک"
 
 msgid "Hops:"
-msgstr ""
+msgstr "رازک:"
 
 msgid "Hostname:"
-msgstr ""
+msgstr "نام میزبان:"
 
 msgid "IP Address"
-msgstr ""
+msgstr "آدرس IP"
 
 msgid "IP address"
-msgstr ""
+msgstr "آدرس IP"
 
 msgid "IP address / host"
-msgstr ""
+msgstr "آدرس IP / میزبان"
 
 msgid "Idle Time:"
-msgstr ""
+msgstr "زمان بیکاری:"
 
 msgid "If Active: Download/Reset Server Config"
-msgstr ""
+msgstr "در صورت فعال بودن: پیکربندی سرور را دانلود/تنظیم مجدد کنید"
 
 msgid "Install Cam first!!!"
-msgstr ""
+msgstr "ابتدا دوربین را نصب کنید!!!"
 
 msgid "Install developer update (%s)?"
-msgstr ""
+msgstr "به‌روزرسانی برنامه‌نویس (%s) نصب شود؟"
 
 msgid "Invalid HTML content!"
-msgstr ""
+msgstr "محتوای HTML نامعتبر است!"
 
 msgid "Invalid URL!"
-msgstr ""
+msgstr "URL نامعتبر است!"
 
 msgid "Last Req."
-msgstr ""
+msgstr "آخرین درخواست"
 
 msgid "Last used share:"
-msgstr ""
+msgstr "آخرین اشتراک استفاده شده:"
 
 msgid "Load"
-msgstr ""
+msgstr "بارگذاری کنید"
 
 msgid "Local box"
-msgstr ""
+msgstr "جعبه محلی"
 
 msgid "Location"
-msgstr ""
+msgstr "مکان"
 
 msgid "Log"
-msgstr ""
+msgstr "ورود به سیستم"
 
 msgid "Log %s-%s"
-msgstr ""
+msgstr "گزارش %s-%s"
 
 msgid "MENU EMM / SERVER CLINE"
 msgstr ""
 
 msgid "Maxdown +"
-msgstr ""
+msgstr "مکس داون +"
 
 msgid "Maxdown -"
-msgstr ""
+msgstr "مکس داون -"
 
 msgid "Maxdown:"
-msgstr ""
+msgstr "مکس داون:"
 
 msgid "Menu config"
-msgstr ""
+msgstr "تنظیمات منو"
 
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
 msgid "Ncam not running - start Cam to obtain information."
-msgstr ""
+msgstr "Ncam اجرا نمی شود - Cam را برای به دست آوردن اطلاعات راه اندازی کنید."
 
 msgid "New"
-msgstr ""
+msgstr "جدید"
 
 msgid "New profile:"
-msgstr ""
+msgstr "پروفایل جدید:"
 
 msgid "NewCamd"
 msgstr ""
 
 msgid "No ECM (clear channel or cam not decoding)"
-msgstr ""
+msgstr "بدون ECM (پاک کردن کانال یا دوربین بدون رمزگشایی)"
 
 msgid "No ECM data"
-msgstr ""
+msgstr "داده ECM وجود ندارد"
 
 msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr ""
+msgstr "هیچ اطلاعات ECM در حال حاضر در دسترس نیست. این فقط هنگام رمزگشایی در دسترس است."
 
 msgid "No active cam to restart!"
-msgstr ""
+msgstr "بدون دوربین فعال برای راه اندازی مجدد!"
 
 msgid "No backups available!"
-msgstr ""
+msgstr "هیچ نسخه پشتیبان در دسترس نیست!"
 
 msgid "No card inserted!"
-msgstr ""
+msgstr "هیچ کارتی درج نشده است!"
 
 msgid "No default file for %s"
-msgstr ""
+msgstr "هیچ فایل پیش‌فرضی برای %s وجود ندارد"
 
 msgid "No softcams available!"
-msgstr ""
+msgstr "هیچ نرم افزاری در دسترس نیست!"
 
 msgid "No valid backups found!"
-msgstr ""
+msgstr "هیچ نسخه پشتیبان معتبری یافت نشد!"
 
 msgid "NodeID"
 msgstr ""
 
 msgid "NodeID:"
-msgstr ""
+msgstr "شناسه گره:"
 
 msgid "Nothing to show"
-msgstr ""
+msgstr "چیزی برای نشان دادن نیست"
 
 msgid "OK"
-msgstr ""
+msgstr "باشه"
 
 msgid "Oscam not running - start Cam to obtain information."
-msgstr ""
+msgstr "Oscam اجرا نمی شود - برای به دست آوردن اطلاعات دوربین را راه اندازی کنید."
 
 msgid "Password"
-msgstr ""
+msgstr "رمز عبور"
 
 msgid "Password (httpwd)"
-msgstr ""
+msgstr "رمز عبور (httpwd)"
 
 msgid "Peak load (max queued requests per workerthread)"
-msgstr ""
+msgstr "اوج بار (حداکثر درخواست های صف در هر نخ کاری)"
 
 msgid "Pid"
-msgstr ""
+msgstr "پید"
 
 msgid "Please Reset - No File CFG"
-msgstr ""
+msgstr "لطفاً تنظیم مجدد - فایل CFG وجود ندارد"
 
 msgid "Please select ..."
-msgstr ""
+msgstr "لطفا انتخاب کنید..."
 
 msgid "Please select a line to edit or select add to create new line."
-msgstr ""
+msgstr "لطفاً یک خط را برای ویرایش یا افزودن برای ایجاد خط جدید انتخاب کنید."
 
 msgid "Port"
-msgstr ""
+msgstr "بندر"
 
 msgid "Profile"
-msgstr ""
+msgstr "نمایه"
 
 msgid "Profile: Local box"
-msgstr ""
+msgstr "مشخصات: جعبه محلی"
 
 msgid "Protocol"
-msgstr ""
+msgstr "پروتکل"
 
 msgid "Provider"
-msgstr ""
+msgstr "ارائه دهنده"
 
 msgid "Provider Name:"
-msgstr ""
+msgstr "نام ارائه دهنده:"
 
 msgid "Provider:"
-msgstr ""
+msgstr "ارائه دهنده:"
 
 msgid "Providers"
-msgstr ""
+msgstr "ارائه دهندگان"
 
 msgid "Providers:"
-msgstr ""
+msgstr "ارائه دهندگان:"
 
 msgid "Quick restart %s?"
-msgstr ""
+msgstr "راه اندازی مجدد سریع %s؟"
 
 msgid "Read Userdata from %s.conf"
-msgstr ""
+msgstr "داده های کاربر را از %s.conf بخوانید"
 
 msgid "Reader"
-msgstr ""
+msgstr "خواننده"
 
 msgid "Reader Statistics"
-msgstr ""
+msgstr "آمار خواننده"
 
 msgid "Reader/User"
-msgstr ""
+msgstr "خواننده/کاربر"
 
 msgid "Recover Peer"
-msgstr ""
+msgstr "همتا را بازیابی کنید"
 
 msgid "Remote box"
-msgstr ""
+msgstr "جعبه از راه دور"
 
 msgid "Remove"
-msgstr ""
+msgstr "حذف کنید"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "در حال حذف %s"
 
 msgid "Rename"
-msgstr ""
+msgstr "تغییر نام دهید"
 
 msgid "Rename failed!"
-msgstr ""
+msgstr "تغییر نام انجام نشد!"
 
 msgid "Rename to:"
-msgstr ""
+msgstr "تغییر نام به:"
 
 msgid "Renamed %s!"
-msgstr ""
+msgstr "تغییر نام %s!"
 
 msgid "Reset"
-msgstr ""
+msgstr "بازنشانی کنید"
 
 msgid "Reshare"
-msgstr ""
+msgstr "اشتراک گذاری مجدد"
 
 msgid "Reshare:"
-msgstr ""
+msgstr "به اشتراک بگذارید:"
 
 msgid "Resources"
-msgstr ""
+msgstr "منابع"
 
 msgid "Restart"
-msgstr ""
+msgstr "راه اندازی مجدد"
 
 msgid "Restart GUI?"
-msgstr ""
+msgstr "رابط کاربری گرافیکی مجدد راه اندازی شود؟"
 
 msgid "Restart error: %s"
-msgstr ""
+msgstr "خطای راه اندازی مجدد: %s"
 
 msgid "Restart softcam to apply restored configuration?"
-msgstr ""
+msgstr "برای اعمال پیکربندی بازیابی شده، نرم افزار را راه اندازی مجدد کنید؟"
 
 msgid "Running cams"
-msgstr ""
+msgstr "دوربین های در حال اجرا"
 
 msgid "Save"
-msgstr ""
+msgstr "ذخیره کنید"
 
 msgid "Scanning and retrieval list softcam ..."
-msgstr ""
+msgstr "اسکن و بازیابی لیست نرم افزار..."
 
 msgid "Select CCcam"
-msgstr ""
+msgstr "CCcam را انتخاب کنید"
 
 msgid "Select Get Link"
-msgstr ""
+msgstr "دریافت پیوند را انتخاب کنید"
 
 msgid "Select Ncam"
-msgstr ""
+msgstr "Ncam را انتخاب کنید"
 
 msgid "Select OScam"
-msgstr ""
+msgstr "OScam را انتخاب کنید"
 
 msgid "Select Your Choice"
-msgstr ""
+msgstr "انتخاب خود را انتخاب کنید"
 
 msgid "Select a cam to run ..."
-msgstr ""
+msgstr "یک دوربین برای اجرا انتخاب کنید..."
 
 msgid "Select and Install"
-msgstr ""
+msgstr "را انتخاب و نصب کنید"
 
 msgid "Select backup to restore:"
-msgstr ""
+msgstr "نسخه پشتیبان را برای بازیابی انتخاب کنید:"
 
 msgid "Send EMM to Tivusat card"
-msgstr ""
+msgstr "ارسال EMM به کارت Tivusat"
 
 msgid "Server"
-msgstr ""
+msgstr "سرور"
 
 msgid "Server %s-%s"
-msgstr ""
+msgstr "سرور %s-%s"
 
 msgid "Server Config"
-msgstr ""
+msgstr "پیکربندی سرور"
 
 msgid "Server Copy in"
-msgstr ""
+msgstr "کپی سرور در"
 
 msgid "Server Link"
-msgstr ""
+msgstr "لینک سرور"
 
 msgid "Server Password"
-msgstr ""
+msgstr "رمز عبور سرور"
 
 msgid "Server Port"
-msgstr ""
+msgstr "پورت سرور"
 
 msgid "Server URL"
-msgstr ""
+msgstr "آدرس سرور"
 
 msgid "Server Url i.e. 012.345.678.900"
-msgstr ""
+msgstr "آدرس سرور یعنی 012.345.678.900"
 
 msgid "Server Username"
-msgstr ""
+msgstr "نام کاربری سرور"
 
 msgid "Server:"
-msgstr ""
+msgstr "سرور:"
 
 msgid "Servers"
-msgstr ""
+msgstr "سرورها"
 
 msgid "Servers:"
-msgstr ""
+msgstr "سرورها:"
 
 msgid "Service"
-msgstr ""
+msgstr "خدمات"
 
 msgid "Set as UNIQUE PEER"
-msgstr ""
+msgstr "به عنوان UNIQUE PEER تنظیم کنید"
 
 msgid "Setup"
-msgstr ""
+msgstr "راه اندازی"
 
 msgid "Share View"
-msgstr ""
+msgstr "مشاهده را به اشتراک بگذارید"
 
 msgid "Shares"
-msgstr ""
+msgstr "سهام"
 
 msgid "Show Clients"
-msgstr ""
+msgstr "نمایش مشتریان"
 
 msgid "Show Ecm info"
-msgstr ""
+msgstr "نمایش اطلاعات Ecm"
 
 msgid "Show Log"
-msgstr ""
+msgstr "نمایش گزارش"
 
 msgid "Show Readers/Proxies"
-msgstr ""
+msgstr "نمایش خوانندگان/پراکسی ها"
 
 msgid "Softcam Manager"
-msgstr ""
+msgstr "مدیر نرم افزار"
 
 msgid "Softcam restarted with new configuration!"
-msgstr ""
+msgstr "Softcam با پیکربندی جدید راه اندازی مجدد شد!"
 
 msgid "Start"
-msgstr ""
+msgstr "شروع کنید"
 
 msgid "Status"
-msgstr ""
+msgstr "وضعیت"
 
 msgid "Stop"
-msgstr ""
+msgstr "توقف کنید"
 
 msgid "Stop Finding Fakes"
-msgstr ""
+msgstr "دست از یافتن تقلبی بردارید"
 
 msgid "Switch config"
-msgstr ""
+msgstr "پیکربندی را تغییر دهید"
 
 msgid "System"
-msgstr ""
+msgstr "سیستم"
 
 msgid "System cleanup completed!"
-msgstr ""
+msgstr "پاکسازی سیستم کامل شد!"
 
 msgid "System:"
-msgstr ""
+msgstr "سیستم:"
 
 msgid "Temporarily DELETED"
-msgstr ""
+msgstr "به طور موقت حذف شد"
 
 msgid "The DES key must have 28 hex digits."
-msgstr ""
+msgstr "کلید DES باید دارای 28 رقم هگزا باشد."
 
 msgid "This plugin shows you the status of your CCcam"
-msgstr ""
+msgstr "این افزونه وضعیت دوربین مدار بسته خود را به شما نشان می دهد"
 
 msgid "Total"
-msgstr ""
+msgstr "مجموع"
 
 msgid "Total cards:"
-msgstr ""
+msgstr "مجموع کارت ها:"
 
 msgid "Total handled client ecm's"
-msgstr ""
+msgstr "کل مشتری ecm به کار گرفته شده است"
 
 msgid "Total handled client emm's"
-msgstr ""
+msgstr "مجموع EMM's مشتری"
 
 msgid "Total:"
-msgstr ""
+msgstr "مجموع:"
 
 msgid "Try again later ..."
-msgstr ""
+msgstr "بعدا دوباره امتحان کنید..."
 
 msgid "Type:"
-msgstr ""
+msgstr "نوع:"
 
 msgid "UNDELETED"
-msgstr ""
+msgstr "حذف نشده"
 
 msgid "Unknow Image!"
-msgstr ""
+msgstr "تصویر ناشناخته!"
 
 msgid "Update"
-msgstr ""
+msgstr "به روز رسانی"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "به روز رسانی لغو شد!"
 
 msgid "Update OSCam Tivusat codes"
-msgstr ""
+msgstr "کدهای OSCam Tivusat را به روز کنید"
 
 msgid "Update interval (in seconds)"
-msgstr ""
+msgstr "فاصله به روز رسانی (در ثانیه)"
 
 msgid "Uphops +"
-msgstr ""
+msgstr "Upphops +"
 
 msgid "Uphops -"
-msgstr ""
+msgstr "یو پی اس -"
 
 msgid "Uphops:"
-msgstr ""
+msgstr "یو پی اس ها:"
 
 msgid "Uptime"
-msgstr ""
+msgstr "آپتایم"
 
 msgid "Used:"
-msgstr ""
+msgstr "مورد استفاده:"
 
 msgid "Username"
-msgstr ""
+msgstr "نام کاربری"
 
 msgid "Username (httpuser)"
-msgstr ""
+msgstr "نام کاربری (httpuser)"
 
 msgid "Using old profile:"
-msgstr ""
+msgstr "استفاده از پروفایل قدیمی:"
 
 msgid "Version:"
-msgstr ""
+msgstr "نسخه:"
 
 msgid "Wait please..."
-msgstr ""
+msgstr "صبر کن لطفا..."
 
 msgid "Write"
-msgstr ""
+msgstr "بنویسید"
 
 msgid "Write-Debug"
 msgstr ""
 
 msgid "You have the latest version!"
-msgstr ""
+msgstr "شما آخرین نسخه را دارید!"
 
 msgid "\\\\\\\\tProvid:"
-msgstr ""
+msgstr "\\\\\\\\\\\\\\\\tارائه کنید:"
 
 msgid "address:"
-msgstr ""
+msgstr "آدرس:"
 
 msgid "and"
-msgstr ""
+msgstr "و"
 
 msgid "caid:"
-msgstr ""
+msgstr "کید:"
 
 msgid "card"
-msgstr ""
+msgstr "کارت"
 
 msgid "card reader"
-msgstr ""
+msgstr "کارت خوان"
 
 msgid "close share view"
-msgstr ""
+msgstr "بستن نمای اشتراک"
 
 msgid "decrease uphop by 1"
-msgstr ""
+msgstr "افزایش 1 را کاهش دهید"
 
 msgid "ecm time:"
-msgstr ""
+msgstr "زمان ecm:"
 
 msgid "ecm.info"
 msgstr ""
 
 msgid "emm_sender.sh not found"
-msgstr ""
+msgstr "emm_sender.sh پیدا نشد"
 
 msgid "get the cards' server"
-msgstr ""
+msgstr "سرور کارت ها را دریافت کنید"
 
 msgid "handled"
-msgstr ""
+msgstr "رسیدگی می شود"
 
 msgid "hops:"
-msgstr ""
+msgstr "رازک:"
 
 msgid "increase uphop by 1"
-msgstr ""
+msgstr "افزایش 1"
 
 msgid "info"
-msgstr ""
+msgstr "اطلاعات"
 
 msgid "no or unknown card inserted"
-msgstr ""
+msgstr "کارت وجود ندارد یا ناشناس وارد شده است"
 
 msgid "pid:"
 msgstr ""
 
 msgid "provid:"
-msgstr ""
+msgstr "فراهم می کند:"
 
 msgid "provider:"
-msgstr ""
+msgstr "ارائه دهنده:"
 
 msgid "share:"
-msgstr ""
+msgstr "اشتراک گذاری:"
 
 msgid "show all cards"
-msgstr ""
+msgstr "نمایش همه کارت ها"
 
 msgid "show cards with uphop 0"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 0"
 
 msgid "show cards with uphop 1"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 1"
 
 msgid "show cards with uphop 2"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 2"
 
 msgid "show cards with uphop 3"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 3"
 
 msgid "show cards with uphop 4"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 4"
 
 msgid "show cards with uphop 5"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 5"
 
 msgid "show cards with uphop 6"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 6"
 
 msgid "show cards with uphop 7"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 7"
 
 msgid "show cards with uphop 8"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 8"
 
 msgid "show cards with uphop 9"
-msgstr ""
+msgstr "نشان دادن کارت با uphop 9"
 
 msgid "system:"
-msgstr ""
+msgstr "سیستم:"
 
 msgid "using:"
-msgstr ""
+msgstr "با استفاده از:"
 
 msgid "xLine"
 msgstr ""

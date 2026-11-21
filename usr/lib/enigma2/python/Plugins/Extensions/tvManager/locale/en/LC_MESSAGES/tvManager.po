@@ -817,8 +817,9 @@ msgstr "Write-Debug"
 msgid "You have the latest version!"
 msgstr "You have the latest version!"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\tProvid:"
+msgstr "Provider:"
 
 msgid "address:"
 msgstr "address:"
@@ -921,3 +922,6 @@ msgstr "using:"
 
 msgid "xLine"
 msgstr "xLine"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\tProvid:"
