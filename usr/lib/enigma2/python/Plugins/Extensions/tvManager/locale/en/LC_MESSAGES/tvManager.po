@@ -442,6 +442,9 @@ msgstr "New"
 msgid "New profile:"
 msgstr "New profile:"
 
+msgid "New version %s available - press INFO to update"
+msgstr ""
+
 msgid "NewCamd"
 msgstr "NewCamd"
 
@@ -778,6 +781,9 @@ msgstr "Update OSCam Tivusat codes"
 msgid "Update interval (in seconds)"
 msgstr "Update interval (in seconds)"
 
+msgid "Upgrading..."
+msgstr ""
+
 msgid "Uphops +"
 msgstr "Uphops +"
 
@@ -818,7 +824,7 @@ msgid "You have the latest version!"
 msgstr "You have the latest version!"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Provider:"
 
 msgid "address:"
@@ -922,6 +928,10 @@ msgstr "using:"
 
 msgid "xLine"
 msgstr "xLine"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Provider:"
 
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\tProvid:"

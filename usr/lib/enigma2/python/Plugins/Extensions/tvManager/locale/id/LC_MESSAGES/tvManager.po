@@ -13,115 +13,115 @@ msgstr ""
 # Copyright (C) 2026 Lululla Team
 #
 msgid "%s ( %s Cards )"
-msgstr ""
+msgstr "%s ( %s Kartu )"
 
 msgid "%s Info - Configuration"
-msgstr ""
+msgstr "%s Info - Konfigurasi"
 
 msgid "%s Info - Main Menu"
-msgstr ""
+msgstr "%s Info - Menu Utama"
 
 msgid "%s restarted successfully!"
-msgstr ""
+msgstr "%s berhasil dimulai ulang!"
 
 msgid "(Active)"
-msgstr ""
+msgstr "(Aktif)"
 
 msgid "(All readers)"
-msgstr ""
+msgstr "(Semua pembaca)"
 
 msgid "(Not running)"
-msgstr ""
+msgstr "(Tidak berjalan)"
 
 msgid "(Show only reader) (%s)"
-msgstr ""
+msgstr "(Tampilkan pembaca saja) (%s)"
 
 msgid "About"
-msgstr ""
+msgstr "Tentang"
 
 msgid "Activate"
-msgstr ""
+msgstr "Mengaktifkan"
 
 msgid "Activate Insert line in Config File:"
-msgstr ""
+msgstr "Aktifkan Sisipkan baris di File Konfigurasi:"
 
 msgid "Active clients"
-msgstr ""
+msgstr "Klien aktif"
 
 msgid "Add"
-msgstr ""
+msgstr "Menambahkan"
 
 msgid "Add new CCcam line"
-msgstr ""
+msgstr "Tambahkan baris CCcam baru"
 
 msgid "Add new NewCamd line"
-msgstr ""
+msgstr "Tambahkan baris NewCamd baru"
 
 msgid "Address"
-msgstr ""
+msgstr "Alamat"
 
 msgid "All"
-msgstr ""
+msgstr "Semua"
 
 msgid "An error occurred in the green function."
-msgstr ""
+msgstr "Terjadi kesalahan pada fungsi hijau."
 
 msgid "An unexpected error occurred: %s"
-msgstr ""
+msgstr "Terjadi kesalahan tak terduga: %s"
 
 msgid "Ask all caid"
-msgstr ""
+msgstr "Tanya semua caid"
 
 msgid "Ask for the selection caid"
-msgstr ""
+msgstr "Mintalah caid seleksi"
 
 msgid "Automatically update Client/Server View?"
-msgstr ""
+msgstr "Perbarui Tampilan Klien/Server secara otomatis?"
 
 msgid "Available shares:"
-msgstr ""
+msgstr "Saham yang tersedia:"
 
 msgid "Back"
-msgstr ""
+msgstr "Kembali"
 
 msgid "Backup failed!"
-msgstr ""
+msgstr "Pencadangan gagal!"
 
 msgid "Backup restoration failed!"
 msgstr ""
 
 msgid "CCPrioMaker Settings"
-msgstr ""
+msgstr "Pengaturan CCPrioMaker"
 
 msgid "CCPrioMaker autostart"
 msgstr ""
 
 msgid "CCcam"
-msgstr ""
+msgstr "cccam"
 
 msgid "CCcam Clients Info"
-msgstr ""
+msgstr "Info Klien CCcam"
 
 msgid "CCcam Config Switcher"
-msgstr ""
+msgstr "Pengalih Konfigurasi CCcam"
 
 msgid "CCcam ECM Info"
-msgstr ""
+msgstr "Info ECM CCcam"
 
 msgid "CCcam Info"
-msgstr ""
+msgstr "Info kamera CC"
 
 msgid "CCcam Info %s"
-msgstr ""
+msgstr "Info Kamera CC %s"
 
 msgid "CCcam Info Config"
-msgstr ""
+msgstr "Konfigurasi Info CCcam"
 
 msgid "CCcam Info Config Menu"
 msgstr ""
 
 msgid "CCcam Line Editor"
-msgstr ""
+msgstr "Editor Jalur CCcam"
 
 msgid "CCcam Organizer"
 msgstr ""
@@ -136,13 +136,13 @@ msgid "CCcam Remote Info"
 msgstr ""
 
 msgid "CCcam Server Info"
-msgstr ""
+msgstr "Info Server CCcam"
 
 msgid "CCcam Share Info"
 msgstr ""
 
 msgid "CCcam Shares Info"
-msgstr ""
+msgstr "CCcam Berbagi Info"
 
 msgid "CCcam.cfg Basic Line Editor"
 msgstr ""
@@ -439,6 +439,9 @@ msgid "New"
 msgstr ""
 
 msgid "New profile:"
+msgstr ""
+
+msgid "New version %s available - press INFO to update"
 msgstr ""
 
 msgid "NewCamd"
@@ -775,6 +778,9 @@ msgid "Update OSCam Tivusat codes"
 msgstr ""
 
 msgid "Update interval (in seconds)"
+msgstr ""
+
+msgid "Upgrading..."
 msgstr ""
 
 msgid "Uphops +"

@@ -441,6 +441,9 @@ msgstr ""
 msgid "New profile:"
 msgstr ""
 
+msgid "New version %s available - press INFO to update"
+msgstr ""
+
 msgid "NewCamd"
 msgstr ""
 
@@ -775,6 +778,9 @@ msgid "Update OSCam Tivusat codes"
 msgstr ""
 
 msgid "Update interval (in seconds)"
+msgstr ""
+
+msgid "Upgrading..."
 msgstr ""
 
 msgid "Uphops +"

@@ -446,6 +446,10 @@ msgstr "Neu"
 msgid "New profile:"
 msgstr "Neues Profil:"
 
+#, fuzzy
+msgid "New version %s available - press INFO to update"
+msgstr "Neue Version %s ist verfügbar\\\\n\\\\nÄnderungsprotokoll: %s\\\\n\\\\nDrücken Sie die gelbe Taste, um zu aktualisieren."
+
 msgid "NewCamd"
 msgstr "NewCamd"
 
@@ -782,6 +786,9 @@ msgstr "Aktualisieren Sie die OSCam Tivusat-Codes"
 msgid "Update interval (in seconds)"
 msgstr "Aktualisierungsintervall (in Sekunden)"
 
+msgid "Upgrading..."
+msgstr "Aktualisierung..."
+
 msgid "Uphops +"
 msgstr "Uphops +"
 
@@ -822,7 +829,7 @@ msgid "You have the latest version!"
 msgstr "Sie haben die neueste Version!"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\tProvid:"
 msgstr "Anbieter:"
 
 msgid "address:"
@@ -927,6 +934,10 @@ msgstr "mit:"
 msgid "xLine"
 msgstr "xLine"
 
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Anbieter:"
+
 #~ msgid "\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "\\\\\\\\\\\\\\\\tBereitstellen:"
 
@@ -998,9 +1009,6 @@ msgstr "xLine"
 
 #~ msgid "New version %s is available.\\n\\nChangelog: %s \\n\\nInstall now?"
 #~ msgstr "Neue Version %s ist verfügbar.\\n\\nÄnderungsprotokoll: %s \\n\\nJetzt installieren?"
-
-#~ msgid "New version %s is available\\n\\nChangelog: %s\\n\\nPress yellow button to update."
-#~ msgstr "Neue Version %s ist verfügbar\\n\\nÄnderungsprotokoll: %s\\n\\nDrücken Sie die gelbe Taste, um zu aktualisieren."
 
 #~ msgid "No ECM info is currently available."
 #~ msgstr "Derzeit sind keine ECM-Informationen verfügbar."
