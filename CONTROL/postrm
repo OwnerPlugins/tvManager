@@ -1,66 +1,35 @@
-﻿#!/bin/sh
+#!/bin/sh
+# tvManager - post-removal (busybox sh)
+# Called with "remove"/"purge" when the plugin is removed and with "upgrade"
+# (and others) during an upgrade: only clean up on a real removal, otherwise
+# the selected cam would be lost at every update.
 
-# **************************************
-# Softcam Manager - Post Removal Script
-# **************************************
+case "$1" in
+    remove|purge) ;;
+    *) exit 0 ;;
+esac
 
-echo "========================================"
-echo "Softcam Manager - Cleaning System"
-echo "========================================"
+for PLUGIN_DIR in /usr/lib/enigma2/python/Plugins/Extensions/tvManager \
+                  /usr/lib64/enigma2/python/Plugins/Extensions/tvManager; do
+    # files not owned by the package (.pyc, __pycache__, local settings)
+    [ -d "$PLUGIN_DIR" ] && rm -rf "$PLUGIN_DIR"
+done
 
-PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/tvManager/"
+# Files written by tvManager only
+rm -f /etc/clist.list /etc/startcam.sh /etc/tvManager/last_update_check
 
-CONFIG_FILES="
-/etc/clist.list
-/etc/startcam.sh
-/etc/CurrentBhCamName
-/etc/autocam.txt
-/etc/autocam2.txt
-/tmp/softcam_backups
-"
-
-echo "Removing plugin directory..."
-if [ -d "$PLUGIN_DIR" ]; then
-    rm -rf "$PLUGIN_DIR" > /dev/null 2>&1
-    echo "✓ Plugin directory removed"
+# Cam config backups are kept on "remove", deleted on "purge"
+if [ "$1" = "purge" ]; then
+    rm -rf /etc/tvManager
 else
-    echo "⚠ Plugin directory not found"
+    rmdir /etc/tvManager 2>/dev/null
+    [ -d /etc/tvManager/backup ] && echo "tvManager: cam config backups kept in /etc/tvManager/backup"
 fi
 
-echo "Cleaning configuration files..."
-for file in $CONFIG_FILES; do
-    if [ -e "$file" ]; then
-        rm -rf "$file" > /dev/null 2>&1
-        echo "✓ Removed: $file"
-    fi
-done
-
-echo "Cleaning temporary files..."
-rm -f /tmp/*.ipk /tmp/*.deb /tmp/*.tar.gz /tmp/*.zip > /dev/null 2>&1
-echo "✓ Temporary files cleaned"
-
-if [ -f "/etc/init.d/dccamdOrig" ]; then
-    echo "Restoring original dccamd script..."
-    mv /etc/init.d/dccamdOrig /etc/init.d/dccamd > /dev/null 2>&1
-    echo "✓ Original dccamd restored"
+# Original image script moved away by the plugin autostart
+if [ -f /etc/init.d/dccamdOrig ] && [ ! -e /etc/init.d/dccamd ]; then
+    mv /etc/init.d/dccamdOrig /etc/init.d/dccamd
 fi
 
-echo "Removing symbolic links..."
-for link in "/var/bin" "/var/keys" "/var/scce" "/var/script"; do
-    if [ -L "$link" ]; then
-        rm -f "$link" > /dev/null 2>&1
-        echo "✓ Removed link: $link"
-    fi
-done
-
-echo "========================================"
-echo "Softcam Manager - Cleanup Complete"
-echo "========================================"
-echo ""
-echo " IMPORTANT: Restart Enigma2 to complete cleanup"
-echo ""
-echo "****************************************"
-echo "* Please Restart Enigma2 Now!          *"
-echo "****************************************"
-
+echo "tvManager removed - restart the GUI"
 exit 0

@@ -7,7 +7,6 @@ import json
 import subprocess
 import sys
 import time
-import threading
 from base64 import b64decode
 from datetime import datetime
 from os import (
@@ -20,10 +19,9 @@ from os import (
     chmod,
     remove,
     walk,
-    stat,
     listdir
 )
-from os.path import dirname, join, exists, islink, basename
+from os.path import dirname, join, exists, islink, getmtime
 from re import sub
 from time import sleep
 from xml.dom import minidom
@@ -75,6 +73,7 @@ from . import (
 from .data.Utils import RequestAgent, b64decoder
 from .data.GetEcmInfo import GetEcmInfo
 from .data.Console import Console
+from .data.camscripts import camscripts, resolve_cam_id, label_for
 
 ###############################################################################
 #                                                                             #
@@ -85,7 +84,7 @@ from .data.Console import Console
 #     Copyright (c) 2024-2026 Lululla. All rights reserved.                   #
 #     Skin Design by MMark. Licensed under GNU General Public License v3.0    #
 #                                                                             #
-#     Version: 3.5 Professional Edition      Build Date: 2026-11-20           #
+#     Version: 3.6 Professional Edition      Build Date: 2026-11-21           #
 #     Core Developer: Lululla                   Lead Designer: MMark          #
 #     Architecture: Multi-Platform Enigma2      Python: 2.7/3.x Compatible    #
 #                                                                             #
@@ -146,11 +145,7 @@ except ImportError:  # Python 2
 def http_get(url, timeout=15):
     """Download url (certificate checked). Returns (True, text) or (False, error)."""
     try:
-        req = Request(
-            url,
-            headers={
-                "User-Agent": AgentRequest,
-                "Accept-Encoding": "identity"})
+        req = Request(url, headers={"User-Agent": AgentRequest, "Accept-Encoding": "identity"})
         resp = urlopen(req, timeout=timeout)
         data = resp.read()
         resp.close()
@@ -175,6 +170,45 @@ def version_tuple(v):
         num = "".join(c for c in part if c.isdigit())
         out.append(int(num) if num else 0)
     return tuple(out)
+
+
+UPDATE_STAMP = "/etc/tvManager/last_update_check"
+UPDATE_INTERVAL = 24 * 3600   # home screen checks GitHub at most once a day
+
+
+def parse_installer(data):
+    """(version, changelog) from the version=/changelog= lines of installer.sh."""
+    version, changelog = "0.0", ""
+    for line in data.split("\n"):
+        if line.startswith("version") and "'" in line:
+            version = line.split("'")[1]
+        elif line.startswith("changelog") and "'" in line:
+            changelog = line.split("'")[1].replace("\\n", "\n").strip()
+            break
+    return version, changelog
+
+
+def update_check_due():
+    try:
+        return time.time() - getmtime(UPDATE_STAMP) >= UPDATE_INTERVAL
+    except OSError:
+        return True
+
+
+def mark_update_checked():
+    try:
+        if not exists(dirname(UPDATE_STAMP)):
+            makedirs(dirname(UPDATE_STAMP))
+        with open(UPDATE_STAMP, "w") as f:
+            f.write(str(int(time.time())))
+    except (IOError, OSError) as e:
+        print("[tvManager] update stamp: %s" % e)
+
+
+def plugin_update_cmd():
+    """Download installer.sh (TLS verified), then run it with /bin/sh."""
+    return ("wget -q -O /tmp/tvmanager_installer.sh %s && /bin/sh /tmp/tvmanager_installer.sh; "
+            "rc=$?; rm -f /tmp/tvmanager_installer.sh; exit $rc" % shell_quote(b64decoder(installer_url)))
 
 
 def execute_cam_command(cmd):
@@ -347,13 +381,10 @@ def backup_configs(backup_name=None):
             shutil.copy2(src, dest)
             backed_up.append(src)
         # keep only the newest BACKUP_KEEP backups
-        old = sorted(d for d in listdir(BACKUP_ROOT)
-                     if d.startswith("backup_"))
+        old = sorted(d for d in listdir(BACKUP_ROOT) if d.startswith("backup_"))
         for d in old[:-BACKUP_KEEP]:
             shutil.rmtree(join(BACKUP_ROOT, d), ignore_errors=True)
-        print(
-            "Backup completed: %d files saved in %s" %
-            (len(backed_up), backup_dir))
+        print("Backup completed: %d files saved in %s" % (len(backed_up), backup_dir))
         return backup_dir, backed_up
     except Exception as e:
         print("Error during backup: %s" % str(e))
@@ -378,13 +409,7 @@ def check_dependencies():
     """Missing libraries (file check only: fast, no shell, no network)."""
     from glob import glob
     missing_deps = []
-    libdirs = [
-        "/usr/lib",
-        "/lib",
-        "/usr/lib32",
-        "/usr/lib64",
-        "/usr/lib/*",
-        "/lib/*"]
+    libdirs = ["/usr/lib", "/lib", "/usr/lib32", "/usr/lib64", "/usr/lib/*", "/lib/*"]
     if not any(glob(join(d, "libusb-1.0.so*")) for d in libdirs):
         missing_deps.append("libusb-1.0-0")
     if not any(glob(join(d, "libssl.so*")) for d in libdirs):
@@ -468,8 +493,8 @@ if not exists("/etc/clist.list"):
         system("chmod 755 /etc/clist.list")
 
 
-def read_current_cam():
-    """Active cam name or None (also handles the old 'None' text in clist.list)."""
+def read_raw_current_cam():
+    """Name saved in clist.list (or CurrentBhCamName), None when stopped."""
     for path in ("/etc/CurrentBhCamName", "/etc/clist.list"):
         if not exists(path):
             continue
@@ -481,6 +506,11 @@ def read_current_cam():
         name = lines[-1] if lines else ""
         return name if name and name != "None" else None
     return None
+
+
+def read_current_cam():
+    """Script id of the active cam (old OSD names are mapped to their script)."""
+    return resolve_cam_id(read_raw_current_cam())
 
 
 class m2list(MenuList):
@@ -548,21 +578,8 @@ def showlist(datal, list):
     list.setList(plist)
 
 
-CAM_KEYWORDS = (
-    "oscam",
-    "ncam",
-    "cccam",
-    "mgcamd",
-    "gcam",
-    "wicardd",
-    "doscam",
-    "gbox",
-    "revcam",
-    "movicam",
-    "scam",
-    "camd3",
-    "evocamd",
-    "rqcamd")
+CAM_KEYWORDS = ("oscam", "ncam", "cccam", "mgcamd", "gcam", "wicardd", "doscam",
+                "gbox", "revcam", "movicam", "scam", "camd3", "evocamd", "rqcamd")
 
 
 def cam_keyword(name):
@@ -572,6 +589,11 @@ def cam_keyword(name):
         if key in low:
             return key
     return None
+
+
+def cam_key_for(cam_id):
+    """Softcam keyword of a cam id, from the file name or the OSD label."""
+    return cam_keyword(cam_id) or cam_keyword(label_for(cam_id))
 
 
 def running_cams():
@@ -659,8 +681,8 @@ class ConfigBackupManager:
 
     def list_backups(self):
         try:
-            return sorted((d for d in listdir(self.backup_dir)
-                          if d.startswith("backup_")), reverse=True)
+            return sorted((d for d in listdir(self.backup_dir) if d.startswith("backup_")),
+                          reverse=True)
         except OSError:
             return []
 
@@ -792,6 +814,8 @@ class tvManager(Screen):
         self.resource_timer.start(10000)
         self.resource_monitor._get_cpu_usage()  # first sample
         self.onLayoutFinish.append(self.update_resource_info)
+        self.onLayoutFinish.append(self.autoCheckUpdate)
+        self._closing = False
         self.onShown.append(self.ecm)
         self.onShown.append(self.startEcmInfoPollTimer)
         self.onShown.append(self.setBlueKey)
@@ -800,8 +824,7 @@ class tvManager(Screen):
 
     def update_resource_info(self):
         try:
-            text = self.resource_monitor.get_cam_resources(
-                len(self.softcamslist))
+            text = self.resource_monitor.get_cam_resources(len(self.softcamslist))
         except Exception as e:
             text = "Error: %s" % e
         self["resource_label"].setText(text)
@@ -846,9 +869,7 @@ class tvManager(Screen):
                 except ValueError:
                     backup_time = backup
                 count = len(self.backup_manager.backup_files(backup))
-                backup_list.append(
-                    ("Backup: %s (%d files)" %
-                     (backup_time, count), backup))
+                backup_list.append(("Backup: %s (%d files)" % (backup_time, count), backup))
 
         if not backup_list:
             self.session.open(
@@ -926,7 +947,7 @@ class tvManager(Screen):
         self["key_blue"].setText("Softcam")
         self.BlueAction = None
         if self.curCam is not None:
-            cam_name = str(self.curCam).lower()
+            cam_name = ("%s %s" % (self.curCam, label_for(self.curCam))).lower()
             print("cam_name=", cam_name)
             cam_info = {
                 "oscam": ("OSCAMINFO", "OScamInfo"),
@@ -954,7 +975,7 @@ class tvManager(Screen):
 
     def Blue(self):
         print("[Blue] self.BlueAction:", self.BlueAction)
-        cam_name = str(self.curCam).lower()
+        cam_name = ("%s %s" % (self.curCam or "", label_for(self.curCam))).lower()
         print("cam_name=", cam_name)
         try:
             if "oscam" in cam_name:
@@ -977,10 +998,8 @@ class tvManager(Screen):
 
     def _open_plugin_screen(self, module_name, class_name, label):
         try:
-            mod = __import__(
-                "Plugins.Extensions.tvManager.data." +
-                module_name,
-                fromlist=[class_name])
+            mod = __import__("Plugins.Extensions.tvManager.data." + module_name,
+                             fromlist=[class_name])
             self.session.open(getattr(mod, class_name))
             return True
         except Exception as e:
@@ -1207,14 +1226,12 @@ class tvManager(Screen):
         from .data.GetEcmInfo import current_ecm_file
         path = current_ecm_file()
         if not exists(path):
-            self["info"].setText(
-                _("No ECM (clear channel or cam not decoding)"))
+            self["info"].setText(_("No ECM (clear channel or cam not decoding)"))
             return
         try:
             with open(path, "r") as f:
                 lines = f.readlines()
-            self["info"].setText(self.format_ecm_info(
-                lines) if lines else _("ECM file empty"))
+            self["info"].setText(self.format_ecm_info(lines) if lines else _("ECM file empty"))
         except (IOError, OSError) as e:
             print("ECM read error: %s" % e)
             self["info"].setText(_("ECM read error"))
@@ -1222,7 +1239,38 @@ class tvManager(Screen):
     def stopEcmInfoPollTimer(self):
         self.EcmInfoPollTimer.stop()
 
+    # ---- automatic update check (home screen, once a day) ----
+    def autoCheckUpdate(self):
+        if not update_check_due():
+            return
+        fetch_async(b64decoder(installer_url), self._autoUpdateGot, self._autoUpdateError)
+
+    def _autoUpdateError(self, error):
+        print("[tvManager] update check failed: %s" % error)   # retried next opening
+
+    def _autoUpdateGot(self, data):
+        mark_update_checked()
+        if self._closing:
+            return
+        version, changelog = parse_installer(data)
+        if version_tuple(__version__) >= version_tuple(version):
+            return
+        self["description"].setText(_("New version %s available - press INFO to update") % version)
+        if not getattr(self, "shown", True):
+            return   # a sub screen is open: the description line is enough
+        self.session.openWithCallback(
+            self._autoUpdateAnswer, MessageBox,
+            _("tvManager %s is available (installed: %s).\n\n%s\n\nInstall now?") %
+            (version, __version__, changelog),
+            MessageBox.TYPE_YESNO, default=False, timeout=20)
+
+    def _autoUpdateAnswer(self, answer):
+        if answer:
+            self.session.open(Console, _("Upgrading..."), cmdlist=[plugin_update_cmd()],
+                              closeOnSuccess=False)
+
     def _stopTimers(self):
+        self._closing = True
         for t in (self.EcmInfoPollTimer, self.resource_timer, self.timer):
             try:
                 t.stop()
@@ -1236,14 +1284,11 @@ class tvManager(Screen):
         """Tivusat reader keys: runs in the Console screen (GUI never blocked)."""
         script_path = join(PLUGIN_PATH, "data", "update_oscam_codes.sh")
         if not exists(script_path):
-            self.session.open(
-                MessageBox, _("Update script not found!\nPath: %s") %
-                script_path, MessageBox.TYPE_ERROR, timeout=5)
+            self.session.open(MessageBox, _("Update script not found!\nPath: %s") % script_path,
+                              MessageBox.TYPE_ERROR, timeout=5)
             return
-        self.session.open(
-            Console, _("Update OSCam Tivusat codes"), [
-                "/bin/sh %s" %
-                shell_quote(script_path)], closeOnSuccess=False)
+        self.session.open(Console, _("Update OSCam Tivusat codes"),
+                          ["/bin/sh %s" % shell_quote(script_path)], closeOnSuccess=False)
 
     def messagekd(self):
         """Update Softcam Keys"""
@@ -1324,7 +1369,7 @@ class tvManager(Screen):
         if not cur or cur == "None":
             return None
         for idx, entry in enumerate(self.softcamslist):
-            if entry[0] == cur:
+            if entry[3] == cur:
                 return idx
         return None
 
@@ -1362,7 +1407,7 @@ class tvManager(Screen):
 
                 if self.last == self.var:
                     self.cmd1 = "/usr/camscript/" + \
-                        self.softcamslist[self.var][0] + ".sh" + " cam_res &"
+                        self.softcamslist[self.var][3] + ".sh" + " cam_res &"
                     _session.open(
                         MessageBox,
                         _("Please wait..\nRESTART CAM"),
@@ -1372,7 +1417,7 @@ class tvManager(Screen):
                     sleep(1)
                 else:
                     self.cmd1 = "/usr/camscript/" + \
-                        self.softcamslist[self.last][0] + ".sh" + " cam_down &"
+                        self.softcamslist[self.last][3] + ".sh" + " cam_down &"
                     _session.open(
                         MessageBox,
                         _("Please wait..\nSTOP & RESTART CAM"),
@@ -1381,12 +1426,12 @@ class tvManager(Screen):
                     system(self.cmd1)
                     sleep(1)
                     self.cmd1 = "/usr/camscript/" + \
-                        self.softcamslist[self.var][0] + ".sh" + " cam_up &"
+                        self.softcamslist[self.var][3] + ".sh" + " cam_up &"
                     system(self.cmd1)
             else:
                 try:
                     self.cmd1 = "/usr/camscript/" + \
-                        self.softcamslist[self.var][0] + ".sh" + " cam_up &"
+                        self.softcamslist[self.var][3] + ".sh" + " cam_up &"
                     _session.open(
                         MessageBox,
                         _("Please wait..\nSTART UP CAM"),
@@ -1399,7 +1444,7 @@ class tvManager(Screen):
 
             if self.last != self.var:
                 try:
-                    self.curCam = self.softcamslist[self.var][0]
+                    self.curCam = self.softcamslist[self.var][3]
                     self.writeFile()
                 except BaseException:
                     self.close()
@@ -1420,9 +1465,7 @@ class tvManager(Screen):
             clist.write(name)
         if name:
             with open("/etc/startcam.sh", "w") as stcam:
-                stcam.write(
-                    "#!/bin/sh\n/usr/camscript/%s.sh cam_up &\n" %
-                    name)
+                stcam.write("#!/bin/sh\n/usr/camscript/%s.sh cam_up &\n" % name)
             chmod("/etc/startcam.sh", 0o755)
         elif exists("/etc/startcam.sh"):
             remove("/etc/startcam.sh")
@@ -1445,7 +1488,7 @@ class tvManager(Screen):
 
             if self.last is not None:
                 self.cmd1 = "/usr/camscript/" + \
-                    self.softcamslist[self.last][0] + ".sh" + " cam_down &"
+                    self.softcamslist[self.last][3] + ".sh" + " cam_down &"
                 system(self.cmd1)
                 self.curCam = None
                 self.writeFile()
@@ -1466,39 +1509,32 @@ class tvManager(Screen):
         self.session.nav.playService(self.oldService)
 
     def readScripts(self):
-        """Cam list from /usr/camscript (OSD="name" line of each script)."""
+        """
+        Cam list from /usr/camscript/*.sh.
+        Entry = (label, icon, status, cam_id): the label is the OSD="..." name,
+        cam_id is the script file name without .sh and is what gets started.
+        """
         try:
-            self.curCam = self.readCurrent()
+            raw = read_raw_current_cam()
+            self.curCam = resolve_cam_id(raw)
+            if raw and self.curCam and raw != self.curCam:
+                # clist.list from an older version holds the OSD name
+                self.writeFile()
             running = running_cams()
-            pathscript = "/usr/camscript/"
-            names = []
-            for root, dirs, files in walk(pathscript):
-                for fname in sorted(files):
-                    try:
-                        with open(join(root, fname), "r") as sfile:
-                            for line in sfile:
-                                if line.startswith("OSD"):
-                                    nam = line.split(
-                                        "=", 1)[-1].strip().strip('"').strip("'")
-                                    if nam:
-                                        names.append(nam)
-                                    break
-                    except (IOError, OSError) as e:
-                        print("[tvManager] %s: %s" % (fname, e))
-                break  # only the top folder
             png1 = LoadPixmap(cached=True, path=resolveFilename(
                 SCOPE_PLUGINS, "Extensions/tvManager/res/img/actcam.png"))
             png2 = LoadPixmap(cached=True, path=resolveFilename(
                 SCOPE_PLUGINS, "Extensions/tvManager/res/img/defcam.png"))
             entries = []
-            for nam in names:
-                if nam == self.curCam:
-                    if cam_keyword(nam) in running:
-                        entries.append((0, (nam, png1, _("(Active)"))))
+            for cam_id, label in camscripts():
+                if cam_id == self.curCam:
+                    key = cam_keyword(cam_id) or cam_keyword(label)
+                    if key in running:
+                        entries.append((0, (label, png1, _("(Active)"), cam_id)))
                     else:
-                        entries.append((1, (nam, png2, _("(Not running)"))))
+                        entries.append((1, (label, png2, _("(Not running)"), cam_id)))
                 else:
-                    entries.append((2, (nam, png2, "")))
+                    entries.append((2, (label, png2, "", cam_id)))
             entries.sort(key=lambda e: (e[0], e[1][0].lower()))
             self.softcamslist[:] = [e[1] for e in entries]
             self.namelist = [(e[1][0], e[1][2]) for e in entries]
@@ -1512,18 +1548,14 @@ class tvManager(Screen):
         """GREEN = Start / Restart for the selected cam, RED only when something runs."""
         try:
             cur = self["list"].getCurrent()
-            selected = cur[0] if cur else None
+            selected = cur[3] if cur else None
             running = running_cams()
-            active_running = bool(
-                self.curCam) and cam_keyword(
-                self.curCam) in running
+            active_running = bool(self.curCam) and cam_key_for(self.curCam) in running
             if selected and selected == self.curCam and active_running:
                 self["key_green"].setText(_("Restart"))
             else:
                 self["key_green"].setText(_("Start"))
-            self["key_red"].setText(
-                _("Stop") if (
-                    active_running or self.curCam) else "")
+            self["key_red"].setText(_("Stop") if (active_running or self.curCam) else "")
         except Exception as e:
             print("[tvManager] updateColorKeys: %s" % e)
 
@@ -1702,11 +1734,7 @@ class GetipklistTv(Screen):
 
     def errorLoad(self, error):
         print("[GetipklistTv] %s" % error)
-        self["description"].setText(
-            _("Try again later ...") +
-            "  (%s)" %
-            str(error)[
-                :80])
+        self["description"].setText(_("Try again later ...") + "  (%s)" % str(error)[:80])
         self.downloading = False
 
     def okClicked(self):
@@ -1829,8 +1857,7 @@ class GetipkTv(Screen):
                               MessageBox.TYPE_ERROR, timeout=8)
             return
         # file name only from safe characters: it ends up in a shell command
-        self.plug = sub(r"[^A-Za-z0-9._+-]", "_",
-                        url.split("/")[-1].split("?")[0]) or "download"
+        self.plug = sub(r"[^A-Za-z0-9._+-]", "_", url.split("/")[-1].split("?")[0]) or "download"
         self.folddest = join("/tmp", self.plug)
         dest = shell_quote(self.folddest)
         name = self.plug.lower()
@@ -1847,19 +1874,13 @@ class GetipkTv(Screen):
         elif name.endswith(".tar"):
             install = "tar -xf %s -C /" % dest
         else:
-            self.session.open(
-                MessageBox, _("Unknown package type:\n%s") %
-                self.plug, MessageBox.TYPE_ERROR, timeout=8)
+            self.session.open(MessageBox, _("Unknown package type:\n%s") % self.plug,
+                              MessageBox.TYPE_ERROR, timeout=8)
             return
         # certificate is checked; install only if the download succeeded
-        cmd = (
-            "rm -f %s; wget -U %s -O %s %s && %s; rc=$?; rm -f %s; "
-            "[ $rc -ne 0 ] && echo 'Download/installation failed (if it is a certificate error: opkg install ca-certificates)'; exit $rc") % (dest,
-                                                                                                                                              shell_quote(AgentRequest),
-                                                                                                                                              dest,
-                                                                                                                                              shell_quote(url),
-                                                                                                                                              install,
-                                                                                                                                              dest)
+        cmd = ("rm -f %s; wget -U %s -O %s %s && %s; rc=$?; rm -f %s; "
+               "[ $rc -ne 0 ] && echo 'Download/installation failed (if it is a certificate error: opkg install ca-certificates)'; exit $rc") % (
+            dest, shell_quote(AgentRequest), dest, shell_quote(url), install, dest)
         print("cmd:", cmd)
         title = _("Installing %s\nPlease Wait...") % self.dom
         self.session.open(Console, title, [cmd], closeOnSuccess=False)
@@ -1980,24 +2001,15 @@ class InfoCfg(Screen):
 
     def check_vers(self):
         """Read version/changelog from installer.sh in background."""
-        fetch_async(
-            b64decoder(installer_url),
-            self._got_version,
-            self._version_error)
+        fetch_async(b64decoder(installer_url), self._got_version, self._version_error)
 
     def _version_error(self, error):
         print("[InfoCfg] version check failed: %s" % error)
         self["key_green"].show()
 
     def _got_version(self, data):
-        remote_version = "0.0"
-        remote_changelog = ""
-        for line in data.split("\n"):
-            if line.startswith("version") and "'" in line:
-                remote_version = line.split("'")[1]
-            elif line.startswith("changelog") and "'" in line:
-                remote_changelog = line.split("'")[1].replace("\\n", "\n")
-                break
+        mark_update_checked()
+        remote_version, remote_changelog = parse_installer(data)
         self.new_version = remote_version
         self.new_changelog = remote_changelog
         if version_tuple(__version__) < version_tuple(remote_version):
@@ -2028,36 +2040,25 @@ class InfoCfg(Screen):
                 timeout=3)
 
     def update_dev(self):
-        fetch_async(
-            b64decoder(developer_url),
-            self._got_dev,
-            self._version_error)
+        fetch_async(b64decoder(developer_url), self._got_dev, self._version_error)
 
     def _got_dev(self, data):
         try:
             remote_date = json.loads(data)["pushed_at"]
-            remote_date = datetime.strptime(
-                remote_date, "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d")
+            remote_date = datetime.strptime(remote_date, "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d")
         except Exception as e:
             self._version_error(e)
             return
         self.session.openWithCallback(
-            self.install_update,
-            MessageBox,
-            _("Install developer update (%s)?") %
-            remote_date,
-            MessageBox.TYPE_YESNO)
+            self.install_update, MessageBox,
+            _("Install developer update (%s)?") % remote_date, MessageBox.TYPE_YESNO)
 
     def install_update(self, answer=False):
         if answer:
             self.session.open(
                 Console,
                 "Upgrading...",
-                cmdlist=[
-                    "wget -q -O /tmp/tvmanager_installer.sh %s && /bin/sh /tmp/tvmanager_installer.sh; "
-                    "rc=$?; rm -f /tmp/tvmanager_installer.sh; exit $rc" %
-                    shell_quote(
-                        b64decoder(installer_url))],
+                cmdlist=[plugin_update_cmd()],
                 finishedCallback=self.myCallback,
                 closeOnSuccess=False)
         else:
@@ -2155,7 +2156,8 @@ class InfoCfg(Screen):
                     'session') and hasattr(
                     self.session,
                     'softcam_manager'):
-                return self.session.softcam_manager.curCam or "None"
+                cam = self.session.softcam_manager.curCam
+                return label_for(cam) if cam else "None"
             return "None"
         except BaseException:
             return "None"
@@ -2222,62 +2224,6 @@ class InfoCfg(Screen):
         current_index = contents.index(self.current_content)
         self.current_content = contents[(current_index + 1) % len(contents)]
         self.updateList()
-
-
-class DreamCCAuto:
-    def __init__(self):
-        self.readCurrent()
-
-    def readCurrent(self):
-        current = None
-        self.FilCurr = "/etc/CurrentBhCamName" if exists(
-            "/etc/CurrentBhCamName") else "/etc/clist.list"
-        try:
-            with open(self.FilCurr, "r", encoding="UTF-8") as clist:
-                for line in clist:
-                    current = line.strip()
-        except Exception as e:
-            print("Error reading current cam file:", e)
-            return
-
-        print("Current cam name:", current)
-
-        scriptliste = []
-        path = "/usr/camscript/"
-        if not exists(path):
-            print("Path does not exist:", path)
-            return
-
-        for root, dirs, files in walk(path):
-            for name in files:
-                scriptliste.append(name)
-
-        for script in scriptliste:
-            dat = join(path, script)
-            try:
-                with open(dat, "r") as file:
-                    for line in file:
-                        if line.startswith("OSD"):
-                            nam = line[5:].strip()
-                            if current == nam:
-                                if exists("/etc/init.d/dccamd"):
-                                    system(
-                                        "mv /etc/init.d/dccamd /etc/init.d/dccamdOrig &")
-                                for link, target in [
-                                        ("/var/bin", "/usr/bin"), ("/var/keys", "/usr/keys"), ("/var/scce", "/usr/scce"), ("/var/script", "/usr/script")]:
-                                    if not islink(link):
-                                        system("ln -sf %s %s" % (target, link))
-                                if system("/etc/startcam.sh") != 0:
-                                    print(
-                                        "Error starting the cam with /etc/startcam.sh")
-                                else:
-                                    print("*** running autostart ***")
-                                return
-            except Exception as e:
-                print("Error reading script file:", e)
-
-        print("pass autostart")
-        return
 
 
 def autostartsoftcam(reason, session=None, **kwargs):

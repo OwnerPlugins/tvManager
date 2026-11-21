@@ -1,8 +1,8 @@
 #!/bin/sh
 # tvManager installer - runs with busybox sh (the plugin starts it with /bin/sh)
 
-version='3.5'
-changelog='\nSecurity: TLS checks, safe downloads, no global SSL patch\nNew OSCam/NCam status screen\nBackup/restore fixed (/etc/tvManager/backup)\nCCcamInfo works outside OpenATV\nMany fixes (see README)'
+version='3.6'
+changelog='\nCams started by script file name (OSD name only shown)\nUpdate check when the plugin opens (once a day)\nNew ipk scripts: upgrade keeps the selected cam, no system changes\nNo python six dependency'
 
 TMPPATH=/tmp/tvManager-install
 FILEPATH=/tmp/tvManager-main.tar.gz

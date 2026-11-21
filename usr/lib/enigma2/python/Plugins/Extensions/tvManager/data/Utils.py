@@ -69,12 +69,7 @@ def checkStr(text, encoding="utf8"):
 def checkGZIP(url, timeout=10):
     """Download url as text, gzip handled. None on error."""
     try:
-        response = urlopen(
-            Request(
-                url,
-                headers={
-                    "User-Agent": "Enigma2 - Plugin"}),
-            timeout=timeout)
+        response = urlopen(Request(url, headers={"User-Agent": "Enigma2 - Plugin"}), timeout=timeout)
         data = response.read()
         if response.info().get("Content-Encoding") == "gzip":
             data = gzip.GzipFile(fileobj=BytesIO(data)).read()
@@ -88,12 +83,7 @@ def checkGZIP(url, timeout=10):
 def getUrl(url, timeout=10):
     """Download url as text ('' on error). Certificates are verified."""
     try:
-        response = urlopen(
-            Request(
-                url,
-                headers={
-                    "User-Agent": RequestAgent()}),
-            timeout=timeout)
+        response = urlopen(Request(url, headers={"User-Agent": RequestAgent()}), timeout=timeout)
         data = response.read()
         response.close()
         return data.decode("utf-8", "ignore") if PY3 else data

@@ -1,10 +1,11 @@
 <h1 align="center">🚀 tvManager (Softcam Manager)</h1>
 
-[![Version](https://img.shields.io/badge/Version-3.5-blue.svg)](https://github.com/Belfagor2005/tvManager)
+[![Version](https://img.shields.io/badge/Version-3.6-blue.svg)](https://github.com/Belfagor2005/tvManager)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python-2.7%2B-blue.svg)](https://www.python.org)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python package](https://github.com/Belfagor2005/tvManager/actions/workflows/pylint.yml/badge.svg)](https://github.com/Belfagor2005/tvManager/actions/workflows/pylint.yml)
+[![Ruff Status](https://github.com/Belfagor2005/tvManager/actions/workflows/ruff.yml/badge.svg)](https://github.com/Belfagor2005/tvManager/actions/workflows/ruff.yml)
 
 [![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet)](https://github.com/Belfagor2005)
 [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
@@ -59,6 +60,8 @@
 - **Multi-Skin Support** - HD, FHD, UHD compatibility
 - **Cross-Platform** - DreamOS, OpenPLi, OpenATV support
 - **Background Operations** - Network calls in background threads, the GUI never freezes
+- **Update Check** - When the home screen opens (at most once a day) the plugin checks GitHub in the
+  background and offers the new version; nothing is installed without your OK. INFO key = manual check
 
 ## 🚀 Quick Start
 
@@ -101,7 +104,7 @@
 
 ### Python Compatibility
 - Python 3.x (tested)
-- Python 2.7.x (code kept compatible, not tested on 3.5)
+- Python 2.7.x (code kept compatible, not tested)
 
 ### Image Compatibility
 - OpenPLi
@@ -124,6 +127,7 @@ tvManager/
 ├── data/                 # Core functionality modules
 │   ├── Utils.py         # Small helpers (user agent, base64, download)
 │   ├── camwebif.py      # Finds the running OSCam/NCam and talks to its webif
+│   ├── camscripts.py    # Reads /usr/camscript (cam id = script file name)
 │   ├── OScamStatus.py   # OSCam / NCam status screen
 │   ├── GetEcmInfo.py    # ECM information handling
 │   ├── Console.py       # System command execution
@@ -136,6 +140,21 @@ tvManager/
 ```
 
 ## 📝 Changelog
+
+### 3.6 (2026-11-21)
+**New**
+- Update check when the home screen opens: at most once a day, in background, asks before installing
+  (default No). INFO key = manual check as before
+
+**Fixes**
+- Cams are identified by the script file name (`/usr/camscript/<name>.sh`); the `OSD=` name is only the label, so a cam starts even when the two differ. Only `*.sh` files are listed; an old `clist.list` holding the OSD name is converted automatically
+- ipk/deb package scripts rewritten:
+  - an upgrade no longer deletes `/etc/clist.list` and `/etc/startcam.sh` (the selected cam is kept)
+  - no `opkg update`/`opkg install` inside the scripts (the package manager is locked while they run)
+  - no network download during installation, no files deleted in `/tmp`
+  - no changes to system libraries (libssl/libcrypto links) and no removal of other packages
+  - cam config backups kept on remove, deleted only on purge
+- OScamInfo/NcamInfo no longer need python `six`
 
 ### 3.5 (2026-11-20)
 **Security**

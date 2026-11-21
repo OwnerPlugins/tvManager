@@ -1,18 +1,15 @@
 Package: enigma2-plugin-extensions-tvmanager
-Version: 3.5
-Section: base
-OE: 2.0
-License: GPLv3
+Version: 3.6
+Section: extra
 Priority: optional
 Architecture: all
 Depends: wget
-Recommends: libusb-1.0-0, libssl1.1
+Recommends: ca-certificates
 Maintainer: Lululla
-Description: Professional Softcam Manager for Enigma2
- Complete softcam management solution with multi-cam support,
- resource monitoring, backup system, and automatic updates.
- Supports OSCam, CCcam, NCam and more.
-Source: enigma2-plugin-extensions-tvmanager
+License: GPLv3
 Homepage: https://github.com/Belfagor2005/tvManager
-
-
+Source: enigma2-plugin-extensions-tvmanager
+Description: Professional Softcam Manager for Enigma2
+ Start, stop and restart softcams (OSCam, NCam, CCcam and more),
+ OSCam/NCam status screen, ECM info, resource monitor,
+ backup/restore of cam configs and update check.

@@ -19,8 +19,6 @@ def current_ecm_file():
         if t > best_time:
             best, best_time = path, t
     return best
-
-
 EMPTY_ECM_INFO = '', '0', '0', '0'
 old_ecm_time = time.time()
 info = {}
