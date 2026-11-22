@@ -14,916 +14,916 @@ msgstr ""
 # Copyright (C) 2026 Lululla Team
 #
 msgid "%s ( %s Cards )"
-msgstr ""
+msgstr "%s (карточек %s)"
 
 msgid "%s Info - Configuration"
-msgstr ""
+msgstr "%s Информация — Конфигурация"
 
 msgid "%s Info - Main Menu"
-msgstr ""
+msgstr "Информация %s – главное меню"
 
 msgid "%s restarted successfully!"
-msgstr ""
+msgstr "%s успешно перезапущен!"
 
 msgid "(Active)"
-msgstr ""
+msgstr "(Активный)"
 
 msgid "(All readers)"
-msgstr ""
+msgstr "(Все читатели)"
 
 msgid "(Not running)"
-msgstr ""
+msgstr "(Не работает)"
 
 msgid "(Show only reader) (%s)"
-msgstr ""
+msgstr "(Показать только читателя) (%s)"
 
 msgid "About"
-msgstr ""
+msgstr "О"
 
 msgid "Activate"
-msgstr ""
+msgstr "Активировать"
 
 msgid "Activate Insert line in Config File:"
-msgstr ""
+msgstr "Активируйте «Вставить строку в файл конфигурации»:"
 
 msgid "Active clients"
-msgstr ""
+msgstr "Активные клиенты"
 
 msgid "Add"
-msgstr ""
+msgstr "Добавлять"
 
 msgid "Add new CCcam line"
-msgstr ""
+msgstr "Добавить новую линию CCcam"
 
 msgid "Add new NewCamd line"
-msgstr ""
+msgstr "Добавить новую строку NewCamd"
 
 msgid "Address"
-msgstr ""
+msgstr "Адрес"
 
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 msgid "An error occurred in the green function."
-msgstr ""
+msgstr "Произошла ошибка в зеленой функции."
 
 msgid "An unexpected error occurred: %s"
-msgstr ""
+msgstr "Произошла непредвиденная ошибка: %s"
 
 msgid "Ask all caid"
 msgstr ""
 
 msgid "Ask for the selection caid"
-msgstr ""
+msgstr "Спросите помощника по подбору"
 
 msgid "Automatically update Client/Server View?"
-msgstr ""
+msgstr "Автоматически обновлять представление клиента/сервера?"
 
 msgid "Available shares:"
-msgstr ""
+msgstr "Доступные акции:"
 
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 msgid "Backup failed!"
-msgstr ""
+msgstr "Резервное копирование не удалось!"
 
 msgid "Backup restoration failed!"
-msgstr ""
+msgstr "Восстановление резервной копии не удалось!"
 
 msgid "CCPrioMaker Settings"
-msgstr ""
+msgstr "Настройки CCPrioMaker"
 
 msgid "CCPrioMaker autostart"
-msgstr ""
+msgstr "CCPrioMaker автозапуск"
 
 msgid "CCcam"
-msgstr ""
+msgstr "камера видеонаблюдения"
 
 msgid "CCcam Clients Info"
-msgstr ""
+msgstr "Информация о клиентах CCcam"
 
 msgid "CCcam Config Switcher"
-msgstr ""
+msgstr "Переключатель конфигурации CCcam"
 
 msgid "CCcam ECM Info"
-msgstr ""
+msgstr "CCcam Информация ECM"
 
 msgid "CCcam Info"
-msgstr ""
+msgstr "Информация о CC-камере"
 
 msgid "CCcam Info %s"
-msgstr ""
+msgstr "Информация о CCcam %s"
 
 msgid "CCcam Info Config"
-msgstr ""
+msgstr "Конфигурация информации CCcam"
 
 msgid "CCcam Info Config Menu"
-msgstr ""
+msgstr "Меню конфигурации информации CCcam"
 
 msgid "CCcam Line Editor"
-msgstr ""
+msgstr "Редактор линий CCcam"
 
 msgid "CCcam Organizer"
-msgstr ""
+msgstr "Организатор CCcam"
 
 msgid "CCcam Prio Maker"
 msgstr ""
 
 msgid "CCcam Provider Info"
-msgstr ""
+msgstr "Информация о провайдере CCcam"
 
 msgid "CCcam Remote Info"
-msgstr ""
+msgstr "Удаленная информация CCcam"
 
 msgid "CCcam Server Info"
-msgstr ""
+msgstr "Информация о сервере CCcam"
 
 msgid "CCcam Share Info"
-msgstr ""
+msgstr "CCcam Поделиться информацией"
 
 msgid "CCcam Shares Info"
-msgstr ""
+msgstr "CCcam делится информацией"
 
 msgid "CCcam.cfg Basic Line Editor"
-msgstr ""
+msgstr "CCcam.cfg Редактор базовых строк"
 
 msgid "CaID:"
-msgstr ""
+msgstr "CAID:"
 
 msgid "Caid"
-msgstr ""
+msgstr "Кэйд"
 
 msgid "Caid:"
-msgstr ""
+msgstr "Кэйд:"
 
 msgid "Caid:Srvid"
-msgstr ""
+msgstr "Кэйд: Срвид"
 
 msgid "Cam Download"
-msgstr ""
+msgstr "Загрузка камеры"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 msgid "Card info (CCcam-Reader)"
-msgstr ""
+msgstr "Информация о карте (CCcam-Reader)"
 
 msgid "Cards:"
-msgstr ""
+msgstr "Карты:"
 
 msgid "Cards: 0"
-msgstr ""
+msgstr "Карты: 0"
 
 msgid "Cardserial"
-msgstr ""
+msgstr "Серийный номер карты"
 
 msgid "Channel"
-msgstr ""
+msgstr "Канал"
 
 msgid "Channel Name"
-msgstr ""
+msgstr "Название канала"
 
 msgid "Check Emm Send"
-msgstr ""
+msgstr "Проверить отправку EMM"
 
 msgid "Choose CCcam-Reader"
-msgstr ""
+msgstr "Выберите CCcam-Reader"
 
 msgid "Choose reader"
-msgstr ""
+msgstr "Выберите читалку"
 
 msgid "Cleanup error: %s"
-msgstr ""
+msgstr "Ошибка очистки: %s"
 
 msgid "Client %s-%s"
-msgstr ""
+msgstr "Клиент %s-%s"
 
 msgid "Clients"
-msgstr ""
+msgstr "Клиенты"
 
 msgid "Close"
-msgstr ""
+msgstr "Закрывать"
 
 msgid "Configfile %s saved."
-msgstr ""
+msgstr "Файл конфигурации %s сохранен."
 
 msgid "Connected clients"
-msgstr ""
+msgstr "Подключенные клиенты"
 
 msgid "Connected:"
-msgstr ""
+msgstr "Подключено:"
 
 msgid "Content"
-msgstr ""
+msgstr "Содержание"
 
 msgid "Could not open the file %s!"
-msgstr ""
+msgstr "Не удалось открыть файл %s!"
 
 msgid "Could not open the file %s! Error: %s"
-msgstr ""
+msgstr "Не удалось открыть файл %s! Ошибка: %s"
 
 msgid "Could not save configfile %s! Error: %s"
-msgstr ""
+msgstr "Не удалось сохранить файл конфигурации %s! Ошибка: %s"
 
 msgid "Could not save the config file! Error: %s"
-msgstr ""
+msgstr "Не удалось сохранить файл конфигурации! Ошибка: %s"
 
 msgid "Current time"
-msgstr ""
+msgstr "Текущее время"
 
 msgid "DES key (28 hex)"
-msgstr ""
+msgstr "Ключ DES (28 шестнадцатеричный)"
 
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 msgid "Delete %s?"
-msgstr ""
+msgstr "Удалить %s?"
 
 msgid "Delete Peer"
-msgstr ""
+msgstr "Удалить пир"
 
 msgid "Delete failed!"
-msgstr ""
+msgstr "Удаление не удалось!"
 
 msgid "Deleted %s!"
-msgstr ""
+msgstr "Удален %s!"
 
 msgid "Do you install this plugin ?"
-msgstr ""
+msgstr "Вы устанавливаете этот плагин?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Вы хотите удалить?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Вы хотите перезапустить интерфейс Gui?"
 
 msgid "ECM file empty"
-msgstr ""
+msgstr "Файл ECM пуст"
 
 msgid "ECM read error"
-msgstr ""
+msgstr "Ошибка чтения ECM"
 
 msgid "Ecm Info"
-msgstr ""
+msgstr "Информация об ЕСМ"
 
 msgid "Ecm Statistics"
-msgstr ""
+msgstr "Статистика ЕСМ"
 
 msgid "Ecm Time"
-msgstr ""
+msgstr "Время ЕСМ"
 
 msgid "Ecm avg"
-msgstr ""
+msgstr "Среднее значение ECM"
 
 msgid "Ecm last"
-msgstr ""
+msgstr "ЕСМ последний"
 
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
 msgid "Editing one caid"
-msgstr ""
+msgstr "Редактирование одной служанки"
 
 msgid "Emm Info"
-msgstr ""
+msgstr "Эм Инфо"
 
 msgid "Entitlements"
-msgstr ""
+msgstr "Права"
 
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 msgid "Error getting resource information"
-msgstr ""
+msgstr "Ошибка получения информации о ресурсе"
 
 msgid "Error loading system info:"
-msgstr ""
+msgstr "Ошибка загрузки информации о системе:"
 
 msgid "Error loading system information:"
-msgstr ""
+msgstr "Ошибка загрузки системной информации:"
 
 msgid "Error opening cam info: %s"
-msgstr ""
+msgstr "Ошибка при открытии информации о камере: %s"
 
 msgid "Error processing HTML!"
-msgstr ""
+msgstr "Ошибка обработки HTML!"
 
 msgid "Error processing server addons data"
-msgstr ""
+msgstr "Ошибка обработки данных надстроек сервера"
 
 msgid "Error reading webpage!"
-msgstr ""
+msgstr "Ошибка чтения веб-страницы!"
 
 msgid "Error stopping %s!"
-msgstr ""
+msgstr "Ошибка остановки %s!"
 
 msgid "Error while editing configuration: %s"
-msgstr ""
+msgstr "Ошибка при редактировании конфигурации: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Выход"
 
 msgid "Extended Shares"
-msgstr ""
+msgstr "Расширенные акции"
 
 msgid "Failed to revert file: %s"
-msgstr ""
+msgstr "Не удалось восстановить файл: %s."
 
 msgid "Find Fakes"
-msgstr ""
+msgstr "Найдите подделки"
 
 msgid "Force Update"
-msgstr ""
+msgstr "Принудительное обновление"
 
 msgid "Free memory"
-msgstr ""
+msgstr "Свободная память"
 
 msgid "Free memory:"
-msgstr ""
+msgstr "Свободная память:"
 
 msgid "Free:"
-msgstr ""
+msgstr "Бесплатно:"
 
 msgid "General"
-msgstr ""
+msgstr "Общий"
 
 msgid "Get Link"
-msgstr ""
+msgstr "Получить ссылку"
 
 msgid "Getting the list, please wait ..."
-msgstr ""
+msgstr "Получение списка, пожалуйста, подождите..."
 
 msgid "Help"
-msgstr ""
+msgstr "Помощь"
 
 msgid "Hops"
-msgstr ""
+msgstr "Хмель"
 
 msgid "Hops:"
-msgstr ""
+msgstr "Хмель:"
 
 msgid "Hostname:"
-msgstr ""
+msgstr "Имя хоста:"
 
 msgid "IP Address"
-msgstr ""
+msgstr "IP-адрес"
 
 msgid "IP address"
-msgstr ""
+msgstr "IP-адрес"
 
 msgid "IP address / host"
-msgstr ""
+msgstr "IP-адрес/хост"
 
 msgid "Idle Time:"
-msgstr ""
+msgstr "Время простоя:"
 
 msgid "If Active: Download/Reset Server Config"
-msgstr ""
+msgstr "Если активно: загрузить/сбросить конфигурацию сервера."
 
 msgid "Install Cam first!!!"
-msgstr ""
+msgstr "Сначала установите камеру!!!"
 
 msgid "Install developer update (%s)?"
-msgstr ""
+msgstr "Установить обновление для разработчиков (%s)?"
 
 msgid "Invalid HTML content!"
-msgstr ""
+msgstr "Недопустимый HTML-контент!"
 
 msgid "Invalid URL!"
-msgstr ""
+msgstr "Неверный URL!"
 
 msgid "Last Req."
-msgstr ""
+msgstr "Последний запрос."
 
 msgid "Last used share:"
-msgstr ""
+msgstr "Последняя использованная доля:"
 
 msgid "Load"
-msgstr ""
+msgstr "Нагрузка"
 
 msgid "Local box"
-msgstr ""
+msgstr "Локальный ящик"
 
 msgid "Location"
-msgstr ""
+msgstr "Расположение"
 
 msgid "Log"
-msgstr ""
+msgstr "Бревно"
 
 msgid "Log %s-%s"
-msgstr ""
+msgstr "Записать %s-%s"
 
 msgid "MENU EMM / SERVER CLINE"
-msgstr ""
+msgstr "МЕНЮ EMM / СЕРВЕР CLINE"
 
 msgid "Maxdown +"
-msgstr ""
+msgstr "Максдаун +"
 
 msgid "Maxdown -"
-msgstr ""
+msgstr "Максдаун -"
 
 msgid "Maxdown:"
-msgstr ""
+msgstr "Максдаун:"
 
 msgid "Menu config"
-msgstr ""
+msgstr "Конфигурация меню"
 
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 msgid "Ncam not running - start Cam to obtain information."
-msgstr ""
+msgstr "Ncam не работает – запустите Cam для получения информации."
 
 msgid "New"
-msgstr ""
+msgstr "Новый"
 
 msgid "New profile:"
-msgstr ""
+msgstr "Новый профиль:"
 
 msgid "New version %s available - press INFO to update"
-msgstr ""
+msgstr "Доступна новая версия %s – нажмите INFO, чтобы обновить"
 
 msgid "NewCamd"
-msgstr ""
+msgstr "НоваяКамд"
 
 msgid "No ECM (clear channel or cam not decoding)"
-msgstr ""
+msgstr "Нет ECM (чистый канал или кулачок не декодирует)"
 
 msgid "No ECM data"
-msgstr ""
+msgstr "Нет данных ЕСМ"
 
 msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr ""
+msgstr "Информация ECM в настоящее время недоступна. Это доступно только во время расшифровки."
 
 msgid "No active cam to restart!"
-msgstr ""
+msgstr "Нет активной камеры для перезапуска!"
 
 msgid "No backups available!"
-msgstr ""
+msgstr "Резервные копии отсутствуют!"
 
 msgid "No card inserted!"
-msgstr ""
+msgstr "Карта не вставлена!"
 
 msgid "No default file for %s"
-msgstr ""
+msgstr "Нет файла по умолчанию для %s"
 
 msgid "No softcams available!"
-msgstr ""
+msgstr "Нет доступных программных камер!"
 
 msgid "No valid backups found!"
-msgstr ""
+msgstr "Действительные резервные копии не найдены!"
 
 msgid "NodeID"
-msgstr ""
+msgstr "идентификатор узла"
 
 msgid "NodeID:"
-msgstr ""
+msgstr "Идентификатор узла:"
 
 msgid "Nothing to show"
-msgstr ""
+msgstr "Нечего показывать"
 
 msgid "OK"
-msgstr ""
+msgstr "ХОРОШО"
 
 msgid "Oscam not running - start Cam to obtain information."
-msgstr ""
+msgstr "Oscam не запущен – запустите Cam для получения информации."
 
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 msgid "Password (httpwd)"
-msgstr ""
+msgstr "Пароль (httpwd)"
 
 msgid "Peak load (max queued requests per workerthread)"
-msgstr ""
+msgstr "Пиковая нагрузка (максимальное количество запросов в очереди на рабочий поток)"
 
 msgid "Pid"
-msgstr ""
+msgstr "Пид"
 
 msgid "Please Reset - No File CFG"
-msgstr ""
+msgstr "Пожалуйста, выполните сброс – нет файла CFG"
 
 msgid "Please select ..."
-msgstr ""
+msgstr "Пожалуйста, выберите..."
 
 msgid "Please select a line to edit or select add to create new line."
-msgstr ""
+msgstr "Пожалуйста, выберите строку для редактирования или выберите «Добавить», чтобы создать новую строку."
 
 msgid "Port"
-msgstr ""
+msgstr "Порт"
 
 msgid "Profile"
-msgstr ""
+msgstr "Профиль"
 
 msgid "Profile: Local box"
-msgstr ""
+msgstr "Профиль: Локальный ящик"
 
 msgid "Protocol"
-msgstr ""
+msgstr "Протокол"
 
 msgid "Provider"
-msgstr ""
+msgstr "Поставщик"
 
 msgid "Provider Name:"
-msgstr ""
+msgstr "Имя поставщика:"
 
 msgid "Provider:"
-msgstr ""
+msgstr "Провайдер:"
 
 msgid "Providers"
-msgstr ""
+msgstr "Провайдеры"
 
 msgid "Providers:"
-msgstr ""
+msgstr "Провайдеры:"
 
 msgid "Quick restart %s?"
-msgstr ""
+msgstr "Быстрый перезапуск %s?"
 
 msgid "Read Userdata from %s.conf"
-msgstr ""
+msgstr "Чтение пользовательских данных из %s.conf"
 
 msgid "Reader"
-msgstr ""
+msgstr "Читатель"
 
 msgid "Reader Statistics"
-msgstr ""
+msgstr "Статистика читателей"
 
 msgid "Reader/User"
-msgstr ""
+msgstr "Читатель/Пользователь"
 
 msgid "Recover Peer"
-msgstr ""
+msgstr "Восстановить пир"
 
 msgid "Remote box"
-msgstr ""
+msgstr "Удаленная коробка"
 
 msgid "Remove"
-msgstr ""
+msgstr "Удалять"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Удаление %s"
 
 msgid "Rename"
-msgstr ""
+msgstr "Переименовать"
 
 msgid "Rename failed!"
-msgstr ""
+msgstr "Переименование не удалось!"
 
 msgid "Rename to:"
-msgstr ""
+msgstr "Переименуйте в:"
 
 msgid "Renamed %s!"
-msgstr ""
+msgstr "Переименован %s!"
 
 msgid "Reset"
-msgstr ""
+msgstr "Перезагрузить"
 
 msgid "Reshare"
-msgstr ""
+msgstr "Поделиться"
 
 msgid "Reshare:"
-msgstr ""
+msgstr "Делиться:"
 
 msgid "Resources"
-msgstr ""
+msgstr "Ресурсы"
 
 msgid "Restart"
-msgstr ""
+msgstr "Перезапуск"
 
 msgid "Restart GUI?"
-msgstr ""
+msgstr "Перезапустить графический интерфейс?"
 
 msgid "Restart error: %s"
-msgstr ""
+msgstr "Ошибка перезапуска: %s"
 
 msgid "Restart softcam to apply restored configuration?"
-msgstr ""
+msgstr "Перезапустить Softcam, чтобы применить восстановленную конфигурацию?"
 
 msgid "Running cams"
-msgstr ""
+msgstr "Запуск камер"
 
 msgid "Save"
-msgstr ""
+msgstr "Сохранять"
 
 msgid "Scanning and retrieval list softcam ..."
-msgstr ""
+msgstr "Программная камера сканирования и поиска списка..."
 
 msgid "Select CCcam"
-msgstr ""
+msgstr "Выберите CCcam"
 
 msgid "Select Get Link"
-msgstr ""
+msgstr "Выберите «Получить ссылку»."
 
 msgid "Select Ncam"
-msgstr ""
+msgstr "Выберите Нкам"
 
 msgid "Select OScam"
-msgstr ""
+msgstr "Выберите ОСкам"
 
 msgid "Select Your Choice"
-msgstr ""
+msgstr "Выберите свой выбор"
 
 msgid "Select a cam to run ..."
-msgstr ""
+msgstr "Выберите камеру для запуска..."
 
 msgid "Select and Install"
-msgstr ""
+msgstr "Выбрать и установить"
 
 msgid "Select backup to restore:"
-msgstr ""
+msgstr "Выберите резервную копию для восстановления:"
 
 msgid "Send EMM to Tivusat card"
-msgstr ""
+msgstr "Отправить EMM на карту Tivusat"
 
 msgid "Server"
-msgstr ""
+msgstr "Сервер"
 
 msgid "Server %s-%s"
-msgstr ""
+msgstr "Сервер %s-%s"
 
 msgid "Server Config"
-msgstr ""
+msgstr "Конфигурация сервера"
 
 msgid "Server Copy in"
-msgstr ""
+msgstr "Копирование сервера"
 
 msgid "Server Link"
-msgstr ""
+msgstr "Ссылка на сервер"
 
 msgid "Server Password"
-msgstr ""
+msgstr "Пароль сервера"
 
 msgid "Server Port"
-msgstr ""
+msgstr "Порт сервера"
 
 msgid "Server URL"
-msgstr ""
+msgstr "URL-адрес сервера"
 
 msgid "Server Url i.e. 012.345.678.900"
-msgstr ""
+msgstr "URL-адрес сервера, т.е. 012.345.678.900."
 
 msgid "Server Username"
-msgstr ""
+msgstr "Имя пользователя сервера"
 
 msgid "Server:"
-msgstr ""
+msgstr "Сервер:"
 
 msgid "Servers"
-msgstr ""
+msgstr "Серверы"
 
 msgid "Servers:"
-msgstr ""
+msgstr "Серверы:"
 
 msgid "Service"
-msgstr ""
+msgstr "Услуга"
 
 msgid "Set as UNIQUE PEER"
-msgstr ""
+msgstr "Установить как УНИКАЛЬНЫЙ PEER"
 
 msgid "Setup"
-msgstr ""
+msgstr "Настраивать"
 
 msgid "Share View"
-msgstr ""
+msgstr "Поделиться просмотром"
 
 msgid "Shares"
-msgstr ""
+msgstr "Акции"
 
 msgid "Show Clients"
-msgstr ""
+msgstr "Показать клиентов"
 
 msgid "Show Ecm info"
-msgstr ""
+msgstr "Показать информацию ECM"
 
 msgid "Show Log"
-msgstr ""
+msgstr "Показать журнал"
 
 msgid "Show Readers/Proxies"
-msgstr ""
+msgstr "Показать читателей/прокси"
 
 msgid "Softcam Manager"
-msgstr ""
+msgstr "Менеджер программной камеры"
 
 msgid "Softcam restarted with new configuration!"
-msgstr ""
+msgstr "Softcam перезапущен с новой конфигурацией!"
 
 msgid "Start"
-msgstr ""
+msgstr "Начинать"
 
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 msgid "Stop"
-msgstr ""
+msgstr "Останавливаться"
 
 msgid "Stop Finding Fakes"
-msgstr ""
+msgstr "Хватит искать подделки"
 
 msgid "Switch config"
-msgstr ""
+msgstr "Переключить конфигурацию"
 
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 msgid "System cleanup completed!"
-msgstr ""
+msgstr "Очистка системы завершена!"
 
 msgid "System:"
-msgstr ""
+msgstr "Система:"
 
 msgid "Temporarily DELETED"
-msgstr ""
+msgstr "Временно УДАЛЕНО"
 
 msgid "The DES key must have 28 hex digits."
-msgstr ""
+msgstr "Ключ DES должен состоять из 28 шестнадцатеричных цифр."
 
 msgid "This plugin shows you the status of your CCcam"
-msgstr ""
+msgstr "Этот плагин показывает вам статус вашей CCcam."
 
 msgid "Total"
-msgstr ""
+msgstr "Общий"
 
 msgid "Total cards:"
-msgstr ""
+msgstr "Всего карт:"
 
 msgid "Total handled client ecm's"
-msgstr ""
+msgstr "Всего обработанных ECM клиентов"
 
 msgid "Total handled client emm's"
-msgstr ""
+msgstr "Всего обработано emm клиентов"
 
 msgid "Total:"
-msgstr ""
+msgstr "Общий:"
 
 msgid "Try again later ..."
-msgstr ""
+msgstr "Попробуйте позже..."
 
 msgid "Type:"
-msgstr ""
+msgstr "Тип:"
 
 msgid "UNDELETED"
-msgstr ""
+msgstr "НЕ УДАЛЕНО"
 
 msgid "Unknow Image!"
-msgstr ""
+msgstr "Неизвестное изображение!"
 
 msgid "Update"
-msgstr ""
+msgstr "Обновлять"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Обновление прервано!"
 
 msgid "Update OSCam Tivusat codes"
-msgstr ""
+msgstr "Обновление кодов OSCam Tivusat"
 
 msgid "Update interval (in seconds)"
-msgstr ""
+msgstr "Интервал обновления (в секундах)"
 
 msgid "Upgrading..."
-msgstr ""
+msgstr "Обновление..."
 
 msgid "Uphops +"
-msgstr ""
+msgstr "Упс +"
 
 msgid "Uphops -"
-msgstr ""
+msgstr "Упс -"
 
 msgid "Uphops:"
-msgstr ""
+msgstr "Упсы:"
 
 msgid "Uptime"
-msgstr ""
+msgstr "Время работы"
 
 msgid "Used:"
-msgstr ""
+msgstr "Использовал:"
 
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
 msgid "Username (httpuser)"
-msgstr ""
+msgstr "Имя пользователя (httpuser)"
 
 msgid "Using old profile:"
-msgstr ""
+msgstr "Используя старый профиль:"
 
 msgid "Version:"
-msgstr ""
+msgstr "Версия:"
 
 msgid "Wait please..."
-msgstr ""
+msgstr "Подождите, пожалуйста..."
 
 msgid "Write"
-msgstr ""
+msgstr "Писать"
 
 msgid "Write-Debug"
-msgstr ""
+msgstr "Запись-отладка"
 
 msgid "You have the latest version!"
-msgstr ""
+msgstr "У вас последняя версия!"
 
 msgid "\\\\\\\\tProvid:"
-msgstr ""
+msgstr "\\\\\\\\\\\\\\\\tПредоставление:"
 
 msgid "address:"
-msgstr ""
+msgstr "адрес:"
 
 msgid "and"
-msgstr ""
+msgstr "и"
 
 msgid "caid:"
-msgstr ""
+msgstr "служанка:"
 
 msgid "card"
-msgstr ""
+msgstr "карта"
 
 msgid "card reader"
-msgstr ""
+msgstr "картридер"
 
 msgid "close share view"
-msgstr ""
+msgstr "закрыть общий вид"
 
 msgid "decrease uphop by 1"
-msgstr ""
+msgstr "уменьшить uphop на 1"
 
 msgid "ecm time:"
-msgstr ""
+msgstr "время экм:"
 
 msgid "ecm.info"
 msgstr ""
 
 msgid "emm_sender.sh not found"
-msgstr ""
+msgstr "emm_sender.sh не найден"
 
 msgid "get the cards' server"
-msgstr ""
+msgstr "получить сервер карточек"
 
 msgid "handled"
-msgstr ""
+msgstr "обработанный"
 
 msgid "hops:"
-msgstr ""
+msgstr "хмель:"
 
 msgid "increase uphop by 1"
-msgstr ""
+msgstr "увеличить uphop на 1"
 
 msgid "info"
-msgstr ""
+msgstr "информация"
 
 msgid "no or unknown card inserted"
-msgstr ""
+msgstr "карта не вставлена ​​или неизвестна"
 
 msgid "pid:"
-msgstr ""
+msgstr "идентификатор:"
 
 msgid "provid:"
-msgstr ""
+msgstr "предоставить:"
 
 msgid "provider:"
-msgstr ""
+msgstr "поставщик:"
 
 msgid "share:"
-msgstr ""
+msgstr "делиться:"
 
 msgid "show all cards"
-msgstr ""
+msgstr "показать все карты"
 
 msgid "show cards with uphop 0"
-msgstr ""
+msgstr "показать карты с uphop 0"
 
 msgid "show cards with uphop 1"
-msgstr ""
+msgstr "покажи карты с uphop 1"
 
 msgid "show cards with uphop 2"
-msgstr ""
+msgstr "покажи карты с uphop 2"
 
 msgid "show cards with uphop 3"
-msgstr ""
+msgstr "покажи карты с uphop 3"
 
 msgid "show cards with uphop 4"
-msgstr ""
+msgstr "покажи карты с uphop 4"
 
 msgid "show cards with uphop 5"
-msgstr ""
+msgstr "покажи карты с uphop 5"
 
 msgid "show cards with uphop 6"
-msgstr ""
+msgstr "покажи карты с uphop 6"
 
 msgid "show cards with uphop 7"
-msgstr ""
+msgstr "покажи карты с uphop 7"
 
 msgid "show cards with uphop 8"
-msgstr ""
+msgstr "покажи карты с uphop 8"
 
 msgid "show cards with uphop 9"
-msgstr ""
+msgstr "покажи карты с uphop 9"
 
 msgid "system:"
-msgstr ""
+msgstr "система:"
 
 msgid "using:"
-msgstr ""
+msgstr "с использованием:"
 
 msgid "xLine"
-msgstr ""
+msgstr "хЛайн"

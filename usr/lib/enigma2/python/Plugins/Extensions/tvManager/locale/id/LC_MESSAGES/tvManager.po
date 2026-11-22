@@ -88,13 +88,13 @@ msgid "Backup failed!"
 msgstr "Pencadangan gagal!"
 
 msgid "Backup restoration failed!"
-msgstr ""
+msgstr "Pemulihan cadangan gagal!"
 
 msgid "CCPrioMaker Settings"
 msgstr "Pengaturan CCPrioMaker"
 
 msgid "CCPrioMaker autostart"
-msgstr ""
+msgstr "Mulai otomatis CCPrioMaker"
 
 msgid "CCcam"
 msgstr "cccam"
@@ -118,34 +118,34 @@ msgid "CCcam Info Config"
 msgstr "Konfigurasi Info CCcam"
 
 msgid "CCcam Info Config Menu"
-msgstr ""
+msgstr "Menu Konfigurasi Info CCcam"
 
 msgid "CCcam Line Editor"
 msgstr "Editor Jalur CCcam"
 
 msgid "CCcam Organizer"
-msgstr ""
+msgstr "Penyelenggara CCcam"
 
 msgid "CCcam Prio Maker"
-msgstr ""
+msgstr "Pembuat CCcam Prio"
 
 msgid "CCcam Provider Info"
-msgstr ""
+msgstr "Info Penyedia CCcam"
 
 msgid "CCcam Remote Info"
-msgstr ""
+msgstr "Info Jarak Jauh CCcam"
 
 msgid "CCcam Server Info"
 msgstr "Info Server CCcam"
 
 msgid "CCcam Share Info"
-msgstr ""
+msgstr "CCcam Bagikan Info"
 
 msgid "CCcam Shares Info"
 msgstr "CCcam Berbagi Info"
 
 msgid "CCcam.cfg Basic Line Editor"
-msgstr ""
+msgstr "CCcam.cfg Editor Garis Dasar"
 
 msgid "CaID:"
 msgstr ""
@@ -157,772 +157,772 @@ msgid "Caid:"
 msgstr ""
 
 msgid "Caid:Srvid"
-msgstr ""
+msgstr "Caid: Tuan"
 
 msgid "Cam Download"
-msgstr ""
+msgstr "Unduh Kamera"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Membatalkan"
 
 msgid "Card info (CCcam-Reader)"
-msgstr ""
+msgstr "Info kartu (Pembaca CCcam)"
 
 msgid "Cards:"
-msgstr ""
+msgstr "Kartu:"
 
 msgid "Cards: 0"
-msgstr ""
+msgstr "Kartu: 0"
 
 msgid "Cardserial"
-msgstr ""
+msgstr "Serial kartu"
 
 msgid "Channel"
-msgstr ""
+msgstr "Saluran"
 
 msgid "Channel Name"
-msgstr ""
+msgstr "Nama Saluran"
 
 msgid "Check Emm Send"
-msgstr ""
+msgstr "Periksa Emm Kirim"
 
 msgid "Choose CCcam-Reader"
-msgstr ""
+msgstr "Pilih Pembaca CCcam"
 
 msgid "Choose reader"
-msgstr ""
+msgstr "Pilih pembaca"
 
 msgid "Cleanup error: %s"
-msgstr ""
+msgstr "Kesalahan pembersihan: %s"
 
 msgid "Client %s-%s"
-msgstr ""
+msgstr "Klien %s-%s"
 
 msgid "Clients"
-msgstr ""
+msgstr "Klien"
 
 msgid "Close"
-msgstr ""
+msgstr "Menutup"
 
 msgid "Configfile %s saved."
-msgstr ""
+msgstr "File konfigurasi %s disimpan."
 
 msgid "Connected clients"
-msgstr ""
+msgstr "Klien yang terhubung"
 
 msgid "Connected:"
-msgstr ""
+msgstr "Terhubung:"
 
 msgid "Content"
-msgstr ""
+msgstr "Isi"
 
 msgid "Could not open the file %s!"
-msgstr ""
+msgstr "Tidak dapat membuka berkas %s!"
 
 msgid "Could not open the file %s! Error: %s"
-msgstr ""
+msgstr "Tidak dapat membuka berkas %s! Kesalahan: %s"
 
 msgid "Could not save configfile %s! Error: %s"
-msgstr ""
+msgstr "Tidak dapat menyimpan file konfigurasi %s! Kesalahan: %s"
 
 msgid "Could not save the config file! Error: %s"
-msgstr ""
+msgstr "Tidak dapat menyimpan file konfigurasi! Kesalahan: %s"
 
 msgid "Current time"
-msgstr ""
+msgstr "Waktu saat ini"
 
 msgid "DES key (28 hex)"
-msgstr ""
+msgstr "Kunci DES (28 heksa)"
 
 msgid "Delete"
-msgstr ""
+msgstr "Menghapus"
 
 msgid "Delete %s?"
-msgstr ""
+msgstr "Hapus %s?"
 
 msgid "Delete Peer"
-msgstr ""
+msgstr "Hapus Rekan"
 
 msgid "Delete failed!"
-msgstr ""
+msgstr "Penghapusan gagal!"
 
 msgid "Deleted %s!"
-msgstr ""
+msgstr "%s dihapus!"
 
 msgid "Do you install this plugin ?"
-msgstr ""
+msgstr "Apakah Anda menginstal plugin ini?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Apakah Anda ingin menghapus?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Apakah Anda ingin memulai ulang Antarmuka Gui?"
 
 msgid "ECM file empty"
-msgstr ""
+msgstr "File ECM kosong"
 
 msgid "ECM read error"
-msgstr ""
+msgstr "Kesalahan pembacaan ECM"
 
 msgid "Ecm Info"
-msgstr ""
+msgstr "Info Ecm"
 
 msgid "Ecm Statistics"
-msgstr ""
+msgstr "Statistik Ecm"
 
 msgid "Ecm Time"
-msgstr ""
+msgstr "Waktu Ecm"
 
 msgid "Ecm avg"
-msgstr ""
+msgstr "Rata-rata Ecm"
 
 msgid "Ecm last"
-msgstr ""
+msgstr "Ecm terakhir"
 
 msgid "Edit"
-msgstr ""
+msgstr "Sunting"
 
 msgid "Editing one caid"
-msgstr ""
+msgstr "Mengedit satu caid"
 
 msgid "Emm Info"
 msgstr ""
 
 msgid "Entitlements"
-msgstr ""
+msgstr "Hak"
 
 msgid "Error"
-msgstr ""
+msgstr "Kesalahan"
 
 msgid "Error getting resource information"
-msgstr ""
+msgstr "Terjadi kesalahan saat mendapatkan informasi sumber daya"
 
 msgid "Error loading system info:"
-msgstr ""
+msgstr "Kesalahan saat memuat info sistem:"
 
 msgid "Error loading system information:"
-msgstr ""
+msgstr "Kesalahan saat memuat informasi sistem:"
 
 msgid "Error opening cam info: %s"
-msgstr ""
+msgstr "Kesalahan saat membuka info kamera: %s"
 
 msgid "Error processing HTML!"
-msgstr ""
+msgstr "Terjadi kesalahan saat memproses HTML!"
 
 msgid "Error processing server addons data"
-msgstr ""
+msgstr "Terjadi kesalahan saat memproses data tambahan server"
 
 msgid "Error reading webpage!"
-msgstr ""
+msgstr "Kesalahan membaca halaman web!"
 
 msgid "Error stopping %s!"
-msgstr ""
+msgstr "Terjadi kesalahan saat menghentikan %s!"
 
 msgid "Error while editing configuration: %s"
-msgstr ""
+msgstr "Kesalahan saat mengedit konfigurasi: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "KELUAR"
 
 msgid "Extended Shares"
-msgstr ""
+msgstr "Saham yang Diperluas"
 
 msgid "Failed to revert file: %s"
-msgstr ""
+msgstr "Gagal mengembalikan berkas: %s"
 
 msgid "Find Fakes"
-msgstr ""
+msgstr "Temukan yang Palsu"
 
 msgid "Force Update"
-msgstr ""
+msgstr "Pembaruan Paksa"
 
 msgid "Free memory"
-msgstr ""
+msgstr "Memori bebas"
 
 msgid "Free memory:"
-msgstr ""
+msgstr "Memori bebas:"
 
 msgid "Free:"
-msgstr ""
+msgstr "Bebas:"
 
 msgid "General"
-msgstr ""
+msgstr "Umum"
 
 msgid "Get Link"
-msgstr ""
+msgstr "Dapatkan Tautan"
 
 msgid "Getting the list, please wait ..."
-msgstr ""
+msgstr "Mendapatkan daftarnya, harap tunggu ..."
 
 msgid "Help"
-msgstr ""
+msgstr "Membantu"
 
 msgid "Hops"
-msgstr ""
+msgstr "melompat"
 
 msgid "Hops:"
-msgstr ""
+msgstr "Hop:"
 
 msgid "Hostname:"
-msgstr ""
+msgstr "Nama host:"
 
 msgid "IP Address"
-msgstr ""
+msgstr "Alamat IP"
 
 msgid "IP address"
-msgstr ""
+msgstr "alamat IP"
 
 msgid "IP address / host"
-msgstr ""
+msgstr "Alamat IP/host"
 
 msgid "Idle Time:"
-msgstr ""
+msgstr "Waktu Menganggur:"
 
 msgid "If Active: Download/Reset Server Config"
-msgstr ""
+msgstr "Jika Aktif: Unduh/Reset Konfigurasi Server"
 
 msgid "Install Cam first!!!"
-msgstr ""
+msgstr "Instal Kamera terlebih dahulu!!!"
 
 msgid "Install developer update (%s)?"
-msgstr ""
+msgstr "Instal pembaruan pengembang (%s)?"
 
 msgid "Invalid HTML content!"
-msgstr ""
+msgstr "Konten HTML tidak valid!"
 
 msgid "Invalid URL!"
-msgstr ""
+msgstr "URL tidak valid!"
 
 msgid "Last Req."
-msgstr ""
+msgstr "Persyaratan Terakhir."
 
 msgid "Last used share:"
-msgstr ""
+msgstr "Bagian yang terakhir digunakan:"
 
 msgid "Load"
-msgstr ""
+msgstr "Memuat"
 
 msgid "Local box"
-msgstr ""
+msgstr "Kotak lokal"
 
 msgid "Location"
-msgstr ""
+msgstr "Lokasi"
 
 msgid "Log"
-msgstr ""
+msgstr "Catatan"
 
 msgid "Log %s-%s"
-msgstr ""
+msgstr "Catat %s-%s"
 
 msgid "MENU EMM / SERVER CLINE"
 msgstr ""
 
 msgid "Maxdown +"
-msgstr ""
+msgstr "Maksimum +"
 
 msgid "Maxdown -"
-msgstr ""
+msgstr "Maksimal -"
 
 msgid "Maxdown:"
-msgstr ""
+msgstr "Maksimum:"
 
 msgid "Menu config"
-msgstr ""
+msgstr "Konfigurasi menu"
 
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 msgid "Ncam not running - start Cam to obtain information."
-msgstr ""
+msgstr "Ncam tidak berjalan - mulai Cam untuk mendapatkan informasi."
 
 msgid "New"
-msgstr ""
+msgstr "Baru"
 
 msgid "New profile:"
-msgstr ""
+msgstr "Profil baru:"
 
 msgid "New version %s available - press INFO to update"
-msgstr ""
+msgstr "Versi baru %s tersedia - tekan INFO untuk memperbarui"
 
 msgid "NewCamd"
-msgstr ""
+msgstr "Camd Baru"
 
 msgid "No ECM (clear channel or cam not decoding)"
-msgstr ""
+msgstr "Tidak ada ECM (saluran jernih atau cam tidak decoding)"
 
 msgid "No ECM data"
-msgstr ""
+msgstr "Tidak ada data ECM"
 
 msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr ""
+msgstr "Tidak ada info ECM yang tersedia saat ini. Ini hanya tersedia saat mendekripsi."
 
 msgid "No active cam to restart!"
-msgstr ""
+msgstr "Tidak ada kamera aktif untuk memulai ulang!"
 
 msgid "No backups available!"
-msgstr ""
+msgstr "Tidak ada cadangan yang tersedia!"
 
 msgid "No card inserted!"
-msgstr ""
+msgstr "Tidak ada kartu yang dimasukkan!"
 
 msgid "No default file for %s"
-msgstr ""
+msgstr "Tidak ada berkas bawaan untuk %s"
 
 msgid "No softcams available!"
-msgstr ""
+msgstr "Tidak ada softcam yang tersedia!"
 
 msgid "No valid backups found!"
-msgstr ""
+msgstr "Tidak ditemukan cadangan valid!"
 
 msgid "NodeID"
 msgstr ""
 
 msgid "NodeID:"
-msgstr ""
+msgstr "ID Node:"
 
 msgid "Nothing to show"
-msgstr ""
+msgstr "Tidak ada yang perlu ditunjukkan"
 
 msgid "OK"
-msgstr ""
+msgstr "OKE"
 
 msgid "Oscam not running - start Cam to obtain information."
-msgstr ""
+msgstr "Oscam tidak berjalan - mulai Cam untuk mendapatkan informasi."
 
 msgid "Password"
-msgstr ""
+msgstr "Kata sandi"
 
 msgid "Password (httpwd)"
-msgstr ""
+msgstr "Kata sandi (httpwd)"
 
 msgid "Peak load (max queued requests per workerthread)"
-msgstr ""
+msgstr "Beban puncak (permintaan antrian maksimum per thread pekerja)"
 
 msgid "Pid"
 msgstr ""
 
 msgid "Please Reset - No File CFG"
-msgstr ""
+msgstr "Silakan Reset - Tidak Ada File CFG"
 
 msgid "Please select ..."
-msgstr ""
+msgstr "Silakan pilih..."
 
 msgid "Please select a line to edit or select add to create new line."
-msgstr ""
+msgstr "Silakan pilih baris yang akan diedit atau pilih tambahkan untuk membuat baris baru."
 
 msgid "Port"
-msgstr ""
+msgstr "Pelabuhan"
 
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 msgid "Profile: Local box"
-msgstr ""
+msgstr "Profil: Kotak lokal"
 
 msgid "Protocol"
-msgstr ""
+msgstr "Protokol"
 
 msgid "Provider"
-msgstr ""
+msgstr "Penyedia"
 
 msgid "Provider Name:"
-msgstr ""
+msgstr "Nama Penyedia:"
 
 msgid "Provider:"
-msgstr ""
+msgstr "Penyedia:"
 
 msgid "Providers"
-msgstr ""
+msgstr "Penyedia"
 
 msgid "Providers:"
-msgstr ""
+msgstr "Penyedia:"
 
 msgid "Quick restart %s?"
-msgstr ""
+msgstr "Mulai ulang cepat %s?"
 
 msgid "Read Userdata from %s.conf"
-msgstr ""
+msgstr "Baca Data Pengguna dari %s.conf"
 
 msgid "Reader"
-msgstr ""
+msgstr "Pembaca"
 
 msgid "Reader Statistics"
-msgstr ""
+msgstr "Statistik Pembaca"
 
 msgid "Reader/User"
-msgstr ""
+msgstr "Pembaca/Pengguna"
 
 msgid "Recover Peer"
-msgstr ""
+msgstr "Pulihkan Rekan"
 
 msgid "Remote box"
-msgstr ""
+msgstr "Kotak jarak jauh"
 
 msgid "Remove"
-msgstr ""
+msgstr "Menghapus"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Menghapus %s"
 
 msgid "Rename"
-msgstr ""
+msgstr "Ganti nama"
 
 msgid "Rename failed!"
-msgstr ""
+msgstr "Gagal mengganti nama!"
 
 msgid "Rename to:"
-msgstr ""
+msgstr "Ganti nama menjadi:"
 
 msgid "Renamed %s!"
-msgstr ""
+msgstr "Berganti nama menjadi %s!"
 
 msgid "Reset"
-msgstr ""
+msgstr "Mengatur ulang"
 
 msgid "Reshare"
-msgstr ""
+msgstr "Bagikan ulang"
 
 msgid "Reshare:"
-msgstr ""
+msgstr "Membagikan:"
 
 msgid "Resources"
-msgstr ""
+msgstr "Sumber daya"
 
 msgid "Restart"
-msgstr ""
+msgstr "Mulai ulang"
 
 msgid "Restart GUI?"
-msgstr ""
+msgstr "Mulai ulang GUI?"
 
 msgid "Restart error: %s"
-msgstr ""
+msgstr "Kesalahan saat memulai ulang: %s"
 
 msgid "Restart softcam to apply restored configuration?"
-msgstr ""
+msgstr "Mulai ulang softcam untuk menerapkan konfigurasi yang dipulihkan?"
 
 msgid "Running cams"
-msgstr ""
+msgstr "Menjalankan kamera"
 
 msgid "Save"
-msgstr ""
+msgstr "Menyimpan"
 
 msgid "Scanning and retrieval list softcam ..."
-msgstr ""
+msgstr "Pemindaian dan pengambilan daftar softcam..."
 
 msgid "Select CCcam"
-msgstr ""
+msgstr "Pilih kamera CC"
 
 msgid "Select Get Link"
-msgstr ""
+msgstr "Pilih Dapatkan Tautan"
 
 msgid "Select Ncam"
-msgstr ""
+msgstr "Pilih Ncam"
 
 msgid "Select OScam"
-msgstr ""
+msgstr "Pilih kamera OS"
 
 msgid "Select Your Choice"
-msgstr ""
+msgstr "Pilih Pilihan Anda"
 
 msgid "Select a cam to run ..."
-msgstr ""
+msgstr "Pilih kamera untuk dijalankan ..."
 
 msgid "Select and Install"
-msgstr ""
+msgstr "Pilih dan Instal"
 
 msgid "Select backup to restore:"
-msgstr ""
+msgstr "Pilih cadangan untuk dipulihkan:"
 
 msgid "Send EMM to Tivusat card"
-msgstr ""
+msgstr "Kirim EMM ke kartu Tivusat"
 
 msgid "Server"
-msgstr ""
+msgstr "pelayan"
 
 msgid "Server %s-%s"
 msgstr ""
 
 msgid "Server Config"
-msgstr ""
+msgstr "Konfigurasi Server"
 
 msgid "Server Copy in"
-msgstr ""
+msgstr "Server Salin masuk"
 
 msgid "Server Link"
-msgstr ""
+msgstr "Tautan Server"
 
 msgid "Server Password"
-msgstr ""
+msgstr "Kata Sandi Server"
 
 msgid "Server Port"
-msgstr ""
+msgstr "Pelabuhan Server"
 
 msgid "Server URL"
-msgstr ""
+msgstr "URL server"
 
 msgid "Server Url i.e. 012.345.678.900"
-msgstr ""
+msgstr "Url Server yaitu 012.345.678.900"
 
 msgid "Server Username"
-msgstr ""
+msgstr "Nama Pengguna Server"
 
 msgid "Server:"
-msgstr ""
+msgstr "pelayan:"
 
 msgid "Servers"
-msgstr ""
+msgstr "Server"
 
 msgid "Servers:"
-msgstr ""
+msgstr "Server:"
 
 msgid "Service"
-msgstr ""
+msgstr "Melayani"
 
 msgid "Set as UNIQUE PEER"
-msgstr ""
+msgstr "Tetapkan sebagai PEER UNIK"
 
 msgid "Setup"
-msgstr ""
+msgstr "Pengaturan"
 
 msgid "Share View"
-msgstr ""
+msgstr "Bagikan Tampilan"
 
 msgid "Shares"
-msgstr ""
+msgstr "Bagikan"
 
 msgid "Show Clients"
-msgstr ""
+msgstr "Tunjukkan Klien"
 
 msgid "Show Ecm info"
-msgstr ""
+msgstr "Tampilkan info Ecm"
 
 msgid "Show Log"
-msgstr ""
+msgstr "Tampilkan Log"
 
 msgid "Show Readers/Proxies"
-msgstr ""
+msgstr "Tampilkan Pembaca/Proxy"
 
 msgid "Softcam Manager"
-msgstr ""
+msgstr "Manajer Kamera Lunak"
 
 msgid "Softcam restarted with new configuration!"
-msgstr ""
+msgstr "Softcam dimulai ulang dengan konfigurasi baru!"
 
 msgid "Start"
-msgstr ""
+msgstr "Awal"
 
 msgid "Status"
 msgstr ""
 
 msgid "Stop"
-msgstr ""
+msgstr "Berhenti"
 
 msgid "Stop Finding Fakes"
-msgstr ""
+msgstr "Berhenti Menemukan Barang Palsu"
 
 msgid "Switch config"
-msgstr ""
+msgstr "Ganti konfigurasi"
 
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 msgid "System cleanup completed!"
-msgstr ""
+msgstr "Pembersihan sistem selesai!"
 
 msgid "System:"
-msgstr ""
+msgstr "Sistem:"
 
 msgid "Temporarily DELETED"
-msgstr ""
+msgstr "DIHAPUS Sementara"
 
 msgid "The DES key must have 28 hex digits."
-msgstr ""
+msgstr "Kunci DES harus memiliki 28 digit hex."
 
 msgid "This plugin shows you the status of your CCcam"
-msgstr ""
+msgstr "Plugin ini menunjukkan status CCcam Anda"
 
 msgid "Total"
 msgstr ""
 
 msgid "Total cards:"
-msgstr ""
+msgstr "Jumlah kartu:"
 
 msgid "Total handled client ecm's"
-msgstr ""
+msgstr "Total ecm klien yang ditangani"
 
 msgid "Total handled client emm's"
-msgstr ""
+msgstr "Total klien yang ditangani emm"
 
 msgid "Total:"
 msgstr ""
 
 msgid "Try again later ..."
-msgstr ""
+msgstr "Coba lagi nanti..."
 
 msgid "Type:"
-msgstr ""
+msgstr "Jenis:"
 
 msgid "UNDELETED"
-msgstr ""
+msgstr "TIDAK DIHAPUS"
 
 msgid "Unknow Image!"
-msgstr ""
+msgstr "Gambar Tidak Diketahui!"
 
 msgid "Update"
-msgstr ""
+msgstr "Memperbarui"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Pembaruan Dibatalkan!"
 
 msgid "Update OSCam Tivusat codes"
-msgstr ""
+msgstr "Perbarui kode OSCam Tivusat"
 
 msgid "Update interval (in seconds)"
-msgstr ""
+msgstr "Interval pembaruan (dalam detik)"
 
 msgid "Upgrading..."
-msgstr ""
+msgstr "Perbaikan..."
 
 msgid "Uphops +"
-msgstr ""
+msgstr "Uphop +"
 
 msgid "Uphops -"
-msgstr ""
+msgstr "uphops -"
 
 msgid "Uphops:"
-msgstr ""
+msgstr "Uphop:"
 
 msgid "Uptime"
-msgstr ""
+msgstr "Waktu aktif"
 
 msgid "Used:"
-msgstr ""
+msgstr "Digunakan:"
 
 msgid "Username"
-msgstr ""
+msgstr "Nama belakang"
 
 msgid "Username (httpuser)"
-msgstr ""
+msgstr "Nama pengguna (pengguna http)"
 
 msgid "Using old profile:"
-msgstr ""
+msgstr "Menggunakan profil lama:"
 
 msgid "Version:"
-msgstr ""
+msgstr "Versi:"
 
 msgid "Wait please..."
-msgstr ""
+msgstr "Tolong tunggu..."
 
 msgid "Write"
-msgstr ""
+msgstr "Menulis"
 
 msgid "Write-Debug"
-msgstr ""
+msgstr "Tulis-Debug"
 
 msgid "You have the latest version!"
-msgstr ""
+msgstr "Anda memiliki versi terbaru!"
 
 msgid "\\\\\\\\tProvid:"
-msgstr ""
+msgstr "\\\\\\\\\\\\\\\\tMenyediakan:"
 
 msgid "address:"
-msgstr ""
+msgstr "alamat:"
 
 msgid "and"
-msgstr ""
+msgstr "Dan"
 
 msgid "caid:"
-msgstr ""
+msgstr "kata:"
 
 msgid "card"
-msgstr ""
+msgstr "kartu"
 
 msgid "card reader"
-msgstr ""
+msgstr "pembaca kartu"
 
 msgid "close share view"
-msgstr ""
+msgstr "tutup tampilan berbagi"
 
 msgid "decrease uphop by 1"
-msgstr ""
+msgstr "mengurangi uphop sebesar 1"
 
 msgid "ecm time:"
-msgstr ""
+msgstr "waktu ecm:"
 
 msgid "ecm.info"
 msgstr ""
 
 msgid "emm_sender.sh not found"
-msgstr ""
+msgstr "emm_sender.sh tidak ditemukan"
 
 msgid "get the cards' server"
-msgstr ""
+msgstr "dapatkan server kartu"
 
 msgid "handled"
-msgstr ""
+msgstr "ditangani"
 
 msgid "hops:"
-msgstr ""
+msgstr "melompat:"
 
 msgid "increase uphop by 1"
-msgstr ""
+msgstr "meningkatkan uphop sebesar 1"
 
 msgid "info"
 msgstr ""
 
 msgid "no or unknown card inserted"
-msgstr ""
+msgstr "tidak ada atau kartu tidak dikenal dimasukkan"
 
 msgid "pid:"
 msgstr ""
 
 msgid "provid:"
-msgstr ""
+msgstr "menyediakan:"
 
 msgid "provider:"
-msgstr ""
+msgstr "penyedia:"
 
 msgid "share:"
-msgstr ""
+msgstr "membagikan:"
 
 msgid "show all cards"
-msgstr ""
+msgstr "tunjukkan semua kartu"
 
 msgid "show cards with uphop 0"
-msgstr ""
+msgstr "tampilkan kartu dengan uphop 0"
 
 msgid "show cards with uphop 1"
-msgstr ""
+msgstr "tunjukkan kartu dengan uphop 1"
 
 msgid "show cards with uphop 2"
-msgstr ""
+msgstr "tunjukkan kartu dengan uphop 2"
 
 msgid "show cards with uphop 3"
-msgstr ""
+msgstr "tunjukkan kartu dengan uphop 3"
 
 msgid "show cards with uphop 4"
-msgstr ""
+msgstr "tunjukkan kartu dengan uphop 4"
 
 msgid "show cards with uphop 5"
-msgstr ""
+msgstr "tunjukkan kartu dengan uphop 5"
 
 msgid "show cards with uphop 6"
-msgstr ""
+msgstr "tunjukkan kartu dengan uphop 6"
 
 msgid "show cards with uphop 7"
-msgstr ""
+msgstr "tunjukkan kartu dengan uphop 7"
 
 msgid "show cards with uphop 8"
-msgstr ""
+msgstr "tunjukkan kartu dengan uphop 8"
 
 msgid "show cards with uphop 9"
-msgstr ""
+msgstr "tunjukkan kartu dengan uphop 9"
 
 msgid "system:"
-msgstr ""
+msgstr "sistem:"
 
 msgid "using:"
-msgstr ""
+msgstr "menggunakan:"
 
 msgid "xLine"
-msgstr ""
+msgstr "xGaris"

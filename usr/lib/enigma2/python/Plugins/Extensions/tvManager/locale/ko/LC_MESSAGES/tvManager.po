@@ -14,916 +14,916 @@ msgstr ""
 # Copyright (C) 2026 Lululla Team
 #
 msgid "%s ( %s Cards )"
-msgstr ""
+msgstr "%s ( %s 카드 )"
 
 msgid "%s Info - Configuration"
-msgstr ""
+msgstr "%s 정보 - 구성"
 
 msgid "%s Info - Main Menu"
-msgstr ""
+msgstr "%s 정보 - 기본 메뉴"
 
 msgid "%s restarted successfully!"
-msgstr ""
+msgstr "%s이(가) 성공적으로 다시 시작되었습니다!"
 
 msgid "(Active)"
-msgstr ""
+msgstr "(활동적인)"
 
 msgid "(All readers)"
-msgstr ""
+msgstr "(모든 독자)"
 
 msgid "(Not running)"
-msgstr ""
+msgstr "(실행되지 않음)"
 
 msgid "(Show only reader) (%s)"
-msgstr ""
+msgstr "(리더만 표시) (%s)"
 
 msgid "About"
-msgstr ""
+msgstr "에 대한"
 
 msgid "Activate"
-msgstr ""
+msgstr "활성화"
 
 msgid "Activate Insert line in Config File:"
-msgstr ""
+msgstr "구성 파일에서 삽입 라인을 활성화합니다."
 
 msgid "Active clients"
-msgstr ""
+msgstr "활성 클라이언트"
 
 msgid "Add"
-msgstr ""
+msgstr "추가하다"
 
 msgid "Add new CCcam line"
-msgstr ""
+msgstr "새로운 CCcam 라인 추가"
 
 msgid "Add new NewCamd line"
-msgstr ""
+msgstr "새로운 NewCamd 라인 추가"
 
 msgid "Address"
-msgstr ""
+msgstr "주소"
 
 msgid "All"
-msgstr ""
+msgstr "모두"
 
 msgid "An error occurred in the green function."
-msgstr ""
+msgstr "녹색 기능에 오류가 발생했습니다."
 
 msgid "An unexpected error occurred: %s"
-msgstr ""
+msgstr "예상치 못한 오류가 발생했습니다: %s"
 
 msgid "Ask all caid"
-msgstr ""
+msgstr "모든 케이드에게 물어보세요"
 
 msgid "Ask for the selection caid"
-msgstr ""
+msgstr "선택 케이드를 요청하세요"
 
 msgid "Automatically update Client/Server View?"
-msgstr ""
+msgstr "클라이언트/서버 보기를 자동으로 업데이트하시겠습니까?"
 
 msgid "Available shares:"
-msgstr ""
+msgstr "사용 가능한 주식:"
 
 msgid "Back"
-msgstr ""
+msgstr "뒤쪽에"
 
 msgid "Backup failed!"
-msgstr ""
+msgstr "백업에 실패했습니다!"
 
 msgid "Backup restoration failed!"
-msgstr ""
+msgstr "백업 복원에 실패했습니다!"
 
 msgid "CCPrioMaker Settings"
-msgstr ""
+msgstr "CCPrioMaker 설정"
 
 msgid "CCPrioMaker autostart"
-msgstr ""
+msgstr "CCPrioMaker 자동 시작"
 
 msgid "CCcam"
-msgstr ""
+msgstr "cccam"
 
 msgid "CCcam Clients Info"
-msgstr ""
+msgstr "CCcam 클라이언트 정보"
 
 msgid "CCcam Config Switcher"
-msgstr ""
+msgstr "CCcam 구성 전환기"
 
 msgid "CCcam ECM Info"
-msgstr ""
+msgstr "CCcam ECM 정보"
 
 msgid "CCcam Info"
-msgstr ""
+msgstr "CC캠 정보"
 
 msgid "CCcam Info %s"
-msgstr ""
+msgstr "CC캠 정보 %s"
 
 msgid "CCcam Info Config"
-msgstr ""
+msgstr "CCcam 정보 구성"
 
 msgid "CCcam Info Config Menu"
-msgstr ""
+msgstr "CCcam 정보 구성 메뉴"
 
 msgid "CCcam Line Editor"
-msgstr ""
+msgstr "CCcam 라인 편집기"
 
 msgid "CCcam Organizer"
-msgstr ""
+msgstr "CCcam 주최자"
 
 msgid "CCcam Prio Maker"
-msgstr ""
+msgstr "CCcam 프리오 메이커"
 
 msgid "CCcam Provider Info"
-msgstr ""
+msgstr "CCcam 제공업체 정보"
 
 msgid "CCcam Remote Info"
-msgstr ""
+msgstr "CCcam 원격 정보"
 
 msgid "CCcam Server Info"
-msgstr ""
+msgstr "CCcam 서버 정보"
 
 msgid "CCcam Share Info"
-msgstr ""
+msgstr "CCcam 공유 정보"
 
 msgid "CCcam Shares Info"
-msgstr ""
+msgstr "CCcam 공유 정보"
 
 msgid "CCcam.cfg Basic Line Editor"
-msgstr ""
+msgstr "CCcam.cfg 기본 라인 편집기"
 
 msgid "CaID:"
 msgstr ""
 
 msgid "Caid"
-msgstr ""
+msgstr "케이드"
 
 msgid "Caid:"
-msgstr ""
+msgstr "케이드:"
 
 msgid "Caid:Srvid"
-msgstr ""
+msgstr "케이드: Srvid"
 
 msgid "Cam Download"
-msgstr ""
+msgstr "캠 다운로드"
 
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 msgid "Card info (CCcam-Reader)"
-msgstr ""
+msgstr "카드정보(CCcam-Reader)"
 
 msgid "Cards:"
-msgstr ""
+msgstr "카드:"
 
 msgid "Cards: 0"
-msgstr ""
+msgstr "카드: 0"
 
 msgid "Cardserial"
-msgstr ""
+msgstr "카드 시리얼"
 
 msgid "Channel"
-msgstr ""
+msgstr "채널"
 
 msgid "Channel Name"
-msgstr ""
+msgstr "채널 이름"
 
 msgid "Check Emm Send"
-msgstr ""
+msgstr "Emm 보내기 확인"
 
 msgid "Choose CCcam-Reader"
-msgstr ""
+msgstr "CCcam-Reader를 선택하세요"
 
 msgid "Choose reader"
-msgstr ""
+msgstr "독자 선택"
 
 msgid "Cleanup error: %s"
-msgstr ""
+msgstr "정리 오류: %s"
 
 msgid "Client %s-%s"
-msgstr ""
+msgstr "클라이언트 %s-%s"
 
 msgid "Clients"
-msgstr ""
+msgstr "클라이언트"
 
 msgid "Close"
-msgstr ""
+msgstr "닫다"
 
 msgid "Configfile %s saved."
-msgstr ""
+msgstr "구성 파일 %s이(가) 저장되었습니다."
 
 msgid "Connected clients"
-msgstr ""
+msgstr "연결된 클라이언트"
 
 msgid "Connected:"
-msgstr ""
+msgstr "연결됨:"
 
 msgid "Content"
-msgstr ""
+msgstr "콘텐츠"
 
 msgid "Could not open the file %s!"
-msgstr ""
+msgstr "%s 파일을 열 수 없습니다!"
 
 msgid "Could not open the file %s! Error: %s"
-msgstr ""
+msgstr "%s 파일을 열 수 없습니다! 오류: %s"
 
 msgid "Could not save configfile %s! Error: %s"
-msgstr ""
+msgstr "구성 파일 %s을(를) 저장할 수 없습니다! 오류: %s"
 
 msgid "Could not save the config file! Error: %s"
-msgstr ""
+msgstr "구성 파일을 저장할 수 없습니다! 오류: %s"
 
 msgid "Current time"
-msgstr ""
+msgstr "현재 시간"
 
 msgid "DES key (28 hex)"
-msgstr ""
+msgstr "DES 키(28진수)"
 
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 msgid "Delete %s?"
-msgstr ""
+msgstr "%s을(를) 삭제하시겠습니까?"
 
 msgid "Delete Peer"
-msgstr ""
+msgstr "피어 삭제"
 
 msgid "Delete failed!"
-msgstr ""
+msgstr "삭제하지 못했습니다."
 
 msgid "Deleted %s!"
-msgstr ""
+msgstr "%s을(를) 삭제했습니다!"
 
 msgid "Do you install this plugin ?"
-msgstr ""
+msgstr "이 플러그인을 설치하시나요?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "제거하시겠습니까?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Gui 인터페이스를 다시 시작하시겠습니까?"
 
 msgid "ECM file empty"
-msgstr ""
+msgstr "ECM 파일이 비어 있음"
 
 msgid "ECM read error"
-msgstr ""
+msgstr "ECM 읽기 오류"
 
 msgid "Ecm Info"
-msgstr ""
+msgstr "ECM 정보"
 
 msgid "Ecm Statistics"
-msgstr ""
+msgstr "ECM 통계"
 
 msgid "Ecm Time"
-msgstr ""
+msgstr "ECM 시간"
 
 msgid "Ecm avg"
-msgstr ""
+msgstr "평균 ECM"
 
 msgid "Ecm last"
-msgstr ""
+msgstr "마지막 ECM"
 
 msgid "Edit"
-msgstr ""
+msgstr "편집하다"
 
 msgid "Editing one caid"
-msgstr ""
+msgstr "하나의 케이드 편집하기"
 
 msgid "Emm Info"
-msgstr ""
+msgstr "음 정보"
 
 msgid "Entitlements"
-msgstr ""
+msgstr "권리"
 
 msgid "Error"
-msgstr ""
+msgstr "오류"
 
 msgid "Error getting resource information"
-msgstr ""
+msgstr "리소스 정보를 가져오는 중에 오류가 발생했습니다."
 
 msgid "Error loading system info:"
-msgstr ""
+msgstr "시스템 정보를 로드하는 중 오류 발생:"
 
 msgid "Error loading system information:"
-msgstr ""
+msgstr "시스템 정보를 로드하는 중 오류 발생:"
 
 msgid "Error opening cam info: %s"
-msgstr ""
+msgstr "캠 정보를 여는 중 오류 발생: %s"
 
 msgid "Error processing HTML!"
-msgstr ""
+msgstr "HTML 처리 중 오류가 발생했습니다!"
 
 msgid "Error processing server addons data"
-msgstr ""
+msgstr "서버 애드온 데이터를 처리하는 중에 오류가 발생했습니다."
 
 msgid "Error reading webpage!"
-msgstr ""
+msgstr "웹페이지를 읽는 중 오류가 발생했습니다."
 
 msgid "Error stopping %s!"
-msgstr ""
+msgstr "%s을(를) 중지하는 동안 오류가 발생했습니다!"
 
 msgid "Error while editing configuration: %s"
-msgstr ""
+msgstr "구성을 편집하는 중 오류가 발생했습니다: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "출구"
 
 msgid "Extended Shares"
-msgstr ""
+msgstr "확장 주식"
 
 msgid "Failed to revert file: %s"
-msgstr ""
+msgstr "파일을 되돌리지 못했습니다: %s"
 
 msgid "Find Fakes"
-msgstr ""
+msgstr "가짜 찾기"
 
 msgid "Force Update"
-msgstr ""
+msgstr "강제 업데이트"
 
 msgid "Free memory"
-msgstr ""
+msgstr "여유 메모리"
 
 msgid "Free memory:"
-msgstr ""
+msgstr "여유 메모리:"
 
 msgid "Free:"
-msgstr ""
+msgstr "무료:"
 
 msgid "General"
-msgstr ""
+msgstr "일반적인"
 
 msgid "Get Link"
-msgstr ""
+msgstr "링크 받기"
 
 msgid "Getting the list, please wait ..."
-msgstr ""
+msgstr "목록을 가져오는 중입니다. 잠시 기다려 주세요."
 
 msgid "Help"
-msgstr ""
+msgstr "돕다"
 
 msgid "Hops"
-msgstr ""
+msgstr "홉"
 
 msgid "Hops:"
-msgstr ""
+msgstr "홉:"
 
 msgid "Hostname:"
-msgstr ""
+msgstr "호스트 이름:"
 
 msgid "IP Address"
-msgstr ""
+msgstr "IP 주소"
 
 msgid "IP address"
-msgstr ""
+msgstr "IP 주소"
 
 msgid "IP address / host"
-msgstr ""
+msgstr "IP 주소/호스트"
 
 msgid "Idle Time:"
-msgstr ""
+msgstr "유휴 시간:"
 
 msgid "If Active: Download/Reset Server Config"
-msgstr ""
+msgstr "활성인 경우: 서버 구성 다운로드/재설정"
 
 msgid "Install Cam first!!!"
-msgstr ""
+msgstr "먼저 캠을 설치하세요!!!"
 
 msgid "Install developer update (%s)?"
-msgstr ""
+msgstr "개발자 업데이트(%s)를 설치하시겠습니까?"
 
 msgid "Invalid HTML content!"
-msgstr ""
+msgstr "HTML 콘텐츠가 잘못되었습니다!"
 
 msgid "Invalid URL!"
-msgstr ""
+msgstr "잘못된 URL입니다!"
 
 msgid "Last Req."
-msgstr ""
+msgstr "마지막 요청"
 
 msgid "Last used share:"
-msgstr ""
+msgstr "마지막으로 사용한 공유:"
 
 msgid "Load"
-msgstr ""
+msgstr "짐"
 
 msgid "Local box"
-msgstr ""
+msgstr "지역박스"
 
 msgid "Location"
-msgstr ""
+msgstr "위치"
 
 msgid "Log"
-msgstr ""
+msgstr "통나무"
 
 msgid "Log %s-%s"
-msgstr ""
+msgstr "로그 %s-%s"
 
 msgid "MENU EMM / SERVER CLINE"
-msgstr ""
+msgstr "메뉴 EMM / 서버 클라인"
 
 msgid "Maxdown +"
-msgstr ""
+msgstr "맥스다운 +"
 
 msgid "Maxdown -"
-msgstr ""
+msgstr "맥스다운 -"
 
 msgid "Maxdown:"
-msgstr ""
+msgstr "맥스다운:"
 
 msgid "Menu config"
-msgstr ""
+msgstr "메뉴 구성"
 
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 msgid "Ncam not running - start Cam to obtain information."
-msgstr ""
+msgstr "Ncam이 실행되지 않음 - 정보를 얻으려면 Cam을 시작하십시오."
 
 msgid "New"
-msgstr ""
+msgstr "새로운"
 
 msgid "New profile:"
-msgstr ""
+msgstr "새 프로필:"
 
 msgid "New version %s available - press INFO to update"
-msgstr ""
+msgstr "새 버전 %s 사용 가능 - 업데이트하려면 정보를 누르세요."
 
 msgid "NewCamd"
-msgstr ""
+msgstr "뉴캠드"
 
 msgid "No ECM (clear channel or cam not decoding)"
-msgstr ""
+msgstr "ECM 없음(채널 지우기 또는 디코딩되지 않는 캠)"
 
 msgid "No ECM data"
-msgstr ""
+msgstr "ECM 데이터 없음"
 
 msgid "No ECM info is currently available. This is only available while decrypting."
-msgstr ""
+msgstr "현재 사용 가능한 ECM 정보가 없습니다. 복호화하는 동안에만 사용할 수 있습니다."
 
 msgid "No active cam to restart!"
-msgstr ""
+msgstr "다시 시작할 활성 캠이 없습니다!"
 
 msgid "No backups available!"
-msgstr ""
+msgstr "사용할 수 있는 백업이 없습니다!"
 
 msgid "No card inserted!"
-msgstr ""
+msgstr "카드가 삽입되지 않았습니다!"
 
 msgid "No default file for %s"
-msgstr ""
+msgstr "%s에 대한 기본 파일이 없습니다."
 
 msgid "No softcams available!"
-msgstr ""
+msgstr "소프트캠을 사용할 수 없습니다!"
 
 msgid "No valid backups found!"
-msgstr ""
+msgstr "유효한 백업을 찾을 수 없습니다!"
 
 msgid "NodeID"
-msgstr ""
+msgstr "노드ID"
 
 msgid "NodeID:"
-msgstr ""
+msgstr "노드ID:"
 
 msgid "Nothing to show"
-msgstr ""
+msgstr "표시할 내용 없음"
 
 msgid "OK"
-msgstr ""
+msgstr "좋아요"
 
 msgid "Oscam not running - start Cam to obtain information."
-msgstr ""
+msgstr "Oscam이 실행되지 않음 - 정보를 얻으려면 Cam을 시작하십시오."
 
 msgid "Password"
-msgstr ""
+msgstr "비밀번호"
 
 msgid "Password (httpwd)"
-msgstr ""
+msgstr "비밀번호(httpwd)"
 
 msgid "Peak load (max queued requests per workerthread)"
-msgstr ""
+msgstr "최대 로드(작업자 스레드당 대기 중인 최대 요청)"
 
 msgid "Pid"
-msgstr ""
+msgstr "피드"
 
 msgid "Please Reset - No File CFG"
-msgstr ""
+msgstr "재설정하세요 - 파일 CFG가 없습니다."
 
 msgid "Please select ..."
-msgstr ""
+msgstr "선택하세요 ..."
 
 msgid "Please select a line to edit or select add to create new line."
-msgstr ""
+msgstr "편집할 라인을 선택하거나 추가를 선택하여 새 라인을 만드세요."
 
 msgid "Port"
-msgstr ""
+msgstr "포트"
 
 msgid "Profile"
-msgstr ""
+msgstr "윤곽"
 
 msgid "Profile: Local box"
-msgstr ""
+msgstr "프로필: 로컬 박스"
 
 msgid "Protocol"
-msgstr ""
+msgstr "규약"
 
 msgid "Provider"
-msgstr ""
+msgstr "공급자"
 
 msgid "Provider Name:"
-msgstr ""
+msgstr "제공자 이름:"
 
 msgid "Provider:"
-msgstr ""
+msgstr "공급자:"
 
 msgid "Providers"
-msgstr ""
+msgstr "공급자"
 
 msgid "Providers:"
-msgstr ""
+msgstr "제공자:"
 
 msgid "Quick restart %s?"
-msgstr ""
+msgstr "빠른 재시작 %s?"
 
 msgid "Read Userdata from %s.conf"
-msgstr ""
+msgstr "%s.conf에서 사용자 데이터 읽기"
 
 msgid "Reader"
-msgstr ""
+msgstr "리더"
 
 msgid "Reader Statistics"
-msgstr ""
+msgstr "독자 통계"
 
 msgid "Reader/User"
-msgstr ""
+msgstr "독자/사용자"
 
 msgid "Recover Peer"
-msgstr ""
+msgstr "피어 복구"
 
 msgid "Remote box"
-msgstr ""
+msgstr "리모트박스"
 
 msgid "Remove"
-msgstr ""
+msgstr "제거하다"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s 제거 중"
 
 msgid "Rename"
-msgstr ""
+msgstr "이름 바꾸기"
 
 msgid "Rename failed!"
-msgstr ""
+msgstr "이름을 바꾸지 못했습니다."
 
 msgid "Rename to:"
-msgstr ""
+msgstr "이름 바꾸기:"
 
 msgid "Renamed %s!"
-msgstr ""
+msgstr "이름이 %s로 변경되었습니다!"
 
 msgid "Reset"
-msgstr ""
+msgstr "다시 놓기"
 
 msgid "Reshare"
-msgstr ""
+msgstr "다시 공유"
 
 msgid "Reshare:"
-msgstr ""
+msgstr "공유하다:"
 
 msgid "Resources"
-msgstr ""
+msgstr "자원"
 
 msgid "Restart"
-msgstr ""
+msgstr "다시 시작"
 
 msgid "Restart GUI?"
-msgstr ""
+msgstr "GUI를 다시 시작하시겠습니까?"
 
 msgid "Restart error: %s"
-msgstr ""
+msgstr "다시 시작 오류: %s"
 
 msgid "Restart softcam to apply restored configuration?"
-msgstr ""
+msgstr "복원된 구성을 적용하려면 소프트캠을 다시 시작하시겠습니까?"
 
 msgid "Running cams"
-msgstr ""
+msgstr "러닝캠"
 
 msgid "Save"
-msgstr ""
+msgstr "구하다"
 
 msgid "Scanning and retrieval list softcam ..."
-msgstr ""
+msgstr "스캔 및 검색 목록 소프트캠..."
 
 msgid "Select CCcam"
-msgstr ""
+msgstr "CC캠을 선택하세요"
 
 msgid "Select Get Link"
-msgstr ""
+msgstr "링크 가져오기를 선택하세요."
 
 msgid "Select Ncam"
-msgstr ""
+msgstr "엔캠을 선택하세요"
 
 msgid "Select OScam"
-msgstr ""
+msgstr "OScam을 선택하세요"
 
 msgid "Select Your Choice"
-msgstr ""
+msgstr "원하는 것을 선택하세요"
 
 msgid "Select a cam to run ..."
-msgstr ""
+msgstr "실행할 캠을 선택하세요..."
 
 msgid "Select and Install"
-msgstr ""
+msgstr "선택 및 설치"
 
 msgid "Select backup to restore:"
-msgstr ""
+msgstr "복원할 백업 선택:"
 
 msgid "Send EMM to Tivusat card"
-msgstr ""
+msgstr "Tivusat 카드로 EMM 보내기"
 
 msgid "Server"
-msgstr ""
+msgstr "섬기는 사람"
 
 msgid "Server %s-%s"
-msgstr ""
+msgstr "서버 %s-%s"
 
 msgid "Server Config"
-msgstr ""
+msgstr "서버 구성"
 
 msgid "Server Copy in"
-msgstr ""
+msgstr "서버 복사"
 
 msgid "Server Link"
-msgstr ""
+msgstr "서버링크"
 
 msgid "Server Password"
-msgstr ""
+msgstr "서버 비밀번호"
 
 msgid "Server Port"
-msgstr ""
+msgstr "서버 포트"
 
 msgid "Server URL"
-msgstr ""
+msgstr "서버 URL"
 
 msgid "Server Url i.e. 012.345.678.900"
-msgstr ""
+msgstr "서버 URL(예: 012.345.678.900)"
 
 msgid "Server Username"
-msgstr ""
+msgstr "서버 사용자 이름"
 
 msgid "Server:"
-msgstr ""
+msgstr "섬기는 사람:"
 
 msgid "Servers"
-msgstr ""
+msgstr "서버"
 
 msgid "Servers:"
-msgstr ""
+msgstr "서버:"
 
 msgid "Service"
-msgstr ""
+msgstr "서비스"
 
 msgid "Set as UNIQUE PEER"
-msgstr ""
+msgstr "고유 피어로 설정"
 
 msgid "Setup"
-msgstr ""
+msgstr "설정"
 
 msgid "Share View"
-msgstr ""
+msgstr "공유 보기"
 
 msgid "Shares"
-msgstr ""
+msgstr "주식"
 
 msgid "Show Clients"
-msgstr ""
+msgstr "클라이언트 표시"
 
 msgid "Show Ecm info"
-msgstr ""
+msgstr "ECM 정보 표시"
 
 msgid "Show Log"
-msgstr ""
+msgstr "로그 표시"
 
 msgid "Show Readers/Proxies"
-msgstr ""
+msgstr "리더/프록시 표시"
 
 msgid "Softcam Manager"
-msgstr ""
+msgstr "소프트캠 관리자"
 
 msgid "Softcam restarted with new configuration!"
-msgstr ""
+msgstr "Softcam이 새로운 구성으로 다시 시작되었습니다!"
 
 msgid "Start"
-msgstr ""
+msgstr "시작"
 
 msgid "Status"
-msgstr ""
+msgstr "상태"
 
 msgid "Stop"
-msgstr ""
+msgstr "멈추다"
 
 msgid "Stop Finding Fakes"
-msgstr ""
+msgstr "가짜 찾기 중지"
 
 msgid "Switch config"
-msgstr ""
+msgstr "스위치 구성"
 
 msgid "System"
-msgstr ""
+msgstr "체계"
 
 msgid "System cleanup completed!"
-msgstr ""
+msgstr "시스템 정리가 완료되었습니다!"
 
 msgid "System:"
-msgstr ""
+msgstr "체계:"
 
 msgid "Temporarily DELETED"
-msgstr ""
+msgstr "일시적으로 삭제됨"
 
 msgid "The DES key must have 28 hex digits."
-msgstr ""
+msgstr "DES 키는 28자리 16진수여야 합니다."
 
 msgid "This plugin shows you the status of your CCcam"
-msgstr ""
+msgstr "이 플러그인은 CCcam의 상태를 보여줍니다."
 
 msgid "Total"
-msgstr ""
+msgstr "총"
 
 msgid "Total cards:"
-msgstr ""
+msgstr "총 카드 수:"
 
 msgid "Total handled client ecm's"
-msgstr ""
+msgstr "처리된 총 클라이언트 ECM 수"
 
 msgid "Total handled client emm's"
-msgstr ""
+msgstr "처리된 총 클라이언트 EMM 수"
 
 msgid "Total:"
-msgstr ""
+msgstr "총:"
 
 msgid "Try again later ..."
-msgstr ""
+msgstr "나중에 다시 시도해 보세요..."
 
 msgid "Type:"
-msgstr ""
+msgstr "유형:"
 
 msgid "UNDELETED"
-msgstr ""
+msgstr "삭제 취소됨"
 
 msgid "Unknow Image!"
-msgstr ""
+msgstr "알 수 없는 이미지!"
 
 msgid "Update"
-msgstr ""
+msgstr "업데이트"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "업데이트가 중단되었습니다!"
 
 msgid "Update OSCam Tivusat codes"
-msgstr ""
+msgstr "OSCam Tivusat 코드 업데이트"
 
 msgid "Update interval (in seconds)"
-msgstr ""
+msgstr "업데이트 간격(초)"
 
 msgid "Upgrading..."
-msgstr ""
+msgstr "업그레이드 중..."
 
 msgid "Uphops +"
-msgstr ""
+msgstr "업홉스 +"
 
 msgid "Uphops -"
-msgstr ""
+msgstr "업홉 -"
 
 msgid "Uphops:"
-msgstr ""
+msgstr "업홉:"
 
 msgid "Uptime"
-msgstr ""
+msgstr "가동 시간"
 
 msgid "Used:"
-msgstr ""
+msgstr "사용된:"
 
 msgid "Username"
-msgstr ""
+msgstr "사용자 이름"
 
 msgid "Username (httpuser)"
-msgstr ""
+msgstr "사용자 이름(httpuser)"
 
 msgid "Using old profile:"
-msgstr ""
+msgstr "이전 프로필 사용:"
 
 msgid "Version:"
-msgstr ""
+msgstr "버전:"
 
 msgid "Wait please..."
-msgstr ""
+msgstr "기다려주세요..."
 
 msgid "Write"
-msgstr ""
+msgstr "쓰다"
 
 msgid "Write-Debug"
-msgstr ""
+msgstr "쓰기 디버그"
 
 msgid "You have the latest version!"
-msgstr ""
+msgstr "최신 버전이 있습니다!"
 
 msgid "\\\\\\\\tProvid:"
-msgstr ""
+msgstr "\\\\\\\\\\\\\\\\t제공:"
 
 msgid "address:"
-msgstr ""
+msgstr "주소:"
 
 msgid "and"
-msgstr ""
+msgstr "그리고"
 
 msgid "caid:"
-msgstr ""
+msgstr "케이드:"
 
 msgid "card"
-msgstr ""
+msgstr "카드"
 
 msgid "card reader"
-msgstr ""
+msgstr "카드 리더"
 
 msgid "close share view"
-msgstr ""
+msgstr "공유 보기 닫기"
 
 msgid "decrease uphop by 1"
-msgstr ""
+msgstr "업홉 1 감소"
 
 msgid "ecm time:"
-msgstr ""
+msgstr "ecm 시간:"
 
 msgid "ecm.info"
 msgstr ""
 
 msgid "emm_sender.sh not found"
-msgstr ""
+msgstr "emm_sender.sh를 찾을 수 없습니다"
 
 msgid "get the cards' server"
-msgstr ""
+msgstr "카드 서버를 확보하세요"
 
 msgid "handled"
-msgstr ""
+msgstr "처리"
 
 msgid "hops:"
-msgstr ""
+msgstr "홉:"
 
 msgid "increase uphop by 1"
-msgstr ""
+msgstr "업홉을 1 증가시킵니다."
 
 msgid "info"
-msgstr ""
+msgstr "정보"
 
 msgid "no or unknown card inserted"
-msgstr ""
+msgstr "삽입된 카드가 없거나 알 수 없는 카드"
 
 msgid "pid:"
 msgstr ""
 
 msgid "provid:"
-msgstr ""
+msgstr "제공:"
 
 msgid "provider:"
-msgstr ""
+msgstr "공급자:"
 
 msgid "share:"
-msgstr ""
+msgstr "공유하다:"
 
 msgid "show all cards"
-msgstr ""
+msgstr "모든 카드를 보여줘"
 
 msgid "show cards with uphop 0"
-msgstr ""
+msgstr "uphop 0이 포함된 카드 표시"
 
 msgid "show cards with uphop 1"
-msgstr ""
+msgstr "uphop 1이 포함된 카드 표시"
 
 msgid "show cards with uphop 2"
-msgstr ""
+msgstr "uphop 2로 카드 표시"
 
 msgid "show cards with uphop 3"
-msgstr ""
+msgstr "uphop 3으로 카드 표시"
 
 msgid "show cards with uphop 4"
-msgstr ""
+msgstr "uphop 4로 카드 표시"
 
 msgid "show cards with uphop 5"
-msgstr ""
+msgstr "uphop 5로 카드 표시"
 
 msgid "show cards with uphop 6"
-msgstr ""
+msgstr "uphop 6으로 카드 표시"
 
 msgid "show cards with uphop 7"
-msgstr ""
+msgstr "uphop 7로 카드 표시"
 
 msgid "show cards with uphop 8"
-msgstr ""
+msgstr "uphop 8로 카드 표시"
 
 msgid "show cards with uphop 9"
-msgstr ""
+msgstr "uphop 9로 카드 표시"
 
 msgid "system:"
-msgstr ""
+msgstr "체계:"
 
 msgid "using:"
-msgstr ""
+msgstr "사용:"
 
 msgid "xLine"
-msgstr ""
+msgstr "엑스라인"
