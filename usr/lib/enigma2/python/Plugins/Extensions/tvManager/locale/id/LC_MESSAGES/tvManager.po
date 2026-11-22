@@ -36,6 +36,12 @@ msgstr "(Tidak berjalan)"
 msgid "(Show only reader) (%s)"
 msgstr "(Tampilkan pembaca saja) (%s)"
 
+msgid "<no capabilities found>"
+msgstr ""
+
+msgid "<no log found>"
+msgstr ""
+
 msgid "About"
 msgstr "Tentang"
 
@@ -165,6 +171,9 @@ msgstr "Unduh Kamera"
 msgid "Cancel"
 msgstr "Membatalkan"
 
+msgid "Capabilities"
+msgstr ""
+
 msgid "Card info (CCcam-Reader)"
 msgstr "Info kartu (Pembaca CCcam)"
 
@@ -211,6 +220,10 @@ msgid "Connected clients"
 msgstr "Klien yang terhubung"
 
 msgid "Connected:"
+msgstr "Terhubung:"
+
+#, fuzzy
+msgid "Connecting..."
 msgstr "Terhubung:"
 
 msgid "Content"
@@ -261,6 +274,10 @@ msgstr "Apakah Anda ingin memulai ulang Antarmuka Gui?"
 msgid "ECM file empty"
 msgstr "File ECM kosong"
 
+#, fuzzy
+msgid "ECM info"
+msgstr "Info ECM CCcam"
+
 msgid "ECM read error"
 msgstr "Kesalahan pembacaan ECM"
 
@@ -289,6 +306,10 @@ msgid "Emm Info"
 msgstr ""
 
 msgid "Entitlements"
+msgstr "Hak"
+
+#, fuzzy
+msgid "Entitlements for '%s'"
 msgstr "Hak"
 
 msgid "Error"
@@ -344,6 +365,9 @@ msgstr "Memori bebas:"
 
 msgid "Free:"
 msgstr "Bebas:"
+
+msgid "GREEN: start %s"
+msgstr ""
 
 msgid "General"
 msgstr "Umum"
@@ -453,6 +477,10 @@ msgstr "Tidak ada ECM (saluran jernih atau cam tidak decoding)"
 msgid "No ECM data"
 msgstr "Tidak ada data ECM"
 
+#, fuzzy
+msgid "No ECM info is currently available."
+msgstr "Tidak ada info ECM yang tersedia saat ini. Ini hanya tersedia saat mendekripsi."
+
 msgid "No ECM info is currently available. This is only available while decrypting."
 msgstr "Tidak ada info ECM yang tersedia saat ini. Ini hanya tersedia saat mendekripsi."
 
@@ -468,8 +496,15 @@ msgstr "Tidak ada kartu yang dimasukkan!"
 msgid "No default file for %s"
 msgstr "Tidak ada berkas bawaan untuk %s"
 
+#, fuzzy
+msgid "No entitlements for '%s'"
+msgstr "Tidak ada berkas bawaan untuk %s"
+
 msgid "No softcams available!"
 msgstr "Tidak ada softcam yang tersedia!"
+
+msgid "No tvManager camscript for the current cam."
+msgstr ""
 
 msgid "No valid backups found!"
 msgstr "Tidak ditemukan cadangan valid!"
@@ -485,6 +520,9 @@ msgstr "Tidak ada yang perlu ditunjukkan"
 
 msgid "OK"
 msgstr "OKE"
+
+msgid "OK: Entitlements   MENU: more"
+msgstr ""
 
 msgid "Oscam not running - start Cam to obtain information."
 msgstr "Oscam tidak berjalan - mulai Cam untuk mendapatkan informasi."
@@ -509,6 +547,10 @@ msgstr "Silakan pilih..."
 
 msgid "Please select a line to edit or select add to create new line."
 msgstr "Silakan pilih baris yang akan diedit atau pilih tambahkan untuk membuat baris baru."
+
+#, fuzzy
+msgid "Please wait..."
+msgstr "Silakan pilih..."
 
 msgid "Port"
 msgstr "Pelabuhan"
@@ -547,6 +589,10 @@ msgid "Reader"
 msgstr "Pembaca"
 
 msgid "Reader Statistics"
+msgstr "Statistik Pembaca"
+
+#, fuzzy
+msgid "Reader statistics"
 msgstr "Statistik Pembaca"
 
 msgid "Reader/User"
@@ -590,6 +636,14 @@ msgstr "Sumber daya"
 
 msgid "Restart"
 msgstr "Mulai ulang"
+
+#, fuzzy
+msgid "Restart %s"
+msgstr "Mulai ulang"
+
+#, fuzzy
+msgid "Restart %s?"
+msgstr "Mulai ulang GUI?"
 
 msgid "Restart GUI?"
 msgstr "Mulai ulang GUI?"
@@ -684,6 +738,9 @@ msgstr "Tetapkan sebagai PEER UNIK"
 msgid "Setup"
 msgstr "Pengaturan"
 
+msgid "Setup (manual IP / user)"
+msgstr ""
+
 msgid "Share View"
 msgstr "Bagikan Tampilan"
 
@@ -711,10 +768,22 @@ msgstr "Softcam dimulai ulang dengan konfigurasi baru!"
 msgid "Start"
 msgstr "Awal"
 
+#, fuzzy
+msgid "Start %s"
+msgstr "Awal"
+
 msgid "Status"
 msgstr ""
 
 msgid "Stop"
+msgstr "Berhenti"
+
+#, fuzzy
+msgid "Stop %s"
+msgstr "Berhenti"
+
+#, fuzzy
+msgid "Stop %s?"
 msgstr "Berhenti"
 
 msgid "Stop Finding Fakes"
@@ -822,8 +891,9 @@ msgstr "Tulis-Debug"
 msgid "You have the latest version!"
 msgstr "Anda memiliki versi terbaru!"
 
+#, fuzzy
 msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\\\\\\\\\tMenyediakan:"
+msgstr "Penyedia:"
 
 msgid "address:"
 msgstr "alamat:"
@@ -833,6 +903,9 @@ msgstr "Dan"
 
 msgid "caid:"
 msgstr "kata:"
+
+msgid "camscript exit code %s"
+msgstr ""
 
 msgid "card"
 msgstr "kartu"
@@ -926,3 +999,6 @@ msgstr "menggunakan:"
 
 msgid "xLine"
 msgstr "xGaris"
+
+#~ msgid "\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tMenyediakan:"

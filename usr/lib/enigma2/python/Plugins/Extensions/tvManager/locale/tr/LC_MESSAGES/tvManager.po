@@ -823,8 +823,8 @@ msgstr "Yazma-Hata Ayıklama"
 msgid "You have the latest version!"
 msgstr "En son sürüme sahipsiniz!"
 
-msgid "\\\\\\\\tProvid:"
-msgstr "\\\\\\\\\\\\\\\\tSağlayın:"
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tSağlayın:"
 
 msgid "address:"
 msgstr "adres:"

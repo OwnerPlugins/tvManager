@@ -26,6 +26,12 @@ msgstr ""
 msgid "(Show only reader) (%s)"
 msgstr ""
 
+msgid "<no capabilities found>"
+msgstr ""
+
+msgid "<no log found>"
+msgstr ""
+
 msgid "About"
 msgstr ""
 
@@ -155,6 +161,9 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
+msgid "Capabilities"
+msgstr ""
+
 msgid "Card info (CCcam-Reader)"
 msgstr ""
 
@@ -201,6 +210,9 @@ msgid "Connected clients"
 msgstr ""
 
 msgid "Connected:"
+msgstr ""
+
+msgid "Connecting..."
 msgstr ""
 
 msgid "Content"
@@ -251,6 +263,9 @@ msgstr ""
 msgid "ECM file empty"
 msgstr ""
 
+msgid "ECM info"
+msgstr ""
+
 msgid "ECM read error"
 msgstr ""
 
@@ -279,6 +294,9 @@ msgid "Emm Info"
 msgstr ""
 
 msgid "Entitlements"
+msgstr ""
+
+msgid "Entitlements for '%s'"
 msgstr ""
 
 msgid "Error"
@@ -333,6 +351,9 @@ msgid "Free memory:"
 msgstr ""
 
 msgid "Free:"
+msgstr ""
+
+msgid "GREEN: start %s"
 msgstr ""
 
 msgid "General"
@@ -443,6 +464,9 @@ msgstr ""
 msgid "No ECM data"
 msgstr ""
 
+msgid "No ECM info is currently available."
+msgstr ""
+
 msgid "No ECM info is currently available. This is only available while decrypting."
 msgstr ""
 
@@ -458,7 +482,13 @@ msgstr ""
 msgid "No default file for %s"
 msgstr ""
 
+msgid "No entitlements for '%s'"
+msgstr ""
+
 msgid "No softcams available!"
+msgstr ""
+
+msgid "No tvManager camscript for the current cam."
 msgstr ""
 
 msgid "No valid backups found!"
@@ -474,6 +504,9 @@ msgid "Nothing to show"
 msgstr ""
 
 msgid "OK"
+msgstr ""
+
+msgid "OK: Entitlements   MENU: more"
 msgstr ""
 
 msgid "Oscam not running - start Cam to obtain information."
@@ -498,6 +531,9 @@ msgid "Please select ..."
 msgstr ""
 
 msgid "Please select a line to edit or select add to create new line."
+msgstr ""
+
+msgid "Please wait..."
 msgstr ""
 
 msgid "Port"
@@ -537,6 +573,9 @@ msgid "Reader"
 msgstr ""
 
 msgid "Reader Statistics"
+msgstr ""
+
+msgid "Reader statistics"
 msgstr ""
 
 msgid "Reader/User"
@@ -579,6 +618,12 @@ msgid "Resources"
 msgstr ""
 
 msgid "Restart"
+msgstr ""
+
+msgid "Restart %s"
+msgstr ""
+
+msgid "Restart %s?"
 msgstr ""
 
 msgid "Restart GUI?"
@@ -674,6 +719,9 @@ msgstr ""
 msgid "Setup"
 msgstr ""
 
+msgid "Setup (manual IP / user)"
+msgstr ""
+
 msgid "Share View"
 msgstr ""
 
@@ -701,10 +749,19 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
+msgid "Start %s"
+msgstr ""
+
 msgid "Status"
 msgstr ""
 
 msgid "Stop"
+msgstr ""
+
+msgid "Stop %s"
+msgstr ""
+
+msgid "Stop %s?"
 msgstr ""
 
 msgid "Stop Finding Fakes"
@@ -822,6 +879,9 @@ msgid "and"
 msgstr ""
 
 msgid "caid:"
+msgstr ""
+
+msgid "camscript exit code %s"
 msgstr ""
 
 msgid "card"
