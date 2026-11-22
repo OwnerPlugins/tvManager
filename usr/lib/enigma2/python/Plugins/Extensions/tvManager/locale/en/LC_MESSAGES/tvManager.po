@@ -893,7 +893,7 @@ msgid "You have the latest version!"
 msgstr "You have the latest version!"
 
 #, fuzzy
-msgid "\\\\\\\\tProvid:"
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
 msgstr "Provider:"
 
 msgid "address:"
