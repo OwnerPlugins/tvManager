@@ -69,7 +69,8 @@ def running_cam_args(namebin):
         if not args:
             continue
         exe = basename(args[0]).lower()
-        if namebin in exe and not exe.endswith((".py", ".sh")) and "info" not in exe:
+        if namebin in exe and not exe.endswith(
+                (".py", ".sh")) and "info" not in exe:
             found.append(args)
     return found
 
@@ -80,7 +81,8 @@ def _arg_value(args, short, long_):
             return args[i + 1]
         if a.startswith(long_ + "="):
             return a.split("=", 1)[1]
-        if a.startswith(short) and len(a) > len(short) and not a.startswith("--"):
+        if a.startswith(short) and len(a) > len(
+                short) and not a.startswith("--"):
             return a[len(short):]
     return None
 
@@ -280,7 +282,13 @@ def fetch(settings, namebin, part=None, reader=None, fmt="html", extra=""):
         pwman = HTTPPasswordMgrWithDefaultRealm()
         base = "%s://%s:%s/" % (
             settings["proto"], settings["host"], settings["port"])
-        pwman.add_password(None, base, settings["user"], settings.get("pwd", ""))
+        pwman.add_password(
+            None,
+            base,
+            settings["user"],
+            settings.get(
+                "pwd",
+                ""))
         handlers.append(HTTPDigestAuthHandler(pwman))  # OSCam uses Digest
         handlers.append(HTTPBasicAuthHandler(pwman))
     opener = build_opener(*handlers)  # local opener, not installed globally
@@ -299,7 +307,8 @@ def fetch(settings, namebin, part=None, reader=None, fmt="html", extra=""):
             msg = "HTTP error %s" % e.code
         return False, "%s [%s]" % (msg, url)
     except URLError as e:
-        return False, "cannot connect: %s [%s]" % (getattr(e, "reason", e), url)
+        return False, "cannot connect: %s [%s]" % (
+            getattr(e, "reason", e), url)
     except socket.timeout:
         return False, "timeout after %ss [%s]" % (TIMEOUT, url)
     except Exception as e:

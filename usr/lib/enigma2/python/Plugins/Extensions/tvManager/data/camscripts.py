@@ -20,7 +20,8 @@ def osd_label(path):
             for line in f:
                 line = line.strip()
                 if line.startswith("OSD"):
-                    value = line.split("=", 1)[-1].strip().strip('"').strip("'")
+                    value = line.split("=",
+                                       1)[-1].strip().strip('"').strip("'")
                     return value or None
     except (IOError, OSError, UnicodeDecodeError):
         pass
