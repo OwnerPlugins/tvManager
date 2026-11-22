@@ -1,0 +1,690 @@
+Dirlister output for directory:
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\*.*
+Total files: 259 (5.5MB)
+
+http://www.hot.ee/dukelupus/
+
+
+
+=============================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\
+=============================================================================================
+auto (1.2KB)
+auto2 (1.4KB)
+keymap.xml (1.1KB)
+logo.png (10.1KB)
+plugin.py (87.5KB)
+translate_utils.py (18.5KB)
+update_translations.py (30.9KB)
+__init__.py (3.3KB)
+
+==================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\data\
+==================================================================================================
+CCcam.cfg (745.0B)
+CCcamInfo.py (85.0KB)
+CCcamOrganizer.py (7.6KB)
+CCcamPrioMaker.py (11.7KB)
+cfg.txt (543.0B)
+clist.list (4.0B)
+Console.py (8.7KB)
+datas.py (41.1KB)
+emm_sender.sh (4.2KB)
+GetEcmInfo.py (6.0KB)
+keymap.xml (1.1KB)
+MyCCcamCollector.py (15.5KB)
+ncam.server (23.6KB)
+NcamInfo.py (70.2KB)
+oscam.server (5.1KB)
+OScamInfo.py (70.8KB)
+update_oscam_codes.sh (22.6KB)
+Utils.py (61.6KB)
+__init__.py (1.3KB)
+
+====================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\
+====================================================================================================
+tvManager.pot (11.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\af\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (16.1KB)
+tvManager.po (17.4KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\am\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (21.2KB)
+tvManager.po (21.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ar\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (21.2KB)
+tvManager.po (21.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\az\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.8KB)
+tvManager.po (18.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\be\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (22.1KB)
+tvManager.po (22.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\bg\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (22.2KB)
+tvManager.po (23.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\bn\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (26.0KB)
+tvManager.po (26.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\bs\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (15.4KB)
+tvManager.po (17.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ca\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.6KB)
+tvManager.po (18.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\cs\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.2KB)
+tvManager.po (18.4KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\cy\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.0KB)
+tvManager.po (18.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\da\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (15.4KB)
+tvManager.po (17.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\de\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.2KB)
+tvManager.po (18.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\el\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (22.8KB)
+tvManager.po (23.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\en\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (16.9KB)
+tvManager.po (17.5KB)
+
+======================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\en_GB\LC_MESSAGES\
+======================================================================================================================
+tvManager.mo (470.0B)
+tvManager.po (12.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\eo\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (16.8KB)
+tvManager.po (17.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\es\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.4KB)
+tvManager.po (19.6KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\et\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (16.7KB)
+tvManager.po (17.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\eu\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.0KB)
+tvManager.po (18.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\fa\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (20.9KB)
+tvManager.po (21.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\fi\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.0KB)
+tvManager.po (18.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\fr\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.7KB)
+tvManager.po (19.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\fy\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (14.9KB)
+tvManager.po (17.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ga\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.1KB)
+tvManager.po (18.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\gd\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.3KB)
+tvManager.po (19.4KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\gl\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.7KB)
+tvManager.po (18.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\gu\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (24.6KB)
+tvManager.po (25.1KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\he\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (19.7KB)
+tvManager.po (21.0KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\hi\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (26.1KB)
+tvManager.po (27.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\hr\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.6KB)
+tvManager.po (18.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\hu\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.3KB)
+tvManager.po (18.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\hy\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (21.8KB)
+tvManager.po (22.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\id\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.5KB)
+tvManager.po (18.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\is\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (16.9KB)
+tvManager.po (18.1KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\it\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.1KB)
+tvManager.po (20.0KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ja\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (20.6KB)
+tvManager.po (21.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ka\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (27.1KB)
+tvManager.po (27.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\kk\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (22.0KB)
+tvManager.po (22.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\km\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (26.9KB)
+tvManager.po (27.5KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\kn\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (28.0KB)
+tvManager.po (28.5KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ko\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (19.1KB)
+tvManager.po (19.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ku\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (16.3KB)
+tvManager.po (18.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ky\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (21.0KB)
+tvManager.po (22.5KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\lt\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.2KB)
+tvManager.po (19.0KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\lv\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.1KB)
+tvManager.po (19.0KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\mk\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (23.2KB)
+tvManager.po (23.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ml\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (28.6KB)
+tvManager.po (29.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\mn\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (22.3KB)
+tvManager.po (23.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\mr\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (24.8KB)
+tvManager.po (25.4KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ms\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.0KB)
+tvManager.po (18.0KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\mt\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (16.0KB)
+tvManager.po (17.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\my\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (27.4KB)
+tvManager.po (28.4KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\nb\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (15.6KB)
+tvManager.po (17.4KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ne\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (26.4KB)
+tvManager.po (27.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\nl\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.0KB)
+tvManager.po (18.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\no\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (15.5KB)
+tvManager.po (17.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\oc\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.9KB)
+tvManager.po (18.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\or\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (26.7KB)
+tvManager.po (27.5KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\pa\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (25.0KB)
+tvManager.po (25.5KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\pl\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.0KB)
+tvManager.po (19.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ps\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (20.9KB)
+tvManager.po (21.6KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\pt\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.0KB)
+tvManager.po (19.0KB)
+
+======================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\pt_BR\LC_MESSAGES\
+======================================================================================================================
+tvManager.mo (17.9KB)
+tvManager.po (18.7KB)
+
+======================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\pt_PT\LC_MESSAGES\
+======================================================================================================================
+tvManager.mo (17.9KB)
+tvManager.po (18.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ro\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.0KB)
+tvManager.po (18.5KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ru\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (23.0KB)
+tvManager.po (23.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\si\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (25.8KB)
+tvManager.po (26.6KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\sk\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.3KB)
+tvManager.po (18.6KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\sl\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.2KB)
+tvManager.po (18.4KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\sq\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.6KB)
+tvManager.po (18.7KB)
+
+======================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\sq_AL\LC_MESSAGES\
+======================================================================================================================
+tvManager.mo (17.6KB)
+tvManager.po (18.6KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\sr\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (22.9KB)
+tvManager.po (23.5KB)
+
+========================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\sr_Latn\LC_MESSAGES\
+========================================================================================================================
+tvManager.mo (22.8KB)
+tvManager.po (23.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\sv\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (15.7KB)
+tvManager.po (17.5KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\sw\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.5KB)
+tvManager.po (18.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ta\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (28.1KB)
+tvManager.po (28.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\te\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (27.7KB)
+tvManager.po (28.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\tg\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (22.5KB)
+tvManager.po (23.5KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\th\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (25.9KB)
+tvManager.po (26.6KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\tk\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.8KB)
+tvManager.po (18.8KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\tl\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (16.0KB)
+tvManager.po (18.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\tr\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (18.5KB)
+tvManager.po (19.4KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\tt\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (21.3KB)
+tvManager.po (22.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ug\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (20.3KB)
+tvManager.po (22.2KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\uk\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (22.2KB)
+tvManager.po (23.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\ur\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (21.7KB)
+tvManager.po (22.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\uz\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.8KB)
+tvManager.po (18.9KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\vi\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (19.0KB)
+tvManager.po (20.1KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\yi\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (22.0KB)
+tvManager.po (22.7KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\zh\LC_MESSAGES\
+===================================================================================================================
+tvManager.mo (17.2KB)
+tvManager.po (17.8KB)
+
+======================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\zh_CN\LC_MESSAGES\
+======================================================================================================================
+tvManager.mo (17.2KB)
+tvManager.po (17.6KB)
+
+======================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\zh_HK\LC_MESSAGES\
+======================================================================================================================
+tvManager.mo (17.3KB)
+tvManager.po (17.6KB)
+
+======================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\zh_SG\LC_MESSAGES\
+======================================================================================================================
+tvManager.mo (17.2KB)
+tvManager.po (17.6KB)
+
+======================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\locale\zh_TW\LC_MESSAGES\
+======================================================================================================================
+tvManager.mo (17.3KB)
+tvManager.po (17.6KB)
+
+=====================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\res\img\
+=====================================================================================================
+actcam.png (2.5KB)
+defcam.png (4.1KB)
+
+======================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\res\pics\
+======================================================================================================
+logo.png (3.8KB)
+main1.png (259.0KB)
+main11.png (243.6KB)
+main2.png (255.7KB)
+main22.png (218.9KB)
+PayPal.png (17.2KB)
+plugin.png (2.1KB)
+plugins.png (1.4KB)
+qr-code.png (3.7KB)
+qr-codehd.png (5.1KB)
+sep.png (320.0B)
+sliderb.png (2.6KB)
+tvlogo.png (3.7KB)
+tvlogofhd.png (22.0KB)
+tvs.png (7.8KB)
+
+===========================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\res\skins\fhd\
+===========================================================================================================
+GetipkTv.xml (3.4KB)
+InfoCfg.xml (3.0KB)
+tvManager.xml (4.4KB)
+tv_config.xml (3.6KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\res\skins\fhd\dreamOs\
+===================================================================================================================
+GetipkTv.xml (3.4KB)
+InfoCfg.xml (3.2KB)
+tvManager.xml (4.3KB)
+tv_config.xml (3.6KB)
+
+==========================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\res\skins\hd\
+==========================================================================================================
+GetipkTv.xml (3.1KB)
+InfoCfg.xml (2.8KB)
+tvManager.xml (4.4KB)
+tv_config.xml (3.3KB)
+
+==================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\res\skins\hd\dreamOs\
+==================================================================================================================
+GetipkTv.xml (3.1KB)
+InfoCfg.xml (2.8KB)
+tvManager.xml (4.4KB)
+tv_config.xml (3.3KB)
+
+===========================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\res\skins\uhd\
+===========================================================================================================
+GetipkTv.xml (3.1KB)
+InfoCfg.xml (2.7KB)
+tvManager.xml (4.5KB)
+tv_config.xml (3.3KB)
+
+===================================================================================================================
+D:\PcBeatrice\Documents\GitHub\tvManager\usr\lib\enigma2\python\Plugins\Extensions\tvManager\res\skins\uhd\dreamOs\
+===================================================================================================================
+GetipkTv.xml (3.0KB)
+InfoCfg.xml (2.7KB)
+tvManager.xml (4.5KB)
+tv_config.xml (3.3KB)

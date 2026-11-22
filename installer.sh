@@ -1,8 +1,8 @@
 #!/bin/sh
 # tvManager installer - runs with busybox sh (the plugin starts it with /bin/sh)
 
-version='3.6'
-changelog='\nCams started by script file name (OSD name only shown)\nUpdate check when the plugin opens (once a day)\nNew ipk scripts: upgrade keeps the selected cam, no system changes\nNo python six dependency'
+version='3.7'
+changelog='\nFix: data/camscripts.py, camwebif.py, OScamStatus.py were missing (plugin did not open)\nInstaller stops if the download is incomplete (installed version kept)'
 
 TMPPATH=/tmp/tvManager-install
 FILEPATH=/tmp/tvManager-main.tar.gz
@@ -107,6 +107,20 @@ done
 if [ -z "$SRC" ]; then
     echo "Could not find plugin files in extracted archive"
     find "$TMPPATH" -type d | head -10
+    cleanup
+    exit 1
+fi
+
+# Never replace a working plugin with an incomplete archive
+MISSING=""
+for f in plugin.py __init__.py data/__init__.py data/camscripts.py data/camwebif.py \
+         data/OScamStatus.py data/OScamInfo.py data/NcamInfo.py data/CCcamInfo.py \
+         data/GetEcmInfo.py data/Console.py data/Utils.py data/datas.py; do
+    [ -f "$SRC/$f" ] || MISSING="$MISSING $f"
+done
+if [ -n "$MISSING" ]; then
+    echo "Downloaded archive is incomplete, missing:$MISSING"
+    echo "Installation aborted, the installed version was not changed."
     cleanup
     exit 1
 fi

@@ -84,7 +84,7 @@ from .data.camscripts import camscripts, resolve_cam_id, label_for
 #     Copyright (c) 2024-2026 Lululla. All rights reserved.                   #
 #     Skin Design by MMark. Licensed under GNU General Public License v3.0    #
 #                                                                             #
-#     Version: 3.6 Professional Edition      Build Date: 2026-11-21           #
+#     Version: 3.7 Professional Edition      Build Date: 2026-11-22           #
 #     Core Developer: Lululla                   Lead Designer: MMark          #
 #     Architecture: Multi-Platform Enigma2      Python: 2.7/3.x Compatible    #
 #                                                                             #

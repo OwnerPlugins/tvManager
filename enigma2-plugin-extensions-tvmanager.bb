@@ -9,8 +9,8 @@ require conf/license/license-gplv2.inc
 inherit gitpkgv allarch
 
 SRCREV = "${AUTOREV}"
-PV = "3.9+git${SRCPV}"
-PKGV = "3.9+git${GITPKGV}"
+PV = "3.7+git${SRCPV}"
+PKGV = "3.7+git${GITPKGV}"
 PR = "r0"
 
 SRC_URI = "git://github.com/Belfagor2005/tvManager.git;protocol=https;branch=main"

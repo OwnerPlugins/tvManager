@@ -1,6 +1,6 @@
 <h1 align="center">🚀 tvManager (Softcam Manager)</h1>
 
-[![Version](https://img.shields.io/badge/Version-3.6-blue.svg)](https://github.com/Belfagor2005/tvManager)
+[![Version](https://img.shields.io/badge/Version-3.7-blue.svg)](https://github.com/Belfagor2005/tvManager)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python-2.7%2B-blue.svg)](https://www.python.org)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -140,6 +140,13 @@ tvManager/
 ```
 
 ## 📝 Changelog
+
+### 3.7 (2026-11-22)
+**Fixes**
+- `data/camscripts.py`, `data/camwebif.py` and `data/OScamStatus.py` were missing from 3.6
+  (the plugin did not open and the cam was not started at boot)
+- `.gitignore`: `lib/` excluded every new file under `usr/lib/`, `*.mo` the new translations
+- `installer.sh` checks the downloaded archive and stops if a plugin file is missing (installed version kept)
 
 ### 3.6 (2026-11-21)
 **New**
