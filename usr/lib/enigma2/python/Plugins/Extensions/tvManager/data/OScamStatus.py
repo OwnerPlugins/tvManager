@@ -46,12 +46,7 @@ REFRESH_MS = 10000
 SCALE = getDesktop(0).size().width() / 1920.0
 
 # row background per client type (reader/proxy, client, server/http)
-BG = {
-    "p": 0xfcfce1,
-    "r": 0xfcfce1,
-    "c": 0xf1f6e6,
-    "s": 0xe2e0ef,
-    "h": 0xe2e0ef}
+BG = {"p": 0xfcfce1, "r": 0xfcfce1, "c": 0xf1f6e6, "s": 0xe2e0ef, "h": 0xe2e0ef}
 TYPE_ORDER = {"s": 0, "h": 1, "p": 2, "r": 3, "c": 4, "a": 5, "x": 6, "m": 7}
 STATUS_COLOR = {"OK": 0x1b7a12, "CONNECTED": 0x1b7a12, "CARDOK": 0x1b7a12,
                 "NEEDINIT": 0x9a7d00, "OFF": 0xc0261b, "ERROR": 0xc0261b,
@@ -130,29 +125,12 @@ def build_row(row):
     for idx, (x, w) in enumerate(COLUMNS):
         color = 0x000000
         if idx == 10:
-            color = STATUS_COLOR.get(
-                row.get(
-                    "status_key",
-                    "").upper(),
-                0x000000)
-        res.append(
-            MultiContentEntryText(
-                pos=(
-                    s(x),
-                    0),
-                size=(
-                    s(w),
-                    s(75)),
-                font=0 if idx not in (
-                    6,
-                    7,
-                    8) else 1,
-                flags=RT_HALIGN_CENTER | RT_VALIGN_CENTER | RT_WRAP,
-                text=values[idx],
-                color=color,
-                color_sel=color,
-                backcolor=bg,
-                backcolor_sel=0xb0c4de))
+            color = STATUS_COLOR.get(row.get("status_key", "").upper(), 0x000000)
+        res.append(MultiContentEntryText(
+            pos=(s(x), 0), size=(s(w), s(75)), font=0 if idx not in (6, 7, 8) else 1,
+            flags=RT_HALIGN_CENTER | RT_VALIGN_CENTER | RT_WRAP,
+            text=values[idx], color=color, color_sel=color,
+            backcolor=bg, backcolor_sel=0xb0c4de))
     return res
 
 
@@ -195,8 +173,7 @@ class CamApi(object):
             if err:
                 return False, err
         self.settings = settings
-        self.url = "%s://%s:%s" % (settings["proto"],
-                                   settings["host"], settings["port"])
+        self.url = "%s://%s:%s" % (settings["proto"], settings["host"], settings["port"])
         return camwebif.fetch(settings, self.namebin, part, reader, fmt, extra)
 
     # ---- status -------------------------------------------------------
@@ -217,8 +194,7 @@ class CamApi(object):
 
     def _parse_json(self, text):
         root = json.loads(text)
-        js = root.get(self.namebin) or root.get(
-            "oscam") or root.get("ncam") or {}
+        js = root.get(self.namebin) or root.get("oscam") or root.get("ncam") or {}
         sysinfo = js.get("sysinfo", {})
         info = {
             "version": js.get("version", "n/a"),
@@ -288,15 +264,10 @@ class CamApi(object):
     def _parse_xml(self, text):
         root = XML(text)
         info = {
-            "version": root.get(
-                "version",
-                "n/a"),
+            "version": root.get("version", "n/a"),
             "srvidfile": "",
-            "starttime": root.get(
-                "starttime",
-                ""),
-            "runtime": fmt_seconds(
-                root.get("uptime")) if root.get("uptime") else "",
+            "starttime": root.get("starttime", ""),
+            "runtime": fmt_seconds(root.get("uptime")) if root.get("uptime") else "",
             "mem": [],
         }
         rows = []
@@ -314,60 +285,21 @@ class CamApi(object):
             if ":" in channel:
                 channel = channel.split(":", 1)[1].strip()
             ecmtime = ra.get("ecmtime", "")
-            rows.append(
-                {
-                    "type": ctype,
-                    "user": "root" if ctype in (
-                        "s",
-                        "h") else c.get(
-                        "name",
-                        ""),
-                    "au": {
-                        "-1": "ON",
-                        "0": "OFF",
-                        "1": "ACTIVE"}.get(
-                        c.get(
-                            "au",
-                            ""),
-                        c.get(
-                            "au",
-                            "")),
-                    "ip": "" if ca.get("ip") == "0.0.0.0" else ca.get(
-                        "ip",
-                        ""),
-                    "port": ca.get(
-                        "port",
-                        ""),
-                    "protocol": "\n".join(
-                        c.get(
-                            "protocol",
-                            "").split(" ")),
-                    "srinfo": "%s:%s@%s" %
-                    (ra.get(
-                        "srvid",
-                        "n/a"),
-                     ra.get(
-                        "caid",
-                        "n/a"),
-                     ra.get(
-                        "provid",
-                        "n/a")),
-                    "channel": channel,
-                    "lb": "%s ms" %
-                    ecmtime if ecmtime not in (
-                        "",
-                        "0") else "",
-                    "times": "%s\n%s" %
-                    (fmt_login(
-                        ta.get("login")),
-                     fmt_seconds(
-                        ta.get("idle")) if ta.get("idle") else "n/a"),
-                    "status": st,
-                    "status_key": st,
-                    "has_entitlements": ctype in (
-                        "p",
-                        "r"),
-                })
+            rows.append({
+                "type": ctype,
+                "user": "root" if ctype in ("s", "h") else c.get("name", ""),
+                "au": {"-1": "ON", "0": "OFF", "1": "ACTIVE"}.get(c.get("au", ""), c.get("au", "")),
+                "ip": "" if ca.get("ip") == "0.0.0.0" else ca.get("ip", ""),
+                "port": ca.get("port", ""),
+                "protocol": "\n".join(c.get("protocol", "").split(" ")),
+                "srinfo": "%s:%s@%s" % (ra.get("srvid", "n/a"), ra.get("caid", "n/a"), ra.get("provid", "n/a")),
+                "channel": channel,
+                "lb": "%s ms" % ecmtime if ecmtime not in ("", "0") else "",
+                "times": "%s\n%s" % (fmt_login(ta.get("login")), fmt_seconds(ta.get("idle")) if ta.get("idle") else "n/a"),
+                "status": st,
+                "status_key": st,
+                "has_entitlements": ctype in ("p", "r"),
+            })
         rows.sort(key=lambda r: TYPE_ORDER.get(r["type"], 9))
         return info, rows
 
@@ -378,9 +310,7 @@ class CamApi(object):
             return False, data
         try:
             if "<![CDATA" not in data:
-                data = data.replace(
-                    "<log>", "<log><![CDATA[").replace(
-                    "</log>", "]]></log>")
+                data = data.replace("<log>", "<log><![CDATA[").replace("</log>", "]]></log>")
             node = XML(data).find("log")
             text = (node.text or "").strip() if node is not None else ""
             return True, text or _("<no log found>")
@@ -396,20 +326,10 @@ class CamApi(object):
                 root = json.loads(data)
                 js = root.get(self.namebin) or root.get("oscam") or {}
                 for e in js.get("entitlements", []):
-                    lines.append(
-                        "%-6s %-5s %-7s %-10s %s -> %s  %s" %
-                        (e.get(
-                            "type", ""), e.get(
-                            "caid", ""), e.get(
-                            "provid", ""), e.get(
-                            "class", ""), str(
-                            e.get(
-                                "startDate", ""))[
-                                :10], str(
-                                    e.get(
-                                        "expireDate", ""))[
-                                            :10], e.get(
-                                                "name", "")))
+                    lines.append("%-6s %-5s %-7s %-10s %s -> %s  %s" % (
+                        e.get("type", ""), e.get("caid", ""), e.get("provid", ""),
+                        e.get("class", ""), str(e.get("startDate", ""))[:10],
+                        str(e.get("expireDate", ""))[:10], e.get("name", "")))
             except Exception as e:
                 print("[OScamStatus] entitlements json: %s" % e)
         if not lines:  # CCcam/proxy readers: XML card list
@@ -421,24 +341,14 @@ class CamApi(object):
                 cl = rdr.find("cardlist") if rdr is not None else None
                 for card in (cl.findall("card") if cl is not None else []):
                     provs = card.find("providers")
-                    ptxt = ", ".join(
-                        "%s %s" %
-                        (p.get(
-                            "provid",
-                            ""),
-                            p.text or "") for p in (
-                            provs.findall("provider") if provs is not None else []))
-                    lines.append(
-                        "CAID %s  %s  hop %s  reshare %s  %s" %
-                        (card.get(
-                            "caid", ""), card.get(
-                            "system", ""), card.get(
-                            "hop", ""), card.get(
-                            "reshare", ""), ptxt))
+                    ptxt = ", ".join("%s %s" % (p.get("provid", ""), p.text or "")
+                                     for p in (provs.findall("provider") if provs is not None else []))
+                    lines.append("CAID %s  %s  hop %s  reshare %s  %s" % (
+                        card.get("caid", ""), card.get("system", ""), card.get("hop", ""),
+                        card.get("reshare", ""), ptxt))
             except Exception as e:
                 return False, "entitlement parse error: %s" % e
-        return True, "\n".join(lines) if lines else _(
-            "No entitlements for '%s'") % reader
+        return True, "\n".join(lines) if lines else _("No entitlements for '%s'") % reader
 
 
 class TextScreen(Screen):
@@ -543,129 +453,23 @@ class OSCamStatus(Screen):
     # ---- skin ---------------------------------------------------------
     def build_skin(self):
         W, LX, LY, LW, LH = s(1920), s(15), s(222), s(1890), s(600)
-        parts = [
-            '<screen position="0,0" size="%d,%d" backgroundColor="#10101010" flags="wfNoBorder">' %
-            (W, s(1080))]
+        parts = ['<screen position="0,0" size="%d,%d" backgroundColor="#10101010" flags="wfNoBorder">' % (W, s(1080))]
         lab = '<widget name="%s" position="%d,%d" size="%d,%d" font="Regular;%d" halign="%s" valign="center" foregroundColor="%s" backgroundColor="%s" transparent="%d"/>'
-        parts.append(
-            lab %
-            ("title",
-             s(15),
-                s(10),
-                s(1890),
-                s(58),
-                s(40),
-                "center",
-                "white",
-                "#10101010",
-                1))
-        parts.append(
-            '<widget source="global.CurrentTime" render="Label" position="%d,%d" size="%d,%d" font="Regular;%d" halign="right" valign="center" foregroundColor="white" backgroundColor="#10101010" transparent="1"><convert type="ClockToText">Format:%%H:%%M:%%S</convert></widget>' %
-            (s(1600),
-             s(10),
-                s(300),
-                s(58),
-                s(40)))
-        parts.append(
-            lab %
-            ("buildinfos",
-             s(15),
-                s(70),
-                s(1890),
-                s(38),
-                s(28),
-                "center",
-                "#0092CBDF",
-                "#10101010",
-                1))
-        parts.append(
-            lab %
-            ("extrainfos",
-             s(15),
-                s(108),
-                s(1890),
-                s(34),
-                s(26),
-                "center",
-                "#00FFD700",
-                "#10101010",
-                1))
-        parts.append(
-            lab %
-            ("timerinfos",
-             s(15),
-                s(142),
-                s(1890),
-                s(34),
-                s(26),
-                "center",
-                "white",
-                "#10101010",
-                1))
+        parts.append(lab % ("title", s(15), s(10), s(1890), s(58), s(40), "center", "white", "#10101010", 1))
+        parts.append('<widget source="global.CurrentTime" render="Label" position="%d,%d" size="%d,%d" font="Regular;%d" halign="right" valign="center" foregroundColor="white" backgroundColor="#10101010" transparent="1"><convert type="ClockToText">Format:%%H:%%M:%%S</convert></widget>' % (s(1600), s(10), s(300), s(58), s(40)))
+        parts.append(lab % ("buildinfos", s(15), s(70), s(1890), s(38), s(28), "center", "#0092CBDF", "#10101010", 1))
+        parts.append(lab % ("extrainfos", s(15), s(108), s(1890), s(34), s(26), "center", "#00FFD700", "#10101010", 1))
+        parts.append(lab % ("timerinfos", s(15), s(142), s(1890), s(34), s(26), "center", "white", "#10101010", 1))
         for i, (x, w) in enumerate(COLUMNS):
-            parts.append(
-                lab %
-                ("h%d" %
-                 i,
-                 LX +
-                 s(x),
-                    s(180),
-                    s(w),
-                    s(40),
-                    s(22),
-                    "center",
-                    "white",
-                    "#105a5a5a",
-                    0))
-        parts.append(
-            '<widget name="list" position="%d,%d" size="%d,%d" backgroundColor="#10b3b3b3" scrollbarMode="showOnDemand" enableWrapAround="1"/>' %
-            (LX, LY, LW, LH))
-        parts.append(
-            '<widget name="logtext" position="%d,%d" size="%d,%d" font="Regular;%d" foregroundColor="black" backgroundColor="#10ECEAF6"/>' %
-            (LX, s(826), LW, s(140), s(22)))
-        parts.append(
-            lab %
-            ("mem",
-             LX,
-             s(970),
-                LW,
-                s(40),
-                s(26),
-                "center",
-                "white",
-                "#105a5a5a",
-                0))
+            parts.append(lab % ("h%d" % i, LX + s(x), s(180), s(w), s(40), s(22), "center", "white", "#105a5a5a", 0))
+        parts.append('<widget name="list" position="%d,%d" size="%d,%d" backgroundColor="#10b3b3b3" scrollbarMode="showOnDemand" enableWrapAround="1"/>' % (LX, LY, LW, LH))
+        parts.append('<widget name="logtext" position="%d,%d" size="%d,%d" font="Regular;%d" foregroundColor="black" backgroundColor="#10ECEAF6"/>' % (LX, s(826), LW, s(140), s(22)))
+        parts.append(lab % ("mem", LX, s(970), LW, s(40), s(26), "center", "white", "#105a5a5a", 0))
         for i, color in enumerate(("red", "green", "yellow", "blue")):
             x = s(20 + i * 300)
-            parts.append(
-                '<eLabel position="%d,%d" size="%d,%d" backgroundColor="%s"/>' %
-                (x, s(1020), s(8), s(45), color))
-            parts.append(
-                lab %
-                ("key_%s" %
-                 color,
-                 x +
-                 s(18),
-                    s(1020),
-                    s(270),
-                    s(45),
-                    s(28),
-                    "left",
-                    "grey",
-                    "#10101010",
-                    1))
-        parts.append(
-            lab %
-            ("key_info",
-             s(1230),
-                s(1020),
-                s(675),
-                s(45),
-                s(26),
-                "right",
-                "grey",
-                "#10101010",
-                1))
+            parts.append('<eLabel position="%d,%d" size="%d,%d" backgroundColor="%s"/>' % (x, s(1020), s(8), s(45), color))
+            parts.append(lab % ("key_%s" % color, x + s(18), s(1020), s(270), s(45), s(28), "left", "grey", "#10101010", 1))
+        parts.append(lab % ("key_info", s(1230), s(1020), s(675), s(45), s(26), "right", "grey", "#10101010", 1))
         parts.append("</screen>")
         return "\n".join(parts)
 
@@ -690,21 +494,15 @@ class OSCamStatus(Screen):
         if ok:
             info, rows = payload
             self.rows = rows
-            self["buildinfos"].setText(
-                "%s: %s | %s | Host: %s" %
-                (self.CAMNAME,
-                 info["version"],
-                    "srvidfile: %s" %
-                    info["srvidfile"] if info["srvidfile"] else "",
-                    self.api.url))
+            self["buildinfos"].setText("%s: %s | %s | Host: %s" % (
+                self.CAMNAME, info["version"],
+                "srvidfile: %s" % info["srvidfile"] if info["srvidfile"] else "",
+                self.api.url))
             self["extrainfos"].setText("")
             self["timerinfos"].setText("Start: %s | Run Time: %s" % (
                 fmt_login(info["starttime"]) if info["starttime"] else "n/a",
                 info["runtime"] or "n/a"))
-            self["mem"].setText(
-                "   |   ".join(
-                    "%s: %s" %
-                    (k, v) for k, v in info["mem"] if v))
+            self["mem"].setText("   |   ".join("%s: %s" % (k, v) for k, v in info["mem"] if v))
             idx = self["list"].getSelectedIndex() if self.rows else 0
             self["list"].setList([build_row(r) for r in rows])
             if rows:
@@ -733,9 +531,7 @@ class OSCamStatus(Screen):
             self["key_green"].setText(_("Restart %s") % self.CAMNAME)
         else:
             self["key_red"].setText("")
-            self["key_green"].setText(
-                _("Start %s") %
-                self.CAMNAME if cam else "")
+            self["key_green"].setText(_("Start %s") % self.CAMNAME if cam else "")
 
     # ---- keys ---------------------------------------------------------
     def selected_row(self):
@@ -753,12 +549,7 @@ class OSCamStatus(Screen):
                           lambda: self.api.entitlements(reader))
 
     def key_log(self):
-        self.session.open(
-            TextScreen,
-            "%s Log" %
-            self.CAMNAME,
-            self.api.log,
-            refresh=True)
+        self.session.open(TextScreen, "%s Log" % self.CAMNAME, self.api.log, refresh=True)
 
     def key_capabilities(self):
         path = camwebif._version_file(self.NAMEBIN)
@@ -775,11 +566,8 @@ class OSCamStatus(Screen):
         cam = current_cam()
         script = "/usr/camscript/%s.sh" % cam if cam else None
         if not script or not exists(script):
-            self.session.open(
-                MessageBox,
-                _("No tvManager camscript for the current cam."),
-                MessageBox.TYPE_ERROR,
-                timeout=5)
+            self.session.open(MessageBox, _("No tvManager camscript for the current cam."),
+                              MessageBox.TYPE_ERROR, timeout=5)
             return
         self["extrainfos"].setText(_("Please wait..."))
         self.timer.stop()
@@ -795,24 +583,16 @@ class OSCamStatus(Screen):
     def key_start(self):
         if self.running:
             self.session.openWithCallback(
-                lambda yes: yes and self.camscript("cam_res"),
-                MessageBox,
-                _("Restart %s?") %
-                self.CAMNAME,
-                MessageBox.TYPE_YESNO,
-                default=False)
+                lambda yes: yes and self.camscript("cam_res"), MessageBox,
+                _("Restart %s?") % self.CAMNAME, MessageBox.TYPE_YESNO, default=False)
         elif current_cam():
             self.camscript("cam_up")
 
     def key_stop(self):
         if self.running:
             self.session.openWithCallback(
-                lambda yes: yes and self.camscript("cam_down"),
-                MessageBox,
-                _("Stop %s?") %
-                self.CAMNAME,
-                MessageBox.TYPE_YESNO,
-                default=False)
+                lambda yes: yes and self.camscript("cam_down"), MessageBox,
+                _("Stop %s?") % self.CAMNAME, MessageBox.TYPE_YESNO, default=False)
 
     def key_menu(self):
         choices = [
@@ -820,9 +600,8 @@ class OSCamStatus(Screen):
             (_("Reader statistics"), "stats"),
             (_("Setup (manual IP / user)"), "setup"),
         ]
-        self.session.openWithCallback(
-            self.menu_done, ChoiceBox, title="%s Info" %
-            self.CAMNAME, list=choices)
+        self.session.openWithCallback(self.menu_done, ChoiceBox,
+                                      title="%s Info" % self.CAMNAME, list=choices)
 
     def menu_done(self, choice):
         if not choice:
@@ -838,21 +617,14 @@ class OSCamStatus(Screen):
                 if exists("/tmp/ecm.info"):
                     self.session.open(mod.oscECMInfo)
                 else:
-                    self.session.open(
-                        MessageBox,
-                        _("No ECM info is currently available."),
-                        MessageBox.TYPE_INFO,
-                        timeout=5)
+                    self.session.open(MessageBox, _("No ECM info is currently available."),
+                                      MessageBox.TYPE_INFO, timeout=5)
             elif choice[1] == "stats":
                 self.session.open(mod.oscReaderStats, "all")
             elif choice[1] == "setup":
                 self.session.open(setup)
         except Exception as e:
-            self.session.open(
-                MessageBox,
-                str(e),
-                MessageBox.TYPE_ERROR,
-                timeout=8)
+            self.session.open(MessageBox, str(e), MessageBox.TYPE_ERROR, timeout=8)
 
     def cleanup(self):
         self.closed = True
