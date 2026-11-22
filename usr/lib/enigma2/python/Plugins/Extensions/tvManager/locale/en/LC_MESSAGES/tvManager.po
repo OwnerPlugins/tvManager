@@ -37,6 +37,12 @@ msgstr "(Not running)"
 msgid "(Show only reader) (%s)"
 msgstr "(Show only reader) (%s)"
 
+msgid "<no capabilities found>"
+msgstr ""
+
+msgid "<no log found>"
+msgstr ""
+
 msgid "About"
 msgstr "About"
 
@@ -166,6 +172,9 @@ msgstr "Cam Download"
 msgid "Cancel"
 msgstr "Cancel"
 
+msgid "Capabilities"
+msgstr ""
+
 msgid "Card info (CCcam-Reader)"
 msgstr "Card info (CCcam-Reader)"
 
@@ -212,6 +221,10 @@ msgid "Connected clients"
 msgstr "Connected clients"
 
 msgid "Connected:"
+msgstr "Connected:"
+
+#, fuzzy
+msgid "Connecting..."
 msgstr "Connected:"
 
 msgid "Content"
@@ -262,6 +275,10 @@ msgstr "Do you want to restart Gui Interface?"
 msgid "ECM file empty"
 msgstr "ECM file empty"
 
+#, fuzzy
+msgid "ECM info"
+msgstr "info"
+
 msgid "ECM read error"
 msgstr "ECM read error"
 
@@ -290,6 +307,10 @@ msgid "Emm Info"
 msgstr "Emm Info"
 
 msgid "Entitlements"
+msgstr "Entitlements"
+
+#, fuzzy
+msgid "Entitlements for '%s'"
 msgstr "Entitlements"
 
 msgid "Error"
@@ -345,6 +366,9 @@ msgstr "Free memory:"
 
 msgid "Free:"
 msgstr "Free:"
+
+msgid "GREEN: start %s"
+msgstr ""
 
 msgid "General"
 msgstr "General"
@@ -454,6 +478,10 @@ msgstr "No ECM (clear channel or cam not decoding)"
 msgid "No ECM data"
 msgstr "No ECM data"
 
+#, fuzzy
+msgid "No ECM info is currently available."
+msgstr "No ECM info is currently available. This is only available while decrypting."
+
 msgid "No ECM info is currently available. This is only available while decrypting."
 msgstr "No ECM info is currently available. This is only available while decrypting."
 
@@ -469,8 +497,15 @@ msgstr "No card inserted!"
 msgid "No default file for %s"
 msgstr "No default file for %s"
 
+#, fuzzy
+msgid "No entitlements for '%s'"
+msgstr "No default file for %s"
+
 msgid "No softcams available!"
 msgstr "No softcams available!"
+
+msgid "No tvManager camscript for the current cam."
+msgstr ""
 
 msgid "No valid backups found!"
 msgstr "No valid backups found!"
@@ -486,6 +521,9 @@ msgstr "Nothing to show"
 
 msgid "OK"
 msgstr "OK"
+
+msgid "OK: Entitlements   MENU: more"
+msgstr ""
 
 msgid "Oscam not running - start Cam to obtain information."
 msgstr "Oscam not running - start Cam to obtain information."
@@ -510,6 +548,10 @@ msgstr "Please select ..."
 
 msgid "Please select a line to edit or select add to create new line."
 msgstr "Please select a line to edit or select add to create new line."
+
+#, fuzzy
+msgid "Please wait..."
+msgstr "Please select ..."
 
 msgid "Port"
 msgstr "Port"
@@ -548,6 +590,10 @@ msgid "Reader"
 msgstr "Reader"
 
 msgid "Reader Statistics"
+msgstr "Reader Statistics"
+
+#, fuzzy
+msgid "Reader statistics"
 msgstr "Reader Statistics"
 
 msgid "Reader/User"
@@ -591,6 +637,14 @@ msgstr "Resources"
 
 msgid "Restart"
 msgstr "Restart"
+
+#, fuzzy
+msgid "Restart %s"
+msgstr "Restart"
+
+#, fuzzy
+msgid "Restart %s?"
+msgstr "Restart GUI?"
 
 msgid "Restart GUI?"
 msgstr "Restart GUI?"
@@ -685,6 +739,9 @@ msgstr "Set as UNIQUE PEER"
 msgid "Setup"
 msgstr "Setup"
 
+msgid "Setup (manual IP / user)"
+msgstr ""
+
 msgid "Share View"
 msgstr "Share View"
 
@@ -712,10 +769,22 @@ msgstr "Softcam restarted with new configuration!"
 msgid "Start"
 msgstr "Start"
 
+#, fuzzy
+msgid "Start %s"
+msgstr "Start"
+
 msgid "Status"
 msgstr "Status"
 
 msgid "Stop"
+msgstr "Stop"
+
+#, fuzzy
+msgid "Stop %s"
+msgstr "Stop"
+
+#, fuzzy
+msgid "Stop %s?"
 msgstr "Stop"
 
 msgid "Stop Finding Fakes"
@@ -824,7 +893,7 @@ msgid "You have the latest version!"
 msgstr "You have the latest version!"
 
 #, fuzzy
-msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "Provider:"
 
 msgid "address:"
@@ -835,6 +904,9 @@ msgstr "and"
 
 msgid "caid:"
 msgstr "caid:"
+
+msgid "camscript exit code %s"
+msgstr ""
 
 msgid "card"
 msgstr "card"
@@ -928,6 +1000,10 @@ msgstr "using:"
 
 msgid "xLine"
 msgstr "xLine"
+
+#, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Provider:"
 
 #, fuzzy
 #~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"

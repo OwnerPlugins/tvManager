@@ -39,6 +39,12 @@ msgstr "(Läuft nicht)"
 msgid "(Show only reader) (%s)"
 msgstr "(Alle Leser)"
 
+msgid "<no capabilities found>"
+msgstr "<keine Funktionen gefunden>"
+
+msgid "<no log found>"
+msgstr "<kein Protokoll gefunden>"
+
 msgid "About"
 msgstr "Um"
 
@@ -168,6 +174,9 @@ msgstr "Cam-Download"
 msgid "Cancel"
 msgstr "Stornieren"
 
+msgid "Capabilities"
+msgstr "Fähigkeiten"
+
 msgid "Card info (CCcam-Reader)"
 msgstr "Karteninfo (CCcam-Reader)"
 
@@ -215,6 +224,9 @@ msgstr "Verbundene Kunden"
 
 msgid "Connected:"
 msgstr "Verbunden:"
+
+msgid "Connecting..."
+msgstr "Verbinden..."
 
 msgid "Content"
 msgstr "Inhalt"
@@ -264,6 +276,9 @@ msgstr "Möchten Sie Gui Interface neu starten?"
 msgid "ECM file empty"
 msgstr "ECM-Datei leer"
 
+msgid "ECM info"
+msgstr "ECM-Informationen"
+
 msgid "ECM read error"
 msgstr "ECM-Lesefehler"
 
@@ -293,6 +308,9 @@ msgstr "Ähm Info"
 
 msgid "Entitlements"
 msgstr "Ansprüche"
+
+msgid "Entitlements for '%s'"
+msgstr "Berechtigungen für „%s“"
 
 msgid "Error"
 msgstr "Fehler"
@@ -349,6 +367,9 @@ msgstr "Freier Speicher:"
 
 msgid "Free:"
 msgstr "Frei:"
+
+msgid "GREEN: start %s"
+msgstr "GRÜN: %s starten"
 
 msgid "General"
 msgstr "Allgemein"
@@ -448,7 +469,7 @@ msgstr "Neues Profil:"
 
 #, fuzzy
 msgid "New version %s available - press INFO to update"
-msgstr "Neue Version %s ist verfügbar\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\nÄnderungsprotokoll: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\nDrücken Sie die gelbe Taste, um zu aktualisieren."
+msgstr "Neue Version %s ist verfügbar\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\nÄnderungsprotokoll: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\nDrücken Sie die gelbe Taste, um zu aktualisieren."
 
 msgid "NewCamd"
 msgstr "NewCamd"
@@ -458,6 +479,9 @@ msgstr "Kein ECM (Kanal löschen oder Kamera dekodiert nicht)"
 
 msgid "No ECM data"
 msgstr "Keine ECM-Daten"
+
+msgid "No ECM info is currently available."
+msgstr "Derzeit sind keine ECM-Informationen verfügbar."
 
 msgid "No ECM info is currently available. This is only available while decrypting."
 msgstr "Derzeit sind keine ECM-Informationen verfügbar. Dies ist nur beim Entschlüsseln verfügbar."
@@ -474,8 +498,14 @@ msgstr "Keine Karte eingelegt!"
 msgid "No default file for %s"
 msgstr "Keine Standarddatei für %s"
 
+msgid "No entitlements for '%s'"
+msgstr "Keine Berechtigungen für „%s“"
+
 msgid "No softcams available!"
 msgstr "Keine Softcams verfügbar!"
+
+msgid "No tvManager camscript for the current cam."
+msgstr "Kein tvManager-Camscript für die aktuelle Cam."
 
 msgid "No valid backups found!"
 msgstr "Keine gültigen Backups gefunden!"
@@ -491,6 +521,9 @@ msgstr "Nichts zu zeigen"
 
 msgid "OK"
 msgstr "OK"
+
+msgid "OK: Entitlements   MENU: more"
+msgstr "OK: Berechtigungen MENÜ: mehr"
 
 msgid "Oscam not running - start Cam to obtain information."
 msgstr "Oscam läuft nicht – starten Sie Cam, um Informationen zu erhalten."
@@ -515,6 +548,9 @@ msgstr "Bitte wählen Sie ..."
 
 msgid "Please select a line to edit or select add to create new line."
 msgstr "Bitte wählen Sie eine Zeile zum Bearbeiten aus oder wählen Sie „Hinzufügen“, um eine neue Zeile zu erstellen."
+
+msgid "Please wait..."
+msgstr "Bitte warten..."
 
 msgid "Port"
 msgstr "Hafen"
@@ -554,6 +590,9 @@ msgstr "Leser"
 
 msgid "Reader Statistics"
 msgstr "Leserstatistik"
+
+msgid "Reader statistics"
+msgstr "Leserstatistiken"
 
 msgid "Reader/User"
 msgstr "Leser/Benutzer"
@@ -596,6 +635,12 @@ msgstr "Ressourcen"
 
 msgid "Restart"
 msgstr "Neustart"
+
+msgid "Restart %s"
+msgstr "Starten Sie %s neu"
+
+msgid "Restart %s?"
+msgstr "%s neu starten?"
 
 msgid "Restart GUI?"
 msgstr "GUI neu starten?"
@@ -690,6 +735,9 @@ msgstr "Als EINZIGARTIGER PEER festlegen"
 msgid "Setup"
 msgstr "Aufstellen"
 
+msgid "Setup (manual IP / user)"
+msgstr "Setup (manuelle IP/Benutzer)"
+
 msgid "Share View"
 msgstr "Ansicht teilen"
 
@@ -717,11 +765,20 @@ msgstr "Softcam mit neuer Konfiguration neu gestartet!"
 msgid "Start"
 msgstr "Start"
 
+msgid "Start %s"
+msgstr "Starten Sie %s"
+
 msgid "Status"
 msgstr "Status"
 
 msgid "Stop"
 msgstr "Stoppen"
+
+msgid "Stop %s"
+msgstr "Stoppen Sie %s"
+
+msgid "Stop %s?"
+msgstr "%s stoppen?"
 
 msgid "Stop Finding Fakes"
 msgstr "Hören Sie auf, Fälschungen zu finden"
@@ -829,7 +886,7 @@ msgid "You have the latest version!"
 msgstr "Sie haben die neueste Version!"
 
 #, fuzzy
-msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+msgid "\\\\\\\\tProvid:"
 msgstr "Anbieter:"
 
 msgid "address:"
@@ -840,6 +897,9 @@ msgstr "Und"
 
 msgid "caid:"
 msgstr "caid:"
+
+msgid "camscript exit code %s"
+msgstr "Camscript-Exit-Code %s"
 
 msgid "card"
 msgstr "Karte"
@@ -935,6 +995,10 @@ msgid "xLine"
 msgstr "xLine"
 
 #, fuzzy
+#~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
+#~ msgstr "Anbieter:"
+
+#, fuzzy
 #~ msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\tProvid:"
 #~ msgstr "Anbieter:"
 
@@ -956,26 +1020,14 @@ msgstr "xLine"
 #~ msgid "%s\\n\\n%s\\n%s\\n\\nPrio entry\\n%s"
 #~ msgstr "%s\\n\\n%s\\n%s\\n\\nPrio-Eintrag\\n%s"
 
-#~ msgid "<no capabilities found>"
-#~ msgstr "<keine Funktionen gefunden>"
-
-#~ msgid "<no log found>"
-#~ msgstr "<kein Protokoll gefunden>"
-
 #~ msgid "Autocam assigned to the current channel"
 #~ msgstr "Dem aktuellen Kanal zugewiesene Autocam"
 
 #~ msgid "Backup restored successfully!\\nRestored files:\\n- %s"
 #~ msgstr "Sicherung erfolgreich wiederhergestellt!\\nWiederhergestellte Dateien:\\n- %s"
 
-#~ msgid "camscript exit code %s"
-#~ msgstr "Camscript-Exit-Code %s"
-
 #~ msgid "Cannot reach the %s webif:\\n%s\\n\\nYou can enter IP/port/user manually in Setup."
 #~ msgstr "Das %s-Web kann nicht erreicht werden.if:\\n%s\\n\\nSie können IP/Port/Benutzer manuell im Setup eingeben."
-
-#~ msgid "Capabilities"
-#~ msgstr "Fähigkeiten"
 
 #~ msgid "CCcam - Lines"
 #~ msgstr "CCcam - Linien"
@@ -983,20 +1035,8 @@ msgstr "xLine"
 #~ msgid "CCcam Info %s\\nby AliAbdul %s\\n\\nrecoded from Lululla\\n\\nThis screen shows you the status of CCcam."
 #~ msgstr "CCcam-Info %s\\nvon AliAbdul %s\\n\\nrekodiert von Lululla\\n\\nDieser Bildschirm zeigt Ihnen den Status von CCcam."
 
-#~ msgid "Connecting..."
-#~ msgstr "Verbinden..."
-
-#~ msgid "ECM info"
-#~ msgstr "ECM-Informationen"
-
-#~ msgid "Entitlements for '%s'"
-#~ msgstr "Berechtigungen für „%s“"
-
 #~ msgid "Error:\\n%s"
 #~ msgstr "Fehler:\\n%s"
-
-#~ msgid "GREEN: start %s"
-#~ msgstr "GRÜN: %s starten"
 
 #~ msgid "Installing %s\\nPlease Wait..."
 #~ msgstr "%s\\n wird installiert. Bitte warten..."
@@ -1010,21 +1050,6 @@ msgstr "xLine"
 #~ msgid "New version %s is available.\\n\\nChangelog: %s \\n\\nInstall now?"
 #~ msgstr "Neue Version %s ist verfügbar.\\n\\nÄnderungsprotokoll: %s \\n\\nJetzt installieren?"
 
-#~ msgid "No ECM info is currently available."
-#~ msgstr "Derzeit sind keine ECM-Informationen verfügbar."
-
-#~ msgid "No entitlements for '%s'"
-#~ msgstr "Keine Berechtigungen für „%s“"
-
-#~ msgid "No tvManager camscript for the current cam."
-#~ msgstr "Kein tvManager-Camscript für die aktuelle Cam."
-
-#~ msgid "OK: Entitlements   MENU: more"
-#~ msgstr "OK: Berechtigungen MENÜ: mehr"
-
-#~ msgid "Please wait..."
-#~ msgstr "Bitte warten..."
-
 #~ msgid "Please wait..\\nRESTART CAM"
 #~ msgstr "Bitte warten..\\nKAMERA NEU STARTEN"
 
@@ -1037,35 +1062,14 @@ msgstr "xLine"
 #~ msgid "Please wait..\\nSTOP CAM"
 #~ msgstr "Bitte warten..\\nSTOP CAM"
 
-#~ msgid "Reader statistics"
-#~ msgstr "Leserstatistiken"
-
-#~ msgid "Restart %s"
-#~ msgstr "Starten Sie %s neu"
-
-#~ msgid "Restart %s?"
-#~ msgstr "%s neu starten?"
-
 #~ msgid "Restore backup '%s'?\\nThis will overwrite current configurations."
 #~ msgstr "Sicherung „%s“ wiederherstellen?\\nDadurch werden die aktuellen Konfigurationen überschrieben."
 
 #~ msgid "Send the Tivusat EMM to your card through OSCam?\\n(OSCam with webif must be running)"
 #~ msgstr "Senden Sie das Tivusat EMM über OSCam an Ihre Karte?\\n(OSCam mit Webif muss ausgeführt werden)"
 
-#~ msgid "Setup (manual IP / user)"
-#~ msgstr "Setup (manuelle IP/Benutzer)"
-
 #~ msgid "Softcam Manager by Lululla\\nV.%s\\nInstall Cam Software\\nForum Support www.corvoboys.org\\n"
 #~ msgstr "Softcam Manager von Lululla\\nV.%s\\nCam-Software installieren\\nForum-Unterstützung www.corvoboys.org\\n"
-
-#~ msgid "Start %s"
-#~ msgstr "Starten Sie %s"
-
-#~ msgid "Stop %s"
-#~ msgstr "Stoppen Sie %s"
-
-#~ msgid "Stop %s?"
-#~ msgstr "%s stoppen?"
 
 #~ msgid "Unknown package type:\\n%s"
 #~ msgstr "Unbekannter Pakettyp:\\n%s"
