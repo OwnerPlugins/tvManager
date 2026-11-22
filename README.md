@@ -5,7 +5,6 @@
 [![Python](https://img.shields.io/badge/Python-2.7%2B-blue.svg)](https://www.python.org)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python package](https://github.com/Belfagor2005/tvManager/actions/workflows/pylint.yml/badge.svg)](https://github.com/Belfagor2005/tvManager/actions/workflows/pylint.yml)
-[![Ruff Status](https://github.com/Belfagor2005/tvManager/actions/workflows/ruff.yml/badge.svg)](https://github.com/Belfagor2005/tvManager/actions/workflows/ruff.yml)
 
 [![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet)](https://github.com/Belfagor2005)
 [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
