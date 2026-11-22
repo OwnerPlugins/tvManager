@@ -8,7 +8,7 @@ from os.path import dirname, join
 import os
 import sys
 
-__version__ = "3.6"
+__version__ = "3.7"
 NAME_PLUG = "Softcam Manager"
 TITLE_PLUG = "..:: " + NAME_PLUG + " V. %s ::.." % __version__
 PLUGIN_PATH = dirname(sys.modules[__name__].__file__)
